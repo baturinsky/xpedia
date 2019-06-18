@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esNext",
+    "target": "es5",
+    "moduleResolution": "node"
+  }
+}

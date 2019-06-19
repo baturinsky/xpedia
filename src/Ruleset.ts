@@ -46,7 +46,7 @@ export class PediaArticle {
 
   constructor(raw: any) {
     this.id = raw.id;
-    this.title = rul.lang[raw.title || raw.id];
+    this.title = raw.title || rul.lang[raw.title || raw.id];
     this.text = rul.lang[raw.text] || rul.lang[raw.id + "_UFOPEDIA"];
     this.image_id = raw.image_id;
     this.type_id = raw.type_id;
@@ -95,6 +95,8 @@ export class Sprite {
 export class Armor{
   type: string;
   sprite: string;
+  dollSprites: {[key:string]:string[]} = {};
+  armor:string
   [key: string]: any;
 
   constructor(raw: any) {
@@ -102,8 +104,41 @@ export class Armor{
     if (old) Object.assign(this, old);
     Object.assign(this, raw);
     rul.armors[raw.type] = this;
-  }
 
+    if(this.layersDefinition){
+      let prefix = this.layersDefaultPrefix    
+      for(let body in this.layersDefinition){
+        let layersDef = this.layersDefinition[body]
+        let layers = []
+        for (let layer in layersDef){
+          let name = layersDef[layer]
+          if(name && name.length){
+            let id = prefix + "__" + layer + "__" + name
+            layers.push(rul.sprite(id))
+          }
+        }
+        this.dollSprites[body] = layers
+      }
+    }
+
+    if(this.spriteInv){
+      let name:string = this.spriteInv
+      let l = name.length      
+      for(let s in rul.spritesById){
+        if(s.substr(0,l) == name){
+          this.dollSprites[s.substr(l, s.length - l - 4)] = [rul.path + rul.spritesById[s].path]
+        }
+      }
+    }
+    
+    this.armor = "Front: " + this.frontArmor + ", Side: " + this.sideArmor + ", Rear: " + this.rearArmor + ", Under: " + this.underArmor
+
+    //WTF
+    /*delete this.frontArmor
+    delete this.sideArmor
+    delete this.rearArmor*/
+
+  }  
 }
 
 export class Item{
@@ -134,7 +169,7 @@ export class Item{
   }
 
   damageTypeName() {
-    return rul.lang[rul.damageTypes[this.damageType]];
+    return rul.damageTypeName(this.damageType);
   }
 }
 
@@ -176,6 +211,24 @@ export default class Ruleset {
     "STR_DAMAGE_16",
     "STR_DAMAGE_17"
   ];
+  battleTypes = [
+    "None (Geoscape-only item)",
+    "Firearm",
+    "Ammo",
+    "Melee",
+    "Grenade",
+    "Proximity Grenade",
+    "Medi-Kit",
+    "Motion Scanner",
+    "Mind Probe",
+    "Psi-Amp",
+    "Electro-flare",
+    "Corpse"
+  ]
+
+  damageTypeName(type:number){
+    return this.lang[this.damageTypes[type]];
+  }
 
   sound(id: number) {
     return this.path + this.sounds[id];
@@ -248,7 +301,6 @@ export default class Ruleset {
 
     this.search = new Search();
 
-    console.log(this.armors);
   }
 
   parsePedia(data: any) {
@@ -281,19 +333,48 @@ export default class Ruleset {
   }
 
   decamelize(str){
-    str = str.replace(/(.)([A-Z])/g, "$1 $2")
-    str = str.substr(0,1).toUpperCase() + str.substr(1)
+    if(typeof str === "string"){
+      str = str.replace(/(.)([A-Z])/g, "$1 $2")
+      str = str.substr(0,1).toUpperCase() + str.substr(1)
+    }
     return str
   }
 
   sprite(id:string){
     if(id in this.spritesById)
-      return this.spritesById[id].path
+      return this.path + this.spritesById[id].path
+    
     return this.path + id
   }
 
   constructor(data: any) {
     rul = this;
     this.parse(data);
+  }
+
+  article(id:string){
+    let article = this.articlesById[id];
+    if(article)
+      return article;
+
+    let item = this.items[id]
+    
+    if(item){
+      let article = new PediaArticle({
+        id,
+        type_id:4,
+        title:this.str(id)
+      })
+      this.articlesById[id] = article
+      return article
+    }
+  }
+
+  bodiesCompare(strs:string[]){
+    for(let i in strs){
+      if(strs[i].length==2)
+        strs[i] = strs[i].charAt(0) + 0 + strs[i].substr(1)
+    }
+    return strs[0] > strs[1]? 1: -1
   }
 }

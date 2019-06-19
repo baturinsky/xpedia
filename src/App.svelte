@@ -25,7 +25,8 @@
       } else {
         found = null;
         let id = hash.substr(1);
-        if (!article || article.id != id) article = rul.articlesById[id];
+        if (!article || article.id != id)
+          article = rul.article(id)
       }
     }
     console.log(article)
@@ -50,7 +51,6 @@
 
   function searchKeyUp(e) {
     if (e.key == "Enter") {
-      console.log(e.target.value);
       goTo("search:" + e.target.value);
     }
   }

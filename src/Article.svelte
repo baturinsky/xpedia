@@ -5,6 +5,7 @@
   import Armor from './Armor.svelte';
 
   export let article
+
 </script>
 
 <h1 class="title">{article.title}</h1>
@@ -17,8 +18,8 @@
 
 <br/>
 
-{#if article.type_id == 4}
+{#if article.type_id == 4 && rul.items[article.id]}
   <Item item={rul.items[article.id]}/>
-{:else if article.type_id == 5}
+{:else if article.type_id == 5 && rul.armors[article.id]}
   <Armor armor={rul.armors[article.id]}/>
 {/if}

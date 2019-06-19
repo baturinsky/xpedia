@@ -19,3 +19,8 @@ a:visited {
 	color: lightseagreen;
 }
 
+.main-table tr:nth-child(odd){
+  background: #281C34;
+}
+
+

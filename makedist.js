@@ -13,7 +13,7 @@ let files = [
   "xpedia/favicon.png",
   "xpedia/bulmaswatch.min.css",
   "xpedia/0.png",
-  "xpedia.html.header",
+  "xpedia/xpedia.html.header",
   "xpedia.bat",
   "README.txt"
 ];

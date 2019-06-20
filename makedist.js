@@ -15,7 +15,7 @@ let files = [
   "xpedia/0.png",
   "xpedia/xpedia.html.header",
   "xpedia.bat",
-  "README.txt"
+  "XPEDIA_README.txt"
 ];
 
 for (let i = 0; i < files.length; ++i) {

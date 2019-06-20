@@ -41,9 +41,9 @@
 
 {#if Object.keys(armor.dollSprites).length > 1}
   <p>
-    <a class="button" style="width:170px" on:click={e => (seeAllVariants = !seeAllVariants)}>
+    <button class="button" style="width:170px" on:click={e => (seeAllVariants = !seeAllVariants)}>
       {seeAllVariants ? 'Hide' : 'See'} all variants
-    </a>
+    </button>
   </p>
 {/if}
 
@@ -55,7 +55,7 @@
         style={'left:' + (i % dollColumns) * 80 + 'px;' + 'top:' + Math.floor(i / dollColumns) * 120 + 'px;'}>
         {#if seeAllVariants}<div class="armor-variant">{body}</div>{/if}
         {#each armor.dollSprites[body] as url, j}
-          <img src={url} class="armor-layer" />
+          <img src={url} alt={body} class="armor-layer" />
         {/each}
       </div>
     {/if}

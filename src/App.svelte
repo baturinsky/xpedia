@@ -15,7 +15,9 @@
   function checkHash() {
     let hash = document.location.hash;
     if (hash) {
-      if (hash.substr(0, 8) == "#search:") {
+      if (hash.substr(0, 7) == "#PEDIA_") {
+        selectSection(hash.substr(7))
+      } else if (hash.substr(0, 8) == "#search:") {
         query = hash.substr(8);
         query = query.replace("%20", " ");
 
@@ -57,6 +59,7 @@
 
   function selectSection(id){
     currentSection = rul.sections[id]
+    console.log(currentSection)
   }
 
   window.onhashchange = checkHash;
@@ -81,14 +84,14 @@
 
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
 
-  <div id="navbar" class="navbar-menu">
+  <div id="navbar" class="navbar-menu brighter">
     
     <div class="navbar-start">
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">{rul.modName} Pedia{currentSection?": " + currentSection.title:""} </a>
+        <a href="#" class="navbar-link">{rul.modName} Pedia{currentSection?": " + currentSection.title:""} </a>
         <div class="navbar-dropdown">
           {#each rul.sectionsOrder as section}
-            <a class="navbar-item" on:click={e => selectSection(section.id)}>
+            <a class="navbar-item" href={"#PEDIA_" + section.id}>
               {section.title}
             </a>
           {/each}
@@ -112,7 +115,7 @@
 </nav>
 
 <div class="columns is-fullheight" style="height:100%;:black;">
-  <div class="column is-2 is-sidebar-menu is-hidden-mobile sidebar">
+  <div class="column is-2 is-sidebar-menu is-hidden-mobile sidebar padding-top">
     {#each rul.sectionsOrder as section}
       {#if !currentSection || section.id == currentSection.id}
         <p class="menu-label">{section.title}</p>
@@ -131,8 +134,8 @@
     {/each}
   </div>
   <div class="column is-2" />
-  <div class="column is-main-content main">
-    
+  <div class="column is-main-content main padding-top">
+    <br/>
     {#if article}
       <Article article={article}/>
     {/if}

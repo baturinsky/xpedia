@@ -1,0 +1,32 @@
+html {
+  background:#180C24
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: lightgreen;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: lightseagreen;
+}
+
+.main-table tr:nth-child(odd){
+  background: #281C34;
+}
+
+.brighter{
+  background: #281C34;  
+}
+
+.padding-top{
+  padding-top: 15px;
+}

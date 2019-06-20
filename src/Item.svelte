@@ -50,7 +50,8 @@
             {prop[1]}
           {/if}
         {:else if ['floorSprite', 'handSprite'].includes(prop[0])}
-          <a style="vertical-align:top" href={rul.specialSprite(prop[0], prop[1])}>{prop[1]}</a> <img class="sprite" src={rul.specialSprite(prop[0], prop[1])}/>
+          <a style="vertical-align:top" href={rul.specialSprite(prop[0], prop[1])}>{prop[1]}</a> 
+          <img class="sprite" alt={prop[1]} src={rul.specialSprite(prop[0], prop[1])}/>
         {:else if prop[1] instanceof Object}
           <table>
           {#each Object.keys(prop[1]).sort() as field, i}

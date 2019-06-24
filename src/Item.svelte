@@ -1,11 +1,24 @@
 <script>
   import { rul } from "./Ruleset";
-  import Sprite from "./Sprite.svelte";
+  import Illustration from "./Illustration.svelte";
   import SpecialBonus from "./SpecialBonus.svelte"
   import ItemList from "./ItemList.svelte"  
   import Link from "./Link.svelte";
 
   export let item;
+  let attacks
+
+  $:{ 
+      attacks = item.attacks().slice()
+      if(item.compatibleAmmo)
+        for(let ammoId of item.compatibleAmmo){
+          let ammo = rul.items[ammoId]
+          let ammoAttack = ammo.attacks()[0]
+          console.log(ammoAttack);
+          ammoAttack.item = ammo
+          attacks.push(ammoAttack)
+        }
+    }
 
 </script>
 
@@ -24,13 +37,78 @@
     height:20px;
     width:300px;
   }
+  .attacks-table td{
+    border: solid 1px gray;
+    font-size: 14pt;
+  }
+  .attacks-table thead{
+    background: #382C44;  
+  }
+  .alter td{
+    border: none;
+    font-size: small;
+  }
 </style>
 
-<Sprite id={item.sprite} zoom="4" />
+<!--<Illustration id={item.sprite} />-->
+
+<Illustration id={item.sprite} left={true} maxZoom={2}/>
+
+{#if item._attacks}
+  <table class="attacks-table">
+    <thead>
+      {#if item.battleType != 2}
+        <td>mode</td>
+        <td>accuracy</td>
+        <td>cost</td>
+      {/if}
+      <td>damage</td>
+      <td>mods</td>
+    </thead>
+    {#each attacks as attack}
+      <tr>
+        {#if attack.mode == "ammo"}
+          {#if item.battleType != 2}
+            <td>
+              <img class="sprite" style="position:relative;" alt="X" src={rul.sprite(attack.item.sprite)}/>
+            </td> 
+            <td colspan="2">
+              <Link href={attack.item.type}/>
+            </td>
+          {/if}          
+        {:else}
+          <td>{attack.mode}{attack.shots==1?"":" x" + attack.shots}</td> 
+          <td>{attack.accuracy} <small><SpecialBonus plus={true} bonus={attack.accuracyMultiplier}/></small> </td>
+          <td>{attack.cost.time + (attack.flatTime?"":"%")} TU</td>
+        {/if}          
+        <td>{#if attack.damage || attack.damageType}
+          {attack.pellets>1?"x" + attack.pellets + " ":""}
+          {rul.damageTypeName(attack.damageType)}
+          {attack.damage}
+          <SpecialBonus plus={true} bonus={attack.damageBonus}/>
+        {/if}
+        </td>
+        <td>
+          {#if attack.alter}            
+            <table class="alter">
+            {#each Object.keys(attack.alter).sort() as field, i}
+              <tr>
+              <td>{field}</td><td>{attack.alter[field]}</td>
+              </tr>
+            {/each}
+            </table>
+          {/if}
+        </td>
+      </tr>      
+    {/each}
+  </table>
+{/if}
+
+<br/>
 
 <table class="main-table">
   {#each Object.entries(item).sort((a,b) => a[0]>b[0]?1:-1) as prop, linei}
-    {#if !['sprite', 'type'].includes(prop[0])}
+    {#if !['sprite', 'type', '_attacks'].includes(prop[0])}
       <tr>
         <td>{rul.decamelize(prop[0])}</td>
         <td class="right-column">
@@ -38,8 +116,8 @@
           <ItemList items={prop[1]}/>
         {:else if ['damageBonus', 'meleeBonus', 'accuracyMultiplier', 'meleeMultiplier', 'closeQuartersMultiplier'].includes(prop[0])}
           <SpecialBonus bonus={prop[1]}/>
-        {:else if prop[0] == 'damageType'}
-          {item.damageTypeName()}
+        {:else if ['damageType', 'meleeType'].includes(prop[0])}
+          {rul.damageTypeName(prop[1])}
         {:else if prop[0] == 'battleType'}
           {prop[1]}: {rul.battleTypes[prop[1]]}
         {:else if ['reloadSound', 'fireSound', 'meleeHitSound', 'hitSound'].includes(prop[0])}          

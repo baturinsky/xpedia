@@ -1,25 +1,56 @@
 <script>
   import { rul } from "./Ruleset";
-  import Sprite from './Sprite.svelte';
+  import Illustration from './Illustration.svelte';
   import Item from './Item.svelte';
   import Armor from './Armor.svelte';
+  import Section from './Section.svelte';
 
   export let article
+  export let query
+  let textwithHighlights
+
+  $:{
+    textwithHighlights = article.text || ""
+    if(query) {
+      for(let word of query.split()){            
+        let regEx = new RegExp(word, "ig");
+        textwithHighlights = textwithHighlights.replace(regEx, "<span class='queried'>$&</span>")
+      }
+    }
+  }
 
 </script>
 
-<h1 class="title">{article.title}</h1>
+<style>
+.article-title{
+  padding: 5px 0px 5px 0px;
+  font-size: larger;
+  font-weight: bold;
+}
 
-<Sprite id={article.image_id}/>
+.article-text{
+  padding: 5px 0px 5px 0px;
+}
+</style>
 
-<div class="narrow">
-  {@html article.text || ""}
+<svelte:head><title>{article.title}</title></svelte:head>
+
+<div class="article-title">{article.title}</div>
+
+<Illustration id={article.image_id}/>
+
+<div class="article-text">
+  {@html textwithHighlights}
 </div>
 
-<br/>
-
-{#if article.type_id == 4 && rul.items[article.id]}
+{#if article.id in rul.items}
   <Item item={rul.items[article.id]}/>
-{:else if article.type_id == 5 && rul.armors[article.id]}
+{/if}
+
+{#if article.id in rul.armors}
   <Armor armor={rul.armors[article.id]}/>
+{/if}  
+
+{#if article.type_id == -1}
+  <Section section={rul.sections[article.id.substr(6)]}/>
 {/if}

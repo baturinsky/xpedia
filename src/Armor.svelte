@@ -1,6 +1,5 @@
 <script>
   import { rul } from "./Ruleset";
-  import Sprite from "./Sprite.svelte";
   import Link from "./Link.svelte";
 
   export let armor;

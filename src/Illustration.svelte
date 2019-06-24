@@ -2,13 +2,14 @@
   import { rul } from "./Ruleset";
 
   export let id;
-  export let zoom = 2;
+  export let left = false;
+  export let maxWidth = 640
+  export let maxZoom = 4
 
   function loaded(e) {
-    if (zoom != 1) {
-      e.target.width = e.target.naturalWidth * zoom;
-      e.target.height = e.target.naturalHeight * zoom;
-    }
+    let zoom = Math.min(maxZoom, Math.max(1, Math.floor(maxWidth / e.target.naturalWidth)))
+    e.target.width = e.target.naturalWidth * zoom;
+    e.target.height = e.target.naturalHeight * zoom;
   }
 
 </script>
@@ -26,6 +27,7 @@
   <div>
     <img
       class="pedia-image"
+      style={left?"float:left":""}
       on:load={loaded}
       alt={id || ''}
       src={rul.sprite(id)} />

@@ -1,13 +1,13 @@
 import Fuse from "fuse.js";
+import { utimes } from "fs";
 
 export let rul!: Ruleset;
 
 export class Search {
   lang: Fuse<{ id: string; text: string }>;
-  articles: Fuse<PediaArticle>;
+  articles: Fuse<Article>;
 
-  constructor() {
-    console.log(Fuse);
+  constructor() {    
     this.lang = new Fuse(rul.langList, {
       keys: ["id", "text"],
       tokenize: true,
@@ -18,12 +18,12 @@ export class Search {
     });
 
     this.articles = new Fuse(rul.articles, {
-      keys: ["id", "title", "text"],
+      keys: ["id", "type", "title", "text"],
       tokenize: true,
       matchAllTokens: true,
 
-      distance: 0,
-      threshold: 0
+      distance: 10,
+      threshold: 0.1
     });
   }
 
@@ -36,13 +36,91 @@ export class Search {
   }
 }
 
-export class PediaArticle {
+export class Attack{
+  possible = false
+  cost: {time:number, energy:number}
+  flatTime = false
+  damage: number
+  damageBonus: {[key:string]: number}
+  damageType: number
+  accuracy: number  
+  accuracyMultiplier: {[key:string]: number}
+  alter: {[key:string]: number}
+  shots: number = 1
+  range: number
+  pellets: number = 1
+
+  constructor(item:Item, public mode:string){
+    let capMode = mode.charAt(0).toUpperCase() + mode.substr(1)
+    
+    let isDefaultAttack = (mode == "melee" && item.battleType == 3) || (item.battleType == 2 && mode == "ammo");
+    let exists = item["accuracy" + capMode] || isDefaultAttack;
+
+    if(!exists)
+      return null;
+
+    if(mode == "melee" && item.battleType == 1) {
+      this.damage = item.meleePower
+      this.damageBonus = item.meleeBonus
+      this.damageType = item.meleeType
+    } else if(!item.compatibleAmmo){
+      this.damage = item.power
+      this.damageBonus = item.damageBonus
+      this.damageType = item.damageType
+    }    
+
+    this.pellets = item.shotgunPellets || 1
+
+    if(mode == "auto" && item.autoShots)
+      this.shots = item.autoShots
+
+    if(mode == "melee")
+      this.alter = item.meleeAlter
+
+    if(item.battleType == 3 || mode != "melee")
+      this.alter = item.damageAlter
+      
+    if(mode != "ammo"){
+
+      if((mode == "melee" && item.battleType == 3 || mode != "melee") && item.flatRate)
+        this.flatTime = item.flatRate
+    
+      if (item["flat" + capMode] && item["flat" + capMode].time)
+        this.flatTime = true
+
+      this.cost = this.cost = item["cost" + capMode] || {time:item["tu" + capMode], energy:0}    
+
+      this.accuracy = item["accuracy" + capMode]
+
+      this.accuracyMultiplier = item.accuracyMultiplier
+
+      if(mode == "melee" || !this.accuracyMultiplier)
+        this.accuracyMultiplier = item.meleeMultiplier
+            
+      if(!this.accuracyMultiplier){
+        let defaultAccuracyStat = mode == "melee"? "melee" : "fire"
+        this.accuracyMultiplier = {}
+        this.accuracyMultiplier[defaultAccuracyStat] = 1
+      }
+
+      if(this.accuracyMultiplier.flatHundred){
+        this.accuracy = this.accuracyMultiplier.flatHundred * 100
+        delete this.accuracyMultiplier.flatHundred
+      }
+    }
+
+    this.possible = true
+  }
+
+}
+
+export class Article {
   id: string;
   title: string;
   text: string;
   image_id: string;
   type_id: number;
-  section: PediaSection;
+  section: Section;
 
   constructor(raw: any) {
     this.id = raw.id;
@@ -50,10 +128,11 @@ export class PediaArticle {
     this.text = rul.lang[raw.text] || rul.lang[raw.id + "_UFOPEDIA"];
     this.image_id = raw.image_id;
     this.type_id = raw.type_id;
+    this.section = raw.section
 
     if (raw.section) {
       if (!(raw.section in rul.sections)) {
-        rul.sections[raw.section] = new PediaSection(raw.section);
+        rul.sections[raw.section] = new Section(raw.section);
       }
 
       rul.sections[raw.section].add(this);
@@ -61,8 +140,8 @@ export class PediaArticle {
   }
 }
 
-export class PediaSection {
-  articles: PediaArticle[] = [];
+export class Section {
+  articles: Article[] = [];
   title: string;
 
   constructor(public id: string) {
@@ -71,7 +150,7 @@ export class PediaSection {
     this.title = rul.lang[id];
   }
 
-  add(article: PediaArticle) {
+  add(article: Article) {
     this.articles.push(article);
     article.section = this;
   }
@@ -100,8 +179,6 @@ export class Armor{
   [key: string]: any;
 
   constructor(raw: any) {
-    let old = rul.armors[raw.type];
-    if (old) Object.assign(this, old);
     Object.assign(this, raw);
     rul.armors[raw.type] = this;
 
@@ -121,7 +198,7 @@ export class Armor{
       }
     }
 
-    if(this.spriteInv){
+    else if(this.spriteInv){
       let name:string = this.spriteInv
       let l = name.length      
       for(let s in rul.spritesById){
@@ -132,23 +209,17 @@ export class Armor{
     }
     
     this.armor = "Front: " + this.frontArmor + ", Side: " + this.sideArmor + ", Rear: " + this.rearArmor + ", Under: " + this.underArmor
-
-    //WTF
-    /*delete this.frontArmor
-    delete this.sideArmor
-    delete this.rearArmor*/
-
   }  
 }
 
 export class Item{
   type: string;
   sprite: string;
+  battleType: number;
   [key: string]: any;
+  _attacks:Attack[]
 
   constructor(raw: any) {
-    let old = rul.items[raw.type];
-    if (old) Object.assign(this, old);
     Object.assign(this, raw);
     rul.items[raw.type] = this;
 
@@ -166,6 +237,20 @@ export class Item{
       t.autoShots = t.confAuto.shots;
       delete t.confAuto;
     }
+
+  }
+
+  attacks(){
+    if(!this._attacks) {
+      this._attacks = []
+      for(let mode of ["ammo", "melee", "snap", "aimed", "auto"]){
+        let attack = new Attack(this, mode)
+        if(attack.possible)
+          this._attacks.push(attack)
+      }
+    }
+
+    return this._attacks
   }
 
   damageTypeName() {
@@ -176,13 +261,13 @@ export class Item{
 export default class Ruleset {
   lang: { [key: string]: string } = {};
   langList: { id: string; text: string }[] = [];
-  articlesById: { [key: string]: PediaArticle } = {};
+  articlesById: { [key: string]: Article } = {};
   spritesById: { [key: string]: Sprite } = {};
   raw: any = {};
-  articles: PediaArticle[] = [];
+  articles: Article[] = [];
   search: Search;
-  sections: { [key: string]: PediaSection } = {};
-  sectionsOrder: PediaSection[] = [];
+  sections: { [key: string]: Section } = {};
+  sectionsOrder: Section[] = [];
   items: { [key: string]: Item } = {};
   armors: { [key: string]: Armor } = {};
   bigSprite: string[] = [];
@@ -265,6 +350,23 @@ export default class Ruleset {
       }
     }
 
+    for (let category of ["items", "armors", "ufopaedia", "manufacture"]){
+      let merged = {};
+      for(let data of this.raw[category]){
+        let id = data.type || data.id || data.name || data.delete
+        if('delete' in data){
+          delete merged[id]
+        } else {
+          if(id && id in merged){
+            Object.assign(merged[id], data)
+          } else {
+            merged[id] = data
+          }
+        }
+      }      
+      this.raw[category] = Object.values(merged)
+    }
+
     this.modName = this.raw.modName;
     this.path = "user/mods/" + rul.modName + "/";
 
@@ -272,7 +374,7 @@ export default class Ruleset {
       let text: string = this.lang[k];
       if (typeof text === "string") {
         text = text.replace(/^({NEWLINE})+/, "");
-        text = text.replace(/{NEWLINE}/g, "</br>");
+        text = text.replace(/{NEWLINE}/g, "<br/>");
         this.lang[k] = text;
       }
     }
@@ -283,8 +385,6 @@ export default class Ruleset {
 
     this.parsePedia(this.raw.ufopaedia);
     this.parseSprites(this.raw.extraSprites);
-
-    console.log(this.spritesById)
 
     if(this.spritesById["BIGOBS.PCK"])
       this.bigSprite = this.spritesById["BIGOBS.PCK"].extra;
@@ -306,7 +406,7 @@ export default class Ruleset {
   parsePedia(data: any) {
     for (let articleData of data) {
       if (articleData.id) {
-        let article = new PediaArticle(articleData);
+        let article = new Article(articleData);
         this.articles.push(article);
         this.articlesById[article.id] = article;
       }
@@ -320,7 +420,7 @@ export default class Ruleset {
     }
   }
 
-  findNextArticle(current: PediaArticle, delta: number) {
+  findNextArticle(current: Article, delta: number) {
     if (!current) return null;
     let section = current.section;
     let list = section ? section.articles : this.articles;
@@ -357,12 +457,22 @@ export default class Ruleset {
     if(article)
       return article;
 
+    if(id.substr(0,6) == "PEDIA_"){
+      let article = new Article({
+        id,
+        type_id:-1,
+        title:this.str(id.substr(6))
+      })
+      return article
+    }    
+
     let item = this.items[id]
     
     if(item){
-      let article = new PediaArticle({
+      let article = new Article({
         id,
         type_id:4,
+        section:"STR_WEAPONS_AND_EQUIPMENT",
         title:this.str(id)
       })
       this.articlesById[id] = article
@@ -373,7 +483,7 @@ export default class Ruleset {
   bodiesCompare(strs:string[]){
     for(let i in strs){
       if(strs[i].length==2)
-        strs[i] = strs[i].charAt(0) + 0 + strs[i].substr(1)
+        strs[i] = (strs[i].charAt(0)=="M"?'A':'B') + '0' + strs[i].substr(1)
     }
     return strs[0] > strs[1]? 1: -1
   }

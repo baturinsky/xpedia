@@ -90,12 +90,12 @@ export class Attack{
 
       this.cost = this.cost = item["cost" + capMode] || {time:item["tu" + capMode], energy:0}    
 
-      this.accuracy = item["accuracy" + capMode]
+      this.accuracy = item["accuracy" + capMode]      
 
-      this.accuracyMultiplier = item.accuracyMultiplier
-
-      if(mode == "melee" || !this.accuracyMultiplier)
+      if(mode == "melee")
         this.accuracyMultiplier = item.meleeMultiplier
+      else
+        this.accuracyMultiplier = item.accuracyMultiplier
             
       if(!this.accuracyMultiplier){
         let defaultAccuracyStat = mode == "melee"? "melee" : "fire"

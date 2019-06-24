@@ -14,10 +14,11 @@
         for(let ammoId of item.compatibleAmmo){
           let ammo = rul.items[ammoId]
           let ammoAttack = ammo.attacks()[0]
-          console.log(ammoAttack);
           ammoAttack.item = ammo
           attacks.push(ammoAttack)
         }
+
+      console.log(attacks)
     }
 
 </script>
@@ -77,12 +78,12 @@
             </td>
           {/if}          
         {:else}
-          <td>{attack.mode}{attack.shots==1?"":" x" + attack.shots}</td> 
+          <td>{attack.mode}{attack.shots==1?"":"×" + attack.shots}</td> 
           <td>{attack.accuracy} <small><SpecialBonus plus={true} bonus={attack.accuracyMultiplier}/></small> </td>
           <td>{attack.cost.time + (attack.flatTime?"":"%")} TU</td>
         {/if}          
         <td>{#if attack.damage || attack.damageType}
-          {attack.pellets>1?"x" + attack.pellets + " ":""}
+          {attack.pellets>1?"×" + attack.pellets + " ":""}
           {rul.damageTypeName(attack.damageType)}
           {attack.damage}
           <SpecialBonus plus={true} bonus={attack.damageBonus}/>

@@ -3,6 +3,7 @@
   import Illustration from './Illustration.svelte';
   import Item from './Item.svelte';
   import Armor from './Armor.svelte';
+  import Unit from './Unit.svelte';
   import Section from './Section.svelte';
 
   export let article
@@ -22,35 +23,41 @@
 </script>
 
 <style>
-.article-title{
-  padding: 5px 0px 5px 0px;
-  font-size: larger;
-  font-weight: bold;
-}
 
 .article-text{
   padding: 5px 0px 5px 0px;
 }
+
 </style>
 
 <svelte:head><title>{article.title}</title></svelte:head>
 
-<div class="article-title">{article.title}</div>
+<h1>{article.title}</h1>
 
-<Illustration id={article.image_id}/>
+
+{#if !(article.id in rul.units)}
+  <Illustration id={article.image_id}/>
+{/if}
 
 <div class="article-text">
   {@html textwithHighlights}
 </div>
 
-{#if article.id in rul.items}
-  <Item item={rul.items[article.id]}/>
-{/if}
-
-{#if article.id in rul.armors}
-  <Armor armor={rul.armors[article.id]}/>
-{/if}  
-
 {#if article.type_id == -1}
   <Section section={rul.sections[article.id.substr(6)]}/>
 {/if}
+
+<div class="flex-horisontal">
+  {#if article.id in rul.units}
+    <Unit unit={rul.units[article.id]}/>
+  {/if}  
+
+  {#if article.id in rul.items}
+    <Item item={rul.items[article.id]}/>
+  {/if}
+
+  {#if article.id in rul.armors}
+    <Armor armor={rul.armors[article.id]}/>
+  {/if}  
+</div>
+

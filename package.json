@@ -10,6 +10,7 @@
     "rollup": "^1.10.1",
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
     "rollup-plugin-node-resolve": "^4.2.3",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^4.0.4",
@@ -34,6 +35,9 @@
   "dependencies": {
     "@types/js-yaml": "^3.12.1",
     "bulma": "^0.7.5",
+    "caman": "^4.1.2",
+    "cropperjs": "^1.5.1",
+    "croppie": "^2.6.4",
     "fuse.js": "^3.4.5",
     "js-yaml": "^3.13.1",
     "svelma": "^0.0.8"

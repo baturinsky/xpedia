@@ -21,7 +21,19 @@ a:visited {
 
 .main-table tr:nth-child(odd){
   background: #281C34;
-  margin-top: 5px;
+}
+
+.main-table tr:nth-child(even){
+  background: #180C24;
+}
+
+.main-table{
+  border: solid 0.3px #382C44;
+  margin: 10px 0px;
+}
+
+.main-table td{
+  padding: 2px;
 }
 
 .brighter{
@@ -34,4 +46,56 @@ a:visited {
 
 .queried{
   background:rgba(255,255,255,0.5);
+}
+
+.padding-right{
+  padding-right: 5px;
+}
+
+.numberTable tr:nth-child(odd){
+  background: #281C34;
+}
+
+.numberTable tr:nth-child(even){
+  background: #180C24;
+}
+
+.numberTable1 {
+  text-align: right;
+  padding-right: 5pt;
+  width: 70%;
+}
+.numberTable2 {
+  text-align: left;
+  width: 30%;
+}
+
+h1{
+  font-size: larger;
+}
+
+h4{
+  font-size: large;
+}
+
+h1, h4{
+  border-bottom: solid 1px #483C54;
+  margin: 10px 0px;
+  color: #99ffff;
+}
+
+.table-header{
+  color: #99ffff;
+  text-align: center;
+  font-size: larger;
+}
+
+.flex-horisontal{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.flex-horisontal > *{
+  margin: 1px;
 }

@@ -1,6 +1,6 @@
 <script>
   import { Button } from "svelma";
-  import { afterUpdate } from "svelte";
+  import { tick, afterUpdate } from "svelte";
   import { rul } from "./Ruleset";
   import Article from "./Article.svelte";
 
@@ -70,7 +70,7 @@
 
   afterUpdate(() => {
     if(activeOption){
-      setTimeout(() => activeOption.scrollIntoView({behavior:'auto', block:'center'}, 10))
+      tick().then( () => activeOption.scrollIntoView({behavior:'auto', block:'center'}) )
     }
   })
 
@@ -91,6 +91,9 @@
   }
   .menu-list a:visited {
     color: white;
+  }
+  .active-article-option {
+    background: #584C64;
   }
 </style>
 
@@ -141,7 +144,7 @@
               {#if article && article.id == option.id}
                 <a
                   href={'#' + option.id}
-                  class="is-active"
+                  class="active-article-option"
                   bind:this={activeOption}>                  
                   {option.title}
                 </a>

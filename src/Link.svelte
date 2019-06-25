@@ -1,6 +1,10 @@
 <script>
   import { rul } from "./Ruleset";
   export let href
+  
+  $:{
+    href = href.type || href
+  }
 </script>
 
 {#if rul.article(href)}

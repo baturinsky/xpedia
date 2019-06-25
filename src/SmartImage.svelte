@@ -1,0 +1,35 @@
+<script>
+  export let src;
+  export let maxWidth = 1e6;
+  export let maxHeight = 1e6;
+  export let zoom = 1;
+
+  let div;
+
+  function loaded(img) {
+    console.log(zoom, maxWidth, maxHeight);
+    div = img.parentNode;
+    img.style.width = img.naturalWidth * zoom + "px";
+    img.style.height = img.naturalHeight * zoom + "px";
+    //div.style.width = Math.min(maxWidth, img.naturalWidth * zoom) + "px";
+    //div.style.height = Math.min(maxHeight, img.naturalHeight * zoom) + "px";
+  }
+</script>
+
+<style>
+  figure {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+  }
+  img {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    min-height: 100%;
+    min-width: 100%;
+  }
+</style>
+
+<figure class="smrt" bind:this={div}>
+  <img on:load={e => loaded(e.target)} {src} alt="X" />
+</figure>

@@ -5,11 +5,13 @@
   export let left = false;
   export let maxWidth = 640
   export let maxZoom = 4
+  export let style = ""
 
-  function loaded(e) {
-    let zoom = Math.min(maxZoom, Math.max(1, Math.floor(maxWidth / e.target.naturalWidth)))
-    e.target.width = e.target.naturalWidth * zoom;
-    e.target.height = e.target.naturalHeight * zoom;
+  function loaded(img) {
+    console.log(img)
+    let zoom = Math.min(maxZoom, Math.max(1, Math.floor(maxWidth / img.naturalWidth)))
+    img.width = img.naturalWidth * zoom;
+    img.height = img.naturalHeight * zoom;
   }
 
 </script>
@@ -27,8 +29,8 @@
   <div>
     <img
       class="pedia-image"
-      style={left?"float:left":""}
-      on:load={loaded}
+      style={style + (left?"float:left":"")}
+      on:load={e => loaded(e.target)}
       alt={id || ''}
       src={rul.sprite(id)} />
   </div>

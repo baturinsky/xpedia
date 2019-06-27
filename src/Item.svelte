@@ -70,7 +70,7 @@
 <table class="main-table">
   <tr> <td colspan="2" class="table-header">{title}</td> </tr>
   {#if (item.sprite && item.sprite != "Resources/Blanks/Blank.png") ||attacks.length > 0}
-    <tr> <td colspan="2" style="padding:10px;">
+    <tr> <td colspan="2">
       <div style="display: flex;">
       <Illustration id={item.sprite} left={true} maxZoom={2}/>
       {#if attacks.length > 0}
@@ -82,13 +82,12 @@
               <td>cost</td>
             {/if}
             <td>damage</td>
-            <td>mods</td>
           </thead>
           {#each attacks as attack}
             <tr>
               {#if attack.mode == "ammo"}
                 {#if item.battleType != 2}
-                  <td class="ammo-img">
+                  <td rowspan="2" class="ammo-img">
                     <SmartImage src={rul.sprite(attack.item.sprite)} maxWidth={32*attack.item.invWidth} maxHeight={32*attack.item.invHeight} zoom="2"/>
                     <!--<img class="sprite" use:ammoSprite style="position:relative;" alt="X" src={rul.sprite(attack.item.sprite)}/>-->                    
                   </td> 
@@ -97,17 +96,17 @@
                   </td>
                 {/if}          
               {:else}
-                <td>{attack.mode}{attack.shots==1?"":"×" + attack.shots}</td> 
-                <td>{attack.accuracy} <small><SpecialBonus plus={true} bonus={attack.accuracyMultiplier}/></small> </td>
+                <td rowspan="2">{attack.mode}{attack.shots==1?"":"×" + attack.shots}</td> 
+                <td><em>{attack.accuracy}</em> <small><SpecialBonus plus={true} bonus={attack.accuracyMultiplier}/></small> </td>
                 <td>
-                {attack.cost.time + (attack.flatTime?"":"%")} <small>TU</small>                
+                <em>{attack.cost.time + (attack.flatTime?"":"%")}</em> <small>TU</small>                
                 {#each Object.keys(attack.cost) as res}
-                  {#if res != 'time'}<br/>{attack.cost[res]}&nbsp;<small>{res}</small>{/if}
+                  {#if res != 'time'}<br/><em>{attack.cost[res]}</em>&nbsp;<small>{res}</small>{/if}
                 {/each}                
                 </td>
               {/if}          
               <td>{#if attack.damage || attack.damageType}
-                {attack.pellets>1 && attack.damageBonus?"(":""}{attack.damage}
+                {attack.pellets>1 && attack.damageBonus?"(":""}<em>{attack.damage}</em>
                 <small>
                   <SpecialBonus plus={true} bonus={attack.damageBonus}/>{attack.pellets>1 && attack.damageBonus?")":""}
                 </small>
@@ -115,16 +114,16 @@
                 <br/>{rul.damageTypeName(attack.damageType)}
               {/if}
               </td>
-              <td>
+              </tr>
+              <tr>
+              <td colspan="3" style="columns: 170px auto;">
+                <small>
                 {#if attack.alter}            
-                  <table class="alter">
                   {#each Object.keys(attack.alter).sort() as field, i}
-                    <tr>
-                    <td>{field}</td><td>{attack.alter[field]}</td>
-                    </tr>
+                    {field}:&nbsp;<em>{attack.alter[field]}</em><br/>
                   {/each}
-                  </table>
                 {/if}
+                </small>
               </td>
             </tr>      
           {/each}
@@ -141,11 +140,11 @@
       <tr>
         <td>{@html rul.decamelize(prop[0])}</td>
         <td class="right-column">
-        {#if ['compatibleAmmo', 'compatibleWeapons', 'categories', 'requiresBuy'].includes(prop[0])}
-          <ItemList items={prop[1]}/>
+        {#if ['compatibleAmmo', 'compatibleWeapons', 'categories', 'requiresBuy', 'manufacture', 'componentOf'].includes(prop[0])}
+          <ItemList items={prop[1]} vertical={true}/>
         {:else if ['damageBonus', 'meleeBonus', 'accuracyMultiplier', 'meleeMultiplier', 'closeQuartersMultiplier'].includes(prop[0])}
           <SpecialBonus bonus={prop[1]}/>
-        {:else if ['defaultInventorySlot', 'name'].includes(prop[0])}
+        {:else if ['defaultInventorySlot', 'unprimeActionName', 'name', 'armor'].includes(prop[0])}
           <Link href={prop[1]}/>
         {:else if ['damageType', 'meleeType'].includes(prop[0])}
           {rul.damageTypeName(prop[1])}

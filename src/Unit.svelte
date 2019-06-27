@@ -56,7 +56,3 @@
     {/if}
   {/each}
 </table>
-
-{#if unit.armor}
-  <Armor armor={rul.armors[unit.armor]}/>
-{/if}

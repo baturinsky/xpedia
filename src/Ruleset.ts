@@ -22,12 +22,53 @@ export class Search {
   }
 }
 
+export class Manufacture {
+  name: string;
+  requires: string;
+  producedItems: { [key: string]: number };
+  requiredItems: { [key: string]: number };
+
+  constructor(raw: any) {
+    Object.assign(this, raw);
+    rul.manufacture[this.name] = this;
+
+    if (this.requires) {
+      for (let resName of this.requires) {
+        let res = rul.research[resName];
+        if (!res.manufacture) res.manufacture = [];
+        res.manufacture.push(this.name);
+      }
+    }
+
+    if (this.producedItems) {
+      for (let itemName of Object.keys(this.producedItems)) {
+        let item = rul.items[itemName];
+        if (!item) continue;
+        if (!item.manufacture) item.manufacture = [];
+        item.manufacture.push(this.name);
+      }
+    }
+
+    if (this.requiredItems) {
+      for (let itemName of Object.keys(this.requiredItems)) {
+        let item = rul.items[itemName];
+        if (!item) continue;
+        if (!item.componentOf) item.componentOf = [];
+        item.componentOf.push(this.name);
+      }
+    }
+
+  }
+}
+
 export class Research {
   name: string;
-  getOneFree: string[]
-  unlocks: string[]
-  dependencies: string[]
-  leadsTo: string[]
+  getOneFree: string[];
+  unlocks: string[];
+  dependencies: string[];
+  leadsTo: string[];
+  freeFrom: string[];
+  manufacture: string[];
 
   constructor(raw: any) {
     Object.assign(this, raw);
@@ -46,7 +87,7 @@ export class CraftWeapon {
 
 export class Craft {
   type: string;
-  startingConditions: string[] = []
+  startingConditions: string[] = [];
 
   constructor(raw: any) {
     Object.assign(this, raw);
@@ -54,20 +95,19 @@ export class Craft {
   }
 }
 
-export class StartingConditions{
-  allowedCraft:string[]
+export class StartingConditions {
+  allowedCraft: string[];
   type: string;
 
   constructor(raw: any) {
     Object.assign(this, raw);
     rul.startingConditions[this.type] = this;
-    if(this.allowedCraft){
-      for(let craft of this.allowedCraft){
-        rul.crafts[craft].startingConditions.push(this.type)
+    if (this.allowedCraft) {
+      for (let craft of this.allowedCraft) {
+        rul.crafts[craft].startingConditions.push(this.type);
       }
     }
   }
-
 }
 
 export class Stats {
@@ -272,11 +312,15 @@ export class Armor {
       }
     }
 
-    this.armor ={
-      "Front": this.frontArmor,
-      "Side": this.sideArmor,
-      "Rear": this.rearArmor,
-      "Under": this.underArmor,
+    this.armor = {
+      Front: this.frontArmor,
+      Side: this.sideArmor,
+      Rear: this.rearArmor,
+      Under: this.underArmor
+    };
+
+    if (this.storeItem && rul.items[this.storeItem]) {
+      rul.items[this.storeItem].armor = this.type;
     }
   }
 }
@@ -308,7 +352,6 @@ export class Item {
       t.autoShots = t.confAuto.shots;
       delete t.confAuto;
     }
-
   }
 
   attacks() {
@@ -343,6 +386,7 @@ export default class Ruleset {
   crafts: { [key: string]: Craft } = {};
   craftWeapons: { [key: string]: CraftWeapon } = {};
   research: { [key: string]: Research } = {};
+  manufacture: { [key: string]: Manufacture } = {};
   startingConditions: { [key: string]: StartingConditions } = {};
   bigSprite: string[] = [];
   floorSprite: string[] = [];
@@ -471,7 +515,7 @@ export default class Ruleset {
     if (this.sprites["HANDOB.PCK"])
       this.handSprite = this.sprites["HANDOB.PCK"].extra;
     if (this.sprites["BASEBITS.PCK"])
-      this.baseSprite = this.sprites["BASEBITS.PCK"].extra;    
+      this.baseSprite = this.sprites["BASEBITS.PCK"].extra;
 
     if (this.raw.extraSounds[0]) this.sounds = this.raw.extraSounds[0].files;
 
@@ -482,25 +526,33 @@ export default class Ruleset {
     for (let data of this.raw.craftWeapons) new CraftWeapon(data);
     for (let data of this.raw.startingConditions) new StartingConditions(data);
     for (let data of this.raw.research) new Research(data);
+    for (let data of this.raw.manufacture) new Manufacture(data);
 
-    for(let item of Object.values(this.items)){
-      if(item.compatibleAmmo){
-        for(let ammoId of item.compatibleAmmo){
-          let ammo = this.items[ammoId]
-          if(ammo){
-            ammo.compatibleWeapons = ammo.compatibleWeapons || []
-            ammo.compatibleWeapons.push(item.type)
+    for (let item of Object.values(this.items)) {
+      if (item.compatibleAmmo) {
+        for (let ammoId of item.compatibleAmmo) {
+          let ammo = this.items[ammoId];
+          if (ammo) {
+            ammo.compatibleWeapons = ammo.compatibleWeapons || [];
+            ammo.compatibleWeapons.push(item.type);
           }
         }
       }
     }
 
-    for(let research of Object.values(this.research)){
-      if(research.dependencies){
-        for(let depname of research.dependencies){
-          let dep = this.research[depname]
-          dep.leadsTo = dep.leadsTo || []
-          dep.leadsTo.push(research.name)
+    for (let research of Object.values(this.research)) {
+      if (research.dependencies) {
+        for (let depname of research.dependencies) {
+          let dep = this.research[depname];
+          dep.leadsTo = dep.leadsTo || [];
+          dep.leadsTo.push(research.name);
+        }
+      }
+      if (research.getOneFree) {
+        for (let depname of research.getOneFree) {
+          let dep = this.research[depname];
+          dep.freeFrom = dep.freeFrom || [];
+          dep.freeFrom.push(research.name);
         }
       }
     }
@@ -537,12 +589,11 @@ export default class Ruleset {
     }
   }
 
-  decamelize(str) {
+  decamelize(str, separ = " ") {
     if (typeof str === "string") {
-      if(str.includes("_") && str.search(/[a-z]/) == -1)
+      if (str.includes("_") && str.search(/[a-z]/) == -1)
         str = str.replace(/_/g, " ");
-      else
-        str = str.replace(/(.)([A-Z])/g, "$1&nbsp;$2");
+      else str = str.replace(/(.)([A-Z])/g, "$1" + separ + "$2");
       str = str.substr(0, 1).toUpperCase() + str.substr(1).toLowerCase();
     }
     return str;
@@ -560,9 +611,9 @@ export default class Ruleset {
   }
 
   article(id: string) {
-    if(!id || typeof id != "string"){
+    if (!id || typeof id != "string") {
       return null;
-    }    
+    }
 
     let article = this.articles[id];
     if (article) return article;
@@ -589,9 +640,7 @@ export default class Ruleset {
       return article;
     }
 
-    let research = this.research[id];
-
-    if(research) {
+    if (this.research[id] || this.manufacture[id]) {
       let article = new Article({
         id,
         title: this.str(id)

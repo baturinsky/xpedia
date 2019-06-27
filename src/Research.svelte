@@ -2,9 +2,7 @@
   import { rul } from "./Ruleset";
   import Link from "./Link.svelte";
   import ItemList from "./ItemList.svelte";
-  import Illustration from "./Illustration.svelte";
-  import Item from "./Item.svelte";
-
+  
   export let research;
 
   $: {
@@ -28,9 +26,9 @@
           {@html rul.decamelize(prop[0])}
         </td>
         <td>
-          {#if ['lookup'].includes(prop[0])}
+          {#if ['lookup', 'spawnedItem'].includes(prop[0])}
             <Link href={prop[1]} />
-          {:else if ['getOneFree', 'unlocks', 'dependencies', 'leadsTo'].includes(prop[0])}
+          {:else if ['manufacture', 'getOneFree', 'getOneFreeProtected', 'freeFrom', 'unlocks', 'dependencies', 'leadsTo', 'disables'].includes(prop[0])}
             {#each prop[1] as field, i}
               {#if i != 0}<br/>{/if}
               <Link href={field} />

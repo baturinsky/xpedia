@@ -3,9 +3,10 @@
   import Link from "./Link.svelte";
   
   export let items
+  export let vertical=false
 </script>
 
 {#each items as item, i}
-  {#if i!=0}, {/if}
+  {@html i==0?"":(vertical?"</br>":", ")}
   <Link href={item}/>
 {/each}

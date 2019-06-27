@@ -12,7 +12,7 @@
     img.style.width = img.naturalWidth * zoom + "px";
     img.style.height = img.naturalHeight * zoom + "px";
     //div.style.width = Math.min(maxWidth, img.naturalWidth * zoom) + "px";
-    //div.style.height = Math.min(maxHeight, img.naturalHeight * zoom) + "px";
+    div.style.height = Math.min(maxHeight, img.naturalHeight * zoom) + "px";
   }
 </script>
 
@@ -25,11 +25,9 @@
   img {
     image-rendering: pixelated;
     image-rendering: crisp-edges;
-    min-height: 100%;
-    min-width: 100%;
   }
 </style>
 
-<figure class="smrt" bind:this={div}>
+<figure class="smrt">
   <img on:load={e => loaded(e.target)} {src} alt="X" />
 </figure>

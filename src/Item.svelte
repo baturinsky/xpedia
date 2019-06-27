@@ -7,6 +7,7 @@
   import SmartImage from "./SmartImage.svelte"
 
   export let item;
+  export let title = "Item"
   let attacks
 
   $:{ 
@@ -22,9 +23,7 @@
       console.log(attacks)
     }
 
-  function ammoSprite(image){
-    console.log(image);
-  }
+  console.log(item)
 </script>
 
 <style>
@@ -69,8 +68,8 @@
 </style>
 
 <table class="main-table">
-  <tr> <td colspan="2" class="table-header">Item</td> </tr>
-  {#if item.sprite || attacks.length > 0}
+  <tr> <td colspan="2" class="table-header">{title}</td> </tr>
+  {#if (item.sprite && item.sprite != "Resources/Blanks/Blank.png") ||attacks.length > 0}
     <tr> <td colspan="2" style="padding:10px;">
       <div style="display: flex;">
       <Illustration id={item.sprite} left={true} maxZoom={2}/>
@@ -90,8 +89,8 @@
               {#if attack.mode == "ammo"}
                 {#if item.battleType != 2}
                   <td class="ammo-img">
-                    <SmartImage src={rul.sprite(attack.item.sprite)} maxWidth={32*attack.item.invWidth} maxHeight={32*attack.item.invHeight} zoom=2/>
-                    <!--<img class="sprite" use:ammoSprite style="position:relative;" alt="X" src={rul.sprite(attack.item.sprite)}/>-->
+                    <SmartImage src={rul.sprite(attack.item.sprite)} maxWidth={32*attack.item.invWidth} maxHeight={32*attack.item.invHeight} zoom="2"/>
+                    <!--<img class="sprite" use:ammoSprite style="position:relative;" alt="X" src={rul.sprite(attack.item.sprite)}/>-->                    
                   </td> 
                   <td colspan="2">
                     <Link href={attack.item.type}/><br/><small>Clip: {attack.item.clipSize} Wgt: {attack.item.weight}</small>
@@ -100,11 +99,18 @@
               {:else}
                 <td>{attack.mode}{attack.shots==1?"":"×" + attack.shots}</td> 
                 <td>{attack.accuracy} <small><SpecialBonus plus={true} bonus={attack.accuracyMultiplier}/></small> </td>
-                <td>{attack.cost.time + (attack.flatTime?"":"%")} TU</td>
+                <td>
+                {attack.cost.time + (attack.flatTime?"":"%")} <small>TU</small>                
+                {#each Object.keys(attack.cost) as res}
+                  {#if res != 'time'}<br/>{attack.cost[res]}&nbsp;<small>{res}</small>{/if}
+                {/each}                
+                </td>
               {/if}          
               <td>{#if attack.damage || attack.damageType}
                 {attack.pellets>1 && attack.damageBonus?"(":""}{attack.damage}
-                <SpecialBonus plus={true} bonus={attack.damageBonus}/>{attack.pellets>1 && attack.damageBonus?")":""}
+                <small>
+                  <SpecialBonus plus={true} bonus={attack.damageBonus}/>{attack.pellets>1 && attack.damageBonus?")":""}
+                </small>
                 {attack.pellets>1?" ×" + attack.pellets:""}
                 <br/>{rul.damageTypeName(attack.damageType)}
               {/if}
@@ -131,15 +137,15 @@
 
 
   {#each Object.entries(item).sort((a,b) => a[0]>b[0]?1:-1) as prop, linei}
-    {#if !['sprite', 'type', '_attacks'].includes(prop[0])}
+    {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(prop[0])}
       <tr>
         <td>{@html rul.decamelize(prop[0])}</td>
         <td class="right-column">
-        {#if ['compatibleAmmo', 'categories', 'requiresBuy'].includes(prop[0])}
+        {#if ['compatibleAmmo', 'compatibleWeapons', 'categories', 'requiresBuy'].includes(prop[0])}
           <ItemList items={prop[1]}/>
         {:else if ['damageBonus', 'meleeBonus', 'accuracyMultiplier', 'meleeMultiplier', 'closeQuartersMultiplier'].includes(prop[0])}
           <SpecialBonus bonus={prop[1]}/>
-        {:else if ['defaultInventorySlot'].includes(prop[0])}
+        {:else if ['defaultInventorySlot', 'name'].includes(prop[0])}
           <Link href={prop[1]}/>
         {:else if ['damageType', 'meleeType'].includes(prop[0])}
           {rul.damageTypeName(prop[1])}
@@ -147,7 +153,7 @@
           {prop[1]}: {rul.battleTypes[prop[1]]}
         {:else if ['reloadSound', 'fireSound', 'meleeHitSound', 'hitSound'].includes(prop[0])}          
           {#if rul.sounds[prop[1]]}
-            <a href={rul.sound(prop[1])}>{rul.sounds[prop[1]]}</a>
+            <a href={rul.sound(prop[1])}>{rul.sounds[prop[1]]}</a><br/>
             <audio controls src={rul.sound(prop[1])}>Audio tag not working</audio>
           {:else}
             {prop[1]}
@@ -156,11 +162,9 @@
           <a style="vertical-align:top" href={rul.specialSprite(prop[0], prop[1])}>{prop[1]}</a> 
           <img class="sprite" alt={prop[1]} src={rul.specialSprite(prop[0], prop[1])}/>
         {:else if prop[1] instanceof Object}
-          <table class="numberTable">
+          <table class="number-table">
           {#each Object.keys(prop[1]).sort() as field, i}
-            <tr>
-            <td>{field}</td><td>{prop[1][field]}</td>
-            </tr>
+            <tr><td>{@html rul.decamelize(field)}</td><td>{@html rul.decamelize(prop[1][field])}</td></tr>
           {/each}
           </table>
         {:else}        

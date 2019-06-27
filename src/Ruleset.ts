@@ -22,6 +22,54 @@ export class Search {
   }
 }
 
+export class Research {
+  name: string;
+  getOneFree: string[]
+  unlocks: string[]
+  dependencies: string[]
+  leadsTo: string[]
+
+  constructor(raw: any) {
+    Object.assign(this, raw);
+    rul.research[this.name] = this;
+  }
+}
+
+export class CraftWeapon {
+  type: string;
+
+  constructor(raw: any) {
+    Object.assign(this, raw);
+    rul.craftWeapons[this.type] = this;
+  }
+}
+
+export class Craft {
+  type: string;
+  startingConditions: string[] = []
+
+  constructor(raw: any) {
+    Object.assign(this, raw);
+    rul.crafts[this.type] = this;
+  }
+}
+
+export class StartingConditions{
+  allowedCraft:string[]
+  type: string;
+
+  constructor(raw: any) {
+    Object.assign(this, raw);
+    rul.startingConditions[this.type] = this;
+    if(this.allowedCraft){
+      for(let craft of this.allowedCraft){
+        rul.crafts[craft].startingConditions.push(this.type)
+      }
+    }
+  }
+
+}
+
 export class Stats {
   tu: number;
   stamina: number;
@@ -45,7 +93,7 @@ export class Unit {
     rul.units[this.type] = this;
     let armor = rul.armors[raw.armor];
     if (armor) {
-      armor.users = armor.users || []
+      armor.users = armor.users || [];
       armor.users.push(this.type);
     }
   }
@@ -87,7 +135,7 @@ export class Attack {
 
     this.pellets = item.shotgunPellets || 1;
 
-    if (mode == "auto" && item.autoShots) this.shots = item.autoShots;
+    if (mode == "auto") this.shots = item.autoShots || 3;
 
     if (mode == "melee") this.alter = item.meleeAlter;
 
@@ -190,7 +238,7 @@ export class Armor {
   type: string;
   sprite: string;
   dollSprites: { [key: string]: string[] } = {};
-  armor: string;
+  armor: { [key: string]: number } = {};
   users: string[];
   [key: string]: any;
 
@@ -224,15 +272,12 @@ export class Armor {
       }
     }
 
-    this.armor =
-      "Front: " +
-      this.frontArmor +
-      ", Side: " +
-      this.sideArmor +
-      ", Rear: " +
-      this.rearArmor +
-      ", Under: " +
-      this.underArmor;
+    this.armor ={
+      "Front": this.frontArmor,
+      "Side": this.sideArmor,
+      "Rear": this.rearArmor,
+      "Under": this.underArmor,
+    }
   }
 }
 
@@ -263,6 +308,7 @@ export class Item {
       t.autoShots = t.confAuto.shots;
       delete t.confAuto;
     }
+
   }
 
   attacks() {
@@ -294,9 +340,14 @@ export default class Ruleset {
   items: { [key: string]: Item } = {};
   armors: { [key: string]: Armor } = {};
   units: { [key: string]: Unit } = {};
+  crafts: { [key: string]: Craft } = {};
+  craftWeapons: { [key: string]: CraftWeapon } = {};
+  research: { [key: string]: Research } = {};
+  startingConditions: { [key: string]: StartingConditions } = {};
   bigSprite: string[] = [];
   floorSprite: string[] = [];
   handSprite: string[] = [];
+  baseSprite: string[] = [];
   sounds: string[] = [];
   modName: string;
   path: string;
@@ -379,7 +430,8 @@ export default class Ruleset {
       "armors",
       "ufopaedia",
       "manufacture",
-      "units"
+      "units",
+      "research"
     ]) {
       let merged = {};
       for (let data of this.raw[category]) {
@@ -418,14 +470,40 @@ export default class Ruleset {
       this.floorSprite = this.sprites["FLOOROB.PCK"].extra;
     if (this.sprites["HANDOB.PCK"])
       this.handSprite = this.sprites["HANDOB.PCK"].extra;
+    if (this.sprites["BASEBITS.PCK"])
+      this.baseSprite = this.sprites["BASEBITS.PCK"].extra;    
 
     if (this.raw.extraSounds[0]) this.sounds = this.raw.extraSounds[0].files;
 
     for (let data of this.raw.items) new Item(data);
     for (let data of this.raw.armors) new Armor(data);
     for (let data of this.raw.units) new Unit(data);
+    for (let data of this.raw.crafts) new Craft(data);
+    for (let data of this.raw.craftWeapons) new CraftWeapon(data);
+    for (let data of this.raw.startingConditions) new StartingConditions(data);
+    for (let data of this.raw.research) new Research(data);
 
-    console.log(this.units)
+    for(let item of Object.values(this.items)){
+      if(item.compatibleAmmo){
+        for(let ammoId of item.compatibleAmmo){
+          let ammo = this.items[ammoId]
+          if(ammo){
+            ammo.compatibleWeapons = ammo.compatibleWeapons || []
+            ammo.compatibleWeapons.push(item.type)
+          }
+        }
+      }
+    }
+
+    for(let research of Object.values(this.research)){
+      if(research.dependencies){
+        for(let depname of research.dependencies){
+          let dep = this.research[depname]
+          dep.leadsTo = dep.leadsTo || []
+          dep.leadsTo.push(research.name)
+        }
+      }
+    }
 
     this.search = new Search();
   }
@@ -461,8 +539,11 @@ export default class Ruleset {
 
   decamelize(str) {
     if (typeof str === "string") {
-      str = str.replace(/(.)([A-Z])/g, "$1&nbsp;$2");
-      str = str.substr(0, 1).toUpperCase() + str.substr(1);
+      if(str.includes("_") && str.search(/[a-z]/) == -1)
+        str = str.replace(/_/g, " ");
+      else
+        str = str.replace(/(.)([A-Z])/g, "$1&nbsp;$2");
+      str = str.substr(0, 1).toUpperCase() + str.substr(1).toLowerCase();
     }
     return str;
   }
@@ -479,6 +560,10 @@ export default class Ruleset {
   }
 
   article(id: string) {
+    if(!id || typeof id != "string"){
+      return null;
+    }    
+
     let article = this.articles[id];
     if (article) return article;
 
@@ -498,6 +583,17 @@ export default class Ruleset {
         id,
         type_id: 4,
         section: "STR_WEAPONS_AND_EQUIPMENT",
+        title: this.str(id)
+      });
+      this.articles[id] = article;
+      return article;
+    }
+
+    let research = this.research[id];
+
+    if(research) {
+      let article = new Article({
+        id,
         title: this.str(id)
       });
       this.articles[id] = article;

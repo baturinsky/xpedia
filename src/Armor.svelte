@@ -57,38 +57,60 @@
         {/if}
       {/each}
       <div style={'height:' + (seeAllVariants ? (Math.floor(Object.keys(armor.dollSprites).length / dollColumns) + 1) * 120 : 120) + 'px'} />
-    {/if}  
+    {/if}
   </td>
   </tr>
+  <tr>
+  <td colspan="2">
+    <div class="flex-horisontal">
+      {#each ['armor', 'damageModifier', 'stats'] as prop}
+        {#if armor[prop]}
+        <table class="number-table">
+        <tr><td colspan="2" class="table-header">{@html rul.decamelize(prop)}</td></tr>
+        {#each Object.keys(armor[prop]).sort() as field, i}
+          <tr>
+          <td>{@html prop=="damageModifier"?rul.damageTypeName(field):rul.decamelize(field)}</td>
+          <td>{@html prop=="damageModifier"?Math.floor(armor[prop][field]*100):rul.decamelize(armor[prop][field])}</td>
+          </tr>
+        {/each}
+        </table>
+        {/if}
+      {/each}
+    </div>
+  </td>
+  </tr>
+
   {#each Object.entries(armor).sort((a, b) => (a[0] > b[0] ? 1 : -1)) as prop}
     {#if !['type', 'layersDefinition', 'spriteFaceColor', 'spriteHairColor', 'spriteUtileColor', 'spriteFaceGroup', 'spriteHairGroup', 'spriteUtileGroup', 'customArmorPreviewIndex', 'dollSprites', 'layersDefaultPrefix',
-    'frontArmor', 'sideArmor', 'rearArmor', 'underArmor', 'tags'].includes(prop[0])}
+    'frontArmor', 'sideArmor', 'rearArmor', 'underArmor', 'spriteInv', 'scripts', 'armor', 'damageModifier', 'stats'].includes(prop[0])}
       <tr>
         <td>{@html rul.decamelize(prop[0])}</td>
         <td>
-          {#if prop[0] == 'damageModifier'}
-            <table class="numberTable">
+          {#if false}
+            -
+          {:else if prop[0] == 'damageModifier'}
+            <table class="number-table">
               {#each prop[1] as res, i}
                 <tr>
-                  <td width="50%" class="numberTable1">{rul.damageTypeName(i)}</td>
-                  <td width="50%" class="numberTable2">{Math.round(res * 100)}%</td>
+                  <td width="50%" class="number-table1">{rul.damageTypeName(i)}</td>
+                  <td width="50%" class="number-table2">{Math.round(res * 100)}%</td>
                 </tr>
               {/each}
             </table>
           {:else if ['storeItem', 'corpseGeo', 'specialWeapon'].includes(prop[0])}
             <Link href={prop[1]}/>
-          {:else if 'corpseBattle' == prop[0]}
+          {:else if ['corpseBattle'].includes(prop[0])}
             <Link href={prop[1][0]}/>            
           {:else if 'spriteSheet' == prop[0]}
             <a href={rul.sprite(prop[1])}>{prop[1]}</a>
           {:else if 'recovery' == prop[0]}
-            <table class="numberTable">
+            <table class="number-table">
               {#each Object.keys(prop[1]).sort() as field, i}
                 <tr>
                 <td class="rec">{@html rul.decamelize(field)}</td>
                 <td>
                   {#each Object.keys(prop[1][field]) as subfield, j}
-                    {#if j != 0}, {/if}
+                    {#if j != 0}<br/> {/if}
                     {@html rul.decamelize(subfield)}: {@html rul.decamelize(prop[1][field][subfield])}
                   {/each}                  
                 </td>
@@ -96,15 +118,16 @@
               {/each}
             </table>
           {:else if ['builtInWeapons','users', 'units'].includes(prop[0])}
-            {#each prop[1] as field, i}
+            {#each prop[1].filter(s => s.substr(0,8) != "INV_NULL") as field, i}
               {#if i != 0}, {/if}
               <Link href={field}/>
             {/each}
           {:else if prop[1] instanceof Object}
+            <table class="number-table">
             {#each Object.keys(prop[1]).sort() as field, i}
-              {#if i != 0}, {/if}
-              {@html rul.decamelize(field)}: {@html rul.decamelize(prop[1][field])}
+              <tr><td>{@html rul.decamelize(field)}</td><td>{@html rul.decamelize(prop[1][field])}</td></tr>
             {/each}
+            </table>
           {:else}
             {prop[1]}
           {/if}

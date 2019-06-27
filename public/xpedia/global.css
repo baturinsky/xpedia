@@ -20,7 +20,7 @@ a:visited {
 }
 
 .main-table tr:nth-child(odd){
-  background: #281C34;
+  background: #20152B;
 }
 
 .main-table tr:nth-child(even){
@@ -52,20 +52,25 @@ a:visited {
   padding-right: 5px;
 }
 
-.numberTable tr:nth-child(odd){
+
+.number-table{
+  border: solid 0.3px #382C44;
+}
+
+.number-table tr:nth-child(odd){
   background: #281C34;
 }
 
-.numberTable tr:nth-child(even){
+.number-table tr:nth-child(even){
   background: #180C24;
 }
 
-.numberTable1 {
+.number-table1 {
   text-align: right;
   padding-right: 5pt;
-  width: 70%;
+  width: 70%;  
 }
-.numberTable2 {
+.number-table2 {
   text-align: left;
   width: 30%;
 }
@@ -76,6 +81,11 @@ h1{
 
 h4{
   font-size: large;
+}
+
+em{
+  color: #99ffff;
+  font-style: normal;  
 }
 
 h1, h4{

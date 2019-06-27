@@ -3,7 +3,10 @@
   import Illustration from './Illustration.svelte';
   import Item from './Item.svelte';
   import Armor from './Armor.svelte';
+  import Craft from './Craft.svelte';
+  import CraftWeapon from './CraftWeapon.svelte';
   import Unit from './Unit.svelte';
+  import Research from './Research.svelte';
   import Section from './Section.svelte';
 
   export let article
@@ -59,5 +62,18 @@
   {#if article.id in rul.armors}
     <Armor armor={rul.armors[article.id]}/>
   {/if}  
+
+  {#if article.id in rul.crafts}
+    <Craft craft={rul.crafts[article.id]}/>
+  {/if}  
+
+  {#if article.id in rul.craftWeapons}
+    <CraftWeapon weapon={rul.craftWeapons[article.id]}/>
+  {/if}  
+
+  {#if article.id in rul.research}
+    <Research research={rul.research[article.id]}/>
+  {/if}  
+
 </div>
 

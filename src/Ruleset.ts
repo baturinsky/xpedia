@@ -1,7 +1,22 @@
 import Fuse from "fuse.js";
-import { utimes } from "fs";
+import Yaml from 'js-yaml'
+import JSZip from 'jszip'
 
 export let rul!: Ruleset;
+
+
+function parseYaml(text:string){
+  let files = text.split(/FILE:.*/g)
+  let data = []
+  for(let file of files){
+    if(file.substr(1,3) == "п»ї")
+      file = file.substr(4)
+    let yaml = Yaml.load(file, {json: true})
+    if(yaml)
+      data.push(yaml)
+  } 
+  return data 
+}
 
 export class Search {
   articles: Fuse<Article>;
@@ -27,6 +42,8 @@ export class Manufacture {
   requires: string;
   producedItems: { [key: string]: number };
   requiredItems: { [key: string]: number };
+  randomProducedItems: [number, { [key: string]: number }][]
+  chanceSum:number
 
   constructor(raw: any) {
     Object.assign(this, raw);
@@ -44,8 +61,8 @@ export class Manufacture {
       for (let itemName of Object.keys(this.producedItems)) {
         let item = rul.items[itemName];
         if (!item) continue;
-        if (!item.manufacture) item.manufacture = [];
-        item.manufacture.push(this.name);
+        if (!item.manufacture) item.manufacture = {};
+        item.manufacture[this.name] = this.producedItems[itemName];
       }
     }
 
@@ -53,9 +70,15 @@ export class Manufacture {
       for (let itemName of Object.keys(this.requiredItems)) {
         let item = rul.items[itemName];
         if (!item) continue;
-        if (!item.componentOf) item.componentOf = [];
-        item.componentOf.push(this.name);
+        if (!item.componentOf) item.componentOf = {};
+        item.componentOf[this.name] = this.requiredItems[itemName];
       }
+    }
+
+    if(this.randomProducedItems){
+      this.chanceSum = 0
+      for(let chance of this.randomProducedItems)
+        this.chanceSum += chance[0]
     }
 
   }
@@ -320,7 +343,10 @@ export class Armor {
     };
 
     if (this.storeItem && rul.items[this.storeItem]) {
-      rul.items[this.storeItem].armor = this.type;
+      let item = rul.items[this.storeItem]
+      if(!item.armors)
+        item.armors = []
+      item.armors.push(this.type);
     }
   }
 }
@@ -331,6 +357,7 @@ export class Item {
   battleType: number;
   invWidth = 1;
   invHeight = 1;
+  armors:string[]
   [key: string]: any;
   _attacks: Attack[];
 
@@ -352,6 +379,7 @@ export class Item {
       t.autoShots = t.confAuto.shots;
       delete t.confAuto;
     }
+
   }
 
   attacks() {
@@ -605,9 +633,29 @@ export default class Ruleset {
     return this.path + id;
   }
 
-  constructor(data: any) {
+  constructor(text: string, public onLoad:()=>void) {
     rul = this;
+
+    text = text.trim()
+
+    if(text.substr(0,6) == "base64"){
+      text = text.substr(6);
+      let zip = new JSZip();
+      zip.loadAsync(text, {base64:true}).then(() => {
+        console.log(zip);
+        zip.file("xpedia").async("text").then(unpacked => {
+          this.completeLoad(unpacked)
+        })        
+      })
+    } else {
+      this.completeLoad(text)
+    }
+  }
+
+  completeLoad(text:string){
+    let data = parseYaml(text)
     this.parse(data);
+    this.onLoad()
   }
 
   article(id: string) {

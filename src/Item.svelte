@@ -10,6 +10,14 @@
   export let title = "Item"
   let attacks
 
+  function soundsFrom(sounds){
+    if(!sounds)
+      return []
+    if(!sounds.length)
+      sounds = [sounds]
+    return sounds.map(s => rul.path + rul.sounds[s]).filter(s => s)
+  }
+
   $:{ 
       attacks = item.attacks().slice()
       if(item.compatibleAmmo)
@@ -140,23 +148,27 @@
       <tr>
         <td>{@html rul.decamelize(prop[0])}</td>
         <td class="right-column">
-        {#if ['compatibleAmmo', 'compatibleWeapons', 'categories', 'requiresBuy', 'manufacture', 'componentOf'].includes(prop[0])}
+        {#if ['armors', 'compatibleAmmo', 'compatibleWeapons', 'categories', 'requiresBuy', 'requires'].includes(prop[0])}
           <ItemList items={prop[1]} vertical={true}/>
+        {:else if ['manufacture', 'componentOf'].includes(prop[0])}
+          <table class="number-table">
+          {#each Object.keys(prop[1]).sort() as field, i}
+            <tr><td>{prop[1][field]}</td><td><Link href={field}/></td></tr>
+          {/each}
+          </table>
         {:else if ['damageBonus', 'meleeBonus', 'accuracyMultiplier', 'meleeMultiplier', 'closeQuartersMultiplier'].includes(prop[0])}
           <SpecialBonus bonus={prop[1]}/>
-        {:else if ['defaultInventorySlot', 'unprimeActionName', 'name', 'armor'].includes(prop[0])}
+        {:else if ['defaultInventorySlot', 'unprimeActionName', 'name'].includes(prop[0])}
           <Link href={prop[1]}/>
         {:else if ['damageType', 'meleeType'].includes(prop[0])}
           {rul.damageTypeName(prop[1])}
         {:else if prop[0] == 'battleType'}
           {prop[1]}: {rul.battleTypes[prop[1]]}
-        {:else if ['reloadSound', 'fireSound', 'meleeHitSound', 'hitSound'].includes(prop[0])}          
-          {#if rul.sounds[prop[1]]}
-            <a href={rul.sound(prop[1])}>{rul.sounds[prop[1]]}</a><br/>
-            <audio controls src={rul.sound(prop[1])}>Audio tag not working</audio>
-          {:else}
-            {prop[1]}
-          {/if}
+        {:else if prop[0].includes("Sound")}
+          {#each soundsFrom(prop[1]) as sound, i}
+            {@html i>0?"<br/>":""}
+            <audio controls src={sound}>Audio tag not working</audio>
+          {/each}
         {:else if ['floorSprite', 'handSprite'].includes(prop[0])}
           <a style="vertical-align:top" href={rul.specialSprite(prop[0], prop[1])}>{prop[1]}</a> 
           <img class="sprite" alt={prop[1]} src={rul.specialSprite(prop[0], prop[1])}/>

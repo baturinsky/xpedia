@@ -4,13 +4,14 @@
   "devDependencies": {
     "async-file": "^2.0.2",
     "fs-extra": "^8.0.1",
-    "jszip": "^3.2.1",
     "npm-run-all": "^4.1.5",
     "rimraf": "^2.6.3",
     "rollup": "^1.10.1",
+    "rollup-plugin-alias": "^1.5.2",
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
     "rollup-plugin-node-resolve": "^4.2.3",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^4.0.4",
@@ -26,20 +27,22 @@
     "build": "rollup -c && node makedist.js",
     "autobuild": "rollup -c -w",
     "dev": "run-p start:dev autobuild",
-    "start": "sirv public",
-    "start:dev": "sirv public --dev"
+    "start": "sirv public --port 5000",
+    "start:dev": "sirv public --port 5000 --dev"
   },
   "description": "OpenXCom pedia",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "@types/js-yaml": "^3.12.1",
+    "@types/jszip": "^3.1.6",
     "bulma": "^0.7.5",
     "caman": "^4.1.2",
     "cropperjs": "^1.5.1",
     "croppie": "^2.6.4",
     "fuse.js": "^3.4.5",
     "js-yaml": "^3.13.1",
+    "readable-stream": "^3.4.0",
     "svelma": "^0.0.8"
   }
 }

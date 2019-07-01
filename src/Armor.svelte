@@ -67,7 +67,7 @@
         {#if armor[prop]}
         <table class="number-table">
         <tr><td colspan="2" class="table-header">{@html rul.decamelize(prop)}</td></tr>
-        {#each Object.keys(armor[prop]).sort() as field, i}
+        {#each Object.keys(armor[prop]).sort((a,b) => rul.str(a)>rul.str(b)?1:-1) as field, i}
           <tr>
           <td>{@html prop=="damageModifier"?rul.damageTypeName(field):rul.decamelize(field)}</td>
           <td>{@html prop=="damageModifier"?Math.floor(armor[prop][field]*100):rul.decamelize(armor[prop][field])}</td>

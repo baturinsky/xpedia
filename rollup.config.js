@@ -16,6 +16,7 @@ export default {
 		file: 'public/xpedia/bundle.js'
 	},
 	plugins: [
+
 		svelte({
 			// enable run-time checks when not in production
 			dev: !production,
@@ -31,10 +32,11 @@ export default {
 		// some cases you'll need additional configuration —
 		// consult the documentation for details:
 		// https://github.com/rollup/rollup-plugin-commonjs
-    resolve({ browser: true, preferBuiltins: true }),
+    resolve({ browser: true, preferBuiltins: false  }),
     typescript({
       tsconfig: "tsconfig.json"
     }), 
+
 		commonjs(),
 
 		// Watch the `public` directory and refresh the
@@ -43,7 +45,7 @@ export default {
 
 		// If we're building for production (npm run build
 		// instead of npm run dev), minify
-		production && terser()
+    production && terser()        
 	],
 	watch: {
 		clearScreen: false

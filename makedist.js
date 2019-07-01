@@ -14,6 +14,8 @@ let files = [
   "xpedia/bulmaswatch.min.css",
   "xpedia/0.png",
   "xpedia/xpedia.html.header",
+  "xpedia/jszip.min.js",
+  "xpedia.js",
   "xpedia.bat",
   "XPEDIA_README.txt"
 ];

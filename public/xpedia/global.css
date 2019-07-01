@@ -7,16 +7,12 @@ body {
 }
 
 a {
-	color: lightgreen;
+	color: #90ee90;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
-}
-
-a:visited {
-	color: lightseagreen;
 }
 
 .main-table tr:nth-child(odd){
@@ -63,6 +59,10 @@ a:visited {
 
 .number-table tr:nth-child(even){
   background: #180C24;
+}
+
+.number-table td:first-child{
+  text-align: right;
 }
 
 .number-table1 {

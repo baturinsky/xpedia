@@ -14,6 +14,8 @@
     img.height = img.naturalHeight * zoom;
   }
 
+  console.log(id);
+
 </script>
 
 <style>
@@ -25,7 +27,7 @@
   }
 </style>
 
-{#if rul.sprite(id)}
+{#if id && rul.sprite(id)}
   <div>
     <img
       class="pedia-image"

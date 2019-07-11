@@ -5,7 +5,7 @@
   
   export let research;
   export let title = "Research"
-  let longLists = ['requiresBaseFunc', 'manufacture', 'getOneFree', 'getOneFreeProtected', 'freeFrom', 'unlocks', 'dependencies', 'leadsTo', 'disables']
+  let longLists = ['requiresBaseFunc', 'manufacture', 'getOneFree', 'freeFrom', 'unlocks', 'dependencies', 'leadsTo', 'disables']
 
   $: {
     console.log(research);
@@ -13,16 +13,17 @@
 </script>
 
 <style>
+.main-table{
+  min-width: 300px;
+}
 </style>
 
-<table class="main-table" style="min-width:520px;">
+<table class="main-table">
   <tr>
     <td colspan="2" class="table-header"><Link href={title}/></td>
   </tr>
-  {#each Object.entries(research).sort((a, b) =>
-    (longLists.includes(a)?-10:10) + (a[0] > b[0] ? 1 : -1)
-  ) as prop}
-    {#if longLists.includes(prop[0])}
+  {#each Object.entries(research).sort((a, b) => (longLists.includes(b[0])?-10:10) + (a[0] > b[0] ? 1 : -1)) as prop}
+    {#if longLists.includes(prop[0]) && prop[1] && prop[1].length>0}
       <tr><td colspan="2" class="table-subheader">{rul.decamelize(prop[0])}</td></tr>
       <tr><td colspan="2" class="cols" style="columns:2;">
         <ul>
@@ -31,6 +32,11 @@
           {/each}
         </ul>
       </td></tr>
+    {:else if prop[0] == 'getOneFreeProtected'}
+      <tr><td colspan="2" class="table-subheader">{rul.decamelize(prop[0])}</td></tr>
+      {#each Object.keys(prop[1]) as key}
+      <tr><td><Link href={key}/></td><td><ItemList items={prop[1][key]}/></td></tr>
+      {/each}
     {:else}
       {#if !['name'].includes(prop[0])}
         <tr>        

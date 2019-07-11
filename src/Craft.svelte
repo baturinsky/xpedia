@@ -26,7 +26,7 @@
           {:else if ['requires'].includes(prop[0])}
             <ItemList items={prop[1]} vertical={true}/>
           {:else if ['startingConditions'].includes(prop[0])}
-            <ItemList items={prop[1].map(a => 'CONDITIONS_' + a)} vertical={true}/>
+            <ItemList items={prop[1]} vertical={true}/>
           {:else if ['refuelItem'].includes(prop[0])}
             <Link href={prop[1]}/>
           {:else if ['weaponTypes'].includes(prop[0])}

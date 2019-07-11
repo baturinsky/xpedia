@@ -106,7 +106,6 @@ export class Manufacture {
       section: "MANUFACTURE",
       type_id: "MANUFACTURE"
     });
-
   }
 }
 
@@ -119,6 +118,7 @@ export class Research {
   freeFrom: string[];
   manufacture: string[];
   lookup: string;
+  spawnedItem: string;
 
   constructor(raw: any) {
     Object.assign(this, raw);
@@ -129,7 +129,6 @@ export class Research {
       section: "RESEARCH",
       type_id: "RESEARCH"
     });
-
   }
 }
 
@@ -176,12 +175,11 @@ export class Ufo {
 export class Facility {
   type: string;
 
-  constructor(raw: any) {    
+  constructor(raw: any) {
     Object.assign(this, raw);
     rul.facilities[this.type] = this;
   }
 }
-
 
 export class StartingConditions {
   allowedCraft: string[] = [];
@@ -333,13 +331,13 @@ export class Article {
   image_id: string;
   type_id: string;
   section: Section;
-  lookup: string[] = []
+  lookup: string[] = [];
 
   static create(raw: any) {
-    if (raw.id in rul.articles){
+    if (raw.id in rul.articles) {
       let article = rul.articles[raw.id];
-      if(raw.section && article.section != raw.section){
-        rul.sections[raw.section].add(article)
+      if (raw.section && article.section != raw.section) {
+        rul.sections[raw.section].add(article);
       }
       return article;
     }
@@ -391,10 +389,8 @@ export class Section {
   }
 
   add(article: Article) {
-    if (!this._articles.includes(article)) 
-      this._articles.push(article);
-    if(!article.section)
-      article.section = this;
+    if (!this._articles.includes(article)) this._articles.push(article);
+    if (!article.section) article.section = this;
   }
 }
 
@@ -475,6 +471,7 @@ export class Item {
   armors: string[];
   [key: string]: any;
   _attacks: Attack[];
+  spawnedBy: string[];
 
   constructor(raw: any) {
     Object.assign(this, raw);
@@ -621,8 +618,7 @@ export default class Ruleset {
 
     let articleTypes = ["CONDITIONS", "RESEARCH", "ITEMS", "MANUFACTURE"];
 
-    for(let type of articleTypes)
-      new Section(type, "TYPE");    
+    for (let type of articleTypes) new Section(type, "TYPE");
 
     for (let category of [
       "items",
@@ -721,8 +717,13 @@ export default class Ruleset {
           dep.freeFrom.push(research.name);
         }
       }
-      if(research.lookup){
-        this.articles[research.lookup].lookup.push(research.name)
+      if (research.lookup) {
+        this.articles[research.lookup].lookup.push(research.name);
+      }
+      if (research.spawnedItem) {
+        let item = rul.items[research.spawnedItem];
+        item.spawnedBy = item.spawnedBy || [];
+        item.spawnedBy.push(research.name);
       }
     }
 
@@ -730,8 +731,10 @@ export default class Ruleset {
       .filter(a => a.units)
       .map(a => a.type);
 
-    for(let type of articleTypes)
-      rul.sections[type]._articles = rul.sections[type].articles.sort( (a,b) => a.title<b.title?-1:1)
+    for (let type of articleTypes)
+      rul.sections[type]._articles = rul.sections[type].articles.sort((a, b) =>
+        a.title < b.title ? -1 : 1
+      );
 
     console.log(this);
 

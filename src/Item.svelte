@@ -148,7 +148,7 @@
       <tr>
         <td>{@html rul.decamelize(prop[0])}</td>
         <td class="right-column">
-        {#if ['armors', 'compatibleAmmo', 'compatibleWeapons', 'categories', 'requiresBuy', 'requires'].includes(prop[0])}
+        {#if ['spawnedBy', 'armors', 'compatibleAmmo', 'compatibleWeapons', 'categories', 'requiresBuy', 'requires'].includes(prop[0])}
           <ItemList items={prop[1]} vertical={true}/>
         {:else if ['manufacture', 'componentOf'].includes(prop[0])}
           <table class="number-table">

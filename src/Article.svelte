@@ -36,11 +36,6 @@
   .article-text {
     padding: 5px 0px 5px 0px;
   }
-  .manufacture_and_research {
-    display: flex vertical;
-    align-items: flex-start;
-    justify-content: stretch;
-  }
 </style>
 
 <svelte:head>
@@ -96,7 +91,7 @@
     <Facility facility={rul.facilities[article.id]} />
   {/if}
 
-  <div class="manufacture_and_research">
+  <div class="flex-vertical">
     {#if article.id in rul.manufacture}
       <Manufacture manufacture={rul.manufacture[article.id]} />
     {/if}

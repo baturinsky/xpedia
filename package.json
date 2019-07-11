@@ -38,12 +38,8 @@
     "@types/jszip": "^3.1.6",
     "bulma": "^0.7.5",
     "caman": "^4.1.2",
-    "cropperjs": "^1.5.1",
-    "croppie": "^2.6.4",
     "fuse.js": "^3.4.5",
     "js-yaml": "^3.13.1",
-    "readable-stream": "^3.4.0",
-    "svelma": "^0.0.8",
     "yaml": "^1.6.0"
   }
 }

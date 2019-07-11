@@ -3,6 +3,8 @@
   import { tick, afterUpdate } from "svelte";
   import { rul } from "./Ruleset";
   import Article from "./Article.svelte";
+  import Link from "./Link.svelte";
+  import LinksList from "./LinksList.svelte";
 
   export let source
 
@@ -26,26 +28,12 @@
 
   function checkHash() {
     let hash = document.location.hash;
-    let first_ = hash.indexOf('_')
-    if(first_ == -1)
-      return;
-    mode = hash.substr(1, first_ - 1)
-    /*console.log(mode);
-    debugger;*/
     if (hash) {
-      if (mode == "PEDIA") {
-        selectSection(hash.substr(7));
-        article = rul.article(hash.substr(1));
-      } else if (mode == "CATEGORY") {
-        article = rul.article(hash.substr(1));
-      } else if (mode == "CONDITIONS") {
-        article = rul.article(hash.substr(1));
-      } else if (mode == "SEARCH") {
+      mode = hash.substr(0,8) == "#SEARCH_"?"SEARCH":"ARTICLE";
+      if (mode == "SEARCH") {
         query = hash.substr(8);
         query = query.replace("%20", " ");
-
-        found = rul.search.findArticles(query);        
-
+        found = rul.search.findArticles(query).map(a => a.id);
         article = null;
       } else {
         found = null;
@@ -94,8 +82,7 @@
   })
 
   $:{
-    if(article)
-      console.info(article);
+    console.info(article || "no article");
   }
 </script>
 
@@ -124,7 +111,7 @@
    height: 100px;
    margin-top: -50px; /* Half the height */
    margin-left: -50px; /* Half the width */
-  }  
+  }
 
 </style>
 
@@ -140,7 +127,7 @@
 
     <div class="navbar-start">
       <div class="navbar-item has-dropdown is-hoverable">
-        <a href={"#PEDIA_" + (currentSection?currentSection.id:"MAIN")} class="navbar-link">
+        <a href={"#" + (currentSection?currentSection.id:"MAIN")} class="navbar-link">
           <img src="xpedia/favicon.png" alt="favicon" />
            {rul.modName} XPedia {currentSection?": " + currentSection.title : ""}
         </a>
@@ -148,14 +135,14 @@
           <div style="display:flex">
             <div>
               {#each rul.sectionsOrder as section}
-                <a class="navbar-item" href={'#PEDIA_' + section.id}>
+                <a class="navbar-item" href={'#' + section.id}>
                   {section.title}
                 </a>
               {/each}
             </div>
             <div>
               {#each rul.typeSectionsOrder as section}
-                <a class="navbar-item" href={'#PEDIA_' + section.id}>
+                <a class="navbar-item" href={'#' + section.id}>
                   {section.title}
                 </a>
               {/each}
@@ -211,13 +198,11 @@
     {/if}
 
     {#if found}
-      <ul>
-        {#each found as option}
-          <li>
-            <a href={'#' + option.id}>{option.title}</a>
-          </li>
-        {/each}
-      </ul>
+      {#if found.length>0}
+        <LinksList links={found}/>
+      {:else}
+        No "<em>{query}</em>" found
+      {/if}
     {/if}
   </div>
 </div>

@@ -10,6 +10,9 @@
   import Manufacture from "./Manufacture.svelte";
   import Conditions from "./Conditions.svelte"
   import LinksList from "./LinksList.svelte";
+  import Ufo from "./Ufo.svelte";
+  import Facility from "./Facility.svelte";
+  import Link from "./Link.svelte";
 
   export let article;
   export let query;
@@ -54,16 +57,14 @@
   {@html textwithHighlights}
 </div>
 
-{#if article.type_id == -1}
-  {#if article.mode == "PEDIA"}
-    <LinksList links={rul.sections[article.query].articles.map(a => a.id)} />
-  {:else if article.mode == "CONDITIONS"}
-    <Conditions conditions={rul.startingConditions[article.query]}/>    
-  {/if}
+{#if article.type_id == "PEDIA" || article.type_id == "TYPE"}
+  <LinksList links={rul.sections[article.id].articles.map(a => a.id)} />
+{:else if article.type_id == "CONDITIONS"}
+  <Conditions conditions={rul.startingConditions[article.id]}/>    
 {/if}
 
 <div class="flex-horisontal">
-  <div>
+  <div class="flex-vertical">
     {#if article.id in rul.units}
       <Unit unit={rul.units[article.id]} />
     {/if}
@@ -87,6 +88,14 @@
     <CraftWeapon weapon={rul.craftWeapons[article.id]} />
   {/if}
 
+  {#if article.id in rul.ufos}
+    <Ufo ufo={rul.ufos[article.id]} />
+  {/if}
+
+  {#if article.id in rul.facilities}
+    <Facility facility={rul.facilities[article.id]} />
+  {/if}
+
   <div class="manufacture_and_research">
     {#if article.id in rul.manufacture}
       <Manufacture manufacture={rul.manufacture[article.id]} />
@@ -95,6 +104,11 @@
     {#if article.id in rul.research}
       <Research research={rul.research[article.id]} />
     {/if}
+
+    {#each article.lookup as researchId}
+      <Research research={rul.research[researchId]} title={researchId}/>
+    {/each}
+
   </div>
 
 </div>

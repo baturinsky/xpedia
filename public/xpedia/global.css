@@ -32,6 +32,10 @@ a:hover {
   padding: 2px;
 }
 
+.main-table > tr > td:first-child{
+  width: 150px;
+}
+
 .brighter{
   background: #281C34;  
 }
@@ -100,9 +104,16 @@ h1, h4{
   font-size: larger;
 }
 
+.table-subheader{
+  color: #66ffff;
+  background: #382C44;
+  text-align: center;
+}
+
+
 .flex-horisontal{
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
@@ -111,10 +122,23 @@ h1, h4{
   margin: 1px;
 }
 
+.flex-vertical{
+  display: flex vertical;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
 input::placeholder { 
   color: green; 
 } 
 
+.cols {
+  columns: 250px;
+  padding-left: 20px;
+  color: green;
+  margin-right: 10px;
+  padding-top: 0px;
+}
 
 .pixelated {
   image-rendering:optimizeSpeed;             /* Legal fallback */

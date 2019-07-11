@@ -3,7 +3,7 @@
   import Link from "./Link.svelte";
 
   export let armor;
-  let dollColumns = 10;
+  let dollColumns = 6;
   let seeAllVariants = false;
   let zoom = 1;
 
@@ -13,6 +13,9 @@
 <style>
   .rec{
     padding-right: 10pt;
+  }
+  .armors{
+    min-width:600px;
   }
   .armor {
     pointer-events: none;
@@ -35,29 +38,31 @@
   <tr> <td colspan="2" class="table-header">Armor</td> </tr>
   <tr>
   <td colspan="2">
-    {#if Object.keys(armor.dollSprites).length > 1}
-      <p>
-        <button class="button" style="width:170px" on:click={e => (seeAllVariants = !seeAllVariants)}>
-          {seeAllVariants ? 'Hide' : 'See'} all variants
-        </button>
-      </p>
-    {/if}
+    <div class="armors">
+      {#if Object.keys(armor.dollSprites).length > 1}
+        <p>
+          <button class="button" style="width:170px" on:click={e => (seeAllVariants = !seeAllVariants)}>
+            {seeAllVariants ? 'Hide' : 'See'} all variants
+          </button>
+        </p>
+      {/if}
 
-    {#if armor.dollSprites}
-      {#each Object.keys(armor.dollSprites).sort((a,b) => rul.bodiesCompare([a,b]))  as body, i}
-        {#if seeAllVariants || i == 0}
-          <div
-            class="armor"
-            style={'left:' + (i % dollColumns) * 80 + 'px;' + 'top:' + Math.floor(i / dollColumns) * 120 + 'px;'}>
-            {#if seeAllVariants}<div class="armor-variant">{body}</div>{/if}
-            {#each armor.dollSprites[body] as url, j}
-              <img src={url} alt={body} class="armor-layer" />
-            {/each}
-          </div>
-        {/if}
-      {/each}
-      <div style={'height:' + (seeAllVariants ? (Math.floor(Object.keys(armor.dollSprites).length / dollColumns) + 1) * 120 : 120) + 'px'} />
-    {/if}
+      {#if armor.dollSprites}
+        {#each Object.keys(armor.dollSprites).sort((a,b) => rul.bodiesCompare([a,b]))  as body, i}
+          {#if seeAllVariants || i == 0}
+            <div
+              class="armor"
+              style="left:{(i % dollColumns) * 80}px; top:{Math.floor(i / dollColumns) * 120}px;">
+              {#if seeAllVariants}<div class="armor-variant">{body}</div>{/if}
+              {#each armor.dollSprites[body] as url, j}
+                <img src={url} alt={body} class="armor-layer" />
+              {/each}
+            </div>
+          {/if}
+        {/each}
+        <div style={'height:' + (seeAllVariants ? (Math.floor(Object.keys(armor.dollSprites).length / dollColumns) + 1) * 120 : 120) + 'px'} />
+      {/if}
+    </div>
   </td>
   </tr>
   <tr>

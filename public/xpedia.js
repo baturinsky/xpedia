@@ -34,7 +34,7 @@ let header = fs.readFileSync(pedia_header)
 
 for (let f of files) {
   if (!f.includes(".rul")) continue;
-  all.push("FILE:" + f);
+  all.push("FILE: " + f);
   all.push(fs.readFileSync(f));
 }
 

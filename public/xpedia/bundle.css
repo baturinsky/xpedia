@@ -1,10 +1,9 @@
-.sidebar.svelte-1yen1kq{height:95%;position:fixed;overflow-y:auto;overflow-x:hidden}.menu-list.svelte-1yen1kq a.svelte-1yen1kq:visited{color:white}.active-article-option.svelte-1yen1kq{background:#584C64}
-.article-text.svelte-haplcz{padding:5px 0px 5px 0px}
-.pedia-image.svelte-3txty7{image-rendering:pixelated;image-rendering:crisp-edges;float:right;padding:5px}
-.rec.svelte-wow0jv{padding-right:10pt}.armor.svelte-wow0jv{pointer-events:none;position:relative}.armor-layer.svelte-wow0jv{position:absolute;top:-30px;left:0px}.armor-variant.svelte-wow0jv{left:40px;position:absolute;opacity:0.5;font-size:small}
+.sidebar.svelte-1i246wu{height:95%;position:fixed;overflow-y:auto;overflow-x:hidden}.menu-list.svelte-1i246wu a.svelte-1i246wu:visited{color:white}.active-article-option.svelte-1i246wu{background:#584C64}.centered.svelte-1i246wu{position:fixed;top:50%;left:50%;width:100px;height:100px;margin-top:-50px;margin-left:-50px}
+.article-text.svelte-18b4qiy{padding:5px 0px 5px 0px}.manufacture_and_research.svelte-18b4qiy{display:flex vertical;align-items:flex-start;justify-content:stretch}
 td.svelte-wgeo39{padding:0px 2px}.sprite.svelte-wgeo39{image-rendering:pixelated;image-rendering:crisp-edges}.right-column.svelte-wgeo39{vertical-align:top}audio.svelte-wgeo39{height:20px;width:300px}.attacks-table.svelte-wgeo39{min-width:800px}.attacks-table.svelte-wgeo39 td.svelte-wgeo39{border:solid 0.3px #382C44;font-size:14pt}.attacks-table.svelte-wgeo39 thead.svelte-wgeo39{background:#382C44}img.svelte-wgeo39{max-width:100%}.ammo-img.svelte-wgeo39{text-align:center;vertical-align:middle;padding:0px 2px 0px 0px}
+.pedia-image.svelte-3txty7{image-rendering:pixelated;image-rendering:crisp-edges;float:right;padding:5px}
+.rec.svelte-13250yc{padding-right:10pt}.armors.svelte-13250yc{min-width:600px}.armor.svelte-13250yc{pointer-events:none;position:relative}.armor-layer.svelte-13250yc{position:absolute;top:-30px;left:0px}.armor-variant.svelte-13250yc{left:40px;position:absolute;opacity:0.5;font-size:small}
 .panels3.svelte-8df2j8 td.svelte-8df2j8{padding-right:10px;vertical-align:top}
-.cols.svelte-1q9em4x{padding-left:5px;height:100%;columns:250px;padding-left:15px;color:green}
-figure.svelte-10w4p3y{overflow:hidden;padding:0px;margin:0px}img.svelte-10w4p3y{image-rendering:pixelated;image-rendering:crisp-edges}
+.cols.svelte-2op7nc{columns:250px;padding-left:20px;color:green;margin-right:10px;padding-top:0px}.contain.svelte-2op7nc{border:solid 0.3px #382C44}.header.svelte-2op7nc{text-align:center;color:#66ffff;background:#281C34;padding:2px}
 
 /*# sourceMappingURL=bundle.css.map */

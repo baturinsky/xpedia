@@ -8,7 +8,8 @@
   import Unit from "./Unit.svelte";
   import Research from "./Research.svelte";
   import Manufacture from "./Manufacture.svelte";
-  import Section from "./Section.svelte";
+  import Conditions from "./Conditions.svelte"
+  import LinksList from "./LinksList.svelte";
 
   export let article;
   export let query;
@@ -32,10 +33,15 @@
   .article-text {
     padding: 5px 0px 5px 0px;
   }
+  .manufacture_and_research {
+    display: flex vertical;
+    align-items: flex-start;
+    justify-content: stretch;
+  }
 </style>
 
 <svelte:head>
-  <title>{article.title}</title>
+  <title>{article.title || "XPedia"}</title>
 </svelte:head>
 
 <h1>{article.title || article.id}</h1>
@@ -49,7 +55,11 @@
 </div>
 
 {#if article.type_id == -1}
-  <Section section={rul.sections[article.id.substr(6)]} />
+  {#if article.mode == "PEDIA"}
+    <LinksList links={rul.sections[article.query].articles.map(a => a.id)} />
+  {:else if article.mode == "CONDITIONS"}
+    <Conditions conditions={rul.startingConditions[article.query]}/>    
+  {/if}
 {/if}
 
 <div class="flex-horisontal">
@@ -77,7 +87,7 @@
     <CraftWeapon weapon={rul.craftWeapons[article.id]} />
   {/if}
 
-  <div>
+  <div class="manufacture_and_research">
     {#if article.id in rul.manufacture}
       <Manufacture manufacture={rul.manufacture[article.id]} />
     {/if}

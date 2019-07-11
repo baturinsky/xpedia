@@ -3,15 +3,15 @@ import App from './App.svelte';
 
 window.onload = function(){
 
-  new Ruleset(document.body.textContent, () => {
-    console.log(123);
-    document.body.innerHTML = ""
-    document.body.style.display = "block"
+  let rulesText = document.body.textContent
+  document.body.innerHTML = ""
+  document.body.style.display = "block"
 
-    app = new App({
-      target: document.body
-    });
-  })
+  new Ruleset()
+  app = new App({
+    props: {source: rulesText},
+    target: document.body
+  });
     
 }
 

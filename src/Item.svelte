@@ -4,7 +4,7 @@
   import SpecialBonus from "./SpecialBonus.svelte"
   import ItemList from "./ItemList.svelte"  
   import Link from "./Link.svelte";
-  import SmartImage from "./SmartImage.svelte"
+  import CanvasImage from "./CanvasImage.svelte"
 
   export let item;
   export let title = "Item"
@@ -28,10 +28,10 @@
           attacks.push(ammoAttack)
         }
 
-      console.log(attacks)
+      console.info(attacks)
     }
 
-  console.log(item)
+  console.info(item)
 </script>
 
 <style>
@@ -79,8 +79,8 @@
   <tr> <td colspan="2" class="table-header">{title}</td> </tr>
   {#if (item.sprite && item.sprite != "Resources/Blanks/Blank.png") ||attacks.length > 0}
     <tr> <td colspan="2">
-      <div style="display: flex;">
-      <Illustration id={item.sprite} left={true} maxZoom={2}/>
+      <div style="display: flex; align-items: flex-start;">
+      <CanvasImage style="padding:3px" src={rul.sprite(item.sprite)} maxWidth={32*item.invWidth} maxHeight={32*item.invHeight} zoom="2"/>
       {#if attacks.length > 0}
         <table class="attacks-table">
           <thead>
@@ -96,7 +96,7 @@
               {#if attack.mode == "ammo"}
                 {#if item.battleType != 2}
                   <td rowspan="2" class="ammo-img">
-                    <SmartImage src={rul.sprite(attack.item.sprite)} maxWidth={32*attack.item.invWidth} maxHeight={32*attack.item.invHeight} zoom="2"/>
+                    <CanvasImage src={rul.sprite(attack.item.sprite)} maxWidth={32*attack.item.invWidth} maxHeight={32*attack.item.invHeight} zoom="2"/>
                     <!--<img class="sprite" use:ammoSprite style="position:relative;" alt="X" src={rul.sprite(attack.item.sprite)}/>-->                    
                   </td> 
                   <td colspan="2">
@@ -104,12 +104,12 @@
                   </td>
                 {/if}          
               {:else}
-                <td rowspan="2">{attack.mode}{attack.shots==1?"":"×" + attack.shots}</td> 
-                <td><em>{attack.accuracy}</em> <small><SpecialBonus plus={true} bonus={attack.accuracyMultiplier}/></small> </td>
+                <td rowspan="2">{attack.name}{attack.shots==1?"":"×" + attack.shots}</td> 
+                <td><em>{attack.accuracy}</em><small>%<br/><SpecialBonus bonus={attack.accuracyMultiplier}/></small> </td>
                 <td>
                 <em>{attack.cost.time + (attack.flatTime?"":"%")}</em> <small>TU</small>                
                 {#each Object.keys(attack.cost) as res}
-                  {#if res != 'time'}<br/><em>{attack.cost[res]}</em>&nbsp;<small>{res}</small>{/if}
+                  {#if res != 'time' && attack.cost[res] != 0}<br/><em>{attack.cost[res]}</em>&nbsp;<small>{res}</small>{/if}
                 {/each}                
                 </td>
               {/if}          

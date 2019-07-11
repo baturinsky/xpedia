@@ -8,7 +8,7 @@
   export let style = ""
 
   function loaded(img) {
-    console.log(img)
+    console.info(img)
     let zoom = Math.min(maxZoom, Math.max(1, Math.floor(maxWidth / img.naturalWidth)))
     img.width = img.naturalWidth * zoom;
     img.height = img.naturalHeight * zoom;

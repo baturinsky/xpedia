@@ -6,7 +6,7 @@
   
   export let craft;
 
-  $: {console.log(craft)}
+  $: {console.info(craft)}
 
 </script>
 
@@ -23,8 +23,10 @@
             {/each}            
           {:else if ['sprite'].includes(prop[0])}
             <img class="sprite" alt='X' src={rul.specialSprite("baseSprite", prop[1]*1 + 33)}/>
-          {:else if ['requires', 'startingConditions'].includes(prop[0])}
+          {:else if ['requires'].includes(prop[0])}
             <ItemList items={prop[1]} vertical={true}/>
+          {:else if ['startingConditions'].includes(prop[0])}
+            <ItemList items={prop[1].map(a => 'CONDITIONS_' + a)} vertical={true}/>
           {:else if ['refuelItem'].includes(prop[0])}
             <Link href={prop[1]}/>
           {:else if ['weaponTypes'].includes(prop[0])}

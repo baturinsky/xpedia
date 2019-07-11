@@ -25,7 +25,7 @@ a:hover {
 
 .main-table{
   border: solid 0.3px #382C44;
-  margin: 10px 0px;
+  margin: 0px;
 }
 
 .main-table td{
@@ -84,18 +84,18 @@ h4{
 }
 
 em{
-  color: #99ffff;
+  color: #66ffff;
   font-style: normal;  
 }
 
 h1, h4{
   border-bottom: solid 1px #483C54;
   margin: 10px 0px;
-  color: #99ffff;
+  color: #aaffff;
 }
 
 .table-header{
-  color: #99ffff;
+  color: #66ffff;
   text-align: center;
   font-size: larger;
 }
@@ -104,8 +104,30 @@ h1, h4{
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .flex-horisontal > *{
   margin: 1px;
+}
+
+input::placeholder { 
+  color: green; 
+} 
+
+
+.pixelated {
+  image-rendering:optimizeSpeed;             /* Legal fallback */
+  image-rendering:-moz-crisp-edges;          /* Firefox        */
+  image-rendering:-o-crisp-edges;            /* Opera          */
+  image-rendering:-webkit-optimize-contrast; /* Safari         */
+  image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+  image-rendering:crisp-edges;               /* CSS4 Proposed  */
+  image-rendering:pixelated;                 /* CSS4 Proposed  */
+  -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+}
+
+.crisp-edges {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }

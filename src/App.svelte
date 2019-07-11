@@ -4,12 +4,21 @@
   import { rul } from "./Ruleset";
   import Article from "./Article.svelte";
 
+  export let source
+
   let article = null;
   let found = null;
   let query = "";
   let currentSection = null;
   let activeOption;
   let ignoreNextAutoscroll = false;
+  let mode = ""
+
+  async function loadRules(){
+    await rul.load(source)
+  }
+
+  let rulesLoaded = loadRules();
 
   function goTo(id) {
     window.location.hash = "#" + id;
@@ -17,11 +26,21 @@
 
   function checkHash() {
     let hash = document.location.hash;
+    let first_ = hash.indexOf('_')
+    if(first_ == -1)
+      return;
+    mode = hash.substr(1, first_ - 1)
+    /*console.log(mode);
+    debugger;*/
     if (hash) {
-      if (hash.substr(0, 7) == "#PEDIA_") {
+      if (mode == "PEDIA") {
         selectSection(hash.substr(7));
         article = rul.article(hash.substr(1));
-      } else if (hash.substr(0, 8) == "#search:") {
+      } else if (mode == "CATEGORY") {
+        article = rul.article(hash.substr(1));
+      } else if (mode == "CONDITIONS") {
+        article = rul.article(hash.substr(1));
+      } else if (mode == "SEARCH") {
         query = hash.substr(8);
         query = query.replace("%20", " ");
 
@@ -56,7 +75,7 @@
 
   function searchKeyUp(e) {
     if (e.key == "Enter") {
-      goTo("search:" + e.target.value);
+      goTo("SEARCH_" + e.target.value);
     }
   }
 
@@ -66,7 +85,7 @@
 
   window.onhashchange = checkHash;
 
-  checkHash();
+  rulesLoaded.then(checkHash);
 
   afterUpdate(() => {
     if(activeOption){
@@ -75,7 +94,8 @@
   })
 
   $:{
-    console.log(article);
+    if(article)
+      console.info(article);
   }
 </script>
 
@@ -95,9 +115,24 @@
   .active-article-option {
     background: #584C64;
   }
+
+  .centered {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   width: 100px;
+   height: 100px;
+   margin-top: -50px; /* Half the height */
+   margin-left: -50px; /* Half the width */
+  }  
+
 </style>
 
 <svelte:head>{#if !article}<title>XPedia</title>{/if}</svelte:head>
+
+{#await rulesLoaded}
+<img class="centered" alt="Loading rules..." src="xpedia/spinner.svg"/>
+{:then}
 
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
 
@@ -110,11 +145,22 @@
            {rul.modName} XPedia {currentSection?": " + currentSection.title : ""}
         </a>
         <div class="navbar-dropdown">
-          {#each rul.sectionsOrder as section}
-            <a class="navbar-item" href={'#PEDIA_' + section.id}>
-               {section.title}
-            </a>
-          {/each}
+          <div style="display:flex">
+            <div>
+              {#each rul.sectionsOrder as section}
+                <a class="navbar-item" href={'#PEDIA_' + section.id}>
+                  {section.title}
+                </a>
+              {/each}
+            </div>
+            <div>
+              {#each rul.typeSectionsOrder as section}
+                <a class="navbar-item" href={'#PEDIA_' + section.id}>
+                  {section.title}
+                </a>
+              {/each}
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -133,9 +179,9 @@
   </div>
 </nav>
 
-<div class="columns is-fullheight" style="height:100%;:black;">
+<div class="columns is-fullheight" style="height:100%;">
   <div class="column is-2 is-sidebar-menu is-hidden-mobile sidebar padding-top">
-    {#each rul.sectionsOrder as section}
+    {#each (article && article.section && article.section.isType())?rul.typeSectionsOrder:rul.sectionsOrder as section}
       {#if !currentSection || section.id == currentSection.id}
         <p class="menu-label">{section.title}</p>
         <ul class="menu-list">
@@ -175,3 +221,5 @@
     {/if}
   </div>
 </div>
+
+{/await}

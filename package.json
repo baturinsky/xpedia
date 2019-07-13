@@ -17,6 +17,7 @@
     "rollup-plugin-terser": "^4.0.4",
     "rollup-plugin-typescript": "^1.0.1",
     "rollup-plugin-typescript2": "^0.21.1",
+    "rollup-plugin-sourcemaps": "^0.4.2",
     "sirv-cli": "^0.4.0",
     "svelte": "^3.0.0",
     "tslib": "^1.10.0",
@@ -37,9 +38,9 @@
     "@types/js-yaml": "^3.12.1",
     "@types/jszip": "^3.1.6",
     "bulma": "^0.7.5",
-    "caman": "^4.1.2",
     "fuse.js": "^3.4.5",
     "js-yaml": "^3.13.1",
+    "svelma": "^0.0.10",
     "yaml": "^1.6.0"
   }
 }

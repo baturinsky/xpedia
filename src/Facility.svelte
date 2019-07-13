@@ -2,6 +2,7 @@
   import { rul } from "./Ruleset";
   import Link from "./Link.svelte";
   import ItemList from "./ItemList.svelte"
+  import BaseServiceList from "./BaseServiceList.svelte"
   import Illustration from "./Illustration.svelte";
   import SpecialBonus from "./SpecialBonus.svelte"
 
@@ -23,8 +24,10 @@
               {#if i != 0}<br/> {/if}
               <Link href={field}/>: {prop[1][field].build} / {prop[1][field].refund}
             {/each}            
-          {:else if ['provideBaseFunc', 'requiresBaseFunc', 'requires', 'leavesBehindOnSell', 'destroyedFacility' ].includes(prop[0])}
+          {:else if ['requires', 'leavesBehindOnSell', 'destroyedFacility' ].includes(prop[0])}
             <ItemList items={prop[1]} vertical={true}/>
+          {:else if ['provideBaseFunc', 'requiresBaseFunc', 'forbiddenBaseFunc' ].includes(prop[0])}
+            <BaseServiceList items={prop[1]} vertical={true}/>
           {:else if ['spriteFacility'].includes(prop[0])}
             <img class="sprite" alt='X' src={rul.specialSprite("baseSprite", prop[1]*1 + 33)}/>
           {:else if prop[1] instanceof Object}

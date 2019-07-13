@@ -5,6 +5,7 @@
   import ItemList from "./ItemList.svelte"  
   import Link from "./Link.svelte";
   import CanvasImage from "./CanvasImage.svelte"
+  import BaseServiceList from "./BaseServiceList.svelte"
 
   export let item;
   export let title = "Item"
@@ -150,6 +151,8 @@
         <td class="right-column">
         {#if ['spawnedBy', 'armors', 'compatibleAmmo', 'compatibleWeapons', 'categories', 'requiresBuy', 'requires'].includes(prop[0])}
           <ItemList items={prop[1]} vertical={true}/>
+        {:else if ['requiresBuyBaseFunc' ].includes(prop[0])}
+            <BaseServiceList items={prop[1]} vertical={true}/>
         {:else if ['manufacture', 'componentOf'].includes(prop[0])}
           <table class="number-table">
           {#each Object.keys(prop[1]).sort() as field, i}

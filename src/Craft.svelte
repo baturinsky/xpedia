@@ -3,6 +3,7 @@
   import Link from "./Link.svelte";
   import ItemList from "./ItemList.svelte"
   import Illustration from "./Illustration.svelte";
+  import BaseServiceList from "./BaseServiceList.svelte"
   
   export let craft;
 
@@ -25,6 +26,8 @@
             <img class="sprite" alt='X' src={rul.specialSprite("baseSprite", prop[1]*1 + 33)}/>
           {:else if ['requires'].includes(prop[0])}
             <ItemList items={prop[1]} vertical={true}/>
+          {:else if ['requiresBaseFunc' ].includes(prop[0])}
+            <BaseServiceList items={prop[1]} vertical={true}/>
           {:else if ['startingConditions'].includes(prop[0])}
             <ItemList items={prop[1]} vertical={true}/>
           {:else if ['refuelItem'].includes(prop[0])}

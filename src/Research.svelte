@@ -2,6 +2,7 @@
   import { rul } from "./Ruleset";
   import Link from "./Link.svelte";
   import ItemList from "./ItemList.svelte";
+  import BaseServiceList from "./BaseServiceList.svelte"
   
   export let research;
   export let title = "Research"
@@ -32,6 +33,8 @@
           {/each}
         </ul>
       </td></tr>
+    {:else if ['requiresBaseFunc' ].includes(prop[0])}
+      <BaseServiceList items={prop[1]} vertical={true}/>
     {:else if prop[0] == 'getOneFreeProtected'}
       <tr><td colspan="2" class="table-subheader">{rul.decamelize(prop[0])}</td></tr>
       {#each Object.keys(prop[1]) as key}

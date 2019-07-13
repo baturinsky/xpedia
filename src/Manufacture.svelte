@@ -3,6 +3,7 @@
   import Link from "./Link.svelte";
   import ItemList from "./ItemList.svelte";
   import Illustration from "./Illustration.svelte";
+  import BaseServiceList from "./BaseServiceList.svelte"
   
   export let manufacture;
 
@@ -34,8 +35,8 @@
               {#if i != 0}<br/>{/if}
               <Link href={field} />
             {/each}
-          {:else if ['requiresBaseFunc'].includes(prop[0])}
-            <ItemList items={prop[1]}/>
+          {:else if ['requiresBaseFunc' ].includes(prop[0])}
+            <BaseServiceList items={prop[1]} vertical={true}/>
           {:else if ['randomProducedItems'].includes(prop[0])}
              <table class="number-table">
             {#each prop[1] as chance}

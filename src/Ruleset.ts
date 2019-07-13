@@ -63,6 +63,7 @@ export class Manufacture {
   requires: string;
   producedItems: { [key: string]: number };
   requiredItems: { [key: string]: number };
+  requiresBaseFunc: string[];
   randomProducedItems: [number, { [key: string]: number }][];
   chanceSum: number;
 
@@ -101,6 +102,8 @@ export class Manufacture {
       for (let chance of this.randomProducedItems) this.chanceSum += chance[0];
     }
 
+    Service.add("allowsManufacture", this.name, this.requiresBaseFunc);
+
     Article.create({
       id: this.name,
       section: "MANUFACTURE",
@@ -117,12 +120,15 @@ export class Research {
   leadsTo: string[];
   freeFrom: string[];
   manufacture: string[];
+  requiresBaseFunc: string[];
   lookup: string;
   spawnedItem: string;
 
   constructor(raw: any) {
     Object.assign(this, raw);
     rul.research[this.name] = this;
+
+    Service.add("allowsResearching", this.name, this.requiresBaseFunc);
 
     Article.create({
       id: this.name,
@@ -132,12 +138,23 @@ export class Research {
   }
 }
 
-export class CraftWeapon {
-  type: string;
+export class Service {
+  constructor(public id: string) {
+    Article.create({
+      id,
+      type_id: "SERVICES",
+      section: "SERVICES"
+    });
+  }
 
-  constructor(raw: any) {
-    Object.assign(this, raw);
-    rul.craftWeapons[this.type] = this;
+  static add(prop: string, id: string, entries: string[]) {
+    if (entries) {
+      for (let s of entries) {
+        if (!(s in rul.baseServices)) rul.baseServices[s] = new Service(s);
+        if (!(prop in rul.baseServices[s])) rul.baseServices[s][prop] = [];
+        rul.baseServices[s][prop].push(id);
+      }
+    }
   }
 }
 
@@ -152,6 +169,18 @@ export class AlienDeployment {
     if (condition) condition.deployments.push(this.type);
   }
 }
+
+export class CraftWeapon {
+  type: string;
+  requiresBuyBaseFunc: string[];
+
+  constructor(raw: any) {
+    Object.assign(this, raw);
+    rul.craftWeapons[this.type] = this;
+    Service.add("canBuy", this.type, this.requiresBuyBaseFunc);
+  }
+}
+
 
 export class Craft {
   type: string;
@@ -174,10 +203,17 @@ export class Ufo {
 
 export class Facility {
   type: string;
+  provideBaseFunc: string[];
+  requiresBaseFunc: string[];
+  forbiddenBaseFunc: string[];
 
   constructor(raw: any) {
     Object.assign(this, raw);
     rul.facilities[this.type] = this;
+
+    Service.add("providedBy", this.type, this.provideBaseFunc);
+    Service.add("allowsBuilding", this.type, this.requiresBaseFunc);
+    Service.add("forbidsBuilding", this.type, this.forbiddenBaseFunc);
   }
 }
 
@@ -347,6 +383,7 @@ export class Article {
   constructor(raw: any) {
     this.id = raw.id;
     this.title = rul.str(raw.title || raw.id);
+    rul.lang[this.id] = this.title;
     this.text = rul.lang[raw.text] || rul.lang[raw.id + "_UFOPEDIA"];
     this.image_id = raw.image_id;
     this.type_id = raw.type_id || "-1";
@@ -472,6 +509,7 @@ export class Item {
   [key: string]: any;
   _attacks: Attack[];
   spawnedBy: string[];
+  requiresBuyBaseFunc: string[];
 
   constructor(raw: any) {
     Object.assign(this, raw);
@@ -485,6 +523,8 @@ export class Item {
       t.flatThrowTime = t.flatThrow.time;
       delete t.flatThrow;
     }
+
+    Service.add("canBuyItem", this.type, this.requiresBuyBaseFunc);
 
     Article.create({
       id: this.type,
@@ -527,7 +567,7 @@ export default class Ruleset {
   ufos: { [key: string]: Ufo } = {};
   facilities: { [key: string]: Ufo } = {};
   craftWeapons: { [key: string]: CraftWeapon } = {};
-  alienDeployments: { [key: string]: CraftWeapon } = {};
+  alienDeployments: { [key: string]: AlienDeployment } = {};
   research: { [key: string]: Research } = {};
   manufacture: { [key: string]: Manufacture } = {};
   startingConditions: { [key: string]: StartingConditions } = {};
@@ -538,6 +578,7 @@ export default class Ruleset {
   sounds: string[] = [];
   modName: string;
   path: string;
+  baseServices: { [key: string]: Service } = {};
 
   lang: { [key: string]: string } = {};
 
@@ -616,7 +657,13 @@ export default class Ruleset {
       }
     }
 
-    let articleTypes = ["CONDITIONS", "RESEARCH", "ITEMS", "MANUFACTURE"];
+    let articleTypes = [
+      "CONDITIONS",
+      "RESEARCH",
+      "ITEMS",
+      "MANUFACTURE",
+      "SERVICES"
+    ];
 
     for (let type of articleTypes) new Section(type, "TYPE");
 
@@ -735,6 +782,13 @@ export default class Ruleset {
       rul.sections[type]._articles = rul.sections[type].articles.sort((a, b) =>
         a.title < b.title ? -1 : 1
       );
+
+    Article.create({
+      id: "BASE_FUNC",
+      title: "Base Services",
+      type_id: "OTHER",
+      section: "OTHER"
+    });
 
     console.log(this);
 

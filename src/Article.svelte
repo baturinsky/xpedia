@@ -8,18 +8,25 @@
   import Unit from "./Unit.svelte";
   import Research from "./Research.svelte";
   import Manufacture from "./Manufacture.svelte";
-  import Conditions from "./Conditions.svelte"
+  import Conditions from "./Conditions.svelte";
   import LinksList from "./LinksList.svelte";
   import Ufo from "./Ufo.svelte";
   import Facility from "./Facility.svelte";
+  import BaseService from "./BaseService.svelte";
   import Link from "./Link.svelte";
+  import ItemList from "./ItemList.svelte"
+  import BASE_FUNC from "./BaseServices.svelte";
 
   export let article;
   export let query;
   let textwithHighlights;
+  let other = false;
 
   $: {
     textwithHighlights = article.text || "";
+
+    other = article.type_id == "OTHER" ? {BASE_FUNC}[article.id] : false;
+
     if (query) {
       for (let word of query.split()) {
         let regEx = new RegExp(word, "ig");
@@ -39,7 +46,7 @@
 </style>
 
 <svelte:head>
-  <title>{article.title || "XPedia"}</title>
+  <title>{article.title || 'XPedia'}</title>
 </svelte:head>
 
 <h1>{article.title || article.id}</h1>
@@ -52,13 +59,17 @@
   {@html textwithHighlights}
 </div>
 
-{#if article.type_id == "PEDIA" || article.type_id == "TYPE"}
+{#if article.id == 'SERVICES'}
+  <BASE_FUNC />
+{:else if article.type_id == 'CONDITIONS'}
+  <Conditions conditions={rul.startingConditions[article.id]} />
+{:else if article.type_id == 'PEDIA' || article.type_id == 'TYPE'}
   <LinksList links={rul.sections[article.id].articles.map(a => a.id)} />
-{:else if article.type_id == "CONDITIONS"}
-  <Conditions conditions={rul.startingConditions[article.id]}/>    
 {/if}
 
 <div class="flex-horisontal">
+  <svelte:component this={other} {query}/>
+
   <div class="flex-vertical">
     {#if article.id in rul.units}
       <Unit unit={rul.units[article.id]} />
@@ -73,6 +84,10 @@
     <Armor armor={rul.armors[article.id]} />
   {:else if article.id in rul.units && rul.units[article.id].armor}
     <Armor armor={rul.armors[rul.units[article.id].armor]} />
+  {/if}
+
+  {#if article.id in rul.baseServices}
+    <BaseService service={rul.baseServices[article.id]} />
   {/if}
 
   {#if article.id in rul.crafts}
@@ -101,7 +116,7 @@
     {/if}
 
     {#each article.lookup as researchId}
-      <Research research={rul.research[researchId]} title={researchId}/>
+      <Research research={rul.research[researchId]} title={researchId} />
     {/each}
 
   </div>

@@ -4,6 +4,7 @@
   import { rul } from "./Ruleset";
   import Article from "./Article.svelte";
   import Link from "./Link.svelte";
+  import Intro from "./Intro.svelte";
   import LinksList from "./LinksList.svelte";
 
   export let source
@@ -14,7 +15,8 @@
   let currentSection = null;
   let activeOption;
   let ignoreNextAutoscroll = false;
-  let mode = ""
+  let id = ""
+  let searchDelayHandle = null;
 
   async function loadRules(){
     await rul.load(source)
@@ -29,22 +31,36 @@
   function checkHash() {
     let hash = document.location.hash;
     if (hash) {
-      mode = hash.substr(0,8) == "#SEARCH_"?"SEARCH":"ARTICLE";
-      if (mode == "SEARCH") {
+      let dd = hash.indexOf(":")
+      if(dd != -1){
+        id =  hash.substr(1, dd - 1)
+        query = hash.substr(dd + 1)
+      } else {
+        id = hash.substr(1);
+      }
+
+      if (id == "SEARCH") {
         query = hash.substr(8);
         query = query.replace("%20", " ");
-        found = rul.search.findArticles(query).map(a => a.id);
+        if(query.length >= 3)
+          found = rul.search.findArticles(query).map(a => a.id);
+        else 
+          found = 0
         article = null;
       } else {
         found = null;
-        let id = hash.substr(1);
         if (!article || article.id != id) article = rul.article(id);
       }
+
+      console.log(id);
+      console.log(article);
     }
 
     if (article) {
       if (article.section && currentSection != article.section)
         currentSection = article.section;
+    } else {
+      currentSection = null
     }
   }
 
@@ -62,9 +78,14 @@
   });
 
   function searchKeyUp(e) {
-    if (e.key == "Enter") {
-      goTo("SEARCH_" + e.target.value);
-    }
+    if(searchDelayHandle)
+      clearTimeout(searchDelayHandle)
+    
+    searchDelayHandle = setTimeout(() => {
+      console.log(e);
+      goTo("SEARCH:" + e.target.value);
+      searchDelayHandle = null;
+    }, e.key=="Enter"?10:1000);
   }
 
   function selectSection(id) {
@@ -127,9 +148,8 @@
 
     <div class="navbar-start">
       <div class="navbar-item has-dropdown is-hoverable">
-        <a href={"#" + (currentSection?currentSection.id:"MAIN")} class="navbar-link">
-          <img src="xpedia/favicon.png" alt="favicon" />
-           {rul.modName} XPedia {currentSection?": " + currentSection.title : ""}
+        <a href="#MAIN" class="navbar-link">
+          <img src="xpedia/favicon.png" alt="favicon" /> {rul.modName} XPedia 
         </a>
         <div class="navbar-dropdown">
           <div style="display:flex">
@@ -149,6 +169,11 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="navbar-item">
+        <a style="color:white" href={"#" + (currentSection?currentSection.id:"MAIN")}>
+          {currentSection?currentSection.title : ""}
+        </a>
       </div>
     </div>
 
@@ -195,14 +220,19 @@
 
     {#if article}
       <Article {article} {query} />
-    {/if}
-
-    {#if found}
+    {:else if query}
+      Searching "<em>{query}</em>":<br/>
       {#if found.length>0}
         <LinksList links={found}/>
+      {:else if query.length < 3}
+        <i>Query too short</i>
+      {:else if searchDelayHandle}
+        ...
       {:else}
-        No "<em>{query}</em>" found
+        <i>Nothing found</i>
       {/if}
+    {:else if !query}
+      <Intro />
     {/if}
   </div>
 </div>

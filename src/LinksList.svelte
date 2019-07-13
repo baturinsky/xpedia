@@ -9,7 +9,6 @@
 <style>
   .contain {
     border: solid 0.3px #382c44;
-    padding-left: 15px;
   }
   .header {
     text-align: center;

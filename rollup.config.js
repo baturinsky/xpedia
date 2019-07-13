@@ -20,6 +20,7 @@ export default {
     }
   },
   plugins: [
+
     svelte({
       dev: !production,
       css: css => {
@@ -38,7 +39,7 @@ export default {
 
     production && terser(),
 
-    !production && livereload()
+    !production && livereload(),
 
   ],
   watch: {

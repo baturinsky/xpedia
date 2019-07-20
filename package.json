@@ -25,7 +25,7 @@
     "zip-a-folder": "^0.0.8"
   },
   "scripts": {
-    "build": "rollup -c && copy public/xpedia/spinner.svg distr/xpedia/spinner.svg && node makedist.js",
+    "build": "rollup -c && node makedist.js",
     "autobuild": "rollup -c -w",
     "dev": "run-p start:dev autobuild",
     "start": "sirv public --port 5000",

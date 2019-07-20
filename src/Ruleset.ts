@@ -5,6 +5,18 @@ import { throws } from "assert";
 
 export let rul!: Ruleset;
 
+function backLink(id: string, list:string[], to:any, field:string){
+  if(!list)
+    return;
+  for (let key of list){
+    let back = to[key];
+    back[field] = back[field] || [];
+    back[field].push(id);
+  }
+
+}
+
+
 function parseYaml(text: string) {
   let data = [];
   let reg = /^FILE: (.+)\n/gm;
@@ -122,6 +134,7 @@ export class Research {
   manufacture: string[];
   requiresBaseFunc: string[];
   lookup: string;
+  seeAlso: string[];
   spawnedItem: string;
 
   constructor(raw: any) {
@@ -181,7 +194,6 @@ export class CraftWeapon {
   }
 }
 
-
 export class Craft {
   type: string;
   startingConditions: string[] = [];
@@ -206,6 +218,7 @@ export class Facility {
   provideBaseFunc: string[];
   requiresBaseFunc: string[];
   forbiddenBaseFunc: string[];
+  buildCostItems: {[key:string] : {[key:string] : number}}
 
   constructor(raw: any) {
     Object.assign(this, raw);
@@ -367,7 +380,6 @@ export class Article {
   image_id: string;
   type_id: string;
   section: Section;
-  lookup: string[] = [];
 
   static create(raw: any) {
     if (raw.id in rul.articles) {
@@ -475,11 +487,17 @@ export class Armor {
     } else if (this.spriteInv) {
       let name: string = this.spriteInv;
       let l = name.length;
-      for (let s in rul.sprites) {
-        if (s.substr(0, l) == name) {
-          this.dollSprites[s.substr(l, s.length - l - 4)] = [
-            rul.path + rul.sprites[s].path
-          ];
+      if (this.spriteInv + ".SPK" in rul.sprites) {
+        this.dollSprites = {
+          0: [rul.path + rul.sprites[this.spriteInv + ".SPK"].path]
+        };
+      } else {
+        for (let s in rul.sprites) {
+          if (s.substr(0, l) == name) {
+            this.dollSprites[s.substr(l, s.length - l - 4)] = [
+              rul.path + rul.sprites[s].path
+            ];
+          }
         }
       }
     }
@@ -506,10 +524,28 @@ export class Item {
   invWidth = 1;
   invHeight = 1;
   armors: string[];
-  [key: string]: any;
   _attacks: Attack[];
   spawnedBy: string[];
   requiresBuyBaseFunc: string[];
+  manufacture: { [key:string]: number};
+  componentOf: { [key:string]: number};
+  bigSprite: string;
+  meleePower: number;
+  meleeBonus: any;
+  meleeType: number;
+  power: number;
+  damageBonus: any;
+  damageType: number;
+  shotgunPellets: number;
+  meleeAlter: any;
+  damageAlter: any;
+  compatibleAmmo: any;
+  autoShots: number;
+  flatRate: boolean;
+  meleeMultiplier: any;
+  accuracyMultiplier: any;
+  compatibleWeapons: any;
+
 
   constructor(raw: any) {
     Object.assign(this, raw);
@@ -528,8 +564,8 @@ export class Item {
 
     Article.create({
       id: this.type,
-      type_id: "ITEMS",
-      section: "ITEMS"
+      type_id: "OTHER ITEMS",
+      section: "OTHER ITEMS"
     });
   }
 
@@ -565,7 +601,7 @@ export default class Ruleset {
   units: { [key: string]: Unit } = {};
   crafts: { [key: string]: Craft } = {};
   ufos: { [key: string]: Ufo } = {};
-  facilities: { [key: string]: Ufo } = {};
+  facilities: { [key: string]: Facility } = {};
   craftWeapons: { [key: string]: CraftWeapon } = {};
   alienDeployments: { [key: string]: AlienDeployment } = {};
   research: { [key: string]: Research } = {};
@@ -658,9 +694,9 @@ export default class Ruleset {
     }
 
     let articleTypes = [
+      "OTHER ITEMS",
       "CONDITIONS",
       "RESEARCH",
-      "ITEMS",
       "MANUFACTURE",
       "SERVICES"
     ];
@@ -737,6 +773,19 @@ export default class Ruleset {
 
     for (let data of this.raw.manufacture) new Manufacture(data);
 
+    for (let facility of Object.values(this.facilities)) {
+      if (facility.buildCostItems) {
+        for (let itemName of Object.keys(facility.buildCostItems)) {
+          let item = rul.items[itemName];
+          if (!item) continue;
+          if (!item.componentOf) item.componentOf = {};
+          item.componentOf[facility.type] = facility.buildCostItems[itemName].build;
+          if (!item.manufacture) item.manufacture = {};
+          item.manufacture[facility.type] = facility.buildCostItems[itemName].refund;
+        }
+      }      
+    }
+
     for (let item of Object.values(this.items)) {
       if (item.compatibleAmmo) {
         for (let ammoId of item.compatibleAmmo) {
@@ -750,22 +799,21 @@ export default class Ruleset {
     }
 
     for (let research of Object.values(this.research)) {
-      if (research.dependencies) {
-        for (let depname of research.dependencies) {
-          let dep = this.research[depname];
-          dep.leadsTo = dep.leadsTo || [];
-          dep.leadsTo.push(research.name);
-        }
+      backLink(research.name, research.dependencies, rul.research, 'leadsTo')
+      backLink(research.name, research.getOneFree, rul.research, 'freeFrom')
+
+      if (research.lookup && research.name == research.lookup) {
+        console.warn(research.lookup + " lookup is to itself");
       }
-      if (research.getOneFree) {
-        for (let depname of research.getOneFree) {
-          let dep = this.research[depname];
-          dep.freeFrom = dep.freeFrom || [];
-          dep.freeFrom.push(research.name);
-        }
-      }
-      if (research.lookup) {
-        this.articles[research.lookup].lookup.push(research.name);
+      if (research.lookup && research.name != research.lookup) {
+        let lookup = this.research[research.lookup];
+        lookup.seeAlso = lookup.seeAlso || [];
+        lookup.seeAlso.push(research.name);
+        let lookUpArticle = this.article(research.lookup);
+        let article = this.article(research.name);
+        article.title = lookUpArticle.title;
+        article.text = lookUpArticle.text;
+        article.image_id = lookUpArticle.image_id;
       }
       if (research.spawnedItem) {
         let item = rul.items[research.spawnedItem];

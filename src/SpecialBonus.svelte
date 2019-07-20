@@ -1,7 +1,7 @@
 <script>
   export let bonus;
   export let plus = false;
-
+  
   function f(bonus) {
     if(!bonus)
       return [];

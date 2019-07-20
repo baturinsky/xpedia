@@ -9,7 +9,6 @@
 
 </script>
 
-<table class="main-table">
   <tr> <td colspan="2" class="table-header">Unit</td> </tr>
   {#each Object.entries(unit).sort((a, b) => (a[0] > b[0] ? 1 : -1)) as prop}
     {#if !['type', 'deathSound', 'scripts'].includes(prop[0])}
@@ -24,8 +23,8 @@
             <table class="number-table">
               {#each Object.keys(prop[1]).sort() as field, i}
                 <tr>
-                  <td class="number-table1">{@html rul.decamelize(field)}</td>
-                  <td class="number-table2">{prop[1][field]}</td>
+                  <td>{@html rul.decamelize(field)}</td>
+                  <td><em>{prop[1][field]}</em></td>
                 </tr>
               {/each}
             </table>
@@ -55,4 +54,3 @@
       </tr>
     {/if}
   {/each}
-</table>

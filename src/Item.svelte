@@ -6,6 +6,7 @@
   import Link from "./Link.svelte";
   import CanvasImage from "./CanvasImage.svelte"
   import BaseServiceList from "./BaseServiceList.svelte"
+  import Value from "./Value.svelte";  
 
   export let item;
   export let title = "Item"
@@ -46,22 +47,6 @@
   .right-column{
     vertical-align: top;
   }
-  audio{
-    height:20px;
-    width:300px;
-  }
-  
-  .attacks-table{
-    min-width: 800px;
-  }
-
-  .attacks-table td{
-    border: solid 0.3px #382C44;
-    font-size: 14pt;
-  }
-  .attacks-table thead{
-    background: #382C44;  
-  }
   .alter td{
     border: none;
     font-size: small;
@@ -76,12 +61,11 @@
   }
 </style>
 
-<table class="main-table">
   <tr> <td colspan="2" class="table-header">{title}</td> </tr>
   {#if (item.sprite && item.sprite != "Resources/Blanks/Blank.png") ||attacks.length > 0}
     <tr> <td colspan="2">
-      <div style="display: flex; align-items: flex-start;">
-      <CanvasImage style="padding:3px" src={rul.sprite(item.sprite)} maxWidth={32*item.invWidth} maxHeight={32*item.invHeight} zoom="2"/>
+      <div style="display: flex; align-items: flex-start; margin: 5px 3px;">
+      <CanvasImage src={rul.sprite(item.sprite)} maxWidth={32*item.invWidth} maxHeight={32*item.invHeight} zoom="2"/>
       {#if attacks.length > 0}
         <table class="attacks-table">
           <thead>
@@ -106,30 +90,31 @@
                 {/if}          
               {:else}
                 <td rowspan="2">{attack.name}{attack.shots==1?"":"×" + attack.shots}</td> 
-                <td><em>{attack.accuracy}</em><small>%<br/><SpecialBonus bonus={attack.accuracyMultiplier}/></small> </td>
+                <td><nobr><em>{attack.accuracy}</em><small>%<br/><SpecialBonus bonus={attack.accuracyMultiplier}/></small></nobr></td>
                 <td>
                 <em>{attack.cost.time + (attack.flatTime?"":"%")}</em> <small>TU</small>                
                 {#each Object.keys(attack.cost) as res}
-                  {#if res != 'time' && attack.cost[res] != 0}<br/><em>{attack.cost[res]}</em>&nbsp;<small>{res}</small>{/if}
+                  {#if res != 'time' && attack.cost[res] != 0}<br/><Value val={attack.cost[res]}/>&nbsp;<small>{res}</small>{/if}
                 {/each}                
                 </td>
               {/if}          
               <td>{#if attack.damage || attack.damageType}
-                {attack.pellets>1 && attack.damageBonus?"(":""}<em>{attack.damage}</em>
+                <nobr>{attack.pellets>1 && attack.damageBonus?"(":""}<em>{attack.damage}</em>
                 <small>
                   <SpecialBonus plus={true} bonus={attack.damageBonus}/>{attack.pellets>1 && attack.damageBonus?")":""}
                 </small>
                 {attack.pellets>1?" ×" + attack.pellets:""}
+                </nobr>
                 <br/>{rul.damageTypeName(attack.damageType)}
               {/if}
               </td>
               </tr>
               <tr>
-              <td colspan="3" style="columns: 170px auto;">
+              <td colspan="3" style="columns: 2;">
                 <small>
                 {#if attack.alter}            
                   {#each Object.keys(attack.alter).sort() as field, i}
-                    {field}:&nbsp;<em>{attack.alter[field]}</em><br/>
+                    {field}:&nbsp;<Value val={attack.alter[field]}/><br/>
                   {/each}
                 {/if}
                 </small>
@@ -149,20 +134,16 @@
       <tr>
         <td>{@html rul.decamelize(prop[0])}</td>
         <td class="right-column">
-        {#if ['spawnedBy', 'armors', 'compatibleAmmo', 'compatibleWeapons', 'categories', 'requiresBuy', 'requires'].includes(prop[0])}
-          <ItemList items={prop[1]} vertical={true}/>
-        {:else if ['requiresBuyBaseFunc' ].includes(prop[0])}
+        {#if ['requiresBuyBaseFunc' ].includes(prop[0])}
             <BaseServiceList items={prop[1]} vertical={true}/>
         {:else if ['manufacture', 'componentOf'].includes(prop[0])}
           <table class="number-table">
-          {#each Object.keys(prop[1]).sort() as field, i}
+          {#each Object.keys(prop[1]) as field, i}
             <tr><td>{prop[1][field]}</td><td><Link href={field}/></td></tr>
           {/each}
           </table>
         {:else if ['damageBonus', 'meleeBonus', 'accuracyMultiplier', 'meleeMultiplier', 'closeQuartersMultiplier'].includes(prop[0])}
           <SpecialBonus bonus={prop[1]}/>
-        {:else if ['defaultInventorySlot', 'unprimeActionName', 'name'].includes(prop[0])}
-          <Link href={prop[1]}/>
         {:else if ['damageType', 'meleeType'].includes(prop[0])}
           {rul.damageTypeName(prop[1])}
         {:else if prop[0] == 'battleType'}
@@ -175,17 +156,10 @@
         {:else if ['floorSprite', 'handSprite'].includes(prop[0])}
           <a style="vertical-align:top" href={rul.specialSprite(prop[0], prop[1])}>{prop[1]}</a> 
           <img class="sprite" alt={prop[1]} src={rul.specialSprite(prop[0], prop[1])}/>
-        {:else if prop[1] instanceof Object}
-          <table class="number-table">
-          {#each Object.keys(prop[1]).sort() as field, i}
-            <tr><td>{@html rul.decamelize(field)}</td><td>{@html rul.decamelize(prop[1][field])}</td></tr>
-          {/each}
-          </table>
         {:else}        
-          {prop[1]}
+          <Value val={prop[1]}/>
         {/if}
         </td>
       </tr>
     {/if}
   {/each}
-</table>

@@ -4,6 +4,7 @@
   import ItemList from "./ItemList.svelte"
   import Illustration from "./Illustration.svelte";
   import SpecialBonus from "./SpecialBonus.svelte"
+  import Value from "./Value.svelte";  
 
   export let ufo;
 
@@ -30,13 +31,8 @@
               </td></tr>
             {/each}
             </table>
-          {:else if prop[1] instanceof Object}
-            {#each Object.keys(prop[1]).sort() as field, i}
-              {#if i != 0}, {/if}
-              {@html rul.decamelize(field)}: {@html rul.decamelize(prop[1][field])}
-            {/each}
           {:else}
-            {prop[1]}
+            <Value val={prop[1]}/>
           {/if}
         </td>
       </tr>

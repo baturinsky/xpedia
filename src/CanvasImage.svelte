@@ -6,15 +6,18 @@
 
   let canvas;
   let ctx;
-  let img;
+  let img = null;
+  let loaded = false
 
   function updateImage() {
+    console.log(img);
     canvas.width = Math.min(maxWidth, img.naturalWidth * zoom);
     canvas.height = Math.min(maxHeight, img.naturalHeight * zoom);
     ctx.drawImage(img, 0, 0, img.naturalWidth * zoom, img.naturalHeight * zoom);
+    loaded = true;
   }
 
-  function loaded(node) {
+  function prepareCanvas(node) {
     canvas = node;
     ctx = canvas.getContext("2d");
     ctx.imageSmoothingEnabled = false;
@@ -25,12 +28,11 @@
   }
 
   $: {
-    if (img) {
-      if(ctx)
-        ctx.clearRect(0, 0, ctx.width, ctx.height);
+    if (src && img) {      
+      loaded = false;
       img.src = src;
     }
   }
 </script>
 
-<canvas class="pixelated" bind:this={canvas} use:loaded />
+<canvas class="pixelated" style="display:{loaded?'inline':'none'}" bind:this={canvas} use:prepareCanvas />

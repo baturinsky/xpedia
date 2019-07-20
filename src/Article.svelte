@@ -40,9 +40,6 @@
 </script>
 
 <style>
-  .article-text {
-    padding: 5px 0px 5px 0px;
-  }
 </style>
 
 <svelte:head>
@@ -71,6 +68,7 @@
   <svelte:component this={other} {query}/>
 
   <div class="flex-vertical">
+  <table class="main-table">
     {#if article.id in rul.units}
       <Unit unit={rul.units[article.id]} />
     {/if}
@@ -78,6 +76,7 @@
     {#if article.id in rul.items}
       <Item item={rul.items[article.id]} />
     {/if}
+    </table>
   </div>
 
   {#if article.id in rul.armors}
@@ -107,18 +106,19 @@
   {/if}
 
   <div class="flex-vertical">
-    {#if article.id in rul.manufacture}
-      <Manufacture manufacture={rul.manufacture[article.id]} />
-    {/if}
+    <table class="main-table">
+      {#if article.id in rul.manufacture}
+        <Manufacture manufacture={rul.manufacture[article.id]} />
+      {/if}
 
-    {#if article.id in rul.research}
-      <Research research={rul.research[article.id]} />
-    {/if}
+      {#if article.id in rul.research}
+        <Research research={rul.research[article.id]} />
+      {/if}
 
-    {#each article.lookup as researchId}
-      <Research research={rul.research[researchId]} title={researchId} />
-    {/each}
-
+      <!--{#each article.lookup as researchId}
+        <Research research={rul.research[researchId]} title={researchId} />
+      {/each}-->
+    </table>
   </div>
 
 </div>

@@ -14,25 +14,25 @@
 
 <table class="main-table">
   <tr> <td colspan="2" class="table-header">Craft</td> </tr>
-  {#each Object.entries(ufo).sort((a, b) => (a[0] > b[0] ? 1 : -1)) as prop}
-    {#if !['type', 'battlescapeTerrainData', 'craftInventoryTile', 'deployment'].includes(prop[0])}
+  {#each Object.entries(ufo).sort((a, b) => (a[0] > b[0] ? 1 : -1)) as [key, prop]}
+    {#if !['type', 'battlescapeTerrainData', 'craftInventoryTile', 'deployment'].includes(key)}
       <tr>
-        <td class="padding-right">{@html rul.decamelize(prop[0])}</td>
+        <td class="padding-right">{@html rul.decamelize(key)}</td>
         <td>
-          {#if ['modSprite'].includes(prop[0])}
-            <img class="sprite" alt='X' src={rul.sprite(prop[1])}/>
-          {:else if prop[0] == "raceBonus"}
+          {#if ['modSprite'].includes(key)}
+            <img class="sprite" alt='X' src={rul.sprite(prop)}/>
+          {:else if key == "raceBonus"}
             <table class="number-table">
-            {#each Object.keys(prop[1]).sort() as field, i}
+            {#each Object.keys(prop).sort() as field, i}
               <tr><td>{rul.str(field)}</td><td>
-                {#each Object.keys(prop[1][field]).sort() as field2, i2}
-                  {field2}:&nbsp;<em><Link href={prop[1][field][field2]}/></em><br/>
+                {#each Object.keys(prop[field]).sort() as field2, i2}
+                  {field2}:&nbsp;<em><Link href={prop[field][field2]}/></em><br/>
                 {/each}              
               </td></tr>
             {/each}
             </table>
           {:else}
-            <Value val={prop[1]}/>
+            <Value val={prop}/>
           {/if}
         </td>
       </tr>

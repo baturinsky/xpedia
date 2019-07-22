@@ -86,25 +86,29 @@
                   </td>
                 </tr>
               </thead>
-              {#each Object.keys(armor[prop]).sort((a, b) =>
-                rul.str(a) > rul.str(b) ? 1 : -1
-              ) as field, i}
+              {#each Object.entries(armor[prop]).sort((a, b) =>
+                rul.str(a[0]) > rul.str(b[0]) ? 1 : -1
+              ) as [key, val], i}
                 <tr>
                   <td>
-                    {@html prop == 'damageModifier' ? rul.damageTypeName(field) : rul.decamelize(field, "&nbsp;")}
+                    {#if prop == 'damageModifier'}
+                      <Link href={rul.damageTypes[key]}/>
+                    {:else}
+                      {rul.decamelize(key, "&nbsp;")}
+                    {/if}
                   </td>
                   <td>
                     {#if 'recovery' == prop}
-                        {#each Object.keys(armor[prop][field]) as subfield, j}
+                        {#each Object.keys(val) as subfield, j}
                           {#if j != 0}
                             <br />
                           {/if}
                           {@html rul.decamelize(subfield)}
                           :
-                          <em>{@html rul.decamelize(armor[prop][field][subfield])}</em>
+                          <em>{@html rul.decamelize(val[subfield])}</em>
                         {/each}
                       {:else}
-                        <em>{@html prop == 'damageModifier' ? Math.floor(armor[prop][field] * 100) : rul.decamelize(armor[prop][field])}</em>
+                        <em>{@html prop == 'damageModifier' ? Math.floor(val * 100) : rul.decamelize(val)}</em>
                       {/if}
                   </td>
                 </tr>
@@ -116,18 +120,16 @@
     </td>
   </tr>
 
-  {#each Object.entries(armor).sort((a, b) => (a[0] > b[0] ? 1 : -1)) as prop}
-    {#if !['recovery', 'type', 'layersDefinition', 'spriteFaceColor', 'spriteHairColor', 'spriteUtileColor', 'spriteFaceGroup', 'spriteHairGroup', 'spriteUtileGroup', 'customArmorPreviewIndex', 'dollSprites', 'layersDefaultPrefix', 'frontArmor', 'sideArmor', 'rearArmor', 'underArmor', 'spriteInv', 'scripts', 'armor', 'damageModifier', 'stats'].includes(prop[0])}
+  {#each Object.entries(armor).sort((a, b) => (a[0] > b[0] ? 1 : -1)) as [key, prop]}
+    {#if !['recovery', 'type', 'layersDefinition', 'spriteFaceColor', 'spriteHairColor', 'spriteUtileColor', 'spriteFaceGroup', 'spriteHairGroup', 'spriteUtileGroup', 'customArmorPreviewIndex', 'dollSprites', 'layersDefaultPrefix', 'frontArmor', 'sideArmor', 'rearArmor', 'underArmor', 'spriteInv', 'scripts', 'armor', 'damageModifier', 'stats'].includes(key)}
       <tr>
         <td>
-          {@html rul.decamelize(prop[0])}
+          {@html rul.decamelize(key)}
         </td>
         <td>
-          {#if false}
-            -
-          {:else if prop[0] == 'damageModifier'}
+          {#if key == 'damageModifier'}
             <table class="number-table">
-              {#each prop[1] as res, i}
+              {#each prop as res, i}
                 <tr>
                   <td width="50%" class="number-table1">
                     {rul.damageTypeName(i)}
@@ -138,16 +140,16 @@
                 </tr>
               {/each}
             </table>
-          {:else if ['corpseBattle'].includes(prop[0])}
-            <Link href={prop[1][0]} />
-          {:else if 'spriteSheet' == prop[0]}
-            <a href={rul.sprite(prop[1])}>{prop[1]}</a>
-          {:else if ['builtInWeapons', 'users', 'units'].includes(prop[0])}
-            {#each prop[1].filter(s => s.substr(0, 8) != 'INV_NULL') as field, i}
+          {:else if ['corpseBattle'].includes(key)}
+            <Link href={prop[0]} />
+          {:else if 'spriteSheet' == key}
+            <a href={rul.sprite(prop)}>{prop}</a>
+          {:else if ['builtInWeapons', 'users', 'units'].includes(key)}
+            {#each prop.filter(s => s.substr(0, 8) != 'INV_NULL') as field, i}
               {#if i != 0},{/if}
               <Link href={field} />
             {/each}
-          {:else}<Value val={prop[1]}/>{/if}
+          {:else}<Value val={prop}/>{/if}
         </td>
       </tr>
     {/if}

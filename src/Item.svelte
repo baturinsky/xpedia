@@ -98,14 +98,14 @@
                 {/each}                
                 </td>
               {/if}          
-              <td>{#if attack.damage || attack.damageType}
-                <nobr>{attack.pellets>1 && attack.damageBonus?"(":""}<em>{attack.damage}</em>
+              <td>{#if 'damage' in attack || 'damageType' in attack}
+                <nobr>{attack.pellets>1 && attack.damageBonus?"(":""}<em>{attack.damage || 0}</em>
                 <small>
                   <SpecialBonus plus={true} bonus={attack.damageBonus}/>{attack.pellets>1 && attack.damageBonus?")":""}
                 </small>
                 {attack.pellets>1?" ×" + attack.pellets:""}
                 </nobr>
-                <br/>{rul.damageTypeName(attack.damageType)}
+                <br/><Link href={rul.damageTypes[attack.damageType]}/>
               {/if}
               </td>
               </tr>
@@ -129,35 +129,35 @@
   {/if}
 
 
-  {#each Object.entries(item).sort((a,b) => a[0]>b[0]?1:-1) as prop, linei}
-    {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(prop[0])}
+  {#each Object.entries(item).sort((a,b) => a[0]>b[0]?1:-1) as [key, prop]}
+    {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(key)}
       <tr>
-        <td>{@html rul.decamelize(prop[0])}</td>
+        <td>{@html rul.decamelize(key)}</td>
         <td class="right-column">
-        {#if ['requiresBuyBaseFunc' ].includes(prop[0])}
-            <BaseServiceList items={prop[1]} vertical={true}/>
-        {:else if ['manufacture', 'componentOf'].includes(prop[0])}
+        {#if ['requiresBuyBaseFunc' ].includes(key)}
+            <BaseServiceList items={prop} vertical={true}/>
+        {:else if ['manufacture', 'componentOf'].includes(key)}
           <table class="number-table">
-          {#each Object.keys(prop[1]) as field, i}
-            <tr><td>{prop[1][field]}</td><td><Link href={field}/></td></tr>
+          {#each Object.keys(prop) as field, i}
+            <tr><td><em>{prop[field]}</em></td><td><Link href={field}/></td></tr>
           {/each}
           </table>
-        {:else if ['damageBonus', 'meleeBonus', 'accuracyMultiplier', 'meleeMultiplier', 'closeQuartersMultiplier'].includes(prop[0])}
-          <SpecialBonus bonus={prop[1]}/>
-        {:else if ['damageType', 'meleeType'].includes(prop[0])}
-          {rul.damageTypeName(prop[1])}
-        {:else if prop[0] == 'battleType'}
-          {prop[1]}: {rul.battleTypes[prop[1]]}
-        {:else if prop[0].includes("Sound")}
-          {#each soundsFrom(prop[1]) as sound, i}
+        {:else if ['damageBonus', 'meleeBonus', 'accuracyMultiplier', 'meleeMultiplier', 'closeQuartersMultiplier'].includes(key)}
+          <SpecialBonus bonus={prop}/>
+        {:else if ['damageType', 'meleeType'].includes(key)}
+          {rul.damageTypeName(prop)}
+        {:else if key == 'battleType'}
+          {prop}: {rul.battleTypes[prop]}
+        {:else if key.includes("Sound")}
+          {#each soundsFrom(prop) as sound, i}
             {@html i>0?"<br/>":""}
             <audio controls src={sound}>Audio tag not working</audio>
           {/each}
-        {:else if ['floorSprite', 'handSprite'].includes(prop[0])}
-          <a style="vertical-align:top" href={rul.specialSprite(prop[0], prop[1])}>{prop[1]}</a> 
-          <img class="sprite" alt={prop[1]} src={rul.specialSprite(prop[0], prop[1])}/>
+        {:else if ['floorSprite', 'handSprite'].includes(key)}
+          <a style="vertical-align:top" href={rul.specialSprite(key, prop)}>{prop}</a> 
+          <img class="sprite" alt={prop} src={rul.specialSprite(key, prop)}/>
         {:else}        
-          <Value val={prop[1]}/>
+          <Value val={prop}/>
         {/if}
         </td>
       </tr>

@@ -60,6 +60,8 @@
   <BASE_FUNC />
 {:else if article.type_id == 'CONDITIONS'}
   <Conditions conditions={rul.startingConditions[article.id]} />
+{:else if article.type_id == 'CATEGORIES'}
+  <LinksList links={rul.categories[article.id]} />
 {:else if article.type_id == 'PEDIA' || article.type_id == 'TYPE'}
   <LinksList links={rul.sections[article.id].articles.map(a => a.id)} />
 {/if}

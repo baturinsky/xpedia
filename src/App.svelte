@@ -1,5 +1,4 @@
 <script>
-  import { Button } from "svelma";
   import { tick, afterUpdate } from "svelte";
   import { rul } from "./Ruleset";
   import Article from "./Article.svelte";
@@ -31,16 +30,15 @@
   function checkHash() {
     let hash = document.location.hash.replace("%20", " ");
     if (hash) {
-      let dd = hash.indexOf(":");
+      let dd = hash.indexOf("::");
       if (dd != -1) {
         id = hash.substr(1, dd - 1);
-        query = hash.substr(dd + 1);
+        query = hash.substr(dd + 2);
       } else {
         id = hash.substr(1);
       }
 
       if (id == "SEARCH") {
-        query = hash.substr(8);
         if (query.length >= 3)
           found = rul.search.findArticles(query).map(a => a.id);
         else found = 0;
@@ -81,7 +79,7 @@
     searchDelayHandle = setTimeout(
       () => {
         console.log(e);
-        goTo("SEARCH:" + e.target.value);
+        goTo("SEARCH::" + e.target.value);
         searchDelayHandle = null;
       },
       e.key == "Enter" ? 10 : 1000
@@ -186,23 +184,41 @@
             {currentSection ? currentSection.title : ''}
           </a>
         </div>
+        {#if article && article.type_id != 'TYPE'}
+          <div class="navbar-item">
+            <a
+              style="color:white"
+              href={'#' + article.id}
+              on:click={e => window.scrollTo(0, 0)}>
+              {article.title}
+            </a>
+          </div>
+        {/if}
       </div>
 
       <div class="navbar-end">
         <div class="navbar-item">
-          <input
-            class="input is-primary"
-            bind:value={query}
-            on:keyup={searchKeyUp}
-            style="width:500px; background:black; color:white;"
-            type="text"
-            placeholder="Search query" />
+          <div class="field has-addons">
+            <p class="control">
+              <input
+                class="input"
+                type="text"
+                bind:value={query}
+                on:keyup={searchKeyUp}
+                placeholder="Search..." />
+            </p>
+            <!--
+            <p class="control">
+              <button class="button">Search</button>
+            </p>-->
+          </div>
+
         </div>
       </div>
     </div>
   </nav>
 
-  <div class="columns is-fullheight" style="height:100%;">
+  <div class="columns is-fullheight">
     <div
       class="column is-2 is-sidebar-menu is-hidden-mobile sidebar padding-top">
       {#each article && article.section && article.section.isType() ? rul.typeSectionsOrder : rul.sectionsOrder as section}
@@ -241,7 +257,7 @@
         <em>{query}</em>
         ":
         <br />
-        {#if found.length > 0}
+        {#if found && found.length > 0}
           <LinksList links={found} />
         {:else if query.length < 3}
           <i>Query too short</i>

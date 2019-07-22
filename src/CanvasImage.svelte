@@ -10,9 +10,11 @@
   let loaded = false
 
   function updateImage() {
-    console.log(img);
     canvas.width = Math.min(maxWidth, img.naturalWidth * zoom);
     canvas.height = Math.min(maxHeight, img.naturalHeight * zoom);
+    ctx.imageSmoothingEnabled = false;
+    ctx.mozImageSmoothingEnabled = false;
+    ctx.webkitImageSmoothingEnabled = false;
     ctx.drawImage(img, 0, 0, img.naturalWidth * zoom, img.naturalHeight * zoom);
     loaded = true;
   }
@@ -20,8 +22,6 @@
   function prepareCanvas(node) {
     canvas = node;
     ctx = canvas.getContext("2d");
-    ctx.imageSmoothingEnabled = false;
-    ctx.imageSmoothingQuality = "high";
     img = new Image();
     img.onload = updateImage;
     img.src = src;
@@ -35,4 +35,6 @@
   }
 </script>
 
+<a href={src}>
 <canvas class="pixelated" style="display:{loaded?'inline':'none'}" bind:this={canvas} use:prepareCanvas />
+</a>

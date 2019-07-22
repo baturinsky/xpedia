@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Didact Gothic';
-    src: local('DidactGothic'), url('didactgothic.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'font1';
+  src: url('font1.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
 } 
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "Didact Gothic", Helvetica, Ubuntu, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen-Sans, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: font1, Helvetica, Ubuntu, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen-Sans, Cantarell, "Helvetica Neue", sans-serif;
   letter-spacing: 0.1pt;
 }
 
@@ -148,7 +148,7 @@ input::placeholder {
   padding-top: 0px;
 }
 
-.pixelated {
+canvas {
   image-rendering:optimizeSpeed;             /* Legal fallback */
   image-rendering:-moz-crisp-edges;          /* Firefox        */
   image-rendering:-o-crisp-edges;            /* Opera          */
@@ -177,7 +177,7 @@ ol li{
 }
 
 .armors {
-  min-width: 550px;
+  min-width: 600px;
 }
 .armor {
   pointer-events: none;
@@ -218,7 +218,7 @@ audio{
 
 .btn-hover-effect {
   display: flex;
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
   line-height: 1;
   background-color: black;
@@ -237,7 +237,7 @@ audio{
   position: relative;
   display: flex;
   align-items: center;
-  padding: 10px 30px;
+  padding: 7px 30px;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   text-decoration: none;
@@ -284,9 +284,7 @@ audio{
   height: 100%;
   width: 40px;
   content: '>';
-  font-family: "Font Awesome 5 Free";
-  font-size: 25px;
-  font-weight: 900;
+  font-family: inherit;
   line-height: inherit;
   opacity: 0;
 }
@@ -307,4 +305,13 @@ audio{
 
 button{
   cursor: pointer;
+}
+
+.tight{
+  column-gap: 0em;
+}
+
+.tight img{
+  display: block;
+  margin: 0px;
 }

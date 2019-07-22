@@ -19,4 +19,3 @@
 <LinksList links={conditions.allowedVehicles} title={rul.str("Allowed Vehicles")}/>
 
 <LinksList links={conditions.deployments} title={rul.str("Deployments")}/>
-

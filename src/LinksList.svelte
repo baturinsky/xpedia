@@ -23,7 +23,7 @@
     {#if title}
       <div class="header"> {title} </div>
     {/if}
-    <div class="cols">
+    <div class="cols">  
       <ol>
         {#each links as option}
           <li>

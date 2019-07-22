@@ -13,9 +13,7 @@ function backLink(id: string, list:string[], to:any, field:string){
     back[field] = back[field] || [];
     back[field].push(id);
   }
-
 }
-
 
 function parseYaml(text: string) {
   let data = [];
@@ -290,7 +288,7 @@ export class Attack {
   damage: number;
   damageBonus: { [key: string]: number };
   damageType: number;
-  accuracy: number;
+  accuracy: number;  
   accuracyMultiplier: { [key: string]: number };
   alter: { [key: string]: number };
   shots: number = 1;
@@ -302,13 +300,16 @@ export class Attack {
     let capMode = mode.charAt(0).toUpperCase() + mode.substr(1);
 
     let isDefaultAttack =
+      (mode == "ammo" && item.battleType == 2) ||
       (mode == "melee" && item.battleType == 3) ||
-      (item.battleType == 2 && mode == "ammo");
+      (mode == "psi" && item.battleType == 9) ||
+      (mode == "throw" && [4,5].includes(item.battleType))
+      ;
     let exists = item["accuracy" + capMode] || isDefaultAttack;
 
     if (!exists) return null;
 
-    if (mode == "melee" && item.battleType == 1) {
+    if (mode == "melee" && item.battleType != 3) {
       this.damage = item.meleePower;
       this.damageBonus = item.meleeBonus;
       this.damageType = item.meleeType;
@@ -331,6 +332,9 @@ export class Attack {
       delete item[confId];
     }
 
+    if(item[mode + "AttackName"])
+      this.name = rul.str(item[mode + "AttackName"]);
+
     if (mode == "melee") this.alter = item.meleeAlter;
 
     if (item.battleType == 3 || mode != "melee") this.alter = item.damageAlter;
@@ -345,18 +349,21 @@ export class Attack {
       if (item["flat" + capMode] && item["flat" + capMode].time)
         this.flatTime = true;
 
+      if(capMode == "Psi")
+        capMode = "Use";
+
       this.cost = this.cost = item["cost" + capMode] || {
         time: item["tu" + capMode],
         energy: 0
       };
 
-      this.accuracy = item["accuracy" + capMode];
+      this.accuracy = item["accuracy" + capMode] || 100;
 
       let accuracyMultiplier =
-        mode == "melee" ? item.meleeMultiplier : item.accuracyMultiplier;
+        mode == "throw" ? item.throwMultiplier : "melee" ? item.meleeMultiplier : item.accuracyMultiplier;
 
       if (!accuracyMultiplier) {
-        let defaultAccuracyStat = mode == "melee" ? "melee" : "firing";
+        let defaultAccuracyStat = mode == "throw"? "throwing" : mode == "melee" ? "melee" : "firing";
         accuracyMultiplier = {};
         accuracyMultiplier[defaultAccuracyStat] = 1;
       }
@@ -394,7 +401,7 @@ export class Article {
 
   constructor(raw: any) {
     this.id = raw.id;
-    this.title = rul.str(raw.title || raw.id);
+    this.title = raw.title || rul.str(raw.id);
     rul.lang[this.id] = this.title;
     this.text = rul.lang[raw.text] || rul.lang[raw.id + "_UFOPEDIA"];
     this.image_id = raw.image_id;
@@ -543,9 +550,10 @@ export class Item {
   autoShots: number;
   flatRate: boolean;
   meleeMultiplier: any;
+  throwMultiplier: any;
   accuracyMultiplier: any;
   compatibleWeapons: any;
-
+  categories: string[];
 
   constructor(raw: any) {
     Object.assign(this, raw);
@@ -562,28 +570,47 @@ export class Item {
 
     Service.add("canBuyItem", this.type, this.requiresBuyBaseFunc);
 
+    if(this.categories){
+      for(let cat of this.categories)
+        this.addCategory(cat)
+    }
+
     Article.create({
       id: this.type,
-      type_id: "OTHER ITEMS",
-      section: "OTHER ITEMS"
+      type_id: "ITEMS",
+      section: "ITEMS"
     });
   }
 
   attacks() {
     if (!this._attacks) {
       this._attacks = [];
-      for (let mode of ["ammo", "melee", "snap", "aimed", "auto"]) {
+      for (let mode of ["ammo", "melee", "snap", "aimed", "auto", "throw", "psi"]) {
         let attack = new Attack(this, mode);
-        if (attack.possible) this._attacks.push(attack);
+        if (attack.possible){
+          this._attacks.push(attack);
+          if(!isNaN(+attack.damageType))
+            this.addCategory("dmg=" + rul.damageTypes[attack.damageType]);
+          if(attack.damageBonus){
+            for(let k in attack.damageBonus)
+              this.addCategory("dmg*" + k);
+              for(let k in attack.accuracyMultiplier)
+              this.addCategory("acc*" + k);
+          }
+        }
       }
     }
 
     return this._attacks;
   }
 
-  damageTypeName() {
-    return rul.damageTypeName(this.damageType);
+  addCategory(catName: string){
+    let cat = rul.categories[catName] || [];
+    if(!cat.includes(this))
+      cat.push(this)
+    rul.categories[catName] = cat
   }
+
 }
 
 export default class Ruleset {
@@ -597,6 +624,7 @@ export default class Ruleset {
   search: Search;
   ourArmors: string[];
   items: { [key: string]: Item } = {};
+  categories: { [key: string]: Item[] } = {};
   armors: { [key: string]: Armor } = {};
   units: { [key: string]: Unit } = {};
   crafts: { [key: string]: Craft } = {};
@@ -615,6 +643,7 @@ export default class Ruleset {
   modName: string;
   path: string;
   baseServices: { [key: string]: Service } = {};
+  redirect: { [key: string]: string } = {};
 
   lang: { [key: string]: string } = {};
 
@@ -694,8 +723,9 @@ export default class Ruleset {
     }
 
     let articleTypes = [
-      "OTHER ITEMS",
+      "ITEMS",
       "CONDITIONS",
+      "CATEGORIES",
       "RESEARCH",
       "MANUFACTURE",
       "SERVICES"
@@ -738,6 +768,12 @@ export default class Ruleset {
         text = text.replace(/{NEWLINE}/g, "<br/>");
         this.lang[k] = text;
       }
+    }
+
+    for(let damage of rul.damageTypes){
+      rul.categories["dmg=" + damage] = [];
+      this.redirect[damage] = "dmg=" + damage;
+      this.lang["dmg=" + damage] = this.lang[damage];
     }
 
     this.parsePedia(this.raw.ufopaedia);
@@ -787,6 +823,7 @@ export default class Ruleset {
     }
 
     for (let item of Object.values(this.items)) {
+      item.attacks();
       if (item.compatibleAmmo) {
         for (let ammoId of item.compatibleAmmo) {
           let ammo = this.items[ammoId];
@@ -837,6 +874,16 @@ export default class Ruleset {
       type_id: "OTHER",
       section: "OTHER"
     });
+
+    for(let cat of Object.keys(this.categories)){
+      console.log(cat);
+      Article.create({
+        id: cat,
+        title: rul.str(cat),
+        type_id: "CATEGORIES",
+        section: "CATEGORIES"
+      });  
+    }
 
     console.log(this);
 
@@ -940,6 +987,8 @@ export default class Ruleset {
   }
 
   article(id: string) {
-    return this.articles[id];
+    let a = this.articles[this.redirect[id] || id];  
+    return a;
   }
+
 }

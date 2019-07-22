@@ -1,24 +1,27 @@
 <script>
   import { rul } from "./Ruleset";
   import Link from "./Link.svelte";
-  import Value from "./Value.svelte";  
+  import Value from "./Value.svelte";
   import ItemList from "./ItemList.svelte";
   import BaseServiceList from "./BaseServiceList.svelte";
   import Illustration from "./Illustration.svelte";
   import SpecialBonus from "./SpecialBonus.svelte";
 
   export let facility;
+  let size = 1;
 
   $: {
+    size = facility.size || 1;
+    console.log(size);
     console.info(facility);
   }
 </script>
 
 <style>
-.dropdown-content{
-  background: black;    
-  padding: 5px;
-}
+  .dropdown-content {
+    background: black;
+    padding: 5px;
+  }
 </style>
 
 <table class="main-table">
@@ -26,23 +29,23 @@
     <td colspan="2" class="table-header">Craft</td>
   </tr>
   {#each Object.entries(facility).sort((a, b) =>
-    (a[0] > b[0]) && (a[0] != 'storageTiles')? 1 : -1
-  ) as prop}
-    {#if !['type', 'battlescapeTerrainData', 'craftInventoryTile', 'deployment'].includes(prop[0])}
+    a[0] > b[0] && a[0] != 'storageTiles' ? 1 : -1
+  ) as [key, prop]}
+    {#if !['type', 'battlescapeTerrainData', 'craftInventoryTile', 'deployment'].includes(key)}
       <tr>
         <td class="padding-right">
-          {@html rul.decamelize(prop[0])}
+          {@html rul.decamelize(key)}
         </td>
         <td>
-          {#if ['buildCostItems'].includes(prop[0])}
-            {#each Object.keys(prop[1]).sort() as field, i}
+          {#if ['buildCostItems'].includes(key)}
+            {#each Object.keys(prop).sort() as field, i}
               {#if i != 0}
                 <br />
               {/if}
               <Link href={field} />
-              : {prop[1][field].build} / {prop[1][field].refund}
+              : {prop[field].build} / {prop[field].refund}
             {/each}
-          {:else if ['storageTiles'].includes(prop[0])}
+          {:else if ['storageTiles'].includes(key)}
             <div class="dropdown is-hoverable">
               <div class="dropdown-trigger">
                 <button
@@ -54,19 +57,25 @@
               </div>
               <div class="dropdown-menu" id="dropdown-tiles" role="menu">
                 <div class="dropdown-content" style="columns:6">
-                  <ItemList items={prop[1]} vertical={true} />
+                  <ItemList items={prop} vertical={true} />
                 </div>
               </div>
             </div>
-          {:else if ['provideBaseFunc', 'requiresBaseFunc', 'forbiddenBaseFunc'].includes(prop[0])}
-            <BaseServiceList items={prop[1]} vertical={true} />
-          {:else if ['spriteFacility', 'spriteShape'].includes(prop[0])}
-            <img
-              class="sprite"
-              alt="X"
-              src={rul.specialSprite('baseSprite', prop[1] * 1)} />
+          {:else if ['provideBaseFunc', 'requiresBaseFunc', 'forbiddenBaseFunc'].includes(key)}
+            <BaseServiceList items={prop} vertical={true} />
+          {:else if ['spriteFacility', 'spriteShape'].includes(key)}
+            <div class="tight" style="columns:{size};width:{32 * size}px;">
+              {#each { length: size } as _, y}
+                {#each { length: size } as _, x}
+                  <img
+                      class="sprite"
+                      alt="X"
+                      src={rul.specialSprite('baseSprite', prop * 1 + x * size + y)} />
+                {/each}
+              {/each}
+            </div>
           {:else}
-            <Value val={prop[1]}/>
+            <Value val={prop} />
           {/if}
         </td>
       </tr>

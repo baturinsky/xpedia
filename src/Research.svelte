@@ -1,9 +1,7 @@
 <script>
   import { rul } from "./Ruleset";
-  import Link from "./Link.svelte";
-  import ItemList from "./ItemList.svelte";
-  import BaseServiceList from "./BaseServiceList.svelte"
-  import Value from "./Value.svelte";  
+  import { Link, Intro, LinksPage, Value, LinksList, BaseServiceList } from "./Components";
+
   
   export let research;
   export let title = "Research"
@@ -35,7 +33,7 @@
     {:else if key == 'getOneFreeProtected'}
       <tr><td colspan="2" class="table-subheader">{rul.decamelize(key)}</td></tr>
       {#each Object.keys(prop) as key}
-      <tr><td><Link href={key}/></td><td><ItemList items={prop[key]}/></td></tr>
+      <tr><td><Link href={key}/></td><td><LinksList items={prop[key]}/></td></tr>
       {/each}
     {:else}
       {#if !['name'].includes(key)}

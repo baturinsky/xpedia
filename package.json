@@ -20,6 +20,7 @@
     "rollup-plugin-typescript2": "^0.21.1",
     "sirv-cli": "^0.4.0",
     "svelte": "^3.0.0",
+    "temp-dir": "^2.0.0",
     "tslib": "^1.10.0",
     "typescript": "^3.5.1",
     "zip-a-folder": "^0.0.8"

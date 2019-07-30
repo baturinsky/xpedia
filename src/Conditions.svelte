@@ -1,6 +1,6 @@
 <script>
   import { rul } from "./Ruleset";
-  import LinksList from "./LinksList.svelte";  
+  import LinksPage from "./LinksPage.svelte";  
 
   export let conditions;
 </script>
@@ -8,14 +8,14 @@
 <style>
 </style>
 
-<LinksList links={conditions.allowedCraft} title={rul.str("Allowed Craft")}/>
+<LinksPage links={conditions.allowedCraft} title={rul.str("Allowed Craft")}/>
 
-<LinksList links={conditions.allowedItemCategories} title={rul.str("Allowed Item Categories")}/>
+<LinksPage links={conditions.allowedItemCategories} title={rul.str("Allowed Item Categories")}/>
 
-<LinksList links={conditions.allowedArmors} title={rul.str("Allowed Armors")}/>
+<LinksPage links={conditions.allowedArmors} title={rul.str("Allowed Armors")}/>
 
-<!--<LinksList links={rul.ourArmors.filter(a => !conditions.allowedArmors.includes(a))} title={rul.str("Banned Armors")}/>-->
+<!--<LinksPage links={rul.ourArmors.filter(a => !conditions.allowedArmors.includes(a))} title={rul.str("Banned Armors")}/>-->
 
-<LinksList links={conditions.allowedVehicles} title={rul.str("Allowed Vehicles")}/>
+<LinksPage links={conditions.allowedVehicles} title={rul.str("Allowed Vehicles")}/>
 
-<LinksList links={conditions.deployments} title={rul.str("Deployments")}/>
+<LinksPage links={conditions.deployments} title={rul.str("Deployments")}/>

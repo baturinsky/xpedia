@@ -5,10 +5,9 @@ import { throws } from "assert";
 
 export let rul!: Ruleset;
 
-function backLink(id: string, list:string[], to:any, field:string){
-  if(!list)
-    return;
-  for (let key of list){
+function backLink(id: string, list: string[], to: any, field: string) {
+  if (!list) return;
+  for (let key of list) {
     let back = to[key];
     back[field] = back[field] || [];
     back[field].push(id);
@@ -216,7 +215,7 @@ export class Facility {
   provideBaseFunc: string[];
   requiresBaseFunc: string[];
   forbiddenBaseFunc: string[];
-  buildCostItems: {[key:string] : {[key:string] : number}}
+  buildCostItems: { [key: string]: { [key: string]: number } };
 
   constructor(raw: any) {
     Object.assign(this, raw);
@@ -288,7 +287,7 @@ export class Attack {
   damage: number;
   damageBonus: { [key: string]: number };
   damageType: number;
-  accuracy: number;  
+  accuracy: number;
   accuracyMultiplier: { [key: string]: number };
   alter: { [key: string]: number };
   shots: number = 1;
@@ -303,8 +302,7 @@ export class Attack {
       (mode == "ammo" && item.battleType == 2) ||
       (mode == "melee" && item.battleType == 3) ||
       (mode == "psi" && item.battleType == 9) ||
-      (mode == "throw" && [4,5].includes(item.battleType))
-      ;
+      (mode == "throw" && [4, 5].includes(item.battleType));
     let exists = item["accuracy" + capMode] || isDefaultAttack;
 
     if (!exists) return null;
@@ -332,7 +330,7 @@ export class Attack {
       delete item[confId];
     }
 
-    if(item[mode + "AttackName"])
+    if (item[mode + "AttackName"])
       this.name = rul.str(item[mode + "AttackName"]);
 
     if (mode == "melee") this.alter = item.meleeAlter;
@@ -349,8 +347,7 @@ export class Attack {
       if (item["flat" + capMode] && item["flat" + capMode].time)
         this.flatTime = true;
 
-      if(capMode == "Psi")
-        capMode = "Use";
+      if (capMode == "Psi") capMode = "Use";
 
       this.cost = this.cost = item["cost" + capMode] || {
         time: item["tu" + capMode],
@@ -360,15 +357,24 @@ export class Attack {
       this.accuracy = item["accuracy" + capMode] || 100;
 
       let accuracyMultiplier =
-        mode == "throw" ? item.throwMultiplier : "melee" ? item.meleeMultiplier : item.accuracyMultiplier;
+        mode == "throw"
+          ? item.throwMultiplier
+          : mode == "melee"
+          ? item.meleeMultiplier
+          : item.accuracyMultiplier;
 
       if (!accuracyMultiplier) {
-        let defaultAccuracyStat = mode == "throw"? "throwing" : mode == "melee" ? "melee" : "firing";
+        let defaultAccuracyStat =
+          mode == "throw" ? "throwing" : mode == "melee" ? "melee" : "firing";
         accuracyMultiplier = {};
         accuracyMultiplier[defaultAccuracyStat] = 1;
       }
 
       this.accuracyMultiplier = accuracyMultiplier;
+    }
+
+    if (this.alter && this.alter.ResistType) {
+      this.damageType = this.alter.ResistType;
     }
 
     if (mode + "Range" in item) {
@@ -534,8 +540,8 @@ export class Item {
   _attacks: Attack[];
   spawnedBy: string[];
   requiresBuyBaseFunc: string[];
-  manufacture: { [key:string]: number};
-  componentOf: { [key:string]: number};
+  manufacture: { [key: string]: number };
+  componentOf: { [key: string]: number };
   bigSprite: string;
   meleePower: number;
   meleeBonus: any;
@@ -570,9 +576,8 @@ export class Item {
 
     Service.add("canBuyItem", this.type, this.requiresBuyBaseFunc);
 
-    if(this.categories){
-      for(let cat of this.categories)
-        this.addCategory(cat)
+    if (this.categories) {
+      for (let cat of this.categories) this.addCategory(cat);
     }
 
     Article.create({
@@ -585,16 +590,23 @@ export class Item {
   attacks() {
     if (!this._attacks) {
       this._attacks = [];
-      for (let mode of ["ammo", "melee", "snap", "aimed", "auto", "throw", "psi"]) {
+      for (let mode of [
+        "ammo",
+        "melee",
+        "snap",
+        "aimed",
+        "auto",
+        "throw",
+        "psi"
+      ]) {
         let attack = new Attack(this, mode);
-        if (attack.possible){
+        if (attack.possible) {
           this._attacks.push(attack);
-          if(!isNaN(+attack.damageType))
+          if (!isNaN(+attack.damageType))
             this.addCategory("dmg=" + rul.damageTypes[attack.damageType]);
-          if(attack.damageBonus){
-            for(let k in attack.damageBonus)
-              this.addCategory("dmg*" + k);
-              for(let k in attack.accuracyMultiplier)
+          if (attack.damageBonus) {
+            for (let k in attack.damageBonus) this.addCategory("dmg*" + k);
+            for (let k in attack.accuracyMultiplier)
               this.addCategory("acc*" + k);
           }
         }
@@ -604,13 +616,11 @@ export class Item {
     return this._attacks;
   }
 
-  addCategory(catName: string){
+  addCategory(catName: string) {
     let cat = rul.categories[catName] || [];
-    if(!cat.includes(this))
-      cat.push(this)
-    rul.categories[catName] = cat
+    if (!cat.includes(this)) cat.push(this);
+    rul.categories[catName] = cat;
   }
-
 }
 
 export default class Ruleset {
@@ -770,7 +780,7 @@ export default class Ruleset {
       }
     }
 
-    for(let damage of rul.damageTypes){
+    for (let damage of rul.damageTypes) {
       rul.categories["dmg=" + damage] = [];
       this.redirect[damage] = "dmg=" + damage;
       this.lang["dmg=" + damage] = this.lang[damage];
@@ -815,11 +825,13 @@ export default class Ruleset {
           let item = rul.items[itemName];
           if (!item) continue;
           if (!item.componentOf) item.componentOf = {};
-          item.componentOf[facility.type] = facility.buildCostItems[itemName].build;
+          item.componentOf[facility.type] =
+            facility.buildCostItems[itemName].build;
           if (!item.manufacture) item.manufacture = {};
-          item.manufacture[facility.type] = facility.buildCostItems[itemName].refund;
+          item.manufacture[facility.type] =
+            facility.buildCostItems[itemName].refund;
         }
-      }      
+      }
     }
 
     for (let item of Object.values(this.items)) {
@@ -836,8 +848,8 @@ export default class Ruleset {
     }
 
     for (let research of Object.values(this.research)) {
-      backLink(research.name, research.dependencies, rul.research, 'leadsTo')
-      backLink(research.name, research.getOneFree, rul.research, 'freeFrom')
+      backLink(research.name, research.dependencies, rul.research, "leadsTo");
+      backLink(research.name, research.getOneFree, rul.research, "freeFrom");
 
       if (research.lookup && research.name == research.lookup) {
         console.warn(research.lookup + " lookup is to itself");
@@ -848,7 +860,7 @@ export default class Ruleset {
         lookup.seeAlso.push(research.name);
         let lookUpArticle = this.article(research.lookup);
         let article = this.article(research.name);
-        article.title = lookUpArticle.title;
+        if (!rul.lang[article.id]) article.title = lookUpArticle.title;
         article.text = lookUpArticle.text;
         article.image_id = lookUpArticle.image_id;
       }
@@ -875,14 +887,14 @@ export default class Ruleset {
       section: "OTHER"
     });
 
-    for(let cat of Object.keys(this.categories)){
+    for (let cat of Object.keys(this.categories)) {
       console.log(cat);
       Article.create({
         id: cat,
         title: rul.str(cat),
         type_id: "CATEGORIES",
         section: "CATEGORIES"
-      });  
+      });
     }
 
     console.log(this);
@@ -987,8 +999,7 @@ export default class Ruleset {
   }
 
   article(id: string) {
-    let a = this.articles[this.redirect[id] || id];  
+    let a = this.articles[this.redirect[id] || id];
     return a;
   }
-
 }

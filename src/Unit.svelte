@@ -1,8 +1,9 @@
 <script>
   import { rul } from "./Ruleset";
-  import Link from "./Link.svelte";
   import Armor from './Armor.svelte';
-  import Value from "./Value.svelte";  
+
+  import { Link, Intro, LinksPage, Value } from "./Components";
+  
 
   export let unit;
 

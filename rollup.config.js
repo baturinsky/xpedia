@@ -30,7 +30,8 @@ export default {
 
     resolve({ browser: true, preferBuiltins: false }),
     typescript({
-      tsconfig: "tsconfig.json"
+      tsconfig: "tsconfig.json",
+      cacheRoot: `${require('temp-dir')}/.rpt2_cache`
     }),
 
     commonjs(),

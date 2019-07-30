@@ -1,11 +1,9 @@
 <script>
   import { rul } from "./Ruleset";
-  import Link from "./Link.svelte";
-  import Value from "./Value.svelte";
-  import ItemList from "./ItemList.svelte";
   import BaseServiceList from "./BaseServiceList.svelte";
-  import Illustration from "./Illustration.svelte";
   import SpecialBonus from "./SpecialBonus.svelte";
+
+  import { Link, Intro, LinksPage, Value, LinksList } from "./Components";
 
   export let facility;
   let size = 1;
@@ -57,7 +55,7 @@
               </div>
               <div class="dropdown-menu" id="dropdown-tiles" role="menu">
                 <div class="dropdown-content" style="columns:6">
-                  <ItemList items={prop} vertical={true} />
+                  <LinksList items={prop} vertical={true} />
                 </div>
               </div>
             </div>

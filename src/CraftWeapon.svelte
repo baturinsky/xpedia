@@ -1,9 +1,7 @@
 <script>
   import { rul } from "./Ruleset";
-  import Link from "./Link.svelte";
-  import ItemList from "./ItemList.svelte";
-  import Illustration from "./Illustration.svelte";
-  import Item from "./Item.svelte";
+  import { Link, Intro, LinksPage, Value } from "./Components";  
+  import Item from "./Item.svelte"
 
   export let weapon;
 
@@ -35,14 +33,7 @@
                 {@html rul.decamelize(prop[0])}
               </td>
               <td>
-                {#if ['launcher', 'clip'].includes(prop[0])}
-                  <Link href={prop[1]} />
-                {:else if prop[1] instanceof Object}
-                  {#each Object.keys(prop[1]).sort() as field, i}
-                    {#if i != 0},{/if}
-                    {@html rul.decamelize(field) + ":&nbsp;" + rul.decamelize(prop[1][field])}
-                  {/each}
-                {:else}{prop[1]}{/if}
+                <Value val={prop[1]} />
               </td>
             </tr>
           {/if}
@@ -50,12 +41,14 @@
       </table>
     </td>
     <td>
+    <table class="main-table">
     {#if weapon.launcher}
       <Item item={rul.items[weapon.launcher]} title={"Launcher: " + rul.str(weapon.launcher)}/>
     {/if}
     {#if weapon.clip}
       <Item item={rul.items[weapon.clip]} title={"Clip: " + rul.str(weapon.clip)}/>
     {/if}
+    </table>
     </td>
   </tr>
 </table>

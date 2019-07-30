@@ -1,10 +1,8 @@
 <script>
   import { tick, afterUpdate } from "svelte";
   import { rul } from "./Ruleset";
+  import { Link, Intro, LinksPage, Value, LinksList } from "./Components";
   import Article from "./Article.svelte";
-  import Link from "./Link.svelte";
-  import Intro from "./Intro.svelte";
-  import LinksList from "./LinksList.svelte";
 
   export let source;
 
@@ -39,7 +37,7 @@
       }
 
       if (id == "SEARCH") {
-        if (query.length >= 3)
+        if (query.length >= 2)
           found = rul.search.findArticles(query).map(a => a.id);
         else found = 0;
         article = null;
@@ -78,7 +76,6 @@
 
     searchDelayHandle = setTimeout(
       () => {
-        console.log(e);
         goTo("SEARCH::" + e.target.value);
         searchDelayHandle = null;
       },
@@ -105,6 +102,11 @@
   $: {
     console.info(article || "no article");
   }
+
+  let sortArticles = false;
+
+  $: sortedArticles = (articles) => sortArticles?articles.slice().sort((a,b) => a.title > b.title?1:-1):articles;
+  
 </script>
 
 <style>
@@ -219,13 +221,15 @@
   </nav>
 
   <div class="columns is-fullheight">
+    
     <div
       class="column is-2 is-sidebar-menu is-hidden-mobile sidebar padding-top">
+
       {#each article && article.section && article.section.isType() ? rul.typeSectionsOrder : rul.sectionsOrder as section}
         {#if !currentSection || section.id == currentSection.id}
           <p class="menu-label">{section.title}</p>
           <ul class="menu-list">
-            {#each section.articles as option}
+            {#each sortedArticles(section.articles) as option}
               <li>
                 {#if article && article.id == option.id}
                   <a
@@ -248,6 +252,10 @@
       {/each}
     </div>
     <div class="column is-2" />
+    <div class="side-sort-button">
+      <button style={sortArticles?"":"text-decoration:line-through"} on:click={e => sortArticles = !sortArticles}>A-Z</button>
+    </div>
+
     <div class="column is-main-content main padding-top">
 
       {#if article}
@@ -258,8 +266,8 @@
         ":
         <br />
         {#if found && found.length > 0}
-          <LinksList links={found} />
-        {:else if query.length < 3}
+          <LinksPage links={found} />
+        {:else if query.length < 2}
           <i>Query too short</i>
         {:else if searchDelayHandle}
           ...

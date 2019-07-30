@@ -9,13 +9,12 @@
   import Research from "./Research.svelte";
   import Manufacture from "./Manufacture.svelte";
   import Conditions from "./Conditions.svelte";
-  import LinksList from "./LinksList.svelte";
   import Ufo from "./Ufo.svelte";
   import Facility from "./Facility.svelte";
   import BaseService from "./BaseService.svelte";
-  import Link from "./Link.svelte";
-  import ItemList from "./ItemList.svelte"
-  import BASE_FUNC from "./BaseServices.svelte";
+  import BaseServices from "./BaseServices.svelte";
+  import { Link, Intro, LinksPage, Value, LinksList } from "./Components";
+
 
   export let article;
   export let query;
@@ -25,7 +24,7 @@
   $: {
     textwithHighlights = article.text || "";
 
-    other = article.type_id == "OTHER" ? {BASE_FUNC}[article.id] : false;
+    other = article.type_id == "OTHER" ? {BaseServices}[article.id] : false;
 
     if (query) {
       for (let word of query.split()) {
@@ -57,13 +56,13 @@
 </div>
 
 {#if article.id == 'SERVICES'}
-  <BASE_FUNC />
+  <BaseServices />
 {:else if article.type_id == 'CONDITIONS'}
   <Conditions conditions={rul.startingConditions[article.id]} />
 {:else if article.type_id == 'CATEGORIES'}
-  <LinksList links={rul.categories[article.id]} />
+  <LinksPage links={rul.categories[article.id]} />
 {:else if article.type_id == 'PEDIA' || article.type_id == 'TYPE'}
-  <LinksList links={rul.sections[article.id].articles.map(a => a.id)} />
+  <LinksPage links={rul.sections[article.id].articles.map(a => a.id)} />
 {/if}
 
 <div class="flex-horisontal">

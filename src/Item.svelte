@@ -2,7 +2,6 @@
   import { rul } from "./Ruleset";
   import Illustration from "./Illustration.svelte";
   import SpecialBonus from "./SpecialBonus.svelte"
-  import ItemList from "./ItemList.svelte"  
   import Link from "./Link.svelte";
   import CanvasImage from "./CanvasImage.svelte"
   import BaseServiceList from "./BaseServiceList.svelte"

@@ -1,7 +1,6 @@
 <script>
   import { rul } from "./Ruleset";
-  import ItemList from "./ItemList.svelte"
-  import Link from "./Link.svelte";
+  import { Link, Intro, LinksPage, Value, LinksList } from "./Components";
 
   export let query = null
 
@@ -23,7 +22,7 @@ a{
     <tr class={service[0] == query?"highlight":""}>
       <td><a color=cyan href={'#' + service[0]}>{@html rul.str(service[0])}</a></td>
       <td>
-        <ItemList items={service[1].providedBy} />
+        <LinksList items={service[1].providedBy} />
       </td>
     </tr>
   {/each}

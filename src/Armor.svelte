@@ -1,8 +1,6 @@
 <script>
   import { rul } from "./Ruleset";
-  import Link from "./Link.svelte";
-  import ItemList from "./ItemList.svelte";
-  import Value from "./Value.svelte";  
+  import { Link, Intro, LinksPage, Value, LinksList } from "./Components";
 
   export let armor;
   let dollColumns = 6;
@@ -10,31 +8,38 @@
   let zoom = 1;
   let seeAlso = [];
 
-  $:{
+  $: {
     console.log(armor);
 
-    seeAlso = []
-    if ('storeItem' in armor && armor.storeItem != "STR_NONE"){
-      seeAlso.push(armor.storeItem)
+    seeAlso = [];
+    if ("storeItem" in armor && armor.storeItem != "STR_NONE") {
+      seeAlso.push(armor.storeItem);
     }
-    if ('users' in armor){
-      for(let item of armor.users.filter(s => s.substr(0, 8) != 'INV_NULL' && s != armor.type && "#" + s != window.location.hash)){
-        seeAlso.push(item)
+    if ("users" in armor) {
+      for (let item of armor.users.filter(
+        s =>
+          s.substr(0, 8) != "INV_NULL" &&
+          s != armor.type &&
+          "#" + s != window.location.hash
+      )) {
+        seeAlso.push(item);
       }
     }
   }
-
 </script>
 
 <style>
+
 </style>
 
 <table class="main-table">
   <tr>
-    <td colspan="2" class="table-header">Armor
-    {#if seeAlso.length > 0}
-      <span style="color:white"> - see also </span> <ItemList items={seeAlso}/>
-    {/if}
+    <td colspan="2" class="table-header">
+      Armor
+      {#if seeAlso.length > 0}
+        <span style="color:white">- see also</span>
+        <LinksList items={seeAlso} />
+      {/if}
     </td>
   </tr>
   <tr>
@@ -81,7 +86,10 @@
             <table class="number-table armor-column">
               <thead>
                 <tr>
-                  <td colspan="2" class="number-table-header" style="text-align:center;">
+                  <td
+                    colspan="2"
+                    class="number-table-header"
+                    style="text-align:center;">
                     {@html rul.decamelize(prop)}
                   </td>
                 </tr>
@@ -92,24 +100,28 @@
                 <tr>
                   <td>
                     {#if prop == 'damageModifier'}
-                      <Link href={rul.damageTypes[key]}/>
+                      <Link href={rul.damageTypes[key]} />
                     {:else}
-                      {rul.decamelize(key, "&nbsp;")}
+                      <nobr>{rul.decamelize(key)}</nobr>
                     {/if}
                   </td>
                   <td>
                     {#if 'recovery' == prop}
-                        {#each Object.keys(val) as subfield, j}
-                          {#if j != 0}
-                            <br />
-                          {/if}
-                          {@html rul.decamelize(subfield)}
-                          :
-                          <em>{@html rul.decamelize(val[subfield])}</em>
-                        {/each}
-                      {:else}
-                        <em>{@html prop == 'damageModifier' ? Math.floor(val * 100) : rul.decamelize(val)}</em>
-                      {/if}
+                      {#each Object.keys(val) as subfield, j}
+                        {#if j != 0}
+                          <br />
+                        {/if}
+                        {@html rul.decamelize(subfield)}
+                        :
+                        <em>
+                          {@html rul.decamelize(val[subfield])}
+                        </em>
+                      {/each}
+                    {:else}
+                      <em>
+                        {@html prop == 'damageModifier' ? Math.floor(val * 100) : rul.decamelize(val)}
+                      </em>
+                    {/if}
                   </td>
                 </tr>
               {/each}
@@ -120,7 +132,9 @@
     </td>
   </tr>
 
-  {#each Object.entries(armor).sort((a, b) => (a[0] > b[0] ? 1 : -1)) as [key, prop]}
+  {#each Object.entries(armor).sort((a, b) =>
+    a[0] > b[0] ? 1 : -1
+  ) as [key, prop]}
     {#if !['recovery', 'type', 'layersDefinition', 'spriteFaceColor', 'spriteHairColor', 'spriteUtileColor', 'spriteFaceGroup', 'spriteHairGroup', 'spriteUtileGroup', 'customArmorPreviewIndex', 'dollSprites', 'layersDefaultPrefix', 'frontArmor', 'sideArmor', 'rearArmor', 'underArmor', 'spriteInv', 'scripts', 'armor', 'damageModifier', 'stats'].includes(key)}
       <tr>
         <td>
@@ -149,7 +163,9 @@
               {#if i != 0},{/if}
               <Link href={field} />
             {/each}
-          {:else}<Value val={prop}/>{/if}
+          {:else}
+            <Value val={prop} />
+          {/if}
         </td>
       </tr>
     {/if}

@@ -1,13 +1,13 @@
 <script>
   import { rul } from "./Ruleset";
-  import ItemList from "./ItemList.svelte";
+  import LinksList from "./LinksList.svelte";
   import Link from "./Link.svelte";
 
   export let val;
 </script>
 
 {#if Array.isArray(val)}
-  <ItemList items={val} vertical={true} />            
+  <LinksList items={val} vertical={true} />            
 {:else if val instanceof Object}
   <table class="number-table">
     {#each Object.keys(val).sort() as field, i}

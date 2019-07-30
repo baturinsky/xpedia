@@ -1,10 +1,8 @@
 <script>
   import { rul } from "./Ruleset";
-  import Link from "./Link.svelte";
-  import ItemList from "./ItemList.svelte"
-  import Illustration from "./Illustration.svelte";
   import SpecialBonus from "./SpecialBonus.svelte"
-  import Value from "./Value.svelte";  
+
+  import { Link, Intro, LinksPage, Value } from "./Components";
 
   export let ufo;
 

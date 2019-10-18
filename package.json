@@ -1,5 +1,5 @@
 {
-  "name": "xpedia",
+  "name": "libretto",
   "version": "1.0.0",
   "devDependencies": {
     "async-file": "^2.0.2",
@@ -32,7 +32,7 @@
     "start": "sirv public --port 5000",
     "start:dev": "sirv public --port 5000 --dev"
   },
-  "description": "OpenXCom pedia",
+  "description": "Society simulator",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {

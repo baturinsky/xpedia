@@ -675,7 +675,13 @@ export default class Ruleset {
     "STR_DAMAGE_14",
     "STR_DAMAGE_15",
     "STR_DAMAGE_16",
-    "STR_DAMAGE_17"
+    "STR_DAMAGE_17",
+    "STR_DAMAGE_18",
+    "STR_DAMAGE_19",
+    "STR_DAMAGE_20",
+    "STR_DAMAGE_21",
+    "STR_DAMAGE_22",
+    "STR_MANA",
   ];
 
   battleTypes = [

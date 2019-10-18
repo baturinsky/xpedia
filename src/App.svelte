@@ -152,72 +152,72 @@
     role="navigation"
     aria-label="main navigation">
 
-    <div id="navbar" class="navbar-menu brighter">
-
-      <div class="navbar-start">
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a href="#MAIN" class="navbar-link">
-            <img src="xpedia/favicon.png" alt="favicon" />
-            {rul.modName} XPedia
-          </a>
-          <div class="navbar-dropdown">
-            <div style="display:flex">
-              <div>
-                {#each rul.sectionsOrder as section}
-                  <a class="navbar-item" href={'#' + section.id}>
-                    {section.title}
-                  </a>
-                {/each}
-              </div>
-              <div>
-                {#each rul.typeSectionsOrder as section}
-                  <a class="navbar-item" href={'#' + section.id}>
-                    {section.title}
-                  </a>
-                {/each}
-              </div>
+    <div class="navbar-brand">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a href="#MAIN" class="navbar-link">
+          <img src="xpedia/favicon.png" alt="favicon" />
+          {rul.modName} XPedia
+        </a>
+        <div class="navbar-dropdown">
+          <div style="display:flex">
+            <div>
+              {#each rul.sectionsOrder as section}
+                <a class="navbar-item" href={'#' + section.id}>
+                  {section.title}
+                </a>
+              {/each}
+            </div>
+            <div>
+              {#each rul.typeSectionsOrder as section}
+                <a class="navbar-item" href={'#' + section.id}>
+                  {section.title}
+                </a>
+              {/each}
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="navbar-item">
+        <a
+          style="color:white"
+          href={'#' + (currentSection ? currentSection.id : 'MAIN')}>
+          {currentSection ? currentSection.title : ''}
+        </a>
+      </div>
+      {#if article && !['TYPE', 'PEDIA'].includes(article.type_id)}
         <div class="navbar-item">
           <a
             style="color:white"
-            href={'#' + (currentSection ? currentSection.id : 'MAIN')}>
-            {currentSection ? currentSection.title : ''}
+            href={'#' + article.id}
+            on:click={e => window.scrollTo(0, 0)}>
+            {article.title}
           </a>
         </div>
-        {#if article && article.type_id != 'TYPE'}
-          <div class="navbar-item">
-            <a
-              style="color:white"
-              href={'#' + article.id}
-              on:click={e => window.scrollTo(0, 0)}>
-              {article.title}
-            </a>
-          </div>
-        {/if}
-      </div>
+      {/if}
 
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="field has-addons">
-            <p class="control">
-              <input
-                class="input"
-                type="text"
-                bind:value={query}
-                on:keyup={searchKeyUp}
-                placeholder="Search..." />
-            </p>
-            <!--
-            <p class="control">
-              <button class="button">Search</button>
-            </p>-->
-          </div>
+    </div>
 
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field has-addons">
+          <p class="control">
+            <input
+              class="input"
+              type="text"
+              bind:value={query}
+              on:keyup={searchKeyUp}
+              placeholder="Search..." />
+          </p>
+          <!--
+          <p class="control">
+            <button class="button">Search</button>
+          </p>-->
         </div>
+
       </div>
     </div>
+    
   </nav>
 
   <div class="columns is-fullheight">

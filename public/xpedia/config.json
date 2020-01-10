@@ -1,0 +1,41 @@
+{
+  "packed": true,
+  "json": true,
+  "mod_name": "Piratez",
+  "backup_language": "en-US",
+  "run": false,
+
+  "languages": [
+    {
+      "language": "en-US",
+      "save_as": "xpedia.html",
+      "name": "English",
+      "extra_language_yaml": ["xpedia/lang/en-US.yml"]
+    },
+    {
+      "language": "ru",
+      "save_as": "xpedia-ru.html",
+      "name": "Русский",
+      "extra_language_yaml": ["xpedia/lang/ru.yml"]
+    },
+    {
+      "language": "pl",
+      "save_as": "xpedia-pl.html",
+      "name": "Polski",
+      "extra_language_yaml": ["xpedia/lang/pl.yml"]
+    },
+    {
+      "language": "cs",
+      "save_as": "xpedia-cs.html",
+      "name": "Čeština",
+      "extra_language_yaml": ["xpedia/lang/cs.yml"]
+    },
+    {
+      "language": "es-ES",
+      "mod_language": "es_ES",
+      "save_as": "xpedia-es-ES.html",
+      "name": "Español",
+      "extra_language_yaml": ["xpedia/lang/es-ES.yml"]
+    }
+  ]
+}

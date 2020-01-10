@@ -14,6 +14,10 @@
   let ignoreNextAutoscroll = false;
   let id = "";
   let searchDelayHandle = null;
+  let seeSide = true;
+  let hugeFont = false;
+  let showDropdown = false;
+  let showLanguagesDropdown = false;
 
   async function loadRules() {
     await rul.load(source);
@@ -26,7 +30,11 @@
   }
 
   function checkHash() {
-    let hash = document.location.hash.replace("%20", " ");
+    showDropdown = false;
+    let hash = decodeURI(document.location.hash);
+    if (hash == "#MAIN") {
+      query = "";
+    }
     if (hash) {
       let dd = hash.indexOf("::");
       if (dd != -1) {
@@ -101,39 +109,27 @@
 
   $: {
     console.info(article || "no article");
+    document.documentElement.style.fontSize = hugeFont ? "32px" : "16px";
   }
 
   let sortArticles = false;
 
-  $: sortedArticles = (articles) => sortArticles?articles.slice().sort((a,b) => a.title > b.title?1:-1):articles;
-  
+  $: sortedArticles = articles =>
+    sortArticles
+      ? articles.slice().sort((a, b) => (a.title > b.title ? 1 : -1))
+      : articles;
 </script>
 
 <style>
-  .sidebar {
-    height: 95%;
-    position: fixed;
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-  .narrow {
-    max-width: 800px;
-  }
-  .menu-list a:visited {
-    color: white;
-  }
-  .active-article-option {
-    background: #584c64;
-  }
-
   .centered {
     position: fixed;
     top: 50%;
     left: 50%;
     width: 100px;
     height: 100px;
-    margin-top: -50px; /* Half the height */
-    margin-left: -50px; /* Half the width */
+    margin-top: -50px;
+    margin-left: -50px;
+    text-align: center;
   }
 </style>
 
@@ -144,140 +140,175 @@
 </svelte:head>
 
 {#await rulesLoaded}
-  <img class="centered" alt="Loading rules..." src="xpedia/spinner.svg" />
+  <div class="centered">
+    {rul.str('Loading...')}
+    <hr />
+    <img alt={rul.str('Loading...')} src="xpedia/spinner.svg" />
+  </div>
 {:then}
+  <div class="all">
 
-  <nav
-    class="navbar is-fixed-top"
-    role="navigation"
-    aria-label="main navigation">
+    <nav class="navbar flex-horisontal">
 
-    <div class="navbar-brand">
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a href="#MAIN" class="navbar-link">
-          <img src="xpedia/favicon.png" alt="favicon" />
-          {rul.modName} XPedia
-        </a>
-        <div class="navbar-dropdown">
-          <div style="display:flex">
-            <div>
-              {#each rul.sectionsOrder as section}
-                <a class="navbar-item" href={'#' + section.id}>
-                  {section.title}
-                </a>
+      <div class="navbar-dropdown-container">
+        <div
+          class="navbar-button"
+          on:touchend={e => (showDropdown = !showDropdown)}>
+          <img src="xpedia/favicon.png" alt="XPedia" class="xpedia-icon" />
+          <nobr>
+            {rul.str('BootyPedia')}&nbsp;
+            <span style="transform:scale(1.5,0.75); display:inline-block;">
+              v
+            </span>
+            &nbsp;
+          </nobr>
+        </div>
+
+        <div
+          class="navbar-dropdown"
+          style={showDropdown ?'visibility:visible' : ''}>
+          <div class="flex-horisontal" style="flex-wrap:nowrap">
+            <div class="navbar-auto navbar-list">
+              <a href="#MAIN" style="text-decoration:underline;">{rul.str('HOME')}</a>
+              <div style="height:0.5em;" />
+              {#each rul.typeSectionsOrder as section, i}
+                <a href={'#' + section.id}>{section.title}</a>
               {/each}
             </div>
-            <div>
-              {#each rul.typeSectionsOrder as section}
-                <a class="navbar-item" href={'#' + section.id}>
-                  {section.title}
-                </a>
+            <div class="navbar-custom navbar-list">
+              {#each rul.sectionsOrder as section, i}
+                <a href={'#' + section.id}>{section.title}</a>
               {/each}
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="navbar-item">
-        <a
-          style="color:white"
-          href={'#' + (currentSection ? currentSection.id : 'MAIN')}>
-          {currentSection ? currentSection.title : ''}
-        </a>
-      </div>
-      {#if article && !['TYPE', 'PEDIA'].includes(article.type_id)}
-        <div class="navbar-item">
-          <a
-            style="color:white"
-            href={'#' + article.id}
-            on:click={e => window.scrollTo(0, 0)}>
-            {article.title}
-          </a>
-        </div>
-      {/if}
-
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="field has-addons">
-          <p class="control">
-            <input
-              class="input"
-              type="text"
-              bind:value={query}
-              on:keyup={searchKeyUp}
-              placeholder="Search..." />
-          </p>
-          <!--
-          <p class="control">
-            <button class="button">Search</button>
-          </p>-->
-        </div>
 
       </div>
-    </div>
-    
-  </nav>
 
-  <div class="columns is-fullheight">
-    
-    <div
-      class="column is-2 is-sidebar-menu is-hidden-mobile sidebar padding-top">
+      <a
+        class="navbar-button"
+        href={'#' + (currentSection ? currentSection.id : 'MAIN')}>
+        {currentSection ? currentSection.title : ''}
+      </a>
 
-      {#each article && article.section && article.section.isType() ? rul.typeSectionsOrder : rul.sectionsOrder as section}
-        {#if !currentSection || section.id == currentSection.id}
-          <p class="menu-label">{section.title}</p>
-          <ul class="menu-list">
-            {#each sortedArticles(section.articles) as option}
-              <li>
-                {#if article && article.id == option.id}
-                  <a
-                    href={'#' + option.id}
-                    class="active-article-option"
-                    bind:this={activeOption}>
-                    {option.title}
-                  </a>
-                {:else}
-                  <a
-                    href={'#' + option.id}
-                    on:click={() => (ignoreNextAutoscroll = true)}>
-                    {option.title}
-                  </a>
-                {/if}
-              </li>
+      <div class="stretcher" />
+
+      {#if rul.config && rul.config.languages && rul.config.languages.length>1}
+        <div class="navbar-dropdown-container"
+          on:mouseover={e => (showLanguagesDropdown = true)}
+          on:mouseout={e => (showLanguagesDropdown = false)}>
+          <div class="navbar-button"
+            on:touchend={e => (showLanguagesDropdown = !showLanguagesDropdown)}>
+            <big>Aあ</big>
+          </div>
+          <div
+            class="navbar-dropdown"
+            style={showLanguagesDropdown ?'visibility:visible' : ''}>
+            {#each rul.config.languages as lang}
+            <a href="{lang.save_as}#{id}">{lang.name}</a>
             {/each}
-          </ul>
-        {/if}
-      {/each}
-    </div>
-    <div class="column is-2" />
-    <div class="side-sort-button">
-      <button style={sortArticles?"":"text-decoration:line-through"} on:click={e => sortArticles = !sortArticles}>A-Z</button>
-    </div>
-
-    <div class="column is-main-content main padding-top">
-
-      {#if article}
-        <Article {article} {query} />
-      {:else if query}
-        Searching "
-        <em>{query}</em>
-        ":
-        <br />
-        {#if found && found.length > 0}
-          <LinksPage links={found} />
-        {:else if query.length < 2}
-          <i>Query too short</i>
-        {:else if searchDelayHandle}
-          ...
-        {:else}
-          <i>Nothing found</i>
-        {/if}
-      {:else if !query}
-        <Intro />
+          </div>
+        </div>
       {/if}
+
+      <button class="navbar-button" on:click={e => (hugeFont = !hugeFont)}>
+        <span style="font-size:150%">A</span>
+        <span style="font-size:75%">A</span>
+      </button>
+
+      <span style="width:1rem" />
+
+      <div class="navbar-search">
+        <input
+          class="input"
+          type="text"
+          bind:value={query}
+          on:keyup={searchKeyUp}
+          placeholder={rul.str('Search...')} />
+      </div>
+
+    </nav>
+
+    <div class="main-row">
+
+      {#if seeSide}
+        <nav class="sidebar">
+
+          <button
+            class="side-sort-button"
+            style={sortArticles ? '' : 'text-decoration:line-through'}
+            on:click={e => (sortArticles = !sortArticles)}>
+            {rul.str('A-Z')}
+          </button>
+
+          {#each article && article.section && article.section.isType() ? rul.typeSectionsOrder : rul.sectionsOrder as section}
+            {#if !currentSection || section.id == currentSection.id}
+              <p class="menu-label">{section.title}</p>
+              <div class="menu-list">
+                {#each sortedArticles(section.articles) as option}
+                  {#if article && article.id == option.id}
+                    <a
+                      href={'#' + option.id}
+                      bind:this={activeOption}
+                      class="active-article-option side-link">
+                      {option.title}
+                    </a>
+                  {:else}
+                    <a
+                      class="side-link"
+                      href={'#' + option.id}
+                      on:click={() => (ignoreNextAutoscroll = true)}>
+                      {option.title}
+                    </a>
+                  {/if}
+                {/each}
+              </div>
+            {/if}
+          {/each}
+
+        </nav>
+      {/if}
+
+      <button
+        class="side-hide-button"
+        on:click={e => {
+          if (e.button == 0) seeSide = !seeSide;
+        }}
+        style={seeSide ? '' : 'left:1em;'}>
+        <span style="font-size:150%">≡</span>
+      </button>
+
+      <div class="main" style={seeSide ? '' : 'margin-left:2rem;'}>
+
+        {#if article}
+          <Article
+            {article}
+            {query}
+            on:prev={e => nextArticle(-1)}
+            on:next={e => nextArticle(1)} />
+        {:else if query}
+          Searching "
+          <em>{query}</em>
+          ":
+          <br />
+          {#if found && found.length > 0}
+            <LinksPage links={found} />
+          {:else if query.length < 2}
+            <i>Query too short</i>
+          {:else if searchDelayHandle}
+            ...
+          {:else}
+            <i>Nothing found</i>
+          {/if}
+        {:else if !query}
+          <!--
+      {#each rul.sectionsOrder.concat(rul.typeSectionsOrder) as section}
+        <h1><a href={'#' + section.id}>{section.title}</a></h1>
+        <LinksPage links={section.articles.map(a => a.id)} />
+      {/each}-->
+          <Intro />
+        {/if}
+      </div>
     </div>
   </div>
-
 {/await}

@@ -1,6 +1,6 @@
 <script>
   import { rul } from "./Ruleset";
-  import { Link, Intro, LinksPage, Value, LinksList } from "./Components";
+  import { Link, LinksPage, Value, LinksList } from "./Components";
 
   export let service
 

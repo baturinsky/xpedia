@@ -1,29 +1,12 @@
-const fs = require("fs");
-const rimraf = require("rimraf");
-const zipFolder = require('zip-a-folder');
+const fsx = require("fs-extra");
+const zipFolder = require("zip-a-folder");
 
-rimraf.sync("dist");
-fs.mkdirSync("dist");
-fs.mkdirSync("dist/xpedia");
+fsx.emptyDirSync("dist");
+fsx.copySync("public/xpedia", "dist/xpedia");
 
-let files = [
-  "xpedia/bundle.js",
-  "xpedia/bundle.css",
-  "xpedia/global.css",
-  "xpedia/favicon.png",
-  "xpedia/bulmaswatch.min.css",
-  "xpedia/0.png",
-  "xpedia/xpedia.html.header",
-  "xpedia/jszip.min.js",
-  "xpedia/spinner.svg",
-  "xpedia/font1.woff",
-  "xpedia.js",
-  "xpedia.bat",
-  "XPEDIA_README.txt"
-];
+for (let f of ["xpedia.js", "xpedia.bat", "XPEDIA_README.txt"])
+  fsx.copySync("public/" + f, "dist/" + f);
 
-for (let i = 0; i < files.length; ++i) {
-  fs.copyFileSync("public/" + files[i], "dist/" + files[i])
-}
-
-zipFolder.zipFolder('dist', 'xpedia.zip', err=> {if(err) console.log(err)})
+zipFolder.zipFolder("dist", "xpedia.zip", err => {
+  if (err) console.log(err);
+});

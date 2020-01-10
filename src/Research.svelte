@@ -4,7 +4,7 @@
 
   
   export let research;
-  export let title = "Research"
+  export let title = rul.str("Research");
   let longLists = ['seeAlso', 'requiresBaseFunc', 'manufacture', 'getOneFree', 'freeFrom', 'unlocks', 'dependencies', 'leadsTo', 'disables']
 
   $: {
@@ -16,7 +16,7 @@
 </style>
 
   <tr>
-    <td colspan="2" class="table-header">Research</td>
+    <td colspan="2" class="table-header">{title}</td>
   </tr>
   {#each Object.entries(research).sort((a, b) => (longLists.includes(b[0])?-10:10) + (a[0] > b[0] ? 1 : -1)) as [key, prop]}
     {#if longLists.includes(key) && prop && prop.length>0}

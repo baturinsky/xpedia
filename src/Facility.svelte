@@ -3,9 +3,10 @@
   import BaseServiceList from "./BaseServiceList.svelte";
   import SpecialBonus from "./SpecialBonus.svelte";
 
-  import { Link, Intro, LinksPage, Value, LinksList } from "./Components";
+  import { Link, LinksPage, Value, LinksList } from "./Components";
 
   export let facility;
+  let seeStorageTiles = false;
   let size = 1;
 
   $: {
@@ -24,7 +25,7 @@
 
 <table class="main-table">
   <tr>
-    <td colspan="2" class="table-header">Craft</td>
+    <td colspan="2" class="table-header">{rul.str('Facility')}</td>
   </tr>
   {#each Object.entries(facility).sort((a, b) =>
     a[0] > b[0] && a[0] != 'storageTiles' ? 1 : -1
@@ -44,19 +45,20 @@
               : {prop[field].build} / {prop[field].refund}
             {/each}
           {:else if ['storageTiles'].includes(key)}
-            <div class="dropdown is-hoverable">
-              <div class="dropdown-trigger">
+            <div>
+              <div>
                 <button
                   class="button"
-                  aria-haspopup="true"
-                  aria-controls="dropdown-tiles">
+                  on:click={e => (seeStorageTiles = !seeStorageTiles)}>
                   Expand
                 </button>
               </div>
-              <div class="dropdown-menu" id="dropdown-tiles" role="menu">
-                <div class="dropdown-content" style="columns:6">
-                  <LinksList items={prop} vertical={true} />
-                </div>
+              <div>
+                {#if seeStorageTiles}
+                  <div style="columns:6">
+                    <LinksList items={prop} vertical={true} />
+                  </div>
+                {/if}
               </div>
             </div>
           {:else if ['provideBaseFunc', 'requiresBaseFunc', 'forbiddenBaseFunc'].includes(key)}
@@ -66,9 +68,9 @@
               {#each { length: size } as _, y}
                 {#each { length: size } as _, x}
                   <img
-                      class="sprite"
-                      alt="X"
-                      src={rul.specialSprite('baseSprite', prop * 1 + x * size + y)} />
+                    class="sprite"
+                    alt="X"
+                    src={rul.specialSprite('baseSprite', prop * 1 + x * size + y)} />
                 {/each}
               {/each}
             </div>

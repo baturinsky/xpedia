@@ -1,6 +1,6 @@
 <script>
   import { rul } from "./Ruleset";
-  import { Link, Intro, LinksPage, Value } from "./Components";  
+  import { Link, LinksPage, Value } from "./Components";  
   import Item from "./Item.svelte"
 
   export let weapon;

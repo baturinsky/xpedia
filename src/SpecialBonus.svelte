@@ -1,4 +1,6 @@
 <script>
+  import { rul } from "./Ruleset";
+  
   export let bonus;
   export let plus = false;
   
@@ -40,6 +42,6 @@
   {#if b[0] == 'flatHundred'}
     {@html b[1] * 100}
   {:else}
-    {@html b[0] + (b[1] != 1 ? '×<em>' + b[1] + '</em>' : '')}
+    {@html rul.str(b[0]) + (b[1] != 1 ? '×<em>' + b[1] + '</em>' : '')}
   {/if}
 {/each}

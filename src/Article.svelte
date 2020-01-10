@@ -13,8 +13,10 @@
   import Facility from "./Facility.svelte";
   import BaseService from "./BaseService.svelte";
   import BaseServices from "./BaseServices.svelte";
-  import { Link, Intro, LinksPage, Value, LinksList } from "./Components";
+  import { Link, LinksPage, Value, LinksList } from "./Components";
 
+  import { createEventDispatcher } from "svelte";
+  const dispatch = createEventDispatcher();
 
   export let article;
   export let query;
@@ -24,7 +26,7 @@
   $: {
     textwithHighlights = article.text || "";
 
-    other = article.type_id == "OTHER" ? {BaseServices}[article.id] : false;
+    other = article.type_id == "OTHER" ? { BaseServices }[article.id] : false;
 
     if (query) {
       for (let word of query.split()) {
@@ -39,21 +41,29 @@
 </script>
 
 <style>
+
 </style>
 
 <svelte:head>
-  <title>{article.title || 'XPedia'}</title>
+  <title>{rul.str(article.title || 'XPedia')}</title>
 </svelte:head>
 
-<h1>{article.title || article.id}</h1>
+<h1>
+  <nobr>{article.title || article.id}</nobr>
+  <span style="flex:1" />
+  <button class="page-turn" on:click={e => dispatch('prev')}>&lt;</button>
+  <button class="page-turn" on:click={e => dispatch('next')}>&gt;</button>
+</h1>
 
 {#if !(article.id in rul.units)}
   <Illustration id={article.image_id} />
 {/if}
 
-<div class="article-text">
-  {@html textwithHighlights}
-</div>
+{#if textwithHighlights}
+  <div class="article-text">
+    {@html textwithHighlights}
+  </div>
+{/if}
 
 {#if article.id == 'SERVICES'}
   <BaseServices />
@@ -66,17 +76,17 @@
 {/if}
 
 <div class="flex-horisontal">
-  <svelte:component this={other} {query}/>
+  <svelte:component this={other} {query} />
 
   <div class="flex-vertical">
-  <table class="main-table">
-    {#if article.id in rul.units}
-      <Unit unit={rul.units[article.id]} />
-    {/if}
+    <table class="main-table">
+      {#if article.id in rul.units}
+        <Unit unit={rul.units[article.id]} />
+      {/if}
 
-    {#if article.id in rul.items}
-      <Item item={rul.items[article.id]} />
-    {/if}
+      {#if article.id in rul.items}
+        <Item item={rul.items[article.id]} />
+      {/if}
     </table>
   </div>
 

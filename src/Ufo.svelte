@@ -2,7 +2,7 @@
   import { rul } from "./Ruleset";
   import SpecialBonus from "./SpecialBonus.svelte"
 
-  import { Link, Intro, LinksPage, Value } from "./Components";
+  import { Link, LinksPage, Value } from "./Components";
 
   export let ufo;
 
@@ -24,7 +24,7 @@
             {#each Object.keys(prop).sort() as field, i}
               <tr><td>{rul.str(field)}</td><td>
                 {#each Object.keys(prop[field]).sort() as field2, i2}
-                  {field2}:&nbsp;<em><Link href={prop[field][field2]}/></em><br/>
+                  {rul.decamelize(field2)}:&nbsp;<em><Link href={prop[field][field2]}/></em><br/>
                 {/each}              
               </td></tr>
             {/each}

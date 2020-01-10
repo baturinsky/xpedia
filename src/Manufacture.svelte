@@ -1,7 +1,7 @@
 <script>
   import { rul } from "./Ruleset";
   import BaseServiceList from "./BaseServiceList.svelte"
-  import { Link, Intro, LinksPage, Value } from "./Components";
+  import { Link, LinksPage, Value } from "./Components";
   
   export let manufacture;
 

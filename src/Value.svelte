@@ -22,7 +22,7 @@
     {/each}
   </table>
 {:else if val===true || val ===false}
-  <span style="color:{val?'lime':'red'}">{val}</span>
+  <span style="color:{val?'lime':'red'}">{rul.str(val.toString())}</span>
 {:else if !isNaN(+val)}
   <em class="num">{val.toLocaleString()}</em>
 {:else}

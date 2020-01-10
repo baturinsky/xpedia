@@ -1,9 +1,13 @@
 import Fuse from "fuse.js";
-import Yaml from "js-yaml";
-import JSZip from "jszip";
-import { throws } from "assert";
+//import Yaml from "yaml";
+import JsYaml from "./js-yaml";
+import pako from "pako/lib/inflate";
 
 export let rul!: Ruleset;
+
+function timeout(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 function backLink(id: string, list: string[], to: any, field: string) {
   if (!list) return;
@@ -22,24 +26,51 @@ function parseYaml(text: string) {
   while ((match = reg.exec(text))) matches.push(match);
 
   for (let i = 0; i < matches.length; i++) {
-    let title = matches[i][1];
+    let filename = matches[i][1];
 
     let file: string;
     if (i < matches.length - 1) {
       file = text.substr(
-        matches[i].index + 7 + title.length,
-        matches[i + 1].index - matches[i].index - 7 - title.length
+        matches[i].index + 7 + filename.length,
+        matches[i + 1].index - matches[i].index - 7 - filename.length
       );
-    } else file = text.substr(matches[i].index + 7 + title.length);
+    } else file = text.substr(matches[i].index + 7 + filename.length);
 
     if (file.substr(1, 3) == "п»ї") file = file.substr(4);
 
+    //console.log(filename);
+
+    if (filename.substr(0, 5) == "TEXT@") {
+      rul.lang[filename.substr(5)] = file;
+      continue;
+    }
+
     let parsed;
 
-    try {
-      parsed = Yaml.load(file, { json: true, filename: title });
-    } catch (e) {
-      console.log(e.message);
+    if (filename.substr(0, 5) == "JSON@") {
+      parsed = JSON.parse(file);
+      filename = filename.substr(5);
+    } else {
+      try {
+        parsed = JsYaml.load(file, {
+          json: true,
+          filename,
+          onWarning: e => {
+            console.log(filename);
+            console.log(e.message);
+          }
+        });
+
+      } catch (e) {
+        console.log(e.message);
+      }
+    }
+
+    if (filename == "xpedia") {
+      //console.log(parsed);
+      rul.config = parsed;
+      rul.modName = parsed.mod_name;
+      continue;
     }
 
     if (parsed) data.push(parsed);
@@ -118,6 +149,7 @@ export class Manufacture {
       section: "MANUFACTURE",
       type_id: "MANUFACTURE"
     });
+
   }
 }
 
@@ -278,7 +310,7 @@ export class Unit {
   }
 }
 
-let defaultRange = { snap: 15, auto: 7, aim: 200 };
+let defaultRange = { snap: 15, auto: 7, aimed: 200 };
 
 export class Attack {
   possible = false;
@@ -303,9 +335,14 @@ export class Attack {
       (mode == "melee" && item.battleType == 3) ||
       (mode == "psi" && item.battleType == 9) ||
       (mode == "throw" && [4, 5].includes(item.battleType));
-    let exists = item["accuracy" + capMode] || isDefaultAttack;
+    let exists = item["accuracy" + capMode] || item["cost" + capMode] || isDefaultAttack;
 
     if (!exists) return null;
+
+    if(item.type == "STR_MASTERS_CANE"){
+      console.log(item);
+      console.log(mode);
+    }
 
     if (mode == "melee" && item.battleType != 3) {
       this.damage = item.meleePower;
@@ -378,9 +415,11 @@ export class Attack {
     }
 
     if (mode + "Range" in item) {
-      this.alter = this.alter || {};
+      this.alter = Object.assign({}, this.alter || {});
       this.alter.range = item[mode + "Range"];
     }
+
+    this.range = item[mode + "Range"] || (this.alter && this.alter.range) || defaultRange[mode];
 
     this.possible = true;
   }
@@ -597,7 +636,10 @@ export class Item {
         "aimed",
         "auto",
         "throw",
-        "psi"
+        "psi",
+        "panic",
+        "mindControl",
+        "use"
       ]) {
         let attack = new Attack(this, mode);
         if (attack.possible) {
@@ -651,6 +693,7 @@ export default class Ruleset {
   baseSprite: string[] = [];
   sounds: string[] = [];
   modName: string;
+  config: Object;
   path: string;
   baseServices: { [key: string]: Service } = {};
   redirect: { [key: string]: string } = {};
@@ -681,7 +724,7 @@ export default class Ruleset {
     "STR_DAMAGE_20",
     "STR_DAMAGE_21",
     "STR_DAMAGE_22",
-    "STR_MANA",
+    "STR_MANA"
   ];
 
   battleTypes = [
@@ -774,7 +817,6 @@ export default class Ruleset {
       this.raw[category] = Object.values(merged);
     }
 
-    this.modName = this.raw.modName;
     this.path = "user/mods/" + rul.modName + "/";
 
     for (let k in this.lang) {
@@ -857,10 +899,11 @@ export default class Ruleset {
       backLink(research.name, research.dependencies, rul.research, "leadsTo");
       backLink(research.name, research.getOneFree, rul.research, "freeFrom");
 
-      if (research.lookup && research.name == research.lookup) {
-        console.warn(research.lookup + " lookup is to itself");
-      }
-      if (research.lookup && research.name != research.lookup) {
+      if (
+        research.lookup &&
+        research.name != research.lookup &&
+        this.research[research.lookup]
+      ) {
         let lookup = this.research[research.lookup];
         lookup.seeAlso = lookup.seeAlso || [];
         lookup.seeAlso.push(research.name);
@@ -886,15 +929,14 @@ export default class Ruleset {
         a.title < b.title ? -1 : 1
       );
 
-    Article.create({
+    /*Article.create({
       id: "BASE_FUNC",
       title: "Base Services",
       type_id: "OTHER",
       section: "OTHER"
-    });
+    });*/
 
     for (let cat of Object.keys(this.categories)) {
-      console.log(cat);
       Article.create({
         id: cat,
         title: rul.str(cat),
@@ -939,6 +981,8 @@ export default class Ruleset {
 
   decamelize(str, separ = " ") {
     if (typeof str === "string") {
+      if (rul.lang[str]) str = rul.lang[str];
+      if (this.lang[fieldNames[str]]) return this.lang[fieldNames[str]];
       if (str.includes("_") && str.search(/[a-z]/) == -1)
         str = str.replace(/_/g, " ");
       else str = str.replace(/([^A-Z])([A-Z])/g, "$1" + separ + "$2");
@@ -960,11 +1004,12 @@ export default class Ruleset {
   async load(text: string) {
     text = text.trim();
 
+    //await new Promise(resolve => requestAnimationFrame(() => resolve()));
+
     if (text.substr(0, 6) == "base64") {
       text = text.substr(6);
-      let zip = new JSZip();
-      await zip.loadAsync(text, { base64: true });
-      text = await zip.file("xpedia").async("text");
+      let strData = atob(text);
+      text = pako.inflate(strData, { to: "string" });
     }
 
     let data = parseYaml(text);
@@ -1009,3 +1054,17 @@ export default class Ruleset {
     return a;
   }
 }
+
+const fieldNames = {
+  dependencies: "STR_DEPENDS_ON",
+  seeAlso: "STR_ITEM_REQUIRED",
+  requiresBaseFunc: "STR_SERVICES_REQUIRED",
+  freeFrom: "STR_GET_FOR_FREE_FROM",
+  leadsTo: "STR_LEADS_TO",
+  unlocks: "STR_UNLOCKS",
+  disables: "STR_DISABLES",
+  getOneFree: "STR_GIVES_ONE_FOR_FREE",
+  manufacture: "STR_REQUIRED_BY",
+  randomProducedItems: "STR_RANDOM_PRODUCTION_DISCLAIMER",
+  cost: "STR_COST"
+};

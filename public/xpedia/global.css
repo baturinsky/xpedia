@@ -464,6 +464,7 @@ button {
   width: 12rem;
   top:0;
   left:0;
+  padding-top: 3rem;
   max-height: 100vh;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -497,7 +498,7 @@ button {
   padding-right: 1em;
   padding-top: 3rem;
   padding-left: 12.5rem;
-  padding-bottom: 30rem;
+  padding-bottom: 3rem;
   overflow-y: scroll;
   flex: 1;  
 }

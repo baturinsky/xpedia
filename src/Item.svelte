@@ -34,19 +34,8 @@
 </script>
 
 <style>
-  td {
-    padding: 0px 2px;
-  }
-  .sprite {
-    image-rendering: pixelated;
-    image-rendering: crisp-edges;
-  }
   .right-column {
     vertical-align: top;
-  }
-  .alter td {
-    border: none;
-    font-size: small;
   }
   img {
     max-width: 100%;
@@ -93,10 +82,11 @@
                       <!--<img class="sprite" use:ammoSprite style="position:relative;" alt="X" src={rul.sprite(attack.item.sprite)}/>-->
                     </td>
                     <td colspan="2">
-                      <Link href={rul.str(attack.item.type)} />
+                      <Link href={attack.item.type} />
                       <br />
                       <small>
-                        Clip: {attack.item.clipSize} Wgt: {attack.item.weight}
+                        {rul.str('Shots')}: {attack.item.clipSize}
+                        {rul.str('Wgt')}: {attack.item.weight}
                       </small>
                     </td>
                   {/if}
@@ -107,28 +97,29 @@
                   <td>
                     <nobr>
                       <bigger>
-                        <em>{attack.accuracy}</em>
-                      </bigger>%
-                      <br />
+                        <em>{attack.accuracy}</em>{"%"}
+                      </bigger>
+                      <div>
                       <SpecialBonus bonus={attack.accuracyMultiplier} />
-                      <br />
-
+                      </div>
                       {#if attack.range}
-                        at
-                        <em>{attack.range}</em>
-                        m
+                        {@html rul
+                          .str('at N m')
+                          .replace('N', `<em>${attack.range}</em>`)}
                       {/if}
                     </nobr>
                   </td>
                   <td>
-                    <em>{attack.cost.time}</em>{attack.flatTime ? '' : '%'}
-                    <small>{rul.str('TU')}</small>
+                    <nobr>
+                      <em>{attack.cost.time}</em>{attack.flatTime ? '' : '%'}
+                      <small>{rul.str('TU')}</small>
+                    </nobr>
                     {#each Object.keys(attack.cost) as res}
                       {#if res != 'time' && attack.cost[res] != 0}
                         <br />
                         <nobr>
                           <Value val={attack.cost[res]} />
-                          <small>{res}</small>
+                          <small>{rul.str(res)}</small>
                         </nobr>
                       {/if}
                     {/each}
@@ -146,7 +137,9 @@
                       {attack.pellets > 1 ? ' ×' + attack.pellets : ''}
                     </nobr>
                     <br />
-                    <Link href={rul.damageTypes[attack.damageType]} />
+                    {#if attack.damageType}
+                      <Link href={rul.damageTypes[attack.damageType]} />
+                    {/if}
                   {/if}
                 </td>
               </tr>

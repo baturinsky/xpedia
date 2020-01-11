@@ -194,6 +194,10 @@ ru:
   Aimed: "Прицельный"
   Auto: "Очередь"
   Melee: "Ближний бой"
+  Throw: "Метнуть"
+  MindControl: "Гипноз"
+  Panic: "Страх"
+  Use: "Использование"
   accuracy: "Точность"
   cost: "Цена"
   TU: "ОД"
@@ -201,6 +205,7 @@ ru:
   damage: "Урон"
   Shots: "Выстрелов"
   Wgt: "Масса"
+  at N m: "до N м"
 
   # Item categories 0-11 w/o Melee
   None (Geoscape-only item): "Нет (предмет только для глобуса)"

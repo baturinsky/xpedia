@@ -9,16 +9,6 @@ yarn install
 npm run build
 ```
 
-## Using:
-
-Copy contents of xpedia.zip to the root directory of the game.
-
-Run xpedia.bat to construct and open xpedia.html.
-
-Or if you already has up-to-date xpedia.html you can just open it directly.
-
-If mod is *not* XPiratez, edit xpedia.bat to change mod's name.
-
 ## Debugging
 
 ```
@@ -27,3 +17,33 @@ npm run dev
 
 You will need to generate xpedia.html as above and copy it to /public/xpedia.html
 Also, to have pictures, copy /user directory from the game to /public/user
+
+## Building reference:
+
+Install node.js from https://nodejs.org/en/
+
+Copy contents of xpedia.zip to the root directory of the game.
+
+Run `node xpedia.js` to construct and (depending on settings) open xpedia.
+
+Xpedia build settings are configured in xpedia/config.json. 
+Alternatively, you can run `node xpedia.js` with argument which is path to config.
+
+Parameters are as follows:
+
+* packed:true/false - if true, xpedia is compressed, drastically reducing file size
+* json:true/false - if true, xpedia is saved as json instead of yaml, accelerating startup time
+* mod_name: mod folder in user/mods
+* backup_language - fallback language to use when string not found in primary language
+* run - open xpedia(s) after compiling
+* languages - one or more language configs
+    * language - language name inside yaml
+    * mod_language - language file name (without yml) in mod, if it differs from previous one
+    * save_as - output html file
+    * name - language name in language switch dropdown list
+    * extra_language_yaml - list of additional language files (complete relative path)
+    * extra_texts - similar to previous one, but with each language string being a separate file. 
+      Format is has {name : file_path}
+
+Each settings of "language" can be used outside of it, and will be applied to all language. 
+If it's extra_language_yaml or exta_texts, it is added to individial language settings.

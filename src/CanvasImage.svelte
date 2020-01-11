@@ -35,6 +35,6 @@
   }
 </script>
 
-<a href={src}>
+<a href={src} class="canvas-image">
 <canvas class="pixelated" style="display:{loaded?'inline':'none'}" bind:this={canvas} use:prepareCanvas />
 </a>

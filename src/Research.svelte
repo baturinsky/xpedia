@@ -12,21 +12,18 @@
   }
 </script>
 
-<style>
-</style>
-
   <tr>
     <td colspan="2" class="table-header">{title}</td>
   </tr>
   {#each Object.entries(research).sort((a, b) => (longLists.includes(b[0])?-10:10) + (a[0] > b[0] ? 1 : -1)) as [key, prop]}
     {#if longLists.includes(key) && prop && prop.length>0}
-      <tr><td colspan="2" class="table-subheader">{rul.decamelize(key)}</td></tr>
-      <tr><td colspan="2" class="cols" style="columns:2;">
-        <ul class="research-links">
+      <tr class="subtable"><td colspan="2">
+          <div class="table-subheader">{rul.decamelize(key)}</div>
+          <div class="cols" style="columns:2;">
           {#each prop as field, i}
-            <li><Link href={field} /></li>
+            <div><Link href={field} /></div>
           {/each}
-        </ul>
+          </div>
       </td></tr>
     {:else if ['requiresBaseFunc' ].includes(key)}
       <BaseServiceList items={prop} vertical={true}/>

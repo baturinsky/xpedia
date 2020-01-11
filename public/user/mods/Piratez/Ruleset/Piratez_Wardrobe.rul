@@ -1,0 +1,3092 @@
+extraSprites:
+##### Demoness #####
+  - typeSingle: DEMONESS__2__LIGHT_NUDE
+    fileSingle: Resources/Armors/Demoness/Demoness_Body_Lite.gif
+  - typeSingle: DEMONESS__2__DARK_NUDE
+    fileSingle: Resources/Armors/Demoness/Demoness_Body_Dark.gif
+##### Loknars #####
+# Nudes
+  - typeSingle: LOKNAR__2__M0_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_M0.gif
+  - typeSingle: LOKNAR__2__M1_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_M1.gif
+  - typeSingle: LOKNAR__2__M2_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_M2.gif
+  - typeSingle: LOKNAR__2__M3_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_M3.gif
+  - typeSingle: LOKNAR__2__M4_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_M4.gif
+  - typeSingle: LOKNAR__2__M5_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_M5.gif
+  - typeSingle: LOKNAR__2__M6_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_M6.gif
+  - typeSingle: LOKNAR__2__M7_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_M7.gif
+  - typeSingle: LOKNAR__2__F0_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_F0.gif
+  - typeSingle: LOKNAR__2__F1_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_F1.gif
+  - typeSingle: LOKNAR__2__F2_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_F2.gif
+  - typeSingle: LOKNAR__2__F3_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_F3.gif
+  - typeSingle: LOKNAR__2__F4_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_F4.gif
+  - typeSingle: LOKNAR__2__F5_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_F5.gif
+  - typeSingle: LOKNAR__2__F6_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_F6.gif
+  - typeSingle: LOKNAR__2__F7_NUDE
+    fileSingle: Resources/Armors/Loknars/Body/body801_F7.gif
+# Heads
+  - typeSingle: LOKNAR__10__HEAD_M0
+    fileSingle: Resources/Armors/Loknars/Heads/Head_M0_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_M1
+    fileSingle: Resources/Armors/Loknars/Heads/Head_M1_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_M2
+    fileSingle: Resources/Armors/Loknars/Heads/Head_M2_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_M3
+    fileSingle: Resources/Armors/Loknars/Heads/Head_M3_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_M4
+    fileSingle: Resources/Armors/Loknars/Heads/Head_M4_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_M5
+    fileSingle: Resources/Armors/Loknars/Heads/Head_M5_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_M6
+    fileSingle: Resources/Armors/Loknars/Heads/Head_M6_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_M7
+    fileSingle: Resources/Armors/Loknars/Heads/Head_M7_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_F0
+    fileSingle: Resources/Armors/Loknars/Heads/Head_F0_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_F1
+    fileSingle: Resources/Armors/Loknars/Heads/Head_F1_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_F2
+    fileSingle: Resources/Armors/Loknars/Heads/Head_F2_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_F3
+    fileSingle: Resources/Armors/Loknars/Heads/Head_F3_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_F4
+    fileSingle: Resources/Armors/Loknars/Heads/Head_F4_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_F5
+    fileSingle: Resources/Armors/Loknars/Heads/Head_F5_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_F6
+    fileSingle: Resources/Armors/Loknars/Heads/Head_F6_lok.gif
+  - typeSingle: LOKNAR__10__HEAD_F7
+    fileSingle: Resources/Armors/Loknars/Heads/Head_F7_lok.gif
+#Warrior
+  - typeSingle: LOKNAR__7__PUNK_ARMOR
+    fileSingle: Resources/Armors/Loknars/Punk/Punk_Armor.gif
+  - typeSingle: LOKNAR__8__WARRIOR_BREASTPLATE
+    fileSingle: Resources/Armors/Loknars/Punk/Warrior_Breastplate.gif
+  - typeSingle: LOKNAR__15__SMALL_SHIELD
+    fileSingle: Resources/Armors/Loknars/Punk/Small_Shield.gif
+#FAKK
+  - typeSingle: LOKNAR__7__FAKK_ARMOR
+    fileSingle: Resources/Armors/Loknars/FAKK/FAKK_Armor.gif
+#Ratmeister
+  - typeSingle: LOKNAR__7__RATMEISTER_ARMOR
+    fileSingle: Resources/Armors/Loknars/Ratmeister/Ratmeister_Robe.gif
+  - typeSingle: LOKNAR__14__RATMEISTER_MASK
+    fileSingle: Resources/Armors/Loknars/Ratmeister/Ratmeister_Mask.gif
+#Bane
+  - typeSingle: LOKNAR__7__BANE_SUIT
+    fileSingle: Resources/Armors/Loknars/BaneSuit/BaneSuit.gif
+#Cummissar
+  - typeSingle: LOKNAR__7__CUMMISSAR_SUIT
+    fileSingle: Resources/Armors/Loknars/Cummissar/Cummissar_Main.gif
+  - typeSingle: LOKNAR__14__CUMMISSAR_HAT
+    fileSingle: Resources/Armors/Loknars/Cummissar/Cummissar_Hat.gif
+  - typeSingle: LOKNAR__1__CUMMISSAR_BACK
+    fileSingle: Resources/Armors/Loknars/Cummissar/Cummissar_Back.gif
+
+##### Soldiers #####
+# Nudes
+  - typeSingle: MHUMAN__2__M0_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M0.png
+  - typeSingle: MHUMAN__2__M1_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M1.png
+  - typeSingle: MHUMAN__2__M2_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M2.png
+  - typeSingle: MHUMAN__2__M3_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M3.png
+  - typeSingle: MHUMAN__2__M4_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M4.png
+  - typeSingle: MHUMAN__2__M5_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M5.png
+  - typeSingle: MHUMAN__2__M6_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M6.png
+  - typeSingle: MHUMAN__2__M7_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M7.png
+  - typeSingle: MHUMAN__2__M8_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M8.png
+  - typeSingle: MHUMAN__2__M9_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M9.png
+  - typeSingle: MHUMAN__2__M10_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M10.png
+  - typeSingle: MHUMAN__2__M11_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M11.png
+  - typeSingle: MHUMAN__2__M12_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M12.png
+  - typeSingle: MHUMAN__2__M13_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M13.png
+  - typeSingle: MHUMAN__2__M14_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M14.png
+  - typeSingle: MHUMAN__2__M15_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M15.png
+  - typeSingle: MHUMAN__2__M16_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M16.png
+  - typeSingle: MHUMAN__2__M17_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M17.png
+  - typeSingle: MHUMAN__2__M18_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M18.png
+  - typeSingle: MHUMAN__2__M19_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M19.png
+  - typeSingle: MHUMAN__2__M20_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M20.png
+  - typeSingle: MHUMAN__2__M21_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M21.png
+  - typeSingle: MHUMAN__2__M22_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M22.png
+  - typeSingle: MHUMAN__2__M23_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M23.png
+  - typeSingle: MHUMAN__2__M24_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M24.png
+  - typeSingle: MHUMAN__2__M25_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M25.png
+  - typeSingle: MHUMAN__2__M26_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M26.png
+  - typeSingle: MHUMAN__2__M27_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M27.png
+  - typeSingle: MHUMAN__2__M28_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M28.png
+  - typeSingle: MHUMAN__2__M29_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M29.png
+  - typeSingle: MHUMAN__2__M30_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M30.png
+  - typeSingle: MHUMAN__2__M31_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M31.png
+  - typeSingle: MHUMAN__2__M32_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M32.png
+  - typeSingle: MHUMAN__2__M33_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M33.png
+  - typeSingle: MHUMAN__2__M34_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M34.png
+  - typeSingle: MHUMAN__2__M35_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M35.png
+  - typeSingle: MHUMAN__2__M36_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M36.png
+  - typeSingle: MHUMAN__2__M37_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M37.png
+  - typeSingle: MHUMAN__2__M38_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M38.png
+  - typeSingle: MHUMAN__2__M39_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M39.png
+  - typeSingle: MHUMAN__2__M40_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M40.png
+  - typeSingle: MHUMAN__2__M41_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M41.png
+  - typeSingle: MHUMAN__2__M42_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M42.png
+  - typeSingle: MHUMAN__2__M43_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M43.png
+  - typeSingle: MHUMAN__2__M44_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M44.png
+  - typeSingle: MHUMAN__2__M45_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M45.png
+  - typeSingle: MHUMAN__2__M46_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M46.png
+  - typeSingle: MHUMAN__2__M47_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_M47.png
+  - typeSingle: MHUMAN__2__F0_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F0.png
+  - typeSingle: MHUMAN__2__F1_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F1.png
+  - typeSingle: MHUMAN__2__F2_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F2.png
+  - typeSingle: MHUMAN__2__F3_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F3.png
+  - typeSingle: MHUMAN__2__F4_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F4.png
+  - typeSingle: MHUMAN__2__F5_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F5.png
+  - typeSingle: MHUMAN__2__F6_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F6.png
+  - typeSingle: MHUMAN__2__F7_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F7.png
+  - typeSingle: MHUMAN__2__F8_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F8.png
+  - typeSingle: MHUMAN__2__F9_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F9.png
+  - typeSingle: MHUMAN__2__F10_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F10.png
+  - typeSingle: MHUMAN__2__F11_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F11.png
+  - typeSingle: MHUMAN__2__F12_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F12.png
+  - typeSingle: MHUMAN__2__F13_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F13.png
+  - typeSingle: MHUMAN__2__F14_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F14.png
+  - typeSingle: MHUMAN__2__F15_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F15.png
+  - typeSingle: MHUMAN__2__F16_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F16.png
+  - typeSingle: MHUMAN__2__F17_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F17.png
+  - typeSingle: MHUMAN__2__F18_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F18.png
+  - typeSingle: MHUMAN__2__F19_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F19.png
+  - typeSingle: MHUMAN__2__F20_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F20.png
+  - typeSingle: MHUMAN__2__F21_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F21.png
+  - typeSingle: MHUMAN__2__F22_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F22.png
+  - typeSingle: MHUMAN__2__F23_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F23.png
+  - typeSingle: MHUMAN__2__F24_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F24.png
+  - typeSingle: MHUMAN__2__F25_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F25.png
+  - typeSingle: MHUMAN__2__F26_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F26.png
+  - typeSingle: MHUMAN__2__F27_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F27.png
+  - typeSingle: MHUMAN__2__F28_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F28.png
+  - typeSingle: MHUMAN__2__F29_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F29.png
+  - typeSingle: MHUMAN__2__F30_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F30.png
+  - typeSingle: MHUMAN__2__F31_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F31.png
+  - typeSingle: MHUMAN__2__F32_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F32.png
+  - typeSingle: MHUMAN__2__F33_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F33.png
+  - typeSingle: MHUMAN__2__F34_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F34.png
+  - typeSingle: MHUMAN__2__F35_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F35.png
+  - typeSingle: MHUMAN__2__F36_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F36.png
+  - typeSingle: MHUMAN__2__F37_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F37.png
+  - typeSingle: MHUMAN__2__F38_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F38.png
+  - typeSingle: MHUMAN__2__F39_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F39.png
+  - typeSingle: MHUMAN__2__F40_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F40.png
+  - typeSingle: MHUMAN__2__F41_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F41.png
+  - typeSingle: MHUMAN__2__F42_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F42.png
+  - typeSingle: MHUMAN__2__F43_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F43.png
+  - typeSingle: MHUMAN__2__F44_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F44.png
+  - typeSingle: MHUMAN__2__F45_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F45.png
+  - typeSingle: MHUMAN__2__F46_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F46.png
+  - typeSingle: MHUMAN__2__F47_NUDE
+    fileSingle: Resources/Armors/Soldiers/Body/body501_F47.png
+# Heads
+  - typeSingle: MHUMAN__10__HEAD_M0
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M0.png
+  - typeSingle: MHUMAN__10__HEAD_M1
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M1.png
+  - typeSingle: MHUMAN__10__HEAD_M2
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M2.png
+  - typeSingle: MHUMAN__10__HEAD_M3
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M3.png
+  - typeSingle: MHUMAN__10__HEAD_M4
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M4.png
+  - typeSingle: MHUMAN__10__HEAD_M5
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M5.png
+  - typeSingle: MHUMAN__10__HEAD_M6
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M6.png
+  - typeSingle: MHUMAN__10__HEAD_M7
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M7.png
+  - typeSingle: MHUMAN__10__HEAD_M8
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M8.png
+  - typeSingle: MHUMAN__10__HEAD_M9
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M9.png
+  - typeSingle: MHUMAN__10__HEAD_M10
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M10.png
+  - typeSingle: MHUMAN__10__HEAD_M11
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M11.png
+  - typeSingle: MHUMAN__10__HEAD_M12
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M12.png
+  - typeSingle: MHUMAN__10__HEAD_M13
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M13.png
+  - typeSingle: MHUMAN__10__HEAD_M14
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M14.png
+  - typeSingle: MHUMAN__10__HEAD_M15
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M15.png
+  - typeSingle: MHUMAN__10__HEAD_M16
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M16.png
+  - typeSingle: MHUMAN__10__HEAD_M17
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M17.png
+  - typeSingle: MHUMAN__10__HEAD_M18
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M18.png
+  - typeSingle: MHUMAN__10__HEAD_M19
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M19.png
+  - typeSingle: MHUMAN__10__HEAD_M20
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M20.png
+  - typeSingle: MHUMAN__10__HEAD_M21
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M21.png
+  - typeSingle: MHUMAN__10__HEAD_M22
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M22.png
+  - typeSingle: MHUMAN__10__HEAD_M23
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M23.png
+  - typeSingle: MHUMAN__10__HEAD_M24
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M24.png
+  - typeSingle: MHUMAN__10__HEAD_M25
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M25.png
+  - typeSingle: MHUMAN__10__HEAD_M26
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M26.png
+  - typeSingle: MHUMAN__10__HEAD_M27
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M27.png
+  - typeSingle: MHUMAN__10__HEAD_M28
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M28.png
+  - typeSingle: MHUMAN__10__HEAD_M29
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M29.png
+  - typeSingle: MHUMAN__10__HEAD_M30
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M30.png
+  - typeSingle: MHUMAN__10__HEAD_M31
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M31.png
+  - typeSingle: MHUMAN__10__HEAD_M32
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M32.png
+  - typeSingle: MHUMAN__10__HEAD_M33
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M33.png
+  - typeSingle: MHUMAN__10__HEAD_M34
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M34.png
+  - typeSingle: MHUMAN__10__HEAD_M35
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M35.png
+  - typeSingle: MHUMAN__10__HEAD_M36
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M36.png
+  - typeSingle: MHUMAN__10__HEAD_M37
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M37.png
+  - typeSingle: MHUMAN__10__HEAD_M38
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M38.png
+  - typeSingle: MHUMAN__10__HEAD_M39
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M39.png
+  - typeSingle: MHUMAN__10__HEAD_M40
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M40.png
+  - typeSingle: MHUMAN__10__HEAD_M41
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M41.png
+  - typeSingle: MHUMAN__10__HEAD_M42
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M42.png
+  - typeSingle: MHUMAN__10__HEAD_M43
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M43.png
+  - typeSingle: MHUMAN__10__HEAD_M44
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M44.png
+  - typeSingle: MHUMAN__10__HEAD_M45
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M45.png
+  - typeSingle: MHUMAN__10__HEAD_M46
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M46.png
+  - typeSingle: MHUMAN__10__HEAD_M47
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_M47.png
+  - typeSingle: MHUMAN__10__HEAD_F0
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F0.png
+  - typeSingle: MHUMAN__10__HEAD_F1
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F1.png
+  - typeSingle: MHUMAN__10__HEAD_F2
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F2.png
+  - typeSingle: MHUMAN__10__HEAD_F3
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F3.png
+  - typeSingle: MHUMAN__10__HEAD_F4
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F4.png
+  - typeSingle: MHUMAN__10__HEAD_F5
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F5.png
+  - typeSingle: MHUMAN__10__HEAD_F6
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F6.png
+  - typeSingle: MHUMAN__10__HEAD_F7
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F7.png
+  - typeSingle: MHUMAN__10__HEAD_F8
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F8.png
+  - typeSingle: MHUMAN__10__HEAD_F9
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F9.png
+  - typeSingle: MHUMAN__10__HEAD_F10
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F10.png
+  - typeSingle: MHUMAN__10__HEAD_F11
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F11.png
+  - typeSingle: MHUMAN__10__HEAD_F12
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F12.png
+  - typeSingle: MHUMAN__10__HEAD_F13
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F13.png
+  - typeSingle: MHUMAN__10__HEAD_F14
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F14.png
+  - typeSingle: MHUMAN__10__HEAD_F15
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F15.png
+  - typeSingle: MHUMAN__10__HEAD_F16
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F16.png
+  - typeSingle: MHUMAN__10__HEAD_F17
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F17.png
+  - typeSingle: MHUMAN__10__HEAD_F18
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F18.png
+  - typeSingle: MHUMAN__10__HEAD_F19
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F19.png
+  - typeSingle: MHUMAN__10__HEAD_F20
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F20.png
+  - typeSingle: MHUMAN__10__HEAD_F21
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F21.png
+  - typeSingle: MHUMAN__10__HEAD_F22
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F22.png
+  - typeSingle: MHUMAN__10__HEAD_F23
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F23.png
+  - typeSingle: MHUMAN__10__HEAD_F24
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F24.png
+  - typeSingle: MHUMAN__10__HEAD_F25
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F25.png
+  - typeSingle: MHUMAN__10__HEAD_F26
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F26.png
+  - typeSingle: MHUMAN__10__HEAD_F27
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F27.png
+  - typeSingle: MHUMAN__10__HEAD_F28
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F28.png
+  - typeSingle: MHUMAN__10__HEAD_F29
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F29.png
+  - typeSingle: MHUMAN__10__HEAD_F30
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F30.png
+  - typeSingle: MHUMAN__10__HEAD_F31
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F31.png
+  - typeSingle: MHUMAN__10__HEAD_F32
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F32.png
+  - typeSingle: MHUMAN__10__HEAD_F33
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F33.png
+  - typeSingle: MHUMAN__10__HEAD_F34
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F34.png
+  - typeSingle: MHUMAN__10__HEAD_F35
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F35.png
+  - typeSingle: MHUMAN__10__HEAD_F36
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F36.png
+  - typeSingle: MHUMAN__10__HEAD_F37
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F37.png
+  - typeSingle: MHUMAN__10__HEAD_F38
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F38.png
+  - typeSingle: MHUMAN__10__HEAD_F39
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F39.png
+  - typeSingle: MHUMAN__10__HEAD_F40
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F40.png
+  - typeSingle: MHUMAN__10__HEAD_F41
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F41.png
+  - typeSingle: MHUMAN__10__HEAD_F42
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F42.png
+  - typeSingle: MHUMAN__10__HEAD_F43
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F43.png
+  - typeSingle: MHUMAN__10__HEAD_F44
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F44.png
+  - typeSingle: MHUMAN__10__HEAD_F45
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F45.png
+  - typeSingle: MHUMAN__10__HEAD_F46
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F46.png
+  - typeSingle: MHUMAN__10__HEAD_F47
+    fileSingle: Resources/Armors/Soldiers/Heads/Head_F47.png
+# Loincloth
+  - typeSingle: MHUMAN__7__LOINCLOTH
+    fileSingle: Resources/Armors/Soldiers/Primitive/Loincloth.png
+# Punk
+  - typeSingle: MHUMAN__7__PUNK_SS
+    fileSingle: Resources/Armors/Soldiers/Punk/Punk_SS.png
+# Tunic
+  - typeSingle: MHUMAN__7__TUNIC_FRONT
+    fileSingle: Resources/Armors/Soldiers/Historic/Tunic_M_Front.png
+  - typeSingle: MHUMAN__1__TUNIC_BACK
+    fileSingle: Resources/Armors/Soldiers/Historic/Tunic_M_Back.png
+  - typeSingle: MHUMAN__15__ROUND_SHIELD
+    fileSingle: Resources/Armors/Soldiers/Historic/Round_Shield_Human.png
+# Roman
+  - typeSingle: MHUMAN__7__ROMAN_ARMOR
+    fileSingle: Resources/Armors/Soldiers/Historic/Roman_Armor.png
+  - typeSingle: MHUMAN__14__ROMAN_HELMET
+    fileSingle: Resources/Armors/Soldiers/Historic/Roman_Helmet.png
+  - typeSingle: MHUMAN__15__ROMAN_SHIELD
+    fileSingle: Resources/Armors/Soldiers/Historic/Roman_Shield.png
+  - typeSingle: MHUMAN__1__ROMAN_CLOAK
+    fileSingle: Resources/Armors/Soldiers/Historic/Roman_Cloak.png
+# Pirate
+  - typeSingle: MHUMAN__7__PIRATE_SS
+    fileSingle: Resources/Armors/Soldiers/Pirate/Pirate_Outfit.png
+  - typeSingle: MHUMAN__7__PIRATE_SS_BIG
+    fileSingle: Resources/Armors/Soldiers/Pirate/Pirate_Outfit_big.png
+  - typeSingle: MHUMAN__11__PIRATE_EARING
+    fileSingle: Resources/Armors/Soldiers/Pirate/Pirate_Earing.png
+  - typeSingle: MHUMAN__14__PIRATE_SCARF
+    fileSingle: Resources/Armors/Soldiers/Pirate/Pirate_Scarf.png
+# Runt
+  - typeSingle: MHUMAN__7__JUMPSUIT_SS
+    fileSingle: Resources/Armors/Soldiers/Runt/Jumpsuit_SS.png
+  - typeSingle: MHUMAN__7__JUMPSUIT_SS_BIG
+    fileSingle: Resources/Armors/Soldiers/Runt/Jumpsuit_SS_big.png
+# Tac Vest
+  - typeSingle: MHUMAN__7__TAC_VEST_SS
+    fileSingle: Resources/Armors/Soldiers/Tac/Tac_Vest_SS.png
+# Defender
+  - typeSingle: MHUMAN__8__DEFENDER_ARMOR
+    fileSingle: Resources/Armors/Soldiers/Blue/Defender_Armor_H.png
+  - typeSingle: MHUMAN__14__DEFENDER_VISOR
+    fileSingle: Resources/Armors/Soldiers/Blue/Defender_Visor.png
+  - typeSingle: MHUMAN__14__DEFENDER_VISOR_WIDE
+    fileSingle: Resources/Armors/Soldiers/Blue/Defender_Visor_Wide.png
+# Operator
+  - typeSingle: MHUMAN__7__JUMPSUIT_OP
+    fileSingle: Resources/Armors/Soldiers/Operator/Jumpsuit_Operator.png
+  - typeSingle: MHUMAN__7__JUMPSUIT_OP_BIG
+    fileSingle: Resources/Armors/Soldiers/Operator/Jumpsuit_Operator_big.png
+  - typeSingle: MHUMAN__8__OP_VEST
+    fileSingle: Resources/Armors/Soldiers/Operator/Operator_Vest.png
+  - typeSingle: MHUMAN__6__OP_GLOVES
+    fileSingle: Resources/Armors/Soldiers/Operator/Operator_Gloves.png
+  - typeSingle: MHUMAN__12__OP_GLASSES
+    fileSingle: Resources/Armors/Soldiers/Operator/Operator_Glasses.png
+  - typeSingle: MHUMAN__12__OP_GLASSES_WIDE
+    fileSingle: Resources/Armors/Soldiers/Operator/Operator_Glasses_wide.png
+  - typeSingle: MHUMAN__14__OP_HAT
+    fileSingle: Resources/Armors/Soldiers/Operator/Operator_Hat.png
+# GI
+  - typeSingle: MHUMAN__7__GI_ARMOR
+    fileSingle: Resources/Armors/Soldiers/GI/GI_Armor.png
+  - typeSingle: MHUMAN__14__GI_SCARF
+    fileSingle: Resources/Armors/Soldiers/GI/GI_Scarf.png
+  - typeSingle: MHUMAN__1__GI_SCARF_BACK
+    fileSingle: Resources/Armors/Soldiers/GI/GI_Scarf_Back.png
+# Pointman
+  - typeSingle: MHUMAN__7__POINTMAN_ARMOR
+    fileSingle: Resources/Armors/Soldiers/Tac/Pointman_Armor.png
+  - typeSingle: MHUMAN__14__POINTMAN_HELMET
+    fileSingle: Resources/Armors/Soldiers/Tac/Pointman_Helmet.png
+  - typeSingle: MHUMAN__14__POINTMAN_HELMET_WIDE
+    fileSingle: Resources/Armors/Soldiers/Tac/Pointman_Helmet_Wide.png
+# Demolisher
+  - typeSingle: MHUMAN__7__DEMOLISHER_ARMOR
+    fileSingle: Resources/Armors/Soldiers/Tac/Demolisher_Armor.png
+  - typeSingle: MHUMAN__14__DEMOLISHER_HELMET
+    fileSingle: Resources/Armors/Soldiers/Tac/Demolisher_Helmet.png
+  - typeSingle: MHUMAN__14__DEMOLISHER_HELMET_WIDE
+    fileSingle: Resources/Armors/Soldiers/Tac/Demolisher_Helmet_Wide.png
+# Legion
+  - typeSingle: MHUMAN__7__LEGION_ARMOR
+    fileSingle: Resources/Armors/Soldiers/Legion/Legion_Armor.png
+  - typeSingle: MHUMAN__12__LEGION_HEADBAND
+    fileSingle: Resources/Armors/Peasants/Legion/Legion_Headband.png
+  - typeSingle: MHUMAN__14__LEGION_HELMET
+    fileSingle: Resources/Armors/Soldiers/Legion/Legion_Helmet.png
+  - typeSingle: MHUMAN__14__LEGION_HELMET_WIDE
+    fileSingle: Resources/Armors/Soldiers/Legion/Legion_Helmet_wide.png
+# DOOM
+  - typeSingle: MHUMAN__2__DOOM_ARMOR_LIGHT
+    fileSingle: Resources/Armors/Soldiers/DOOM/DOOM_Armor_Light.png
+  - typeSingle: MHUMAN__2__DOOM_ARMOR_DARK
+    fileSingle: Resources/Armors/Soldiers/DOOM/DOOM_Armor_Dark.png
+  - typeSingle: MHUMAN__2__DOOM2_ARMOR_LIGHT
+    fileSingle: Resources/Armors/Soldiers/DOOM/DOOM2_Armor_Light.png
+  - typeSingle: MHUMAN__2__DOOM2_ARMOR_DARK
+    fileSingle: Resources/Armors/Soldiers/DOOM/DOOM2_Armor_Dark.png
+# Saint Outfit
+  - typeSingle: MHUMAN__8__SAINT_AMULET
+    fileSingle: Resources/Armors/Soldiers/Saint/Saint_Amulet_SS.png
+  - typeSingle: MHUMAN__0__SAINT_AURA_THN
+    fileSingle: Resources/Armors/Soldiers/Saint/Saint_Back_MThn.png
+  - typeSingle: MHUMAN__0__SAINT_AURA_NEW
+    fileSingle: Resources/Armors/Soldiers/Saint/Saint_Back_MNew.png
+  - typeSingle: MHUMAN__0__SAINT_AURA_BIG
+    fileSingle: Resources/Armors/Soldiers/Saint/Saint_Back_MBig.png
+  - typeSingle: MHUMAN__0__SAINT_AURA_FAT
+    fileSingle: Resources/Armors/Soldiers/Saint/Saint_Back_MFat.png
+# Superheroes
+  - typeSingle: MHUMAN__2__SUPERSLAVE
+    fileSingle: Resources/Armors/Soldiers/Superheroes/SUPER.png
+  - typeSingle: MHUMAN__2__BATGLAD_LIGHT
+    fileSingle: Resources/Armors/Soldiers/Superheroes/BATGLAD_Light.png
+  - typeSingle: MHUMAN__2__BATGLAD_DARK
+    fileSingle: Resources/Armors/Soldiers/Superheroes/BATGLAD_Dark.png
+  - typeSingle: MHUMAN__2__FLASH_LIGHT
+    fileSingle: Resources/Armors/Soldiers/Superheroes/FLASH_Light.png
+  - typeSingle: MHUMAN__2__FLASH_DARK
+    fileSingle: Resources/Armors/Soldiers/Superheroes/FLASH_Dark.png
+# Pillow Fucker
+  - typeSingle: MHUMAN__7__PILLOW_KNIGHT
+    fileSingle: Resources/Armors/Soldiers/Pillow_Knight/Pillow_Knight_big.png
+  - typeSingle: MHUMAN__1__PILLOW_BACK
+    fileSingle: Resources/Armors/Soldiers/Pillow_Knight/Pillow_back.png
+# Diver
+  - typeSingle: MHUMAN__6__WETSUIT_SS
+    fileSingle: Resources/Armors/Soldiers/Diver/Wetsuit_SS.gif
+  - typeSingle: MHUMAN__6__WETSUIT_SS_BIG
+    fileSingle: Resources/Armors/Soldiers/Diver/Wetsuit_SS_Big.gif
+  - typeSingle: MHUMAN__7__FINS
+    fileSingle: Resources/Armors/Soldiers/Diver/Fins.gif
+  - typeSingle: MHUMAN__8__DIVER_HARNESS
+    fileSingle: Resources/Armors/Soldiers/Diver/Diver_Harness.gif
+  - typeSingle: MHUMAN__12__DIVER_MASK_HELD
+    fileSingle: Resources/Armors/Soldiers/Diver/Diver_Mask_Held.gif
+  - typeSingle: MHUMAN__14__DIVER_HOOD
+    fileSingle: Resources/Armors/Soldiers/Diver/Diver_Hood.gif
+  - typeSingle: MHUMAN__14__DIVER_HOOD_WIDE
+    fileSingle: Resources/Armors/Soldiers/Diver/Diver_Hood_Wide.gif
+
+##### Peasants #####
+# Nudes
+  - typeSingle: FHUMAN__2__M0_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M0.png
+  - typeSingle: FHUMAN__2__M1_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M1.png
+  - typeSingle: FHUMAN__2__M2_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M2.png
+  - typeSingle: FHUMAN__2__M3_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M3.png
+  - typeSingle: FHUMAN__2__M4_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M4.png
+  - typeSingle: FHUMAN__2__M5_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M5.png
+  - typeSingle: FHUMAN__2__M6_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M6.png
+  - typeSingle: FHUMAN__2__M7_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M7.png
+  - typeSingle: FHUMAN__2__M8_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M8.png
+  - typeSingle: FHUMAN__2__M9_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M9.png
+  - typeSingle: FHUMAN__2__M10_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M10.png
+  - typeSingle: FHUMAN__2__M11_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M11.png
+  - typeSingle: FHUMAN__2__M12_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M12.png
+  - typeSingle: FHUMAN__2__M13_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M13.png
+  - typeSingle: FHUMAN__2__M14_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M14.png
+  - typeSingle: FHUMAN__2__M15_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M15.png
+  - typeSingle: FHUMAN__2__M16_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M16.png
+  - typeSingle: FHUMAN__2__M17_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M17.png
+  - typeSingle: FHUMAN__2__M18_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M18.png
+  - typeSingle: FHUMAN__2__M19_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M19.png
+  - typeSingle: FHUMAN__2__M20_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M20.png
+  - typeSingle: FHUMAN__2__M21_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M21.png
+  - typeSingle: FHUMAN__2__M22_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M22.png
+  - typeSingle: FHUMAN__2__M23_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M23.png
+  - typeSingle: FHUMAN__2__M24_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M24.png
+  - typeSingle: FHUMAN__2__M25_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M25.png
+  - typeSingle: FHUMAN__2__M26_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M26.png
+  - typeSingle: FHUMAN__2__M27_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M27.png
+  - typeSingle: FHUMAN__2__M28_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M28.png
+  - typeSingle: FHUMAN__2__M29_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M29.png
+  - typeSingle: FHUMAN__2__M30_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M30.png
+  - typeSingle: FHUMAN__2__M31_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_M31.png
+  - typeSingle: FHUMAN__2__F0_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F0.png
+  - typeSingle: FHUMAN__2__F1_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F1.png
+  - typeSingle: FHUMAN__2__F2_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F2.png
+  - typeSingle: FHUMAN__2__F3_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F3.png
+  - typeSingle: FHUMAN__2__F4_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F4.png
+  - typeSingle: FHUMAN__2__F5_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F5.png
+  - typeSingle: FHUMAN__2__F6_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F6.png
+  - typeSingle: FHUMAN__2__F7_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F7.png
+  - typeSingle: FHUMAN__2__F8_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F8.png
+  - typeSingle: FHUMAN__2__F9_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F9.png
+  - typeSingle: FHUMAN__2__F10_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F10.png
+  - typeSingle: FHUMAN__2__F11_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F11.png
+  - typeSingle: FHUMAN__2__F12_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F12.png
+  - typeSingle: FHUMAN__2__F13_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F13.png
+  - typeSingle: FHUMAN__2__F14_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F14.png
+  - typeSingle: FHUMAN__2__F15_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F15.png
+  - typeSingle: FHUMAN__2__F16_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F16.png
+  - typeSingle: FHUMAN__2__F17_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F17.png
+  - typeSingle: FHUMAN__2__F18_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F18.png
+  - typeSingle: FHUMAN__2__F19_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F19.png
+  - typeSingle: FHUMAN__2__F20_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F20.png
+  - typeSingle: FHUMAN__2__F21_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F21.png
+  - typeSingle: FHUMAN__2__F22_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F22.png
+  - typeSingle: FHUMAN__2__F23_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F23.png
+  - typeSingle: FHUMAN__2__F24_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F24.png
+  - typeSingle: FHUMAN__2__F25_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F25.png
+  - typeSingle: FHUMAN__2__F26_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F26.png
+  - typeSingle: FHUMAN__2__F27_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F27.png
+  - typeSingle: FHUMAN__2__F28_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F28.png
+  - typeSingle: FHUMAN__2__F29_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F29.png
+  - typeSingle: FHUMAN__2__F30_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F30.png
+  - typeSingle: FHUMAN__2__F31_NUDE
+    fileSingle: Resources/Armors/Peasants/Body/body551_F31.png
+# Nude Camo
+  - typeSingle: FHUMAN__2__M0_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M0.png
+  - typeSingle: FHUMAN__2__M1_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M1.png
+  - typeSingle: FHUMAN__2__M2_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M2.png
+  - typeSingle: FHUMAN__2__M3_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M3.png
+  - typeSingle: FHUMAN__2__M4_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M4.png
+  - typeSingle: FHUMAN__2__M5_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M5.png
+  - typeSingle: FHUMAN__2__M6_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M6.png
+  - typeSingle: FHUMAN__2__M7_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M7.png
+  - typeSingle: FHUMAN__2__M8_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M8.png
+  - typeSingle: FHUMAN__2__M9_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M9.png
+  - typeSingle: FHUMAN__2__M10_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M10.png
+  - typeSingle: FHUMAN__2__M11_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M11.png
+  - typeSingle: FHUMAN__2__M12_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M12.png
+  - typeSingle: FHUMAN__2__M13_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M13.png
+  - typeSingle: FHUMAN__2__M14_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M14.png
+  - typeSingle: FHUMAN__2__M15_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M15.png
+  - typeSingle: FHUMAN__2__M16_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M16.png
+  - typeSingle: FHUMAN__2__M17_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M17.png
+  - typeSingle: FHUMAN__2__M18_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M18.png
+  - typeSingle: FHUMAN__2__M19_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M19.png
+  - typeSingle: FHUMAN__2__M20_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M20.png
+  - typeSingle: FHUMAN__2__M21_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M21.png
+  - typeSingle: FHUMAN__2__M22_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M22.png
+  - typeSingle: FHUMAN__2__M23_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M23.png
+  - typeSingle: FHUMAN__2__M24_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M24.png
+  - typeSingle: FHUMAN__2__M25_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M25.png
+  - typeSingle: FHUMAN__2__M26_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M26.png
+  - typeSingle: FHUMAN__2__M27_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M27.png
+  - typeSingle: FHUMAN__2__M28_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M28.png
+  - typeSingle: FHUMAN__2__M29_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M29.png
+  - typeSingle: FHUMAN__2__M30_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M30.png
+  - typeSingle: FHUMAN__2__M31_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_M31.png
+  - typeSingle: FHUMAN__2__F0_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F0.png
+  - typeSingle: FHUMAN__2__F1_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F1.png
+  - typeSingle: FHUMAN__2__F2_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F2.png
+  - typeSingle: FHUMAN__2__F3_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F3.png
+  - typeSingle: FHUMAN__2__F4_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F4.png
+  - typeSingle: FHUMAN__2__F5_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F5.png
+  - typeSingle: FHUMAN__2__F6_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F6.png
+  - typeSingle: FHUMAN__2__F7_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F7.png
+  - typeSingle: FHUMAN__2__F8_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F8.png
+  - typeSingle: FHUMAN__2__F9_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F9.png
+  - typeSingle: FHUMAN__2__F10_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F10.png
+  - typeSingle: FHUMAN__2__F11_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F11.png
+  - typeSingle: FHUMAN__2__F12_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F12.png
+  - typeSingle: FHUMAN__2__F13_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F13.png
+  - typeSingle: FHUMAN__2__F14_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F14.png
+  - typeSingle: FHUMAN__2__F15_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F15.png
+  - typeSingle: FHUMAN__2__F16_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F16.png
+  - typeSingle: FHUMAN__2__F17_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F17.png
+  - typeSingle: FHUMAN__2__F18_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F18.png
+  - typeSingle: FHUMAN__2__F19_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F19.png
+  - typeSingle: FHUMAN__2__F20_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F20.png
+  - typeSingle: FHUMAN__2__F21_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F21.png
+  - typeSingle: FHUMAN__2__F22_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F22.png
+  - typeSingle: FHUMAN__2__F23_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F23.png
+  - typeSingle: FHUMAN__2__F24_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F24.png
+  - typeSingle: FHUMAN__2__F25_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F25.png
+  - typeSingle: FHUMAN__2__F26_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F26.png
+  - typeSingle: FHUMAN__2__F27_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F27.png
+  - typeSingle: FHUMAN__2__F28_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F28.png
+  - typeSingle: FHUMAN__2__F29_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F29.png
+  - typeSingle: FHUMAN__2__F30_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F30.png
+  - typeSingle: FHUMAN__2__F31_NUDECAMO
+    fileSingle: Resources/Armors/Peasants/Body_Camo/BodyCamo_F31.png
+# Heads
+  - typeSingle: FHUMAN__10__HEAD_M0
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M0.png
+  - typeSingle: FHUMAN__10__HEAD_M1
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M1.png
+  - typeSingle: FHUMAN__10__HEAD_M2
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M2.png
+  - typeSingle: FHUMAN__10__HEAD_M3
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M3.png
+  - typeSingle: FHUMAN__10__HEAD_M4
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M4.png
+  - typeSingle: FHUMAN__10__HEAD_M5
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M5.png
+  - typeSingle: FHUMAN__10__HEAD_M6
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M6.png
+  - typeSingle: FHUMAN__10__HEAD_M7
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M7.png
+  - typeSingle: FHUMAN__10__HEAD_M8
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M8.png
+  - typeSingle: FHUMAN__10__HEAD_M9
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M9.png
+  - typeSingle: FHUMAN__10__HEAD_M10
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M10.png
+  - typeSingle: FHUMAN__10__HEAD_M11
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M11.png
+  - typeSingle: FHUMAN__10__HEAD_M12
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M12.png
+  - typeSingle: FHUMAN__10__HEAD_M13
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M13.png
+  - typeSingle: FHUMAN__10__HEAD_M14
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M14.png
+  - typeSingle: FHUMAN__10__HEAD_M15
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M15.png
+  - typeSingle: FHUMAN__10__HEAD_M16
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M16.png
+  - typeSingle: FHUMAN__10__HEAD_M17
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M17.png
+  - typeSingle: FHUMAN__10__HEAD_M18
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M18.png
+  - typeSingle: FHUMAN__10__HEAD_M19
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M19.png
+  - typeSingle: FHUMAN__10__HEAD_M20
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M20.png
+  - typeSingle: FHUMAN__10__HEAD_M21
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M21.png
+  - typeSingle: FHUMAN__10__HEAD_M22
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M22.png
+  - typeSingle: FHUMAN__10__HEAD_M23
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M23.png
+  - typeSingle: FHUMAN__10__HEAD_M24
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M24.png
+  - typeSingle: FHUMAN__10__HEAD_M25
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M25.png
+  - typeSingle: FHUMAN__10__HEAD_M26
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M26.png
+  - typeSingle: FHUMAN__10__HEAD_M27
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M27.png
+  - typeSingle: FHUMAN__10__HEAD_M28
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M28.png
+  - typeSingle: FHUMAN__10__HEAD_M29
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M29.png
+  - typeSingle: FHUMAN__10__HEAD_M30
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M30.png
+  - typeSingle: FHUMAN__10__HEAD_M31
+    fileSingle: Resources/Armors/Peasants/Heads/Head_M31.png
+  - typeSingle: FHUMAN__10__HEAD_F0
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F0.png
+  - typeSingle: FHUMAN__10__HEAD_F1
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F1.png
+  - typeSingle: FHUMAN__10__HEAD_F2
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F2.png
+  - typeSingle: FHUMAN__10__HEAD_F3
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F3.png
+  - typeSingle: FHUMAN__10__HEAD_F4
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F4.png
+  - typeSingle: FHUMAN__10__HEAD_F5
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F5.png
+  - typeSingle: FHUMAN__10__HEAD_F6
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F6.png
+  - typeSingle: FHUMAN__10__HEAD_F7
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F7.png
+  - typeSingle: FHUMAN__10__HEAD_F8
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F8.png
+  - typeSingle: FHUMAN__10__HEAD_F9
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F9.png
+  - typeSingle: FHUMAN__10__HEAD_F10
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F10.png
+  - typeSingle: FHUMAN__10__HEAD_F11
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F11.png
+  - typeSingle: FHUMAN__10__HEAD_F12
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F12.png
+  - typeSingle: FHUMAN__10__HEAD_F13
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F13.png
+  - typeSingle: FHUMAN__10__HEAD_F14
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F14.png
+  - typeSingle: FHUMAN__10__HEAD_F15
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F15.png
+  - typeSingle: FHUMAN__10__HEAD_F16
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F16.png
+  - typeSingle: FHUMAN__10__HEAD_F17
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F17.png
+  - typeSingle: FHUMAN__10__HEAD_F18
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F18.png
+  - typeSingle: FHUMAN__10__HEAD_F19
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F19.png
+  - typeSingle: FHUMAN__10__HEAD_F20
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F20.png
+  - typeSingle: FHUMAN__10__HEAD_F21
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F21.png
+  - typeSingle: FHUMAN__10__HEAD_F22
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F22.png
+  - typeSingle: FHUMAN__10__HEAD_F23
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F23.png
+  - typeSingle: FHUMAN__10__HEAD_F24
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F24.png
+  - typeSingle: FHUMAN__10__HEAD_F25
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F25.png
+  - typeSingle: FHUMAN__10__HEAD_F26
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F26.png
+  - typeSingle: FHUMAN__10__HEAD_F27
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F27.png
+  - typeSingle: FHUMAN__10__HEAD_F28
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F28.png
+  - typeSingle: FHUMAN__10__HEAD_F29
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F29.png
+  - typeSingle: FHUMAN__10__HEAD_F30
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F30.png
+  - typeSingle: FHUMAN__10__HEAD_F31
+    fileSingle: Resources/Armors/Peasants/Heads/Head_F31.png
+# Hair
+  - typeSingle: FHUMAN__13__HAIR_M0
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M0.png
+  - typeSingle: FHUMAN__13__HAIR_M1
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M1.png
+  - typeSingle: FHUMAN__13__HAIR_M2
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M2.png
+  - typeSingle: FHUMAN__13__HAIR_M3
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M3.png
+  - typeSingle: FHUMAN__13__HAIR_M4
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M4.png
+  - typeSingle: FHUMAN__13__HAIR_M5
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M5.png
+  - typeSingle: FHUMAN__13__HAIR_M6
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M6.png
+  - typeSingle: FHUMAN__13__HAIR_M7
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M7.png
+  - typeSingle: FHUMAN__13__HAIR_M8
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M8.png
+  - typeSingle: FHUMAN__13__HAIR_M9
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M9.png
+  - typeSingle: FHUMAN__13__HAIR_M10
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M10.png
+  - typeSingle: FHUMAN__13__HAIR_M11
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M11.png
+  - typeSingle: FHUMAN__13__HAIR_M12
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M12.png
+  - typeSingle: FHUMAN__13__HAIR_M13
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M13.png
+  - typeSingle: FHUMAN__13__HAIR_M14
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M14.png
+  - typeSingle: FHUMAN__13__HAIR_M15
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M15.png
+  - typeSingle: FHUMAN__13__HAIR_M16
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M16.png
+  - typeSingle: FHUMAN__13__HAIR_M17
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M17.png
+  - typeSingle: FHUMAN__13__HAIR_M18
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M18.png
+  - typeSingle: FHUMAN__13__HAIR_M19
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M19.png
+  - typeSingle: FHUMAN__13__HAIR_M20
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M20.png
+  - typeSingle: FHUMAN__13__HAIR_M21
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M21.png
+  - typeSingle: FHUMAN__13__HAIR_M22
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M22.png
+  - typeSingle: FHUMAN__13__HAIR_M23
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M23.png
+  - typeSingle: FHUMAN__13__HAIR_M24
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M24.png
+  - typeSingle: FHUMAN__13__HAIR_M25
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M25.png
+  - typeSingle: FHUMAN__13__HAIR_M26
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M26.png
+  - typeSingle: FHUMAN__13__HAIR_M27
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M27.png
+  - typeSingle: FHUMAN__13__HAIR_M28
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M28.png
+  - typeSingle: FHUMAN__13__HAIR_M29
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M29.png
+  - typeSingle: FHUMAN__13__HAIR_M30
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M30.png
+  - typeSingle: FHUMAN__13__HAIR_M31
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_M31.png
+  - typeSingle: FHUMAN__13__HAIR_F0
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F0.png
+  - typeSingle: FHUMAN__13__HAIR_F1
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F1.png
+  - typeSingle: FHUMAN__13__HAIR_F2
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F2.png
+  - typeSingle: FHUMAN__13__HAIR_F3
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F3.png
+  - typeSingle: FHUMAN__13__HAIR_F4
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F4.png
+  - typeSingle: FHUMAN__13__HAIR_F5
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F5.png
+  - typeSingle: FHUMAN__13__HAIR_F6
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F6.png
+  - typeSingle: FHUMAN__13__HAIR_F7
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F7.png
+  - typeSingle: FHUMAN__13__HAIR_F8
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F8.png
+  - typeSingle: FHUMAN__13__HAIR_F9
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F9.png
+  - typeSingle: FHUMAN__13__HAIR_F10
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F10.png
+  - typeSingle: FHUMAN__13__HAIR_F11
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F11.png
+  - typeSingle: FHUMAN__13__HAIR_F12
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F12.png
+  - typeSingle: FHUMAN__13__HAIR_F13
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F13.png
+  - typeSingle: FHUMAN__13__HAIR_F14
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F14.png
+  - typeSingle: FHUMAN__13__HAIR_F15
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F15.png
+  - typeSingle: FHUMAN__13__HAIR_F16
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F16.png
+  - typeSingle: FHUMAN__13__HAIR_F17
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F17.png
+  - typeSingle: FHUMAN__13__HAIR_F18
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F18.png
+  - typeSingle: FHUMAN__13__HAIR_F19
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F19.png
+  - typeSingle: FHUMAN__13__HAIR_F20
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F20.png
+  - typeSingle: FHUMAN__13__HAIR_F21
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F21.png
+  - typeSingle: FHUMAN__13__HAIR_F22
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F22.png
+  - typeSingle: FHUMAN__13__HAIR_F23
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F23.png
+  - typeSingle: FHUMAN__13__HAIR_F24
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F24.png
+  - typeSingle: FHUMAN__13__HAIR_F25
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F25.png
+  - typeSingle: FHUMAN__13__HAIR_F26
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F26.png
+  - typeSingle: FHUMAN__13__HAIR_F27
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F27.png
+  - typeSingle: FHUMAN__13__HAIR_F28
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F28.png
+  - typeSingle: FHUMAN__13__HAIR_F29
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F29.png
+  - typeSingle: FHUMAN__13__HAIR_F30
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F30.png
+  - typeSingle: FHUMAN__13__HAIR_F31
+    fileSingle: Resources/Armors/Peasants/Hair/Hair_F31.png
+# Personal_Items
+  - typeSingle: FHUMAN__4__HIJAB_M22
+    fileSingle: Resources/Armors/Peasants/Personal_Items/Hijab_M22.png
+  - typeSingle: FHUMAN__13__HIJAB_TOP_M22
+    fileSingle: Resources/Armors/Peasants/Personal_Items/Hijab_Top_M22.png
+  - typeSingle: FHUMAN__11__GLASSES_M28
+    fileSingle: Resources/Armors/Peasants/Personal_Items/Glasses_M28.png
+  - typeSingle: FHUMAN__8__DOLL_F18
+    fileSingle: Resources/Armors/Peasants/Personal_Items/Doll_F18.png
+  - typeSingle: FHUMAN__8__NECKLACE_F19
+    fileSingle: Resources/Armors/Peasants/Personal_Items/Necklace_F19.png
+  - typeSingle: FHUMAN__4__NECKLACE_F31
+    fileSingle: Resources/Armors/Peasants/Personal_Items/Necklace_F31.png
+  - typeSingle: FHUMAN__5__ARMBANDS_F31
+    fileSingle: Resources/Armors/Peasants/Personal_Items/Armbands_F31.png
+# Bondage Gear
+  - typeSingle: FHUMAN__4__BONDAGE_GEAR
+    fileSingle: Resources/Armors/Peasants/Bondage/Bondage_Gear.png
+  - typeSingle: FHUMAN__12__BLINDFOLD
+    fileSingle: Resources/Armors/Peasants/Bondage/Blindfold.png
+# Saint Outfit
+  - typeSingle: FHUMAN__8__SAINT_AMULET
+    fileSingle: Resources/Armors/Peasants/Saint/Saint_Amulet_PEA.png
+  - typeSingle: FHUMAN__0__SAINT_AURA_A
+    fileSingle: Resources/Armors/Peasants/Saint/Saint_Back_A.png
+  - typeSingle: FHUMAN__0__SAINT_AURA_B
+    fileSingle: Resources/Armors/Peasants/Saint/Saint_Back_B.png
+  - typeSingle: FHUMAN__0__SAINT_AURA_C
+    fileSingle: Resources/Armors/Peasants/Saint/Saint_Back_C.png
+  - typeSingle: FHUMAN__0__SAINT_AURA_D
+    fileSingle: Resources/Armors/Peasants/Saint/Saint_Back_D.png
+# Gladiatrix Outfit
+  - typeSingle: FHUMAN__3__GLADIATRIX_PANTIES
+    fileSingle: Resources/Armors/Peasants/Gladiatrix/Gladiatrix_Panties.gif
+  - typeSingle: FHUMAN__5__GLADIATRIX_HARNESS_A
+    fileSingle: Resources/Armors/Peasants/Gladiatrix/Gladiatrix_Harness_A.gif
+  - typeSingle: FHUMAN__5__GLADIATRIX_HARNESS_B
+    fileSingle: Resources/Armors/Peasants/Gladiatrix/Gladiatrix_Harness_B.gif
+  - typeSingle: FHUMAN__5__GLADIATRIX_HARNESS_C
+    fileSingle: Resources/Armors/Peasants/Gladiatrix/Gladiatrix_Harness_C.gif
+  - typeSingle: FHUMAN__5__GLADIATRIX_HARNESS_D
+    fileSingle: Resources/Armors/Peasants/Gladiatrix/Gladiatrix_Harness_D.gif
+  - typeSingle: FHUMAN__7__GLADIATRIX_MAIN
+    fileSingle: Resources/Armors/Peasants/Gladiatrix/Gladiatrix_Main.gif
+  - typeSingle: FHUMAN__8__DOLL_F18_GLADIATRIX
+    fileSingle: Resources/Armors/Peasants/Gladiatrix/Doll_F18_Gladiatrix.png
+# Swimsuit
+  - typeSingle: FHUMAN__3__SWIMSUIT_A
+    fileSingle: Resources/Armors/Peasants/Swimsuit/Swimsuit_PP_A.png
+  - typeSingle: FHUMAN__3__SWIMSUIT_B
+    fileSingle: Resources/Armors/Peasants/Swimsuit/Swimsuit_PP_B.png
+  - typeSingle: FHUMAN__3__SWIMSUIT_C
+    fileSingle: Resources/Armors/Peasants/Swimsuit/Swimsuit_PP_C.png
+  - typeSingle: FHUMAN__3__SWIMSUIT_D
+    fileSingle: Resources/Armors/Peasants/Swimsuit/Swimsuit_PP_D.png
+  - typeSingle: FHUMAN__3__SWIMSUIT_2_A
+    fileSingle: Resources/Armors/Peasants/Swimsuit/Swimsuit_PP2_A.png
+  - typeSingle: FHUMAN__3__SWIMSUIT_2_B
+    fileSingle: Resources/Armors/Peasants/Swimsuit/Swimsuit_PP2_B.png
+  - typeSingle: FHUMAN__3__SWIMSUIT_2_C
+    fileSingle: Resources/Armors/Peasants/Swimsuit/Swimsuit_PP2_C.png
+  - typeSingle: FHUMAN__3__SWIMSUIT_2_D
+    fileSingle: Resources/Armors/Peasants/Swimsuit/Swimsuit_PP2_D.png
+# Hunter
+  - typeSingle: FHUMAN__7__HUNTER_OUTFIT
+    fileSingle: Resources/Armors/Peasants/Tribal/Hunter.png
+  - typeSingle: FHUMAN__8__HUNTER_SCARF
+    fileSingle: Resources/Armors/Peasants/Tribal/Hunter_Scarf.png
+# MILITIA
+  - typeSingle: FHUMAN__7__MILITIA_MAIN
+    fileSingle: Resources/Armors/Peasants/Militia/Militia_Main.png
+  - typeSingle: FHUMAN__8__MILITIA_ARMOR_A
+    fileSingle: Resources/Armors/Peasants/Militia/Militia_Armor_A.png
+  - typeSingle: FHUMAN__8__MILITIA_ARMOR_B
+    fileSingle: Resources/Armors/Peasants/Militia/Militia_Armor_B.png
+  - typeSingle: FHUMAN__8__MILITIA_ARMOR_C
+    fileSingle: Resources/Armors/Peasants/Militia/Militia_Armor_C.png
+  - typeSingle: FHUMAN__8__MILITIA_ARMOR_D
+    fileSingle: Resources/Armors/Peasants/Militia/Militia_Armor_D.png
+  - typeSingle: FHUMAN__14__MILITIA_HAT
+    fileSingle: Resources/Armors/Peasants/Militia/Militia_Hat.png
+# Shepherd
+  - typeSingle: FHUMAN__7__SHEPHERD_DRESS_A
+    fileSingle: Resources/Armors/Peasants/Shepherd/Dress_Shep_A.png
+  - typeSingle: FHUMAN__7__SHEPHERD_DRESS_B
+    fileSingle: Resources/Armors/Peasants/Shepherd/Dress_Shep_B.png
+  - typeSingle: FHUMAN__7__SHEPHERD_DRESS_C
+    fileSingle: Resources/Armors/Peasants/Shepherd/Dress_Shep_C.png
+  - typeSingle: FHUMAN__7__SHEPHERD_DRESS_D
+    fileSingle: Resources/Armors/Peasants/Shepherd/Dress_Shep_D.png
+  - typeSingle: FHUMAN__1__SHEPHERD_HAT_BACK
+    fileSingle: Resources/Armors/Peasants/Shepherd/Peasant_Hat_Back.png
+  - typeSingle: FHUMAN__14__SHEPHERD_HAT_FRONT
+    fileSingle: Resources/Armors/Peasants/Shepherd/Peasant_Hat_Front.png
+# Nurse Outfit
+  - typeSingle: FHUMAN__7__NURSE_DRESS_A
+    fileSingle: Resources/Armors/Peasants/Nurse/Nurse_Dress_A.png
+  - typeSingle: FHUMAN__7__NURSE_DRESS_B
+    fileSingle: Resources/Armors/Peasants/Nurse/Nurse_Dress_B.png
+  - typeSingle: FHUMAN__7__NURSE_DRESS_C
+    fileSingle: Resources/Armors/Peasants/Nurse/Nurse_Dress_C.png
+  - typeSingle: FHUMAN__7__NURSE_DRESS_D
+    fileSingle: Resources/Armors/Peasants/Nurse/Nurse_Dress_D.png
+  - typeSingle: FHUMAN__14__NURSE_BONNET
+    fileSingle: Resources/Armors/Peasants/Nurse/Nurse_Bonnet.png
+# Runt
+  - typeSingle: FHUMAN__7__JUMPSUIT_PP_A
+    fileSingle: Resources/Armors/Peasants/Runt/Jumpsuit_PP_A.png
+  - typeSingle: FHUMAN__7__JUMPSUIT_PP_B
+    fileSingle: Resources/Armors/Peasants/Runt/Jumpsuit_PP_B.png
+  - typeSingle: FHUMAN__7__JUMPSUIT_PP_C
+    fileSingle: Resources/Armors/Peasants/Runt/Jumpsuit_PP_C.png
+  - typeSingle: FHUMAN__7__JUMPSUIT_PP_D
+    fileSingle: Resources/Armors/Peasants/Runt/Jumpsuit_PP_D.png
+  - typeSingle: FHUMAN__11__JUMPSUIT_PP_MASK
+    fileSingle: Resources/Armors/Peasants/Runt/Jumpsuit_PP_Mask.png
+# Tac Vest
+  - typeSingle: FHUMAN__7__TAC_VEST_PP
+    fileSingle: Resources/Armors/Peasants/Tac/Tac_Vest_PP.png
+# Defender
+  - typeSingle: FHUMAN__8__DEFENDER_ARMOR
+    fileSingle: Resources/Armors/Soldiers/Blue/Defender_Armor_H.png
+  - typeSingle: FHUMAN__14__DEFENDER_VISOR
+    fileSingle: Resources/Armors/Soldiers/Blue/Defender_Visor.png
+  - typeSingle: FHUMAN__14__DEFENDER_VISOR_WIDE
+    fileSingle: Resources/Armors/Soldiers/Blue/Defender_Visor_Wide.png
+# Camo
+  - typeSingle: FHUMAN__7__CAMO_MAIN
+    fileSingle: Resources/Armors/Peasants/Camo/Camo_Main.png
+  - typeSingle: FHUMAN__8__CAMO_JACKET
+    fileSingle: Resources/Armors/Peasants/Camo/Camo_Jacket.png
+  - typeSingle: FHUMAN__14__CAMO_HELMET
+    fileSingle: Resources/Armors/Peasants/Camo/Camo_Helmet.png
+  - typeSingle: FHUMAN__14__CAMO_HELMET_WIDE
+    fileSingle: Resources/Armors/Peasants/Camo/Camo_Helmet_Wide.png
+# Stalker
+  - typeSingle: FHUMAN__14__STALKER_MAIN
+    fileSingle: Resources/Armors/Peasants/Camo/Stalker_Main.png
+  - typeSingle: FHUMAN__1__STALKER_BACK
+    fileSingle: Resources/Armors/Peasants/Camo/Stalker_Back.png
+# Legion
+  - typeSingle: FHUMAN__8__LEGION_ARMOR
+    fileSingle: Resources/Armors/Peasants/Legion/Legion_Armor_PP.png
+  - typeSingle: FHUMAN__12__LEGION_HEADBAND
+    fileSingle: Resources/Armors/Peasants/Legion/Legion_Headband.png
+  - typeSingle: FHUMAN__14__LEGION_HELMET
+    fileSingle: Resources/Armors/Soldiers/Legion/Legion_Helmet.png
+  - typeSingle: FHUMAN__14__LEGION_HELMET_WIDE
+    fileSingle: Resources/Armors/Soldiers/Legion/Legion_Helmet_wide.png
+# Diver
+  - typeSingle: FHUMAN__6__WETSUIT_PP_A
+    fileSingle: Resources/Armors/Peasants/Diver/Wetsuit_PP_A.gif
+  - typeSingle: FHUMAN__6__WETSUIT_PP_B
+    fileSingle: Resources/Armors/Peasants/Diver/Wetsuit_PP_B.gif
+  - typeSingle: FHUMAN__6__WETSUIT_PP_C
+    fileSingle: Resources/Armors/Peasants/Diver/Wetsuit_PP_C.gif
+  - typeSingle: FHUMAN__6__WETSUIT_PP_D
+    fileSingle: Resources/Armors/Peasants/Diver/Wetsuit_PP_D.gif
+  - typeSingle: FHUMAN__7__FINS
+    fileSingle: Resources/Armors/Soldiers/Diver/Fins.gif
+  - typeSingle: FHUMAN__8__DIVER_HARNESS
+    fileSingle: Resources/Armors/Peasants/Diver/Diver_Harness_PP.gif
+  - typeSingle: FHUMAN__12__DIVER_MASK_HELD
+    fileSingle: Resources/Armors/Soldiers/Diver/Diver_Mask_Held.gif
+  - typeSingle: FHUMAN__14__DIVER_HOOD
+    fileSingle: Resources/Armors/Soldiers/Diver/Diver_Hood.gif
+  - typeSingle: FHUMAN__14__DIVER_HOOD_WIDE
+    fileSingle: Resources/Armors/Soldiers/Diver/Diver_Hood_Wide.gif
+# Aqua
+  - typeSingle: FHUMAN__4__AQUA_SUIT_A
+    fileSingle: Resources/Armors/Peasants/Aqua/Aqua_Armor_A.png
+  - typeSingle: FHUMAN__4__AQUA_SUIT_B
+    fileSingle: Resources/Armors/Peasants/Aqua/Aqua_Armor_B.png
+  - typeSingle: FHUMAN__4__AQUA_SUIT_C
+    fileSingle: Resources/Armors/Peasants/Aqua/Aqua_Armor_C.png
+  - typeSingle: FHUMAN__4__AQUA_SUIT_D
+    fileSingle: Resources/Armors/Peasants/Aqua/Aqua_Armor_D.png
+  - typeSingle: FHUMAN__6__AQUA_GLOVES
+    fileSingle: Resources/Armors/Peasants/Aqua/Aqua_Gloves.png
+  - typeSingle: FHUMAN__14__AQUA_HELMET
+    fileSingle: Resources/Armors/Peasants/Aqua/Aqua_Helmet.png
+# Ravenclaw
+  - typeSingle: FHUMAN__7__RAVENCLAW_MAIN
+    fileSingle: Resources/Armors/Peasants/Ravenclaw/Ravenclaw_Main.png
+  - typeSingle: FHUMAN__8__TK_GEAR
+    fileSingle: Resources/Armors/Peasants/Ravenclaw/TK_Gear.png
+  - typeSingle: FHUMAN__9__RAVENCLAW_BELT
+    fileSingle: Resources/Armors/Peasants/Ravenclaw/Ravenclaw_Belt.png
+  - typeSingle: FHUMAN__11__RAVENCLAW_FRONT
+    fileSingle: Resources/Armors/Peasants/Ravenclaw/Ravenclaw_Front.png
+  - typeSingle: FHUMAN__14__RAVENCLAW_HOOD
+    fileSingle: Resources/Armors/Peasants/Ravenclaw/Ravenclaw_Hood.png
+  - typeSingle: FHUMAN__1__RAVENCLAW_BACK
+    fileSingle: Resources/Armors/Peasants/Ravenclaw/Ravenclaw_Back.png
+# Misc
+  - typeSingle: FHUMAN__6__GLOVES
+    fileSingle: Resources/Armors/Peasants/Misc/Gloves.png
+  - typeSingle: FHUMAN__9__WAISTCLOTH_RED
+    fileSingle: Resources/Armors/Peasants/Misc/Waistcloth_Red.png
+  - typeSingle: FHUMAN__8__SKULL_NECKLACE
+    fileSingle: Resources/Armors/Peasants/Misc/Skullz.png
+# Underwear
+  - typeSingle: FHUMAN__3__PANTIES_HR_RED
+    fileSingle: Resources/Armors/Peasants/Underwear/Panties_red.png
+  - typeSingle: FHUMAN__3__PANTIES_HR_PINK
+    fileSingle: Resources/Armors/Peasants/Underwear/Panties_pink.png
+  - typeSingle: FHUMAN__3__PANTIES_HR_BLACK
+    fileSingle: Resources/Armors/Peasants/Underwear/Panties_black.png
+# Shades
+  - typeSingle: FHUMAN__12__SHADES_0
+    fileSingle: Resources/Armors/Peasants/Shades/shades_0.png
+  - typeSingle: FHUMAN__12__SHADES_1
+    fileSingle: Resources/Armors/Peasants/Shades/shades_1.png
+  - typeSingle: FHUMAN__12__SHADES_2
+    fileSingle: Resources/Armors/Peasants/Shades/shades_2.png
+  - typeSingle: FHUMAN__12__SHADES_3
+    fileSingle: Resources/Armors/Peasants/Shades/shades_3.png
+  - typeSingle: FHUMAN__12__SHADES_4
+    fileSingle: Resources/Armors/Peasants/Shades/shades_4.png
+  - typeSingle: FHUMAN__12__SHADES_5
+    fileSingle: Resources/Armors/Peasants/Shades/shades_5.png
+  - typeSingle: FHUMAN__12__SHADES_6
+    fileSingle: Resources/Armors/Peasants/Shades/shades_6.png
+  - typeSingle: FHUMAN__12__SHADES_7
+    fileSingle: Resources/Armors/Peasants/Shades/shades_7.png
+  - typeSingle: FHUMAN__12__SHADES_8
+    fileSingle: Resources/Armors/Peasants/Shades/shades_8.png
+  - typeSingle: FHUMAN__12__SHADES_9
+    fileSingle: Resources/Armors/Peasants/Shades/shades_9.png
+  - typeSingle: FHUMAN__12__SHADES_0_WIDE
+    fileSingle: Resources/Armors/Peasants/Shades/shades_0_wide.png
+  - typeSingle: FHUMAN__12__SHADES_1_WIDE
+    fileSingle: Resources/Armors/Peasants/Shades/shades_1_wide.png
+  - typeSingle: FHUMAN__12__SHADES_2_WIDE
+    fileSingle: Resources/Armors/Peasants/Shades/shades_2_wide.png
+  - typeSingle: FHUMAN__12__SHADES_3_WIDE
+    fileSingle: Resources/Armors/Peasants/Shades/shades_3_wide.png
+  - typeSingle: FHUMAN__12__SHADES_4_WIDE
+    fileSingle: Resources/Armors/Peasants/Shades/shades_4_wide.png
+  - typeSingle: FHUMAN__12__SHADES_5_WIDE
+    fileSingle: Resources/Armors/Peasants/Shades/shades_5_wide.png
+  - typeSingle: FHUMAN__12__SHADES_6_WIDE
+    fileSingle: Resources/Armors/Peasants/Shades/shades_6_wide.png
+  - typeSingle: FHUMAN__12__SHADES_7_WIDE
+    fileSingle: Resources/Armors/Peasants/Shades/shades_7_wide.png
+  - typeSingle: FHUMAN__12__SHADES_8_WIDE
+    fileSingle: Resources/Armors/Peasants/Shades/shades_8_wide.png
+  - typeSingle: FHUMAN__12__SHADES_9_WIDE
+    fileSingle: Resources/Armors/Peasants/Shades/shades_9_wide.png
+  - typeSingle: FHUMAN__14__SHADES_9_WIDE_LIFTED
+    fileSingle: Resources/Armors/Peasants/Shades/shades_9_wide_lifted.png
+    
+##### Gnomes #####
+# Nudes
+  - typeSingle: GNOME__2__M0_NUDE
+    fileSingle: Resources/Armors/Gnomes/Body/body901_M0.gif
+  - typeSingle: GNOME__2__M1_NUDE
+    fileSingle: Resources/Armors/Gnomes/Body/body901_M1.gif
+  - typeSingle: GNOME__2__M2_NUDE
+    fileSingle: Resources/Armors/Gnomes/Body/body901_M2.gif
+  - typeSingle: GNOME__2__M3_NUDE
+    fileSingle: Resources/Armors/Gnomes/Body/body901_M3.gif
+  - typeSingle: GNOME__2__F0_NUDE
+    fileSingle: Resources/Armors/Gnomes/Body/body901_F0.gif
+  - typeSingle: GNOME__2__F1_NUDE
+    fileSingle: Resources/Armors/Gnomes/Body/body901_F1.gif
+  - typeSingle: GNOME__2__F2_NUDE
+    fileSingle: Resources/Armors/Gnomes/Body/body901_F2.gif
+  - typeSingle: GNOME__2__F3_NUDE
+    fileSingle: Resources/Armors/Gnomes/Body/body901_F3.gif
+# Heads
+  - typeSingle: GNOME__10__HEAD_M0
+    fileSingle: Resources/Armors/Gnomes/Heads/Head_M0.gif
+  - typeSingle: GNOME__10__HEAD_M1
+    fileSingle: Resources/Armors/Gnomes/Heads/Head_M1.gif
+  - typeSingle: GNOME__10__HEAD_M2
+    fileSingle: Resources/Armors/Gnomes/Heads/Head_M2.gif
+  - typeSingle: GNOME__10__HEAD_M3
+    fileSingle: Resources/Armors/Gnomes/Heads/Head_M3.gif
+  - typeSingle: GNOME__10__HEAD_F0
+    fileSingle: Resources/Armors/Gnomes/Heads/Head_F0.gif
+  - typeSingle: GNOME__10__HEAD_F1
+    fileSingle: Resources/Armors/Gnomes/Heads/Head_F1.gif
+  - typeSingle: GNOME__10__HEAD_F2
+    fileSingle: Resources/Armors/Gnomes/Heads/Head_F2.gif
+  - typeSingle: GNOME__10__HEAD_F3
+    fileSingle: Resources/Armors/Gnomes/Heads/Head_F3.gif
+# Hair
+  - typeSingle: GNOME__13__HAIR_M0
+    fileSingle: Resources/Armors/Gnomes/Hair/Hair_M0.gif
+  - typeSingle: GNOME__13__HAIR_M1
+    fileSingle: Resources/Armors/Gnomes/Hair/Hair_M1.gif
+  - typeSingle: GNOME__13__HAIR_M2
+    fileSingle: Resources/Armors/Gnomes/Hair/Hair_M2.gif
+  - typeSingle: GNOME__13__HAIR_M3
+    fileSingle: Resources/Armors/Gnomes/Hair/Hair_M3.gif
+  - typeSingle: GNOME__13__HAIR_F0
+    fileSingle: Resources/Armors/Gnomes/Hair/Hair_F0.gif
+  - typeSingle: GNOME__13__HAIR_F1
+    fileSingle: Resources/Armors/Gnomes/Hair/Hair_F1.gif
+  - typeSingle: GNOME__13__HAIR_F2
+    fileSingle: Resources/Armors/Gnomes/Hair/Hair_F2.gif
+  - typeSingle: GNOME__13__HAIR_F3
+    fileSingle: Resources/Armors/Gnomes/Hair/Hair_F3.gif
+  - typeSingle: GNOME__0__HAIR_BACK_F2
+    fileSingle: Resources/Armors/Gnomes/Hair/Hair_Back_F2.gif
+# Dress
+  - typeSingle: GNOME__7__DRESS
+    fileSingle: Resources/Armors/Gnomes/House/Dress.png
+  - typeSingle: GNOME__3__PANTIES_PINK
+    fileSingle: Resources/Armors/Gnomes/House/Panties_Pink.png
+  - typeSingle: GNOME__3__PANTIES_RED
+    fileSingle: Resources/Armors/Gnomes/House/Panties_Red.png
+  - typeSingle: GNOME__3__PANTIES_BLUE
+    fileSingle: Resources/Armors/Gnomes/House/Panties_Blue.png
+  - typeSingle: GNOME__4__STOCKINGS_PINK
+    fileSingle: Resources/Armors/Gnomes/House/Stockings_Pink.png
+  - typeSingle: GNOME__4__STOCKINGS_RED
+    fileSingle: Resources/Armors/Gnomes/House/Stockings_Red.png
+  - typeSingle: GNOME__4__STOCKINGS_BLUE
+    fileSingle: Resources/Armors/Gnomes/House/Stockings_Blue.png
+  - typeSingle: GNOME__5__STOCKINGS_STRIPES
+    fileSingle: Resources/Armors/Gnomes/House/Stockings_Stripes.png
+  - typeSingle: GNOME__11__GLOVES_PINK
+    fileSingle: Resources/Armors/Gnomes/House/Gloves_Pink.png
+  - typeSingle: GNOME__11__GLOVES_RED
+    fileSingle: Resources/Armors/Gnomes/House/Gloves_Red.png
+  - typeSingle: GNOME__11__GLOVES_BLUE
+    fileSingle: Resources/Armors/Gnomes/House/Gloves_Blue.png
+# Explorer
+  - typeSingle: GNOME__5__XBELTS
+    fileSingle: Resources/Armors/Gnomes/Explorer/Belts.gif
+  - typeSingle: GNOME__7__XBOOTS
+    fileSingle: Resources/Armors/Gnomes/Explorer/Boots.gif
+  - typeSingle: GNOME__8__XCOAT
+    fileSingle: Resources/Armors/Gnomes/Explorer/Coat.gif
+  - typeSingle: GNOME__1__XCOAT_BACK
+    fileSingle: Resources/Armors/Gnomes/Explorer/Coat_Back.gif
+  - typeSingle: GNOME__15__XGLOVES
+    fileSingle: Resources/Armors/Gnomes/Explorer/Gloves.gif
+  - typeSingle: GNOME__14__XGOGGLES
+    fileSingle: Resources/Armors/Gnomes/Explorer/Goggles.gif
+  - typeSingle: GNOME__11__XMASK
+    fileSingle: Resources/Armors/Gnomes/Explorer/Mask.gif
+  - typeSingle: GNOME__1__XMASK_BACK
+    fileSingle: Resources/Armors/Gnomes/Explorer/Mask_Back.gif
+  - typeSingle: GNOME__11__XMASK_HOSE
+    fileSingle: Resources/Armors/Gnomes/Explorer/Mask_Hose.gif
+    
+##### Hybrids #####
+# Nudes
+  - typeSingle: HYBRID__2__M0_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_M0.gif
+  - typeSingle: HYBRID__2__M1_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_M1.gif
+  - typeSingle: HYBRID__2__M2_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_M2.gif
+  - typeSingle: HYBRID__2__M3_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_M3.gif
+  - typeSingle: HYBRID__2__M4_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_M4.gif
+  - typeSingle: HYBRID__2__M5_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_M5.gif
+  - typeSingle: HYBRID__2__M6_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_M6.gif
+  - typeSingle: HYBRID__2__M7_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_M7.gif
+  - typeSingle: HYBRID__2__F0_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_F0.gif
+  - typeSingle: HYBRID__2__F1_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_F1.gif
+  - typeSingle: HYBRID__2__F2_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_F2.gif
+  - typeSingle: HYBRID__2__F3_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_F3.gif
+  - typeSingle: HYBRID__2__F4_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_F4.gif
+  - typeSingle: HYBRID__2__F5_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_F5.gif
+  - typeSingle: HYBRID__2__F6_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_F6.gif
+  - typeSingle: HYBRID__2__F7_NUDE
+    fileSingle: Resources/Armors/Hybrids/Body/body601_F7.gif
+# Heads
+  - typeSingle: HYBRID__10__HEAD_M0
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_M0.gif
+  - typeSingle: HYBRID__10__HEAD_M1
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_M1.gif
+  - typeSingle: HYBRID__10__HEAD_M2
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_M2.gif
+  - typeSingle: HYBRID__10__HEAD_M3
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_M3.gif
+  - typeSingle: HYBRID__10__HEAD_M4
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_M4.gif
+  - typeSingle: HYBRID__10__HEAD_M5
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_M5.gif
+  - typeSingle: HYBRID__10__HEAD_M6
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_M6.gif
+  - typeSingle: HYBRID__10__HEAD_M7
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_M7.gif
+  - typeSingle: HYBRID__10__HEAD_F0
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_F0.gif
+  - typeSingle: HYBRID__10__HEAD_F1
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_F1.gif
+  - typeSingle: HYBRID__10__HEAD_F2
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_F2.gif
+  - typeSingle: HYBRID__10__HEAD_F3
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_F3.gif
+  - typeSingle: HYBRID__10__HEAD_F4
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_F4.gif
+  - typeSingle: HYBRID__10__HEAD_F5
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_F5.gif
+  - typeSingle: HYBRID__10__HEAD_F6
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_F6.gif
+  - typeSingle: HYBRID__10__HEAD_F7
+    fileSingle: Resources/Armors/Hybrids/Heads/Head_F7.gif
+# Pantsu
+  - typeSingle: HYBRID__3__THONG_M
+    fileSingle: Resources/Armors/Hybrids/Misc/Thong_M.png
+  - typeSingle: HYBRID__3__THONG_F
+    fileSingle: Resources/Armors/Hybrids/Misc/Thong_F.png
+# Runt
+  - typeSingle: HYBRID__7__JUMPSUIT_M
+    fileSingle: Resources/Armors/Hybrids/Runt/Jumpsuit_MH.gif
+  - typeSingle: HYBRID__7__JUMPSUIT_F
+    fileSingle: Resources/Armors/Hybrids/Runt/Jumpsuit_FH.gif
+# Tac Vest
+  - typeSingle: HYBRID__7__TAC_VEST_M
+    fileSingle: Resources/Armors/Soldiers/Tac/Tac_Vest_SS.png
+  - typeSingle: HYBRID__7__TAC_VEST_F
+    fileSingle: Resources/Armors/Peasants/Tac/Tac_Vest_PP.png
+# Advisor
+  - typeSingle: HYBRID__7__ADVISOR_M
+    fileSingle: Resources/Armors/Hybrids/Advisor/Advisor_Outfit_M.gif
+  - typeSingle: HYBRID__7__ADVISOR_F
+    fileSingle: Resources/Armors/Hybrids/Advisor/Advisor_Outfit_F.gif
+
+##### Gals #####
+# Nudes
+  - typeSingle: UBERGAL__2__M0_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M0_pir.gif
+  - typeSingle: UBERGAL__2__M1_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M1_pir.gif
+  - typeSingle: UBERGAL__2__M2_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M2_pir.gif
+  - typeSingle: UBERGAL__2__M3_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M3_pir.gif
+  - typeSingle: UBERGAL__2__M4_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M4_pir.gif
+  - typeSingle: UBERGAL__2__M5_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M5_pir.gif
+  - typeSingle: UBERGAL__2__M6_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M6_pir.gif
+  - typeSingle: UBERGAL__2__M7_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M7_pir.gif
+  - typeSingle: UBERGAL__2__M8_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M8_pir.gif
+  - typeSingle: UBERGAL__2__M9_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M9_pir.gif
+  - typeSingle: UBERGAL__2__M10_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M10_pir.gif
+  - typeSingle: UBERGAL__2__M11_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M11_pir.gif
+  - typeSingle: UBERGAL__2__M12_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M12_pir.gif
+  - typeSingle: UBERGAL__2__M13_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M13_pir.gif
+  - typeSingle: UBERGAL__2__M14_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M14_pir.gif
+  - typeSingle: UBERGAL__2__M15_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M15_pir.gif
+  - typeSingle: UBERGAL__2__M16_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M16_pir.gif
+  - typeSingle: UBERGAL__2__M17_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M17_pir.gif
+  - typeSingle: UBERGAL__2__M18_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M18_pir.gif
+  - typeSingle: UBERGAL__2__M19_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M19_pir.gif
+  - typeSingle: UBERGAL__2__M20_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M20_pir.gif
+  - typeSingle: UBERGAL__2__M21_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M21_pir.gif
+  - typeSingle: UBERGAL__2__M22_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M22_pir.gif
+  - typeSingle: UBERGAL__2__M23_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M23_pir.gif
+  - typeSingle: UBERGAL__2__M24_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M24_pir.gif
+  - typeSingle: UBERGAL__2__M25_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M25_pir.gif
+  - typeSingle: UBERGAL__2__M26_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M26_pir.gif
+  - typeSingle: UBERGAL__2__M27_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M27_pir.gif
+  - typeSingle: UBERGAL__2__M28_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M28_pir.gif
+  - typeSingle: UBERGAL__2__M29_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M29_pir.gif
+  - typeSingle: UBERGAL__2__M30_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M30_pir.gif
+  - typeSingle: UBERGAL__2__M31_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M31_pir.gif
+  - typeSingle: UBERGAL__2__M32_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M32_pir.gif
+  - typeSingle: UBERGAL__2__M33_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M33_pir.gif
+  - typeSingle: UBERGAL__2__M34_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M34_pir.gif
+  - typeSingle: UBERGAL__2__M35_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M35_pir.gif
+  - typeSingle: UBERGAL__2__M36_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M36_pir.gif
+  - typeSingle: UBERGAL__2__M37_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M37_pir.gif
+  - typeSingle: UBERGAL__2__M38_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M38_pir.gif
+  - typeSingle: UBERGAL__2__M39_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M39_pir.gif
+  - typeSingle: UBERGAL__2__M40_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M40_pir.gif
+  - typeSingle: UBERGAL__2__M41_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M41_pir.gif
+  - typeSingle: UBERGAL__2__M42_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M42_pir.gif
+  - typeSingle: UBERGAL__2__M43_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M43_pir.gif
+  - typeSingle: UBERGAL__2__M44_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M44_pir.gif
+  - typeSingle: UBERGAL__2__M45_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M45_pir.gif
+  - typeSingle: UBERGAL__2__M46_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M46_pir.gif
+  - typeSingle: UBERGAL__2__M47_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_M47_pir.gif
+  - typeSingle: UBERGAL__2__F0_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F0_pir.gif
+  - typeSingle: UBERGAL__2__F1_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F1_pir.gif
+  - typeSingle: UBERGAL__2__F2_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F2_pir.gif
+  - typeSingle: UBERGAL__2__F3_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F3_pir.gif
+  - typeSingle: UBERGAL__2__F4_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F4_pir.gif
+  - typeSingle: UBERGAL__2__F5_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F5_pir.gif
+  - typeSingle: UBERGAL__2__F6_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F6_pir.gif
+  - typeSingle: UBERGAL__2__F7_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F7_pir.gif
+  - typeSingle: UBERGAL__2__F8_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F8_pir.gif
+  - typeSingle: UBERGAL__2__F9_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F9_pir.gif
+  - typeSingle: UBERGAL__2__F10_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F10_pir.gif
+  - typeSingle: UBERGAL__2__F11_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F11_pir.gif
+  - typeSingle: UBERGAL__2__F12_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F12_pir.gif
+  - typeSingle: UBERGAL__2__F13_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F13_pir.gif
+  - typeSingle: UBERGAL__2__F14_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F14_pir.gif
+  - typeSingle: UBERGAL__2__F15_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F15_pir.gif
+  - typeSingle: UBERGAL__2__F16_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F16_pir.gif
+  - typeSingle: UBERGAL__2__F17_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F17_pir.gif
+  - typeSingle: UBERGAL__2__F18_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F18_pir.gif
+  - typeSingle: UBERGAL__2__F19_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F19_pir.gif
+  - typeSingle: UBERGAL__2__F20_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F20_pir.gif
+  - typeSingle: UBERGAL__2__F21_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F21_pir.gif
+  - typeSingle: UBERGAL__2__F22_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F22_pir.gif
+  - typeSingle: UBERGAL__2__F23_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F23_pir.gif
+  - typeSingle: UBERGAL__2__F24_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F24_pir.gif
+  - typeSingle: UBERGAL__2__F25_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F25_pir.gif
+  - typeSingle: UBERGAL__2__F26_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F26_pir.gif
+  - typeSingle: UBERGAL__2__F27_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F27_pir.gif
+  - typeSingle: UBERGAL__2__F28_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F28_pir.gif
+  - typeSingle: UBERGAL__2__F29_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F29_pir.gif
+  - typeSingle: UBERGAL__2__F30_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F30_pir.gif
+  - typeSingle: UBERGAL__2__F31_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F31_pir.gif
+  - typeSingle: UBERGAL__2__F32_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F32_pir.gif
+  - typeSingle: UBERGAL__2__F33_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F33_pir.gif
+  - typeSingle: UBERGAL__2__F34_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F34_pir.gif
+  - typeSingle: UBERGAL__2__F35_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F35_pir.gif
+  - typeSingle: UBERGAL__2__F36_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F36_pir.gif
+  - typeSingle: UBERGAL__2__F37_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F37_pir.gif
+  - typeSingle: UBERGAL__2__F38_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F38_pir.gif
+  - typeSingle: UBERGAL__2__F39_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F39_pir.gif
+  - typeSingle: UBERGAL__2__F40_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F40_pir.gif
+  - typeSingle: UBERGAL__2__F41_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F41_pir.gif
+  - typeSingle: UBERGAL__2__F42_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F42_pir.gif
+  - typeSingle: UBERGAL__2__F43_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F43_pir.gif
+  - typeSingle: UBERGAL__2__F44_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F44_pir.gif
+  - typeSingle: UBERGAL__2__F45_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F45_pir.gif
+  - typeSingle: UBERGAL__2__F46_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F46_pir.gif
+  - typeSingle: UBERGAL__2__F47_NUDE
+    fileSingle: Resources/Armors/Gals/Body/body500_F47_pir.gif
+# Heads
+  - typeSingle: UBERGAL__10__HEAD_M0
+    fileSingle: Resources/Armors/Gals/Heads/Head_M0_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M1
+    fileSingle: Resources/Armors/Gals/Heads/Head_M1_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M2
+    fileSingle: Resources/Armors/Gals/Heads/Head_M2_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M3
+    fileSingle: Resources/Armors/Gals/Heads/Head_M3_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M4
+    fileSingle: Resources/Armors/Gals/Heads/Head_M4_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M5
+    fileSingle: Resources/Armors/Gals/Heads/Head_M5_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M6
+    fileSingle: Resources/Armors/Gals/Heads/Head_M6_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M7
+    fileSingle: Resources/Armors/Gals/Heads/Head_M7_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M8
+    fileSingle: Resources/Armors/Gals/Heads/Head_M8_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M9
+    fileSingle: Resources/Armors/Gals/Heads/Head_M9_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M10
+    fileSingle: Resources/Armors/Gals/Heads/Head_M10_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M11
+    fileSingle: Resources/Armors/Gals/Heads/Head_M11_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M12
+    fileSingle: Resources/Armors/Gals/Heads/Head_M12_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M13
+    fileSingle: Resources/Armors/Gals/Heads/Head_M13_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M14
+    fileSingle: Resources/Armors/Gals/Heads/Head_M14_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M15
+    fileSingle: Resources/Armors/Gals/Heads/Head_M15_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M16
+    fileSingle: Resources/Armors/Gals/Heads/Head_M16_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M17
+    fileSingle: Resources/Armors/Gals/Heads/Head_M17_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M18
+    fileSingle: Resources/Armors/Gals/Heads/Head_M18_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M19
+    fileSingle: Resources/Armors/Gals/Heads/Head_M19_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M20
+    fileSingle: Resources/Armors/Gals/Heads/Head_M20_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M21
+    fileSingle: Resources/Armors/Gals/Heads/Head_M21_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M22
+    fileSingle: Resources/Armors/Gals/Heads/Head_M22_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M23
+    fileSingle: Resources/Armors/Gals/Heads/Head_M23_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M24
+    fileSingle: Resources/Armors/Gals/Heads/Head_M24_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M25
+    fileSingle: Resources/Armors/Gals/Heads/Head_M25_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M26
+    fileSingle: Resources/Armors/Gals/Heads/Head_M26_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M27
+    fileSingle: Resources/Armors/Gals/Heads/Head_M27_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M28
+    fileSingle: Resources/Armors/Gals/Heads/Head_M28_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M29
+    fileSingle: Resources/Armors/Gals/Heads/Head_M29_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M30
+    fileSingle: Resources/Armors/Gals/Heads/Head_M30_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M31
+    fileSingle: Resources/Armors/Gals/Heads/Head_M31_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M32
+    fileSingle: Resources/Armors/Gals/Heads/Head_M32_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M33
+    fileSingle: Resources/Armors/Gals/Heads/Head_M33_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M34
+    fileSingle: Resources/Armors/Gals/Heads/Head_M34_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M35
+    fileSingle: Resources/Armors/Gals/Heads/Head_M35_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M36
+    fileSingle: Resources/Armors/Gals/Heads/Head_M36_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M37
+    fileSingle: Resources/Armors/Gals/Heads/Head_M37_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M38
+    fileSingle: Resources/Armors/Gals/Heads/Head_M38_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M39
+    fileSingle: Resources/Armors/Gals/Heads/Head_M39_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M40
+    fileSingle: Resources/Armors/Gals/Heads/Head_M40_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M41
+    fileSingle: Resources/Armors/Gals/Heads/Head_M41_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M42
+    fileSingle: Resources/Armors/Gals/Heads/Head_M42_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M43
+    fileSingle: Resources/Armors/Gals/Heads/Head_M43_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M44
+    fileSingle: Resources/Armors/Gals/Heads/Head_M44_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M45
+    fileSingle: Resources/Armors/Gals/Heads/Head_M45_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M46
+    fileSingle: Resources/Armors/Gals/Heads/Head_M46_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_M47
+    fileSingle: Resources/Armors/Gals/Heads/Head_M47_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F0
+    fileSingle: Resources/Armors/Gals/Heads/Head_F0_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F1
+    fileSingle: Resources/Armors/Gals/Heads/Head_F1_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F2
+    fileSingle: Resources/Armors/Gals/Heads/Head_F2_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F3
+    fileSingle: Resources/Armors/Gals/Heads/Head_F3_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F4
+    fileSingle: Resources/Armors/Gals/Heads/Head_F4_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F5
+    fileSingle: Resources/Armors/Gals/Heads/Head_F5_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F6
+    fileSingle: Resources/Armors/Gals/Heads/Head_F6_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F7
+    fileSingle: Resources/Armors/Gals/Heads/Head_F7_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F8
+    fileSingle: Resources/Armors/Gals/Heads/Head_F8_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F9
+    fileSingle: Resources/Armors/Gals/Heads/Head_F9_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F10
+    fileSingle: Resources/Armors/Gals/Heads/Head_F10_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F11
+    fileSingle: Resources/Armors/Gals/Heads/Head_F11_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F12
+    fileSingle: Resources/Armors/Gals/Heads/Head_F12_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F13
+    fileSingle: Resources/Armors/Gals/Heads/Head_F13_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F14
+    fileSingle: Resources/Armors/Gals/Heads/Head_F14_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F15
+    fileSingle: Resources/Armors/Gals/Heads/Head_F15_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F16
+    fileSingle: Resources/Armors/Gals/Heads/Head_F16_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F17
+    fileSingle: Resources/Armors/Gals/Heads/Head_F17_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F18
+    fileSingle: Resources/Armors/Gals/Heads/Head_F18_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F19
+    fileSingle: Resources/Armors/Gals/Heads/Head_F19_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F20
+    fileSingle: Resources/Armors/Gals/Heads/Head_F20_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F21
+    fileSingle: Resources/Armors/Gals/Heads/Head_F21_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F22
+    fileSingle: Resources/Armors/Gals/Heads/Head_F22_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F23
+    fileSingle: Resources/Armors/Gals/Heads/Head_F23_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F24
+    fileSingle: Resources/Armors/Gals/Heads/Head_F24_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F25
+    fileSingle: Resources/Armors/Gals/Heads/Head_F25_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F26
+    fileSingle: Resources/Armors/Gals/Heads/Head_F26_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F27
+    fileSingle: Resources/Armors/Gals/Heads/Head_F27_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F28
+    fileSingle: Resources/Armors/Gals/Heads/Head_F28_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F29
+    fileSingle: Resources/Armors/Gals/Heads/Head_F29_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F30
+    fileSingle: Resources/Armors/Gals/Heads/Head_F30_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F31
+    fileSingle: Resources/Armors/Gals/Heads/Head_F31_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F32
+    fileSingle: Resources/Armors/Gals/Heads/Head_F32_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F33
+    fileSingle: Resources/Armors/Gals/Heads/Head_F33_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F34
+    fileSingle: Resources/Armors/Gals/Heads/Head_F34_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F35
+    fileSingle: Resources/Armors/Gals/Heads/Head_F35_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F36
+    fileSingle: Resources/Armors/Gals/Heads/Head_F36_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F37
+    fileSingle: Resources/Armors/Gals/Heads/Head_F37_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F38
+    fileSingle: Resources/Armors/Gals/Heads/Head_F38_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F39
+    fileSingle: Resources/Armors/Gals/Heads/Head_F39_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F40
+    fileSingle: Resources/Armors/Gals/Heads/Head_F40_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F41
+    fileSingle: Resources/Armors/Gals/Heads/Head_F41_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F42
+    fileSingle: Resources/Armors/Gals/Heads/Head_F42_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F43
+    fileSingle: Resources/Armors/Gals/Heads/Head_F43_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F44
+    fileSingle: Resources/Armors/Gals/Heads/Head_F44_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F45
+    fileSingle: Resources/Armors/Gals/Heads/Head_F45_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F46
+    fileSingle: Resources/Armors/Gals/Heads/Head_F46_pir.gif
+  - typeSingle: UBERGAL__10__HEAD_F47
+    fileSingle: Resources/Armors/Gals/Heads/Head_F47_pir.gif
+# Hair
+  - typeSingle: UBERGAL__13__HAIR_M0
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M0_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M1
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M1_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M2
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M2_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M3
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M3_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M4
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M4_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M5
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M5_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M6
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M6_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M7
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M7_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M8
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M8_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M9
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M9_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M10
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M10_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M11
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M11_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M12
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M12_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M13
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M13_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M14
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M14_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M15
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M15_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M16
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M16_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M17
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M17_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M18
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M18_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M19
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M19_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M20
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M20_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M21
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M21_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M22
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M22_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M23
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M23_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M24
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M24_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M25
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M25_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M26
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M26_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M27
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M27_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M28
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M28_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M29
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M29_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M30
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M30_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M31
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M31_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M32
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M32_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M33
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M33_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M34
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M34_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M35
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M35_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M36
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M36_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M37
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M37_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M38
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M38_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M39
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M39_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M40
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M40_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M41
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M41_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M42
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M42_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M43
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M43_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M44
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M44_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M45
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M45_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M46
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M46_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_M47
+    fileSingle: Resources/Armors/Gals/Hair/Hair_M47_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F0
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F0_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F1
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F1_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F2
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F2_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F3
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F3_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F4
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F4_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F5
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F5_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F6
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F6_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F7
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F7_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F8
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F8_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F9
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F9_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F10
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F10_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F11
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F11_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F12
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F12_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F13
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F13_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F14
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F14_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F15
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F15_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F16
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F16_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F17
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F17_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F18
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F18_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F19
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F19_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F20
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F20_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F21
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F21_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F22
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F22_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F23
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F23_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F24
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F24_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F25
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F25_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F26
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F26_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F27
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F27_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F28
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F28_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F29
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F29_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F30
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F30_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F31
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F31_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F32
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F32_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F33
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F33_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F34
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F34_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F35
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F35_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F36
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F36_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F37
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F37_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F38
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F38_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F39
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F39_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F40
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F40_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F41
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F41_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F42
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F42_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F43
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F43_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F44
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F44_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F45
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F45_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F46
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F46_pir.gif
+  - typeSingle: UBERGAL__13__HAIR_F47
+    fileSingle: Resources/Armors/Gals/Hair/Hair_F47_pir.gif
+# Bikinis
+  - typeSingle: UBERGAL__3__BIKINI_M0
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M0.png
+  - typeSingle: UBERGAL__3__BIKINI_M1
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M1.png
+  - typeSingle: UBERGAL__3__BIKINI_M2
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M2.png
+  - typeSingle: UBERGAL__3__BIKINI_M3
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M3.png
+  - typeSingle: UBERGAL__3__BIKINI_M4
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M4.png
+  - typeSingle: UBERGAL__3__BIKINI_M5
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M5.png
+  - typeSingle: UBERGAL__3__BIKINI_M6
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M6.png
+  - typeSingle: UBERGAL__3__BIKINI_M7
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M7.png
+  - typeSingle: UBERGAL__3__BIKINI_M8
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M8.png
+  - typeSingle: UBERGAL__3__BIKINI_M9
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M9.png
+  - typeSingle: UBERGAL__3__BIKINI_M10
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M10.png
+  - typeSingle: UBERGAL__3__BIKINI_M11
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M11.png
+  - typeSingle: UBERGAL__3__BIKINI_M12
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M12.png
+  - typeSingle: UBERGAL__3__BIKINI_M13
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M13.png
+  - typeSingle: UBERGAL__3__BIKINI_M14
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M14.png
+  - typeSingle: UBERGAL__3__BIKINI_M15
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M15.png
+  - typeSingle: UBERGAL__3__BIKINI_M16
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M16.png
+  - typeSingle: UBERGAL__3__BIKINI_M17
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M17.png
+  - typeSingle: UBERGAL__3__BIKINI_M18
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M18.png
+  - typeSingle: UBERGAL__3__BIKINI_M19
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M19.png
+  - typeSingle: UBERGAL__3__BIKINI_M20
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M20.png
+  - typeSingle: UBERGAL__3__BIKINI_M21
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M21.png
+  - typeSingle: UBERGAL__3__BIKINI_M22
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M22.png
+  - typeSingle: UBERGAL__3__BIKINI_M23
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M23.png
+  - typeSingle: UBERGAL__3__BIKINI_M24
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M24.png
+  - typeSingle: UBERGAL__3__BIKINI_M25
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M25.png
+  - typeSingle: UBERGAL__3__BIKINI_M26
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M26.png
+  - typeSingle: UBERGAL__3__BIKINI_M27
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M27.png
+  - typeSingle: UBERGAL__3__BIKINI_M28
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M28.png
+  - typeSingle: UBERGAL__3__BIKINI_M29
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M29.png
+  - typeSingle: UBERGAL__3__BIKINI_M30
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M30.png
+  - typeSingle: UBERGAL__3__BIKINI_M31
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M31.png
+  - typeSingle: UBERGAL__3__BIKINI_M32
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M32.png
+  - typeSingle: UBERGAL__3__BIKINI_M33
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M33.png
+  - typeSingle: UBERGAL__3__BIKINI_M34
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M34.png
+  - typeSingle: UBERGAL__3__BIKINI_M35
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M35.png
+  - typeSingle: UBERGAL__3__BIKINI_M36
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M36.png
+  - typeSingle: UBERGAL__3__BIKINI_M37
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M37.png
+  - typeSingle: UBERGAL__3__BIKINI_M38
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M38.png
+  - typeSingle: UBERGAL__3__BIKINI_M39
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M39.png
+  - typeSingle: UBERGAL__3__BIKINI_M40
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M40.png
+  - typeSingle: UBERGAL__3__BIKINI_M41
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M41.png
+  - typeSingle: UBERGAL__3__BIKINI_M42
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M42.png
+  - typeSingle: UBERGAL__3__BIKINI_M43
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M43.png
+  - typeSingle: UBERGAL__3__BIKINI_M44
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M44.png
+  - typeSingle: UBERGAL__3__BIKINI_M45
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M45.png
+  - typeSingle: UBERGAL__3__BIKINI_M46
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M46.png
+  - typeSingle: UBERGAL__3__BIKINI_M47
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_M47.png
+  - typeSingle: UBERGAL__3__BIKINI_F0
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F0.png
+  - typeSingle: UBERGAL__3__BIKINI_F1
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F1.png
+  - typeSingle: UBERGAL__3__BIKINI_F2
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F2.png
+  - typeSingle: UBERGAL__3__BIKINI_F3
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F3.png
+  - typeSingle: UBERGAL__3__BIKINI_F4
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F4.png
+  - typeSingle: UBERGAL__3__BIKINI_F5
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F5.png
+  - typeSingle: UBERGAL__3__BIKINI_F6
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F6.png
+  - typeSingle: UBERGAL__3__BIKINI_F7
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F7.png
+  - typeSingle: UBERGAL__3__BIKINI_F8
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F8.png
+  - typeSingle: UBERGAL__3__BIKINI_F9
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F9.png
+  - typeSingle: UBERGAL__3__BIKINI_F10
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F10.png
+  - typeSingle: UBERGAL__3__BIKINI_F11
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F11.png
+  - typeSingle: UBERGAL__3__BIKINI_F12
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F12.png
+  - typeSingle: UBERGAL__3__BIKINI_F13
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F13.png
+  - typeSingle: UBERGAL__3__BIKINI_F14
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F14.png
+  - typeSingle: UBERGAL__3__BIKINI_F15
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F15.png
+  - typeSingle: UBERGAL__3__BIKINI_F16
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F16.png
+  - typeSingle: UBERGAL__3__BIKINI_F17
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F17.png
+  - typeSingle: UBERGAL__3__BIKINI_F18
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F18.png
+  - typeSingle: UBERGAL__3__BIKINI_F19
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F19.png
+  - typeSingle: UBERGAL__3__BIKINI_F20
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F20.png
+  - typeSingle: UBERGAL__3__BIKINI_F21
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F21.png
+  - typeSingle: UBERGAL__3__BIKINI_F22
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F22.png
+  - typeSingle: UBERGAL__3__BIKINI_F23
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F23.png
+  - typeSingle: UBERGAL__3__BIKINI_F24
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F24.png
+  - typeSingle: UBERGAL__3__BIKINI_F25
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F25.png
+  - typeSingle: UBERGAL__3__BIKINI_F26
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F26.png
+  - typeSingle: UBERGAL__3__BIKINI_F27
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F27.png
+  - typeSingle: UBERGAL__3__BIKINI_F28
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F28.png
+  - typeSingle: UBERGAL__3__BIKINI_F29
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F29.png
+  - typeSingle: UBERGAL__3__BIKINI_F30
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F30.png
+  - typeSingle: UBERGAL__3__BIKINI_F31
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F31.png
+  - typeSingle: UBERGAL__3__BIKINI_F32
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F32.png
+  - typeSingle: UBERGAL__3__BIKINI_F33
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F33.png
+  - typeSingle: UBERGAL__3__BIKINI_F34
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F34.png
+  - typeSingle: UBERGAL__3__BIKINI_F35
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F35.png
+  - typeSingle: UBERGAL__3__BIKINI_F36
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F36.png
+  - typeSingle: UBERGAL__3__BIKINI_F37
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F37.png
+  - typeSingle: UBERGAL__3__BIKINI_F38
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F38.png
+  - typeSingle: UBERGAL__3__BIKINI_F39
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F39.png
+  - typeSingle: UBERGAL__3__BIKINI_F40
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F40.png
+  - typeSingle: UBERGAL__3__BIKINI_F41
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F41.png
+  - typeSingle: UBERGAL__3__BIKINI_F42
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F42.png
+  - typeSingle: UBERGAL__3__BIKINI_F43
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F43.png
+  - typeSingle: UBERGAL__3__BIKINI_F44
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F44.png
+  - typeSingle: UBERGAL__3__BIKINI_F45
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F45.png
+  - typeSingle: UBERGAL__3__BIKINI_F46
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F46.png
+  - typeSingle: UBERGAL__3__BIKINI_F47
+    fileSingle: Resources/Armors/Gals/Bikini/Bikini_F47.png
+#Swimsuit
+  - typeSingle: UBERGAL__3__B00_1
+    fileSingle: Resources/Armors/Gals/Swim/B00_1.png
+  - typeSingle: UBERGAL__3__B00_2
+    fileSingle: Resources/Armors/Gals/Swim/B00_2.png
+  - typeSingle: UBERGAL__3__B00_3
+    fileSingle: Resources/Armors/Gals/Swim/B00_3.png
+  - typeSingle: UBERGAL__3__B00_4
+    fileSingle: Resources/Armors/Gals/Swim/B00_4.png
+  - typeSingle: UBERGAL__3__B00_5
+    fileSingle: Resources/Armors/Gals/Swim/B00_5.png
+  - typeSingle: UBERGAL__3__B00_6
+    fileSingle: Resources/Armors/Gals/Swim/B00_6.png
+  - typeSingle: UBERGAL__3__B00_7
+    fileSingle: Resources/Armors/Gals/Swim/B00_7.png
+  - typeSingle: UBERGAL__3__B00_8
+    fileSingle: Resources/Armors/Gals/Swim/B00_8.png
+  - typeSingle: UBERGAL__3__B00_9
+    fileSingle: Resources/Armors/Gals/Swim/B00_9.png
+  - typeSingle: UBERGAL__3__B00_10
+    fileSingle: Resources/Armors/Gals/Swim/B00_10.png
+  - typeSingle: UBERGAL__3__B00_11
+    fileSingle: Resources/Armors/Gals/Swim/B00_11.png
+  - typeSingle: UBERGAL__3__B00_12
+    fileSingle: Resources/Armors/Gals/Swim/B00_12.png
+  - typeSingle: UBERGAL__3__B00_13
+    fileSingle: Resources/Armors/Gals/Swim/B00_13.png
+  - typeSingle: UBERGAL__3__B00_14
+    fileSingle: Resources/Armors/Gals/Swim/B00_14.png
+  - typeSingle: UBERGAL__3__B00_15
+    fileSingle: Resources/Armors/Gals/Swim/B00_15.png
+  - typeSingle: UBERGAL__6__PN0_1
+    fileSingle: Resources/Armors/Gals/Swim/PN0_1.png
+  - typeSingle: UBERGAL__6__PN0_2
+    fileSingle: Resources/Armors/Gals/Swim/PN0_2.png
+  - typeSingle: UBERGAL__6__PN0_3
+    fileSingle: Resources/Armors/Gals/Swim/PN0_3.png
+  - typeSingle: UBERGAL__6__PN0_4
+    fileSingle: Resources/Armors/Gals/Swim/PN0_4.png
+  - typeSingle: UBERGAL__6__PN0_5
+    fileSingle: Resources/Armors/Gals/Swim/PN0_5.png
+  - typeSingle: UBERGAL__6__PN0_6
+    fileSingle: Resources/Armors/Gals/Swim/PN0_6.png
+  - typeSingle: UBERGAL__6__PN0_7
+    fileSingle: Resources/Armors/Gals/Swim/PN0_7.png
+  - typeSingle: UBERGAL__6__PN0_8
+    fileSingle: Resources/Armors/Gals/Swim/PN0_8.png
+  - typeSingle: UBERGAL__6__PN0_9
+    fileSingle: Resources/Armors/Gals/Swim/PN0_9.png
+  - typeSingle: UBERGAL__6__PN0_10
+    fileSingle: Resources/Armors/Gals/Swim/PN0_10.png
+  - typeSingle: UBERGAL__6__PN0_11
+    fileSingle: Resources/Armors/Gals/Swim/PN0_11.png
+  - typeSingle: UBERGAL__6__PN0_12
+    fileSingle: Resources/Armors/Gals/Swim/PN0_12.png
+  - typeSingle: UBERGAL__6__PN0_13
+    fileSingle: Resources/Armors/Gals/Swim/PN0_13.png
+  - typeSingle: UBERGAL__6__PN0_14
+    fileSingle: Resources/Armors/Gals/Swim/PN0_14.png
+  - typeSingle: UBERGAL__6__PN0_15
+    fileSingle: Resources/Armors/Gals/Swim/PN0_15.png
+ #Sports   
+  - typeSingle: UBERGAL__3__G_PANT_00
+    fileSingle: Resources/Armors/Gals/Sport/pant00.png
+  - typeSingle: UBERGAL__3__G_PANT_01
+    fileSingle: Resources/Armors/Gals/Sport/pant01.png
+  - typeSingle: UBERGAL__3__G_PANT_02
+    fileSingle: Resources/Armors/Gals/Sport/pant02.png
+  - typeSingle: UBERGAL__3__G_PANT_03
+    fileSingle: Resources/Armors/Gals/Sport/pant03.png
+  - typeSingle: UBERGAL__3__G_PANT_04
+    fileSingle: Resources/Armors/Gals/Sport/pant04.png
+  - typeSingle: UBERGAL__3__G_PANT_05
+    fileSingle: Resources/Armors/Gals/Sport/pant05.png
+  - typeSingle: UBERGAL__3__G_PANT_06
+    fileSingle: Resources/Armors/Gals/Sport/pant06.png
+  - typeSingle: UBERGAL__3__G_PANT_07
+    fileSingle: Resources/Armors/Gals/Sport/pant07.png
+  - typeSingle: UBERGAL__3__G_PANT_08
+    fileSingle: Resources/Armors/Gals/Sport/pant08.png
+  - typeSingle: UBERGAL__3__G_PANT_09
+    fileSingle: Resources/Armors/Gals/Sport/pant09.png
+  - typeSingle: UBERGAL__5__G_TOP_00
+    fileSingle: Resources/Armors/Gals/Sport/top00.png
+  - typeSingle: UBERGAL__5__G_TOP_01
+    fileSingle: Resources/Armors/Gals/Sport/top01.png
+  - typeSingle: UBERGAL__5__G_TOP_02
+    fileSingle: Resources/Armors/Gals/Sport/top02.png
+  - typeSingle: UBERGAL__5__G_TOP_03
+    fileSingle: Resources/Armors/Gals/Sport/top03.png
+  - typeSingle: UBERGAL__5__G_TOP_04
+    fileSingle: Resources/Armors/Gals/Sport/top04.png
+  - typeSingle: UBERGAL__5__G_TOP_05
+    fileSingle: Resources/Armors/Gals/Sport/top05.png
+  - typeSingle: UBERGAL__5__G_TOP_06
+    fileSingle: Resources/Armors/Gals/Sport/top06.png
+  - typeSingle: UBERGAL__5__G_TOP_07
+    fileSingle: Resources/Armors/Gals/Sport/top07.png
+  - typeSingle: UBERGAL__5__G_TOP_08
+    fileSingle: Resources/Armors/Gals/Sport/top08.png
+  - typeSingle: UBERGAL__5__G_TOP_09
+    fileSingle: Resources/Armors/Gals/Sport/top09.png
+  - typeSingle: UBERGAL__7__G_FOOT_00
+    fileSingle: Resources/Armors/Gals/Sport/foot00.png
+  - typeSingle: UBERGAL__7__G_FOOT_01
+    fileSingle: Resources/Armors/Gals/Sport/foot01.png
+  - typeSingle: UBERGAL__7__G_FOOT_02
+    fileSingle: Resources/Armors/Gals/Sport/foot02.png
+  - typeSingle: UBERGAL__7__G_FOOT_03
+    fileSingle: Resources/Armors/Gals/Sport/foot03.png
+  - typeSingle: UBERGAL__7__G_FOOT_04
+    fileSingle: Resources/Armors/Gals/Sport/foot04.png
+  - typeSingle: UBERGAL__7__G_FOOT_05
+    fileSingle: Resources/Armors/Gals/Sport/foot05.png
+  - typeSingle: UBERGAL__7__G_FOOT_06
+    fileSingle: Resources/Armors/Gals/Sport/foot06.png
+  - typeSingle: UBERGAL__7__G_FOOT_07
+    fileSingle: Resources/Armors/Gals/Sport/foot07.png
+  - typeSingle: UBERGAL__7__G_FOOT_08
+    fileSingle: Resources/Armors/Gals/Sport/foot08.png
+  - typeSingle: UBERGAL__7__G_FOOT_09
+    fileSingle: Resources/Armors/Gals/Sport/foot09.png
+ # Castaway
+  - typeSingle: UBERGAL__4__CASTAWAY_OUTFIT_LIGHT
+    fileSingle: Resources/Armors/Gals/Castaway/Castaway_light.gif
+  - typeSingle: UBERGAL__4__CASTAWAY_OUTFIT_DARK
+    fileSingle: Resources/Armors/Gals/Castaway/Castaway_dark.gif
+ # Rags
+  - typeSingle: UBERGAL__9__RAGS
+    fileSingle: Resources/Armors/Gals/Rags/Rags.gif
+  - typeSingle: UBERGAL__1__RAGS_BACK
+    fileSingle: Resources/Armors/Gals/Rags/Rags_Back.gif
+# Tribal/Amazon
+  - typeSingle: UBERGAL__3__TRIBAL_TOP
+    fileSingle: Resources/Armors/Gals/Tribal/Tribal_Top.gif
+  - typeSingle: UBERGAL__5__TRIBAL_STRAP_RL
+    fileSingle: Resources/Armors/Gals/Tribal/Tribal_Strap_RL.gif
+  - typeSingle: UBERGAL__7__TRIBAL_LOINCLOTH
+    fileSingle: Resources/Armors/Gals/Tribal/Tribal_Loincloth.gif
+  - typeSingle: UBERGAL__3__AMAZON_TOP
+    fileSingle: Resources/Armors/Gals/Tribal/Amazon_Top.gif
+  - typeSingle: UBERGAL__6__AMAZON_ARMOR
+    fileSingle: Resources/Armors/Gals/Tribal/Amazon_Armor.gif
+  - typeSingle: UBERGAL__9__AMAZON_SASH
+    fileSingle: Resources/Armors/Gals/Tribal/Amazon_Sash.gif
+# Furs
+  - typeSingle: UBERGAL__7__FUR_OUTFIT
+    fileSingle: Resources/Armors/Gals/Furs/Fur_Outfit.png
+  - typeSingle: UBERGAL__14__FUR_HAT_41
+    fileSingle: Resources/Armors/Gals/Furs/Fur_Outfit_Hat_41.gif
+  - typeSingle: UBERGAL__14__FUR_HAT_42
+    fileSingle: Resources/Armors/Gals/Furs/Fur_Outfit_Hat_42.gif
+  - typeSingle: UBERGAL__14__FUR_HAT_43
+    fileSingle: Resources/Armors/Gals/Furs/Fur_Outfit_Hat_43.gif
+  - typeSingle: UBERGAL__14__FUR_HAT_44
+    fileSingle: Resources/Armors/Gals/Furs/Fur_Outfit_Hat_44.gif
+# Barbarian/Savage
+  - typeSingle: UBERGAL__7__BARBARIAN_ARMOR_MAIN
+    fileSingle: Resources/Armors/Gals/Barbarian/Barbarian_Armor_Main.gif
+  - typeSingle: UBERGAL__8__BARBARIAN_BREASTPLATE
+    fileSingle: Resources/Armors/Gals/Barbarian/Barbarian_Breastplate.gif
+  - typeSingle: UBERGAL__15__ROUND_SHIELD
+    fileSingle: Resources/Armors/Gals/Barbarian/Round_Shield.gif
+  - typeSingle: UBERGAL__5__SAVAGE_HARNESS
+    fileSingle: Resources/Armors/Gals/Barbarian/Savage_Harness.gif
+  - typeSingle: UBERGAL__11__SAVAGE_MASK
+    fileSingle: Resources/Armors/Gals/Barbarian/Savage_Mask.gif
+# Scale Mail
+  - typeSingle: UBERGAL__8__SCALE_MAIL
+    fileSingle: Resources/Armors/Gals/Scale/Scale_Mail.gif
+  - typeSingle: UBERGAL__7__SCALE_EXTRAS
+    fileSingle: Resources/Armors/Gals/Scale/Scale_Extras.gif
+  - typeSingle: UBERGAL__11__SCALE_COLLAR
+    fileSingle: Resources/Armors/Gals/Scale/Scale_Collar.gif
+# Chainmail
+  - typeSingle: UBERGAL__7__CHAINMAIL
+    fileSingle: Resources/Armors/Gals/Chainmail/Chainmail.gif
+  - typeSingle: UBERGAL__14__CHAINMAIL_COIF
+    fileSingle: Resources/Armors/Gals/Chainmail/Chainmail_Coif.gif
+  - typeSingle: UBERGAL__14__CHAINMAIL_HELMET
+    fileSingle: Resources/Armors/Gals/Chainmail/Chainmail_Helmet.gif
+  - typeSingle: UBERGAL__14__VIKING_HELMET
+    fileSingle: Resources/Armors/Gals/Chainmail/Viking_Helmet.gif
+  - typeSingle: UBERGAL__15__GOTHIC_SHIELD
+    fileSingle: Resources/Armors/Gals/Chainmail/Gothic_Shield.gif
+# Plate Mail
+  - typeSingle: UBERGAL__7__PLATEMAIL
+    fileSingle: Resources/Armors/Gals/Platemail/Platemail.gif
+  - typeSingle: UBERGAL__11__PLATEMAIL_MASK
+    fileSingle: Resources/Armors/Gals/Platemail/Platemail_Mask.gif
+  - typeSingle: UBERGAL__14__PLATEMAIL_HELMET
+    fileSingle: Resources/Armors/Gals/Platemail/Platemail_Helmet.gif
+  - typeSingle: UBERGAL__15__TOWER_SHIELD
+    fileSingle: Resources/Armors/Gals/Platemail/Tower_Shield.gif
+# Sailor Uniform
+  - typeSingle: UBERGAL__7__SAILOR_OUTFIT
+    fileSingle: Resources/Armors/Gals/Sailor_Uniform/Sailor_outfit.png
+  - typeSingle: UBERGAL__14__SAILOR_OUTFIT_HAT
+    fileSingle: Resources/Armors/Gals/Sailor_Uniform/Sailor_outfit_hat.png
+# Pirate Outfit
+  - typeSingle: UBERGAL__7__PIRATE_MAIN_BEIGE
+    fileSingle: Resources/Armors/Gals/Pirate/Pirate_Main_Beige.gif
+  - typeSingle: UBERGAL__7__PIRATE_MAIN_BLACK
+    fileSingle: Resources/Armors/Gals/Pirate/Pirate_Main_Black.gif
+  - typeSingle: UBERGAL__7__PIRATE_MAIN_BLACKWHITE
+    fileSingle: Resources/Armors/Gals/Pirate/Pirate_Main_Blackwhite.gif
+  - typeSingle: UBERGAL__7__PIRATE_MAIN_BROWN
+    fileSingle: Resources/Armors/Gals/Pirate/Pirate_Main_Brown.gif
+  - typeSingle: UBERGAL__7__PIRATE_MAIN_LEATHER
+    fileSingle: Resources/Armors/Gals/Pirate/Pirate_Main_Leather.gif
+  - typeSingle: UBERGAL__7__PIRATE_MAIN_NAVY
+    fileSingle: Resources/Armors/Gals/Pirate/Pirate_Main_Navy.gif
+  - typeSingle: UBERGAL__7__PIRATE_MAIN_RED
+    fileSingle: Resources/Armors/Gals/Pirate/Pirate_Main_Red.gif
+  - typeSingle: UBERGAL__7__PIRATE_MAIN_WHITE
+    fileSingle: Resources/Armors/Gals/Pirate/Pirate_Main_White.gif
+  - typeSingle: UBERGAL__8__PIRATE_SHIRT_2
+    fileSingle: Resources/Armors/Gals/Pirate/Pirate_Shirt_2.gif
+  - typeSingle: UBERGAL__9__PIRATE_SHIRT
+    fileSingle: Resources/Armors/Gals/Pirate/Pirate_Shirt.gif
+  - typeSingle: UBERGAL__9__PIRATE_SHIRT_OPEN
+    fileSingle: Resources/Armors/Gals/Pirate/Pirate_Shirt_Open.gif
+  - typeSingle: UBERGAL__14__PIRATE_HAT_44
+    fileSingle: Resources/Armors/Gals/Pirate/Pirate_Hat_44.gif
+  - typeSingle: UBERGAL__14__PIRATE_HAT_43
+    fileSingle: Resources/Armors/Gals/Pirate/Pirate_Hat_43.gif
+# Blackhat Outfit
+  - typeSingle: UBERGAL__7__ROBBER_OUTFIT
+    fileSingle: Resources/Armors/Gals/Blackhat/Robber_Outfit.gif
+  - typeSingle: UBERGAL__1__ROBBER_HAT_BACK
+    fileSingle: Resources/Armors/Gals/Blackhat/Robber_Hat_Back.gif
+  - typeSingle: UBERGAL__14__ROBBER_HAT_FRONT
+    fileSingle: Resources/Armors/Gals/Blackhat/Robber_Hat_Front.gif
+# Swashbuckler
+  - typeSingle: UBERGAL__3__SWASH_BRA_RED
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Swash_Bra_Red.gif
+  - typeSingle: UBERGAL__3__SWASH_BRA_AQUA
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Swash_Bra_Aqua.gif
+  - typeSingle: UBERGAL__3__SWASH_BRA_GREEN
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Swash_Bra_Green.gif
+  - typeSingle: UBERGAL__3__SWASH_BRA_BLUE
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Swash_Bra_Blue.gif
+  - typeSingle: UBERGAL__3__SWASH_BRA_NAVY
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Swash_Bra_Navy.gif
+  - typeSingle: UBERGAL__3__SWASH_BRA_PURPLE
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Swash_Bra_Purple.gif
+  - typeSingle: UBERGAL__4__SWASH_SHORTS_NONE
+    fileSingle: Resources/Armors/Gals/Misc/Swash_Belt.gif
+  - typeSingle: UBERGAL__4__SWASH_SHORTS_RED
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Swash_Shorts_Red.gif
+  - typeSingle: UBERGAL__4__SWASH_SHORTS_AQUA
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Swash_Shorts_Aqua.gif
+  - typeSingle: UBERGAL__4__SWASH_SHORTS_GREEN
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Swash_Shorts_Green.gif
+  - typeSingle: UBERGAL__4__SWASH_SHORTS_BLUE
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Swash_Shorts_Blue.gif
+  - typeSingle: UBERGAL__4__SWASH_SHORTS_NAVY
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Swash_Shorts_Navy.gif
+  - typeSingle: UBERGAL__4__SWASH_SHORTS_PURPLE
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Swash_Shorts_Purple.gif
+  - typeSingle: UBERGAL__11__CLOTHMASK_RED
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Clothmask_Red.gif
+  - typeSingle: UBERGAL__11__CLOTHMASK_AQUA
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Clothmask_Aqua.gif
+  - typeSingle: UBERGAL__11__CLOTHMASK_GREEN
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Clothmask_Green.gif
+  - typeSingle: UBERGAL__11__CLOTHMASK_BLUE
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Clothmask_Blue.gif
+  - typeSingle: UBERGAL__11__CLOTHMASK_NAVY
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Clothmask_Navy.gif
+  - typeSingle: UBERGAL__12__BANDANA_RED
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Bandana_Red.gif
+  - typeSingle: UBERGAL__12__BANDANA_AQUA
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Bandana_Aqua.gif
+  - typeSingle: UBERGAL__12__BANDANA_GREEN
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Bandana_Green.gif
+  - typeSingle: UBERGAL__12__BANDANA_NAVY
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Bandana_Navy.gif
+  - typeSingle: UBERGAL__12__BANDANA_PURPLE
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Bandana_Purple.gif
+  - typeSingle: UBERGAL__14__HEADSCARF_RED
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Headscarf_Red.gif
+  - typeSingle: UBERGAL__14__HEADSCARF_AQUA
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Headscarf_Aqua.gif
+  - typeSingle: UBERGAL__14__HEADSCARF_GREEN
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Headscarf_Green.gif
+  - typeSingle: UBERGAL__14__HEADSCARF_BLUE
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Headscarf_Blue.gif
+  - typeSingle: UBERGAL__14__HEADSCARF_NAVY
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Headscarf_Navy.gif
+  - typeSingle: UBERGAL__14__HAIRFLOWER_RED
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Hairflower_Red.gif
+  - typeSingle: UBERGAL__14__HAIRFLOWER_AQUA
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Hairflower_Aqua.gif
+  - typeSingle: UBERGAL__14__HAIRFLOWER_2_AQUA
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Hairflower_2_Aqua.gif
+  - typeSingle: UBERGAL__14__HAIRFLOWER_PURPLE
+    fileSingle: Resources/Armors/Gals/Swashbuckler/Hairflower_Purple.gif
+# Ganger/Adventurer
+  - typeSingle: UBERGAL__4__GANGER_SHORTS
+    fileSingle: Resources/Armors/Gals/Adventurer/Ganger_Outfit_Shorts.gif
+  - typeSingle: UBERGAL__5__GANGER_TOP
+    fileSingle: Resources/Armors/Gals/Adventurer/Ganger_Outfit_Top.gif
+  - typeSingle: UBERGAL__7__SCOUT_MAIN
+    fileSingle: Resources/Armors/Gals/Adventurer/Scout_Outfit_Main.gif
+  - typeSingle: UBERGAL__7__ADVENTURER_MAIN
+    fileSingle: Resources/Armors/Gals/Adventurer/Adventurer_Outfit_Main.gif
+  - typeSingle: UBERGAL__7__GANGER_MAIN
+    fileSingle: Resources/Armors/Gals/Adventurer/Ganger_Outfit_Main.png
+  - typeSingle: UBERGAL__7__GUNSLINGER_MAIN
+    fileSingle: Resources/Armors/Gals/Adventurer/Gunslinger_Outfit_Main.gif
+  - typeSingle: UBERGAL__7__BANDIT_MAIN
+    fileSingle: Resources/Armors/Gals/Adventurer/Bandit_Outfit_Main.gif
+  - typeSingle: UBERGAL__9__ADVENTURER_BELT
+    fileSingle: Resources/Armors/Gals/Misc/Adventurer_Belt.gif
+  - typeSingle: UBERGAL__8__GANGER_JACKET
+    fileSingle: Resources/Armors/Gals/Adventurer/Ganger_Outfit_Jacket.png
+  - typeSingle: UBERGAL__8__FORCE_VEST
+    fileSingle: Resources/Armors/Gals/Adventurer/Force_Vest.png
+  - typeSingle: UBERGAL__8__GRAV_VEST
+    fileSingle: Resources/Armors/Gals/Adventurer/Grav_Vest.gif
+# Runt Outfit
+  - typeSingle: UBERGAL__7__RUNT_OUTFIT
+    fileSingle: Resources/Armors/Gals/Runt/Runt_Outfit.png
+# Brainer Outfit
+  - typeSingle: UBERGAL__8__BRAINER_COAT
+    fileSingle: Resources/Armors/Gals/Brainer/Brainer_Coat.gif
+  - typeSingle: UBERGAL__1__BRAINER_COAT_BACK
+    fileSingle: Resources/Armors/Gals/Brainer/Brainer_Coat_Back.gif
+  - typeSingle: UBERGAL__5__BRAINER_BRA
+    fileSingle: Resources/Armors/Gals/Brainer/Brainer_Bra.gif
+  - typeSingle: UBERGAL__9__BRAINER_WRISTCOMP
+    fileSingle: Resources/Armors/Gals/Brainer/Brainer_Wristcomp.gif
+  - typeSingle: UBERGAL__12__BRAINER_GLASSES
+    fileSingle: Resources/Armors/Gals/Brainer/Brainer_Glasses.gif
+  - typeSingle: UBERGAL__14__BRAINER_SNORKEL
+    fileSingle: Resources/Armors/Gals/Brainer/Brainer_Snorkel.gif
+# Chiller Outfit
+  - typeSingle: UBERGAL__1__CHILLER_BACK
+    fileSingle: Resources/Armors/Gals/Chiller/Chiller_Backpack.gif
+  - typeSingle: UBERGAL__9__CHILLER_BELTS
+    fileSingle: Resources/Armors/Gals/Chiller/Chiller_Belts.gif
+  - typeSingle: UBERGAL__12__CHILLER_MASK
+    fileSingle: Resources/Armors/Gals/Chiller/Chiller_Mask.gif
+# Nurse
+  - typeSingle: UBERGAL__3__NURSE_OUTFIT_LIGHT
+    fileSingle: Resources/Armors/Gals/Nurse/Nurse_Outfit_Light.gif
+  - typeSingle: UBERGAL__3__NURSE_OUTFIT_DARK
+    fileSingle: Resources/Armors/Gals/Nurse/Nurse_Outfit_Dark.gif
+  - typeSingle: UBERGAL__14__NURSE_HAT_41
+    fileSingle: Resources/Armors/Gals/Nurse/Nurse_Hat_41.gif
+  - typeSingle: UBERGAL__14__NURSE_HAT_42
+    fileSingle: Resources/Armors/Gals/Nurse/Nurse_Hat_42.gif
+  - typeSingle: UBERGAL__14__NURSE_HAT_43
+    fileSingle: Resources/Armors/Gals/Nurse/Nurse_Hat_43.gif
+  - typeSingle: UBERGAL__14__NURSE_HAT_44
+    fileSingle: Resources/Armors/Gals/Nurse/Nurse_Hat_44.gif
+# Warrior Armor
+  - typeSingle: UBERGAL__8__WARRIOR_ARMOR
+    fileSingle: Resources/Armors/Gals/Warrior/Warrior_Armor.gif
+# Durathread Armor
+  - typeSingle: UBERGAL__8__DURATHREAD_ARMOR
+    fileSingle: Resources/Armors/Gals/Durathread/Durathread_Armor.gif
+# Metal Armor
+  - typeSingle: UBERGAL__8__METAL_ARMOR
+    fileSingle: Resources/Armors/Gals/Metal/Metal_Armor.gif
+  - typeSingle: UBERGAL__12__GLITTER_EXTRAS
+    fileSingle: Resources/Armors/Gals/Metal/Glitter_Extras.gif
+# Revenant Armor
+  - typeSingle: UBERGAL__8__REVENANT_ARMOR
+    fileSingle: Resources/Armors/Gals/Metal/Revenant_Armor.png
+  - typeSingle: UBERGAL__11__REVENANT_MASK
+    fileSingle: Resources/Armors/Gals/Metal/Revenant_Mask.png
+# Boss Armor
+  - typeSingle: UBERGAL__8__BOSS_ARMOR
+    fileSingle: Resources/Armors/Gals/Boss/Boss_Armor.gif
+  - typeSingle: UBERGAL__9__BOSS_BELT
+    fileSingle: Resources/Armors/Gals/Boss/Boss_Belt.gif
+  - typeSingle: UBERGAL__12__BOSS_GOGGLES
+    fileSingle: Resources/Armors/Gals/Boss/Boss_Goggles.gif
+# NightOps Armor
+  - typeSingle: UBERGAL__7__NIGHTOPS_SUIT
+    fileSingle: Resources/Armors/Gals/Nightops/Night_Ops_Armor.png
+  - typeSingle: UBERGAL__14__NIGHTOPS_VISOR
+    fileSingle: Resources/Armors/Gals/Nightops/Night_Ops_Visor.png
+# Guerilla/Kevlar/Sniper
+  - typeSingle: UBERGAL__7__GUERILLA_ARMOR
+    fileSingle: Resources/Armors/Gals/Kevlar/Guerilla_Armor.gif
+  - typeSingle: UBERGAL__14__GUERILLA_BERET_41
+    fileSingle: Resources/Armors/Gals/Kevlar/Guerilla_Beret_41.gif
+  - typeSingle: UBERGAL__14__GUERILLA_BERET_42
+    fileSingle: Resources/Armors/Gals/Kevlar/Guerilla_Beret_42.gif
+  - typeSingle: UBERGAL__14__GUERILLA_BERET_43
+    fileSingle: Resources/Armors/Gals/Kevlar/Guerilla_Beret_43.gif
+  - typeSingle: UBERGAL__14__GUERILLA_BERET_44
+    fileSingle: Resources/Armors/Gals/Kevlar/Guerilla_Beret_44.gif
+  - typeSingle: UBERGAL__8__CHROMEBACK
+    fileSingle: Resources/Armors/Gals/Kevlar/Chromeback_Upgrade.gif
+  - typeSingle: UBERGAL__14__CHROMEBACK_HELMET
+    fileSingle: Resources/Armors/Gals/Kevlar/Chromeback_Helmet.gif
+  - typeSingle: UBERGAL__3__ARMORED_ONEPIECE
+    fileSingle: Resources/Armors/Gals/Kevlar/Armored_Onepiece.gif
+  - typeSingle: UBERGAL__7__SNIPER_OUTFIT
+    fileSingle: Resources/Armors/Gals/Kevlar/Sniper_Gear.gif
+  - typeSingle: UBERGAL__14__SNIPER_GOGGLES
+    fileSingle: Resources/Armors/Gals/Kevlar/Sniper_Goggles.gif
+# Tac Vest
+  - typeSingle: UBERGAL__8__TAC_VEST
+    fileSingle: Resources/Armors/Gals/Green/Tac_Vest.png
+# Tac Armor
+  - typeSingle: UBERGAL__8__TAC_ARMOR
+    fileSingle: Resources/Armors/Gals/Green/Tac_Armor.gif
+  - typeSingle: UBERGAL__14__TAC_HELMET
+    fileSingle: Resources/Armors/Gals/Green/Tac_Helmet.gif
+# Tac Heavy Suit
+  - typeSingle: UBERGAL__8__TAC_SUIT
+    fileSingle: Resources/Armors/Gals/Green/Tac_Heavy_Suit.gif
+# Hover Armor
+  - typeSingle: UBERGAL__8__HOVER_ARMOR
+    fileSingle: Resources/Armors/Gals/Green/Hover_Armor.gif
+# Assassin Armor
+  - typeSingle: UBERGAL__8__ASSASSIN_ARMOR
+    fileSingle: Resources/Armors/Gals/Blue/Assassin_Armor.gif
+  - typeSingle: UBERGAL__14__ASSASSIN_VISOR
+    fileSingle: Resources/Armors/Gals/Blue/Assassin_Visor.gif
+# Dragonfly Armor
+  - typeSingle: UBERGAL__8__DRAGONFLY_ARMOR
+    fileSingle: Resources/Armors/Gals/Blue/Dragonfly_Armor.gif
+  - typeSingle: UBERGAL__12__DRAGONFLY_VISOR
+    fileSingle: Resources/Armors/Gals/Blue/Dragonfly_Visor.gif
+# Stormy Armor
+  - typeSingle: UBERGAL__8__STORMY_ARMOR
+    fileSingle: Resources/Armors/Gals/Blue/Stormy_Armor.gif
+# Defender Armor
+  - typeSingle: UBERGAL__8__DEFENDER_ARMOR
+    fileSingle: Resources/Armors/Gals/Blue/Defender_Armor.png
+  - typeSingle: UBERGAL__8__DEFENDER_ARMOR_DMG
+    fileSingle: Resources/Armors/Gals/Blue/Defender_Armor_Dmg.png
+# Guardian Armor
+  - typeSingle: UBERGAL__11__GUARDIAN_SUIT
+    fileSingle: Resources/Armors/Gals/Blue/Guardian_Suit.gif
+  - typeSingle: UBERGAL__14__GUARDIAN_HELMET
+    fileSingle: Resources/Armors/Gals/Blue/Guardian_Helmet.gif
+# Smokey Armor
+  - typeSingle: UBERGAL__7__SMOKEY_ARMOR
+    fileSingle: Resources/Armors/Gals/Smokey/Smokey_Armor.gif
+  - typeSingle: UBERGAL__11__SMOKEY_MASK
+    fileSingle: Resources/Armors/Gals/Smokey/Smokey_Mask.gif
+# Mesh Armor
+  - typeSingle: UBERGAL__7__MESH_ARMOR
+    fileSingle: Resources/Armors/Gals/Smokey/Mesh_Armor.gif
+  - typeSingle: UBERGAL__11__MESH_MASK
+    fileSingle: Resources/Armors/Gals/Smokey/Mesh_Mask.gif
+# Synthsuit
+  - typeSingle: UBERGAL__7__SYNTHSUIT
+    fileSingle: Resources/Armors/Gals/Synthsuit/Synthsuit.gif
+# Brute Armor
+  - typeSingle: UBERGAL__8__BRUTE_ARMOR
+    fileSingle: Resources/Armors/Gals/Brute_Armor/Brute_Armor.png
+  - typeSingle: UBERGAL__11__BRUTE_MASK
+    fileSingle: Resources/Armors/Gals/Brute_Armor/Brute_Mask.png
+# Assault Suit
+  - typeSingle: UBERGAL__8__ASSAULT_SUIT
+    fileSingle: Resources/Armors/Gals/Red/Assault_Suit.png
+  - typeSingle: UBERGAL__12__ASSAULT_SUIT_VISOR
+    fileSingle: Resources/Armors/Gals/Red/Assault_Suit_Visor.png
+# Annihilator Armor
+  - typeSingle: UBERGAL__8__ANNIHILATOR_ARMOR
+    fileSingle: Resources/Armors/Gals/Annihilator/Annihilator_Armor.gif
+  - typeSingle: UBERGAL__14__ANNIHILATOR_GOGGLES
+    fileSingle: Resources/Armors/Gals/Annihilator/Annihilator_Goggles.gif
+# Junkmaster Suit
+  - typeSingle: UBERGAL__7__JUNK_SUIT
+    fileSingle: Resources/Armors/Gals/Juggernaut/Junk_Suit.gif
+# Juggernaut Suit
+  - typeSingle: UBERGAL__7__JUGGERNAUT_SUIT
+    fileSingle: Resources/Armors/Gals/Juggernaut/Juggernaut_Suit.png
+# Harbinger Suit
+  - typeSingle: UBERGAL__7__HARBINGER_SUIT
+    fileSingle: Resources/Armors/Gals/Harbinger/Harbinger_Suit.gif
+  - typeSingle: UBERGAL__14__HARBINGER_FRONT
+    fileSingle: Resources/Armors/Gals/Harbinger/Harbinger_Front.gif
+  - typeSingle: UBERGAL__14__HARBINGER_FRONT_EVA
+    fileSingle: Resources/Armors/Gals/Harbinger/Harbinger_Front_EVA.gif
+# Seductress Dress
+  - typeSingle: UBERGAL__8__SUC_DRESS_ALLOY
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Alloy.gif
+  - typeSingle: UBERGAL__8__SUC_DRESS_AQUA
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Aqua.gif
+  - typeSingle: UBERGAL__8__SUC_DRESS_BEIGE
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Beige.gif
+  - typeSingle: UBERGAL__8__SUC_DRESS_BLACK
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Black.gif
+  - typeSingle: UBERGAL__8__SUC_DRESS_BLUE
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Blue.gif
+  - typeSingle: UBERGAL__8__SUC_DRESS_BROWN
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Brown.gif
+  - typeSingle: UBERGAL__8__SUC_DRESS_GOLD
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Gold.gif
+  - typeSingle: UBERGAL__8__SUC_DRESS_GREEN
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Green.gif
+  - typeSingle: UBERGAL__8__SUC_DRESS_NAVY
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Navy.gif
+  - typeSingle: UBERGAL__8__SUC_DRESS_OLIVE
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Olive.gif
+  - typeSingle: UBERGAL__8__SUC_DRESS_ORANGE
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Orange.gif
+  - typeSingle: UBERGAL__8__SUC_DRESS_PINK
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Pink.gif
+  - typeSingle: UBERGAL__8__SUC_DRESS_PURPLE
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Purple.gif
+  - typeSingle: UBERGAL__8__SUC_DRESS_RED
+    fileSingle: Resources/Armors/Gals/SUC_Dress/SUC_Dress_Red.gif
+# Novice Outfit
+  - typeSingle: UBERGAL__7__NOVICE_OUTFIT
+    fileSingle: Resources/Armors/Gals/Novice/Novice_Main.gif
+  - typeSingle: UBERGAL__14__NOVICE_HOOD
+    fileSingle: Resources/Armors/Gals/Novice/Novice_Hood.gif
+  - typeSingle: UBERGAL__1__NOVICE_BACK
+    fileSingle: Resources/Armors/Gals/Novice/Novice_Back.gif
+# Witch_Outift
+  - typeSingle: UBERGAL__7__WITCH_OUTFIT
+    fileSingle: Resources/Armors/Gals/Witch/Witch_Outfit.png
+  - typeSingle: UBERGAL__14__WITCH_HAT
+    fileSingle: Resources/Armors/Gals/Witch/Witch_Hat.png
+# Sorceress_Outift
+  - typeSingle: UBERGAL__14__SORCERESS_ROBE
+    fileSingle: Resources/Armors/Gals/Sorceress/Sorceress_Robes.gif
+  - typeSingle: UBERGAL__0__SORCERESS_AURA
+    fileSingle: Resources/Armors/Gals/Sorceress/Sorceress_Aura.gif
+# Vampy Robe
+  - typeSingle: UBERGAL__7__VAMPY_ROBE
+    fileSingle: Resources/Armors/Gals/Vampy/Vampy_Robe.gif
+# Theban Dress
+  - typeSingle: UBERGAL__8__THEBAN_JEWELRY
+    fileSingle: Resources/Armors/Gals/Theban/Theban_Jewelry.gif
+  - typeSingle: UBERGAL__6__THEBAN_SKIRT
+    fileSingle: Resources/Armors/Gals/Theban/Theban_Skirt.gif
+  - typeSingle: UBERGAL__4__THEBAN_BRACERS
+    fileSingle: Resources/Armors/Gals/Theban/Theban_Bracers.gif
+# Xeno Armor
+  - typeSingle: UBERGAL__7__XENO_ARMOR
+    fileSingle: Resources/Armors/Gals/Xeno/Xeno_Armor.gif
+# Furiosa
+  - typeSingle: UBERGAL__7__DEVIL_ARMOR
+    fileSingle: Resources/Armors/Gals/Devil/Devil_Armor.gif
+  - typeSingle: UBERGAL__11__DEVIL_MASK
+    fileSingle: Resources/Armors/Gals/Devil/Devil_Mask.gif
+  - typeSingle: UBERGAL__14__DEVIL_HORNS
+    fileSingle: Resources/Armors/Gals/Devil/Devil_Horns.gif
+# Purgatoria
+  - typeSingle: UBERGAL__3__INFERNA
+    fileSingle: Resources/Armors/Gals/Devil/Inferna_Full.gif
+  - typeSingle: UBERGAL__15__INFERNA_SHIELD
+    fileSingle: Resources/Armors/Gals/Devil/Inferna_Shield.gif
+# Biosuit
+  - typeSingle: UBERGAL__8__BIOSUIT
+    fileSingle: Resources/Armors/Gals/Biosuit/Biosuit.gif
+  - typeSingle: UBERGAL__12__BIOSUIT_FACE
+    fileSingle: Resources/Armors/Gals/Biosuit/Biosuit_Face.gif
+  - typeSingle: UBERGAL__1__BIOSUIT_BACK
+    fileSingle: Resources/Armors/Gals/Biosuit/Biosuit_Back.gif
+# Pestulator
+  - typeSingle: UBERGAL__11__PESTULATOR_SUIT
+    fileSingle: Resources/Armors/Gals/Biosuit/Pestulator_Suit.gif
+  - typeSingle: UBERGAL__14__PESTULATOR_OCCULUS
+    fileSingle: Resources/Armors/Gals/Biosuit/Pestulator_Occulus.gif
+# Arrancar Armor
+  - typeSingle: UBERGAL__7__ARRANCAR_PANTS
+    fileSingle: Resources/Armors/Gals/Arrancar/Arrancar_Pants.gif
+  - typeSingle: UBERGAL__11__ARRANCAR_TOP
+    fileSingle: Resources/Armors/Gals/Arrancar/Arrancar_Top.gif
+# Admiral Outfit
+  - typeSingle: UBERGAL__3__ADMIRAL_BLACK
+    fileSingle: Resources/Armors/Gals/Admiral/Admiral_Black.gif
+  - typeSingle: UBERGAL__3__ADMIRAL_RED
+    fileSingle: Resources/Armors/Gals/Admiral/Admiral_Red.gif
+  - typeSingle: UBERGAL__3__ADMIRAL_WHITE
+    fileSingle: Resources/Armors/Gals/Admiral/Admiral_White.gif
+  - typeSingle: UBERGAL__1__ADMIRAL_BACK
+    fileSingle: Resources/Armors/Gals/Admiral/Admiral_Back.gif
+  - typeSingle: UBERGAL__14__ADMIRAL_HAT
+    fileSingle: Resources/Armors/Gals/Admiral/Admiral_Hat.gif
+  - typeSingle: UBERGAL__8__ADMIRAL_PENDANT
+    fileSingle: Resources/Armors/Gals/Admiral/Admiral_Pendant.gif
+# Pink/Blitz/variants
+  - typeSingle: UBERGAL__3__SWIFTSUIT
+    fileSingle: Resources/Armors/Gals/Pink/Swiftsuit.gif
+  - typeSingle: UBERGAL__3__BLITZ_MAIN
+    fileSingle: Resources/Armors/Gals/Pink/Blitz_Main.gif
+  - typeSingle: UBERGAL__14__BLITZ_VISOR
+    fileSingle: Resources/Armors/Gals/Pink/Blitz_Visor.gif
+  - typeSingle: UBERGAL__3__SAVIOUR_BOTTOM
+    fileSingle: Resources/Armors/Gals/Pink/Saviour_Bottom.gif
+  - typeSingle: UBERGAL__8__SAVIOUR_TOP
+    fileSingle: Resources/Armors/Gals/Pink/Saviour_Top.gif
+  - typeSingle: UBERGAL__14__SAVIOUR_HAT_41
+    fileSingle: Resources/Armors/Gals/Pink/Saviour_Hat_41.gif
+  - typeSingle: UBERGAL__14__SAVIOUR_HAT_42
+    fileSingle: Resources/Armors/Gals/Pink/Saviour_Hat_42.gif
+  - typeSingle: UBERGAL__14__SAVIOUR_HAT_43
+    fileSingle: Resources/Armors/Gals/Pink/Saviour_Hat_43.gif
+  - typeSingle: UBERGAL__14__SAVIOUR_HAT_44
+    fileSingle: Resources/Armors/Gals/Pink/Saviour_Hat_44.gif
+# Gravball
+  - typeSingle: UBERGAL__7__GRAVBALL_ARMOR
+    fileSingle: Resources/Armors/Gals/Gravball/Gravball_Armor.gif
+  - typeSingle: UBERGAL__11__GRAVBALL_MASK
+    fileSingle: Resources/Armors/Gals/Gravball/Gravball_Mask.gif
+  - typeSingle: UBERGAL__14__GRAVBALL_HELMET
+    fileSingle: Resources/Armors/Gals/Gravball/Gravball_Helmet.gif
+# Ironman
+  - typeSingle: UBERGAL__11__IRONMAN_SUIT
+    fileSingle: Resources/Armors/Gals/Ironman/Ironman_Suit.gif
+# Thief
+  - typeSingle: UBERGAL__14__THIEF_SUIT
+    fileSingle: Resources/Armors/Gals/Thief/Thief_Suit.gif
+# Holosuit
+  - typeSingle: UBERGAL__7__HOLOSUIT
+    fileSingle: Resources/Armors/Gals/Holosuit/Holosuit.gif
+  - typeSingle: UBERGAL__12__HOLOSUIT_EYEPIECE_RED
+    fileSingle: Resources/Armors/Gals/Holosuit/Holosuit_Eyepiece_Red.gif
+# Meido
+  - typeSingle: UBERGAL__7__MAID_OUTFIT
+    fileSingle: Resources/Armors/Gals/Home/Maid_Outfit.gif
+# Fairy
+  - typeSingle: UBERGAL__3__FAIRY_OUTFIT
+    fileSingle: Resources/Armors/Gals/Magical_Girl/Fairy_Outfit.gif
+# Saint Outfit
+  - typeSingle: UBERGAL__8__SAINT_AMULET
+    fileSingle: Resources/Armors/Gals/Saint/Saint_Amulet.png
+  - typeSingle: UBERGAL__0__SAINT_AURA
+    fileSingle: Resources/Armors/Gals/Saint/Saint_Back.png
+# Masochist
+  - typeSingle: UBERGAL__4__BONDAGE_GEAR
+    fileSingle: Resources/Armors/Gals/Bondage/Bondage_Gear.gif
+  - typeSingle: UBERGAL__12__BLINDFOLD
+    fileSingle: Resources/Armors/Gals/Bondage/Blindfold.gif
+# Shades and Glasses
+  - typeSingle: UBERGAL__12__SHADES_2
+    fileSingle: Resources/Armors/Gals/Misc/Shades_2.gif
+  - typeSingle: UBERGAL__12__GLASSES_1
+    fileSingle: Resources/Armors/Gals/Misc/Glasses_1.gif
+# Belts and Scabbards
+  - typeSingle: UBERGAL__5__STRAP_LT_RED
+    fileSingle: Resources/Armors/Gals/Misc/Thighstrap_L.gif
+  - typeSingle: UBERGAL__5__HOLSTER
+    fileSingle: Resources/Armors/Gals/Misc/Holster.png
+  - typeSingle: UBERGAL__4__SCABBARD_LH
+    fileSingle: Resources/Armors/Gals/Misc/Scabbard_LH.gif
+  - typeSingle: UBERGAL__9__UPCHAINS
+    fileSingle: Resources/Armors/Gals/Misc/Prisoner_Chains.gif
+  - typeSingle: UBERGAL__9__OL_BELT
+    fileSingle: Resources/Armors/Gals/Misc/Ol_Belt.gif
+  - typeSingle: UBERGAL__9__SWASH_SASH
+    fileSingle: Resources/Armors/Gals/Misc/Swash_Sash.gif
+  - typeSingle: UBERGAL__9__SWASH_BELT
+    fileSingle: Resources/Armors/Gals/Misc/Swash_Belt.gif
+  - typeSingle: UBERGAL__9__PIRATE_BELT
+    fileSingle: Resources/Armors/Gals/Misc/Pirate_Belt.gif
+# Boots and Gloves
+  - typeSingle: UBERGAL__6__FINGERLESS_GLOVES
+    fileSingle: Resources/Armors/Gals/Misc/Fingerless_Gloves.png
+  - typeSingle: UBERGAL__6__FISHNET_GLOVES
+    fileSingle: Resources/Armors/Gals/Underwear/Fishnet_Gloves.gif
+  - typeSingle: UBERGAL__6__BDSM_GLOVES
+    fileSingle: Resources/Armors/Gals/Bondage/BDSM_Gloves.gif
+  - typeSingle: UBERGAL__7__BDSM_LEGS
+    fileSingle: Resources/Armors/Gals/Bondage/BDSM_Legs.gif
+  - typeSingle: UBERGAL__6__OLIVE_GLOVES
+    fileSingle: Resources/Armors/Gals/Misc/Olive_Gloves.gif
+  - typeSingle: UBERGAL__7__OLIVE_LONGBOOTS
+    fileSingle: Resources/Armors/Gals/Misc/Olive_Longboots.gif
+  - typeSingle: UBERGAL__7__PINK_LONGBOOTS
+    fileSingle: Resources/Armors/Gals/Misc/Pink_Longboots.gif
+  - typeSingle: UBERGAL__6__AQUA_GLOVES
+    fileSingle: Resources/Armors/Gals/Misc/Aqua_Gloves.gif
+  - typeSingle: UBERGAL__7__AQUA_LONGBOOTS
+    fileSingle: Resources/Armors/Gals/Misc/Aqua_Longboots.gif
+  - typeSingle: UBERGAL__6__LEATHER_GLOVES
+    fileSingle: Resources/Armors/Gals/Misc/Leather_Gloves.gif
+  - typeSingle: UBERGAL__7__LEATHER_BOOTS
+    fileSingle: Resources/Armors/Gals/Misc/Leather_Boots.gif
+# Twopieces
+  - typeSingle: UBERGAL__3__TWOPIECE_RED
+    fileSingle: Resources/Armors/Gals/Underwear/Twopiece_Red.gif
+# Lingerie
+  - typeSingle: UBERGAL__3__TEDDY_BLACK
+    fileSingle: Resources/Armors/Gals/Underwear/Teddy_Black.png
+  - typeSingle: UBERGAL__3__LINGERIE_BLACK
+    fileSingle: Resources/Armors/Gals/Underwear/Lingerie_Black.gif
+  - typeSingle: UBERGAL__3__CORSET_PANTIES_BLACK
+    fileSingle: Resources/Armors/Gals/Underwear/Corset_Panties_Black.gif
+  - typeSingle: UBERGAL__5__STOCKINGS_BLACK_LIGHT
+    fileSingle: Resources/Armors/Gals/Underwear/Stockings_Black_Light.gif
+  - typeSingle: UBERGAL__5__STOCKINGS_BLACK_DARK
+    fileSingle: Resources/Armors/Gals/Underwear/Stockings_Black_Dark.gif
+  - typeSingle: UBERGAL__5__STOCKINGS_RED_LIGHT
+    fileSingle: Resources/Armors/Gals/Underwear/Stockings_Red_Light.gif
+  - typeSingle: UBERGAL__5__STOCKINGS_RED_DARK
+    fileSingle: Resources/Armors/Gals/Underwear/Stockings_Red_Dark.gif
+# Pantsu
+  - typeSingle: UBERGAL__3__PANTIES_HCUT_BLACK
+    fileSingle: Resources/Armors/Gals/Underwear/Panties_HCut_Black.png
+  - typeSingle: UBERGAL__3__PANTIES_HCUT_RED
+    fileSingle: Resources/Armors/Gals/Underwear/Panties_HCut_Red.gif
+  - typeSingle: UBERGAL__3__PANTIES_HCUT_BEIGE
+    fileSingle: Resources/Armors/Gals/Underwear/Panties_HCut_Beige.gif
+  - typeSingle: UBERGAL__3__PANTIES_LCUT_BLACK
+    fileSingle: Resources/Armors/Gals/Underwear/Panties_LCut_Black.png
+  - typeSingle: UBERGAL__3__PANTIES_LCUT_RED
+    fileSingle: Resources/Armors/Gals/Underwear/Panties_LCut_Red.png
+  - typeSingle: UBERGAL__3__PANTIES_LCUT_WHITE
+    fileSingle: Resources/Armors/Gals/Underwear/Panties_LCut_White.gif
+  - typeSingle: UBERGAL__3__PANTIES_LCUT_OLIVE
+    fileSingle: Resources/Armors/Gals/Underwear/Panties_LCut_Olive.gif
+  - typeSingle: UBERGAL__3__PANTIES_LEATHER
+    fileSingle: Resources/Armors/Gals/Underwear/Panties_Leather.gif
+# Bura
+  - typeSingle: UBERGAL__3__BRA_LARGE_BLACK_LACE
+    fileSingle: Resources/Armors/Gals/Underwear/Bra_Large_Black_Lace.gif
+# Personal_Items
+  - typeSingle: UBERGAL__8__COLLAR_M0
+    fileSingle: Resources/Armors/Gals/Personal_Items/Collar_M0.gif
+  - typeSingle: UBERGAL__11__MASK_M45
+    fileSingle: Resources/Armors/Gals/Personal_Items/Mask_M45.gif
+  - typeSingle: UBERGAL__8__NECKLACE_F24
+    fileSingle: Resources/Armors/Gals/Personal_Items/Necklace_F24.gif
+  - typeSingle: UBERGAL__8__NECKLACE_F31
+    fileSingle: Resources/Armors/Gals/Personal_Items/Necklace_F31.gif
+  - typeSingle: UBERGAL__8__NECKLACE_F35
+    fileSingle: Resources/Armors/Gals/Personal_Items/Necklace_F35.gif
+  - typeSingle: UBERGAL__12__GLASSES_F37
+    fileSingle: Resources/Armors/Gals/Personal_Items/Glasses_F37.gif
+  - typeSingle: UBERGAL__4__CHAIN_F39
+    fileSingle: Resources/Armors/Gals/Personal_Items/Chain_F39.gif

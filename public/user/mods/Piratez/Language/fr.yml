@@ -1,0 +1,133 @@
+fr:
+  STR_USA: "La Confédération"
+  STR_UK: "Tribu de Fer"
+  STR_FRANCE: "l'Eurosyndicat"
+  STR_GERMANY: "La Marche Noire"
+  STR_SPAIN: "La Fédération du Nord"
+  STR_CHINA: "La Province Centrale"
+  STR_CANADA: "Royaume du Canada"
+  STR_NCR: "République de Californie"
+  STR_LATIN_EMPIRE: "Empire Latin"
+  STR_TECHNOCRACY: "La Technocratie"
+  STR_CHILE: "Pacte d'Acier"
+  STR_WASHINGTON: "La Porte des Traitres"
+  STR_MEXICO_CITY: "Le Monolithe"
+  STR_BRASILIA: "Espoir"
+  STR_SANTIAGO: "Mémoire de la Terre"
+  STR_RIO_DE_JANEIRO: "Désespoir"
+  STR_BERLIN: "Cité Libre"
+  STR_MOSCOW: "la Citadelle Noire"
+  STR_BUDAPEST: "le Bastion"
+  STR_PRETORIA: "le Sanctuaire noir"
+  STR_BAGHDAD: "la Librairie"
+  STR_TEHRAN: "le Labyrinthe "
+  STR_BOMBAY: "les Larmes de la Déesse"
+  STR_BEIJING: "la Cité Interdite"
+  STR_BANGKOK: "le Vieux Champ de Bataille"
+  STR_MANILA: "le Marché Secret"
+  STR_SEOUL: "Pont Astral"
+  STR_SINGAPORE: "Singapour"
+  STR_JAKARTA: "Palais de la Liberté"
+  STR_CANBERRA: "l'Arène Secrète"
+  STR_AGGRESSIVERETALIATION_DESC: "Les OVNIs tenteront de détecter vos bases à tout moment, quels que soient leurs ordres de mission."
+  STR_SMALL_SCOUT_UFOPEDIA: "Cet appareil minuscule est principalement utilisé pour la reconnaissance ou la recherche. normalement, il précède les navires plus gros au début d'une mission. son équipage est composé d'une unique personne et il transporte un butin de peu de valeur"
+  STR_LUXURY_SPA_UFOPEDIA: "En plus de l'immense piscine (youpi!), cette installation contient toutes sortes de divertissements, de loisirs et d'entraînement: un ring de combat, une terrasse de jeux (avec une belle vue), une salle d'arcade, un sauna et plus encore. Il permet non seulement à 30 membres d'améliorer leur condition physique, mais pourrait être aussi bien utile pour l'entraînement de nos auxiliaires, et augmente généralement le niveau civilisationnel et sanitaire d'un Repaire, améliorant ainsi la récupération quotidienne des blessures de 0,65% des HP Max. Le code vestimentaire de cette installation dit \"le moins, le mieux\", un maillot de bain est le maximum autorisé. un seul Spa est autorisé par Repaire.{NEWLINE}La construction de cette installation nécessite 4 esclaves et 6 servantes."
+  STR_SCIENTISTS: Chercheurs
+  STR_ENGINEERS: Grouillots
+  STR_UFO_DESTROYED: "EXPLOSE EN MORCEAUX"
+  STR_UFO_CRASH_RECOVERY_BRIEFING: "Nous sommes arrivés sur le lieu du crash, Capitaine! Il est probable que plusieurs de ces chiens galeux ont survécu à l'atterrissage et ne donneront pas leur butin sans se battre. Dommage pour eux! Cependant, si les choses tournent mal pour notre équipage, n'oubliez pas que toute personne qui n'est pas à bord au moment du décollage sera perdue!"
+  STR_SCIENTIST: Chercheur
+  STR_ENGINEER: Grouillot
+  STR_TOTAL_SCIENTISTS: "Chercheurs engagés"
+  STR_VESSEL_PINK: Vaisseau Rose
+  STR_TRACTOR_BEAM: Rayon Tracteur
+  STR_SHIELD_GEN: Générateur de Champ léger
+  STR_SHIELD_GEN_LARGE: Générateur de Champ Lourd
+  STR_INCENDIARY_GRENADE: Grenade Incendiaire
+  STR_ACID_GRENADE: Grenade Chimique
+  STR_BANDAGE: Bandages
+  STR_FIRST_AID_KIT: Kit de Premier Soins
+  STR_GROG_BARREL: "X-Grog"
+  STR_ELECTRIC_LASSO: 'Lasso Électrique '
+  STR_POISON_LANCE: "Toxi-Lance"
+  STR_YELLOW_GEM: Topaze
+  STR_RED_GEM: Rubis
+  STR_BRAINER_OUTFIT: Tenue de Chercheur
+  STR_BRAINER_OUTFIT_UC: CHERCHEUR
+  STR_BRAINER_OUTFIT_SEA_UC: "CHERCHEUR (AQUA.)"
+  STR_SILVER_BAR: Lingot d'argent
+  STR_GOLD_BAR: Lingot d'or
+  STR_DATA_DISK: "Disque de données cryptées"
+  STR_DATA_DISK_B: "Disque de données décryptées"
+  STR_CODE_ALLIANCE: "Fichier de l'Alliance Mutante"
+  STR_CODE_NAZI: "Fichier des Humanistes"
+  STR_PADD: Ordinateur personnel
+  STR_BRIEFCASE: Papiers gouvernementaux
+  STR_CHOCOLATE: "Chocolat"
+  STR_CIGS: "Cigarettes Bouddha-X"
+  STR_PORN: Porno Mutant
+  STR_NEWSPAPER: le Courrier Solaire
+  STR_PIRATEY_LINGERIE: Lingerie Pirate
+  STR_DIPLOMACY: Diplomatie
+  STR_INTERROGATION: Techniques d'interrogatoires
+  STR_INRG: Interrogatoire
+  STR_OCCULT: Occultisme
+  STR_ROBBERY: Cambriolage
+  STR_COURTESAN: Courtisane
+  STR_SALVAGE: Esclavage
+  STR_SLAVE: Esclave
+  STR_SLAVE_MAID: Servante esclave
+  STR_SLAVE_MAID_SUPER: Super servante
+  STR_SLAVE_SKILLED: Esclave spécialiste
+  STR_SLAVE_MANAGER: Esclave maître d’œuvres
+  STR_SLAVE_GLADIATRIX: Esclave gladiatrice
+  STR_SLAVE_ROBOT: Esclave robotique
+  STR_CONTRABAND: Contrebande
+  STR_CUISINE: Cuisine Post-Apocalyptique
+  STR_MERCHANDISE: Marchandise
+  STR_ALCOHOL: Alcool
+  STR_EXTRACTION: Extraction
+  STR_HACKING: Piratage informatique
+  STR_ASSEMBLY: Assemblage
+  STR_DISASSEMBLY: Désassemblage
+  STR_SPECIAL_PROJECT: Projet Spécial
+  STR_PIRATEZ_BACKGROUND: Notre Combat
+  STR_PIRATEZ_UBERS: Nos Origines
+  STR_THE_MARTIAN_SOLUTION: le Gouverneur Solaire
+  STR_ALIEN_ORIGINS: Qui est Qui ?
+  STR_SAT_NETWORK: Réseau de Satellites Terrestre
+  STR_SCHOOLING_1: Nettoyage de printemps
+  STR_BALLISTICS: Balistiques
+  STR_COMBAT_STRESS: Stress du Combat
+  STR_PILOTING: Pilotage
+  STR_RECRUITMENT: Recruitement
+  STR_PILOT_PLUS: Vol d'essai
+  STR_PHARMACOLOGY: Pharmacologie
+  STR_COMBAT_DRUGS_MANUFACTURING: Production de drogues de combat
+  STR_PLASTASTEEL_MUNITIONS: Munitions en Plastacier
+  STR_FUSION_EXPLOSIVES: Explosifs à fusion
+  STR_ATOM_POWER: la Puissance de l'Atome
+  STR_FORCEFIELDS: Champs de Force
+  STR_CYBERNETIC_INTERFACE: Interface Cybernétique
+  STR_KULTUR: "Notre Culture"
+  STR_VIP_KIDNAPPING: "Enlèvement de VIP"
+  STR_RUSSIAN_FILES: les Fichiers russes
+  STR_CHEMICALS: Produits chimiques
+  STR_SCRAP_METAL: Morceau de ferraille
+  STR_CODEX_GRAY: "Codex Gris"
+  STR_CODEX_GOLD: "Codex Doré"
+  STR_CODEX_RED: "Codex Rouge"
+  STR_CODEX_GREEN: "Codex Vert"
+  STR_CORRIDOR: "Couloir de sécurité"
+  STR_GAS_CHAMBER: "Chambre à gaz"
+  STR_STILL: "Alambic"
+  STR_GYM_ROOM: "Dojo"
+  STR_LIBRARY: "Bibliothèque"
+  STR_MED_BAY: "Infirmerie"
+  STR_SURGERY_ROOM: "Bloc opératoire"
+  STR_CLONING_CENTRE: "Centre de clonage"
+  STR_STUDY_ROOM: "Salle d'études"
+  STR_SUMMONING_CIRCLE: "Cercle d'invocation"
+  STR_FUSION_REACTOR: "Réacteur à fusion"
+  STR_FACTORY: "Usine"
+  STR_MISSION_COMPLETE_RETURNING_TO_BASE: "MISSION ACCOMPLIE - RETOUR A LA BASE"

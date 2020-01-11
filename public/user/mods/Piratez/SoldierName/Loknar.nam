@@ -1,0 +1,648 @@
+lookWeights:
+  - 25
+  - 25
+  - 25
+  - 25
+maleFirst: &FIRST_NAMES
+  - Adria
+  - Ai
+  - Aiko
+  - Aisha
+  - Alex
+  - Akasha
+  - Alia
+  - Alice
+  - Alisa
+  - Amelia
+  - Anaru
+  - Angela
+  - Anna
+  - Antonina
+  - Arcana
+  - Arshiya
+  - Arisu
+  - Ashelin
+  - Aura
+  - Asuka
+  - Azula
+  - Azura
+  - Barby
+  - Bastilla
+  - Bastinda
+  - Bella
+  - Bertha
+  - Beth
+  - Carna
+  - Ceres
+  - Chaitra
+  - Chun-Li
+  - Cleo
+  - Cora
+  - Deana
+  - Demona
+  - Donna
+  - Eclipsa
+  - Elya
+  - Evelyn
+  - Fate
+  - Faith
+  - Faustia
+  - Fea
+  - Frolla
+  - Fubuki
+  - Gab
+  - Georgia
+  - Gerda
+  - Gina
+  - Gilgama
+  - Gladys
+  - Haruhi
+  - Hayabusa
+  - Helga
+  - Hilda
+  - Hitomi
+  - Homura
+  - Hora
+  - Ida
+  - Ilona
+  - Imogen
+  - Inna
+  - Ino
+  - Ira
+  - Iria
+  - Iris
+  - Isabel
+  - Jade
+  - Jill
+  - Julia
+  - Junko
+  - Kali
+  - Kalina
+  - Kara
+  - Karna
+  - Kasumi
+  - Kat
+  - Katia
+  - Kelly
+  - Kemi
+  - Kes
+  - Killy
+  - Kim
+  - Kitana
+  - Kola
+  - Konata
+  - Korra
+  - Krona
+  - Kuvira
+  - Kyra
+  - Layla
+  - Leina
+  - Lena
+  - Lia
+  - Lily
+  - Lina
+  - Linda
+  - Ling-Ling
+  - Lisa
+  - Lizzy
+  - Lola
+  - Lori
+  - Lucy
+  - Luka
+  - Luna
+  - Lyra
+  - Malice
+  - Mami
+  - Mara
+  - Marge
+  - Maryla
+  - Marusha
+  - Mayuri
+  - Melanie
+  - Medea
+  - Melissa
+  - Methys
+  - Mia
+  - Mika
+  - Mikasa
+  - Miku
+  - Milena
+  - Mio
+  - Misa
+  - Misty
+  - Molly
+  - Morena
+  - Morrigan
+  - Morticia
+  - Muna
+  - Myrtle
+  - Nadia
+  - Nastassia
+  - Naoko
+  - Nagasha
+  - Nocturna
+  - Nel
+  - Niki
+  - Nishikinomiya
+  - Nova
+  - Nyarlko
+  - Olia
+  - Orka
+  - Oxana
+  - Patty
+  - Peg
+  - Polia
+  - Priss
+  - Pyza
+  - Pyzdra
+  - Raya
+  - Reese
+  - Rei
+  - Rena
+  - Revy
+  - Rita
+  - Roxana
+  - Rukia
+  - Rune
+  - Sakura
+  - Salandra
+  - Samus
+  - Saya
+  - Sega
+  - Selena
+  - Seyi
+  - Shana
+  - Sheva
+  - Shizune
+  - Slava
+  - Sola
+  - Sonya
+  - Suzuka
+  - Star
+  - Sutra
+  - Tarja
+  - Taya
+  - Tiana
+  - Tifa
+  - Tirana
+  - Tomoko
+  - Trude
+  - Triss
+  - Tsuba
+  - Vanessa
+  - Venomia
+  - Vidomina
+  - Vilexica
+  - Vita
+  - Viki
+  - Wendy
+  - Xena
+  - Xenia
+  - Xis
+  - Yess
+  - Ys
+  - Yukari
+  - Yuki
+  - Yuksi
+  - Yumiko
+  - Yuri
+  - Zava
+  - Zena
+  - Zina
+  - Zoey
+femaleFirst: *FIRST_NAMES
+maleLast:
+  - The Hyperactive
+  - The Headless
+  - The Huge
+  - The Profane
+  - The Undying
+  - The Godless
+  - The Apocalypse
+  - The Anonymous
+  - The Faceless
+  - The Nefarious
+  - The Screamer
+  - The Deadly
+  - The Betrayer
+  - The Resourceful
+  - The Assassin
+  - The Little
+  - The Destroyer
+  - The Red
+  - The Black
+  - The White
+  - The Goon
+  - The Green
+  - The Blue
+  - The Purple
+  - The Crimson
+  - The Pink
+  - The Blind
+  - The Sexy
+  - The Purring
+  - The Magnificient
+  - The Unruly
+  - The Gloves
+  - The Unchained
+  - The Masochist
+  - The Sadist
+  - The Hermit
+  - The Fool
+  - The Silent
+  - The Rotten
+  - The Pagan
+  - The Tentacle
+  - The Curious
+  - The Torrent
+  - The Shocker
+  - The Teaser
+  - The Butcher
+  - The Kissy
+  - The Megalomaniac
+  - The Sailor
+  - The Digger
+  - The Tosser
+  - The Rainmaker
+  - The Savage
+  - The Fiend
+  - The Driller
+  - The Hot
+  - The Silly
+  - The Strangler
+  - The Abyssal
+  - The Pretty
+  - The Uncanny
+  - Darkstep
+  - Motherlode
+  - Wormwood
+  - Stonewraith
+  - Dragonroar
+  - Coldhand
+  - Nightcry
+  - Stormkick
+  - Sandsock
+  - Bondstock
+  - Cryptohorror
+  - Lazyeye
+  - Redfaster
+  - Wolfcat
+  - Bonebreaker
+  - Spaceblast
+  - Horserustler
+  - Deathclaw
+  - Arkenstone
+  - Gemglitter
+  - Depthcharge
+  - Masterblaster
+  - Masterkey
+  - Stonekeep
+  - Cavelord
+  - Drillbreaker
+  - Chasmdiver
+  - Tunnelbeast
+  - Stonepattern
+  - Kamineko
+  - Casuality
+  - Ghostbuster
+  - Dreamslayer
+  - Drillerkiller
+  - Planetbuster
+  - Shieldbreaker
+  - Bunkerbuster
+  - Showstopper
+  - Showtime
+  - Beetlejuice
+  - Hardroot
+  - Deathroot
+  - Redroot
+  - Bloodroot
+  - Darkroot
+  - Liferoot
+  - Bigband
+  - Bigbang
+  - Bigcrunch
+  - Heatdeath
+  - Dracolich
+  - Dynablast
+  - Turtleshell
+  - Rattlesnake
+  - Rattlecoin
+  - Spearstryke
+  - Razoredge
+  - Edgelord
+  - Goodbad
+  - Badcompany
+  - Goldmine
+  - Skywarp
+  - Timewarp
+  - Timestop
+  - Supernova
+  - Blackhole
+  - Flamering
+  - Lotuseater
+  - Killingjoke
+  - Lizardking
+  - Badtrip
+  - Doperider
+  - Shroomdiver
+  - Ballbreaker
+  - Planetsmasher
+  - Headsmasher
+  - Deepdelver
+  - Hypnotoad
+  - Hyperstar
+  - Waterpump
+  - Gigadrill
+  - Genderbender
+  - Fragmaster
+  - Teamkiller
+  - Killstealer
+  - Deathmatch
+  - Teabagger
+  - Squatleader
+  - Gameover
+  - Southstream
+  - Northstream
+  - Pipeline
+  - Moneytime
+  - Warpeace
+  - Powerhungry
+  - Powermonger
+  - Powergrab
+  - Evergreen
+  - Bottlespin
+  - Punkrock
+  - Bottlesnatch
+  - Brutality
+  - Blockbuster
+  - Flatchest
+  - Babality
+  - Airwagon
+  - Afrodemon
+  - Hellowl
+  - Airmouse
+  - Robstore
+  - Aircool
+  - Pighead
+  - Shortshorts
+  - Shortstory
+  - Goldteeth
+  - Badbreath
+  - Gothloli
+  - Erosennin
+  - Dragonfear
+  - Dragonbreath
+  - Dragonfire
+  - Gogmagog
+  - Starbucks
+  - Nobaka
+  - Snowflake
+  - Boxcars
+  - Snakeeyes
+  - Fluffyhugger
+  - Hammertime
+  - Warmaster
+  - Onepunch
+  - Topsell
+  - Stonehenge
+  - Bazookatone
+  - Redshield
+  - Radiohead
+  - Hellsing
+  - Blackhand
+  - Darkblade
+  - Irongut
+  - Hotnight
+  - Gutripper
+  - Iceblood
+  - Firestone
+  - Glitterstone
+  - Poisondagger
+  - Starscream
+  - Nightshadow
+  - Stormdog
+  - Bloodsteel
+  - Spidersilk
+  - Mantisclaw
+  - Snakebite
+  - Scorpionpath
+  - Moonlite
+  - Dragonfox
+  - Candlestick
+  - Steamroller
+  - Tightrope
+  - Badmoon
+  - Evilsun
+  - Foulmouth
+  - Hellcat
+  - Thunderstorm
+  - Rathorn
+  - Batwing
+  - Cutslash
+  - Redsun
+  - Starfade
+  - Moonrise
+  - Moonfall
+  - Sunfall
+  - Sharpeye
+  - Firebolt
+  - Firestorm
+  - Whirlwind
+  - Crashwave
+  - Darkstar
+  - Bloodstar
+  - Windblade
+  - Grassblade
+  - Evileye
+  - Stillwater
+  - Grimskull
+  - Skullcrusher
+  - Moorglum
+  - Blackheart
+  - Nightfall
+  - Flamewave
+  - Wormhole
+  - Blackboots
+  - Lonestar
+  - Grimdark
+  - Bullfrog
+  - Barnowl
+  - Skulljacker
+  - Croctail
+  - Ramjet
+  - Skyfall
+  - Hexwall
+  - Tuskforce
+  - Landgrab
+  - Dragonfall
+  - Dragonscale
+  - Thinlizard
+  - Direwolf
+  - Frogleap
+  - Moonspell
+  - Manydeath
+  - Nightwish
+  - Ironsword
+  - Darkwater
+  - Firewater
+  - Waterburn
+  - Warforge
+  - Twostone
+  - Bluebird
+  - Rockfall
+  - Deadrise
+  - Ambercurse
+  - Stonebleed
+  - Hellscythe
+  - Darkreign
+  - Jetfuel
+  - Steelbeams
+  - Marketloss
+  - Goldstandard
+  - Goldfinger
+  - Deathless
+  - Bigone
+  - Boomshak
+  - Backwater
+  - Waterbear
+  - Waterbearer
+  - Greyskull
+  - Grimlok
+  - Gridlock
+  - Campfire
+  - Junkman
+  - De Lux
+  - De Ville
+  - De Mon
+  - Goldstein
+  - Zukerberg
+  - Selbstmord
+  - Hexentantz
+  - Goldsilver
+  - Animality
+  - Antifreeze
+  - Heatwave
+  - Frostburn
+  - Skyrock
+  - Bulldozer
+  - Whiteflower
+  - Dynamite
+  - Overkill
+  - Worldwar
+  - Meltdown
+  - Ravencrow
+  - Sharptalon
+  - Dumbsmart
+  - Gasoline
+  - Nicotine
+  - Bombrush
+  - Crashparty
+  - Dustbin
+  - Ratmouse
+  - Wolfstone
+  - Brimstone
+  - Gookcook
+  - Splatterman
+  - Gravedigger
+  - Onepiece
+  - Twoways
+  - Moonstone
+  - Hardrock
+  - Ironfist
+  - Starchild
+  - Thunderchild
+  - Greatwall
+  - Firefox
+  - Skullgrin
+  - Moonshade 
+  - Jetflame 
+  - Firebrand
+  - Nightspawn
+  - Darkbloom 
+  - Ripewine 
+  - Scarface 
+  - Jumpscare 
+  - Swordfish 
+  - Worldpeace 
+  - Warmonger
+  - Watergate
+  - Powerslave
+  - Blastmaster
+  - Ghostrider
+  - Multipass
+  - Strikefist
+  - Wolfheart
+  - Tigerstripe
+  - Sabertooth
+  - Bittersweet
+  - Coldsun
+  - Darksun
+  - Ironsand
+  - Bloodbath
+  - Badblood
+  - Bloodrain
+  - Plaguebringer
+  - Killjoy
+  - Boltthrower
+  - Longbow
+  - Bluebells
+  - Deadeye
+  - Murdertime
+  - Offchance
+  - Longshot
+  - Twopiece
+  - Holdbag
+  - Blowkiss
+  - Praxis
+  - Firaxis
+  - Firewire
+  - Warphead
+  - Crystalnight
+  - Rugrat
+  - Gunhead
+  - Undertaker
+  - Icebringer
+  - Trashboat
+  - Muscleman
+  - Stinkbomb
+  - Rocketman
+  - Ironspike
+  - Ironclad
+  - Brassballs
+  - Frogfish
+  - Greenfrog
+  - Lizardhide
+  - Seekhide
+  - Blackwhite
+  - Slavemaster
+  - Copperax
+  - Lostlead
+  - Brainbug
+  - Strawtree
+  - Softrock
+  - Longshift
+  - Longshaft
+  - Topgear
+  - Sharptongue
+  - Dullsharp
+  - Dankmemes
+  - Roundtrip
+  - Quicklurk
+  - Lurkbitch
+  - Nevermore
+  - Startend
+  - Sunmoon
+  - Daynight
+  - Slowfast
+  - Longear
+  - Bignose
+  - Zogworth
+  - Pisoff
+  - Edgecutter
+  - Catfish
+  - Dragonpass
+  - Ratmaze
+  - Fistkick
+  - Dogcat
+  - Moneycheat

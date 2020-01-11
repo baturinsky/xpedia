@@ -1,0 +1,418 @@
+soldierTransformation:
+  - name: STR_NEPOTISM
+    requires:
+      - STR_NEPOTISM
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: true
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_SOLDIER_S
+      - STR_SOLDIER_M
+      - STR_SOLDIER_V
+      - STR_SOLDIER_X
+      - STR_SOLDIER_W
+      - STR_SOLDIER_SLAVE
+      - STR_SOLDIER_HERO
+      - STR_SOLDIER_PEASANT
+      - STR_SOLDIER_HYBRID
+      - STR_SOLDIER_LOKNAR
+      - STR_SOLDIER_GNOME
+      - STR_SOLDIER_SYNTH
+      - STR_SOLDIER_CHORT
+    cost: 100000
+    recoveryTime: 0
+    minRank: 3
+    soldierBonusType: STR_NEPOTISM
+  - name: STR_WEIRDGAL_TRANSFORMATION
+    requires:
+      - STR_PSI_INITIATION
+    producedSoldierType: STR_SOLDIER_W
+    producedSoldierArmor: STR_PIR_TOPLESS_UC
+    keepSoldierArmor: false
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_SOLDIER_S
+      - STR_SOLDIER_M
+      - STR_SOLDIER_V
+      - STR_SOLDIER_X
+    cost: 2000
+    recoveryTime: 77
+    requiredMinStats:
+      bravery: 50
+      psiStrength: 50
+    requiredItems:
+      STR_ELERIUM_115: 7
+      STR_RAIDER_CORPSE: 3
+    requiresBaseFunc:
+      - LIB
+    flatOverallStatChange:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 10
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 5
+      psiSkill: 20
+      melee: 0
+      mana: 0
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: true
+    upperBoundAtStatCaps: false
+  - name: STR_ANG_102
+    requires:
+      - STR_ANG_102
+    producedSoldierType: STR_SOLDIER_R
+    producedSoldierArmor: STR_RAGS_UC
+    reset: true
+    keepSoldierArmor: false
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: true
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_SOLDIER_S
+      - STR_SOLDIER_M
+      - STR_SOLDIER_V
+      - STR_SOLDIER_X
+    cost: 0
+    recoveryTime: 44
+    requiredItems:
+      STR_PORN: 8
+      STR_VAMPIRE_ESSENCE: 1
+    flatOverallStatChange:
+      tu: 0
+      stamina: 0
+      health: 10
+      bravery: 20
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    upperBoundAtStatCaps: false
+  - name: STR_SHAKEUP
+    requires:
+      - STR_SHAKEUP_CEREMONY
+    producedSoldierType: STR_SOLDIER_S
+    producedSoldierArmor: STR_PIR_NUDE_UC
+    keepSoldierArmor: false
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER_S
+    forbiddenPreviousTransformations:
+      - STR_SHAKEUP
+    requiresBaseFunc:
+      - SHOP
+    cost: 0
+    recoveryTime: 20
+    requiredItems:
+      STR_NOOSE: 2
+      STR_MOONSHINE: 10
+    flatOverallStatChange:
+      tu: 0
+      stamina: 20
+      health: 5
+      bravery: 20
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 5
+      psiStrength: 1
+      psiSkill: 0
+      melee: 0
+    percentGainedStatChange:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: -10
+      throwing: -10
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: -10
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    upperBoundAtStatCaps: true
+  - name: STR_MILITIA_TRAINING
+    requires:
+      - STR_PEASANT_MILITIA
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER_PEASANT
+    forbiddenPreviousTransformations:
+      - STR_MILITIA_TRAINING
+    cost: 7500
+    recoveryTime: 14
+    flatOverallStatChange:
+      tu: 5
+      stamina: 5
+      health: 0
+      bravery: 10
+      reactions: 5
+      firing: 10
+      throwing: 10
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 10
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - name: STR_HOLY_WARRIOR_TRAINING
+    requires:
+      - STR_HOLY_WARRIORS
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER_SLAVE
+    forbiddenPreviousTransformations:
+      - STR_HOLY_WARRIOR_TRAINING
+    cost: 5000
+    recoveryTime: 24
+    flatOverallStatChange:
+      tu: 15
+      stamina: 10
+      health: 15
+      bravery: 20
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 5
+      psiStrength: 1
+      psiSkill: 0
+      melee: 10
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - name: STR_MMA_TRAINING
+    requires:
+      - STR_BOUNTY_HUNTING_PRIZE_MARTIAL_ARTS
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_SOLDIER_S
+      - STR_SOLDIER_M
+      - STR_SOLDIER_V
+      - STR_SOLDIER_X
+      - STR_SOLDIER_W
+      - STR_SOLDIER_GNOME
+    forbiddenPreviousTransformations:
+      - STR_MMA_TRAINING
+    cost: 10000
+    recoveryTime: 21
+    flatOverallStatChange:
+      tu: 10
+      stamina: 15
+      health: 0
+      bravery: 10
+      reactions: 10
+      firing: 0
+      throwing: 5
+      strength: 0
+      psiStrength: 1
+      psiSkill: 0
+      melee: 15
+      mana: 10
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - name: STR_GLADIATOR_TRAINING
+    requires:
+      - STR_GLADIATOR_TRAINING
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_SOLDIER_S
+      - STR_SOLDIER_M
+      - STR_SOLDIER_V
+      - STR_SOLDIER_X
+      - STR_SOLDIER_R
+      - STR_SOLDIER_W
+      - STR_SOLDIER_PEASANT
+      - STR_SOLDIER_SLAVE
+      - STR_SOLDIER_GNOME
+    forbiddenPreviousTransformations:
+      - STR_GLADIATOR_TRAINING
+    requiresBaseFunc:
+      - DEN
+    cost: 25000
+    recoveryTime: 66
+    requiredMinStats:
+      strength: 30
+      stamina: 60
+      bravery: 30
+    flatOverallStatChange:
+      tu: 10
+      stamina: 10
+      health: 10
+      bravery: 10
+      reactions: 10
+      firing: 0
+      throwing: 10
+      strength: 15
+      psiStrength: 0
+      psiSkill: 0
+      melee: 20
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - name: STR_SPECTRE_SUMMONING
+    requires:
+      - STR_SPECTRE_SUMMONING
+    producedSoldierType: STR_SOLDIER_SPECTRE
+    producedSoldierArmor: STR_PIR_SPECTRE_UC
+    reset: true
+    keepSoldierArmor: false
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: true
+    allowsLiveSoldiers: false
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_SOLDIER_S
+      - STR_SOLDIER_M
+      - STR_SOLDIER_V
+      - STR_SOLDIER_X
+      - STR_SOLDIER_R
+      - STR_SOLDIER_W
+      - STR_SOLDIER_SLAVE
+      - STR_SOLDIER_HERO
+      - STR_SOLDIER_PEASANT
+      - STR_SOLDIER_HYBRID
+      - STR_SOLDIER_LOKNAR
+      - STR_SOLDIER_GNOME
+      - STR_SOLDIER_SPECTRE
+    requiredMinStats:
+      bravery: 60
+      reactions: 60
+      psiStrength: 40
+    cost: 10000
+    requiredItems:
+      STR_RAIDER_CORPSE: 1
+      STR_MEDALLION: 1
+      STR_SECTOWEED: 50
+    percentGainedStatChange:
+      tu: -10
+      stamina: -10
+      health: -10
+      bravery: 0
+      reactions: -10
+      firing: -10
+      throwing: -10
+      strength: -10
+      psiStrength: 0
+      psiSkill: -10
+      melee: -10
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+  - name: STR_CHORT_SUMMONING
+    requires:
+      - STR_SIMULACRUM
+    producedSoldierType: STR_SOLDIER_CHORT
+    producedSoldierArmor: STR_CHORT_ARMOR_UC
+    keepSoldierArmor: false
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: true
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_SOLDIER_S
+      - STR_SOLDIER_M
+      - STR_SOLDIER_V
+      - STR_SOLDIER_X
+      - STR_SOLDIER_R
+      - STR_SOLDIER_W
+      - STR_SOLDIER_PEASANT
+      - STR_SOLDIER_HYBRID
+      - STR_SOLDIER_LOKNAR
+      - STR_SOLDIER_SPECTRE
+    requiredMinStats:
+      psiStrength: 40
+    cost: 10000
+    transferTime: 48
+    requiredItems:
+      STR_SIMULACRUM_INACTIVE: 1
+      STR_ZORTRIUM_CRYSTAL: 3
+    requiresBaseFunc:
+      - SUR
+      - SUMM
+      - REDM
+    flatOverallStatChange:
+      psiStrength: -3
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    upperBoundAtStatCaps: false
+  - name: STR_SOLDIER_TYPE_SYNTH_REVIVAL
+    requires:
+      - STR_SYNTH_EXAMINATION
+    producedSoldierArmor: STR_SYNTH_NUDE_UC
+    keepSoldierArmor: false
+    createsClone: false
+    needsCorpseRecovered: true
+    allowsDeadSoldiers: true
+    allowsLiveSoldiers: false
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER_SYNTH
+    requiresBaseFunc:
+      - SUR
+    cost: 50000
+    recoveryTime: 12
+    requiredItems:
+      STR_SYNTH_CORPSE: 1
+      STR_MEDICAL_SUPPLIES: 75
+      STR_ALIEN_ALLOYS: 4
+    percentGainedStatChange:
+      tu: -5
+      stamina: -5
+      health: -5
+      bravery: 0
+      reactions: -5
+      firing: -5
+      throwing: -5
+      strength: -5
+      psiStrength: 0
+      psiSkill: 0
+      melee: -5
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+#eof    

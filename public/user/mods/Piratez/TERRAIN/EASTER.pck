@@ -1,0 +1,24 @@
+‏‏נבבP‏נפבבPPP‏עעPנPPעע‏נבPעעפ‏עננעעעפR[‏עענעעעWWWW‏פעענעעפWWWWW‏פפעפעYWWWWW‏צפפצעעXWWWR[‏צצפצעעWWWWWW‏רצצפעWWWWWW‏צצצעעעWWWWW‏רעעעWWR[‏רררעWWWW‏רעפWWWW‏שפררעWWWWW‏רפעעפWWWR[‏עפעפ[WWWWW‏נפצעפV[WWWWW‏פעעעע[V[WWWWW‏עעענ[V[WWWR[‏צנפעעV[W[WWWWW‏פעעW[WWWWWWW‏פעעWWWWWWWWW‏עעעWWWWWWWWR[‏נצעעWWWWWWWWWW‏נעWWWWWWWW‏נעעWWWWWW‏נעעWWWWW‏פעWWWW‏עעWW‏[עעÿ
+‏ננננעע‏ננעעפ‏עננצעצפ‏עPבנצעע‏נבבבעעעפפ‏נבבPבעעפ[פע‏נבנ–Wנבעעפ[[עע‏
+ננXWXWנבעפ[[XWפ‏
+WWWUUUWW[XWWWYעע‏נבUWXUTUUWWXWWWYYפע‏UXWUTUUWWWWWYYXפ‏נUUWWUTUUWWWYYXWWWעע‏נבUUWXUTUUWWYXWWWYYפע‏נUUXWUTUUWWXWWWYYפ‏נUUWWUTUUWWWWWYYXWעע‏נבUUWXUTUUWWWYYXWWפע‏נXWUTUUWWYXWWWYפ‏
+בXUWUTUUWWXWWWYYעע‏	XWUXUTUUWWWWWYYפע‏
+נUUUWUTUUWWWYYXWפ‏	בWUUUWUTUUWWYXWWWעע‏	נWWUTUUWWXWWWYפע‏	STXUUTUUWWWWWYYפע‏	בUTSTXWUUTUUWWWYY[ע‏	UUUTSTUUTUUWWY[[עע‏UUUUTSTTUUWW[[עע‏UUUUTTUUWW[WW‏UUUUUUWWWW‏UUUUWWWW‏UUWWÿ‏בבב‏PP‏בבבבנננפ‏נעפ‏ננפפ‏נעננננעפנ‏נצנננעננעעעעננ‏נפנפעעפנפעעעעפנ‏פפעצעעענפעעעצנ‏פפצפעצרררעפנ‏עצרררפפענ‏פפענצננ‏שרשעעעעעפע‏רצנננצנפנע‏צענננעצנפנ‏צפענננעצנע‏צפצצצפנעעפנענ‏פפפפצננעפעע‏צענפצפנצעפנננ‏ננענפפעעענעענע‏ננעפעעPנעעעעעענ‏ננעצעPננעעעעעננננ‏נעפפPעעעפעעענענ‏נפצנPננפעצעעעננפ‏בנפפנבבננפעצענעענפ‏עעפבעעפפעננעעבע‏בעעפעעעעננעע‏בע‏
+בבעפעפעעעעעע‏ע‏
+בנערנננעפצ‏בבבנ‏ננצענ‏Pב‏נפ‏בPב‏בÿ‏צפצ‏עפצעצ‏ננעעצ‏בנעעעפננ‏נעעעבנעעע‏בנעענבנעפע‏UUבענעצנע‏UüVUנעפנפ‏UüWüVUבעעעעצ‏UüWüWUUעעעעפ‏UüXüWUUפעעעע‏UüYüXUUבצנפעע‏Uü[üYUUפעצעע‏Uüü[UUעצעענ‏UüüUUבעפעענ‏UüüUUעעפנע‏Uü°Uעעעענפ‏UüUבעעעעעצ‏UüüUעעעעעפ‏UüüUעעעעעעע‏U[üüUעפעעפעע‏UYü[üUבנצנעצנע‏UXüYüUנפנעפנע‏UWüXüUעעעעעעע‏UWüWüUעעעעעעע‏UVüWüUבעעעעעעע‏UUUVüUעעפעעעע‏UUUUUUנפצנעפע‏UUUUנצענעצ‏UUבנפנע‏עעÿ‏‏בT‏RRST‏בRRRRST‏RRRRRRST‏עRRRRRRRRST‏ננבRRRRRRRRRST‏עRRRRRRSTWW‏ענעעRRRRSTWWWW‏נעבRRRSTWWWWWW‏נעRRSTWWWWYVWW‏עעRSTWWWWYYWUWW‏נעבTWWWWYVY‏USWW‏ענעעWWWYYWUY‏USWW‏פעעעWYVY‏USY‏USWW‏PPעWUY‏USY‏USWW‏בבבעעVSY‏USY‏USWW‏עעעUSY‏USY‏USWW‏USY‏USY‏USWW‏צצצצעUSY‏USY‏URWW‏נעעעUSY‏USY‏S°WW‏עפפעעUSY‏URYSUWWW‏עננצצצצעUSY‏S°UWWWWW‏
+ננבבעעURYSUWWWWWWW‏	נעבעע‏S°UWWWWWWWWW‏בעעSUWWWWWWWWWWW‏בבבבבצצצצעעWWWWWWWYWWW‏בPPבבצפפפעעVUVWWY‏WWW‏בבPPPבצפפעעVWWY‏™WWW‏בPPבPבנצפפעעעWX‏‏WWW‏בבבנפפפעעVSX‏YWWW‏
+פפעעVUX‏YWWW‏צפעעעVYWXYWWW‏צפנעעVWWXWWW‏פנעWXWWW‏עעWWWÿ‏בבבב‏בבPבבPבב‏בבPב°WRWSWSב‏בPבבRR°WSWSWSPבבבב‏בבRRRR°TSTSTSSבבPבבב‏TSRRRRRRRRRRRRRRRבPב‏
+בUUTSRRRRRRRRRRRRSTעע‏
+UUUUTSRRRRRRRRSTWWע‏
+VWUUUUTSRRRRSTWWWWעע‏
+בVVVWUUUUTSSTWWWWT[עע‏
+VUWVVWUUUUWWWWWXU[ע‏TWVVVVWUUWWWWXV[עע‏בTWVUWVV°XR[WWWXWXעע‏VTWVVVUWWWWXXע‏בTWVVUUWWWWWWWעע‏WPVUUWWWWWWעע‏בVV°XR[WWW׃׀ע‏VVVUWWWW׀׀עע‏בVVUUWWWW׀׀עע‏בVUUWWWW׀ׁע‏ננVV°XR[WW׀׃עע‏ננעעפבVVUWWWW׀עע‏בעפפצVUUWWWW׀ע‏צVUUWWWW׀עע‏בUWבבV°XR[WW׀ע‏
+TVVVUWבVVVUWWWW׀ׂעע‏בUUTTVVVWVVUUWWWWׁׁׂע‏	UUUUTTVVUWVUUWWWWׁׁׂׂעע‏
+UUUUTTVVVV°XR[WW׃ׂUVWעע‏
+UUUUTTVVVUWWWWUVWWWW‏UUUUTTUUWWWWWWWW‏UUUUUUWWWWWW‏UU°XR[WW‏VUWWÿ‏TSST‏TSR°בבPבע‏TSR°בPבבעענב‏בSR°בבבבעעפעעבפ‏ערבבבבPבפצעעצנננצ‏בפנבPבענפצעצנעפ‏
+Pבנצפענפעעפענעפננפנ‏בPבנפצפעננענפפנצנענצענ‏PPבפעפצנעעעעעענפנעפפצ‏
+בבבענפפנעפעעפעעעעענצ‏
+נפנפפעעפנפצנעעעעצ‏רצצפפעענפפנעעעעענפ‏צעפפפעעעעענעפעעעעע‏נננעעפצפעעעעעעעצנעעפצ‏פעעננפצעעעצפעעעפנעפרר‏צצענפעעעננעעעפצר‏פצענפפעפנעפצ‏ברפצצפפעעעפ‏בבבבפפעעפצר‏עצפפפצצר‏צצפפעפצרצרצפ‏ננענצפררצצפצ‏
+ננצפפרצררצרפעענ‏ננעצעצצררצפפנעבננ‏ענעפפשצפנבPננננ‏עפצפצפעעענננ‏ננצרצעעבPPבנענננ‏נפצרצננעPבPPבPננננ‏עצשפררפפפנPבPPPבננננננננ‏צרצצצענעPבבבבננננננננ‏פעפעננננבבבבעננננננננ‏	צעעננעעננננננע‏
+עננעננננננננע‏נפענפנננננ‏עעפננ‏נננננ‏נננÿ‏TSP‏TSR°בבב‏TSR°RRRבבPב‏TSR°RRRRR°בבב‏TSRRRRRRRRבבPבע‏UUTSRRRRבבבבעצנ‏UUUUTSRבבPנעעפנ‏UUUUUUבעעפעעעע‏UUXWUUצעפנפעע‏UUXWXWבצעעצנפ‏UUXWWWעעצע‏UUXWUUפעע‏UUXWUבפ‏UUXWרש‏UUXWר‏UUXWבצצצ‏UUXWעפ‏UUXWפצ‏UUXWצרצ‏UUXYבצ‏UUXצ‏UUXר‏UUXרצצ‏UUXבצצפצצ‏UUXצצפעעעפפפ‏UUXעענננעעצפ‏UUXבנננננעעעצ‏UUTSTבפנננפצ‏
+UUUUTSTבענננננננעפ‏UUUUTSTXננעעענננננעצ‏UUUUTSננפעעננננענפ‏UUUUTבעעננננננפנע‏UUUענננננננעע‏UUננענננענ‏בענעענ‏עÿ

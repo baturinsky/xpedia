@@ -1,0 +1,2899 @@
+it:
+  STR_USA: "LA CONFEDERAZIONE"
+  STR_RUSSIA: "AUTONOMIA EURASIATICA"
+  STR_UK: "TRIBÙ DI FERRO"
+  STR_FRANCE: "EUROSINDACATO"
+  STR_GERMANY: "MARCANERA"
+  STR_ITALY: "ROMANICA"
+  STR_SPAIN: "FEDERAZIONE DEL NORD"
+  STR_CHINA: "PROVINCIA CENTRALE"
+  STR_JAPAN: "FUSO"
+  STR_INDIA: "CANCELLI FANTASMA"
+  STR_BRAZIL: "DOMINIO OSCURO"
+  STR_AUSTRALIA: "REAME MORTALE"
+  STR_NIGERIA: "DISTESA NASCOSTA"
+  STR_SOUTH_AFRICA: "CAMPI RIBELLI"
+  STR_EGYPT: "ALVEARE TEBANO"
+  STR_CANADA: "REGNO DEL CANADA"
+  STR_NCR: "REPUBBLICA DI CALI"
+  STR_LATIN_EMPIRE: "IMPERO LATINO"
+  STR_TECHNOCRACY: "LA TECNOCRAZIA"
+  STR_TURAN: "TURAN"
+  STR_INDONESIA: "STRETTO DEL PIRATA"
+  STR_CHILE: "PATTO D'ACCIAIO"
+  STR_VENEZUELA: "RIVOLUZIONE ROSSA"
+  STR_NEW_YORK: "Porto della Sorte"
+  STR_WASHINGTON: "Cancello dei Traditori"
+  STR_LOS_ANGELES: "Ossario"
+  STR_MONTREAL: "Guglia Notturna"
+  STR_HAVANA: "Costa Amara"
+  STR_MEXICO_CITY: "Il Monolito"
+  STR_CHICAGO: "Città Tifone"
+  STR_VANCOUVER: "Stretto della Battaglia"
+  STR_DALLAS: "Dallas D.C."
+  STR_BRASILIA: "Speranza"
+  STR_BOGOTA: "Pietra Deformata"
+  STR_BUENOS_AIRES: "Circo del Silenzio"
+  STR_SANTIAGO: "Memoria della Terra"
+  STR_RIO_DE_JANEIRO: "Disperazione"
+  STR_LIMA: "Limbo"
+  STR_CARACAS: "Torre delle Anime"
+  STR_LONDON: "Spettrale"
+  STR_PARIS: "Città del Sindacato"
+  STR_BERLIN: "Città Libera"
+  STR_MOSCOW: "La Cittadella Nera"
+  STR_ROME: "Punto Zero"
+  STR_MADRID: "Sale della Follia"
+  STR_BUDAPEST: "Il Bastione"
+  STR_LAGOS: "Mano del Dio Uccisore"
+  STR_CAIRO: "Tebe"
+  STR_CASABLANCA: "Città Dimenticata"
+  STR_PRETORIA: "Santuario Nero"
+  STR_NAIROBI: "Sempre-Mutevole"
+  STR_CAPE_TOWN: "Abisso"
+  STR_KINSHASA: "Pandemonio"
+  STR_ANKARA: "Rovina dello Spettro"
+  STR_DELHI: "Caverne Proibite"
+  STR_KARACHI: "Fortezza di Pietra"
+  STR_BAGHDAD: "La Biblioteca"
+  STR_TEHRAN: "Il Labirinto"
+  STR_BOMBAY: "Lacrime della Dea"
+  STR_CALCUTTA: "Giardini di Gioia"
+  STR_TOKYO: "Alba"
+  STR_BEIJING: "Città Proibita"
+  STR_BANGKOK: "Vecchio Campo da Battaglia"
+  STR_MANILA: "Il Mercato Nascosto"
+  STR_SEOUL: "Ponte Astrale"
+  STR_SINGAPORE: "Singapore"
+  STR_JAKARTA: "Palazzo della Libertà"
+  STR_SHANGHAI: "Alta Roccia"
+  STR_HONG_KONG: "Porto Blasfemo"
+  STR_NOVOSIBIRSK: "Rifugio delle Streghe"
+  STR_CANBERRA: "Arena Segreta"
+  STR_WELLINGTON: "Il Rifugio Dorato"
+  STR_MELBOURNE: "Terminus"
+  STR_PERTH: "L'Antro del Diavolo"
+  STR_HELSINKI: "Hel"
+  STR_CONSTANTINE: "Constantine"
+  STR_KARAGAND: "Crocevia"
+  STR_KARAKORUM: "Karakorum"
+  STR_VLADIVOSTOK: "Luci del Nord"
+  STR_JERUSALEM: "Gerusalemme"
+  REGION_CITIES: "Da qualche parte"
+  REGION_CITIES_3: "Da qualche parte"
+  REGION_CITIES_4: "Da qualche parte"
+  REGION_HELLO_WORLD: "CIAO MONDO"
+  REGION_WORLD_ACADEMY: "Globale"
+  REGION_WORLD_GUILD: "Globale"
+  REGION_WORLD_MEGAPOL: "Globale"
+  REGION_WORLD_BANDIT: "Globale"
+  REGION_WORLD_MARSEC: "Globale"
+  REGION_WORLD_NECRO: "Globale"
+  STR_AGGRESSIVERETALIATION_DESC: "Gli UFO tenteranno di rilevare le basi in qualsiasi momento, indipendentemente dai loro parametri di missione."
+  STR_STORAGELIMITSENFORCED_DESC: "[YARR!!!] Attua i limiti generali del contenimento alieno e del magazzino per gli alieni vivi e gli artefatti recuperati dalle missioni."
+  STR_CANSELLLIVEALIENS_DESC: "[YARR!!!] Consente la vendita di alieni vivi, raccomandata quando si utilizzano limiti di spazio."
+  STR_BATTLEINSTANTGRENADE_DESC: "[SPARISCI] Le granate preparate per esplodere in 0 turni esploderanno immediatamente quando vengono lanciate, invece che alla fine del turno."
+  STR_BATTLEUFOEXTENDERACCURACY_DESC: "[YARR!!!] La precisione degli spari diminuisce dopo una certa distanza, in base al tipo di colpo. La precisione corretta verrà visualizzata sul cursore."
+  STR_CANTRANSFERCRAFTSWHILEAIRBORNE_DESC: "[YARR!!!] I velivoli attualmente in volo possono essere trasferiti."
+  STR_CRAFTLAUNCHALWAYS_DESC: "[YARR!!!] I velivoli possono essere lanciati anche quando non sono pronti, annullando la necessità di manutenzione."
+  STR_GLOBESEASONS_DESC: "[YARR!!!] Usa una proiezione più realistica della luce del sole sul Geoscape secondo l'inclinazione assiale della Terra."
+  STR_SHOWMORESTATSININVENTORYVIEW_DESC: "[YARR!!!] Mostra informazioni extra sul soldato selezionato nella schermata di inventario."
+  STR_STRAFE_DESC: "[YARR!!!] Abilita lo strafe, la corsa ed il movimento indipendente della torretta del tank premendo CTRL."
+  STR_BATTLEEXPLOSIONHEIGHT_DESC: "[SET 2 MATE] Cambia la distanza delle esplosioni in altezza.{NEWLINE}(Piano: 0, Tondo: 3)"
+  STR_ALLOWPSIONICCAPTURE_DESC: "[YARR!!!] Il controllo mentale di tutti gli altri alieni si traduce in vittoria, e contano come catturati."
+  STR_WEAPONSELFDESTRUCTION_DESC: "[SPARISCI] Le armi trasportate dagli alieni si autodistruggono se il loro proprietario viene ucciso, come in XCOM 20XX."
+  STR_ALLOWPSISTRENGTHIMPROVEMENT_DESC: "[SPARISCI] La forza psionica dei soldati può essere migliorata con l'esperienza e l'allenamento."
+  STR_BATTLEHAIRBLEACH_DESC: "[YARR!!!] Cambia gli sprite nel Battlescape del soldato in modo che corrispondano al loro aspetto nell'inventario."
+  STR_ALIENBLEEDING_DESC: "[YARR!!!] Permette alle ferite mortali di essere inflitte alla maggior parte degli alieni."
+  STR_FORCE_FIRE_DESC: "[YARR!!!] Permette di forzare i tuoi soldati a sparare tenendo premuto CTRL, indipendentemente dalle regole della linea di fuoco."
+  STR_SMALL_SCOUT_UFOPEDIA: "Questo piccolo velivolo viene principalmente utilizzato per ricognizione o ricerca. Normalmente precede le navi più grandi all'inizio di una missione. Ha un equipaggio di uno e un piccolo valore di bottino."
+  STR_MEDIUM_SCOUT_UFOPEDIA: "Un piccolo vascello non da combattimento che rappresenta una piccola minaccia per la tua imbarcazione. Utilizzato da Accademici e Commercianti nella maggior parte delle missioni. L'equipaggio è composto da 5 a 10 membri, metà dei quali civili.{NEWLINE}Max DPM: 39"
+  STR_LARGE_SCOUT_UFOPEDIA: "Una nave di uso generale utilizzata da Accademici e Commercianti per missioni più impegnative. Può contenere un equipaggio da 7 a 19, sempre incluso un Ingegnere. Principalmente inoffensivo.{NEWLINE}Max DPM: 52"
+  STR_HARVESTER_UFOPEDIA: "Come da nome, la Nave Santuario è la nave principale della Chiesa, ed è talvolta comandata da un Reverendo o addirittura da un Cardinale. Può contenere un equipaggio piccolo come 11 fino ad un massimo di 31, armato di laser e lanciafiamme.{NEWLINE}ARMATURA: 10; SCUDI: 200 (Reg x1); Max DPM: 172"
+  STR_ABDUCTOR_UFOPEDIA: "Sebbene non sia realmente una nave da guerra, questa nave rappresenta un livello d'elite della tecnologia e ospita un equipaggio d'élite, quindi è meglio non sottovalutarla. Viene normalmente utilizzata per missioni speciali.{NEWLINE}SCUDI: 500 (Reg x3); Max DPM: 164"
+  STR_TERROR_SHIP_UFOPEDIA: "Questa è solo una grande nave. Le sue armi potrebbero non essere le più potenti in circolazione, ma è blindato e può sostenere molti danni. Tuttavia, abbatterlo darà molta infamia.{NEWLINE}ARMATURA: 5; DPM Max: 156"
+  STR_BATTLESHIP_UFOPEDIA: "L'Incrociatore è uno dei vascelli più grandi e potenti che siano stati costruiti, dotato di un equipaggio altamente specializzato. A peggiorare le cose, è stato specificamente progettato per azioni di abbordaggio, e può essere usato per attaccare direttamente il nostro Covo..{NEWLINE}ARMATURA: 25; DPM Max: 272"
+  STR_SUPPLY_SHIP_UFOPEDIA: "Le navi da rifornimento servono per portare provviste nelle Basi Segrete nemiche. Posso essere attaccate facilmente quando atterrano, ma fa attenzione, il delicato equipaggiamento che montano non può cadere nelle mani dei nemici, per questo il programma di autodistruzione farà esplodere il nucleo dopo circa 20 turni, distruggendo la nave. La perdita di plasma indica che l'esplosione è imminente."
+  STR_ACCESS_LIFT_UFOPEDIA: "L'ascensore d'accesso è sempre la prima struttura che viene costruita in un nuovo nascondiglio. È abbastanza facile capire cosa fa. O almeno spero. VA BENE. Permette l'accesso di ospiti desiderati e indesiderati. Soprattutto quei maleducati che fanno saltare in aria la porta, se non rispondi al campanello. Non può essere reso completamente sicuro però, perché abbiamo bisogno del viavai di lavoratori e schiavi che vivono in superficie."
+  STR_CORRIDOR_UFOPEDIA: "Un semplice passaggio a 4 vie con una camera centrale, può essere costruito per collegare le parti periferiche di un Covo alle tubazioni e alla rete elettrica. Separa anche dalle fogne, rendendole impraticabili ai nemici. È dotato di una telecamera di monitoraggio. Per costruire più corridoi, avremo bisogno di imparare qualcosa su Elettrica ed Elettronica"
+  STR_FIRE_PIT_UFOPEDIA: "Chiunque passi con noncuranza attraverso questo corridoio apparentemente normale scatenerà bombe incendiarie nascoste nelle sue mura. Anche se non arrostiscono il trasgressore, li bloccheranno almeno per un momento. Attenzione: i fusibili non sono infallibili e a volte non riescono ad armarsi immediatamente."
+  STR_GAS_CHAMBER_UFOPEDIA: "Questa stanza è equipaggiata con bombe nascoste, che rilasciano potenti gas soporiferi quando qualcuno ci cammina vicino. Catturare i prigionieri non è mai stato così facile, a meno che non indossino maschere antigas."
+  STR_HYDROPONICS_UFOPEDIA: "Con l'aiuto degli agricoltori locali e con la comprensione dell'ecosistema del nostro Covo, abbiamo escogitato come coltivare piante sotterranee per cibo e profitto. La ben nota pianta Zona, il Grano Uber, è una coltura ideale, crescerà rapidamente sul nostro fango di Hellerium e ci fornirà guadagni mensili per $120k. Il Grano Uber ha molti usi: può essere distillato in alcool, dato in pasto a Mietitori mutati (e per mutare i Mietitori), cotto nel Pane Uber e ogni sorta di sfiziosa pasticceria! La farina è anche molto molto esplosiva. È possibile che potremmo imparare forme di agricoltura più avanzate in futuro..."
+  STR_HYDROPONICS_WEED_HARVEST_UFOPEDIA: "L'automatizzazione di illuminazione e irrigazione ci ha permesso di dominare la crescita di una pianta notoriamente difficile, ma molto utile: la Secterba. L'agricoltura non è per gli stupidi e ha bisogno di seguire alcuni passaggi:{NEWLINE}1) Costruisci la piantagione di Secterba, questo richiede 12 Secterbe. Può essere costruito come nuovo, o sopra una Piantagione esistente, quest'ultimo ci risparmia $80k.{NEWLINE}2) Quando è pronta, 'Smontala' per cambiare il regime dell'acqua e della luce, promuovendo la seconda fase della crescita. Questo costerà $40k.{NEWLINE}3) Una volta completamente cresciuta, \"Smontala\" di nuovo per la raccolta (costa $5k). Questo ci frutterà 240 Secterbe e lascerà una Piantagione standard."
+  STR_HYDROPONICS_BOOM_HARVEST_UFOPEDIA: "Far crescere il Frutto Boom è una sfida, in quanto dobbiamo assicurarci che non faccia esplodere tutto. Ciò significa costi maggiori e necessità di muri più forti.{NEWLINE}1) Costruisci Una Piantagione Boom, questo richiede 10 Frutti Boom e 10 Hellerium. Può essere costruito come nuovo, o sopra una Piantagione esistente, quest'ultimo ci risparmia $80k.{NEWLINE}2) Quando è pronta, \"Smontala\" normalmente, per $50k.{NEWLINE}3) Quando è completamente cresciuta, 'Smontala' di nuovo per la raccolta (costa $10k). Questo ci frutterà 100 Frutti Boom e lascerà una Piantagione standard."
+  STR_CASINO_UFOPEDIA: "Un tempio per il vizio umano, costruito in collaborazione con Jack. Finanzia i premi e fa marketing, in cambio della metà dei profitti. L'altra metà, tuttavia, è ancora molto. Inoltre, questa cooperazione significa che possiamo scambiare qualsiasi Coupon del Casinò con premi reali! È possibile costruire un solo Casinò per Covo, e la sua creazione richiede una notevole quantità di Fiche: 1 Ossidiana, 6 Oro, 36 Argento, 216 Viola, 1296 Blu e 7776 Rosse."
+  STR_STILL_UFOPEDIA: "Un capolavoro di tecnologia, un simbolo di trionfo della mente sulla materia, un luogo di felicità. Un edificio tutto in uno, anche se un po' puzzolente. Senza presenza sul posto, un Covo non può produrre bevande alcoliche. Oltre a fornire questa funzionalità, fornisce spazio di lavoro per 10 Nani, ma senza Officine presenti, è possibile utilizzarlo solo per produrre alcolici. Richiede la presenza di un Estrattore.{NEWLINE}Costruire una nuova Distilleria richiede Alchimia."
+  STR_ONSEN_UFOPEDIA: "Le qualità curative delle sorgenti calde sono ben note; è ridicolo che non ci siamo resi conto del suo pieno potenziale in precedenza, nonostante stessimo seduti su una vera e propria miniera di fanghi caldi, sani e luminosi! Aggiungete a questo un'atmosfera quasi salutare, liberatrice della mente dei fumi di Secterba, e abbiamo una struttura che non solo migliora il tasso di recupero di tutti nel Covo dello 0,5% dei loro PV massimi giornalieri, ma funge anche da centro culturale! Dicono che non dovresti giocare o nuotare nell'Onsen, ma non siamo stupidi Ninja dei Cieli e possiamo anche usare l'Onsen come un piccolo centro di addestramento (fino a 4 Membri della Ciurma)."
+  STR_LUXURY_SPA_UFOPEDIA: "Oltre all'enorme piscina (yaaay!), questa struttura contiene tutti i tipi di miglioramenti di intrattenimento, ricreativi e di allenamento: un ring da combattimento, una terrazza giochi (con una splendida vista), una sala giochi, una sauna e altro ancora. Non solo consente a 40 Membri della Ciurma di migliorare la propria forma fisica, ma potrebbe essere utile anche per addestrare i nostri auxilia, e in genere aumenta il livello civile e igienico di un Covo, migliorando così il recupero delle ferite dello 0,65% di PV Max al giorno. Il codice di abbigliamento di questa struttura dice \"meno è, meglio è\", un costume da bagno è il massimo consentito. È consentito un solo Spa per Covo.{NEWLINE}Costruire questa struttura richiede 4 Schiavi e 6 Ancelle."
+  STR_GYM_ROOM_UFOPEDIA: "Questo edificio ospita un corso di addestramento speciale e pericoloso, che, aiutato da certe sostanze chimiche, migliora le statistiche dei tirocinanti su base giornaliera. La struttura consiste in un poligono di tiro (con obiettivi che rispondono al fuoco), un ring da pugilato, pesi e, ultimo ma non meno importante, una sala giochi! Tuttavia, il corso è molto intenso e ogni Dojo può servire solo 8 Membri della Ciurma alla volta. I feriti non beneficiano del Dojo fino a quando non sono completamente guarite. Il Dojo non può allenare le statistiche oltre una certa soglia: 66 (Forza, Salute, Lancio); 85 (UdT, Tiro); 100 (Melee, Resistenza). Le Reazioni e il Coraggio non sono allenabili."
+  STR_LIBRARY_UFOPEDIA: "Questa struttura di lusso è utilizzata per memorizzare tutti i tipi di libri, carta, cristallo ed elettronica, romanticismo, avventura, erotismo e persino occasionali lavori arcani. Può servire come luogo di lavoro per un singolo Cervellone, ma ciò che è più importante, è assolutamente necessario per alcuni dei progetti di ricerca e fabbricazione più fantasiose. Tuttavia, i buoni libri sono difficili da trovare ed estremamente costosi, quindi stabilire un posto del genere è una spesa importante (alcuni direbbero uno spreco di denaro)."
+  STR_GDX_LAB_UFOPEDIA: "Un laboratorio avanzato, costruito utilizzando la conoscenza del Dr. X (non così avanzato come il vecchio laboratorio che hai, però). Può esserne costruito solo uno. Fornisce spazio di lavoro per 10 Cervelloni. Richiede la costruzione di una Sala Chirurgica."
+  STR_RED_TOWER_UFOPEDIA: "Il luogo in cui dimora il Mago Rosso. Fornisce funzionalità come Laboratorio, Biblioteca e Cerchio d'Evocazione. Qui possono lavorare fino a 5 Cervelloni."
+  STR_MESS_HALL_UFOPEDIA: "Nessun Covo è completo senza questo stabilimento! Serve bevande fresche dalla Distilleria (ne richiede una), aumentando leggermente la velocità di recupero delle ferite della nostra Ciurma (specialmente quelle con Salute elevata). È anche un centro culturale, che fornisce un forum appropriato per discussioni pubbliche (non siamo più limitati all'Hangar!) E spazio di lavoro per 1 Cervellone; senza di essa, molti progressi culturali e alcune opportunità di missione saranno impossibili da ricercare. Può essere costruita solo una Sala Mensa per Covo."
+  STR_MED_BAY_UFOPEDIA: "Una struttura medica generale, che accelera il recupero delle ferite di tutta la Ciurma in un Covo - ad un prezzo. Guarendo 0,5 PV in più al giorno, riduce di un terzo i tempi di inattività. La tua Ciurma potrebbe lamentarsi del fatto che il recupero si sta affrettando, ma non si faranno beffe della compagnia delle infermiere, invece delle vecchie facce stanche nel dormitorio. Può essere costruita solo un'Infermeria per Covo, ma il bonus per il recupero della salute si accumula con qualsiasi bonus fornito da strutture simili (come se ne sapessimo qualcosa, ho, ho). Fornisce uno spazio di lavoro per un singolo Cervellone molto in forma.{NEWLINE}Costruire questa struttura richiede 10 Forniture Mediche."
+  STR_SURGERY_ROOM_UFOPEDIA: "Questo edificio ha bisogno di una Biblioteca per funzionare. Nota il doppio significato della parola, ha, ha. Comunque. Varie procedure chirurgiche necessitano di un ambiente così specializzato da essere eseguito, consentendo a tutti i feriti di recuperare un extra 0,25 PV oltre l'1% dei PV Max del soldato al giorno, quasi dimezzando i tempi di recupero. Questa struttura ospita anche 2 Cervelloni. È consentita solo una Sala Chirurgica per Covo.{NEWLINE}Costruire questa struttura richiede 3 Unità Chirurgica."
+  STR_CLONING_CENTRE_UFOPEDIA: "Questo edificio ci consentirà di coltivare ogni sorta di materia vivente, dagli organi agli organismi. Anche se non abbiamo ancora escogitato nulla, questo aiuterà con le cure mediche, recuperando 0,75 PV ogni giorno a tutta la Ciurma presente sul posto. Il potere della Creazione è ora nostro! Fino a dieci Nani possono lavorare in questa struttura, che richiede l'intervento di una Sala Chirurgica. È consentito un solo Centro di Clonazione per Covo."
+  STR_STUDY_ROOM_UFOPEDIA: "Se vogliamo aumentare seriamente la nostra velocità di ricerca, costruire le Camere di Studio è la nostra migliore opzione. Ognuna di esse a 2 Cervelloni di lavorare su qualsiasi progetto di tua scelta. Tuttavia, un Covo ha prima bisogno di almeno: una Biblioteca, una Sala Chirurgica, una Distilleria (per aiutare con il pensiero astratto) e una Centrale Elettrica"
+  STR_DATA_CENTER_UFOPEDIA: "Ognuna di queste strutture consente di elaborare dati ad alta capacità, ospitando fino a 4 Cervelloni. Tuttavia, è necessario un computer centrale per diventare un nucleo della rete del Centro Dati (possiamo usare quello del nostro Laboratorio) e anche una Biblioteca per i materiali di riferimento. Un Centro Dati richiede la costruzione di 6 IA Schiave. Un singolo Covo può supportare fino a tre Centri Dati."
+  STR_COMPUTER_CORE_UFOPEDIA: "Questa struttura ospita una batteria di computer oscenamente costosi e potenti, che ci consente di elaborare megatoni di numeri. Può essere usato per condurre hacking, proprio come il Laboratorio, e dà spazio di lavoro per 4 Cervelloni extra. Questa capacità extra può rivelarsi utile, poiché è richiesta la struttura (insieme ad una Biblioteca) per perseguire il progetto di ricerca \"Studi Superiori\", che ci consentirà di sbloccare tecnologie ancora più elevate, ma è probabile che sia estremamente lento da completare.{NEWLINE}Costruire questa struttura richiede 20 IA Schiave. É consentito solo uno per Covo."
+  STR_REFINERY_UFOPEDIA: "Permette la produzione di Agenti Chimici e armi chimiche avanzate. Fornisce spazio di lavoro per 10 Nani e spazio laboratorio per 1 Cervellone. Richiede la costruzione di un Estrattore."
+  STR_MINT_UFOPEDIA: "Fornisce strumenti per fare soldi contraffatti. Averlo presente in un Covo ti permette di fare Ctrl+P su tutti i tuoi problemi finanziari come se fossi la Gilda dei Mercanti, quanto è bello? Fornisce spazio di lavoro per 10 Nani.{NEWLINE}Costruire questa struttura richiede uno Scanner Industriale."
+  STR_POWER_PLANT_UFOPEDIA: "Questa struttura, anche se piuttosto costosa da costruire, inizia immediatamente ad essere una fonte di guadagno poiché può essere utilizzata per alimentare altre strutture e l'eventuale elettricità in eccesso può essere venduta. Inoltre, abbiamo bisogno di questa struttura per qualsiasi processo di fabbricazione che richieda una densità di energia insolitamente elevata.{NEWLINE}La costruzione di questa struttura richiede 2 Motori per Imbarcazione."
+  STR_WELL_UFOPEDIA: "Un luogo industriale, ha un pozzo che raggiunge le viscere della Terra e ci consente di estrarre varie risorse dal nuvola radioattiva e viscida che ci tiene tutti irradiati. Permette fino a 20 Nani di produrre varie apparecchiature semplici. Tieni a mente che le cose che richiedono strumenti complessi, come le armi da fuoco, non possono essere fabbricate qui. Alcuni progetti richiedono spazio, limitando il numero di lavoratori. Un singolo Covo può supportare al massimo 3 Estrattori.{NEWLINE}ATTENZIONE: dopo l'avvio di un progetto (è stato fatto clic su \"AYE\"), l'annullamento distruggerà TUTTI i componenti allocati. Per evitarlo, assicurati di eliminare immediatamente i progetti indesiderati con il pulsante \"SPARISCI\". Il pulsante 'RIMBORSO', se presente, restituisce componenti e denaro."
+  STR_INDUSTRIAL_PRINTER_UFOPEDIA: "Questa è una struttura tipo l'Officina. Anche se meno efficiente rispetto a 4 Officine equivalenti (che fornisce spazio di lavoro per soli 100 Nani), è sicuramente più economica. Ancora più importante, consente la produzione di oggetti con una struttura interna molto complessa, soprattutto armature avanzate.{NEWLINE}Costruire questa struttura richiede 3 Scanner Industriali."
+  STR_FACTORY_UFOPEDIA: "Guarda fin dove siamo arrivati, Capitano. Da un nascondiglio schifoso e angusto, a questo - il nostro centro di produzione industriale. Può fornire un'area di lavoro per un massimo di 400 nani, riducendo i costi operativi di quasi la metà rispetto a un'Officina in piena attività. Una Fabbrica richiede una Centrale Elettrica.{NEWLINE}Costruire questa struttura richiede 500 Plastacciaio."
+  STR_BURROW_UFOPEDIA: "Una caverna per uso generale piena di stile (e piena di spifferi). Può ospitare fino a 10 persone e 10 animali (domati o meno). Fornisce anche 25 spazio di archiviazione."
+  STR_BEAST_DEN_UFOPEDIA: "Una grande grotta che può contenere fino a 20 animali e 50 unità di stoccaggio. Semplicemente perfetto per coloro che credono che non ci sia una difesa da Covo migliore di un battaglione di cani."
+  STR_LIVING_QUARTERS_UFOPEDIA: "Qui è dove viviamo, mangiamo, ci riprendiamo dalle ferite e facciamo ogni genere di cose (meglio lasciate non dette) per combattere l'infinita noia. Ogni blocco può contenere fino a 25 persone libere, sia che si tratti di ciurma, nani o cervelloni."
+  STR_LIVING_QUARTERS_SMALL_UFOPEDIA: "Impianto radar piccolo ed economico con 10 posti letto e 25 vani di stoccaggio, ideale per nascondigli. È di una varietà economica, con un raggio di rilevamento di 650 miglia nautiche, ma è in grado di rilevare qualsiasi oggetto volante entro quel raggio con una precisione del 100% (in condizioni ideali...) con scansioni effettuate ogni mezz'ora esatta."
+  STR_LIVING_QUARTERS_LARGE_UFOPEDIA: "Abbiamo progettato una versione più ampia e più efficiente delle Caserme, con ulteriori comfort per l'avvio (appena usciti dalla Discarica). Può ospitare fino a 135 persone e contiene un piccolo magazzino (50 spazi). Tuttavia, dato che tutta questa spazzatura è piuttosto costosa, la struttura è meno che economica."
+  STR_LIVING_QUARTERS_ADVANCED_UFOPEDIA: "Questa struttura all'avanguardia è sigillata a livello ambientale e, grazie a una migliore ergonomia e comfort di prima classe, ci consente di spremere 40 persone pur garantendo loro il buon sonno nella notte - se è quello che vogliono. Presenta anche un cannone laser difensivo montato sopra ed un radar di localizzazione. Tuttavia è consigliato inviare gli occupanti alle attività di caserma più spesso possibile, il sovraffollamento può funzionare finché non cominciano ad uccidersi a vicenda. Inoltre +5 spazio di stoccaggio."
+  STR_GENERAL_STORES_LARGE_UFOPEDIA: "Più grande è meglio, non è vero? Questi enormi caveau ci consentono di immagazzinare più bottino di quanti ne possa contare un pirata laureato in statistica (ovvero 515 unità)."
+  STR_GENERAL_STORES_ARMORED_UFOPEDIA: "Questo deposito avanzato può ospitare 175 unità di merce e/o magazzino ed è difeso da un'contraerea autonoma."
+  STR_JAIL_UFOPEDIA: "Ogni blocco di celle ha spazio per 15 ospiti speciali che possono essere rilasciati a scopo di riscatto - sia normalmente (Recinzione), sia dopo averli derubati dei loro possedimenti (con una resa migliore rispetto a un cadavere morto), se ne vale la pena; per farlo, controlla la categoria Furto nell'Officina. I numeri rappresentano: 1. parti di armature; 2. roba relativa alle fazioni; 3. merce comune. Riceverai anche il riscatto (in Fiche Blu), ma, dato che sono beni danneggiati, solo la metà del valore normale. Per rapinare un prigioniero, devi prima interrogarlo. I prigionieri interrogati, finché sono onorevoli, vengono rilasciati in cambio delle loro informazioni."
+  STR_PRISON_UFOPEDIA: "Questo grande edificio può contenere fino a 100 prigionieri. È dotato di serrature remote e sistemi di rilevamento elettronico. La sua torre di guardia può sparare con un piccolo cannone alle navi nemiche in fuga o in arrivo."
+  STR_LABORATORY_UFOPEDIA: "Oi Capitano, qui vedi il leggendario antico Laboratorio Scientifico di cui hai sentito parlare! Non toccare! Morde! Possiamo scoprire antichi e nuovi segreti per te - tutto ciò di cui hai bisogno è dare un ordine ai Cervelloni! Questo è un vero tesoro - qui abbiamo gli strumenti per inventare nuove cose, dare un senso alle vecchie cose e interrogare i prigionieri. Finché non avevamo un Laboratorio, eravamo solo banditi comuni. Possiamo stipare fino a 15 persone davvero costose prima che si ammazzino a vicenda. Gli oggetti ricercati verranno distrutti o portati via dai Cervelloni, con rare eccezioni.{NEWLINE}Il Laboratorio aumenta lo spazio di stoccaggio di 50."
+  STR_WORKSHOP_UFOPEDIA: "Una vera officina, dotata di strumenti moderni, è necessaria per fabbricare qualsiasi cosa che assomigli più ad una pistola laser che ad un'ascia di pietra (per fare quest'ultima, è sufficiente un Estrattore, o qualche volta anche qualche spazio inutilizzato in una Distilleria). La capacità massima è di 30 nani.{NEWLINE}Tuttavia, vi è un limite a ciò che il lavoro manuale è in grado di fare e la costruzione di più di un'Officina per Covo sarebbe inutile. Per aumentare la nostra potenza industriale, abbiamo bisogno di elaborare forme di produzione più avanzate."
+  STR_SMALL_RADAR_SYSTEM_UFOPEDIA: "Senza radar, sei effettivamente cieco. O almeno con un occhio solo, poiché rilevare qualsiasi preda richiede di pattugliare i cieli con la tua imbarcazione. Questo radar è una versione grande di un sistema ad alta risoluzione montato su imbarcazioni. Una scansione completa impiega 30 minuti e rileva automaticamente qualsiasi imbarcazione nel raggio di 1250 miglia nautiche.{NEWLINE}Costruire questa struttura richiede la tecnologia \"Comunicazioni\"."
+  STR_LARGE_RADAR_SYSTEM_UFOPEDIA: "Con una gamma di 2000 miglia nautiche, questo dispositivo copre un'area enorme, ma costa molti soldi. Tuttavia, può anche essere usato per bloccare i dispositivi di navigazione di atterraggio di unità nemiche, con la speranza di farli precipitare."
+  STR_FLAK_DEFENSES_UFOPEDIA: "Un cannone contraereo di dimensioni decenti, oppure tre, possono respingere alcune navi meno potenti dall'attaccare la nostra base. La struttura contiene anche una postazione di tiro difensiva, utile nella difesa di base."
+  STR_SAM_DEFENSES_UFOPEDIA: "Questa struttura accoglie gli ospiti indesiderati con una raffica di missili Stingray. Poco danno per il costo, ma un successo assicurato. Include un piccolo vano equipaggio per 5 occupanti."
+  STR_MISSILE_DEFENSES_UFOPEDIA: "Un silo che ospita missili nucleari Avalanche, pronto a salutare tutti gli ospiti non graditi. Disintegra le navi più piccole in una singola salva. Tuttavia, i missili hanno solo una piccola finestra di possibilità di sparare, a meno che non vogliamo far saltare la nostra stessa base, e ancora, sono necessari diversi colpi per distruggere le navi di classe militare, e ognuno di questi silo avrà una sola possibilità di sparare."
+  STR_LASER_DEFENSES_UFOPEDIA: "Una batteria stazionaria di pesanti cannoni laser potrebbe non essere imponente come un silo missilistico, ma è molto più precisa e molto meno costosa da mantenere. Contiene inoltre una torretta laser difensiva per quando il nemico è entrato all'interno del Covo."
+  STR_GAUSS_DEFENSES_UFOPEDIA: "Rispetto ad altri sistemi di difesa, una batteria di railgun può vantare un'elevata potenza di fuoco, ma è piuttosto costosa da mantenere. Come tutti i cannoni difensivi, ospita anche una torretta per le situazioni di assalto nemico."
+  STR_ALIEN_CONTAINMENT_UFOPEDIA: "Con l'uso delle Capsule di Stasi, possiamo ospitare 40 prigionieri in una piccola struttura, senza doverci preoccupare di nulla al mondo.{NEWLINE}Costruire questa struttura richiede 40 Capsule di Stasi."
+  STR_PLASMA_DEFENSES_UFOPEDIA: "Le Difese al plasma forniscono una protezione potente ed efficiente contro l'incursione da parte di imbarcazioni nemiche. Tuttavia, la struttura non può funzionare su una rete elettrica standard e richiede una Centrale Elettrica per funzionare. Contiene anche una torretta con cannone al plasma difensivo, inestimabile per spazzare i corridoi."
+  STR_PSIONIC_LABORATORY_UFOPEDIA: "Qui possiamo valutare l'abilità magica di tutta la ciurma sul ponte e aiutarle a sviluppare ulteriormente la loro stregoneria. L'effettivo potenziale magico (d'ora in poi chiamato Maestria VooDoo) è uguale al Potere VooDoo per l'Abilità VooDoo, quindi non aspettatevi molto da coloro che hanno una bassa potenza; ma almeno possono imparare alcune difese contro le arti oscure nemiche qui, visto che la Difesa VooDoo è uguale ad il Potere VooDoo più l'Abilità VooDoo. Una singola Scuola Voodoo può formare fino a 8 studenti.{NEWLINE}Costruire questa struttura richiede 10 Ipno Pannelli."
+  STR_CANCEL_UC: "SPARISCI"
+  STR_NONE: "Nessuno"
+  STR_BUILD_NEW_BASE_UC: NUOVO COVO
+  STR_BASE_INFORMATION: DIARIO DI BORDO
+  STR_EQUIP_CRAFT: VASCELLI
+  STR_BUILD_FACILITIES: ESPANDI
+  STR_RESEARCH: "RICERCA"
+  STR_MANUFACTURE: "PRODUZIONE"
+  STR_TRANSFER_UC: TRASFERISCI
+  STR_TRANSFER: "Trasferisci"
+  STR_PURCHASE_RECRUIT: MERCATO NERO
+  STR_SACK: IN PASTO AI PESCI
+  STR_GEOSCAPE_UC: IL TUO PONTE
+  STR_NAME: "Nome"
+  STR_AREA: "Area"
+  STR_BUILD_NEW_BASE: Fonda Nuovo Covo
+  STR_CANCEL: "Sparisci"
+  STR_MAINTENANCE_UC: "MANUTENZIONE>"
+  STR_MAINTENANCE: "Manutenzione"
+  STR_BALANCE: "Bilancio"
+  STR_OK: "AYE"
+  STR_COST_UC: "COSTO>"
+  STR_INSTALLATION: "Installazione"
+  STR_CURRENT_RESEARCH: "RICERCA CORRENTE"
+  STR_CONSTRUCTION_TIME_UC: "TEMPO COSTRUZIONE>"
+  STR_HOUR:
+    one: "{N} ora"
+    other: "{N} ore"
+  STR_SCIENTISTS_AVAILABLE: Cervelloni Disponibili>{ALT}{0}
+  STR_SCIENTISTS_ALLOCATED: Cervelloni Assegnati>{ALT}{0}
+  STR_SCIENTISTS_ALLOCATED_UC: CERVELLONI ASSEGNATI
+  STR_SCIENTISTS_AVAILABLE_UC: CERVELLONI DISPONIBILI>{ALT}{0}
+  STR_RESEARCH_PROJECT: "PROGETTO DI RICERCA"
+  STR_START_PROJECT: "INIZIA PROGETTO"
+  STR_PROGRESS: "PROGRESSO"
+  STR_NEW_PROJECT: "Nuovo Progetto"
+  STR_CANCEL_PROJECT: "CANCELLA PROGETTO"
+  STR_NEW_RESEARCH_PROJECTS: "NUOVO PROGETTO DI RICERCA"
+  STR_INCREASE: Più
+  STR_DECREASE: Meno
+  STR_ENGINEERS_AVAILABLE: Nani Disponibili>{ALT}{0}
+  STR_ENGINEERS_ALLOCATED: Nani Assegnati>{ALT}{0}
+  STR_ENGINEERS__ALLOCATED: Nani Assegnati
+  STR_ENGINEERS_AVAILABLE_UC: NANI DISPONIBILI>{ALT}{0}
+  STR_UNITS_PRODUCED: "Unità Prodotte"
+  STR_DAYS_HOURS_LEFT: "Giorni/Ore Rimaste"
+  STR_NEW_PRODUCTION: "Nuova Produzione"
+  STR_PRODUCTION_ITEMS: "Oggetti per Produzione"
+  STR_CATEGORY: "CATEGORIA"
+  STR_START_PRODUCTION: "INIZIA PRODUZIONE"
+  STR_UNITS_TO_PRODUCE: "Unità da Produrre"
+  STR_INCREASE_UC: PIU'
+  STR_DECREASE_UC: MENO
+  STR_PURCHASE_HIRE_PERSONNEL: "Fate la Vostra Offerta"
+  STR_COST_OF_PURCHASES: "Costo di Vendita>{ALT}{0}"
+  STR_COST_PER_UNIT_UC: "COSTO PER UNITA'"
+  STR_QUANTITY_UC: "QUANTITA'"
+  STR_PERSONNEL_AVAILABLE_PERSONNEL_TOTAL: GENTE DISPONIBILE:GENTE TOTALE>
+  STR_ITEM: "OGGETTO"
+  STR_SOLDIERS: Ciurma
+  STR_SCIENTISTS: Cervelloni
+  STR_ENGINEERS: Nani
+  STR_STORES: "Stive"
+  STR_SPACE_USED_SPACE_AVAILABLE: "SPAZIO USATO:SPAZIO DISPONIBILE>"
+  STR_LIVING_QUARTERS: "Caserma"
+  STR_LABORATORIES: "Laboratori"
+  STR_HANGARS: "Attracchi"
+  STR_DEFENSE_STRENGTH: "Forza Difesa"
+  STR_TRANSFERS_UC: "TRASFERIMENTI"
+  STR_TRANSFERS: "Trasferisci"
+  STR_ARRIVAL_TIME_HOURS: "Tempo d'Arrivo (ore)"
+  STR_COST: "Costo"
+  STR_COST_: "Costo>{ALT}{0}"
+  STR_AREA_: "Area>{ALT}{0}"
+  STR_BASE_NAME: "Chiama il Tuo Covo, Capitano!"
+  STR_SELECT_POSITION_FOR_ACCESS_LIFT: "SELEZIONA UNA POSIZIONE PER L'ASCENSORE D'ACCESSO"
+  STR_SELECT_DESTINATION_BASE: "Dove Lo Mandiamo?"
+  STR_XCOM_ACTIVITY_IN_AREAS: "Le Tue Attività nelle Aree"
+  STR_XCOM_ACTIVITY_IN_COUNTRIES: "Le Tue Attività nei Paesi"
+  STR_OK_5_SECONDS: "ARR - 5 sec"
+  STR_CRAFT_IS_LOST: "Vascello perso"
+  STR_BASE_IS_LOST: "Il Covo è perso"
+  STR_BASE_IS_SAVED: "Il Covo è salvo"
+  STR_ALIEN_BASE_STILL_INTACT: "Covo Nemico ancora intatto"
+  STR_ALIEN_BASE_DESTROYED: "Covo Nemico distrutto"
+  STR_ALIENS_KILLED: "NEMICI UCCISI"
+  STR_LIVE_ALIENS_RECOVERED: "OSTAGGI PRESI"
+  STR_ALIEN_BASE_CONTROL_DESTROYED: "PONTE DEL COVO DISTRUTTO"
+  STR_CIVILIANS_SAVED: "ASTANTI SOPRAVVISSUTI"
+  STR_XCOM_OPERATIVES_KILLED: "CIURMA PERSA"
+  STR_XCOM_OPERATIVES_RETIRED_THROUGH_INJURY: "CIURMA RITIRATA PER INFORTUNIO"
+  STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "CIURMA CHE HA PERSO LA CAMPANELLA"
+  STR_TANKS_DESTROYED: "AUSILIARI PERSI"
+  STR_ALIEN_BASE_RECOVERY: "CONQUISTARE LA COMPETIZIONE"
+  STR_SELL_ITEMS_SACK_PERSONNEL: "Butta Via La Tua Roba!"
+  STR_SELL_SACK: "Fatto"
+  STR_UFO_GROUND_ASSAULT: "ASSALTO TERRESTRE!"
+  STR_BASE_DEFENSE: "DIFESA COVO"
+  STR_BASE_UC_: "COVO> {0}"
+  STR_ALIEN_BASE_ASSAULT: "ASSALTO COVO NEMICO"
+  STR_LAUNCH_INTERCEPTION: "MOLLA GLI ORMEGGI"
+  STR_CRAFT: "VASCELLO"
+  STR_BASE: "COVO"
+  STR_YES: "YARR!"
+  STR_NO: "NAY..."
+  STR_SELECT_SITE_FOR_NEW_BASE: "TROVA UN POSTO PER IL TUO COVO"
+  STR_RETURN_TO_BASE: "TORNA AL TUO COVO"
+  STR_SELECT_NEW_TARGET: "IMPOSTA UNA NUOVA ROTTA"
+  STR_PATROL: "ANCORA"
+  STR_DAMAGED_RETURNING_TO_BASE: "DANNEGGIATO - RITORNO AL COVO"
+  STR_LOW_FUEL_RETURNING_TO_BASE: "A SECCO - RITORNO AL COVO"
+  STR_RETURNING_TO_BASE: RITORNO AL COVO
+  STR_RANK_NONE: Auxilia
+  STR_ROOKIE: Mozzo
+  STR_SQUADDIE: Tipa
+  STR_SERGEANT: Tipa Capo
+  STR_CAPTAIN: Padrona
+  STR_COLONEL: Baronessa
+  STR_COMMANDER: Regina Pirata
+  STR_BEGIN_MISSION: "Pronto alla battaglia?"
+  STR_SELECT_SQUAD_FOR_CRAFT: Seleziona Ciurma per {0}
+  STR_CENTER_ON_UFO_TIME_5_SECONDS: CENTRA SU IMBARCAZIONE-TEMPO=5 Sec
+  STR_REDIRECT_CRAFT: DIROTTA VASCELLO
+  STR_ALIEN_BASE_: COVO NEMICO-{0}
+  STR_UFOPAEDIA: BootyPedia
+  STR_ALIEN_ARTIFACTS: TESORO
+  STR_BASE_FACILITIES: EDIFICI
+  STR_ALIEN_LIFE_FORMS: FAZIONI
+  STR_ALIEN_RESEARCH_UC: MISTERI
+  STR_UFO_COMPONENTS: GIORNALE
+  STR_UFOS: SPEDIZIONE
+  STR_MAXIMUM_SPEED_UC: "VELOCITA' MASSIMA>{ALT}{0}{ALT}"
+  STR_ACCELERATION: "ACCELERAZIONE>{ALT}{0}{ALT}"
+  STR_FUEL_CAPACITY: "RAGGIO>{ALT}{0}{ALT}"
+  STR_WEAPON_PODS: "SISTEMI>{ALT}{0}{ALT}"
+  STR_DAMAGE_CAPACITY_UC: "FORZA>{ALT}{0}{ALT}"
+  STR_CARGO_SPACE: "CIURMA>{ALT}{0}{ALT}"
+  STR_COCKPIT_CAPACITY: "NAVIGATORI>{ALT}{0}{ALT}"
+  STR_HWP_CAPACITY: "AUX>{ALT}{0}{ALT}"
+  STR_CRAFT_WEAPON: "Armi Vascello"
+  STR_CRAFT_AMMUNITION: "Munizioni Vascello"
+  STR_HEAVY_WEAPONS_PLATFORM: "Carroarmato"
+  STR_COMBAT_UNIT: Unità da Combattimento
+  STR_AMMUNITION: "Munizione"
+  STR_WEAPON: "Arma"
+  STR_WEAPON_M: "Arma da Mischia"
+  STR_WEAPON_G: "Pistola"
+  STR_WEAPON_X: "Arma Speciale"
+  STR_AMMUNITION_STD: "Munizione: Standard"
+  STR_AMMUNITION_ADV: "Munizioni: Speciale"
+  STR_AMMUNITION_HV: "Munizioni: Pesante"
+  STR_AMMUNITION_LAS: "Munizioni: Laser"
+  STR_AMMUNITION_MD: "Munizioni: Conduzione di Massa"
+  STR_AMMUNITION_PL: "Munizioni: Plasma"
+  STR_DAMAGE_ARMOR_PIERCING: "PENETRANTE"
+  STR_DAMAGE_INCENDIARY: "INCENDIARIO"
+  STR_DAMAGE_HIGH_EXPLOSIVE: "CONCUSSIVO"
+  STR_DAMAGE_LASER_BEAM: "LASER"
+  STR_DAMAGE_PLASMA_BEAM: "PLASMA"
+  STR_DAMAGE_MELEE: "TAGLIENTE"
+  STR_DAMAGE_ACID: "CHIMICO"
+  STR_DAMAGE_SMOKE: "SOFFOCAMENTO"
+  STR_DAMAGE_10: "ANTI-E511"
+  STR_DAMAGE_11: "BIO"
+  STR_DAMAGE_12: "ELETTRICO"
+  STR_DAMAGE_13: "EMP"
+  STR_DAMAGE_14: "CURVATURA"
+  STR_DAMAGE_15: "MENTALE"
+  STR_DAMAGE_16: "CALORE"
+  STR_DAMAGE_17: "FREDDO"
+  STR_SHOT_TYPE: "TIPO ATTACCO"
+  STR_ALIEN_CORPSE: Corpo
+  STR_UFO_COMPONENT: Componente
+  STR_CANNON: "Cannone 30mm"
+  STR_CANNON_UC: "CANNONE 30MM"
+  STR_SOLDIER_S: Ciurma
+  STR_SOLDIER_M: Guerriero
+  STR_SOLDIER_V: Veterano
+  STR_SOLDIER_LOKNAR: "Guerrieri Lokk'Naar"
+  STR_SOLDIER_SYNTH: Syn
+  STR_SCIENTIST: Cervellone
+  STR_ENGINEER: Nano
+  STR_RATING: "NOTORIETA'> {0}"
+  STR_UFO: SPEDIZIONE
+  STR_GENERAL_STORES: "Stive"
+  STR_ALIEN_CONTAINMENT: Prigioni
+  STR_CRYO_PRISON: Criogenesi
+  STR_PLASMA_DEFENSE: "Difese al Plasma"
+  STR_PLASMA_DEFENSES: "Batteria al Plasma"
+  STR_PSIONIC_LABORATORY: Scuola VooDoo
+  STR_FUNDING: Fondi Protezione
+  STR_HWPS: AUX
+  STR_TOTAL_UC: "TOTALE"
+  STR_INCOME: "Entrate"
+  STR_EXPENDITURE: "Uscite"
+  STR_XCOM_PROJECT_MONTHLY_REPORT: RAPPORTO MENSILE PIRATESCO
+  STR_CRAFT_TYPE: "CLASSE VASCELLO"
+  STR_RACE: "BANDIERA"
+  STR_SELECT_DIFFICULTY_LEVEL: "Selezione Livello Difficoltà"
+  STR_1_BEGINNER: "1> Cap'n Kidd"
+  STR_2_EXPERIENCED: "2> John Silver"
+  STR_3_VETERAN: "3> Barbanera"
+  STR_4_GENIUS: "4> Davy Jones"
+  STR_5_SUPERHUMAN: "5> Jack Sparrow"
+  STR_MISSION_GENERATOR: "SIMULATORE TATTICO"
+  STR_ALIEN_OPTIONS: "OPZIONI NEMICO"
+  STR_IRONMAN: "SUPERMUTANTE"
+  STR_IRONMAN_DESC: "Nessun salvataggio manuale, Compagno."
+  STR_PSIONIC_TRAINING: "Classi VooDoo"
+  STR_PSI_TRAINING: "Classi VooDoo"
+  STR_PSIONIC__STRENGTH: "VooDoo{NEWLINE}Potere"
+  STR_PSIONIC_SKILL_IMPROVEMENT: "Abilità VooDoo{NEWLINE}/Miglioramento"
+  STR_WEAPONS_CREW_HWPS: "ARMI/{NEWLINE}CIURMA/AUX"
+  STR_ABANDON_GAME: "ABBANDONARE LA NAVE!"
+  STR_ABANDON_GAME_QUESTION: "ABBANDONARE LA NAVE, CAPITANO?"
+  STR_SOLDIER_LIST: "Ciurma sul Ponte"
+  STR_PSIONIC_STRENGTH: "POTERE VOODOO"
+  STR_PSIONIC_SKILL: "ABILITA' VOODOO"
+  STR_SOLDIERS_UC: "CIURMA"
+  STR_MANAGE_CONTAINMENT: "Gestione Prigione"
+  STR_MANAGE_CONTAINMENT_2: "Gestione Gabbie Animali"
+  STR_ALIEN: "Ostaggio"
+  STR_ALIEN_1: "Pesce"
+  STR_ALIEN_2: "Animale"
+  STR_REMOVE_SELECTED: "Riscatto!"
+  STR_REMOVE_SELECTED_1: "Vendi!"
+  STR_REMOVE_SELECTED_2: "Vendi!"
+  STR_LIVE_ALIENS: "Tieni"
+  STR_UNDER_INTERROGATION: "In Lab"
+  STR_UNDER_INTERROGATION_1: "In Lab"
+  STR_UNDER_INTERROGATION_2: "In Lab"
+  STR_STANDOFF: "TIENILI A DISTANZA"
+  STR_CAUTIOUS_ATTACK: "LUNGA GITTATA"
+  STR_STANDARD_ATTACK: "MANOVRA DI AVVICINAMENTO!"
+  STR_AGGRESSIVE_ATTACK: "SPERONAMENTO!"
+  STR_DISENGAGING: "RITIRATA"
+  STR_UFO_HIT: "COLPO DIRETTO!"
+  STR_UFO_RETURN_FIRE: "CI SPARANO ADDOSSO!"
+  STR_UFO_OUTRUNNING_INTERCEPTOR: "QUEI CANI BASTARDI SCAPPANO!"
+  STR_STORES_UC: "STIVA"
+  STR_INTERCEPT: "IMPOSTA LA ROTTA"
+  STR_BASES: "COVI"
+  STR_GRAPHS: "MAPPE"
+  STR_UFOPAEDIA_UC: "BOOTYPEDIA"
+  STR_OPTIONS_UC: "CONTRATTI"
+  STR_FUNDING_UC: "PROTEZIONE"
+  STR_NEW_BATTLE: "Schermaglia"
+  STR_ENTER_NAME: "Inserisci Nome"
+  STR_MIND_CONTROL: "Possessione"
+  STR_PANIC_UNIT: "Terrore"
+  STR_MORALE_ATTACK_SUCCESSFUL: "Il Matto È Spaventato!"
+  STR_MIND_CONTROL_SUCCESSFUL: "È Posseduto!"
+  STR_PSIONIC_SKILL_SHORT: "V.Abilità>{ALT}{0}"
+  STR_ARMOR_: "{0}"
+  STR_ARMOR: "ARMATURA"
+  STR_AMMO: "MUNIZIONI"
+  STR_AMMO_: "MUNIZIONI>{ALT}{0}"
+  STR_PRIME_GRENADE: "Innesca il Fuso"
+  STR_USE_SCANNER: Aye?
+  STR_USE_MEDI_KIT: Usa
+  STR_XCOM: "Noi"
+  STR_ALIENS: "Loro"
+  STR_RIGHT_HAND: "MANO DX"
+  STR_LEFT_HAND: "MANO SX"
+  STR_RIGHT_SHOULDER: "SCUDO DX"
+  STR_LEFT_SHOULDER: "SCUDO SX"
+  STR_BACK_PACK: "ZAINO"
+  STR_BELT: "CINTURA"
+  STR_HEAD: "TESTA"
+  STR_TORSO: "TORSO"
+  STR_RIGHT_ARM: "BRACCIO DX"
+  STR_LEFT_ARM: "BRACCIO SX"
+  STR_RIGHT_LEG: "GAMBA DX"
+  STR_LEFT_LEG: "GAMBA SX"
+  STR_PAIN_KILLER: "DROGA"
+  STR_QD_SLOT: "TASCA"
+  STR_USE_MIND_PROBE: "Esamina"
+  STR_CORPSE: "Morto"
+  STR_MUTILATED_CORPSE: "Cadavere Mutilato"
+  STR_PILE_OF_GORE: "Mucchio di Interiora"
+  STR_CORPSE_UNARMORED: "Gingilli Pirata"
+  STR_SOLDIERS_RECRUITED_UC: "CIURMA INGAGGIATA>{ALT}{0}"
+  STR_SOLDIERS_LOST_UC: "CIURMA PERDUTA>{ALT}{0}"
+  STR_SOLDIERS_RECRUITED: "Ciurma ingaggiata"
+  STR_SOLDIERS_LOST: "Ciurma perduta"
+  STR_PSISTRENGTHEVAL: "Valutazione Potere VooDoo"
+  STR_GO_TO_BASE: "Guarda Il Tuo Covo"
+  STR_NEW_FIGHTER_CRAFT: "Caccia Corazzato"
+  STR_NEW_FIGHTER_TRANSPORTER: "Trasporto Migliorato"
+  STR_AVENGER: "CONQUISTATORE"
+  STR_DATE_FIRST: "{0}°"
+  STR_DATE_SECOND: "{0}°"
+  STR_DATE_THIRD: "{0}°"
+  STR_DATE_FOURTH: "{0}°"
+  STR_FINANCE_THOUSANDS: "1000$"
+  STR_PHYSICAL_TRAINING: "Addestramento Marziale"
+  STR_TRAINING: "Addestramento"
+  STR_NOT_ENOUGH_MORALE: "Ti manca disciplina!"
+  STR_NOT_ENOUGH_HEALTH: "Manca il sangue!"
+  STR_NOT_ENOUGH_STUN: "Hai troppa nausea!"
+  STR_NO_USES_LEFT: "È vuoto..."
+  STR_BASE_: "Covo> {0}"
+  STR_LASER_DEFENSE: "Batteria Laser"
+  STR_AUTO_SHOT: "Auto"
+  STR_SHOT_TYPE_AUTO: "Auto (x{0})"
+  STR_STAMINA: "STAMINA"
+  STR_ENERGY: "ENERGIA"
+  STR_ORIGINAL_ORDER: ORDINE ORIGINALE
+  RANK: RANGO
+  STR_MISSIONS2: MISSIONI
+  STR_KILLS2: UCCISI
+  STR_KILLS: "UCCISIONI> {ALT}{0}"
+  STR_WOUND_RECOVERY2: GIORNI DI RECUPERO
+  STR_WOUND_RECOVERY: "GIORNI DI RECUPERO> {ALT}{0}"
+  STR_RANK_: "RANGO> {ALT}{0}"
+  STR_SORT_BY: "ORDINA PER..."
+  STATS: STATISTICHE
+  ID: ID
+  STR_HIGH_EXPLOSIVE: "Esplosivo Potente"
+  STR_STINGRAY_LAUNCHER: "Lanciatore Stingray"
+  STR_STINGRAY_MISSILES: "Missili Stingray"
+  STR_STINGRAY: "STINGRAY"
+  STR_NONE_UC: "NESSUNO"
+  STR_SPEED: "VELOCITA'"
+  STR_PLASMA_BEAM: "Raggio al Plasma"
+  STR_PLASMA_BEAM_UC: "RAGGIO AL PLASMA"
+  STR_THROWING_ACCURACY: "TIRO"
+  STR_MELEE_ACCURACY: "MELEE"
+  STR_FIRING_ACCURACY: "SPARO"
+  STR_ALLOCATE_RESEARCH: "Assegna Ricerca"
+  STR_NOT_ENOUGH_ENERGY: "Non hai energia!"
+  STR_STIMULANT: "STIMOLANTE"
+  STR_SPACE_AVAILABLE: "SPAZIO DISPONIBILE>{ALT}{0}"
+  STR_SPACE_USED: "SPAZIO USATO>{ALT}{0}"
+  STR_FRONT_ARMOR: "Armatura Frontale"
+  STR_HIT_LOG_NEW_TURN: "Non è successo niente!"
+  STR_HIT_LOG_WEAPON: "Arma"
+  STR_HIT_LOG_NO_DAMAGE: "0 "
+  STR_HIT_LOG_SMALL_DAMAGE: "hit"
+  STR_HIT_LOG_BIG_DAMAGE: "HIT! "
+  STR_HIT_LOG_REACTION_FIRE: "Fuoco di reazione..."
+  STR_TARGET_ON_THE_GROUND: "(a terra)"
+  STR_CENTER_ON_WOUNDED_FRIEND: "Centra sull'unità ferita"
+  STR_CENTER_ON_SHOCKED_FRIEND: "Centra sull'unità quasi cosciente"
+  STR_SPACE_USED_UC: "SPAZIO USATO"
+  STR_COMPATIBLE_AMMO: "Munizioni Compatibili:"
+  STR_RANK_SLV_0: "Soldato Schiavo"
+  STR_RANK_LOK_0: "Lokk'Naar"
+  STR_OXCE: "Esteso"
+  STR_ACCURACY_MODIFIER: "Abilità>{ALT} {0}"
+  STR_TRAINING_FINISHED: "ADDESTRAMENTO FINITO"
+  STR_NO_DONE: "FATTO"
+  STR_WHAT_CAN_I_WEAR: "Che indossiamo?"
+  STR_CANCEL_AND_IGNORE_UC: "INDIETRO TUTTA!"
+  STR_WE_CAN_NOW_BUILD: "Ora possiamo costruire"
+  STR_FAILED_CQB_CHECK: "Il nemico è fuggito al tuo attacco!"
+  STR_ITEM_DESTROYED: "Oggetti distrutti:"
+  STR_START_FIRING: "Aprite il Fuoco! A tutte le armi!"
+  STR_INFO: "HUH?!"
+  STR_INFO_UFOPEDIA: "ANAL"
+  STR_MAP_GEN_ERROR: "Errore Generazione Mappa"
+  STR_DAY_SHORT: "{0}g"
+  STR_HOUR_SHORT: "{0}h"
+  STR_PATROLLING: "ANCORATA"
+  STR_RETURNING: "ARRESTI DOMICILIARI"
+  STR_INTERCEPTING: "INSEGUIMENTO"
+  STR_EN_ROUTE: "IN ROTTA"
+  STR_LEVEL_2_DEPENDENCIES: "Usi Indiretti:"
+  STR_LEVEL_5_DEPENDENCIES: "Indiretto per 4 gradi:"
+  STR_END_OF_SEARCH: "Fine della Ricerca..."
+  STR_NEW_TURN: "Nuovo Turno"
+  STR_BUG_HUNT_ACTIVATED: "Modalità Bug Hunt attivata: i nemici sono visibili sulla minimappa!"
+  STR_EVASIVE_MANEUVERS: "MANOVRE EVASIVE!"
+  STR_STATS_FOR_NERDS: "Analisi"
+  STR_AUTO_NIGHT_VISION: "Visione Notturna Automatica"
+  STR_MINIMAP_BORDER_INDICATOR: "Mostra i limiti della mappa sulla Minimappa"
+  STR_ADD_VEHICLES_TO_MEMORIAL: "Aggiungi Auxilia al memoriale"
+  STR_SHOW_QUICK_SEARCH: "Mostra finestra Ricerca Veloce"
+  STR_REMOVE_WOUNDED_FROM_TRAINING: "Rimuovi la Ciurma ferita dall'allenamento"
+  STR_PLAY_BRIEFING_MUSIC_DURING_EQUIPMENT: "Estendi la Musica del Briefing"
+  STR_ADD_VEHICLES_TO_MEMORIAL_DESC: "Ogni unità Auxilia persa sarà aggiunta al Memoriale, come i soldati."
+  STR_REMOVE_WOUNDED_FROM_TRAINING_DESC: "La Ciurma ferita non beneficerà dell'allenamento fisico. Questa opzione li rimuoverà automaticamente dalle strutture di allenamento, liberando spazio per altri."
+  BT_NONE: "Nessuno"
+  BT_FIREARM: "A distanza"
+  BT_AMMO: "Munizioni"
+  BT_MELEE: "Melee"
+  BT_GRENADE: "Granata"
+  BT_PROXIMITYGRENADE: "Mina"
+  BT_MEDIKIT: "Kit Medico"
+  BT_SCANNER: "Scanner"
+  BT_MINDPROBE: "Sonda"
+  BT_PSIAMP: "VooDoo"
+  BT_FLARE: "Fonte luminosa"
+  BT_CORPSE: "Cadavere"
+  STR_LINE_OF_SIGHT_REQUIRED: "Non li vedo, Capitano!"
+  STR_MUST_USE_BOTH_HANDS: "Devo avere l'altra mano libera, Capitano!"
+  STR_MISSION_OVER: "ABBIAMO VINTO, CAPITANO"
+  STR_UNITS_WITH_FATAL_WOUNDS:
+    one: "{N} dei nostri è fatalmente ferito"
+    other: "{N} dei nostri sono fatalmente feriti"
+  STR_END_MISSION_QUESTION: "Terminiamo la battaglia come da ordini?"
+  STR_STATS: "ESP"
+  STR_LOOT: "BOTTINO"
+  STR_SELL: "VENDI"
+  STR_REFUND_VALUE: "Valore vendita> {ALT}{0}"
+  STR_PERSONNEL: "Noi"
+  STR_CRAFT_ARMAMENT: "Cantiere Navale"
+  STR_COMPONENTS: "Tesoro"
+  STR_GRAND_TOTAL: "Tutti i Covi"
+  STR_UFO_TRACKER: "Bersaglio di Interesse"
+  STR_STARTING_CONDITION_CRAFT: "La nave non va bene per una missione così, Capiano!{NEWLINE}{NEWLINE}Possiamo andare con una di queste: {0}"
+  STR_SHOT_TYPE_MELEE: "Melee"
+  STR_WEIGHT_PEDIA1: "P: {0}"
+  STR_WEIGHT_PEDIA2: "P: {0}/{1}"
+  STR_FIRING_SHORT: "Sparo>{ALT}{0}"
+  STR_THROWING_SHORT: "Tiro>{ALT}{0}"
+  STR_MELEE_SHORT: "Melee>{ALT}{0}"
+  STR_PSI_SHORT: "VooDoo>{ALT}{0}/{1}"
+  STR_SHOW_ONLY_NEW: "Mostra solo nuove"
+  STR_ID: "NUMERO ID"
+  STR_FIRST_LETTER: "PRIMA LETTERA"
+  STR_PERSON_JOINING: "Arruolamento"
+  STR_AUTO_PATROL: "AUTO-PATTUGLIA"
+  STR_NO_DEPENDENCIES: "Nessuna dipendenza"
+  STR_NOT_ENOUGH_PILOTS: "Non ci sono abbastanza piloti!{NEWLINE}Minimo: {0}"
+  STR_PILOTS: "PILOTI"
+  STR_PILOTS_FOR_CRAFT: "Pilota(i) per {0}"
+  STR_PILOTS_REQUIRED: "Pilota/i richiesti: {ALT}{0}"
+  STR_PILOT_MISSING: "PILOTA MANCANTE"
+  STR_ADD_PILOT: "Aggiungi Pilota"
+  STR_SELECT_PILOT: "Seleziona Pilota"
+  STR_REMOVE_ALL_PILOTS: "Rimuovi Tutti i Piloti"
+  STR_PILOTS_HINT: "La ciurma in fondo alla lista sarà nominata come Pilota."
+  STR_ACCURACY_BONUS: "Bonus precisione:"
+  STR_DODGE_BONUS: "Bonus schivata:"
+  STR_APPROACH_SPEED: "Velocità avvicinamento:"
+  STR_COWARDLY: "Codardo (-50%)"
+  STR_NORMAL: "Normale"
+  STR_BOLD: "Impavido (+50%)"
+  STR_VERY_BOLD: "Coraggioso (+100%)"
+  STR_EMPTY_SLOT_N: "Slot vuoto {0}"
+  STR_UNNAMED_SLOT_N: "Slot senza nome {0}"
+  STR_LOAD_EQUIPMENT_TEMPLATE: "CARICA EQUIPAGGIAMENTO"
+  STR_SAVE_EQUIPMENT_TEMPLATE: "SALVA EQUIPAGGIAMENTO"
+  STR_SAVE_UC: "SALVA"
+  STR_NO_WOUNDED: "-"
+  STR_DEMOTE: "DEGRADA"
+  STR_CANNOT_BUILD_MORE_OF_THIS_FACILITY_TYPE_AT_BASE: "Non è possibile costruire più strutture di questo tipo in questo Covo, Capitano!"
+  STR_MONTHLY_PROFIT: "PROFITTO/MESE>{ALT}{0}"
+  STR_MT_RATING_10K: "NEMICO PUBBLICO"
+  STR_MT_RATING_8K: "TERRORE DEI CIELI"
+  STR_MT_RATING_6K: "GRANDE CAPO"
+  STR_MT_RATING_5K: "IMPRENDITORE"
+  STR_MT_RATING_4K: "RICATTATORE"
+  STR_MT_RATING_3K: "RIBELLE"
+  STR_MT_RATING_2K: "BRIGANTE"
+  STR_MT_RATING_1K5: "BANDITO"
+  STR_MT_RATING_1K: "TEPPISTA"
+  STR_MT_RATING_600: "DELINQUENTE"
+  STR_MT_RATING_300: "BULLO"
+  STR_MT_RATING_0: "FASTIDIO"
+  STR_MT_RATING_BAD: "PALLONE GONFIATO"
+  STR_MT_RATING_JOKE: "SCHERZONE"
+  STR_MS_RATING_2000: "LEGGENDARIO"
+  STR_MS_RATING_1500: "LETALE"
+  STR_MS_RATING_1000: "TEMIBILE"
+  STR_MS_RATING_750: "IMPRESSIONANTE"
+  STR_MS_RATING_500: "PERICOLOSO"
+  STR_MS_RATING_300: "NOTABILE"
+  STR_MS_RATING_150: "BUONO"
+  STR_MS_RATING_75: "SODDISFACENTE"
+  STR_MS_RATING_0: "INSIGNIFICANTE"
+  STR_MS_RATING_BAD: "SCARSO"
+  STR_MS_RATING_WORSE: "PATETICO"
+  STR_MS_RATING_TERRIBLE: "ABISSALE"
+  STR_MS_RATING_DISASTER: "DISASTRO"
+  STR_TIME_UNITS_ABBREVIATION: "UT"
+  STR_STAMINA_ABBREVIATION: "STA"
+  STR_HEALTH_ABBREVIATION: "SAL"
+  STR_BRAVERY_ABBREVIATION: "COR"
+  STR_REACTIONS_ABBREVIATION: "RIF"
+  STR_FIRING_ACCURACY_ABBREVIATION: "PrT"
+  STR_THROWING_ACCURACY_ABBREVIATION: "PrL"
+  STR_STRENGTH_ABBREVIATION: "FOR"
+  STR_MELEE_ACCURACY_ABBREVIATION: "PrM"
+  STR_PSIONIC_STRENGTH_ABBREVIATION: "VOO"
+  STR_PSIONIC_SKILL_ABBREVIATION: "DOO"
+  STR_AUXILIARY: "Ausiliario"
+  STR_ALL: "Tutto"
+  STR_EQUIPPED: "Equipaggiato"
+  STR_UNASSIGNED: "Altro"
+  STR_BAT_CAT_AUX: "Auxilia"
+  STR_BAT_CAT_TANK_AMMO: "Munizioni Veicolo"
+  STR_BAT_CAT_MELEE: "Melee"
+  STR_BAT_CAT_AUTO_MELEE: "Melee - Auto"
+  STR_BAT_CAT_THROWN: "Traiettoria Arco"
+  STR_BAT_CAT_PISTOL: "Pistole"
+  STR_BAT_CAT_RIFLE: "Fucili"
+  STR_BAT_CAT_CANNON: "Cannoni"
+  STR_BAT_CAT_GUIDED: "Lanciatori (Guidati)"
+  STR_BAT_CAT_STIM: "Stimolante"
+  STR_BAT_CAT_MORALE: "Morale"
+  STR_BAT_CAT_MAGIC: "Magia"
+  STR_BAT_CAT_UTILITY: "Utilità"
+  STR_BAT_CAT_EXPLOSIVE: "Area d'Effetto"
+  STR_BAT_CAT_LASER: "Dan: Laster"
+  STR_BAT_CAT_PLASMA: "Dan: Plasma"
+  STR_BAT_CAT_SPECIAL: "Dmg: Fascino"
+  STR_BAT_CAT_WARP: "Dmg: Warp"
+  STR_BAT_CAT_MIND: "Dmg: Mentale"
+  STR_BAT_CAT_SHIELD: "Protettivo"
+  STR_BAT_CAT_FOREVER: "Inesauribile"
+  STR_BAT_CAT_PSI_ONLY: "Abilità V. Richiesta"
+  STR_BAT_CAT_STUNWEAPON: "Arma Stordente"
+  STR_BAT_CAT_MOSTLY_HARMLESS: "Per Lo Più Innocuo"
+  STR_BAT_CAT_INFILTRATION: "Infiltrazione"
+  STR_BAT_CAT_UNDERWATER: "Subacqueo"
+  STR_BAT_CAT_0G: "0-G"
+  STR_BAT_CAT_TREASURE: "Tesoro"
+  STR_BAT_CAT_ARTIFACT: "Artefatto"
+  STR_BAT_CAT_RESOURCE: "Risorse Grezze"
+  STR_BAT_CAT_COMPONENT: "Componenti"
+  STR_BAT_CAT_PEOPLE: "Persone"
+  STR_BAT_CAT_MONSTERS: "Mostri"
+  STR_BAT_CAT_DOCUMENT: "Documentazione"
+  STR_BAT_CAT_MERCHANDISE: "Mercanzia"
+  STR_FILTER_DEFAULT: "Predefinito"
+  STR_FILTER_DEFAULT_NO_SUPPLIES: "Predefinito (no rifornimenti)"
+  STR_FILTER_NEW: "Nuovo"
+  STR_FILTER_HIDDEN: "Nascosto"
+  STR_MARK_ALL_AS: "Segna tutti come:"
+  STR_MARK_ALL_AS_NEW: "Nuovo"
+  STR_MARK_ALL_AS_NORMAL: "Normale"
+  STR_MARK_ALL_AS_HIDDEN: "Nascosto"
+  STR_TOPIC: "Tema>{ALT} {0}"
+  STR_M_FLAG: " [m]"
+  STR_ITEM_REQUIRED: "Oggetto richiesto:"
+  STR_REQUIRES: "Richiede:"
+  STR_UNLOCKS: "Sblocca:"
+  STR_GIVES_ONE_FOR_FREE: "Sblocca gratuitamente:"
+  STR_RESEARCH_PROGRESS: "Globale: {0}%"
+  STR_OTHER_EMPLOYEES: "Auxilia, Schiavi & Altro"
+  STR_GO_TO_TRANSFERS: "Trasferisci un po' di bottino"
+  STR_SUNDAY: "DOMENICA"
+  STR_MONDAY: "LUNEDI'"
+  STR_TUESDAY: "MARTEDI'"
+  STR_WEDNESDAY: "MERCOLEDI'"
+  STR_THURSDAY: "GIOVEDI'"
+  STR_FRIDAY: "VENERDI'"
+  STR_SATURDAY: "SABATO"
+  STR_NOT_ENOUGH_ITEM_TO_REFUEL_CRAFT_AT_BASE: "Non abbastanza {0} per rifornire {1} a {2}"
+  STR_NOT_ENOUGH_ITEM_TO_REARM_CRAFT_AT_BASE: "Non abbasta {0} per armare {1} a {2}"
+  ALKO: "Distilleria"
+  LIB: "Biblioteca"
+  PWR: "Potere"
+  REFI: "Raffineria"
+  SPA: "Spa di Lusso"
+  SUR: "Chirurgia"
+  WELL: "Estrattore"
+  REDM: "Mago Rosso"
+  GMGEO2: "Estrattore"
+  STR_NO_LOS_PENALTY: "Non Ci Vedo! Precisione dimezzata!"
+  STR_CURRENT_STATS: "Statistiche attuali"
+  STR_CHANGES: "Cambiamenti"
+  STR_AIRBORNE: "Tra Cieli e Mare"
+  STR_WHITERABBIT: "Coniglio Bianco"
+  STR_WHITERABBIT_CLOCK: "Orologio da Tasca"
+  STR_BLACK_CAT: "Gatto Nero"
+  STR_BLACK_CAT_CIV: "Gatto Indaffarato"
+  STR_BLACK_CAT_CIV_RECOVER: "Gatto Amichevole"
+  STR_CAT: "Gatto"
+  AUX_CAT_CLAWS: "Artigli Gatto"
+  STR_BLACKCAT_CORPSE: "Cadavere Gatto"
+  STR_DIARY: "DIARIO"
+  STR_KILLED: "UCCISI"
+  STR_STUNNED: "STORDITI"
+  STR_WEAPON_UNKNOWN: "Danno Collaterale"
+  STR_UNKNOWN: "Sconosciuto"
+  STR_MISSION_WIN: "(V)"
+  STR_MISSION_LOSS: "(L)"
+  STR_POOR: "Povero"
+  STR_AVERAGE: "Medio"
+  STR_GOOD: "Buono"
+  STR_EXCELLENT: "Eccellente"
+  STR_DAYLIGHT_TYPE: "TEMPO> {ALT}{0}"
+  STR_DAY: "Giorno"
+  STR_NIGHT: "Notte"
+  STR_COMBAT: "COMBATTIMENTO"
+  STR_PERFORMANCE: "PRESTAZIONE"
+  STR_AWARDS: "PREMI"
+  STR_MEDALS: "TITOLI"
+  STR_LOST_IN_SERVICE: "PERSO IN SERVIZIO"
+  STR_AWARD_0: "Condannato"
+  STR_AWARD_8: "IMPERATRICE"
+  STR_AWARD_DECOR_1: "Famigerato"
+  STR_AWARD_DECOR_8: "IMPERATRICE"
+  STR_AVERAGE_ACCURACY: "Precisione media"
+  STR_TOTAL_BASES: "Covi stabiliti"
+  STR_TOTAL_SCIENTISTS: "Cervelloni reclutati"
+  STR_TOTAL_ENGINEERS: "Nani reclutati"
+  STR_MEDAL_IMMORTAL_NAME: "Immortale"
+  STR_MEDAL_CARREER_SCORE_NAME: "Nemico Pubblico"
+  STR_MEDAL_CARREER_MISSIONS_NAME: "Veterano"
+  STR_MEDAL_NIGHTOPS_NAME: "Usignolo"
+  STR_MEDAL_BASE_DEFENSE_NAME: "Difensore"
+  STR_MEDAL_MURDERER_NAME: "Omicida"
+  STR_MEDAL_CARREER_KILLS_NAME: "Angelo della Morte"
+  STR_MEDAL_CARREER_CAPTURES_NAME: "Demone dell'Amore"
+  STR_MEDAL_RACE_KILLS_NAME: "Rovina di {0}"
+  STR_MEDAL_FIREKILL_NAME: "Piromane"
+  STR_MEDAL_CHEMKILL_NAME: "Chimico"
+  STR_MEDAL_POISONKILL_NAME: "Avvelenatore"
+  STR_MEDAL_ELECTROKILL_NAME: "Elettrificatore"
+  STR_MEDAL_MAGICKILL_NAME: "Necromante"
+  STR_MEDAL_MELEEKILL_NAME: "Schermidore"
+  STR_MEDAL_ARCHER_NAME: "Arciere"
+  STR_MEDAL_SAMURAI_NAME: "Samurai"
+  STR_MEDAL_MONSTER_NAME: "Mostro"
+  STR_MEDAL_SLAVEKILLS_NAME: "Burattinaio"
+  STR_MEDAL_MONSTER_HUNTER_NAME: "Cacciatore di Mostri"
+  STR_MEDAL_ASSAULTER_NAME: "Assaltatore"
+  STR_MEDAL_DBLKILL_NAME: "Killer a Sangue Freddo"
+  STR_MEDAL_MISSION_KILLS_5_NAME: "Vedova Nera"
+  STR_MEDAL_MISSION_KILLS_11_NAME: "Vedova di Sangue"
+  STR_MEDAL_WRESTLER_NAME: "Wrestler"
+  STR_MEDAL_IDOL_NAME: "Idolo"
+  STR_MEDAL_SUCCUBUS_NAME: "Succube"
+  STR_MEDAL_ATTITUDE_PROBLEM_NAME: "Problemi Comportamentali"
+  STR_MEDAL_MULTIPLEHITS_NAME: "Tipa d'Acciaio"
+  STR_MEDAL_CRIMSON_HEART_NAME: "Paziente"
+  STR_MEDAL_HEALER_NAME: "Infermiera"
+  STR_MEDAL_REVIVE_NAME: "Angelo della Pietà"
+  STR_MEDAL_LONESURVIVOR_NAME: "Sopravvissuto"
+  STR_MEDAL_SAVEDALL_NAME: "Cavaliere"
+  STR_MEDAL_GLOBETROTTER_NAME: "Giramondo"
+  STR_MEDAL_CIV_KILLS_NAME: "Angelo Caduto"
+  STR_MEDAL_POSTMORTEM_KILL_NAME: "Vendicatore"
+  STR_MEDAL_MIA_NAME: "Perso"
+  STR_MEDAL_FALLEN_NAME: "Fantasma"
+  STR_LOC_EMANSION: Invasione Magione
+  STR_LOC_LOKNAR_VILLAGE_DEFENSE: "Aiuta i Lokk'Naar"
+  STR_LOC_LOKNAR_VILLAGE_DEFENSE_2: "Aiuta i Lokk'Naar"
+  STR_MARKER_LOKNAR_VILLAGE: "Villaggio Lokk'Naar"
+  STR_LOC_BEASTMEN_ALTAR: Rituali di Sangue
+  STR_LOC_DEMON_SACRIFICE: Sacrifici Demoniaci
+  STR_LOC_DEATH_AND_TAXES: Le Tasse e la Morte
+  STR_MARKER_DISTRESS_BUNKER: Tipa Naufragata
+  STR_DISTRESS_CALL_COLD: Richiesta di Soccorso (Freddo)
+  STR_LOC_ACADEMY_OUTPOST: Esperimenti Scientifici
+  STR_LOC_ACADEMY_OUTPOST_JUNGLE: Esperimenti Scientifici (Giungla)
+  STR_LOC_ACADEMY_OUTPOST_COLD: Esperimenti Scientifici (Freddo)
+  STR_LOC_ACADEMY_OUTPOST_DESERT: Esperimenti Scientifici (Deserto)
+  STR_MARKER_ACADEMY_OUTPOST: Avamposto dell'Accademia
+  STR_ALERT_ACADEMY_OUTPOST: Esperimenti Scientifici
+  STR_LOC_ACADEMY_TOWN: Campus dell'Accademia
+  STR_LOC_ACADEMY_TOWN_TEMPERATE: Massacro al Campus
+  STR_ALERT_ACADEMY_TOWN: Massacro al Campus
+  STR_MISSION_ACADEMY_TOWN_PREQ2: "Massacro al Campus (Preq.2)"
+  STR_LOC_MONSTER_HUNT: "Caccia al Mostro"
+  STR_LOC_MONSTER_HUNT_SHAMBLER: "Wampa Wovi"
+  STR_MARKER_LOC_MONSTER_HUNT_SHAMBLER: "Caccia all'Orrore"
+  STR_ALERT_SEA_ADVENTURE: "Avventura per i Mari"
+  STR_LOC_WHOREHOUSE_TITLE: "Salva una Sorella"
+  STR_MARKER_LOC_WHOREHOUSE: "Villa Lanterna Rossa"
+  STR_LOC_BANDIT_TOWN: "Villaggio dei Banditi"
+  STR_LOC_BANDIT_TOWN_TITLE: "Villaggio dei Banditi"
+  STR_ALERT_BOUNTY_HUNT_B: "Taglia! (Liv: B)"
+  STR_LOC_FUNKY_ZOMBIES: "Città Domenica"
+  STR_LOC_CANNIBAL_CAMP: Campo Cannibale
+  STR_LOC_KKK_HOUSE_TITLE: "Lynchers"
+  STR_LOC_TRAITORS_TITLE: "Nessuna Pietà Per I Traditori"
+  STR_LOC_BARN_GROX: "Fattoria Lokk'Naar"
+  STR_LOC_CATACOMBS_COIN_HUNT: "Archeologia Pratica"
+  STR_LOC_TAVERN_CELLAR_TITLE: "Cantina Infestata"
+  STR_LOC_SINS_OF_THE_FATHER: "Peccati del Padre"
+  STR_LOC_SINS_OF_THE_FATHER_TITLE: "Peccati del Padre"
+  STR_MARKER_LOC_CRACKHOUSE: "Covo di Drogati"
+  STR_LOC_HITMAN_TITLE: "Le Iene"
+  STR_MARKER_LOC_HITMAN: "Covo del Cane"
+  STR_LOC_BANDIT_CAVES: "Caverne dei Banditi"
+  STR_LOC_BANDIT_CAVES_TITLE: "Caverne dei Banditi"
+  STR_LOC_MAGAZYNMAFII: "Tipi Doppiogiochisti"
+  STR_MARKER_LOC_ESCAPE_TOWER: "Torre di Fuga"
+  STR_LOC_ARSENAL: "Arsenale Umanista"
+  STR_LOC_ARSENAL_TITLE: "Arsenale Umanista"
+  STR_LOC_ELFMAN_BROS: "Rapina in Banca"
+  STR_LOC_DARK_TOWER: "Torre Misteriosa"
+  STR_LOC_DEEP_ONE_02: "Vennero Dal Mare"
+  STR_LOC_DEEP_ONE_02_TITLE: "Vennero Dal Mare"
+  STR_ALERT_ORBIT: Missione Orbitale
+  STR_ORBITAL_ENTRY_POINT: Punto d'Ingresso dell'Orbita
+  STR_LOC_SPACE_STATION_1: Laboratorio Orbitale
+  STR_LOC_SPACE_STATION_2: Stazione di Rifornimento
+  STR_LOC_SPACE_STATION_3: Satellite Dormiente
+  STR_LOC_SPACE_STATION_4: Magazzino Freddo
+  STR_ALERT_GDX_PRISON: Prigione-X
+  STR_LOC_GDX_PRISON: Prigione-X
+  STR_LOC_GDX_DUEL: "Duello con il Dr. X"
+  STR_LOC_CRYPTEK_CAVES: "Cripta del Tecnomante"
+  STR_LOC_CRYPTEK_CAVES_TITLE: "Cripta del Tecnomante"
+  STR_LOC_MAGE_VILLA: "Villa dei Maghi"
+  STR_LOC_EUROSYNDICATE_ELIMINATION: MISSIONE DI ELIMINAZIONE
+  STR_VESSEL_FOOT_PATROL: Vagabondi
+  STR_LOC_DEEP_ONE_01: Sonda Imperiale
+  STR_LOC_RET_BASE: Sonda Imperiale
+  STR_CIVILIAN_TRAFFIC: Traffico Civile
+  STR_VESSEL_POL_CRUISER: Incrociatore Megapol
+  STR_VESSEL_CC_SKYBUS: Skybus AS9
+  STR_VESSEL_CC_FAUST: BM4 Eisenkopf PFKW
+  STR_VESSEL_MESSENGER: Messaggero
+  STR_VESSEL_MILITARY_TRANSPORT: Trasporto Militare
+  STR_VESSEL_ESCORT: Scorta
+  STR_VESSEL_HOTROD: Asta Rovente
+  STR_VESSEL_SEC_SCOUT: SEK-SKOUT
+  STR_LARGE_SCOUT_BLUEPRINT: "Documentazione Cutter"
+  STR_LOC_ATRIUM: Sonda Imperiale
+  STR_LOC_KEEP: Sonda Imperiale
+  STR_DEFAULT_CORPSE: Cadavere Umanoide
+  STR_MUTON_CORPSE: Maglia Synthmuscle
+  STR_SNAKEMAN_CORPSE: Cadavere Eridiano
+  STR_SHAMBLER_CORPSE: "Carcassa Orrore"
+  AUX_HYPNOSIS: "Ipnosi"
+  STR_DOOM_HUMAN_CORPSE: "Cadavere Oscuro"
+  STR_DOOM_IMP_CORPSE: "Cadavere Imp"
+  STR_DOOM_HELL_BARON_CORPSE: "Cadavere Barone Infernale"
+  STR_DOOM_DEMON_CORPSE: "Cadavere Demone"
+  STR_DOOM_CACODEMON_CORPSE: "Cadavere Cacodemone"
+  STR_DEEP_ONE_CORPSE: "Cadavere Essere Abissale"
+  STR_LOBSTERMAN_CORPSE: "Cadavere Aragosta Umana"
+  STR_SHARKMAN_CORPSE: "Cadavere Uomo Squalo"
+  STR_DEEP_ONE_1_CORPSE_BATTLE: "Cadavere Essere Abissale"
+  STR_DEEP_ONE_2_CORPSE_BATTLE: "Cadavere Uomo Squalo"
+  STR_DEEP_ONE_6_CORPSE_BATTLE: "Cadavere Aragosta Umana"
+  STR_BLOOD_DOG_CORPSE: "Cadavere Mastino del Sangue"
+  STR_LOBSTERMAN_HIDE: "Piastre in Chitina"
+  STR_HUMAN_CARAPACE_ARMOR: Armatura di Sicurezza
+  DEEP_ONE_ARMOR_P1: Esseri Abissali - Sommario
+  DEEP_ONE_ARMOR_P2_SEA: Uomo Squalo - Sommario
+  DEEP_ONE_ARMOR_P6: Aragosta Umana - Sommario
+  RETICULAN_ARMOR_P6: 'Esame: Mechtoide'
+  CYBERDISC_ARMOR: 'Esame: Cyberdisco'
+  STR_SYNTH_EXAMINATION: "Esame: Syn"
+  STR_SOLDIER_TYPE_SS: "Soldato: Soldato Schiavo"
+  STR_SOLDIER_TYPE_SYNTH: "Soldato: Syn"
+  STR_OSIRON: "Osiron"
+  STR_GOVT: "Governo Provinciale"
+  STR_MIXED_KKK: "Clandestino"
+  STR_CIVILIAN: "Mutanti Liberi"
+  STR_DOOM: "Gli Oscuri"
+  STR_REAPER: "Mietitore"
+  STR_LIVE_LEADER: "Leader"
+  STR_LIVE_NAVIGATOR: "Guerriero"
+  STR_LIVE_SOLDIER: "Tirapiedi"
+  STR_GUILD_GUARD: "Sicurezza Gilda"
+  STR_MARSEC_MARINE: "Marine Coloniale Marsec"
+  STR_ACADEMY_THRALL: "Lacchè dell'Accademia"
+  STR_CHURCH_MAIDEN: "Vergine Bellica della Chiesa"
+  STR_APOC_DISCIPLE: "Discepolo dell'Apocalisse"
+  STR_MUTON_SOLDIER: "Soldato Mercenario"
+  STR_SPARTAN_RIFLEMAN: "Fuciliere Spartano"
+  STR_MEGAPOL_WOLFMAN: "Uomo Lupo Megapol"
+  STR_BANDIT_RATMAN_LEADER: "Tenente Uomo Ratto Mob"
+  STR_BANDIT_DRIFTER: "Viandante"
+  STR_BANDIT_DUDE: "Brigante"
+  STR_BANDIT_HITMAN: "Killer"
+  STR_JUNGLE_GAL: "Tipa Astuta"
+  STR_DOGG: "Cane"
+  HALLUCINOID_ARMOR: "Esame: Allucinoide"
+  STR_MONSTER_HUNTERS: "Cacciatori di Mostri"
+  MEGASCORPION_ARMOR: "Esame: Megascorpione"
+  GIANTSPIDER_ARMOR: "Esame: Ragno Gigante"
+  STR_SPIDER_SILK: "Seta del Ragno"
+  CHUPACABRA_ARMOR: "Esame: Chupacabra"
+  STR_CHUPACABRA_CORPSE: "Carcassa Chupacabra"
+  VAMPIRE_BAT_ARMOR: "Esame: Pipistrello Vampiro"
+  GIANT_BEETLE_ARMOR: "Esame: Scarafaggio Gigante"
+  GIANT_RAT_ARMOR: "Esame: Ratto Gigante"
+  STR_SHARKMAN_OIL: "Olio Uomo Squalo"
+  STR_RET_PEON: "Peone Reticulano"
+  STR_GOVT_ELITE: "Soldato Elite del Governo"
+  STR_NAZI_SOLDIER: "Soldato Umanista"
+  STR_KILLER_DROIDS: "Droidi Killer"
+  STR_TECHNOCRACY_TERMINATOR_TERRORIST: "Droide Killer Mk.801"
+  STR_TECHNOCRACY_INFILTRATOR_TERRORIST: "Tipa Tosta"
+  TECHNOCRACY_ARMOR_P0: 'Esame: Droide Mk.801'
+  STR_TECHNOCRACY_1_CORPSE_BATTLE: "Cadavere Tecnomante"
+  TECHNOCRACY_ARMOR_P1: 'Esame: Tecnomante'
+  STR_MAGICAL_CREATURES_RACE: "Creature Magiche"
+  STR_MAGICAL_CREATURES: "Sconosciuto"
+  STR_STAR_GOD_PUBLIC_ENEMY: "Nemico Pubblico"
+  STR_LOBSTERMAN_TERRORIST: "Aragosta Umana"
+  STR_SHARKMAN_TERRORIST: "Uomo Squalo"
+  STR_DEEP_ONE_SOLDIER: "Guerriero Abissale"
+  STR_DEEP_ONE_NOMAD: "Nomade Abissale"
+  STR_CYCLOPS_SOLDIER: "Guardia Ciclope"
+  STR_GHOST_GAL: "Tipa Fantasma"
+  STR_ZOMBIE_STERILE_TERRORIST: "Zombi"
+  STR_ZOMBIE_STERILE_CORPSE: "Cadavere Zombi"
+  STR_ZOMBIE_GRUBAS_TERRORIST: "Zombi Grassone"
+  STR_ZOMBIE_GRUBAS_CORPSE: "Cadavere Zombi Grassone"
+  STR_ZOMBIE_SADAKO_TERRORIST: "Strix Zombi"
+  STR_ZOMBIE_SADAKO_CORPSE: "Cadavere Zombi Strix"
+  STR_ZOMBIE_CARRIE_TERRORIST: "Zombi Cantante"
+  STR_ZOMBIE_CARRIE_CORPSE: "Cadavere Zombi Cantante"
+  STR_ZOMBIE_PIMP_TERRORIST: "Zombi Funky"
+  STR_ZOMBIE_PIMP_CORPSE: "Cadavere Zombi Funky"
+  STR_ZOMBIE_TROOPER_1: "Truppa Zombi"
+  STR_ZOMBIE_TROOPER_2: "Truppa Zombi"
+  STR_ZOMBIE_TROOPER_CORPSE: "Cadavere Truppa Zombi"
+  STR_ZOMBIE_SENTINEL_REMAINS: "Resti Sentinella Zombi"
+  STR_MEGAZOMBIE_TERRORIST: "Megazombi"
+  STR_MEGAZOMBIE_CORPSE: "Cadavere Megazombi"
+  STR_VAMPIRE_DUDE: "Tipo Vampiro"
+  STR_VAMPIRE_GAL: "Tipa Vampira"
+  STR_VAMPIRE_CORPSE: "Cadavere Vampiro"
+  STR_WASPITE_SOLDIER: "Vespita"
+  STR_HUMANS: "Cittadini Umani"
+  STR_RACE_HUMAN: "Cittadini Umani"
+  STR_RACE_VAMPIRE: "Vampiri"
+  STR_RACE_CYBORGS: "Cyborg"
+  STR_SHADOWS: "Maestro d'Ombra"
+  STR_DARK_STAR: "La Stella Oscura"
+  STR_HUMAN_MALE_3: "Tipo Tosto"
+  STR_HUMAN_FEMALE_4: "Tipa Tosta"
+  STR_HUMAN_CITY_GIRL: "Ragazza Esperta"
+  STR_HUMAN_CLERK: "Commesso"
+  STR_HUMAN_CLERK_CORRUPT: "Commesso Corrotto"
+  STR_HUMAN_MASTER: "Mago Umano"
+  STR_HUMAN_NOBLEWOMAN: "Nobildonna"
+  STR_HUMAN_FATMAN: "Tizio Grasso"
+  STR_HUMAN_LABOURER: "Lavoratore"
+  STR_HUMAN_LABOURER_FEM: "Lavoratrice"
+  STR_HUMAN_HOE: "Zappa"
+  STR_BEASTMEN: "Uomobestia"
+  STR_WEREWOLF: "Licantropo"
+  STR_WEREWOLF_WARRIOR: "Licantropo Selvaggio"
+  WEREWOLF_ARMOR: "Esame: Licantropo"
+  STR_BEASTMAN_9_CORPSE_BATTLE: "Cadavere Licantropo"
+  STR_NINJA: "Ninja del Cielo"
+  STR_NINJA_GAL: "Tipa Ninja"
+  STR_NINJA_WARRIOR: "Guerriero Ninja"
+  STR_REBEL: "Ribelli Mutanti"
+  STR_REBELS: "Ribelli Mutanti"
+  STR_REBEL_TRAITORS: "Traditori dell'Alleanza"
+  STR_REBEL_MALE: "Soldato Ribelle"
+  STR_REBEL_LAMIA: "Lamia Ribelle"
+  STR_REBEL_BRUTE: "Bruto Ribelle"
+  STR_REBEL_MALE_CIV: "Soldato Ribelle"
+  STR_REBEL_LAMIA_CIV: "Lamia Ribelle"
+  STR_REBEL_BRUTE_CIV: "Bruto Ribelle"
+  MALE_CIVILIAN: "Mezzo-Uber"
+  CIVILIAN_MUT_4: "Lamia"
+  CIVILIAN_MUT_5: "Bruto"
+  CIVILIAN_YOUNG_UBER: "Giovane Uber"
+  CIVILIAN_CASTAWAY_GAL: "Tipa Naufraga"
+  STR_CIV_ARMOR_CASTAWAY_GAL: "Tipa Naufraga"
+  STR_LOKNAR: "Lokk'Naar"
+  STR_PIRATE_CIV: "Corsaro"
+  STR_BRUTE_SAILOR_CIV: "Boss Corsaro"
+  STR_EXPERIMENT_VICTIM: "Vittima di Esperimenti"
+  STR_DAMSEL_VICTIM: "Prigioniero Calmo"
+  STR_FREAK_GAL: "Tipa Mostruosa"
+  STR_SISTER_VICTIM: "Tipa Naufraga"
+  STR_STASIS_POD_GAL: "Capsula di Stasi (Tipa)"
+  STR_STASIS_POD_GAL_EXTRACTION: "Est: Capsula di Stati (Tipa)"
+  STR_DOOM_SOLDIER: "Soldato Posseduto"
+  STR_SECTOPOD_TERRORIST: "Sectopode"
+  MARSEC_HUNTER_DRONE_ARMOR: "Esame: Drone Cacciatore Marsec"
+  MARSEC_SENTRY_DRONE_ARMOR: "Esame: Drone Sentinella Marsec"
+  STR_SOLDIER_TYPE_SS_UFOPEDIA: "I Cervelloni si sono divertiti ad analizzare i nostri 'Soldati Schiavi'.{NEWLINE}{NEWLINE}UNITÀ DI TEMPO: 45-60; Max. 80{NEWLINE}RESISTENZA: 40-70; Max. 120{NEWLINE}SALUTE: 30-45; Max. 60{NEWLINE}FORZA: 15-40; Max. 60{NEWLINE}CORAGGIO: 10-50; Max. 100{NEWLINE}REAZIONI: 35-55; Max. 80{NEWLINE}TIRO: 35-65; Max. 115{NEWLINE}LANCIO: 30-55; Max. 90{NEWLINE}MELEE: 25-60; Max. 100{NEWLINE}POTERE VOODOO: 15-70{NEWLINE}ABILITÀ VOODOO: Max. 65{NEWLINE}>Morale Stabile; Resistenza Stordimento{NEWLINE}VN: 10"
+  STR_TRADER_PILOT_UFOPEDIA: "Questi tizi in divise dall'aspetto buffo non sono in realtà così innocui. Sebbene non siano importanti come gli Ingegneri, sono piloti e tecnici addestrati, sono ben pagati e proteggeranno la loro nave con le loro vite - dopotutto, perderla li renderà schiavi del debito per tutta la vita verso la Gilda."
+  STR_HALLUCINOID_AUTOPSY_UFOPEDIA: "Esame Allucinoide. SENSI: 40"
+  STR_SNAKEMAN_AUTOPSY: "Autopsia Rettiliano"
+  STR_MUTON_AUTOPSY: "Synthmuscle"
+  STR_ETHEREAL_AUTOPSY: "Roba degli Dei Stellari"
+  STR_GOVT_AUTOPSY: "Roba Umana"
+  CYCLOPS_ARMOR: "Esame: Ciclopi"
+  ERIDIAN_ARMOR0: "Esame: Eridiano"
+  DANCER_ARMOR: "Danzatrice Esotica"
+  STR_ZOMBIE_STERILE: "Zombi"
+  ZOMBIE_STERILE_ARMOR: "Esame: Zombi"
+  STR_ZOMBIE_GRUBAS: "Zombi Grassone"
+  ZOMBIE_GRUBAS_ARMOR: "Esame: Zombi Grassone"
+  ZOMBIE_SADAKO_ARMOR: "Esame: Zombi Strix"
+  ZOMBIE_CARRIE_ARMOR: "Esame: Zombi Cantante"
+  ZOMBIE_PIMP_ARMOR: "Esame: Zombi Funky"
+  MEGAZOMBIE_ARMOR: "Esame: Megazombi"
+  STR_ZOMBIE_TROOPER: "Truppa Zombi"
+  ZOMBIE_TROOPER_1_ARMOR: "Esame: Truppa Zombi"
+  STR_ZOMBIE_SENTINEL: "Sentinella Zombi"
+  ZOMBIE_SENTINEL_ARMOR: "Esame: Sentinella Zombi"
+  ZOMBIE_TROOPER_2_ARMOR: "Truppa Zombi (Ferita)"
+  ZOMBIE_TROOPER_2_ARMOR_UFOPEDIA: "Truppa Zombi (Ferita). SENSI: 40."
+  STR_VAMPIRE_DUDE_UFOPEDIA: "???? Sembra che i vampiri esistano davvero."
+  STR_VAMPIRE_GAL_UFOPEDIA: "???? Sembra che i vampiri esistano davvero."
+  VAMPIRE_ARMOR: "Esame: Vampiro"
+  VAMPIRIA_ARMOR: "Esame: Vampiria"
+  GHOST_0_ARMOR: "Analisi: Tipa Fantasma"
+  WASPITE_ARMOR: "Esame: Vespita"
+  STR_DEMONIC_ESSENCE_PREQ: "Oscuri - Sommario"
+  STR_DOOM_SPECTRE: "Demone Spettrale"
+  STR_CYBERDISC_AUTOPSY: "Esame: Rottame Cyberdisco"
+  ADRONE_ARMOR: "Esame: Drone dell'Accademia"
+  BOOMOSAURUS_ARMOR: "Esame: Boomosauro"
+  STR_FLOATER_AUTOPSY: "Autopsia Fluttuante"
+  CHRYSSALID_ARMOR: "Esame: Crisalide"
+  STR_CHRYSSALID_AUTOPSY: "Autopsia Crisalide"
+  STR_FLOATER_UFOPEDIA: "I Fluttuanti sono principalmente soldati e agenti terroristici. Sono animali predatori, geneticamente modificati e potenziati ciberneticamente per formare guerrieri formidabili. La metà inferiore del corpo e la maggior parte degli organi interni vengono rimossi chirurgicamente e viene installato un sistema di supporto vitale. Questo impianto contiene un'unità anti-gravità che consente alla creatura di fluttuare, sebbene in modo instabile, attraverso l'aria."
+  REAPER_ARMOR: "Esame: Mietitore"
+  STR_REAPER_AUTOPSY: "Autopsia Mietitore"
+  CELATID_ARMOR: "Esame: Saccoccia"
+  STR_CELATID_AUTOPSY: "Autopsia Celatide"
+  STR_SILACOID_TERRORIST: "Rocky"
+  STR_SILACOID: "Rocky"
+  SILACOID_ARMOR: "Esame: Rocky"
+  STR_SILACOID_CORPSE: Cadavere Rocky
+  STR_SILACOID_AUTOPSY: "Autopsia Silacoide"
+  SECTOPOD_ARMOR: "Esame: SECTOPODE"
+  STR_SECTOPOD_AUTOPSY: "Autopsia Sectopode"
+  MAP_AREA51URBAN: "Base Militare"
+  MAP_COMRCURBAN: "Commerciale"
+  MAP_CULTA_UBER: "Uber Fattoria"
+  MAP_DESERT: "Deserto"
+  MAP_DESERTX: "Deserto di Polvere"
+  MAP_DESERT2RED: "Sabbie Rosa"
+  MAP_DESERTMOUNT: "Montagna Desertica"
+  MAP_DESERTTEMPLE: "Tempio del Deserto"
+  MAP_DAWNURBANA: "Città all'Alba A"
+  MAP_DAWNURBANB: "Città all'Alba B"
+  MAP_FOREST: "Foresta"
+  MAP_FOREST2BLACK: "Foresta d'Acciaio"
+  MAP_FORESTMOUNT: "Foresta di Montagna"
+  MAP_FORESTPOLAR: "Palude della Foresta"
+  MAP_GRASSLANDDESERT: "Deserto della Prateria"
+  MAP_GRASSLANDDESERTMOUNT: "Montagna del Deserto della Prateria"
+  MAP_GRASSLANDFOREST: "Foresta della Prateria"
+  MAP_GRASSLANDFORESTMOUNT: "Montagna della Foresta della Prateria"
+  MAP_INDUSTRIALURBAN: "Industriale"
+  MAP_INDUSTRIALUFO: "Atterraggio Industriale"
+  MAP_JUNGLE: "Giungla"
+  MAP_JUNGLE2NEO: "Neo-Giungla"
+  MAP_JUNGLE2BLACK: "Giungla Malvagia"
+  MAP_JUNGLEMOUNT: "Montagna della Giungla"
+  MAP_JUNGLEPOLAR: "Palude della Giungla"
+  MAP_JUNGLETEMPLE: "Tempio della Giungla"
+  MAP_MADURBANUFO: "Atterraggio in Città"
+  MAP_NATIVEURBAN: "Urbano Nativo"
+  MAP_NATIVEURBAN_4X4: "Villaggio Nativo"
+  MAP_NATIVEUFO: "Atterraggio Villaggio Nativo"
+  MAP_NATIVEURBANROAD: "Urbano Nativo (Strada)"
+  MAP_NATIVEURBANROAD_LOKNAR: "Urbano Nativo (Strada/Lokk'Naar)"
+  MAP_NATIVEURBANROADUFO: "Urbano Nativo (Strada) Atterraggio"
+  MAP_POLAR: "Polare"
+  MAP_POLARDESERT: "Deserto Polare"
+  MAP_POLARDESERTMOUNT: "Montagna del Deserto Polare"
+  MAP_POLARMOUNT: "Montagna Polare"
+  MAP_PORTURBAN: "Porto Modificato"
+  MAP_PORTTFTD: "Porto TFTD"
+  MAP_RAILYARDURBAN: "Deposto Ferroviario"
+  MAP_SAVANNADESERT: "Deserto della Savana"
+  MAP_SAVANNADESERTMOUNT: Montagna del Deserto della Savana
+  MAP_SAVANNAFOREST: Foresta della Savana
+  MAP_SAVANNAFORESTMOUNT: Montagna della Foresta della Savana
+  MAP_STEPPEDESERT: Steppa del Deserto
+  MAP_STEPPEDESERTMOUNT: Montagna della Steppa del Deserto
+  MAP_STEPPEFOREST: Foresta della Steppa
+  MAP_STEPPEFORESTMOUNT: Montagna della Foresta della Steppa
+  MAP_TAIGADESERT: "Deserto della Taiga"
+  MAP_TAIGADESERTMOUNT: "Montagna della Taiga"
+  MAP_TAIGAFOREST: "Foresta della Taiga"
+  MAP_TAIGAFORESTMOUNT: "Monte della Foresta della Taiga"
+  MAP_TUNDRADESERT: "Deserto della Tundra"
+  MAP_TUNDRAMOUNT: "Montagna della Tundra"
+  MAP_TUNDRADESERTMOUNT: "Montagna del Deserto della Tundra"
+  MAP_DESERTPLANE: "Deserto Rottame Aereo"
+  MAP_POLARPLANE: "Polare Rottame Aereo"
+  MAP_TUNDRAPLANE: "Tundra Rottame Aereo"
+  MAP_STEPPEPOLAR: "Palude della Steppa"
+  MAP_GRASSLANDPOLAR: "Palude della Prateria"
+  MAP_SAVANNAPOLAR: "Palude della Savana"
+  MAP_TAIGAPOLAR: "Palude della Taiga"
+  MAP_TUNDRAPOLAR: "Palude della Tundra"
+  MAP_TUNDRAFOREST: "Foresta della Tundra"
+  MAP_TUNDRAFORESTMOUNT: "Montagna della Foresta della Tundra"
+  MAP_COMPLEXGHOUL: "Villaggio Ghoul"
+  MAP_COMPLEXURBAN: "Complesso Raffineria"
+  MAP_ISLANDURBAN: "Isola Comunità"
+  MAP_SLUMURBAN: "I Bassifondi (Crocevia)"
+  MAP_SLUMURBAN_NOROADS: "I Bassifondi"
+  MAP_MADURBANSNOW: "Città Invernale"
+  MAP_URBANWAR: "Città della Guerra"
+  MAP_MAGAZYNMAFII: "Deposito della Mafia"
+  MAP_RURALUFO: "Atterraggio Villaggio Slavo"
+  MAP_RURAL: "Villaggio Slavo"
+  MAP_NATIVEJUNKUFO: "Baraccopoli"
+  STR_SKYRANGER: "SKYRANGER"
+  STR_SUPPLY_SHIP: "Nave Rifornimento"
+  STR_MISSION: "Missione"
+  STR_EYE_OF_HORUS: Occhio di Horus
+  STR_EXPLOSIVE: Esplosivi
+  STR_POD3X5: "(Drop-Pod 30x50)"
+  STR_LARGE_BUNKER: "(Bunker Grande)"
+  STR_CHURCH_ENTRY: "(Entrata Chiesa)"
+  STR_EXPEDITION: SPEDIZIONE
+  STR_CONVOY: CONVOGLIO
+  STR_VENTURA: BONAVENTURA
+  STR_FUEGO: EL FUEGO
+  STR_FORTUNA: FORTUNA
+  STR_METALLO: METALLO
+  STR_VENTURA_HULL: Scafo Spazioso
+  STR_FUEGO_HULL: Scafo Elegante
+  STR_FORTUNA_HULL: Scafo Scintillante
+  STR_METALLO_HULL: Scafo Blindato
+  STR_FATSUB: BLOWFISH
+  STR_TRITON: TRITON
+  STR_TRITON_TRANSPORT: Trasporto di Ispirazione-Reticulana
+  STR_DROPSHIP: THUNDERHORSE
+  STR_JETBIKE: SHARK JETBIKE
+  STR_AIRVAN: AIRVAN
+  STR_AIRBUS: AIRBUS GDX*058
+  STR_AIRCAR: AIRCAR
+  STR_AIRSPEEDER: AIRSPEEDER
+  STR_GDXCAR: SPECTOR
+  STR_GDXCAR_ITEM: "Aeroauto Spector del Dr. X"
+  STR_GDXCAR_ITEM_2: "Spector (Saccheggiato)"
+  STR_GDXCAR_EX: "Saccheggia lo Spector del Dr. X"
+  STR_PIRANHA_AIRBIKE: PIRANHA
+  STR_GOLDHAWK: HAWK
+  STR_GOLDHAWK_PROCUREMENT: "È uno scherzo, un'Aquila Dorata?"
+  STR_SAKURABUS: TURTLE
+  STR_SAKURABUS_PROCUREMENT: "Cos'è la Tartaruga Viola?"
+  STR_WHITEWORM: WORM
+  STR_WHITEWORM_PROCUREMENT: "Dove è nato, questo Verme Bianco?"
+  STR_SCARAB: SCARAB
+  STR_SCARAB_PROCUREMENT: "C'è un nesso con lo Scarabeo Cinereo?"
+  STR_MI2400: SCORPION
+  STR_MI2400_PROCUREMENT: "Chi apprezza lo Scorpione Rosso?"
+  STR_VERDANT_SNAKE: SNAKE
+  STR_VERDANT_SNAKE_PROCUREMENT: "Cosa farne del Serpente Verdeggiante?"
+  STR_SAPPHIRE_JELLYFISH: JELLYFISH
+  STR_SAPPHIRE_JELLYFISH_PROCUREMENT: "Che razza di piatto è una Medusa Zaffiro?"
+  STR_SHADOWBAT: SHADOWBAT
+  STR_SHADOWBAT_PROCUREMENT: "Come scusa, un Ombrastrello?"
+  STR_CHARIOT: PACHYDERM
+  STR_PIGEON: PIGEON
+  STR_SKYRANGER_TRANSPORT: Trasporto Skyranger
+  STR_BASIC_INTERCEPTOR: Assemblaggio Interceptor
+  STR_INTERCEPTOR: CACCIA-KILLER
+  STR_NIGHTMARE: INCUBO
+  STR_NIGHTMARE_INTERCEPTOR: Caccia Avanzato
+  STR_PREDATOR: PREDATOR
+  STR_PREDATOR_INTERCEPTOR: Caccia Migliorato
+  STR_KRAKEN: KRAKEN
+  STR_KRAKEN_INTERCEPTOR: Nave da Attacco Pesante
+  STR_SABRE: SABRE
+  STR_SABRE_INTERCEPTOR: Caccia Definitivo
+  STR_DRAKKAR: DRAKKAR
+  STR_DRAKKAR_TRANSPORT: Trasporto d'Assalto
+  STR_DEVASTATOR: DEVASTATOR
+  STR_DEVASTATOR_INTERCEPTOR: Bombardiere Avanzato
+  STR_HYDRA: DRAGONE
+  STR_HYDRA_INTERCEPTOR: Incrociatore Tascabile
+  STR_BRIG: LEVIATHAN
+  STR_BIG_PIRATIN_SHIP: Trasporto Pesante
+  STR_FIRESTORM: DELIVERATOR
+  STR_BLAZER_TRANSPORT: Trasporto Rapido
+  STR_BRAVE_WHALER: BRAVE WHALER
+  STR_BRAVE_WHALER_INTERCEPTOR: Intercettore a Lungo Raggio
+  STR_BARACUDA: BARRACUDA
+  STR_BARACUDA_INTERCEPTOR: Caccia Agile
+  STR_SWORDFISH: SWORDFISH
+  STR_SWORDFISH_INTERCEPTOR: Ibrido Caccia/Cannoniera
+  STR_LIGHTNING: CRAB
+  STR_MINING_SHIP: PROSPECTOR
+  STR_MINING_SHIP_ADVANCE: Nave Minatrice
+  STR_ZEPPELIN: SPY ZEPPELIN
+  STR_ZEPPELIN_ADVANCE: Zeppelin Spia
+  STR_MERC_FIGHTER: DOG OF WAR
+  STR_M_WING: M-WING
+  STR_RAIL_POD: RAIL POD
+  STR_CAPSULE: ZUBRIN
+  STR_MARS_CAPSULE: Lander Marziano
+  STR_MARS_CAPSULE_PROJECT: Progetto Razzo Marziano
+  STR_RPC: Caricatore Plasma Reticulano
+  STR_RPC_UC: CARICATORE PLASMA
+  STR_RPC_PARTS: Parti del Caricatore Plasma Ret.
+  STR_SONIC_OSCILLATOR: Oscillatore Sonico Saccheggiato
+  STR_SONIC_OSCILLATOR_UC: OSCILLATOR
+  STR_SONIC_OSCILLATOR_PARTS: Parti Oscillatore Sonico
+  STR_TESLA_CANNON: Cannone Tesla
+  STR_TESLA_CANNON_UC: CANNONE TESLA
+  STR_MINI_LASER: Fabbrica Carica Laser
+  STR_MINI_LASER_UC: CARICA LASER
+  STR_GAT_LASCANNON: Lascannone Gatling
+  STR_GAT_LASCANNON_UC: LASCANNONE GAT
+  STR_LASER_CANNON: Fabbrica Raggio Laser
+  STR_LASER_CANNON_UC: RAGGIO LASER
+  STR_RAMJET_CANNON: Cannone Statoreattore
+  STR_RAMJET_CANNON_UC: CANNONE RAMJET
+  STR_RAMJET_ROUNDS: Colpi Statoreattore
+  STR_BIG_GUN: Pistola Navale
+  STR_BIG_GUN_UC: PISTOLA NAVALE
+  STR_BIGGER_GUN: Cannone Obliteratore
+  STR_BIGGER_GUN_UC: CANNONE OBLITERATORE
+  STR_BIG_GUN_SHELLS: Bossoli 120mm
+  STR_BIGGER_GUN_SHELLS: Bossoli Obliteratore
+  STR_MED_CANNON: Cannone 50mm
+  STR_MED_CANNON_UC: CANNONE 50mm
+  STR_MED_CANNON_SHELLS: Bossoli 50mm
+  STR_MED_CANNON_ADV: Cannone Bulldog 50mm
+  STR_MED_CANNON_ADV_UC: CANNONE BULLDOG
+  STR_SMALL_CANNON: "Cannone 25mm (x2)"
+  STR_SMALL_CANNON_1: "Cannone 25mm"
+  STR_SMALL_CANNON_UC: "CANNONE 25MM (x2)"
+  STR_SMALL_CANNON_1_UC: CANNONE 25MM
+  STR_QUADCANNON: "Quadcannone"
+  STR_QUADCANNON_UC: QUADCANNONE
+  STR_SMALL_CANNON_ROUNDS_X50: Colpi 25mm (x50)
+  STR_AIRBALLS: Aeropalla
+  STR_AIRBALLS_TECH: Esplosivo Aereo Improvvisato
+  STR_SPIKE_LAUNCHER: Sparachiodi
+  STR_SPIKE_LAUNCHER_UC: RAZZI CHIODATI
+  STR_SPIKE_ROCKETS: Razzi Chiodati
+  STR_UNGUIDED_LAUNCHER: Lanciarazzi Artigianale da 250mm
+  STR_UNGUIDED_LAUNCHER_UC: RAZZI DA 250mm
+  STR_UNGUIDED_ROCKETS: Razzi da 250mm
+  STR_MEDUSA: Missile Anti-Scudo
+  STR_MEDUSA_UC: MEDUSA
+  STR_MEDUSA_LAUNCHER: Lanciatore Medusa
+  STR_MEDUSA_MISSILES: Missili Medusa
+  STR_LONGLANCE: LANCER
+  STR_LONGLANCE_LAUNCHER: Lanciatore Lancer
+  STR_LONGLANCE_MISSILES: Missili Lancer
+  STR_HAMMERMITE: HAMMERMITE
+  STR_HAMMERMITE_LAUNCHER: Lanciatore Hammermite
+  STR_HAMMERMITE_MISSILES: Missili Hammermite
+  STR_FLAME_CANNON: "Cannone Fiamma"
+  STR_FLAME_CANNON_UC: "CANNONE FIAMMA"
+  STR_LITTLE_ILYA: "Lanciarazzi Lil' Ilya"
+  STR_LITTLE_ILYA_UC: "LIL' ILYA"
+  STR_GOBLIN_ROKKITZ_UC: ROKKITZ DEI GOBLIN
+  STR_GOBLIN_ROKKITZ_LAUNCHER: Lanciatore Goblin
+  STR_GOBLIN_ROKKITZ: Rokkit dei Goblin
+  STR_CONVERSION_LAUNCHER: Lanciatore a Conversione
+  STR_CONVERSION_LAUNCHER_UC: LANCIATORE A CONVERSIONE
+  STR_SIDEWINDER: SEAGULL
+  STR_SIDEWINDER_LAUNCHER: Lanciatore Seagull
+  STR_SIDEWINDER_MISSILES: Missili Seagull
+  STR_MISSILE_ADV: METEOR
+  STR_MISSILE_ADV_LAUNCHER: Lancia Meteore
+  STR_MISSILE_ADV_MISSILES: Missili Meteor
+  STR_REAPER_CANNON: Cannone Ripper
+  STR_REAPER_CANNON_UC: CANNONE RIPPER
+  STR_REAPER_CANNON_ROUNDS_X50: "Colpi Ripper (x50)"
+  STR_LASCANNON_LITE: Fabbrica Lascannone
+  STR_LASCANNON_LITE_UC: LASCANNONE
+  STR_RAILGUN: Cannone del Basilisco
+  STR_RAILGUN_UC: BASILISK
+  STR_RAILGUN_ROUNDS: Colpi Basilisk
+  STR_GAUSS_CANNON: Cannone Gauss
+  STR_GAUSS_CANNON_UC: CANNONE GAUSS
+  STR_GAUSS_CANNON_ROUNDS_X25: Colpi Gauss (x25)
+  STR_PLASMA_SPITTER: Sputa Plasma
+  STR_PLASMA_SPITTER_UC: SPUTAPLASMA
+  STR_BOMB_LAUNCHER: Lanciabombe ad Implosione
+  STR_BOMB_LAUNCHER_UC: BOMBE AD IMPLOSIONE
+  STR_CRAFT_BOMB: Fabbrica Bomba al Plasma
+  STR_CRAFT_EQUIPMENT: Equip. Vascello
+  STR_THRUSTER: Propulsore Multi-Vettore
+  STR_THRUSTER_UC: PROPULSORE
+  STR_TARGETER: Mirino ad Iperonde
+  STR_TARGETER_UC: SEGNALATORE
+  STR_TRACTOR_BEAM: Raggio Traente
+  STR_TRACTOR_BEAM_UC: RAGGIO TRAENTE
+  STR_HULL_PLATING: Rivestimento Extra Scafo
+  STR_HULL_PLATING_UC: RIVESTIMENTO SCAFO
+  STR_SHIELD_GEN: Generatore di Scudo Leggero
+  STR_SHIELD_GEN_UC: SCUDO LEGGERO
+  STR_SHIELD_GEN_LARGE: Generatore di Scudo Pesante
+  STR_SHIELD_GEN_LARGE_UC: SCUDO PESANTE
+  STR_SHIELD_CAPACITOR: Capacitore Scudo
+  STR_SHIELD_CAPACITOR_UC: CAPACITORE
+  STR_STC_RFR: Motore a Fusione STC
+  STR_STC_RFR_UC: MOTORE A FUSIONE
+  STR_ETHYR_DRIVE_1: Motore Ethyr
+  STR_ETHYR_DRIVE_1_UC: MOTORE ETHYR
+  STR_ETHYR_DRIVE_2: Motore Ethyr +
+  STR_ETHYR_DRIVE_2_UC: MOTORE ETHYR +
+  STR_ETHYR_DRIVE_3: Motore Ethyr X
+  STR_ETHYR_DRIVE_3_UC: MOTORE ETHYR X
+  STR_SPATIAL_DISPLACER_1: Dislocatore Spaziale
+  STR_SPATIAL_DISPLACER_1_UC: DISLOCATORE SPAZIALE
+  STR_SPATIAL_DISPLACER_2: Dislocatore Spaziale +
+  STR_SPATIAL_DISPLACER_2_UC: DISLOCATORE SPAZIALE +
+  STR_SPATIAL_DISPLACER_3: Dislocatore Spaziale X
+  STR_SPATIAL_DISPLACER_3_UC: DISLOCATORE SPAZIALE X
+  STR_INTEGRITY_FIELD_1: Campo d'Integrità
+  STR_INTEGRITY_FIELD_1_UC: CAMPO D'INTEGRIT
+  STR_INTEGRITY_FIELD_2: Campo d'Integrità +
+  STR_INTEGRITY_FIELD_2_UC: CAMPO D'INTEGRITÀ +
+  STR_INTEGRITY_FIELD_3: Campo d'Integrità X
+  STR_INTEGRITY_FIELD_3_UC: CAMPO D'INTEGRITÀ X
+  STR_ENERGY_FOCUS_1: Focus d'Energia
+  STR_ENERGY_FOCUS_1_UC: FOCUS D'ENERGIA
+  STR_ENERGY_FOCUS_2: Focus d'Energia +
+  STR_ENERGY_FOCUS_2_UC: FOCUS D'ENERGIA +
+  STR_ENERGY_FOCUS_3: Focus d'Energia X
+  STR_ENERGY_FOCUS_3_UC: FOCUS D'ENERGIA X
+  STR_OMNISENSOR_1: Omnisensore
+  STR_OMNISENSOR_1_UC: OMNISENSORE
+  STR_OMNISENSOR_2: Omnisensore +
+  STR_OMNISENSOR_2_UC: OMNISENSORE +
+  STR_OMNISENSOR_3: Omnisensore X
+  STR_OMNISENSOR_3_UC: OMNISENSORE X
+  STR_DEPTH_DWELLER: "Abitanti delle Profondità"
+  STR_LOOTED_CYBERDISC: Cyberdisco Saccheggiato
+  STR_LOOTED_CYBERDISC_HMG: Cyberdisco/HMG
+  STR_LOOTED_CYBERDISC_ROCKET: Cyberdisco/Lanciatore
+  STR_HWP_ROCKETS_3: Cyberdisco/Lanciarazzi-DP
+  STR_LOOTED_CYBERDISC_LASER: Cyberdisco/Laser Gatling
+  STR_LOOTED_CYBERDISC_PLASMA: Cyberdisco/Plasma
+  STR_HWP_SENTRY_SPIKE: Sentinella/Razzi
+  STR_HWP_SPIKE_ROCKETS: Razzi Sentinella
+  AUX_COPTER_WEAPON_ARIFLE: "Fucile Velivolo (Elicottero)"
+  AUX_ACAR_WEAPON_2MG: "Mitragliatrici Gemelle (Veicolo)"
+  AUX_ACAR_WEAPON_HMG: "Mitragliatore Pesante (Veicolo)"
+  AUX_ACAR_WEAPON_AC25MM: "Cannone da 25mm (Veicolo)"
+  STR_ACAR_WEAPON_AGL: "AGL (Veicolo)"
+  AUX_ACAR_WEAPON_AGL: "AGL (Veicolo)"
+  STR_ACAR_WEAPON_QUAD_RPG: "Quad Lanciarazzi RPG (Veicolo)"
+  AUX_ACAR_WEAPON_QUAD_RPG: "Quad Lanciarazzi RPG (Veicolo)"
+  STR_ACAR_WEAPON_105_RECOILLESS: "RR da 105mm (Veicolo)"
+  AUX_ACAR_WEAPON_105_RECOILLESS: "RR da 105mm (Veicolo)"
+  STR_105_RECOILLESS_ROUNDS: "Colpi per RR da 105mm"
+  STR_ACAR_WEAPON_LASCANNON: "Lascannone (Veicolo)"
+  AUX_ACAR_WEAPON_LASCANNON: "Lascannone (Veicolo)"
+  STR_ACAR_LASCANNON_CLIP_LO: "Car. Lascannone Veicolo"
+  STR_ACAR_LASCANNON_CLIP_HI: "Car./Av. Lascannone Veicolo"
+  STR_ACAR_LASCANNON_CLIP_AP: "Car. Cannone Laser per Veicolo/Prf."
+  STR_ACAR_WEAPON_XGAUSS: "Cannone X-Gauss (Veicolo)"
+  AUX_ACAR_WEAPON_XGAUSS: "Cannone X-Gauss (Veicolo)"
+  STR_ACAR_XGAUSS_AMMO: "Colpi Cannone XG Veicolo"
+  STR_ACAR_WEAPON_XPLASMA: "Cannone X-Plasma (Veicolo)"
+  AUX_ACAR_WEAPON_XPLASMA: "Cannone X-Plasma (Veicolo)"
+  STR_ACAR_XPLASMA_BATTS: "Batterie Cannone XPlasma Veicolo"
+  STR_ACAR_WEAPON_HAVOK: "Lanciatore Havoc (Veicolo)"
+  AUX_ACAR_WEAPON_HAVOK: "Lanciatore Havoc (Veicolo)"
+  STR_HAVOK_ROCKETS: "Razzi Havoc/HE"
+  STR_HAVOK_ROCKETS_NAPALM: "Razzi Havoc/Napalm"
+  AUX_TANK_MG: "Mitragliatore (Tank)"
+  AUX_TANK_LASER: "Autolaser (Tank)"
+  AUX_TANK_WEAPON_GRENADES: "Lanciagranate (Tank)"
+  STR_TANK_AUTOCANNON: "Autocannone da 60mm (Tank)"
+  AUX_TANK_AUTOCANNON: "Autocannone 60mm (Tank)"
+  STR_TANK_CANNON: "Cannone da Battaglia 85mm (Tank)"
+  AUX_TANK_CANNON: "Cannone da Battaglia 85mm (Tank)"
+  STR_HWP_AUTOCANNON_SHELLS: "Bossoli Autocannone 60mm"
+  STR_HWP_AUTOCANNON_SHELLS_HVAP: "Bossoli AC 60mm/HVAP"
+  STR_HWP_CANNON_SHELLS: "Bossoli Cannone da Battaglia 85mm"
+  STR_HWP_CANNON_SHELLS_NUKE: "Bossoli BC 85mm/Hell"
+  STR_HWP_CANNON_SHELLS_FUSION: "Bossoli BC 85mm/Fusione"
+  AUX_TANK_LASER_CANNON: "Lascannone Pesante (Tank)"
+  STR_TANK_LASER_CANNON: "Lascannone Pesante (Tank)"
+  STR_HWP_LASER_CANNON_BATTS: "Batt. Lascannone Pesante Tank"
+  STR_HWP_ROCKETS: "Bossoli Bombarda"
+  STR_HWP_AMMUNITION: Munizioni Carrarmato
+  STR_BATTLECANNON: Cannone da Battaglia
+  STR_HEAVY_MORTAR: Howitzer
+  STR_TAMED_REAPER: Mietitore Ammaestrato
+  STR_MUTANT_REAPER: Mietitore Mutato
+  STR_TAMED_BOOMOSAURUS: Boozeosauro
+  STR_HWP_INCENDIARY_ROCKET: Razzi Boomosauro
+  STR_JAWS: Mascelle
+  STR_CYCLOPS_CONVERT: Ciclope Convertito
+  CYCLOPS_GAZE: Sguardo Ciclope
+  AUX_GHOST_SEDUCTION: Canzone Spettrale
+  STR_WEREDOGE: "Licantropo Ammaestrato"
+  STR_BLOODOGE: "Mastino del Sangue Pirata"
+  STR_DOGE: "Cane da Guerra"
+  STR_DOGE_PROCUREMENT: "Procurare Cani"
+  STR_DOGE_CORPSE: "Cane Morto"
+  STR_DOGE_JAWS: "Morso"
+  STR_PARROT: "Pappagallo"
+  STR_PARROT_CORPSE: "Pappagallo Morto"
+  STR_PARROT_BEAK: "Beccata"
+  STR_SECURITY_CAMERA: "Telecamera di Sicurezza"
+  STR_SOLDIER_HYBRID: Occhibelli
+  STR_SOLDIER_PEASANT: Paesano
+  STR_RECRUIT_PEASANTS: Recluta Paesano
+  STR_PEASANT_MILITIA: Milizia Paesana
+  STR_MILITIA_TRAINING: Addestramento Milizia
+  STR_PEASANTS_ZZZ: "Paesani (Dep.)"
+  STR_SLAVE_SOLDIERS: Soldati Schiavi
+  STR_SOLDIER_SLAVE: Soldato Schiavo
+  STR_SOLDIER_SLAVE_RECRUITMENT: "Recluta: Soldato Schiavo"
+  STR_SUPER_SLAVE: Superschiavo
+  STR_CORPSE_SUPER_SLAVE: Superschiavo KIA
+  STR_GREEN_LIGHTER: Green Lighter
+  STR_CORPSE_GREEN_LIGHTER: Green Lighter KIA
+  STR_BAT_GLAD_PROJECT: Io sono Batglad!
+  STR_BAT_GLAD: BatGlad
+  STR_CORPSE_BAT_GLAD: BatGlad KIA
+  STR_FLASH_BANG_PROJECT: Spariti in un baleno
+  STR_FLASH_BANG: FlashBanger
+  STR_CORPSE_FLASH_BANG: FlashBanger KIA
+  STR_SUPER_SLAVE_ARMOR: "Costume da Superschiavo"
+  STR_GREEN_LIGHTER_ARMOR: "Costume Green Lighter"
+  STR_BAT_GLAD_ARMOR: "Batcostume"
+  STR_FLASH_BANG_ARMOR: "Costume FlashBanger"
+  STR_SLAVE_NUDE_UC: NUDO /SS
+  STR_SLAVE_NUDE_SEA_UC: "NUDO /SS (MARE)"
+  STR_SLAVE_ARMOR_LOINCLOTH_UC: "PERIZOMA"
+  STR_SLAVE_ARMOR_LOINCLOTH_SEA_UC: "PERIZOMA (MARE)"
+  STR_SLAVE_PUNK_UC: "PUNK /SS"
+  STR_SLAVE_ARMOR_TUNIC_UC: "PELTASTA"
+  STR_SLAVE_ARMOR_TUNIC_A_UC: "PELTASTA (S)"
+  STR_SLAVE_ARMOR_PIROMAN_UC: "PIROMANE"
+  STR_SLAVE_ARMOR_PIROMAN_A_UC: "PIROMANE (S)"
+  STR_SLAVE_ARMOR_CRUSADER_UC: "CROCIATO"
+  STR_SLAVE_ARMOR_CRUSADER_A_UC: "CROCIATA (S)"
+  STR_SLAVE_ARMOR_DEMOLISHER_UC: "DEMOLITRICE"
+  STR_SLAVE_ARMOR_PIRATE_UC: "PIRATA /SS"
+  STR_SLAVE_ARMOR_JUMPSUIT_UC: "NANO /SS"
+  STR_SLAVE_ARMOR_LEGION_UC: "LEGIONE /SS"
+  STR_SLAVE_DIVER_UC: "UOMORANA /SS"
+  STR_SLAVE_DIVER_SEA_UC: "UOMORANA /SS (MARE)"
+  STR_SLAVE_ARMOR_DOOM_UC: "DOOM"
+  STR_SLAVE_ARMOR_DOOM_2_UC: "DOOM 2"
+  STR_SUPER_SLAVE_ARMOR_UC: "SUPERSCHIAVO"
+  STR_GREEN_LIGHTER_ARMOR_UC: "GREEN LIGHTER"
+  STR_BAT_GLAD_ARMOR_UC: "BAT GLAD"
+  STR_FLASH_BANG_ARMOR_UC: "FLASHBANGER"
+  STR_PEASANT_NUDE_UC: "NUDO /PAE"
+  STR_PEASANT_NUDE_SEA_UC: "NUDO /PAE (MARE)"
+  STR_PEASANT_STALKER_UC: "STALKER"
+  STR_SLAVE_ARMOR_TAC_VEST_UC: "VESTE TATTICA /SS"
+  STR_DEFENDER_SLAVE_UC: "DIFENSORE /SS"
+  STR_PEASANT_ARMOR_HUNTER_UC: "CACCIATORE"
+  STR_PEASANT_ARMOR_DRESS_UC: "PASTORE"
+  STR_PEASANT_ARMOR_GLADIATRIX_UC: "GLADIATRIX"
+  STR_PEASANT_ARMOR_MILITIA_UC: "MILIZIA"
+  STR_PEASANT_ARMOR_JUMPSUIT_UC: "NANO /PAE"
+  STR_CRAFT_GATLING_LASER: Laser Gatling
+  STR_UFO_POWER_SOURCE: Motore per Imbarcazione
+  STR_ALIEN_ENTERTAINMENT: Ipno Pannello
+  STR_ALIEN_SURGERY: Unità Chirurgica
+  STR_EXAMINATION_ROOM: Scanner Industriale
+  STR_ALIEN_ALLOYS: Plastacciaio
+  STR_ALIEN_HABITAT: Capsula di Stasi
+  STR_CYDONIA_OR_BUST: "Operazione Tripla-A"
+  STR_ELERIUM_115: Hellerium
+  STR_ELERIUM_115_EX: Estrazione Hellerium
+  STR_GRAV_SHIELD: Difesa Repulsiva
+  STR_PSI_LAB: VooDoo
+  STR_PSI_ILLUSION: "VooDoo: Illusione"
+  STR_PSI_EXCESS: "VooDoo: Eccesso"
+  STR_PSI_DESTRUCTION: "VooDoo: Distruzione"
+  STR_PSI_COMMUNION: "VooDoo: Condivisione"
+  STR_HYPERWAVE_MYSTICISM: "Mysticismo ad Iperonde"
+  STR_GLAMOUR: "Fascino"
+  STR_CULTURAL_WEALTH: "Benessere Culturale"
+  STR_CHRONOMANCY: "Cronomanzia"
+  STR_VAMPIRISM: "Vampirismo"
+  STR_VOICES_OF_THE_DEAD: "Voci dei Morti"
+  STR_DEMONIC_RITUALS: "Rituali Demoniaci"
+  STR_MEDI_KIT: Rum Finemente Distillato
+  STR_STUN_ROD: Storditore Rotto
+  STR_CATTLE_PROD: Pungolo da Bestiame
+  STR_IMPALER: Impalatore
+  STR_CANTEEN: Mensa del Ristoro
+  STR_CANTEEN_WEED: Mensa della Saggezza
+  STR_BEER: Birra Atomica
+  STR_MOONSHINE: Distillato
+  STR_VODKA: Vodka Kosmoportovaya
+  STR_MUSHROOM_BEER: Birra Fungosa
+  STR_COMBAT_DRUGS: Droghe da Combattimento
+  STR_STIMM: Stimm
+  STR_OXYGEN_TANK: Tanica d'Ossigeno
+  STR_MEDIPACK_SAVIOUR: Medikit Magico
+  STR_MOTION_SCANNER: Aye-Phone
+  STR_PSI_AMP: Bacchetta VooDoo
+  STR_MASTERS_CANE: "Bastone del Maestro"
+  STR_SAKURA_STAFF: "Verga di Herder"
+  STR_SCEPTER_OF_FEAR: "Scettro della Paura"
+  STR_PERSUADOTRON: "Persuadotron 2000"
+  STR_PSI_AMP_LARGE: "Grande Verga VooDoo"
+  AUX_PSI_ORB: "Sfera VooDoo"
+  STR_GHOST_BEAM: Raggio Fantasma
+  STR_GHOST_DAGGER: Pugnale Fantasma
+  STR_DANCE_MASTER: Maestro di Danza
+  STR_DANCE_MASTER_ATTACK: I Ti Ordino Di Danzare!
+  STR_CERO: Palla dell'Annientamento
+  STR_ARCANE_RAY: Raggio Arcano
+  AUX_GOOD_TOUCH: Tocco Buono
+  AUX_BAD_TOUCH: Tocco Cattivo
+  AUX_SEDUCTION: Poteri di Seduzione
+  AUX_SEDUCTION_ATTACK: Sedurre
+  AUX_GOTHIC_SHIELD: Scudo Gotico
+  AUX_TOWER_SHIELD: Scudo a Torre
+  AUX_ROMAN_SHIELD: Scudo del Piromane
+  AUX_CRUSADER_SHIELD: Scudo del Crociato
+  AUX_ROUND_SHIELD: Scudo Tondo
+  STR_POLICE_SHIELD: Scudo della Sommossa
+  STR_SANDBAGS: Sacchi di Sabbia
+  STR_ROCK_T: "Bella Pietra"
+  AUX_LIGHTER: Accendino
+  STR_TASER: "Tazopistola"
+  AUX_CRYSTAL_BALL: Sfera di Cristallo
+  AUX_BLOOD_MAGIC: Magia del Sangue
+  AUX_LUCKY_STAR: Stella Fortunata
+  AUX_PILLOW: Cuscino della Morbidezza
+  AUX_CHRYSSALID_WEAPON: Artigli della Crisalide
+  AUX_CYBERDISC_WEAPON: Cannone al Plasma del Cyberdisco
+  AUX_REAPER_WEAPON: Morso del Mietitore
+  AUX_CELATID_WEAPON: Sputo di Celatide
+  AUX_SILACOID_WEAPON: Sputo di Silacoide
+  AUX_SILACOID_WEAPON_MELEE: Morso Silacoide
+  AUX_SENTINEL_SHIELD: Scudo della Sentinella
+  AUX_SENTINEL_WEAPON: Pistola Sentinella
+  AUX_ZOMBIE_WEAPON: Pugno dello Zombie
+  AUX_ZOMBIE_INFECTOR_WEAPON: Infezione Zombie
+  AUX_ADRONE_WEAPON: Lasgun del Drone
+  AUX_DOGG_WEAPON: "Morso"
+  AUX_BLOOD_DOG_WEAPON: "Morso a Sangue"
+  AUX_MEGASCORPION_WEAPON: "Puntura"
+  AUX_GIANTSPIDER_WEAPON: "Morso di Ragno"
+  AUX_CHUPACABRA_WEAPON: "Morso di Chupacabra"
+  AUX_VAMPBAT_WEAPON: "Morso del Pipistrello"
+  AUX_VAMPIRE_WEAPON: "Mostro del Vampiro"
+  AUX_GIANT_BEETLE_WEAPON: "Morso dello Scarafaggio Gigante"
+  AUX_FISTO: "Pugno"
+  AUX_FORCE_LANCE: "Lancia di Forza"
+  AUX_ROBOT_FIST: "Pugno Robotico"
+  AUX_PRED_CLAWS: "Artigli del Predatore"
+  AUX_SMELL_SCANNER: "Sniff, Sniff"
+  AUX_BATTLE_BELL: "Per chi suona la campana?"
+  STR_ICBM: "ICBM"
+  STR_CLOAKING_DEVICE: Dispositivo di Occultamento
+  STR_CLOAKING_DEVICE_FAUX: DISPOSITIVO DI OCCULTAMENTO
+  STR_CLOAKING_DEVICE_FAUX_UC: DISPOSITIVO DI OCCULTAMENTO
+  STR_DECLOAKING_DEVICE: Dispositivo di Rilevazione
+  STR_PRISMATIC_SHIELD: Scudo Prismatico
+  STR_HELLERIUM_CHARM: Fascino Hellerium
+  STR_SHEPHERDS_STAFF: "Verga del Pastore"
+  STR_QUARTERSTAFF: "Bastone"
+  STR_FAN: Ventaglio
+  STR_SHIV: Pugnale
+  STR_KNOIF: Daga
+  STR_KNOIF_BARB: Daga Spinata
+  STR_CHITIN_KNIFE: Coltello in Chitina
+  STR_LONG_KNIFE: Coltello Lungo
+  STR_KNOIF_POISON: Daga Avvelenata
+  STR_KNOIF_BANDIT: Coltello del Bandito
+  STR_RAZOR: "Rasoio"
+  STR_MACHETE: Machete
+  STR_VIBRO_BLADE: Vibro Lama
+  STR_PLASMA_DAGGER: Daga al Plasma
+  STR_PIPE: Tubo
+  STR_WRENCH: Chiave Inglese
+  STR_CAT_PAWS: Zampe del Gatto
+  STR_PRED_DISC: "Disco Mortale"
+  STR_VAMPIRIC_SWORD: "Spada Vampirica"
+  STR_SLAVERS_CANE: "Bastone dello Schiavista"
+  STR_TONFA: Bastone Ninja
+  STR_SPIKED_MACE: Mazza Chiodata
+  STR_PITCHFORK: "Forcone"
+  STR_SHOVEL: "Pala"
+  STR_UNARMED_BASIC: "Mani Nude"
+  STR_UNARMED_WRESTLING: "Wrestling"
+  STR_UNARMED_GAUNTLET: "Manopola"
+  STR_UNARMED_GAUNTLET_PLUS: "Super Manopola"
+  STR_GAUNTLET_CLAW: "Manopola Artigliata"
+  STR_KUNG_FU: "Arti Marziali"
+  STR_PUNCH: "Pugno!"
+  STR_KICK: "Spazzata"
+  STR_FLURRY: "Triplo Colpo"
+  STR_KNUCKLES_SPIKED: "Nocche Chiodate"
+  STR_SICKLE: Falcetto
+  STR_AZTEC_CLUB: Mazza Sacra
+  STR_RUSTY_BLADE: Lama Arrugginita
+  STR_SHORT_SWORD: Coltellaccio
+  STR_WAKIZASHI: Lama Sudoku
+  STR_CUTLASS: Sciabola
+  STR_RAPIER: Stocco
+  STR_GLADIUS: Vibro Spada
+  STR_BARBARIAN_SWORD: Spada Barbarica
+  STR_KATANA: Fuso Spada
+  STR_SWORD_MDV: Spada Lunga
+  STR_SWORD_PS: Lama Tech
+  STR_SWORD: Elettro-Spada
+  STR_CLAW: Elettro-Artiglio
+  STR_FORCE_BLADE: Lama di Forza
+  STR_PLASMA_SWORD: Spada al Plasma
+  STR_DEATHBLADE: Lama Infernale
+  STR_BLOOD_AX: Ascia del Sangue
+  STR_AX: Ascia
+  STR_VIBRO_AX: Vibro-Ascia
+  STR_AQUA_TRIDENT: Aqua Tridente
+  STR_AQUA_HATCHET: Aqua Accetta
+  STR_BILLHOOK: Roncola
+  STR_TECH_CLEAVER: Tech Mannaia
+  STR_STONE_AX: Accetta di Pietra
+  STR_THROWING_CARDS: Carte Magiche
+  STR_THROWING_STARS: Stelle Ninja
+  STR_FUSO_KNIVES: Fuso Coltelli
+  STR_SUNBLADES: Lame del Sole
+  STR_JAVELINS: Giavellotti
+  STR_THROWING_AXES: Asce da Lancio
+  STR_THROWING_HAMMER: Martello da Lancio
+  STR_ELECTRIC_NET: Rete Elettrica
+  STR_BOW_H: Arco da Cacciatore
+  STR_BOW_H_QUIVER: Freccie per Arco da Cacciatore
+  STR_BOW_H_QUIVER_FIRE: Frecce Fiammeggianti
+  STR_BOW_H_QUIVER_POISON: Frecce Avvelenate
+  STR_BOW: Arco da Combattimento
+  STR_BOW_QUIVER: Frecce per Arco da Combattimento
+  STR_LONGBOW: Arco Lungo
+  STR_LONGBOW_QUIVER: Frecce per Arco Lungo
+  STR_BOW_NEON: Arco Futuristico
+  STR_XBOW: Arco-X
+  STR_XBOW_QUIVER: Dardi per Arco-X
+  STR_SPEAR: Lancia
+  STR_PIKE: Picca
+  STR_BARBARIAN_AX: Ascia Barbarica
+  STR_BARDICHE: Berdica
+  STR_HAMMER: Martello
+  STR_PICKAXE: Piccone
+  AUX_MANACLES: Catene della Schiavitù
+  STR_CHAINSAW: Motosega
+  STR_CHAINSAW_HEAVY: Motosega Pesante
+  STR_AUTO_AXE: Auto-Ascia
+  AUX_AUTO_AXE: Auto-Ascia (Moto)
+  STR_TESLA_COIL: Bobina Tesla
+  STR_CS_GAS: Latta di Gas Lacrimogeno
+  STR_ZAP_GUN: Zapper
+  STR_OLD_PISTOL: 9mm Arrugginita
+  STR_OLD_PISTOL_2: 9mm Lucida
+  STR_OLD_PISTOL_CLIP: Caricatore 9mm
+  STR_OLD_REVOLVER: "Vecchia Rivoltella"
+  STR_REVOLVER: "Sei-Colpi"
+  STR_REVOLVER_POLICE: "Rivoltella della Polizia"
+  STR_REVOLVER_DRUM: "Tamburo Sei-Colpi"
+  STR_PEACEMAKER: Serpente Argento
+  STR_PEACEMAKER_DRUM: Tamburo Serpente Argento
+  STR_PISTOL: Pistola d'Assalto
+  STR_PISTOL_CLIP: Colpi Pistole d'Assalto
+  STR_PISTOL_ADV: Pistola Intelligente
+  STR_PISTOL_ADV_CLIP: Caricatore Pistola Intelligente
+  STR_BLACK_ADDER: Vipera Nera
+  STR_REVOLVER_LT: Piccola Rivoltella
+  STR_REVOLVER_LT_DRUM: Tamburo Piccola Rivoltella
+  STR_LUGER: Pistola da Ufficiale
+  STR_LUGER_CLIP: Munizioni Pistola da Ufficiale
+  STR_MAUSER: Pistola di Precisione
+  STR_MAUSER_CLIP: Munizioni Pistola di Precisione
+  STR_PISTOL_SILENCED: Pistola Silenziata
+  STR_PISTOL_SILENCED_CLIP: Munizioni Pistola Silenziata
+  STR_COLT45: Fermauomini
+  STR_COLT45_CLIP: Colpi Fermauomini
+  STR_COMMANDO_PISTOL: Pistola Commando
+  STR_COMMANDO_PISTOL_CLIP: Car. Pistola Commando/Prf.
+  STR_HEAVY_PISTOL: Aquila Confederata
+  STR_HEAVY_PISTOL_CLIP: Colpi Aquila
+  STR_MAGNUM: Magnum
+  STR_SUPER_MAGNUM: Super Magnum
+  STR_MAGNUM_DRUM: Tamburo Magnum
+  STR_MAGNUM_DRUM_ACID: Tamburo Magnum/Chem
+  STR_MAGNUM_DRUM_SILVER: Tamburo Magnum/Mercurio
+  STR_SLUGGA_MK2: Cannone a Mano Kustom
+  STR_SLUGGA_MK2_CLIP: Munizioni Cannone a Mano Kustom
+  STR_SLUGGA_MK2_CLIP_S: Bossoli Cannone a Mano Kustom
+  STR_SMG: SMG
+  STR_SMG_CLIP: Munizioni SMG
+  STR_SMG_CLIP_ACID: Munizioni SMG/Chem
+  STR_SMG_CLIP_INCENDIARY: Munizioni SMG/I
+  STR_SMG_ADV: Mini-Coguaro SMG
+  STR_LAWGIVER: Conciliatore
+  STR_LAWGIVER_CLIP: Munizioni Conciliatore
+  STR_CLOCKWORK_GUN: Pistola ad Orologeria
+  STR_FLINTLOCK_PISTOL: Pistola a Pietra Focaia
+  STR_FLINTLOCK_MUSKET: Moschetto
+  STR_FLINTLOCK_MUSKET_B: "Baionetta Moschetto"
+  STR_AIR_MUSKET: "Moschetto Aereo"
+  STR_HARQUEBUS: "Archibugio"
+  STR_FLINTLOCK_BALLS: "Palle a Pietra Focaia"
+  STR_ZIPGUN: "Pistole O'Harty"
+  STR_IGUN: "i-Pistola"
+  STR_SAWED_OFF: "Canne Mozze"
+  STR_SHOTGUN_FIST: "Pugno Fucile"
+  STR_DB_SHOTGUN: "Fucile a Doppia Canna"
+  STR_SUPER_SAWED_OFF: "Super Canne Mozze"
+  STR_SMALL_SHOTGUN: Fucile Compatto
+  STR_MINI_SHOTGUN: Mini Fucile da Caccia
+  STR_SHOTGUN_G: Vecchio Fucile da Caccia
+  STR_SHOTGUN_LT: Fucile Domestico
+  STR_SHOTGUN_POLICE: Fucile della Polizia
+  STR_SHOTGUN: Fucile Militare
+  STR_SHOTGUN_ADV: Fucile da Caccia Intelligente
+  STR_SHOTGUN_SHELLS: Cartucce per Fucile da Caccia
+  STR_SHOTGUN_SHELLS_AP: Cartucce AP per Fucile da Caccia
+  STR_SHOTGUN_PA: "Fucile  da Caccia Pesante"
+  STR_SHOTGUN_PA_SHELLS: "Cartucce per Fucile  da Caccia Pesante"
+  STR_UAC_SHOTGUN: "Fucile da Caccia UAC"
+  STR_UAC_SHOTGUN_SHELLS: "Cartucce Fucile da Caccia UAC"
+  STR_ASG12: "Fucile  da Caccia d'Assalto"
+  STR_ASG12_DRUM: "Tamburo Fucile da Caccia d'Assalto"
+  STR_ASG12_DRUM_RUBBER: Tamburo Fucile da Caccia d'Assalto/Gomma
+  STR_STREET_SWEEPER: Pulisci Strade
+  STR_COMBAT_SHOTGUN: Fucile da Combattimento
+  STR_COMBAT_SHOTGUN_B: Pistola da Trincea
+  STR_COMBAT_SHOTGUN_DRUM: Tamburo Fucile da Combattimento
+  STR_COMBAT_SHOTGUN_DRUM_I: Tamburo Fucile da Combattimento/I
+  STR_SUPER_SHOTGUN: Superfucile da Caccia
+  STR_SUPER_SHOTGUN_CLIP: Caricatore Superfucile da Caccia
+  STR_SUPER_SHOTGUN_CLIP_HVAP: "Caricatore Superfucile da Caccia/HVAP"
+  STR_MAMMOTH_SHOTGUN: Fucile a Catena Mammut
+  STR_OGRE_SHOTGUN: "Fucile da Caccia O.G.R.E."
+  STR_OGRE_SHOTGUN_SHELLS: "Bossoli O.G.R.E."
+  STR_SMITHING: Metallurgia
+  STR_PRIMITIVE_WEAPONS: Armi Primitive
+  STR_PRIMITIVE_WEAPONS_2: Strumento & Lame
+  STR_POISONED_WEAPONS: Veleni & Acidi
+  STR_BASIC_INCENDIARIES: Il Fuoco Cammina Con Me
+  STR_ALCHEMY: Alchimia
+  STR_TINKERING: Armeggiamento
+  STR_SC_WIRE_USE: Circuiti Superconduttivi
+  STR_DURATHREAD_WORKING: Lavorazione Durathread
+  STR_DURATHREAD_MANUFACTURING: Stampaggio Durathread
+  STR_PLASTASTEEL_MANUFACTURING: Forgiatura Plastacciaio
+  STR_SYNTHMUSCLE_MANUFACTURING: Stampaggio Synthmuscle
+  STR_POWER_SUIT_MANUFACTURING: Fabbricazione Armatura Potenziata
+  STR_POWER_TOOLS: Strumenti Potenziati
+  STR_INDUSTRIAL_TOOLS: Strumenti Industriali
+  STR_EXCAVATION: Arte dello Scavo
+  STR_GEMOLOGY: Gemologia
+  STR_AIR_FILTRATION: Filtro per l'Aria
+  STR_CHEMISTRY: Chimica Avanzata
+  STR_CHEMICAL_WEAPONS: Armi Chimiche
+  STR_MAGNETIC_CONTAINMENT: Campo di Contenimento Magnetico
+  STR_MUTANT_GUNS: "Guns'4'Us"
+  STR_SHOOTA_PRODUCTION: Pistole Più Grandi
+  STR_CLOCKWORK_GUN_PRODUCTION: Armeria Intricata
+  STR_BLUNDERBUSS: Schioppo
+  STR_BLUNDERBUSS_AMMO: Bossoli Schioppo
+  STR_BLUNDERBUSS_AMMO_ACID: Bossoli Schioppo Chem
+  STR_BLUNDERBUSS_AMMO_HE: Bossoli Blunderbuss HE
+  STR_BLUNDERBUSS_ADV: Schioppo Kustom
+  STR_BLUNDERBUSS_DRUM_HE: Tamburo Schioppo HE
+  STR_CAWS: S.B.A.M.
+  STR_CAWS_CLIP_AP: "Car. S.B.A.M./Prf"
+  STR_CAWS_CLIP_S: "Car. S.B.A.M./Pal"
+  STR_CAWS_CLIP_AQUA: "Car. S.B.A.M./Aqua"
+  STR_UAC_CARBINE: Carabina UAC
+  STR_MINI_SMG: Mini SMG
+  STR_SMG_10MM_CLIP: Colpi ES SMG
+  STR_SONIC_PISTOL: Pistola Sonica
+  STR_SONIC_PISTOL_CLIP: Caricatore Pistola Sonica
+  STR_SONIC_RIFLE: Fucile Sonico
+  STR_SONIC_RIFLE_CLIP: Caricatore Fucile Sonico
+  STR_SONIC_CANNON: Cannone Sonico
+  STR_SONIC_CANNON_CLIP: Munizioni Cannone Sonico
+  STR_SONIC_PULSER: Pulser Sonico
+  STR_WINCHESTER: "Vecchia Carabina"
+  STR_WINCHESTER_AMMO: "Munizioni Vecchia Carabina"
+  STR_WINCHESTER_AMMO_EP: "Munizioni Vecchia Carabina/EP"
+  STR_VARMINT_RIFLE: Fucile Varmint
+  STR_VARMINT_RIFLE_CLIP: Munizioni Fucile Varmint
+  STR_SCOUT_RIFLE: Fucile Scout
+  STR_HUNTING_RIFLE: Fucile da Caccia
+  STR_HUNTING_RIFLE_ADV: Fucile con Mirino
+  STR_HUNTING_RIFLE_CLIP: Munizioni Fucile da Cacciatore
+  STR_HUNTING_RIFLE_CLIP_PS: Munizioni Fucile da Cacciatore/PS
+  STR_DRAGOON_RIFLE: Fucile Dragone
+  STR_DRAGOON_RIFLE_CLIP: Munizioni Fucile Dragone
+  STR_NITRO_EXPRESS: Fucile Mietitore
+  STR_NITRO_EXPRESS_CLIP: Munizioni Fucile Mietitore
+  STR_COMMANDO_RIFLE: Fucile Commando
+  STR_COMMANDO_RIFLE_CLIP: Caricatore Fucile Commando
+  STR_COMMANDO_RIFLE_CLIP_HVAP: "Caricatore Fucile Commando/HVAP"
+  STR_FLINTLOCK_RIFLE: Fucile a Pietra Focaia
+  STR_SNIPER_RIFLE_LT: Fucile di Precisione Leggero
+  STR_SNIPER_RIFLE: Fucile di Precisione
+  STR_SNIPER_RIFLE_CLIP: Caricatore Fucile di Precisione
+  STR_SNIPER_RIFLE_CLIP_AP: Caricatore Fucile di Precisione/AP
+  STR_SNIPER_RIFLE_CLIP_PS: Caricatore Fucile di Precisione/PS
+  STR_HSR: Python HSR
+  STR_HSR_CLIP_AP: Caricatore Python/AP
+  STR_HSR_CLIP_ACID: Caricatore Python/Chem
+  STR_HSR_CLIP_HE: Caricatore Python/HE
+  STR_SUPERHEAVY_RIFLE: Fucile 37mm
+  STR_SUPERHEAVY_RIFLE_AMMO: Munizioni Fucile 37mm
+  STR_AUTO_RIFLE: Auto Fucile
+  STR_RIFLE: Fucile d'Assalto
+  STR_RIFLE_CLIP_AP: Car. Fucile d'Assalto/Prf.
+  STR_RUGER: Carabina con Mirino
+  STR_SMARTRIFLE: Fucile Intelligente
+  STR_BATTLE_RIFLE_CLIP_AP: Car. Fucile da Battaglia/Prf.
+  STR_OMEGA_RIFLE: Fucile Omega
+  STR_OMEGA_RIFLE_CLIP_AP: Car. Fucile Omega/Prf.
+  STR_ROTOGUN: Rotopistola
+  STR_SAW_CLIP_PS: Munizione Autopistola/PS
+  STR_LMG_CLIP_AP: "Munizioni AMG/Prf."
+  STR_ASUKA_RIFLE: "Fucile Asuka"
+  STR_MACHINEGUN_BELT_MAG: "Bandoliera MG/MAG"
+  STR_HMG: Mitragliatrice Pesante
+  STR_MEGA_CANNON: Mega-Cannone Marsec
+  STR_BALLISTA: Balista
+  STR_BALLISTA_BOLTS: Dardi Balista
+  STR_KRAKEN_CANNON: Cannone Kraken
+  STR_PIR_CANNON: Cannone d'Assalto
+  STR_PIR_CANNONBALL: Palla di Cannone
+  STR_PIR_CANNONBALL_HE: Palla di Cannone Esplosiva
+  STR_PIR_CANNONBALL_INC: Palla di Cannone Pirotecnica
+  STR_PIR_CANNONBALL_ACID: "Palla di Cannone Acida"
+  STR_PIR_CANNONBALL_GAS: "Palla di Cannone Velenosa"
+  STR_PIR_CANNONBALL_SC: Palla di Cannone Superconduttiva
+  STR_GRENADE_LAUNCHER: Lancia Granate
+  STR_GL_HE: Granata da 40mm/HE
+  STR_GL_I: Granata da 40mm/Incendiaria
+  STR_GL_SMOKE: Granata 40mm/Fumo
+  STR_GL_FAE: Granata da 40mm/Napalm Nero
+  STR_GL_NUKE: Granata da 40mm/Hell
+  STR_GL_FUSION: Granata da 40mm/Fusione
+  STR_GL_GAS: Granata da 40mm/Gas
+  STR_GL_KNOCKOUT: Granata da 40mm/Stordente
+  STR_HGL: Lanciagranate Pesante
+  STR_HGL_HE: Pacco di Granate/HE
+  STR_HGL_I: Pacco di Granate/Incendiario
+  STR_HGL_SMOKE: Pacco di Granate/Fumo
+  STR_HGL_FAE: Pacco di Granate/Napalm Nero
+  STR_HGL_NUKE: Pacco di Granate/Hell
+  STR_HGL_FUSION: Pacco di Granate/Fusione
+  STR_HGL_GAS: Pacco di Granate/Gas
+  STR_HGL_KNOCKOUT: Pacco di Granate/Stordente
+  STR_AGL: Lanciagranate d'Assalto
+  STR_AGL_CLIP: Tamburo LGA
+  STR_AGL_CLIP_NAPALM: Tamburo LGA/Napalm Nero
+  STR_RECOILLESS_RIFLE_SHELL: Bossoli Fucile-R
+  STR_QUAD_ROCKETS_NAPALM: Bombetta di Napalm Nero
+  STR_FLAMETHROWER_CLIP: Fiasca di Carburante
+  STR_HEAVY_FLAMER: Lanciafiamme Pesante
+  STR_HEAVY_FLAMER_CLIP: Tanica Lanciafiamme Pesante
+  STR_FIRE_EXT: Estintore
+  STR_ES_PISTOL: Laspistola EuroSindacato
+  STR_MARSEC_LASGUN: "Laspistola Marsec"
+  STR_ASSAULT_LASER: Bruciante
+  STR_GATLING_LASER: Grassone
+  STR_STORM_LASER: Laser d'Assalto
+  STR_SNIPER_LASER_PIR: Laser di Precisione
+  STR_SNIPER_LASER_CLIP_LO: Caricatore Laser di Precisione
+  STR_HEAVY_LASER_PIR: Laser Pesante
+  STR_HEAVY_LASER_CLIP_LO: Caricatore Laser Pesante
+  STR_AUTO_LASER: Autolaser
+  STR_AUTO_LASER_CLIP_LO: Car. Autolaser
+  STR_XG_RIFLE: Fucile XG
+  STR_RETICULAN_LASER_GUN: Laspistola Reticulana
+  STR_SPORES_TOXIN: Spore della Morte
+  STR_HEAVY_PARTICLE_GUN: Acceleratore di Particelle Pesante
+  STR_STUN_GRENADE_PIR: Granata Stordente
+  STR_STASIS_GRENADE: Granata di Stasi
+  STR_GRENADE: Granata HE
+  STR_PROXIMITY_GRENADE: Granata di Prossimità
+  STR_GRENADE_FRAG: Granata Frag
+  STR_GRENADE_FUSION: Granata a Fusione
+  STR_INCENDIARY_GRENADE: Granata Incendiaria
+  STR_GAS_GRENADE: Granata Gas Velenoso
+  STR_ACID_GRENADE: Granata Chimica
+  STR_MINE: Mina Antiuomo
+  STR_HALLUCINOGEN_GRENADE: Granata Gas Allucinogeno
+  STR_BOOM_FRUIT: Frutto Boom
+  STR_HEALING_GEL: Gel Curativo
+  STR_BANDAGE: Fasciature
+  STR_PAINKILLERS: Antidolorifici
+  STR_FIRST_AID_KIT: Kit di Pronto Soccorso
+  STR_SMALL_MEDIPACK: Medipack Avanzato
+  STR_SPACE_MEDIPACK: Medipack Spaziale
+  STR_MEDIPACK: Kit Chirurgico da Campo
+  AUX_MEDIPACK: "Medipack dell'Infermiera"
+  AUX_MEDIPACK_EGGHEAD: "Medipack del Dottore"
+  STR_SUPER_MEDIPACK: "Dispositivo di Nano-Chirurgia"
+  STR_GROG_BARREL: "X-Grog"
+  STR_ENERGY_SHIELD_SMALL: "Scudo d'Energia Portatile"
+  STR_ENERGY_MATRIX_SMALL: "Matrice Scudo Personale"
+  STR_NOOSE: Corda
+  STR_KUSARIGAMA: Kusarigama
+  STR_WHIP_LEATHER: Frusta di Pelle
+  STR_WHIP: Frusta Neurale
+  STR_FLAME_WHIP: Frusta del Purgatorio
+  STR_ANCHOR: Ancora
+  STR_POWER_MACE: Mazza del Potere
+  STR_POISON_LANCE: "Toxi-Lancia"
+  STR_YELLOW_GEM: Topazio
+  STR_BLUE_GEM: Zaffiro
+  STR_GREEN_GEM: Smeraldo
+  STR_RED_GEM: Rubino
+  STR_DIAMOND: Diamante
+  STR_YELLOW_GEM_PROCURE: Topazio da Jack
+  STR_BLUE_GEM_PROCURE: Zaffiro da Jack
+  STR_GREEN_GEM_PROCURE: Smeraldo da Jack
+  STR_RED_GEM_PROCURE: Rubino da Jack
+  STR_DIAMOND_PROCURE: Diamante da Jack
+  STR_TREASURE_CHEST: Cassa del Tesoro
+  STR_RANGEFINDER: Telemetro
+  STR_LIGHT_CRYSTAL: Cristallo di Luce
+  STR_CRYSTAL_SKULL: Teschio di Cristallo
+  STR_TORCH: Torcia
+  STR_SHAWL: Scialle Decorato
+  STR_FUR_HAT: Ushanka
+  STR_A_SPACE_TOWEL: Asciugamano Spaziale
+  STR_GAS_MASK: Maschera Antigas
+  STR_AY_GOGGLES: Occhiali di Sicurezza
+  STR_BURA: Bikini in Durathread
+  STR_HEAVY_METAL: Metallo Pesante
+  STR_XENFORCER_CHASSIS: 'Esame: Xenforcer'
+  STR_XENFORCER_FILES: Documentazione Xenforcer
+  LIGHT_SOURCE_15: Lampada
+  STR_CELATID_ESSENCE: Essenza Celatide
+  STR_WAND_FIRE: Bacchetta delle Frecce Fiammeggianti
+  STR_FLAME_GLOVE: Guanto Magma
+  STR_SHADOW_ARMOR_LOKNAR_SEA_UC: "OMBRA /LOK (MARE)"
+  STR_LOKNAR_ASSASSIN_ARMOR: "Completo Lama Notturna Lokk'Naar"
+  STR_SYNTH_DANCER_UC: "DANZATRICE /SYN"
+  STR_PIR_TOPLESS_UC: TOPLESS
+  STR_RUNT_OUTFIT: Completo da Nano
+  STR_RUNT_OUTFIT_UC: NANO
+  STR_BRAINER_OUTFIT: Completo da Cervellone
+  STR_BRAINER_OUTFIT_UC: CERVELLONE
+  STR_BRAINER_OUTFIT_SEA_UC: "CERVELLONE (MARE)"
+  STR_GYM_OUTFIT: Tuta da Ginnastica
+  STR_BIKINI: Bikini
+  STR_BIKINI_SEA_UC: BIKINI (MARE)
+  STR_NURSE_OUTFIT: Completo da Infermiera
+  STR_AMAZON_ARMOR: Completo da Amazzone
+  STR_AMAZON_ARMOR_UC: AMAZZONE
+  STR_AMAZON_ARMOR_SEA_UC: "AMAZZONE (MARE)"
+  STR_BERSERKER_ARMOR: Completo da Berserker
+  STR_BERSERKER_ARMOR_UC: BERSERKER
+  STR_MEIDO_OUTFIT: Completo da Serva
+  STR_MEIDO_OUTFIT_UC: SERVA
+  STR_BASIC_ARMOR_UC: GUERRIERA
+  STR_LEATHER_ARMOR_UC: DURATHREAD
+  STR_METAL_ARMOR: Armatura Metallica
+  STR_CHAIN_MAIL: Cotta di Maglia
+  STR_PLATE_MAIL: "Armatura di Piastre Completa"
+  STR_SLAYER_ARMOR_UC: MOLOCH
+  STR_POWER_SUIT_UC: JUGGERNAUT
+  STR_BIO_SUIT_ADV_UC: BIO TUTA
+  STR_BIO_SUIT_ADV_SEA_UC: "BIO TUTA (MARE)"
+  STR_PERSONAL_ARMOR_STUDY: Armatura Personale Moderna
+  STR_FLYING_SUIT_UC: ASSALTO
+  STR_LOOTED_RAIDER_BOSS_ARMOR_UC: BOSS
+  STR_IRONMAN_ARMOR_UC: SUPEREROE
+  STR_MUSCLE_ARMOR: Tuta Synthmuscle
+  STR_MUSCLE_ARMOR_UC: TUTA SINTETICA
+  STR_BRUTE_ARMOR: Armatura del Bruto
+  STR_SORCERESS_ARMOR_UC: FATTUCCHIERA
+  STR_VOODOO_ARMOR_UC: STREGA
+  STR_STEALTH_ARMOR: Completo da Fantasma
+  STR_STEALTH_ARMOR_UC: FANTASMA
+  STR_STEALTH_ARMOR_SEA_UC: "FANTASMA (MARE)"
+  STR_HOLOSUIT: Holotuta
+  STR_THEBAN_DRESS: Abito Tebano
+  STR_THEBAN_DRESS_UC: TEBANO
+  STR_MAGE_ROBE_UC: NOVIZIO
+  STR_VAMPY_ROBE: Tunica Vampirica
+  STR_VAMPY_ROBE_UC: VAMPY
+  STR_PIR_SLAVE_ARMOR_UC: MASOCHISTA
+  STR_DEMONIC_ARMOR_UC: FURIOSA
+  STR_PIR_DEFENDER: Armatura Difensore
+  STR_DEVASTATOR_ARMOR_SLAVE_UC: "TESTUDO /SS"
+  STR_DEVASTATOR_ARMOR_SLAVE_SEA_UC: "TESTUDO /SS (MARE)"
+  STR_UFO_POWER_SOURCE_SMALL: "Piccolo Motore per Imbarcazione"
+  STR_RET_FUSION_REACTOR: "Reattore a Fusione Reticulano"
+  STR_APPLE: "Mela"
+  STR_ORANGE: "Arancia"
+  STR_MELON: "Melone"
+  STR_EGGPLANT: "Melanzana"
+  STR_BANANAS: "Banane"
+  STR_PUMPKIN: "Zucca"
+  STR_RED_PEPPER: "Peperone Rosso"
+  STR_GRAPES: "Uva"
+  STR_POTATO: "Patata"
+  STR_PEAR: "Pera"
+  STR_UBER_WHEAT: "Grano Uber"
+  STR_CABBAGE: "Lattuga"
+  STR_PINECONE: "Pigna"
+  STR_BOOT: "Vecchio Stivale"
+  STR_SKULL: "Teschio del Demone"
+  STR_ANKH: "Ankh d'Oro"
+  STR_TROPHIES: "Trofei"
+  STR_MISSIONS_D: "Taglia Livello D"
+  STR_TROPHIES_COINS: "Vecchio Conio"
+  STR_CUSTOMER_GOBLIN_ZAXX: "Cliente: Banca Goblin Zaxx"
+  STR_CUSTOMER_MUTANT_ALLIANCE: "Cliente: L'Alleanza Mutante"
+  STR_CUSTOMER_WIZ_BIZ: "Cliente: Wiz Biz"
+  STR_BOUNTY_HUNTING_DONATION_JACK: "Dona 100$ a Jack"
+  STR_BOUNTY_HUNTING_DONATION_GOBLIN_ZAXX: "Dona 100$ a Zaxx il Goblin"
+  STR_BOUNTY_HUNTING_DONATION_MUTANT_ALLIANCE: "Dona 100$ all'Alleanza Mutante"
+  STR_BOUNTY_HUNTING_DONATION_WIZ_BIZ: "Dona Liber Occultus a Wiz"
+  STR_BOUNTY_HUNTING_PRIZE_PEACEMAKER: "Premio: Serpente Argento"
+  STR_BOUNTY_HUNTING_PRIZE_EAGLE: "Premio: Equip. Confederato"
+  STR_BOUNTY_HUNTING_PRIZE_PIRANHA: "Premio: Piranha"
+  STR_BOUNTY_HUNTING_PRIZE_JACK_FAVOR: "Premio, Favori di Jack"
+  STR_BOUNTY_HUNTING_PRIZE_CANNON: "Premio: Cannone 30mm"
+  STR_BOUNTY_HUNTING_PRIZE_PERSUADOTRON: "Premio: Persuadotron"
+  STR_BOUNTY_HUNTING_PRIZE_AUTOCANNONS: "Premio: Autocannoni"
+  STR_BOUNTY_HUNTING_PRIZE_PLASMA_BLADES: "Premio: Lame al Plasma"
+  STR_BOUNTY_HUNTING_PRIZE_MINI_SHOTGUN: "Premio: Mini Fucile da Caccia"
+  STR_BOUNTY_HUNTING_PRIZE_BANK_FAVORS: "Premio: Favori di Banca"
+  STR_BOUNTY_HUNTING_PRIZE_MILITARY_SUPPLIES: "Premio: Rifornimenti Militari"
+  STR_BOUNTY_HUNTING_PRIZE_BIG_GUN: "Premio: Pistola Navale"
+  STR_BOUNTY_HUNTING_PRIZE_DURATHREAD: "Premio: Durathread"
+  STR_BOUNTY_HUNTING_PRIZE_ALLIANCE_FAVORS: "Premio: Favori dell'Alleanza"
+  STR_BOUNTY_HUNTING_PRIZE_M_LASERS: "Premio: M-Laser"
+  STR_BOUNTY_HUNTING_PRIZE_WHITE_RABBIT: "Premio: Conigli Bianchi"
+  STR_BOUNTY_HUNTING_PRIZE_PEACEMAKER_PREQ: "Req: Serpente Argento"
+  STR_BOUNTY_HUNTING_PRIZE_EAGLE_PREQ: "Req: Equip. Confederato"
+  STR_BOUNTY_HUNTING_PRIZE_PIRANHA_PREQ: "Req: Piranha"
+  STR_BOUNTY_HUNTING_PRIZE_JACK_FAVOR_PREQ: "Req: Favori di Jack"
+  STR_BOUNTY_HUNTING_PRIZE_CANNON_PREQ: "Req: Cannone 30mm"
+  STR_BOUNTY_HUNTING_PRIZE_PERSUADOTRON_PREQ: "Req: Persuadotron"
+  STR_BOUNTY_HUNTING_PRIZE_AUTOCANNONS_PREQ: "Req: Autocannoni"
+  STR_BOUNTY_HUNTING_PRIZE_PLASMA_BLADES_PREQ: "Req: Lame al Plasma"
+  STR_BOUNTY_HUNTING_PRIZE_DINOSAUR_PREQ: "Req: Boomosauro"
+  STR_BOUNTY_HUNTING_PRIZE_CONTRABAND_PREQ: "Req: Contrabbando"
+  STR_BOUNTY_HUNTING_PRIZE_BLACK_ADDER_PREQ: "Req: Vipera Nera"
+  STR_BOUNTY_HUNTING_PRIZE_MINI_SHOTGUN_PREQ: "Req: Mini Fucile da Caccia"
+  STR_BOUNTY_HUNTING_PRIZE_BANK_FAVORS_PREQ: "Req: Favori di Banca"
+  STR_BOUNTY_HUNTING_PRIZE_OGRE_SHOTGUN_PREQ: "Req: Fucile da Caccia O.G.R.E."
+  STR_BOUNTY_HUNTING_PRIZE_MILITARY_SUPPLIES_PREQ: "Req: Rifornimenti Militari"
+  STR_BOUNTY_HUNTING_PRIZE_BIG_GUN_PREQ: "Req: Pistola Navale"
+  STR_BOUNTY_HUNTING_PRIZE_SILENCED_PISTOL_PREQ: "Req: Pistola Silenziata"
+  STR_BOUNTY_HUNTING_PRIZE_MARTIAL_ARTS_PREQ: "Req: Arti Marziali Mutanti"
+  STR_BOUNTY_HUNTING_PRIZE_DURATHREAD_PREQ: "Req: Durathread"
+  STR_BOUNTY_HUNTING_PRIZE_ALLIANCE_FAVORS_PREQ: "Req: Favori dell'Alleanza"
+  STR_BOUNTY_HUNTING_PRIZE_ASG12_PREQ: "Req: Fucile da Caccia d'Assalto"
+  STR_BOUNTY_HUNTING_PRIZE_SPIKE_ROCKETS_PREQ: "Req: Razzi Chiodati"
+  STR_BOUNTY_HUNTING_PRIZE_HOLOSUIT_PREQ: "Req: Holotuta"
+  STR_BOUNTY_HUNTING_PRIZE_SAYA_PREQ: "Req: Saya"
+  STR_BOUNTY_HUNTING_PRIZE_WHITE_RABBIT_PREQ: "Req: Conigli Bianchi"
+  STR_BOUNTY_HUNTING_PRIZE_PIRANHA_UFOPEDIA: "Perché camminare, quando puoi cavalcare?"
+  STR_BOUNTY_HUNTING_PRIZE_AUTOCANNONS_UFOPEDIA: "Quindi ho sentito che ti piacicono gli Autocannoni."
+  STR_BOUNTY_HUNTING_PRIZE_SAYA_UFOPEDIA: "Quindi non hai resistito e hai comprato anche il negoziante? Questo è il destino di quelli come me. Quindi ora che mi possiedi, fai di me quel che vuoi. In Sala Mensa, giusto? Ricorda che ogni affare ha i suoi limiti, non ho alcun obbligo di farti divertire, e tu hai certe responsabilità come anche la mia amante. Né smetterò di rispondere all'Alleanza, tuttavia, posso fare qualcosa per te... fuori orario. Che cosa? Ti aspettavi di più? Cresci, ragazzo.{NEWLINE}(- 500 Penalità Infamia)"
+  STR_TROPHY_CREDIT_WIZ_BIZ: "Monete Premio: Wiz Biz"
+  STR_TROPHY_TARGET_500_GOBLIN_ZAXX: "Trofeo Liquidazione"
+  STR_TROPHY_TARGET_500_GOBLIN_ZAXX_DA: "Riscatta Trofeo Liquidazione"
+  STR_TROPHY_TARGET_200_JACK: "Trofeo Esecuzione"
+  STR_TROPHY_TARGET_50_MUTANT_ALLIANCE: "Trofeo Umanista"
+  STR_TROPHY_TARGET_100_WIZ_BIZ_DA: "Riscatta Trofeo Magia"
+  STR_TROPHY_TARGET_100_WIZ_BIZ_UFOPEDIA: "Concesso per fare il lavoro sporco per i Maghi.{NEWLINE}Valore riscatto: 100 Monete Premio Wiz Biz"
+  STR_CREDIT_CHIP_C: Fiche di Plastica da $100
+  STR_CREDIT_CHIP_D: Fiche Rosse da $200
+  STR_CREDIT_CHIP_M: Fiche Blu da $1000
+  STR_CREDIT_CHIP_00: Fiche Viola da $2000
+  STR_CREDIT_CHIP_01: Fiche Argento da $5000
+  STR_CREDIT_CHIP_02: Fiche Oro da $20000
+  STR_CREDIT_CHIP_03: Fiche Ossidiana da $50000
+  STR_CREDIT_CHIP: Fiche
+  STR_SILVER_BAR: Lingotto d'Argento
+  STR_GOLD_BAR: Lingotto d'Oro
+  STR_ECONOMIC_FUNDAMENTALS: Fondamenti di Economia
+  STR_DATA_DISK: "Disco Dati Criptato"
+  STR_CODE_GOVT_RET: "File Reticulani"
+  STR_PADD: Computer Personale
+  STR_LOKNAR_SCRIPTURES: "Scritture Lokk'Naar"
+  STR_ARCANE_BOOK: Tomo Arcano
+  STR_LIBER_OCCULTIS: Liber Occultus
+  STR_LIBER_OCCULTIS_TRANSLATED: Traduzione Liber Occultus
+  STR_BOOK_OF_FIRE: Tomo delle Fiamme
+  STR_NECRONOMICON: Necronomicon
+  STR_CHURCH_RITUALS: Rituali della Chiesa
+  STR_RING: Anello Sigillo
+  STR_MEDALLION: Gioielli
+  STR_COINS: Monete di Valore
+  STR_COIN_CHEST: Cassa di Monete
+  STR_ELECTRONIC_PIECES: Parti Optroniche
+  STR_LONGEVITY_SERUM: Siero della Longevità
+  STR_CHOCOLATE: "Cioccolata"
+  STR_CRACK: Crack
+  STR_WINE: Chateau de la Mort
+  STR_OLD_BOOKS: Libri della Vecchia Terra
+  STR_ESOTERICA: Esoterica
+  STR_ART_PIECE: Pezzo d'Arte
+  STR_PORN: Porno Mutante
+  STR_PORN_1: "Sessione Foto Porno (3/25)"
+  STR_PORN_2: "Compilation Porno (0.2)"
+  STR_OLD_EARTH_VOODOO: VooDoo della Vecchia Terra
+  STR_MOST_COMMON_POWER: Il Superpotere più Comune
+  STR_MED_CANNON_PARTS: Parti Cannone 50mm
+  STR_GAUSS_CANNON_PARTS: Parti Cannone Gauss
+  STR_GAUSS_CANNON_AMMO_PROD: Basi Munizioni Gauss
+  STR_PLASMA_SPITTER_PARTS: Parti Sputa Plasma
+  STR_GENERIC_CRATE: Cassa
+  STR_GOLDEN_CRATE: Cassa Dorata
+  STR_ENVIRO: Ambiente Ostile
+  STR_CAMOUFLAGE: Mimetizzazione
+  STR_HEATVISION: Visione Termica
+  STR_VIOLENCE: Violenza
+  STR_SURVIVAL: Sopravvivenza
+  STR_WEIRDNESS: Stranezza
+  STR_COMMUNICATIONS: Comunicazioni
+  STR_DIPLOMACY: Diplomazia
+  STR_CIVILIZATION: Civiltà
+  STR_INTERROGATION: Tecniche di Interrogatorio
+  STR_INRG: Interrogatorio
+  STR_OCCULT: Occulto
+  STR_ROBBERY: Rapina
+  STR_EMANCIPATION: Emancipazione Schiavi
+  STR_FEUDALISM: Feudalesimo
+  STR_RABID_FAN: Fan Sfegatato
+  STR_GROUPIE: Groupie
+  STR_COURTESAN: CORTIGIANA
+  STR_DANCER_SLAVE: "DANZATRICE ESOTICA"
+  STR_DANCER_SLAVE_FROM_COURTESAN: "Cortigiana a Danzatrice Esotica"
+  STR_DANCER_SLAVE_FROM_GLADIATRIX: "Gladiatrix a Danzatrice Esotica"
+  STR_SALVAGE: Schiavitù
+  STR_PERSUASION: Persuasione
+  STR_SQUIRE: SCUDIERO
+  STR_SLAVE: SCHIAVO
+  STR_SLAVE_MAID: ANCELLA
+  STR_SLAVE_MAGICAL: STREGA SCHIAVA
+  STR_YEOMAN: FURIERE
+  STR_CONTRABAND: Contrabbando
+  STR_UNDERGROUND_HUNTING: Caccia nelle Caverne
+  STR_XENO_TAMING: Ammaestra Xeno
+  STR_ANIMAL_TAMING: Ammaestra Animali
+  STR_ROBOT_DISASSEMBLY: Smontaggio Robot
+  STR_MERCHANDISE: Merchandise
+  STR_ALCOHOL: Alcohol
+  STR_EXTRACTION: Estrazione
+  STR_HACKING: Hacking
+  STR_ASSEMBLY: Assemblaggio
+  STR_DISASSEMBLY: Smontaggio
+  STR_SPECIAL_PROJECT: Progetto Speciale
+  STR_PIRATEZ_BACKGROUND: La Nostra Battaglia
+  STR_PIRATEZ_UBERS: Le Nostre Origini
+  STR_ALIEN_ORIGINS: Chi è Chi?
+  STR_PIRATEZ_HIERARCHY: La Gerarchia Sociale
+  STR_SEA_TRANSPORT: Trasporto Marino
+  STR_BASIC_ELECTRONICS: Elettrica ed Elettronica
+  STR_DATA_MINING: Data Mining
+  STR_DATA_DISK_MINING: "Data Mining (1 Disco)"
+  STR_GOVT_HACKING: Hacking File del Governo
+  STR_SCI_REP: "Che Fare?"
+  STR_LOGISTICS: "Logistica"
+  STR_SCHOOLING_1: Pulizie di Primavera
+  STR_SCHOOLING_2: Tornare a Scuola
+  STR_SCHOOLING_2_B: Diploma Scolastico
+  STR_SCHOOLING_3: Studi Alti
+  STR_PIRATEZ_COOKING: Cucinare Secondo Ricetta
+  STR_FLINTLOCKS_PRODUCTION: Pietre Focaie & Bombe
+  STR_BALLISTICS: Balistica
+  STR_SPECIAL_WEAPONS: ARMI SPECIALI
+  STR_MELEE_SUMMARY: SOMMARIO MELEE
+  STR_BOWS_SUMMARY: SOMMARIO ARCHI
+  STR_FIREARMS_SUMMARY: "Sommario Armi da Fuoco"
+  STR_PISTOLS_SUMMARY: SOMMARIO PISTOLE
+  STR_SHOTGUNS_SUMMARY: SOMMARIO FUCILI
+  STR_SMGS_SUMMARY: SOMMARIO SMG
+  STR_RIFLES_SUMMARY: SOMMARIO F. DA CACCIA
+  STR_SNIPER_SUMMARY: SOMMARIO F. DI PRECISIONE
+  STR_HEAVY_WEAPONS_SUMMARY: "SOMMARIO ARMI PESANTI"
+  STR_EXPLOSIVES_SUMMARY: SOMMARIO ESPLOSIVI
+  STR_MAGITECH_SUMMARY: TECNOMAGIA
+  STR_UTILITY_EQUIPMENT: EQUIP. UTILE
+  STR_MEDICAL_STUFF: EQUI. MEDICO
+  STR_PROTECTIVE_GEAR: EQUIP. PROTETTIVO
+  STR_AMMO_MANUFACTURING_1: Armi da Fuoco & Munizioni
+  STR_AMMO_MANUFACTURING_3: Armi da Fuoco Avanzate
+  STR_ACIDIC_AMMO: Munizioni Chimiche
+  STR_PARTICLE_WEAPONS: Armi a Particelle
+  STR_COMBAT_101: Combattimento 101
+  STR_COMBAT_STRESS: Stress da Combattimento
+  STR_EVASION: Evasione
+  STR_DRESSUP: Vestito per Uccidere
+  STR_FINANCE: "Finanza"
+  STR_FINANCES: Quella Fastidiosa Finanza
+  STR_PILOTING: Pilotaggio
+  STR_INFO_UFOPEDIA_DETAILS: Sotto la Gonna
+  STR_SURRENDER: Resa del Nemico
+  STR_WALK_THE_PLANK: In Pasto ai Pesci
+  STR_HOTKEYS_ARTICLE: Hawtkeys
+  STR_HOTKEYS_ARTICLE_2: "Hawtkeys (In Battaglia)"
+  STR_LOOT_DISTRIBUTION: Distribuzione Bottino
+  STR_RECRUITMENT: Reclutamento
+  STR_BOUNTY_HUNTING: Caccia alle Taglie
+  STR_SPACE_MISSIONS: "!Missioni Zero-G!"
+  STR_ENGINEER_PLUS: Ingegneria di Base
+  STR_PILOT_PLUS: Volo di Prova
+  STR_ACADEMY_MED_KNOWHOW: MEDICINA DELL'ACCADEMIA
+  STR_ACADEMY_ENG_KNOWHOW: INGEGNERIA DELL'ACCADEMIA
+  STR_TRADERS_ENG_KNOWHOW: INGEGNERIA DELLA GILDA
+  STR_MERCS_ENG_KNOWHOW: INGEGNERIA MERCENARIA
+  STR_CHURCH_ARC_KNOWHOW: SEGRETI TECH DELLA CHIESA
+  STR_ACADEMY_COM_KNOWHOW: SEGRETI DEL RETTORE DELL'ACCADEMIA
+  STR_TRADERS_COM_KNOWHOW: SEGRETI DEL MASTRO DELLA GILDA
+  STR_MUTANT_ABILITIES: Le Nostre Abilità
+  STR_MUTANT_ORIGINS: Origini Mutanti
+  STR_MUTANT_PHYSIOLOGY: Esame Medico
+  STR_MUTANT_SHIELDS: "Campo di Bio-Forza Mutante"
+  STR_BRAINER_ORIGINS: Origini dei Cervelloni
+  STR_SPACE_SURVIVAL_PREQ: "Sopravvivenza Spaziale (Prq.)"
+  STR_SPACE_SURVIVAL: "Sopravvivenza Spaziale"
+  STR_MEDICINE: Medicina
+  STR_ADVANCED_MEDICINE: Medicina Avanzata
+  STR_PHARMACOLOGY: Farmacologia
+  STR_COMBAT_DRUGS_MANUFACTURING: Produzione Droghe da Combattimento
+  STR_PLASTASTEEL_MUNITIONS: Munizioni in Plastacciaio
+  STR_ELERIUM_EXPLOSIVES: Esplosivi all'Hellerium
+  STR_NUCLEAR_MUNITIONS: Munizioni all'Hellerium
+  STR_FUSION_EXPLOSIVES: Esplosivi a Fusione
+  STR_ATOM_POWER: La Potenza dell'Atomo
+  STR_ELECTRICS: Armi Elettrificate
+  STR_FORCEFIELDS: Campi di Forza
+  STR_SHIELDS_2: Scudi Personali
+  STR_SHIELDS_2_PREQ: "Scudi Personali (Preq.)"
+  STR_SUBSPACE: Sottospazio
+  STR_LIQUID_METALS: Metalli Liquidi
+  STR_TRACTORS_AND_REPULSORS: Trattori e Repulsori
+  STR_PHASE_SHIELD: Scudo di Fase
+  STR_SENSOSPHERE: Sensosfera
+  STR_POWER_SOURCE_TWEAKING: Motori a Particelle
+  STR_MINI_POWER_SOURCE: Batterie all'Hellerium
+  STR_FIGHTER_CONSTRUCTION: Costruzione Caccia Migliorato
+  STR_SELF_REPAIRING_HULL: Scafo Rigenerante
+  STR_OPTRONICS: Computazione Optronica
+  STR_DATA_ENCRYPTION: "Codice Divino"
+  STR_EXOSUITS: Exotute
+  STR_CYBERNETIC_INTERFACE: Interfaccia Cibernetica
+  STR_MIND_MACHINE_INTERFACE: Interfaccia Arcana
+  STR_SMART_WEAPONS: Armi Intelligenti
+  STR_HYPERWAVES: Iperonde
+  STR_RETICULAN_GENETICS: Genetica Reticulana
+  STR_RETICULAN_POWER_SYSTEMS: Sistemi di Alimentazione Reticulana
+  STR_RETICULAN_HIVE: Nido Reticulano
+  STR_GLADIATOR_TRAINING: "Addestramento Gladiatorio"
+  STR_WAT_DO: "Indici una Riunione"
+  STR_PARTY: "Dai una Festa!"
+  STR_PIRATE_LIFE: "Pirati Noi Siamo"
+  STR_KULTUR: "La Nostra Cultura"
+  STR_JACKSTOWN_SCOUTING: "Visita un Villaggio Vicino"
+  STR_INSPECT_MACHINERY: "Ispeziona Macchinario"
+  STR_CONTACT_BLACK_MARKET: "Contatto: Mercato Nero"
+  STR_CONTACT_MUTANT_ALLIANCE: "\"L'Alleanza Mutante\""
+  STR_CONTACT_GENERAL_SUPPLIES: "Contatto: Mercanti"
+  STR_CONTACT_CAR_THIEVES: "Contatto: Ladri d'Auto"
+  STR_CONTACT_BUILDERS: "Contatti: Sala dei Costruttori"
+  STR_WORKER: "LAVORATORE"
+  STR_CONTACT_SHIP_JUNKYARD: "Contatti: Discarica delle Navi"
+  STR_CONTACT_KRAZY_HANNA: "Contatti: Krazy Hanna"
+  STR_CONTACT_GUN_EMPORIUM: "Contatti: Emporio delle Pistole"
+  STR_CONTACT_DEALERS: "Contatti: Rivenditori Autorizzati"
+  STR_CONTACT_SMUGGLERS: "Contatti: Contrabbandieri"
+  STR_CONTACT_MAGIC_SHOP: "Il Vecchio Negozio di Magia"
+  STR_CONTACT_MERCENARIES: "Contatti: I Mercenari"
+  STR_CONTACT_EUROSYNDICATE: "Contatti: EuroSindacato"
+  STR_MISSION_EUROSYNDICATE_DEAL: "*Accordo EuroSindacato*"
+  STR_CONTACT_FUSO: "Contatti: Fuso"
+  STR_CONTACT_THEBAN: "Contatti: Tebe"
+  STR_CONTACT_ARENA: "Contatti: Arena del Reame dei Morti"
+  STR_CONTACT_DR_WANG: "Contatti: Emporio Morale del Dr. Wang"
+  STR_CONTACT_WHITE_DRAGON: "Contatti: Drago Bianco"
+  STR_CONTACT_RETICULANS: "Contatto: Reticulani"
+  STR_SOLDIER_M_RECRUITMENT: "Recluta: Guerrieri"
+  STR_SOLDIER_V_RECRUITMENT: "Recluta: Veterani"
+  STR_LOKNAR_EXAMINATION: "Soldato: Lokk'Naar Femmina"
+  STR_SOLDIER_SPECTRE: "Ombra"
+  STR_EXPEDITIONS: Spedizioni
+  STR_VIP_KIDNAPPING: "Rapimento VIP"
+  STR_ZERO_ZERO: "Tolleranza Zero alla Tolleranza Zero"
+  STR_FAMILY_TIES: "*Legami Famigliari*"
+  STR_HUMAN_RETICULAN_ALLIANCE: "*Cooperazione Umano-Reticulana*"
+  STR_NO_AGGRESSION: "L'Aggressione Deve Finire"
+  STR_RUSSIAN_FILES: I File Russi
+  STR_RUSSIAN_FILES_STAGED: Investigazione Base Siberiana
+  STR_CLOAKING_DEVICE_INVESTIGATION: "Investigazione Dispositivo di Occultamento"
+  STR_CYCLOPS_CORPSE: Cadavere Ciclope
+  STR_CYCLOPS_CORPSE_BATTLE: Ciclopi Morti
+  STR_WASPITE_CORPSE: Resti Vespita
+  STR_WASPITE_CORPSE_BATTLE: Vespita Morto
+  STR_SYNTH_CORPSE: Syn Danneggiato
+  STR_CORPSE_WRECK: Rottame
+  STR_TANK_CORPSE: Parti Carrarmato
+  TANK_ARMOR: 'Esame: Carrarmato'
+  ARMORED_CAR_ARMOR: 'Esame: Auto Corazzata'
+  STR_MECHTOID_CORPSE: Cadavere Mechtoide
+  STR_SECURITY_CORPSE: Acqua-Plastiche
+  STR_GRAV_CORPSE: Unità Grav
+  STR_LOOTED_SECTOPOD_LASER: X-Sectopode
+  STR_CHEMICALS: Agenti Chimici
+  STR_SCRAP_METAL: Rottami di Metallo
+  STR_ORE: Minerale Metallico
+  STR_SC_WIRE: Cavo Superconduttivo
+  STR_PARTS_WEAPON_ADV: Parti Armi ad Energia
+  STR_PARTS_LASER_LENS: Lenti Laser
+  STR_PARTS_GAUSS_COIL: Bobine Gauss
+  STR_PARTS_GAUSS_CAPACITOR: Condensatore Energia
+  STR_PARTS_PLASMA_ACCELERATOR: Acceleratori Inerziali
+  STR_PARTS_WEAPON_PSI: Magischen-Motors
+  STR_CROWNING_UC: "Incoronazione"
+  STR_QUEEN_GRAY: "Regina Insidiosa"
+  STR_QUEEN_GOLD: "Regina Magnifica"
+  STR_QUEEN_RED: "Regina Guerriera"
+  STR_QUEEN_GREEN: "Regina Gentile"
+  STR_CODEX_GRAY: "Codice Grigio"
+  STR_CODEX_GOLD: "Codice Dorato"
+  STR_CODEX_RED: "Codice Rosso"
+  STR_CODEX_GREEN: "Codice Verde"
+  STR_CORRIDOR: "Corridoio di Sicurezza"
+  STR_FIRE_PIT: "Focolaio"
+  STR_GAS_CHAMBER: "Camera a Gas"
+  STR_HYDROPONICS: "Piantagione"
+  STR_HYDROPONICS_WEED: "Piantagione Erba"
+  STR_HYDROPONICS_WEED_HARVEST: "Piantagione Erba"
+  STR_HYDROPONICS_BOOM: "Piantagione Boom"
+  STR_HYDROPONICS_BOOM_HARVEST: "Piantagione Boom"
+  STR_STILL: "Distilleria"
+  STR_GYM_ROOM: "Dojo"
+  STR_GYM_ADVANCE: "Addestramento Arti Marziali"
+  STR_GYMNASTICS: Ginnastica
+  STR_LUXURY_SPA: "Spa di Lusso"
+  STR_LIBRARY: "Biblioteca"
+  STR_RED_TOWER: "Torre Rossa"
+  STR_GDX_LAB: "Lab. Biotecnico"
+  STR_GDX_LAB_BLUEPRINT: "Progetti Lab. Biotecnico"
+  STR_MED_BAY: "Infermeria"
+  STR_MESS_HALL: "Sala Mensa"
+  STR_SURGERY_ROOM: "Sala Chirurgica"
+  STR_CLONING_CENTRE: "Centro Clonazione"
+  STR_STUDY_ROOM: "Aula Studio"
+  STR_COMPUTER_CORE: "Nucleo Computer"
+  STR_DATA_CENTER: "Centro Dati"
+  STR_MINT: "Zecca"
+  STR_REFINERY: "Raffineria"
+  STR_SUMMONING_CIRCLE: "Circolo d'Evocazione"
+  STR_POWER_PLANT: "Centrale Elettrica"
+  STR_WELL: "Estrattore"
+  STR_INDUSTRIAL_PRINTER: "Stampante Industriale"
+  STR_FACTORY: "Fabbrica"
+  STR_LABORATORY: "Laboratorio della Vecchia Terra"
+  STR_BURROW: "Nascondiglio"
+  STR_BEAST_DEN: "Antro delle Bestie"
+  STR_LIVING_QUARTERS_SMALL: "Avamposto"
+  STR_LIVING_QUARTERS_LARGE: "Caserma Grande"
+  STR_LIVING_QUARTERS_ADVANCED: "Caserme di Lusso"
+  STR_GENERAL_STORES_LARGE: "Stiva Grande"
+  STR_GENERAL_STORES_ARMORED: "Stiva Blindata"
+  STR_JAIL: Celle di Prigione
+  STR_PRISON: "Prigione Grande"
+  STR_FLAK_DEFENSES: "Cannone Flak"
+  STR_FLAK_DEFENSE: "Difese a Cannone"
+  STR_SAM_DEFENSES: "Sito SAM"
+  STR_GAUSS_DEFENSES: "Batteria Gauss"
+  STR_GAUSS_DEFENSE: "Difese Gauss"
+  STR_ARMORY: "Torre Armeria"
+  STR_SKYRANGER_UFOPEDIA: "NEMMENO UNA NAVE VERA, QUESTO JET AIRBREATHER BRUCIA AGENTI CHIMICI INVECE DI HELLERIUM ED È IN GRADO DI PORTARE LE TRUPPE PER LA BATTAGLIA... A MALAPENA. CARBURANTE: A.CHIMICIx20. RADAR: 50."
+  STR_BOW_UFOPEDIA: "È un ARCO. Realizzato per il combattimento. Non può esser più semplice di così, amico."
+  STR_SURVIVAL_BOW_UFOPEDIA: "Usa gli stessi tipi di frecce dell'Arco da Combattimento, ma le somiglianze finiscono li. Anche se è più lento, è più preciso, specialmente a lunghe distanze. Il suo meccanismo permette di tenerlo teso con poca forza, che a sua volta permette i colpi di reazione. L'unico problema è il suo cartellino del prezzo."
+  STR_PIR_CANNONBALL_SC_UFOPEDIA: "Invece di fare affidamento sugli agenti chimici, questo dispositivo esplosivo utilizza un Filo Superconduttore per immagazzinare l'energia. Può essere sparato da un Cannone d'Assaulto; qualsiasi altra arma avrebbe probabilmente una velocità di uscita troppo alta e il proiettile andrebbe in frantumi dopo lo sparo. Oltre a causare più devastazione di una Palla di Cannone standard, questa causa triplo danno extra da Stordimento (ignorando l'immunità agli Shock), ma solo la metà del danno agli oggetti."
+  STR_GL_FAE_UFOPEDIA: "Il Napalm Nero è un agente incendiario addizionato di Hellerium. È dotato di uno raggio esplosivo molto grande e di un danno extra ai PV, il tutto in un piccolo contenitore."
+  STR_SPIKEBALL_UFOPEDIA: "Bang di Lo Wang.{NEWLINE}Raggio Max: 12."
+  STR_FIREBOMB_UFOPEDIA: "Un potente ordigno esplosivo che ricopre tutto con un raggio enorme di napalm ardente. Ottimo per lo sgombero preliminare di navi e edifici di grandi dimensioni, poiché ha un devastante effetto morale e non evapora il bottino.{NEWLINE}Precisione: 65%"
+  STR_SUPER_MEDIPACK_UFOPEDIA: "Questo dispositivo fa miracoli, cucendo istantaneamente la carne e ripristinando la salute perduta che impiegherebbe settimane normalmente. 8 PV guariti per ferita, 12 usi per battaglia. Non può essere usato su di sé. Richiede una Sala Chirurgica per la produzione."
+  STR_BFG_UFOPEDIA: "E l'Uomo disse, Sia La Luce."
+  STR_MUTANT_REAPER_UFOPEDIA: "Mettere un Mietitore a dieta, bilanciata di carne cruda, agenti chimici e droghe da combattimento produrrà questa razza feroce, accresciuta: più veloce, più dura, più verde ma ancora piuttosto tenera. La sua massa muscolare più densa lo rende meno suscettibile al danno perforante e concussivo, e la chimica del corpo alterata lo rende molto resistente alla chimica. Rigenera 10 PV/Turno.{NEWLINE}Arma Principale: Melee Prec. 95%, UdT 12%{NEWLINE}Arma Extra: Sputo Chimico, Danno 50, Prec. 150%, Danno Extra Armatura/Terreno, UdT 6, Energia 30"
+  STR_NURSE_OUTFIT_ADV_UC_UFOPEDIA: "Questo vestito magico combina Rifrattore e Unità Gravitazionale con un Medikit Magico, creando un letterale angelo della misericordia. Richiede una Sala Chirurgica per fabbricarlo. Peso: 10. SCUDI: 66/6 (Tipo 1). Difesa VooDoo  + CORAGGIO*0.1. Evasione: REA*50% + COR*10%. Inventario: 12."
+  STR_MUSCLE_ARMOR_UC_UFOPEDIA: "Composto da microfibre, o muscoli sintetici, questa armatura aumenta sostanzialmente la forza dell'utente. Richiede una Sala Chirurgica per la produzione. Evasione: REA*25% + MEL*25%. Peso: -15. Inventario: 11."
+  STR_BRUTE_ARMOR_UC_UFOPEDIA: "Unendo insieme l'armatura del Redivivo con una tuta Synthmuscle e aggiungendo una quantità copiosa di Plastacciaio, abbiamo sviluppato un incubo camminante. Richiede una Sala Chirurgica per la produzione. Peso: 24. Bersaglio X-Large. Immunità al Dolore. Evasione: MEL*25%."
+  STR_VOODOO_ARMOR_UC_UFOPEDIA: "Questo vestito aumenta le abilità magiche innate di chi lo indossa - dalle forze combinate di emettitori ipnotici e effetto placebo. Permette anche a lei di usare l'Asta VooDoo per lanciare magie di Illusione contro i nemici. Evasione: REA*30% + MEL*10%. SPOT: 5. Inventario: 8."
+  STR_DEEP_ONE_MEAL_UFOPEDIA: "{NEWLINE}Valore vendita: 10k"
+  STR_JUNK_PILE_UFOPEDIA: "I detriti secolari che si trovano sul nostro covo sembrano contenere materiali utili (per articolo: 15 Rottami Metallici, 10 Agenti Chimici, 1 Cavo Superconduttore). Possiamo recuperarli, se solo riusciremo a costringere i Nani a frugare un po' di tempo rovistando nel caos. Potremmo persino minarli da veri tunnel, se avessimo picconi e torce."
+  STR_CREDIT_CHIP_C_UFOPEDIA: "La Gilda ed il Governo ha discusso a lungo di pro e contro sull'introduzione di una fiche da $100. I valori della mobilità sono stati valutati contro la sicurezza, i vari tribuni di interessi pubblici si sono scontrati con i cavalieri neri dell'avidità delle multinazionali, senza alcun risultato. Bene, fino ad ora. Il nostro risucchiare tutti questi pazzi non è stato vano. Siamo riusciti a vincere una campagna politica per presentare questa nuova moneta promettente! Vedi come scintilla di plastica economica?{NEWLINE}I progetti dovrebbero già aspettarti nella tua Zecca, Capitano!{NEWLINE}Oh, e - qualche piano per stasera?"
+  STR_GOLD_CRACK_UFOPEDIA: "Non era un compito da poco, Capitano, ma alla fine siamo riusciti a rompere i protocolli di sicurezza a livello d'oro che proteggono i dati sulle Fiche da $20k. Urrà per le letterali piogge di denaro che ora possiamo forgiare!!!"
+  STR_SAFE_UFOPEDIA: "Valore vendita: 1M"
+  STR_MENAGERIE_UFOPEDIA: "Oltre ai guerrieri con nomi, volti e opinioni, possiamo impiegare ciecamente delle bestie feroci ma leali per eseguire i nostri ordini in battaglia. Queste bestie richiedono spazio di carico \"Ausiliario\" nelle nostre navi e non acquisiranno mai esperienza di combattimento. Le ferite che subiscono non hanno importanza per noi e sono immediatamente pronte per il prossimo combattimento, non importa quanto gravemente ferite siano stati nell'ultimo scontro. Non richiedono una supervisione costante dei gestori, ma devono essere tenuti in un Nascondiglio o in un edificio equivalente."
+  STR_SPACE_MISSIONS_UFOPEDIA: "Lo spazio, come si dice, ultima frontiera. Il nostro primo passo: le stazioni spaziali in orbita, cullati dal falso senso di sicurezza, in attesa di essere invase!{NEWLINE}>I punti di ingresso orbitale si genereranno ai poli terrestri; c'è la minima interferenza magnetica con i nostri Dispositivi di Occultamento.{NEWLINE}>Non tutte le navi possono salire in orbita; tutti gli intercettori e le navi da guerra hanno potenza sufficiente, così come le imbarcazioni specifiche.{NEWLINE}>Solo le armi e le armature contrassegnate come '0-G' saranno disponibili per l'imbarco nello spazio; L' 'Exo-tuta' non è abbastanza. Non puoi correre in 0-g."
+  STR_SCHOOLING_3_UFOPEDIA: "Dalle più inquietanti cave dell'inferno alle torri d'avorio della verità, siamo qui. Anche le più alte tecnologie possono essere capite ora, ma non è ancora la stazione terminale. C'è ancora molto lavoro da fare, eppure l'obiettivo della massima potenza è sempre più vicino."
+  STR_SYNTHMUSCLE_MANUFACTURING_UFOPEDIA: "Ora possiamo stampare Synthmuscle dal Durathread, se mai non dovessimo averne."
+  STR_AMMO_MANUFACTURING_1_UFOPEDIA: "Questo è il resoconto dell'officina, Capitano! Non preoccuparti di tutti questi esplosivi in giro, d'accordo? Stiamo appena iniziando a capire cosa fare. Ad ogni modo, usarli per produrre proiettili di pistola sembra abbastanza facile, e saremo in grado di rifornire le nostre scorte senza pagare quegli squali sul mercato! Basta che ci tengano riforniti di Agenti Chimici e Rottami Metallici. Dall'Officina è tutto!"
+  STR_STUN_BOMB_PRODUCTION_UFOPEDIA: "Finalmente abbiamo imparato - beh, in un certo senso - il segreto delle Bombe Stordenti dell'Impero Stellare. Si scopre che usano la stessa strana magia degli Ipno Pannelli e condividono parte della costruzione con la Sonda Mentale. Presi insieme, possiamo produrre prontamente altre di queste meravigliose bombe che catturano VIP, purché possiamo garantire una fornitura di Ipno Pannelli."
+  STR_SLAVE_MAID_UFOPEDIA: "Codice dell'Officina: s{NEWLINE}Efficienza Lavorativa: 0,75{NEWLINE}Le femmine catturate senza particolari abilità vengono trasformate in ancelle, per mantenere la base generalmente più ordinata e soddisfare ogni nostro capriccio. Ancora non li sfruttiamo come gli schiavi maschi, perché sono ragazze come noi, giusto? Si, come no."
+  STR_SLAVE_MAID_SUPER_UFOPEDIA: "Efficienza Lavorativa: 4{NEWLINE}Con un po' di magia, siamo in grado di trasformare le nostre Ancelle in una forza lavoro potente e sfarzosa, praticamente triplicandone il valore. Abbiamo bisogno di una Spa di Lusso nel nostro Covo per eseguire la formazione adeguata."
+  STR_SLAVE_SKILLED_TRAINING_UFOPEDIA: "Ora che abbiamo una solida conoscenza delle tecniche manifatturiere e accademiche, possiamo fare in modo che i Nani allenino i nostri Schiavi a un livello da Specialista... al prezzo di un investimento sostanziale. Solo un Covo che possiede una Sala Mensa, una Biblioteca ed un'Officina può condurre questo tipo di allenamento."
+  STR_PRIZE_FREAK_001: "Recluta Speciale #001"
+  STR_PRIZE_SYNTH_002: "Recluta Speciale #002"
+  PARROT_ARMOR: "Esame: Pappagallo"
+  DOGE_ARMOR: "Esame: Cane Pirata"
+  WHITERABBIT_ARMOR: "Esame: Coniglio Bianco"
+  BLACK_CAT_ARMOR: "Esame: Gatto Nero"
+  REAPER_ARMOR_M: "Esame: Mietitore Mutante"
+  SECTOID_ARMOR_P10: "Esame: Giovane di Osiron"
+  SECTOID_ARMOR_P12: "Esame: Studente dell'Accademia"
+  SECTOID_ARMOR_P11: "Esame: Infermiera dell'Accademia"
+  SECTOID_ARMOR_P1: "Esame: Ricercatore dell'Accademia"
+  SECTOID_ARMOR_P14: "Esame: Consigliere dell'Accademia"
+  SECTOID_ARMOR_P15: "Esame: Lacchè dell'Accademia"
+  SECTOID_ARMOR_P4: "Esame: Esper dell'Accademia"
+  SECTOID_ARMOR_P5: "Esame: Rettore dell'Accademia"
+  FLOATER_ARMOR_P1: "Esame: G.O. della Gilda"
+  FLOATER_ARMOR_P10: "Esame: Team Leader della Gilda"
+  FLOATER_ARMOR_P12: "Esame: Tecnico Spaziale della Gilda"
+  FLOATER_ARMOR_P13: "Esame: Ufficiale Navale della Gilda"
+  FLOATER_ARMOR_P14: "Esame: Navigatore della Gilda"
+  FLOATER_ARMOR_P15: "Esame: Medico della Gilda"
+  HUMAN_ARMOR_STEWARDESS: "Esame: Hostess della Gilda"
+  HUMAN_ARMOR_SAILOR: "Esame: Marinaio dell'Aria della Gilda"
+  FLOATER_ARMOR_P2: "Armatura di Sicurezza Marsec"
+  FLOATER_ARMOR_P4: "Esame: Ingegnere della Gilda"
+  FLOATER_ARMOR_P5: "Esame: Rappresentante della Gilda"
+  CHURCH_ARMOR_P1: "Esame: Neofita della Chiesa"
+  CHURCH_ARMOR_P10: "Esame: Chirichetto della Chiesa"
+  CHURCH_ARMOR_P11: "Esame: Vergine del Santuario della Chiesa"
+  CHURCH_ARMOR_P8: "Esame: Matrona della Chiesa"
+  CHURCH_ARMOR_P7: "Esame: Sacerdote della Chiesa"
+  CHURCH_ARMOR_P5: "Esame: Reverendo della Chiesa"
+  CHURCH_ARMOR_P6: "Esame: Cardinale della Chiesa"
+  APOC_ARMOR_P0: "Esame: Discepolo Apoc"
+  APOC_ARMOR_P1: "Esame: Sadico Apoc"
+  GOVT_ARMOR_P1: "Esame: Agente del Governo"
+  GOVT_ARMOR_P7: "Esame: Sirena del Governo"
+  NINJA_ARMOR_1: "Esame: Tipa Ninja"
+  NINJA_ARMOR_2: "Esame: Guerriero Ninja"
+  BANDIT_ARMOR_P0: "Esame: Uomo Ratto"
+  BANDIT_ARMOR_P7: "Esame: Uomo Ratto Brigante"
+  REAPER_CAVALRY_ARMOR: "Esame: Cavalleria Mietitore"
+  BANDIT_ARMOR_P5: "Esame: Tenente Ratto"
+  BANDIT_ARMOR_P1: "Esame: Ghoul"
+  BANDIT_ARMOR_P8: "Esame: Scienziato Ghoul"
+  BANDIT_ARMOR_P9: "Esame: B-Boy"
+  BANDIT_ARMOR_P2: "Esame: Pistolero"
+  BANDIT_ARMOR_P3: "Esame: Viandante"
+  BANDIT_ARMOR_P16: "Esame: Ruffiano"
+  BANDIT_ARMOR_P12: "Armatura Brigante"
+  BANDIT_ARMOR_P14: "Esame: Killer"
+  BANDIT_ARMOR_P15: "Esame: Boss Bandito"
+  BANDIT_ARMOR_P6: "Esame: Mastino del Sangue"
+  JUNGLE_GAL_ARMOR: "Esame: Tipa Astuta"
+  NECROPIRATE_ARMOR: "Esame: Necropirata"
+  RAIDER_ARMOR_P1: "Esame: Bandito Scout"
+  RAIDER_ARMOR_P6: "Esame: Bandito Enorme"
+  RAIDER_ARMOR_P4: "Esame: Bandito Boss"
+  NAZI_ARMOR_P1: "Esame: Soldato Umanista"
+  NAZI_ARMOR_P2: "Esame: Istruttore Umanista"
+  NAZI_ARMOR_P4: "Esame: Leader Umanista"
+  NAZI_ARMOR_P7: "Esame: Attivista Umanista"
+  SMUGGLER_ARMOR_P2: "Esame: Donna Gatto"
+  SMUGGLER_ARMOR_P3: "Esame: Spauracchio"
+  SMUGGLER_ARMOR_P4: "Esame: Capitano Contrabbandiere"
+  PE_ARMOR: "Esame: Nemico Pubblico"
+  SPARTAN_ARMOR_P0: "Esame: Ricognitore Spartano"
+  SPARTAN_ARMOR_P1: "Esame: Fuciliere Spartano"
+  SPARTAN_ARMOR_P2: "Esame: Truppa Pesante Spartana"
+  SPARTAN_ARMOR_P3: "Esame: Tenente Spartano"
+  ETHEREAL_ARMOR_G: "Esame: Dio Stellare Guardiano"
+  ETHEREAL_ARMOR0: "Esame: Dio Stellare Novizio"
+  ETHEREAL_ARMOR1: "Esame: Dio Stellare Operativo"
+  ETHEREAL_ARMOR2: "Esame: Dio Stellare Coordinatore"
+  RETICULAN_ARMOR_P0: "Esame: Peone Reticulano"
+  RETICULAN_ARMOR_P1: "Esame: Ibrido Reticulano"
+  RETICULAN_ARMOR_P2: "Esame: Sirena Reticulana"
+  RETICULAN_ARMOR_P3: "Esame: Settorco Reticulano"
+  RETICULAN_ARMOR_P4: "Esame: Tecnico Reticulano"
+  RETICULAN_ARMOR_P7: "Esame: Anziano Reticulano"
+  CIV_ARMOR_M1: "Esame Mezzo-Uber"
+  CIV_ARMOR_MUT_3: "Esame: Occhibelli"
+  REBEL_ARMOR_1: "Esame: Soldato Ribelle"
+  REBEL_ARMOR_3: "Esame: Occhibelli Ribelle"
+  REBEL_ARMOR_4: "Esame: Lamia Ribelle"
+  REBEL_ARMOR_5: "Esame: Bruto Ribelle"
+  CIV_ARMOR_MUT_4: "Esame: Lamia"
+  CIV_ARMOR_MUT_5: "Esame: Bruto"
+  CIV_ARMOR_YOUNG_UBER: "Esame: Giovane Uber"
+  CIV_ARMOR_MUT_3_TRAITOR: "Esame: Traditore Occhibelli"
+  HUMAN_ARMOR_M3: "Esame: Tipo Tosto"
+  HUMAN_ARMOR_F4: "Esame: Tipa Tosta"
+  HUMAN_ARMOR_M5: "Esame: Grassone"
+  HUMAN_ARMOR_F8: "Esame: Ragazza Esperta"
+  HUMAN_ARMOR_M6: "Esame: Lavoratore"
+  HUMAN_ARMOR_F7: "Esame: Lavoratrice"
+  HUMAN_ARMOR_M9: "Esame: Tipo Sveglio"
+  HUMAN_ARMOR_M10: "Esame: Mago Umano"
+  HUMAN_ARMOR_F11: "Esame: Nobildonna"
+  HUMAN_ARMOR_F12: "Esame: Tipa Sveglia"
+  HUMAN_ARMOR_M13: "Esame: Commesso"
+  SMUGGLER_ARMOR_P1: "Esame: Scagnozzo Umano"
+  SOLDIER_ARMOR_P1: "Armatura Nomade"
+  HUMAN_ARMOR_MG: "Esame: Donna Magica"
+  DEEP_ONE_ARMOR_P1_SEA: "Esame: Essere Abissale Nomade"
+  DOGG_ARMOR: "Esame: Cane"
+  SHAMBLER_ARMOR: "Esame: Orrore"
+  ZOMBIE_ARMOR: "Esame: Crisalide Zombi"
+  DOOM_ARMOR_1: "Esame: Soldato Posseduto"
+  DOOM_ARMOR_2: "Esame: Sergente Posseduto"
+  DOOM_ARMOR_3: "Esame: Mitragliere Posseduto"
+  PARROT_ARMOR_UFOPEDIA: "Esame Pappagallo. VN: 4. VG: 30."
+  BLACK_CAT_ARMOR_UFOPEDIA: "Esame: Gatto Nero. VN: 20. VD: 25. SPOT: 6/6. SENSI: 2. CAMO: 15/10"
+  DOGE_ARMOR_UFOPEDIA: "Esame: Cane Pirata. VN: 12. VD: 30. CAMO: 8/0."
+  REAPER_ARMOR_M_UFOPEDIA: "Esame: Mietitore Mutante. VN: 16."
+  SECTOID_ARMOR_P10_UFOPEDIA: "Esame: Giovane di Osiron. VN: 9."
+  SECTOID_ARMOR_P12_UFOPEDIA: "Esame: Studente dell'Accademia. VN: 9."
+  SECTOID_ARMOR_P11_UFOPEDIA: "Esame: Infermiera dell'Accademia. VN: 10."
+  SECTOID_ARMOR_P1_UFOPEDIA: "Esame: Ricercatore dell'Accademia. VN: 9."
+  SECTOID_ARMOR_P14_UFOPEDIA: "Esame: Consiglio dell'Accademia. Evasione: REA*50% + MEL*10% + COR*35% (metà penalità). VN: 12. SENSI: 2."
+  SECTOID_ARMOR_P15_UFOPEDIA: "Esame: Lacchè dell'Accademia. Evasione: REA*50% + MEL*10% + COR*15%. VN: 9."
+  BANDIT_ARMOR_P9_UFOPEDIA: "Esame B-Boy. VN: 9."
+  BANDIT_ARMOR_P6_UFOPEDIA: "Esame Mastino del Sangue. VN: 16. VT: 50%"
+  MUTON_ARMOR_P2_UFOPEDIA: "Armatura da Commando Merc. Questa tuta Synthmuscle non è solo più resistente dalla normale, ma è equipaggiata con un jetpack. VN: 25. VT: 60%. CAMO 8/2."
+  MUTON_ARMOR_P3_UFOPEDIA: "Armatura da Ingegnere Merc. Gli ingegneri indossano tute Synthmuscle con un apparato di visione superiore. VN: 30. VT: 80%. SPOT: 10. CAMO 15/5."
+  SPARTAN_ARMOR_P1_UFOPEDIA: "Esame Fuciliere Spartano. VN: 9. CAMO 10/3."
+  HUMAN_ARMOR_M3_UFOPEDIA: "Esame: Tipo Tosto. VN: 9."
+  HUMAN_ARMOR_F4_UFOPEDIA: "Esame: Tipa Tosta. VN: 9."
+  HUMAN_ARMOR_M5_UFOPEDIA: "Esame: Grassone. VN: 9."
+  HUMAN_ARMOR_F8_UFOPEDIA: "Esame Ragazza Esperta. VN: 10."
+  HUMAN_ARMOR_M6_UFOPEDIA: "Esame: Lavoratore. VN: 9."
+  HUMAN_ARMOR_F7_UFOPEDIA: "Esame Lavoratrice. VN: 9."
+  HUMAN_ARMOR_M9_UFOPEDIA: "Esame: Tipo Sveglio. VN: 9."
+  HUMAN_ARMOR_M10_UFOPEDIA: "Esame Mago Umano. VN: 20. SENSO: 10."
+  HUMAN_ARMOR_F11_UFOPEDIA: "Esame: Nobildonna. VN: 9. SPOT: 4"
+  HUMAN_ARMOR_F12_UFOPEDIA: "Esame: Tipa Sveglia. VN: 9."
+  HUMAN_ARMOR_M13_UFOPEDIA: "Esame: Commesso. VN: 9."
+  SMUGGLER_ARMOR_P1_UFOPEDIA: "Esame: Scagnozzo Umano. VN: 12."
+  HUMAN_ARMOR_MG_UFOPEDIA: "Esame: Ragazza Magica. VN: 9. SENSI: 9."
+  DOGG_ARMOR_UFOPEDIA: "Esame: Cane. VN: 12. VD: 30. CAMO: 8/0."
+  SHAMBLER_ARMOR_UFOPEDIA: "Esame Orrore. VN: 20. VT: 50%"
+  ZOMBIE_ARMOR_UFOPEDIA: "Esame: Zombi Crisalide. VN: 20."
+  DOOM_ARMOR_1_UFOPEDIA: "Esame Soldato Posseduto. VN: 24."
+  DOOM_ARMOR_2_UFOPEDIA: "Esame: Sergente Posseduto. VN: 24. VT: 20%"
+  DOOM_ARMOR_3_UFOPEDIA: "Esame: Mitragliere Posseduto. VN: 24. VT: 30%"
+  STR_ALIEN_BASE: "Base Segreta"
+  STR_MISSION_HARASSMENT_NINJAS: "Caccia Pirata"
+  STR_ALIEN_SUPPLY: "Rifornimento Base"
+  STR_ATTACK_BANDIT_RAID: "RAID BANDITI"
+  STR_ATTACK_RAIDER_RAID: "RAID BANDITI"
+  STR_ATTACK_NAZI_RAID: "RAID UMANISTI"
+  STR_ATTACK_KKK_RAID: "RAID GOVERNATIVO"
+  STR_ATTACK_SPARTAN_RAID: "RAID SPARTANI"
+  STR_ATTACK_DEEP_ONE_RAID: "RAID ESSERI ABISSALI"
+  STR_ATTACK_MERCENARY_RAID: "RAID MERCENARI"
+  STR_ATTACK_DOOM_RAID: "RAID OSCURO"
+  STR_ATTACK_ETHEREAL_RAID: "RAID DEI STELLARI"
+  STR_MISSION_RETICULAN_TRADING: "Scambio"
+  STR_MISSION_REBEL_TRADING: "*Scambio Ribelle*"
+  STR_MISSION_MILITARY_SUPPLY: "Rifornimento Militare"
+  STR_MISSION_GOLD_TRANSPORT: "Trasporto Oro"
+  STR_MISSION_MINING: "Estrazione Risorse"
+  STR_MISSION_COURIER: "Corriere"
+  STR_MISSION_CONVERSION: "Conversione"
+  STR_MISSION_SUPERVISION: "Supervisione"
+  STR_MISSION_SUPERVISION_2: "Supervisione"
+  STR_MISSION_DIPLOMACY: "Influenza"
+  STR_MISSION_PASSENGER: "Trasporto Passeggeri"
+  STR_MISSION_FREIGHT: "Cargo Merci"
+  STR_MISSION_SURVEY: "Sondaggio"
+  STR_MISSION_MERCENARY_ASSIGNMENT: "Contratto Mercenario"
+  STR_MISSION_RAID: "Raid"
+  STR_MISSION_NAZI: "Attività Quotidiane"
+  STR_MISSION_REBEL_PATROL: "Pattuglia Ribelle"
+  STR_MISSION_GOVT_PATROL: "Affari di Governo"
+  STR_MISSION_GOVT_PATROL_FUSION: "Affari di Governo"
+  STR_MISSION_LOC_ATRIUM: "Atrio dell'Angoscia"
+  STR_MISSION_LOC_MANSION: "Dimora dell'Angoscia"
+  STR_MISSION_LOC_KEEP: "Porta Infernale"
+  STR_MISSION_LOC_RET_BASE: "Base Reticulana"
+  STR_MISSION_DEEP_ONES: "Piramide del Dolore"
+  STR_MISSION_EXTRA_TRANSPORT: "Corriere"
+  STR_MISSION_MARSEC_PATROL: "Pattuglia Aerea da Combattimento"
+  STR_MISSION_SMUGGLING: "Contrabbando"
+  STR_MISSION_SMUGGLING_MILENIO: "Contrabbando"
+  STR_MISSION_LABSHIP: "Propaganda dell'Accademia"
+  STR_MISSION_GDX_SEARCH: Ricerca Fuggitivo
+  STR_MISSION_GDX_SEARCH_2: Ricerca Fuggitivo
+  STR_MISSION_POLICE_FLIGHT_1: Pattuglia Megapol
+  STR_MISSION_POLICE_FLIGHT_2: Pattuglia Megapol
+  STR_MISSION_POLICE_FLIGHT_3: Pattuglia Megapol
+  STR_MISSION_POLICE_FLIGHT_4: Pattuglia Megapol
+  STR_MISSION_BANDIT_FLIGHT_1: Banditi del Cielo
+  STR_MISSION_BANDIT_FLIGHT_2: Banditi del Cielo
+  STR_MISSION_BANDIT_FLIGHT_3: Banditi del Cielo
+  STR_MISSION_CIVILIAN_TRAFFIC_1: Traffico Civile
+  STR_MISSION_CIVILIAN_TRAFFIC_2: Traffico Civile
+  STR_MISSION_CIVILIAN_TRAFFIC_3: Traffico Civile
+  STR_MISSION_CIVILIAN_TRAFFIC_4: Traffico Civile
+  STR_MISSION_CIVILIAN_TRAFFIC_5: Traffico Civile
+  STR_MISSION_GIFTS_OF_LOVE: Doni dell'Amore
+  STR_ACTIVITIES_MILITARY: "Attività: Militari"
+  STR_ACTIVITIES_ENTERPRISE: "Attività: Impresa"
+  STR_ACTIVITIES_COMMERCIAL: "Attività: Commerciale"
+  STR_ACTIVITIES_POLITICAL: "Attività: Politica"
+  STR_ATTACK_BANDIT_RAID_UFOPEDIA: "."
+  STR_HISTORY_004: "Diario Antico 359E-99"
+  STR_HISTORY_100: "Diario 12-12-2485"
+  STR_GNOME_TOME_5: "Tomo Gnomo #5"
+  STR_POETRY_001: "Poesia #001"
+  STR_NEWSPAPER_004: "Preoccupazione per il Gas Crisalide"
+  STR_NEWSPAPER_017_UFOPEDIA: "Un signore della guerra locale, Armok, noto anche come \"Dio del Sangue\", suscitò scalpore sul confine dell'Autonomia Euroasiatica quando attraversò il paese con quello che risultò essere resti dei suoi seguaci, trasformato in armi auto-replicanti, e procedette attaccare le navicittà, gonfiando così le fila del suo \"esercito\". Le autorità sono state lente nell'agire, dal momento che l'ultimo focolaio noto del Replicatore Necron_Vampiro 1.0 è avvenuto oltre 200 anni fa, che per molti è poco più di un'epoca di miti, a quanto pare. Per fortuna, le milizie locali della zona del Rifugio delle Streghe hanno messo fine alla situazione prima che potesse rivendicare più vite. Come lo sciame di repliche (con Armok al centro) avanzò attraverso la campagna, fu facile avvistarlo, così lo bombardarono al napalm dall'aria, usando i loro arcaici jet. Come disse il Colonnello dell'Aviazione Zhabov, che era il comandante dell'operazione, \"per fortuna questi auto-replicatori non hanno la capacità di raggiungere livelli z troppo alti\"."
+  STR_NEWSPAPER_022: "Il Male del Deserto"
+  STR_NEWSPAPER_XXX_UFOPEDIA: "??"
+  STR_GODS_SUMMARY: "Credenze Lokk'Narr e Narlock"
+  STR_GODS_G1: "La Regina di Alabastro"
+  STR_GODS_E7: "Signore degli Incroci"
+  STR_MYTH_001: "Miti: Il Secondo Serpente"
+  STR_MYTH_002: "Miti: L'Uomo di Carta"
+  STR_MYTH_003: "Miti: Il Giardino dell'Amore"
+  STR_MYTH_004: "Miti: La Dama ed il Ladro"
+  STR_MYTH_005: "Miti: La Sposa Cadavere"
+  STR_MYTH_100: "Miti: Uomini e Gatti"
+  STR_DOCTOR_X_VAMPIRE: "X-Vampiressa"
+  STR_ARMOR_DOCTOR_X_VAMPIRE: "Esame: X-Vampiressa"
+  STR_DOCTOR_X_C70: "X. (Corruzione: 70)"
+  STR_DOCTOR_X_C75: "X. (Corruzione: 75)"
+  STR_GDX_002: "Ordine di Ricerca Covo"
+  STR_GDX_004: "!Covo del Dr. X!"
+  STR_GDX_042: "Il Problema di X"
+  STR_GDX_105: "Dr. X l'Esploratore"
+  STR_GDX_107: "Esame del Dr. X"
+  STR_ARMOR_DOCTOR_X_VAMPIRE_UFOPEDIA: "X, essendo ora la nostra bestia da guerra, può utilizzare il Morso Vampirico o Seduzione in combattimento. Ha acquisito il potere di rigenerarsi rapidamente per via del vampirismo, ma ha perso la capacità di secernere 'Succo Zombi' (insieme alla sua decenza). Ha velocità, SPOT, SENSI e la furtività che ti aspetteresti da un vampiro. Se lei 'muore', saremo in grado di rianimarla in una Sala Chirurgica."
+  STR_WIZ_001: "Il Mago Rosso"
+  STR_WIZ_002: "La Tediosa Ricerca del Mago Rosso"
+  STR_WIZ_003: "Alla Ricerca del Mago Rosso"
+  STR_WIZ_005: "La Preoccupazione del Mago Rosso"
+  STR_WIZ_100: "Mago Rosso (Con Bagaglio)"
+  STR_WIZ_101: "Mosse del Mago Rosso"
+  STR_WIZ_004_UFOPEDIA: "Questo è il misterioso artefatto che dovrebbe aiutare il Mago Rosso ad aprire portali ad altri mondi e presumibilmente vincere la sua 'guerra'. Se questo non è abbastanza inquietante, emana anche una strana luce inquietante. Meglio conservarli in alcuni spessi contenitori. Almeno questo è stato portato via dal Mago Rosso."
+  STR_PINUP_001: "#001"
+  STR_PINUP_002: "#002"
+  STR_PINUP_003: "#003"
+  STR_PINUP_004: "#004"
+  STR_PINUP_005: "#005"
+  STR_PINUP_006: "#006"
+  STR_PINUP_007: "#007"
+  STR_PINUP_008: "#008"
+  STR_PINUP_009: "#009"
+  STR_PINUP_010: "#010"
+  STR_PINUP_011: "#011"
+  STR_PINUP_012: "#012"
+  STR_PINUP_013: "#013"
+  STR_PINUP_014: "#014"
+  STR_PINUP_015: "#015"
+  STR_PINUP_016: "#016"
+  STR_PINUP_017: "#017"
+  STR_PINUP_018: "#018"
+  STR_PINUP_019: "#019"
+  STR_PINUP_020: "#020"
+  STR_PINUP_021: "#021"
+  STR_PINUP_022: "#022"
+  STR_PINUP_023: "#023"
+  STR_PINUP_024: "#024"
+  STR_PINUP_025: "#025"
+  STR_PINUP_026: "#026"
+  STR_PINUP_027: "#027"
+  STR_PINUP_028: "#028"
+  STR_PINUP_029: "#029"
+  STR_PINUP_030: "#030"
+  STR_PINUP_031: "#031"
+  STR_PINUP_032: "#032"
+  STR_PINUP_033: "#033"
+  STR_PINUP_034: "#034"
+  STR_PINUP_035: "#035"
+  STR_PINUP_036: "#036"
+  STR_PINUP_037: "#037"
+  STR_PINUP_038: "#038"
+  STR_PINUP_039: "#039"
+  STR_PINUP_040: "#040"
+  STR_PINUP_041: "#041"
+  STR_PINUP_042: "#042"
+  STR_PINUP_043: "#043"
+  STR_PINUP_044: "#044"
+  STR_PINUP_045: "#045"
+  STR_PINUP_046: "#046"
+  STR_PINUP_047: "#047"
+  STR_PINUP_048: "#048"
+  STR_PINUP_049: "#049"
+  STR_PINUP_050: "#050"
+  STR_PINUP_051: "#051"
+  STR_PINUP_052: "#052"
+  STR_PINUP_053: "#053"
+  STR_PINUP_054: "#054"
+  STR_PINUP_055: "#055"
+  STR_PINUP_056: "#056"
+  STR_PINUP_057: "#057"
+  STR_PINUP_058: "#058"
+  STR_PINUP_059: "#059"
+  STR_PINUP_060: "#060"
+  STR_PINUP_061: "#061"
+  STR_PINUP_062: "#062"
+  STR_PINUP_063: "#063"
+  STR_PINUP_064: "#064"
+  STR_PINUP_065: "#065"
+  STR_PINUP_066: "#066"
+  STR_PINUP_067: "#067"
+  STR_PINUP_068: "#068"
+  STR_PINUP_069: "#069"
+  STR_PINUP_070: "#070"
+  STR_PINUP_071: "#071"
+  STR_PINUP_072: "#072"
+  STR_PINUP_073: "#073"
+  STR_PINUP_074: "#074"
+  STR_PINUP_075: "#075"
+  STR_PINUP_076: "#076"
+  STR_PINUP_077: "#077"
+  STR_PINUP_078: "#078"
+  STR_PINUP_079: "#079"
+  STR_PINUP_080: "#080"
+  STR_PINUP_081: "#081"
+  STR_PINUP_082: "#082"
+  STR_PINUP_083: "#083"
+  STR_PINUP_084: "#084"
+  STR_PINUP_085: "#085"
+  STR_PINUP_086: "#086"
+  STR_PINUP_087: "#087"
+  STR_PINUP_088: "#088"
+  STR_PINUP_089: "#089"
+  STR_PINUP_090: "#090"
+  STR_PINUP_092: "#092"
+  STR_PINUP_093: "#093"
+  STR_PINUP_094: "#094"
+  STR_PINUP_095: "#095"
+  STR_PINUP_097: "#097"
+  STR_PINUP_098: "#098"
+  STR_PINUP_099: "#099"
+  STR_PINUP_100: "#100"
+  STR_PINUP_101: "#101"
+  STR_PINUP_102: "#102"
+  STR_PINUP_106: "#106"
+  STR_PINUP_107: "#107"
+  STR_PINUP_108: "#108"
+  STR_PINUP_109: "#109"
+  STR_PINUP_111: "#111"
+  STR_PINUP_115: "#115"
+  STR_PINUP_130: "#130"
+  STR_PINUP_049_UFOPEDIA: "{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}L'Autonomia delle Imbarcazioni viene calcolata in modo diverso per le imbarcazioni che usano carburante fisico, come Agenti Chimici o Hellerium; bruciano carburante più velocemente a velocità maggiori. Il carburante viene reintegrato ad una velocità di 1 unità/ora. 1 unità carburante offre un'autonomia molto migliore per imbarcazioni leggere rispetto a quelle pesanti."
+  STR_PINUP_109_UFOPEDIA: "Costruire nuove strutture su edifici obsoleti, come Piantagioni o Nascondigli, consente di risparmiare tempo prezioso. Quando la nuova struttura è piccola, il tempo di costruzione completo del vecchio edificio sarà sottratto; se 2x2, un quarto per ogni edificio sostituito; se 3x3, un nono. Eventuali rimborsi per le strutture sostituite saranno interamente versati in ogni caso."
+  STR_HEAVY_LASER_CLIP_LO_XXX: "Colpi Laser Pesante (5x5)"
+  STR_BOW_H_QUIVER_FIRE_XXX: "Frecce Fiammeggianti (16x10)"
+  STR_SLUGGA_MK2_CLIP_S_XXX: "Bossoli Cannone a Mano Kustom (8x10)"
+  STR_CAWS_CLIP_AP_XXX: "Car. S.B.A.M. Perforante (10x10)"
+  STR_CAWS_CLIP_S_XXX: "Car. S.B.A.M. Pallettoni (10x10)"
+  STR_CAWS_CLIP_AQUA_XXX: "Car. S.B.A.M. Aqua (10x10)"
+  STR_BATTLE_RIFLE_CLIP_PS_XXX: "Munizioni BR/PS (20x10)"
+  STR_MINIGUN_2_AMMO_XXX: "Munizioni Vulcan (100x5)"
+  STR_BOZAR_CLIP_XXX: "Car. Bossar (40x10)"
+  STR_GL_FAE_XXX: "Granata da 40mm/Napalm Nero (x10)"
+  STR_GL_NUKE_XXX: "Granata 40mm/Hell (x10)"
+  STR_GL_GAS_XXX: "Granata 40mm/Gas (x10)"
+  STR_GL_KNOCKOUT_XXX: "Granata 40mm/Stordente (x10)"
+  STR_BLIZZARD_SHELLS_HE_XXX: Bossoli Blizzard/HE (x5)
+  STR_BLIZZARD_SHELLS_I_XXX: Bossoli Blizzard/Inc (x5)
+  STR_BLIZZARD_SHELLS_SMOKE_XXX: Bossoli Blizzard/Fumo (x5)
+  STR_MORTAR_SHELL_GAS_XXX: "Bossolo Mortaio/Gas (x5)"
+  STR_MORTAR_SHELL_NUKE_XXX: "Bossolo Mortaio/Hell (x5)"
+  STR_3RL_HE_XXX: "Bossoli Tornado (3x5)"
+  STR_3RL_NUKE_XXX: "Bossoli Tornado/Hell (3x5)"
+  STR_BABY_NUKE_XXX: "Baby Nuke (x5)"
+  STR_MAG_ROCKET_XXX: "Razzi MAG (x5)"
+  STR_NUKE_ROCKET_XXX: "Razzi al Plasma (x5)"
+  STR_GAS_ROCKET_XXX: "Razzi Gas (x5)"
+  STR_BALLISTA_BOLTS_XXX: "Dardi Balista (5x5)"
+  STR_MOONSHINE_XXX: "Moonshine (x5)"
+  STR_VODKA_XXX: "Vodka (x25)"
+  STR_BANDAGE_XXX: "Bende (x5)"
+  STR_SMALL_MEDIPACK_XXX: "Medipack Avanzato (x5)"
+  STR_CHEMICALS_XXX: "Agenti Chimici (x25)"
+  STR_GUILD_CORPSE_XXX: "Durathread (x25)"
+  STR_MEDICAL_SUPPLIES_XXX: "Forniture Mediche (x10)"
+  STR_ALIEN_ALLOYS_XXX: "Plastacciaio (x50)"
+  STR_ELERIUM_115_XXX: "Distillazione Hellerium"
+  STR_DISASSEMBLY_SNIPER_LASER_PIR: "D/A: Laser di Precisione"
+  STR_DISASSEMBLY_PIR_PLASMA_PISTOL: "D/A: Pistola al Plasma"
+  STR_DISASSEMBLY_PIR_PLASMA_RIFLE: "D/A: Fucile al Plasma"
+  STR_TECHNOCRACY_0_CORPSE_BATTLE_DISASSEMBLY: "D/A: Cadavere Mk.801"
+  STR_WEREWOLF_CORPSE_EXTRACTION: "B: Cadavere Licantropo (1/3/5)"
+  STR_MEGASCORPION_TERRORIST_EXTRACTION: "B: Megascorpione (1/1/3)"
+  STR_MEGASCORPION_CORPSE_EXTRACTION: "B: Cadavere Megascorpione (1/1/1)"
+  STR_GIANT_BEETLE_CORPSE_EXTRACTION: "B: Cadavere Scarafaggio G. (1/0/0)"
+  STR_GIANTSPIDER_CORPSE_EXTRACTION: "B: Cadavere Ragno G. (0/6/0)"
+  STR_CHUPACABRA_CORPSE_EXTRACTION: "B: Cadavere Chupacabra (1/2/2)"
+  STR_VAMPIRE_BAT_CORPSE_EXTRACTION: "B: Cadavere Pipistrello Vampiro (1/1/1)"
+  STR_SHAMBLER_CORPSE_EXTRACTION: "B: Cadavere Orrore (3/9/4)"
+  STR_BOOMOSAURUS_CORPSE_EXTRACTION: "B: Cadavere Boomosauro (2/3/3)"
+  STR_DEEP_ONE_CORPSE_EXTRACTION: "B: Cadavere Essere Abissale (0/1/0)"
+  STR_SHARKMAN_CORPSE_EXTRACTION: "B: Cadavere Uomo Squalo (3/1/3)"
+  STR_WASPITE_CORPSE_EXTRACTION: "B: Cadavere Vespita (2/1/3)"
+  STR_SILACOID_CORPSE_EXTRACTION: "B: Cadavere Rocky (2/2)"
+  STR_ZOMBIE_STERILE_CORPSE_EXTRACTION: "B: Cadavere Zombi (1)"
+  STR_ZOMBIE_GRUBAS_CORPSE_EXTRACTION: "B: Cadavere Z-Grassone (3)"
+  STR_ZOMBIE_SADAKO_CORPSE_EXTRACTION: "B: Cadavere Z-Strix (2/3)"
+  STR_ZOMBIE_CARRIE_CORPSE_EXTRACTION: "B: Cadavere Z-Cantante (1/1)"
+  STR_ZOMBIE_PIMP_CORPSE_EXTRACTION: "B: Cadavere Z-Funky (2)"
+  STR_MEGAZOMBIE_CORPSE_EXTRACTION: "B: Cadavere Megazombi (7/2/3)"
+  STR_ZOMBIE_TROOPER_CORPSE_EXTRACTION: "B: Cadavere Truppa Z (5/1/2)"
+  STR_VAMPIRE_CORPSE_EXTRACTION: "B: Cadavere Vampiro (6/2)"
+  STR_MECHTOID_CORPSE_EXTRACTION: "E: Cadavere Mechtoide (2/2/4)"
+  STR_DOOM_SOLDIER_EXTRACTION: "Essenza: Soldato Posseduto (1)"
+  STR_DOOM_SARGE_EXTRACTION: "Essenza: Sergente Posseduto (1)"
+  STR_DOOM_GUNNER_EXTRACTION: "Essenza: Artigliere Posseduto (1)"
+  STR_DOOM_IMP_EXTRACTION: "Essenza: Imp (2)"
+  STR_DOOM_DEMON_EXTRACTION: "Essenza: Demone (2)"
+  STR_DOOM_SPECTRE_EXTRACTION: "Essenza: Spettro (3)"
+  STR_DOOM_CACODEMON_EXTRACTION: "Essenza: Cacodemone (5)"
+  STR_DOOM_HELL_BARON_EXTRACTION: "Essenza: Barone Infernale (20)"
+  STR_BOGEYMAN_EXTRACTION: "Essenza: Bogeyman (1)"
+  STR_DEMONIC_ESSENCE_S: "Essenza: Sacrificio Schiavi"
+  STR_DEMONIC_ESSENCE_S2: "Essenza: Sacrifica Vergini"
+  STR_EMANCIPATION_SLAVE_MAID: "Emancipa Ancella"
+  STR_ACADEMY_THRALL_SALVAGE: "S@: Lacchè Acd. (0)"
+  STR_BANDIT_DUDE_SALVAGE: "S: Brigante (1/2/0)"
+  STR_RAIDER_SCOUT_RECRUITMENT: "Recluta: Bandito Ricognitore"
+  STR_HUMAN_MALE_3_WORKERY: "Lavoro: Tipo Tosto"
+  STR_HUMAN_FEMALE_4_WORKERY: "Lavoro: Tipa Tosta"
+  STR_EXPERIMENT_VICTIM_WORKERY: "Lavoro: Ex.Vittima"
+  STR_ETHEREAL_MEAL: "Cervello Divino"
+  STR_CODEX_REDGOLD: "Codex (Rosso o Oro)"
+  STR_CODEX_GRAYGREEN: "Codex (Verde o Grigio)"
+  STR_CODEX_GR_GD: "Codex (Verde o Oro)"
+  STR_CODEX_GR_RD: "Codex (Verde o Rosso)"
+  STR_CODEX_GY_GD: "Codex (Grigio o Oro)"
+  STR_CODEX_GY_RD: "Codex (Grigio o Rosso)"
+  STR_CODEX_GOLD_EXP: "Codex (Tutti tranne Rosso)"
+  STR_CODEX_GREEN_EXP: "Codex (Tutto tranne Grigio)"
+  STR_CODEX_RED_EXP: "Codex (Tutto tranne Oro)"
+  STR_CODEX_GRAY_EXP: "Codex (Tutto tranne Verde)"
+  STR_CORAL_ISLAND_DONE: "Isola Misteriosa Ripulita"
+  STR_LOC_GDX_PRISON_DONE: "Prigione-X: Missione Completata"
+  STR_LASER_KNOWLEDGE: "Laser (Basi)"
+  STR_HEALER_PLUS: "Qualunque Medico"
+  STR_COMMANDER_PLUS: "Qualunque VIP"
+  STR_AUTO_CANNON_PLUS: "Autocannone (Dep.)"
+  STR_ENGINEER_PLUS_PREQ: "Ingegneria di Base (Preq.)"
+  STR_CONTACT_MERCENARIES_ZZZ: "Mercenari (Dep.)"
+  STR_PRIMITIVE_WEAPONS_2_ZZZ: "Strumenti & Lame (Dep.)"
+  STR_WAY_POINT: "PUNTO D'INTERESSE"
+  STR_ARE_YOU_SURE_CYDONIA: "Sei sicuro di voler spedire questo velivolo in missione su Cydonia?"
+  STR_MISSION_COMPLETE_RETURNING_TO_BASE: "MISSIONE COMPLETA - RITORNO ALLA BASE"

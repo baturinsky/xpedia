@@ -1,0 +1,286 @@
+#shotgunSpread:  Defined on an ammunition type as a number between 0 and 100 with a default value of 100.  With shotgunBehavior: true, this is approximatley the percent of pellets after the first #that will hit the same tile/target as the first at the maximum accurate range.  With shotgunBehavior: false, it is a multiplicative modifier to the 5% rule for the previous behavior, such that 100 #means full normal spread, 0 means spread only from the weapon's accuracy.
+#shotgunBehavior:  Defined on an ammunition type as 1 or 0, default 0, determines whether or not the new spread calculation will be used (= 1).
+#shotgunChoke:  Defined on a weapon type as a number between 0 and 100 (or higher) with a default value of 100.  Used only for shotgunBehavior: true, acts as a percent modifier to the 'accuracy' of #the pellets from shotgunSpread - 100 means only the shotgunSpread value defines the spread pattern, 0 gives maximum possible spread regardless of the shotgunSpread value.
+
+items:
+  - type: AUX_SENTINEL_WEAPON
+    shotgunSpread: 75
+    shotgunChoke: 100
+    shotgunBehavior: 1
+  - type: AUX_GNOME_CANNON
+    shotgunSpread: 75
+    shotgunChoke: 100
+    shotgunBehavior: 1
+  - type: AUX_ACAR_WEAPON_TANK_FLAK
+    shotgunChoke: 65
+  - type: STR_HWP_FLAK_SHELLS
+    shotgunSpread: 60
+    shotgunBehavior: 1
+  - type: SPC_BANE_SPEAKER
+    shotgunSpread: 60
+    shotgunChoke: 60
+    shotgunBehavior: 1
+  - type: STR_HWP_FLAK_SHELLS_RUBBER
+    shotgunSpread: 50
+    shotgunBehavior: 1
+  - type: STR_OLD_PISTOL
+    shotgunChoke: 100
+  - type: STR_OLD_PISTOL_CLIP_EP
+    shotgunSpread: 10
+    shotgunBehavior: 1
+  - type: STR_SLUGGA_MK2
+    shotgunChoke: 100
+  - type: STR_SLUGGA_MK2_CLIP_S
+    shotgunSpread: 30
+    shotgunBehavior: 1
+  - type: STR_DEATH_BLOSSOM
+    shotgunChoke: 100
+  - type: STR_DEATH_BLOSSOM_CLIP_ACID
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_LASER_PISTOL
+    shotgunSpread: 70
+    shotgunBehavior: 1
+    shotgunChoke: 100
+  - type: STR_SHOTGUN_FIST
+    shotgunChoke: 25
+  - type: STR_SAWED_OFF
+    shotgunChoke: 50
+  - type: STR_DB_SHOTGUN
+    shotgunChoke: 75
+  - type: STR_SUPER_SAWED_OFF
+    shotgunChoke: 100
+  - type: STR_BUCKSHOT
+    shotgunSpread: 35
+    shotgunBehavior: 1
+  - type: STR_BUCKSHOT_HV
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_BUCKSHOT_ACID
+    shotgunSpread: 55
+    shotgunBehavior: 1
+  - type: STR_BUCKSHOT_NUKE
+    shotgunSpread: 45
+    shotgunBehavior: 1
+  - type: STR_SMALL_SHOTGUN
+    shotgunChoke: 60
+  - type: STR_MINI_SHOTGUN
+    shotgunChoke: 75
+  - type: STR_SHOTGUN_G
+    shotgunChoke: 75
+  - type: STR_SHOTGUN_G_SHELLS
+    shotgunSpread: 30
+    shotgunBehavior: 1
+  - type: STR_SHOTGUN_G_SHELLS_I
+    shotgunSpread: 45
+    shotgunBehavior: 1
+  - type: STR_SHOTGUN_G_SHELLS_NUKE
+    shotgunSpread: 35
+    shotgunBehavior: 1
+  - type: STR_SHOTGUN_LT
+    shotgunChoke: 75
+  - type: STR_SHOTGUN_POLICE
+    shotgunChoke: 110
+  - type: STR_SHOTGUN
+    shotgunChoke: 100
+  - type: STR_SHOTGUN_ADV
+    shotgunChoke: 125
+  - type: STR_SHOTGUN_SHELLS
+    shotgunSpread: 25
+    shotgunBehavior: 1
+  - type: STR_SHOTGUN_SHELLS_ACID
+    shotgunSpread: 40
+    shotgunBehavior: 1
+  - type: STR_SHOTGUN_SHELLS_NUKE
+    shotgunSpread: 30
+    shotgunBehavior: 1
+  - type: STR_SHOTGUN_PA
+    shotgunChoke: 100
+  - type: STR_SHOTGUN_PA_SHELLS
+    shotgunSpread: 25
+    shotgunBehavior: 1
+  - type: STR_SHOTGUN_PA_SLUGS
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_SHOTGUN_PA_SHELLS_NUKE
+    shotgunSpread: 25
+    shotgunBehavior: 1
+  - type: STR_UAC_SHOTGUN
+    shotgunChoke: 100
+  - type: STR_UAC_SHOTGUN_SHELLS
+    shotgunSpread: 30
+    shotgunBehavior: 1
+  - type: STR_UAC_SHOTGUN_SHELLS_NUKE
+    shotgunSpread: 35
+    shotgunBehavior: 1
+  - type: STR_ASG12
+    shotgunChoke: 100
+  - type: STR_ASG12_DRUM
+    shotgunSpread: 35
+    shotgunBehavior: 1
+  - type: STR_ASG12_DRUM_RUBBER
+    shotgunSpread: 35
+    shotgunBehavior: 1
+  - type: STR_COMBAT_SHOTGUN
+    shotgunChoke: 90
+  - type: STR_COMBAT_SHOTGUN_B
+    shotgunChoke: 90
+  - type: STR_STREET_SWEEPER
+    shotgunChoke: 100
+  - type: STR_COMBAT_SHOTGUN_DRUM
+    shotgunSpread: 25
+    shotgunBehavior: 1
+  - type: STR_COMBAT_SHOTGUN_DRUM_I
+    shotgunSpread: 70
+    shotgunBehavior: 1
+  - type: STR_BLUNDERBUSS
+    shotgunChoke: 65
+  - type: STR_BLUNDERBUSS_ADV
+    shotgunChoke: 80
+  - type: STR_BLUNDERBUSS_AMMO
+    shotgunSpread: 25
+    shotgunBehavior: 1
+  - type: STR_BLUNDERBUSS_AMMO_ACID
+    shotgunSpread: 40
+    shotgunBehavior: 1
+  - type: STR_BLUNDERBUSS_DRUM_GOLD
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_BLUNDERBUSS_DRUM_ACID
+    shotgunSpread: 40
+    shotgunBehavior: 1
+  - type: STR_SLUGTHROWER
+    shotgunChoke: 80
+  - type: STR_SLUGTHROWER_SHELLS_ACID
+    shotgunSpread: 60
+    shotgunBehavior: 1
+  - type: STR_CAWS
+    shotgunChoke: 100
+  - type: STR_CAWS_CLIP_S
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_CAWS_CLIP_AQUA
+    shotgunSpread: 15
+    shotgunBehavior: 1
+  - type: STR_SUPER_SHOTGUN
+    shotgunChoke: 100
+  - type: STR_SUPER_SHOTGUN_CLIP
+    shotgunSpread: 15
+    shotgunBehavior: 1
+  - type: STR_MAMMOTH_SHOTGUN
+    shotgunChoke: 100
+  - type: STR_MAMMOTH_SHOTGUN_CLIP
+    shotgunSpread: 35
+    shotgunBehavior: 1
+  - type: STR_FLAK_CANNON
+    shotgunChoke: 100
+  - type: STR_FLAK_CANNON_DRUM
+    shotgunSpread: 55
+    shotgunBehavior: 1
+  - type: STR_OGRE_SHOTGUN
+    shotgunChoke: 100
+  - type: STR_OGRE_SHOTGUN_SHELLS
+    shotgunSpread: 50
+    shotgunBehavior: 1
+  - type: STR_OGRE_SHOTGUN_SHELLS_NUKE
+    shotgunSpread: 55
+    shotgunBehavior: 1
+  - type: STR_BOOM_GUN
+    shotgunChoke: 100
+  - type: STR_BOOM_AMMO
+    shotgunSpread: 40
+    shotgunBehavior: 1
+  - type: STR_LASLOCK_SHOTGUN
+    shotgunChoke: 100
+  - type: STR_LASLOCK_SHOTGUN_CLIP
+    shotgunSpread: 50
+    shotgunBehavior: 1
+  - type: STR_SR_SHOTGUN
+    shotgunChoke: 100
+  - type: STR_SR_SHOTGUN_CLIP
+    shotgunSpread: 25
+    shotgunBehavior: 1
+  - type: STR_SCATTER_LASER
+    shotgunSpread: 35
+    shotgunBehavior: 1
+    shotgunChoke: 100
+  - type: STR_PLASMA_SHOTGUN
+    shotgunChoke: 100
+  - type: STR_PLASMA_SHOTGUN_CLIP
+    shotgunSpread: 60
+    shotgunBehavior: 1
+  - type: STR_UAC_CARBINE
+    shotgunChoke: 125
+  - type: STR_HSMG
+    shotgunChoke: 75
+  - type: STR_MP40
+    shotgunChoke: 90
+  - type: STR_HSMG_CLIP_AQUA
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_SMG_10MM
+    shotgunChoke: 80
+  - type: STR_SMG_10MM_CLIP_AQUA
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_UAC_RIFLE
+    shotgunChoke: 100
+  - type: STR_UAC_CLIP
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_UAC_CLIP_AQUA
+    shotgunSpread: 15
+    shotgunBehavior: 1
+  - type: STR_WINCHESTER
+    shotgunChoke: 125
+  - type: STR_WINCHESTER_AMMO_EP
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_XG_SNIPER_RIFLE
+    shotgunChoke: 150
+  - type: STR_XG_SNIPER_RIFLE_CLIP
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_XG_SNIPER_RIFLE_CLIP_AQUA
+    shotgunSpread: 15
+    shotgunBehavior: 1
+  - type: STR_LACC
+    shotgunChoke: 125
+  - type: STR_LACC_AQUA_AMMO
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_HEAVY_CANNON
+    shotgunChoke: 100
+  - type: STR_HC_I_AMMO
+    shotgunSpread: 35
+    shotgunBehavior: 1
+  - type: STR_HC_AQUA_AMMO
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_AUTO_CANNON
+    shotgunChoke: 100
+  - type: STR_AC_AQUA_AMMO
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_MRSHAN_AUTOCANNON
+    shotgunChoke: 100
+  - type: STR_MRSHAN_AUTOCANNON_CLIP
+    shotgunSpread: 20
+    shotgunBehavior: 1
+  - type: STR_FLECHETTE_GUN
+    shotgunSpread: 35
+    shotgunBehavior: 1
+    shotgunChoke: 100
+  - type: STR_FLECHETTE_CANNON
+    shotgunSpread: 50
+    shotgunBehavior: 1
+    shotgunChoke: 100
+  - type: STR_FLECHETTE_ROCKET
+    shotgunSpread: 60
+    shotgunBehavior: 1
+  - type: STR_MINING_LASER
+    shotgunSpread: 0
+    shotgunChoke: 100
+    shotgunBehavior: 1   
+  - type: STR_COOKER_CLIP
+    shotgunBehavior: 0

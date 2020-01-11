@@ -1,9 +1,8 @@
 vanilla
 
-public/xpedia.html
-public/user
-public/standard
-public/bundle.*
+public/user/mods/Piratez/SOUND 
+public/user/mods/Piratez/Resources/Sounds 
+public/user/mods/XComFiles 
 .rpt2_cache
 
 # Logs

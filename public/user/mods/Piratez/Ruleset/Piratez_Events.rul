@@ -1,0 +1,1524 @@
+events:
+#Shadow of the comet
+  - name: STR_SHADOW_OF_THE_COMET
+    description: STR_SHADOW_OF_THE_COMET_DESCRIPTION
+    background: COMET_BACKGROUND.SCR
+    points: 400
+    funds: 200000
+    timer: 20
+    timerRandom: 43500
+#Wanted!
+  - name: STR_WANTED_POSTER
+    description: STR_WANTED_POSTER_DESCRIPTION
+    background: POSTER_BACKGROUND.SCR
+    points: 100
+    timer: 20
+    timerRandom: 43500
+#Intrepid Brainers
+  - name: STR_INTREPID_BRAINERS
+    description: STR_INTREPID_BRAINERS_DESCRIPTION
+    background: INTREPID_BACKGROUND.SCR
+    itemList: [STR_DATA_DISK_B, STR_OLD_BOOKS, STR_AMPHORE, STR_AMPHORE, STR_AMPHORE, STR_COINS, STR_COINS, STR_COINS]
+    timer: 20
+    timerRandom: 43500
+#Bad Stuff (dependant on diff)
+  - name: STR_HIDEOUT_ON_FIRE
+    description: STR_HIDEOUT_ON_FIRE_DESCRIPTION
+    background: FIRE_BACKGROUND.SCR
+    funds: -125000
+    timer: 20
+    timerRandom: 43500
+#Fungus!
+  - name: STR_FUNGUS_OUTBREAK
+    description: STR_FUNGUS_OUTBREAK_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    itemList: [STR_FUNGUS_OUTBREAK]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_FUNGUS_HARVEST
+    description: STR_FUNGUS_HARVEST_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    itemList: [STR_SHROOM_RED, STR_SHROOM_WHITE, STR_SHROOM_BROWN, STR_SHROOM_WHITE, STR_SHROOM_BROWN, STR_SHROOM_WHITE, STR_SHROOM_RED, STR_SHROOM_WHITE, STR_SHROOM_BROWN, STR_SHROOM_WHITE, STR_SHROOM_BROWN, STR_SHROOM_WHITE, STR_SHROOM_RED, STR_SHROOM_WHITE, STR_SHROOM_BROWN, STR_SHROOM_WHITE, STR_SHROOM_BROWN, STR_SHROOM_WHITE, STR_SHROOM_RED]
+    timer: 20
+    timerRandom: 43500
+#Superior
+  - name: STR_SUPERIOR_BEINGS
+    description: STR_SUPERIOR_BEINGS_DESCRIPTION
+    background: POOL_PARTY_BACKGROUND.SCR
+    points: -250
+    timer: 20
+    timerRandom: 43500
+#Loose Lips
+  - name: STR_LOOSE_LIPS
+    description: STR_LOOSE_LIPS_DESCRIPTION
+    background: LOOSE_LIPS_BACKGROUND.SCR
+    funds: -100000
+    itemList: [STR_PORN, STR_PORN, STR_PORN]
+    timer: 20
+    timerRandom: 43500
+#Assassination!
+  - name: STR_ASSASSINATION_ATTEMPT
+    description: STR_ASSASSINATION_ATTEMPT_DESCRIPTION
+    background: BREAK_IN_BACKGROUND.SCR
+    funds: -5000
+    itemList: [STR_ANARCHY_BOMB, STR_KNOIF, STR_MEGASCORPION_POISON]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_ASSASSINATION_ATTEMPT_NINJA
+    description: STR_ASSASSINATION_ATTEMPT_NINJA_DESCRIPTION
+    background: NINJA2_BACKGROUND.SCR
+    itemList: [STR_NINJA_WARRIOR, STR_WAKIZASHI, STR_THROWING_STARS]
+    timer: 20
+    timerRandom: 43500
+#Drinking with Ritsuko
+  - name: STR_RITSUKO_DRINKING_DEFAULT
+    description: STR_RITSUKO_DRINKING_DEFAULT_DESCRIPTION
+    background: RITSUKO2_BACKGROUND.SCR
+    points: 25
+    timer: 33000
+    timerRandom: 10000
+#Dating Saya
+  - name: STR_DATING_SAYA
+    description: STR_DATING_SAYA_DESCRIPTION
+    background: DATE_WITH_SAYA_BACKGROUND.SCR
+    researchList: [STR_NINJA_WARRIOR, STR_NINJA_ENDURANCE_TRAINING, STR_PRISMATIC_SHIELD, STR_DECLOAKING_DEVICE, STR_VESSEL_NIN_1, STR_KATANA, STR_KUSARIGAMA, STR_WAKIZASHI, STR_JAPAN, STR_PINUP_008, STR_PINUP_009, STR_PINUP_010, STR_PINUP_011, STR_PINUP_014, STR_PINUP_018, STR_PINUP_019, STR_PINUP_024, STR_PINUP_030, STR_PINUP_031, STR_PINUP_032, STR_PINUP_033, STR_PINUP_035, STR_PINUP_037, STR_PINUP_039, STR_PINUP_054, STR_PINUP_056, STR_PINUP_059, STR_PINUP_060, STR_PINUP_063, STR_PINUP_069, STR_PINUP_078, STR_PINUP_082, STR_PINUP_084, STR_PINUP_085, STR_PINUP_088, STR_PINUP_089, STR_PINUP_094, STR_PINUP_096, STR_PINUP_098, STR_PINUP_103, STR_PINUP_114, STR_PINUP_115, STR_PINUP_121, STR_PINUP_122, STR_PINUP_129]
+    funds: -30000
+    timer: 20
+    timerRandom: 43500
+  - name: STR_SAYA_VS_GDX
+    description: STR_SAYA_VS_GDX_DESCRIPTION
+    background: SAYA_BACKGROUND.SCR
+    points: -200
+    timer: 20
+    timerRandom: 43500
+#Gudrun Sheaningans
+  - name: STR_GDX_EVENT_MILKING
+    description: STR_GDX_EVENT_MILKING_DESCRIPTION
+    background: GDX_5_BACKGROUND.SCR
+    itemList: [STR_ZOMBIE_ESSENCE, STR_ZOMBIE_ESSENCE, STR_ZOMBIE_ESSENCE, STR_ZOMBIE_ESSENCE, STR_ZOMBIE_ESSENCE, STR_ZOMBIE_ESSENCE, STR_ZOMBIE_ESSENCE, STR_ZOMBIE_ESSENCE]
+    timer: 30000
+    timerRandom: 3500
+  - name: STR_GDX_EVENT_ROMANCE_SLUT
+    description: STR_GDX_EVENT_ROMANCE_SLUT_DESCRIPTION
+    background: GDX_2_BACKGROUND.SCR
+    points: -150
+    timer: 20
+    timerRandom: 43500
+  - name: STR_GDX_EVENT_ROMANCE_QUIPS
+    description: STR_GDX_EVENT_ROMANCE_QUIPS_DESCRIPTION
+    background: GDX_1_BACKGROUND.SCR
+    points: -10
+    timer: 20
+    timerRandom: 43500
+  - name: STR_GDX_EVENT_ROMANCE_TOMATOES
+    description: STR_GDX_EVENT_ROMANCE_TOMATOES_DESCRIPTION
+    background: GDX_1_BACKGROUND.SCR
+    itemList: [STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT, STR_BOOM_FRUIT]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_GDX_EVENT_ROMANCE_BOOK
+    description: STR_GDX_EVENT_ROMANCE_BOOK_DESCRIPTION
+    background: GDX_1_BACKGROUND.SCR
+    itemList: [STR_PILLOW_BOOK]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_GDX_EVENT_ROMANCE_RATS
+    description: STR_GDX_EVENT_ROMANCE_RATS_DESCRIPTION
+    background: GDX_1_BACKGROUND.SCR
+    itemList: [STR_GIANT_RAT_TERRORIST, STR_GIANT_RAT_TERRORIST,STR_GIANT_RAT_TERRORIST, STR_GIANT_RAT_TERRORIST, STR_GIANT_RAT_TERRORIST, STR_GIANT_RAT_TERRORIST, STR_GIANT_RAT_TERRORIST, STR_GIANT_RAT_TERRORIST, STR_GIANT_RAT_TERRORIST, STR_GIANT_RAT_TERRORIST, STR_GIANT_RAT_TERRORIST]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_GDX_EVENT_ROMANCE_DISK
+    description: STR_GDX_EVENT_ROMANCE_DISK_DESCRIPTION
+    background: GDX_1_BACKGROUND.SCR
+    itemList: [STR_DATA_DISK_B]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_GDX_EVENT_ROMANCE_GIFTS
+    description: STR_GDX_EVENT_ROMANCE_GIFTS_DESCRIPTION
+    background: GDX_2_BACKGROUND.SCR
+    funds: -200000
+    timer: 20
+    timerRandom: 43500
+  - name: STR_GDX_EVENT_VAMPIRE_KISS
+    description: STR_GDX_EVENT_VAMPIRE_KISS_DESCRIPTION
+    background: GDX_3_BACKGROUND.SCR
+    itemList: [STR_PORN]
+    points: -300
+    funds: -15000
+    timer: 20
+    timerRandom: 43500
+#Ariel Sheaningans
+  - name: STR_ANG_EVENT_CONTACT
+    description: STR_ANG_EVENT_CONTACT_DESCRIPTION
+    background: ANG_1_BACKGROUND.SCR
+    researchList: [STR_ANG_003]
+    timer: 6000
+    timerRandom: 33000
+#Wandering Sorceress
+  - name: STR_WASTELAND_SORCERESS
+    description: STR_WASTELAND_SORCERESS_DESCRIPTION
+    background: BLESSINGS_BACKGROUND.SCR
+    researchList: [STR_WASTELAND_SORCERESS]
+    itemList: [STR_QUARTERSTAFF, STR_MONEY_PURSE, STR_ESOTERICA, STR_MEDALLION, STR_MAGE_ROBE, STR_LINGERIE]
+    timer: 20
+    timerRandom: 43500
+#Blessings
+  - name: STR_BLESSINGS
+    description: STR_BLESSINGS_DESCRIPTION
+    background: BLESSINGS_BACKGROUND.SCR
+    researchList: [STR_WASTELAND_PRIESTESS]
+    points: 50
+    timer: 20
+    timerRandom: 43500
+#Witch of the theban desert
+  - name: STR_PSI_INITIATION_EVENT
+    description: STR_PSI_INITIATION_EVENT_DESCRIPTION
+    background: COMMANDER2_BACKGROUND.SCR
+    researchList: [STR_PSI_INITIATION]
+    timer: 20
+    timerRandom: 43500
+#Stardom
+  - name: STR_STARDOM_GIG_GOOD
+    description: STR_STARDOM_GIG_GOOD_DESCRIPTION
+    background: STARDOM_BACKGROUND.SCR
+    funds: 5000000
+    points: -1000
+    timer: 20
+    timerRandom: 43500
+#Diplomacy
+  - name: STR_DIPLOMACY
+    description: STR_DIPLOMACY_DESCRIPTION
+    background: CAPTAINS_OFFICE_BACKGROUND.SCR
+    points: 500
+    timer: 20
+    timerRandom: 43500
+#Charming
+  - name: STR_CHARMY
+    description: STR_CHARMY_DESCRIPTION
+    background: COURT_BACKGROUND.SCR
+    funds: 150000
+    timer: 20
+    timerRandom: 43500
+#Plotting
+  - name: STR_PLOTTING
+    description: STR_PLOTTING_DESCRIPTION
+    background: PLOTTING_BACKGROUND.SCR
+    points: 100
+    funds: 100000
+    timer: 20
+    timerRandom: 43500
+#Morale Bustin'
+  - name: STR_MORALE_BUSTING_SPEECH
+    description: STR_MORALE_BUSTING_SPEECH_DESCRIPTION
+    background: RAID_BACKGROUND.SCR
+    points: -50
+    timer: 20
+    timerRandom: 43500
+#Morale Boostin'
+  - name: STR_MORALE_BOOSTING_SPEECH
+    description: STR_MORALE_BOOSTING_SPEECH_DESCRIPTION
+    background: COMMANDER_BACKGROUND.SCR
+    points: 100
+    timer: 20
+    timerRandom: 43500
+#Sneaky Ninjas
+  - name: STR_SNEAKY_NINJAS
+    description: STR_SNEAKY_NINJAS_DESCRIPTION
+    background: NINJA2_BACKGROUND.SCR
+    points: -1000
+    timer: 20
+    timerRandom: 43500
+#Letters from Gods
+  - name: STR_LFS_001
+    description: STR_LFS_DESCRIPTION
+    background: SAKURA_BACKGROUND.SCR
+    researchList: [STR_LFS_001]
+    points: 50
+    timer: 20
+    timerRandom: 43500
+  - name: STR_LFS_002
+    description: STR_LFS_DESCRIPTION
+    background: SAKURA_BACKGROUND.SCR
+    researchList: [STR_LFS_002]
+    points: 50
+    timer: 20
+    timerRandom: 43500
+  - name: STR_LFS_003
+    description: STR_LFS_DESCRIPTION
+    background: SAKURA_BACKGROUND.SCR
+    researchList: [STR_LFS_003]
+    points: 50
+    timer: 20
+    timerRandom: 43500
+  - name: STR_NEC_001
+    description: STR_NEC_DESCRIPTION
+    background: DUNGEON_BACKGROUND.SCR
+    researchList: [STR_NEC_001]
+    points: 50
+    timer: 20
+    timerRandom: 43500
+  - name: STR_DES_001
+    description: STR_DES_DESCRIPTION
+    background: WARTECH.SCR
+    researchList: [STR_DES_001]
+    points: 50
+    timer: 20
+    timerRandom: 43500
+#Good score
+  - name: STR_GOODSCORE_EXPECTATIONS
+    description: STR_GOODSCORE_EXPECTATIONS_DESCRIPTION
+    background: COURT_BACKGROUND.SCR
+    points: -2500
+    timer: 500
+    timerRandom: 5000
+  - name: STR_GOODSCORE_STRIKE
+    description: STR_GOODSCORE_STRIKE_DESCRIPTION
+    background: BACK05.SCR
+    funds: -500000
+    timer: 500
+    timerRandom: 5000
+  - name: STR_GOODSCORE_LAZY
+    description: STR_GOODSCORE_LAZY_DESCRIPTION
+    background: SEXY1_BACKGROUND.SCR
+    points: 250
+    funds: -20000
+    timer: 500
+    timerRandom: 5000
+  - name: STR_GOODSCORE_PARTY
+    description: STR_GOODSCORE_PARTY_DESCRIPTION
+    background: GOODTIME_BACKGROUND.SCR
+    points: 500
+    funds: -5000
+    timer: 500
+    timerRandom: 5000
+  - name: STR_GOODSCORE_SUPPLIES
+    description: STR_GOODSCORE_SUPPLIES_DESCRIPTION
+    background: CONVOY_BACKGROUND.SCR
+    funds: 750000
+    timer: 500
+    timerRandom: 5000
+#OKscore
+  - name: STR_OKSCORE_BRAWL
+    description: STR_OKSCORE_BRAWL_DESCRIPTION
+    background: WRESTLING_BACKGROUND.SCR
+    points: 300
+    timer: 500
+    timerRandom: 5000
+  - name: STR_OKSCORE_IMPROVEMENTS
+    description: STR_OKSCORE_IMPROVEMENTS_DESCRIPTION
+    background: BACK17.SCR
+    funds: 100000
+    timer: 500
+    timerRandom: 5000
+  - name: STR_OKSCORE_BOX
+    description: STR_OKSCORE_BOX_DESCRIPTION
+    background: SOLITUDE_BACKGROUND.SCR
+    itemList: [STR_LOOTBOX_OLD_EARTH_WEAPONS]
+    timer: 500
+    timerRandom: 5000
+  - name: STR_OKSCORE_DRUNK
+    description: STR_OKSCORE_DRUNK_DESCRIPTION
+    background: RITSUKO2_BACKGROUND.SCR
+    points: -25
+    timer: 500
+    timerRandom: 5000
+  - name: STR_OKSCORE_TOY
+    description: STR_OKSCORE_TOY_DESCRIPTION
+    background: GANGSTA_STYLE_BACKGROUND.SCR
+    funds: -75000
+    timer: 500
+    timerRandom: 5000
+  - name: STR_OKSCORE_EXPLOSION
+    description: STR_OKSCORE_EXPLOSION_DESCRIPTION
+    background: EXPLOSION_BACKGROUND.SCR
+    funds: -200000
+    timer: 500
+    timerRandom: 5000
+#Normalscore
+  - name: STR_NORMALSCORE_TIPS
+    description: STR_NORMALSCORE_TIPS_DESCRIPTION
+    background: RITSUKO3_BACKGROUND.SCR
+    researchList: [STR_PINUP_002, STR_PINUP_003, STR_PINUP_005, STR_PINUP_006, STR_PINUP_007, STR_PINUP_009, STR_PINUP_010, STR_PINUP_011, STR_PINUP_015, STR_PINUP_016, STR_PINUP_018, STR_PINUP_019, STR_PINUP_021, STR_PINUP_024, STR_PINUP_029, STR_PINUP_030, STR_PINUP_031, STR_PINUP_032, STR_PINUP_033, STR_PINUP_037, STR_PINUP_042, STR_PINUP_043, STR_PINUP_045, STR_PINUP_054, STR_PINUP_055, STR_PINUP_056, STR_PINUP_057, STR_PINUP_059, STR_PINUP_062, STR_PINUP_063, STR_PINUP_065, STR_PINUP_066, STR_PINUP_067, STR_PINUP_071, STR_PINUP_072, STR_PINUP_074, STR_PINUP_076, STR_PINUP_078, STR_PINUP_079, STR_PINUP_080, STR_PINUP_085, STR_PINUP_087, STR_PINUP_090, STR_PINUP_093, STR_PINUP_094, STR_PINUP_098, STR_PINUP_100, STR_PINUP_103, STR_PINUP_107, STR_PINUP_109, STR_PINUP_113, STR_PINUP_114, STR_PINUP_115, STR_PINUP_122, STR_PINUP_125]
+    timer: 500
+    timerRandom: 5000
+  - name: STR_NORMALSCORE_SPEECH
+    description: STR_NORMALSCORE_SPEECH_DESCRIPTION
+    background: COMMANDER_BACKGROUND.SCR
+    points: 100
+    timer: 500
+    timerRandom: 5000
+  - name: STR_NORMALSCORE_JUNK_PILES
+    description: STR_NORMALSCORE_JUNK_PILES_DESCRIPTION
+    background: BACK17.SCR
+    funds: -10000
+    itemList: [STR_JUNK_PILE, STR_JUNK_PILE, STR_JUNK_PILE, STR_JUNK_PILE, STR_JUNK_PILE]
+    timer: 500
+    timerRandom: 5000
+  - name: STR_NORMALSCORE_STAGNATION
+    description: STR_NORMALSCORE_STAGNATION_DESCRIPTION
+    background: TIRED_BACKGROUND.SCR
+    points: -25
+    timer: 500
+    timerRandom: 5000
+  - name: STR_NORMALSCORE_ROBBERY
+    description: STR_NORMALSCORE_ROBBERY_DESCRIPTION
+    background: STAKEOUT_BACKGROUND.SCR
+    points: -50
+    funds: 25000
+    timer: 500
+    timerRandom: 5000
+  - name: STR_NORMALSCORE_DRINKING
+    description: STR_NORMALSCORE_DRINKING_DESCRIPTION
+    background: CAPTAINS_OFFICE_BACKGROUND.SCR
+    funds: -50000
+    itemList: [STR_PORN]
+    timerRandom: 5000
+  - name: STR_NORMALSCORE_BRAWL
+    description: STR_NORMALSCORE_BRAWL_DESCRIPTION
+    background: PRISONFIGHT_BACKGROUND.SCR
+    points: -100
+    timer: 500
+    timerRandom: 5000
+  - name: STR_NORMALSCORE_PILL
+    description: STR_NORMALSCORE_PILL_DESCRIPTION
+    background: PRISON_BACKGROUND.SCR
+    points: -250
+    itemList: [STR_PORN, STR_PORN, STR_PORN]
+    timer: 500
+    timerRandom: 5000
+#Lowscore
+  - name: STR_LOWSCORE_BADENDO
+    description: STR_LOWSCORE_BADENDO_DESCRIPTION
+    background: OVERBOARD_BACKGROUND.SCR
+    points: -500
+    timer: 500
+    timerRandom: 5000
+  - name: STR_LOWSCORE_MEHENDO
+    description: STR_LOWSCORE_MEHENDO_DESCRIPTION
+    background: STALKER_2_BACKGROUND.SCR
+    points: -200
+    timer: 500
+    timerRandom: 5000
+  - name: STR_LOWSCORE_AVERTED
+    description: STR_LOWSCORE_AVERTED_DESCRIPTION
+    background: CAPTAINS_OFFICE_BACKGROUND.SCR
+    funds: -100000
+    timer: 500
+    timerRandom: 5000
+  - name: STR_LOWSCORE_OKENDO
+    description: STR_LOWSCORE_OKENDO_DESCRIPTION
+    background: COURT_BACKGROUND.SCR
+    funds: 50000
+    timer: 500
+    timerRandom: 5000
+  - name: STR_LOWSCORE_GOODENDO
+    description: STR_LOWSCORE_GOODENDO_DESCRIPTION
+    background: RAID_BACKGROUND.SCR
+    points: 200
+    timer: 500
+    timerRandom: 5000
+# Street Fighting
+  - name: STR_STREET_FIGHTING
+    description: STR_STREET_FIGHTING_DESCRIPTION
+    background: STREETFIGHTING_BACKGROUND.SCR
+    funds: 5000
+    points: 75
+    timer: 20
+    timerRandom: 43500
+# Desperate Smuggler
+  - name: STR_DESPERATE_SMUGGLER_LOOTBOX_STOLEN
+    description: STR_DESPERATE_SMUGGLER_LOOTBOX_STOLEN_DESCRIPTION
+    background: BACK13.SCR
+    funds: 2000
+    points: -20
+    timer: 20
+    timerRandom: 43500
+  - name: STR_DESPERATE_SMUGGLER_LOOTBOX_BOUGHT
+    description: STR_DESPERATE_SMUGGLER_LOOTBOX_BOUGHT_DESCRIPTION
+    background: BACK13.SCR
+    itemList: [STR_LOOTBOX_SMUGGLER]
+    funds: -65000
+    timer: 20
+    timerRandom: 43500
+  - name: STR_DESPERATE_SMUGGLER_MYSTERYBOX_BOUGHT
+    description: STR_DESPERATE_SMUGGLER_MYSTERYBOX_BOUGHT_DESCRIPTION
+    background: BACK13.SCR
+    itemList: [STR_MYSTERY_BOX]
+    funds: -65000
+    timer: 20
+    timerRandom: 43500
+# Plague
+  - name: STR_PLAGUE_SLIME_INFESTATION
+    description: STR_PLAGUE_SLIME_INFESTATION_DESCRIPTION
+    background: SLIME_INFESTATION_BACKGROUND.SCR
+    itemList: [STR_SLIME_INFESTATION]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_PLAGUE_JIM
+    description: STR_PLAGUE_JIM_DESCRIPTION
+    background: JIM_BACKGROUND.SCR
+    itemList: [STR_JIM_HAPPY]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_PLAGUE_SDD
+    description: STR_PLAGUE_SDD_DESCRIPTION
+    background: WARTECH.SCR
+    itemList: [STR_SDD]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_PLAGUE_POLTERGEIST
+    description: STR_PLAGUE_POLTERGEIST_DESCRIPTION
+    background: TECHNICAL_BACKGROUND.SCR
+    itemList: [STR_POLTERGEIST]
+    timer: 20
+    timerRandom: 43500
+# Extreme Weather
+  - name: STR_EXTREME_WEATHER_GOOD
+    description: STR_EXTREME_WEATHER_GOOD_DESCRIPTION
+    background: STORM_BACKGROUND.SCR
+    points: 200
+    funds: -5000
+    timer: 20
+    timerRandom: 43500
+  - name: STR_EXTREME_WEATHER_EVIL
+    description: STR_EXTREME_WEATHER_EVIL_DESCRIPTION
+    background: STORM_BACKGROUND.SCR
+    points: -15
+    funds: 20000
+    timer: 20
+    timerRandom: 43500
+# Lord Tauron
+  - name: STR_LORD_TAURON_CUTS_CABLES
+    description: STR_LORD_TAURON_CUTS_CABLES_DESCRIPTION
+    background: TAURON_BACKGROUND.SCR
+    points: -25
+    funds: -200000
+    timer: 20
+    timerRandom: 43500
+# Brazen Bard
+  - name: STR_BRAZEN_BARD_FLATTERING_SONG
+    description: STR_BRAZEN_BARD_FLATTERING_SONG_DESCRIPTION
+    background: BARD_BACKGROUND.SCR
+    points: 100
+    timer: 20
+    timerRandom: 43500
+  - name: STR_BRAZEN_BARD_UNFLATTERING_SONG
+    description: STR_BRAZEN_BARD_UNFLATTERING_SONG_DESCRIPTION
+    background: BARD_BACKGROUND.SCR
+    points: -100
+    timer: 20
+    timerRandom: 43500
+  - name: STR_BRAZEN_BARD_FORGETTABLE_SONG
+    description: STR_BRAZEN_BARD_FORGETTABLE_SONG_DESCRIPTION
+    background: BARD_BACKGROUND.SCR
+    timer: 20
+    timerRandom: 43500
+  - name: STR_BRAZEN_BARD_COPYRIGHTED_SONG
+    description: STR_BRAZEN_BARD_COPYRIGHTED_SONG_DESCRIPTION
+    background: BARD_BACKGROUND.SCR
+    points: -1
+    funds: 500
+    timer: 20
+    timerRandom: 43500
+# Knock Knock
+  - name: STR_KNOCK_KNOCK_WILLING_SLAVE
+    description: STR_KNOCK_KNOCK_WILLING_SLAVE_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    itemList: [STR_SLAVE]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_ARTISANS
+    description: STR_KNOCK_KNOCK_ARTISANS_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    funds: 50000
+    itemList: [STR_WORKER, STR_WORKER, STR_WORKER, STR_WORKER, STR_WORKER]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_SUICIDER_BOMBER
+    description: STR_KNOCK_KNOCK_SUICIDER_BOMBER_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    funds: 250
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_YOUNG_UBER
+    description: STR_KNOCK_KNOCK_YOUNG_UBER_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    itemList: [CIVILIAN_YOUNG_UBER]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_GNOME_MAD
+    description: STR_KNOCK_KNOCK_GNOME_MAD_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    itemList: [STR_GNOME_MAD]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_WANDERER
+    description: STR_KNOCK_KNOCK_WANDERER_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    itemList: [STR_WANDERER_VICTIM]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_CASTAWAYS
+    description: STR_KNOCK_KNOCK_CASTAWAYS_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    itemList: [STR_SISTER_VICTIM, STR_SISTER_VICTIM]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_BRAD_AND_JANET
+    description: STR_KNOCK_KNOCK_BRAD_AND_JANET_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    itemList: [STR_HUMAN_SHARP_GUY, STR_HUMAN_SHARP_GIRL, STR_UFO_POWER_SOURCE_SMALL]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_FREAK
+    description: STR_KNOCK_KNOCK_FREAK_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    itemList: [STR_FREAK_GAL]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_STUDENT
+    description: STR_KNOCK_KNOCK_STUDENT_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    itemList: [STR_ACADEMY_STUDENT]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_JESTERS
+    description: STR_KNOCK_KNOCK_JESTERS_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    points: 100
+    funds: -500
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_HUNTER
+    description: STR_KNOCK_KNOCK_HUNTER_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    itemList: [STR_LUXURY_FUR, STR_LUXURY_FUR, STR_LUXURY_FUR]
+    funds: -50000
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_ALCHEMIST
+    description: STR_KNOCK_KNOCK_ALCHEMIST_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    itemList: [STR_HEALING_GEL, STR_HEALING_GEL, STR_HEALING_GEL, STR_HEALING_GEL, STR_HEALING_GEL]
+    funds: 15000
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_PENITENT
+    description: STR_KNOCK_KNOCK_PENITENT_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    itemList: [STR_HERO]
+    researchList: [STR_HERO]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_PROTESTERS
+    description: STR_KNOCK_KNOCK_PROTESTERS_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    points: 50
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_ARTIFICIER
+    description: STR_KNOCK_KNOCK_ARTIFICIER_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    itemList: [STR_ROBO_PARROT]
+    funds: -75000
+    points: -25
+    timer: 20
+    timerRandom: 43500
+  - name: STR_KNOCK_KNOCK_GIFTMASTERS
+    description: STR_KNOCK_KNOCK_GIFTMASTERS_DESCRIPTION
+    background: DOOR_BACKGROUND.SCR
+    itemList: [STR_MYSTERY_BOX]
+    timer: 20
+    timerRandom: 43500
+# A Party to Remember
+  - name: STR_A_PARTY_TO_REMEMBER_PHOTOS
+    description: STR_A_PARTY_TO_REMEMBER_PHOTOS_DESCRIPTION
+    background: SEXY2_BACKGROUND.SCR
+    itemList: [STR_PORN, STR_PORN, STR_PORN]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_A_PARTY_TO_REMEMBER_BRAWL
+    description: STR_A_PARTY_TO_REMEMBER_BRAWL_DESCRIPTION
+    background: SEXY2_BACKGROUND.SCR
+    funds: -1000
+    timer: 20
+    timerRandom: 43500
+  - name: STR_A_PARTY_TO_REMEMBER_LEGENDARY
+    description: STR_A_PARTY_TO_REMEMBER_LEGENDARY_DESCRIPTION
+    background: SEXY2_BACKGROUND.SCR
+    points: 100
+    timer: 20
+    timerRandom: 43500
+  - name: STR_A_PARTY_TO_REMEMBER_AGENT
+    description: STR_A_PARTY_TO_REMEMBER_AGENT_DESCRIPTION
+    background: SEXY2_BACKGROUND.SCR
+    itemList: [STR_GOVT_AGENT]
+    points: 100
+    timer: 20
+    timerRandom: 43500
+# Secret Door
+  - name: STR_SECRET_DOOR_JUNK
+    description: STR_SECRET_DOOR_JUNK_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    itemList: [STR_JUNK_PILE, STR_JUNK_PILE, STR_JUNK_PILE, STR_JUNK_PILE, STR_JUNK_PILE, STR_JUNK_PILE, STR_JUNK_PILE, STR_JUNK_PILE, STR_JUNK_PILE, STR_JUNK_PILE]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_SECRET_DOOR_MEDICAL_SUPPLIES
+    description: STR_SECRET_DOOR_MEDICAL_SUPPLIES_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    itemList: [STR_MEDICAL_SUPPLIES, STR_MEDICAL_SUPPLIES, STR_MEDICAL_SUPPLIES, STR_MEDICAL_SUPPLIES, STR_MEDICAL_SUPPLIES, STR_MEDICAL_SUPPLIES, STR_MEDICAL_SUPPLIES, STR_MEDICAL_SUPPLIES, STR_MEDICAL_SUPPLIES, STR_MEDICAL_SUPPLIES]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_SECRET_DOOR_AIR_MISSILES
+    description: STR_SECRET_DOOR_AIR_MISSILES_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    itemList: [STR_SIDEWINDER_MISSILES, STR_SIDEWINDER_MISSILES, STR_SIDEWINDER_MISSILES, STR_SIDEWINDER_MISSILES, STR_SIDEWINDER_MISSILES, STR_SIDEWINDER_MISSILES, STR_SIDEWINDER_MISSILES, STR_SIDEWINDER_MISSILES, STR_SIDEWINDER_MISSILES, STR_SIDEWINDER_MISSILES]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_SECRET_DOOR_AIR_CANNON
+    description: STR_SECRET_DOOR_AIR_CANNON_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    itemList: [STR_MED_CANNON_PARTS, STR_MED_CANNON_PARTS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_MED_CANNON_SHELLS, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL, STR_SCRAP_METAL]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_SECRET_DOOR_OLD_EARTH_WEAPON
+    description: STR_SECRET_DOOR_OLD_EARTH_WEAPON_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    itemList: [STR_LOOTBOX_OLD_EARTH_WEAPONS, STR_LOOTBOX_OLD_EARTH_WEAPONS, STR_LOOTBOX_OLD_EARTH_WEAPONS, STR_LOOTBOX_OLD_EARTH_WEAPONS]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_SECRET_DOOR_MEGASCORPION_NEST
+    description: STR_SECRET_DOOR_MEGASCORPION_NEST_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    itemList: [STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE, STR_LOBSTERMAN_HIDE]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_SECRET_DOOR_OLD_ARCHIVE
+    description: STR_SECRET_DOOR_OLD_ARCHIVE_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    itemList: [STR_OLD_BOOKS, STR_DOLLAR_BRIEFCASE, STR_DOLLAR_BRIEFCASE, STR_DOLLAR_BRIEFCASE, STR_DOLLAR_BRIEFCASE, STR_DOLLAR_BRIEFCASE]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_SECRET_DOOR_BOOBY_TRAP
+    description: STR_SECRET_DOOR_BOOBY_TRAP_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    funds: -10000
+    timer: 20
+    timerRandom: 43500
+  - name: STR_SECRET_DOOR_EMPTY
+    description: STR_SECRET_DOOR_EMPTY_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    itemList: [STR_ALIEN_ALLOYS, STR_ALIEN_ALLOYS, STR_ALIEN_ALLOYS, STR_ALIEN_ALLOYS]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_SECRET_DOOR_CYBERKNIGHT
+    description: STR_SECRET_DOOR_CYBERKNIGHT_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    itemList: [STR_PBA_CORPSE, STR_GLADIUS, STR_PIR_PLASMA_PISTOL]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_SECRET_DOOR_OLD_BOOTS
+    description: STR_SECRET_DOOR_OLD_BOOTS_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    itemList: [STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT, STR_BOOT]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_SECRET_DOOR_BOTTOMLESS_PIT
+    description: STR_SECRET_DOOR_BOTTOMLESS_PIT_DESCRIPTION
+    background: VAULT_BACKGROUND.SCR
+    points: -100
+    timer: 20
+    timerRandom: 43500
+# Mad Scribblings
+  - name: STR_MAD_SCRIBBLINGS
+    description: STR_MAD_SCRIBBLINGS_DESCRIPTION
+    background: RITSUKO_BACKGROUND.SCR
+    itemList: [STR_MAD_SCRIBBLINGS]
+    timer: 20
+    timerRandom: 43500
+# Voodoo Scare
+  - name: STR_VOODOO_SCARE
+    description: STR_VOODOO_SCARE_DESCRIPTION
+    background: SACRIFICES_BACKGROUND.SCR
+    points: -75
+    timer: 20
+    timerRandom: 43500
+# Sonic Boom
+  - name: STR_SONIC_BOOM
+    description: STR_SONIC_BOOM_DESCRIPTION
+    background: BACK12.SCR
+    funds: -10000
+    timer: 20
+    timerRandom: 43500
+# Sacrifices
+  - name: STR_SACRIFICES
+    description: STR_SACRIFICES_DESCRIPTION
+    background: CORN_BACKGROUND.SCR
+    itemList: [STR_POTATO_SACK, STR_POTATO_SACK, STR_POTATO_SACK, STR_POTATO_SACK, STR_POTATO_SACK, STR_LEEK_SACK, STR_LEEK_SACK, STR_LEEK_SACK, STR_LEEK_SACK, STR_LEEK_SACK, STR_UBER_WHEAT_SACK, STR_UBER_WHEAT_SACK, STR_UBER_WHEAT_SACK, STR_UBER_WHEAT_SACK, STR_UBER_WHEAT_SACK, STR_CABBAGE_SACK, STR_CABBAGE_SACK, STR_ORANGE, STR_ORANGE, STR_ORANGE, STR_ORANGE, STR_ORANGE, STR_ORANGE, STR_ORANGE, STR_ORANGE, STR_ORANGE, STR_ORANGE, STR_MUTANT_EGG, STR_MUTANT_EGG, STR_MUTANT_EGG, STR_MUTANT_EGG, STR_MUTANT_EGG]
+    timer: 1000
+    timerRandom: 3000
+# Redundancy
+  - name: STR_REDUNDANCY
+    description: STR_REDUNDANCY_DESCRIPTION
+    background: RITSUKO_BACKGROUND.SCR
+    itemList: [STR_CONSUMER_GOODS]
+    timer: 20
+    timerRandom: 43500
+# Operation Broken Wagon
+  - name: STR_OPERATION_BROKEN_WAGON
+    description: STR_OPERATION_BROKEN_WAGON_DESCRIPTION
+    background: VILLAGE_VACATION_BACKGROUND.SCR
+    funds: -10
+    points: 10
+    timer: 20
+    timerRandom: 43500
+# Election Meddling
+  - name: STR_ELECTION_MEDDLING_SHADOWY
+    description: STR_ELECTION_MEDDLING_SHADOWY_DESCRIPTION
+    background: DEMOCRACY_BACKGROUND.SCR
+    funds: 50000
+    timer: 20
+    timerRandom: 43500
+  - name: STR_ELECTION_MEDDLING_UNSUCCESSFUL
+    description: STR_ELECTION_MEDDLING_UNSUCCESSFUL_DESCRIPTION
+    background: DEMOCRACY_BACKGROUND.SCR
+    funds: -50000
+    timer: 20
+    timerRandom: 43500
+  - name: STR_ELECTION_MEDDLING_SUCCESSFUL
+    description: STR_ELECTION_MEDDLING_SUCCESSFUL_DESCRIPTION
+    background: DEMOCRACY_BACKGROUND.SCR
+    funds: -50000
+    points: 250
+    timer: 20
+    timerRandom: 43500
+
+eventScripts:
+####################test script
+#  - type: STR_TEST_EVENT
+#    eventWeights:
+#      0:
+#        STR_ANG_EVENT_CONTACT: 100
+#    firstMonth: 0
+#    executionOdds: 100
+#####################################
+  - type: STR_RITSUKO_DRINKING
+    eventWeights:
+      0:
+        STR_RITSUKO_DRINKING_DEFAULT: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_SCI_REP: true
+       STR_GROG_BARREL: true
+    maxScore: 8000
+    executionOdds: 33
+  - type: STR_DATING_SAYA
+    eventWeights:
+      0:
+        STR_DATING_SAYA: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_DATING_SAYA: true
+    minScore: 5000
+    executionOdds: 37
+  - type: STR_SAYA_VS_GDX
+    eventWeights:
+      0:
+        STR_SAYA_VS_GDX: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_BOUNTY_HUNTING_PRIZE_SAYA: true
+    itemTriggers:
+       STR_DOCTOR_X_A40: true
+    executionOdds: 27
+  - type: STR_GDX_EVENT_MILKING_1
+    eventWeights:
+      0:
+        STR_GDX_EVENT_MILKING: 100
+    firstMonth: 0
+    itemTriggers:
+       STR_SLAVE_X: true
+    executionOdds: 100
+  - type: STR_GDX_EVENT_ROMANCE_1
+    eventWeights:
+      0:
+        STR_GDX_EVENT_ROMANCE_GIFTS: 100
+        STR_GDX_EVENT_ROMANCE_DISK: 100
+        STR_GDX_EVENT_ROMANCE_RATS: 100
+        STR_GDX_EVENT_ROMANCE_BOOK: 100
+        STR_GDX_EVENT_ROMANCE_TOMATOES: 100
+        STR_GDX_EVENT_ROMANCE_QUIPS: 100
+        STR_GDX_EVENT_ROMANCE_SLUT: 100
+    firstMonth: 0
+    itemTriggers:
+       STR_DOCTOR_X_A40: true
+    executionOdds: 27
+  - type: STR_GDX_EVENT_ROMANCE_2
+    eventWeights:
+      0:
+        STR_GDX_EVENT_ROMANCE_GIFTS: 100
+        STR_GDX_EVENT_ROMANCE_DISK: 100
+        STR_GDX_EVENT_ROMANCE_RATS: 100
+        STR_GDX_EVENT_ROMANCE_BOOK: 100
+        STR_GDX_EVENT_ROMANCE_TOMATOES: 100
+        STR_GDX_EVENT_ROMANCE_QUIPS: 100
+        STR_GDX_EVENT_ROMANCE_SLUT: 100
+    firstMonth: 0
+    itemTriggers:
+       STR_DOCTOR_X_A40: true
+    executionOdds: 27
+  - type: STR_GDX_EVENT_ROMANCE_3
+    eventWeights:
+      0:
+        STR_GDX_EVENT_ROMANCE_GIFTS: 100
+        STR_GDX_EVENT_ROMANCE_DISK: 100
+        STR_GDX_EVENT_ROMANCE_RATS: 100
+        STR_GDX_EVENT_ROMANCE_BOOK: 100
+        STR_GDX_EVENT_ROMANCE_TOMATOES: 100
+        STR_GDX_EVENT_ROMANCE_QUIPS: 100
+        STR_GDX_EVENT_ROMANCE_SLUT: 100
+    firstMonth: 0
+    itemTriggers:
+       STR_DOCTOR_X_A40: true
+    executionOdds: 27
+  - type: STR_GDX_EVENT_VAMPIRE_1
+    eventWeights:
+      0:
+        STR_GDX_EVENT_VAMPIRE_KISS: 100
+    firstMonth: 0
+    itemTriggers:
+       STR_DOCTOR_X_VAMPIRE: true
+    executionOdds: 17
+  - type: STR_GDX_EVENT_VAMPIRE_2
+    eventWeights:
+      0:
+        STR_GDX_EVENT_VAMPIRE_KISS: 100
+    firstMonth: 0
+    itemTriggers:
+       STR_DOCTOR_X_VAMPIRE: true
+    executionOdds: 17
+  - type: STR_GDX_EVENT_VAMPIRE_3
+    eventWeights:
+      0:
+        STR_GDX_EVENT_VAMPIRE_KISS: 100
+    firstMonth: 0
+    itemTriggers:
+       STR_DOCTOR_X_VAMPIRE: true
+    executionOdds: 17
+  - type: STR_ANG_EVENT_CONTACT
+    eventWeights:
+      0:
+        STR_ANG_EVENT_CONTACT: 100
+    firstMonth: 0
+    itemTriggers:
+       STR_ANG_003_PREQ: true
+       STR_ANG_003: false
+    executionOdds: 100
+  - type: STR_SUPERIOR_BEINGS
+    eventWeights:
+      0:
+        STR_SUPERIOR_BEINGS: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_GALS_ARE_SUPERIOR: true
+    executionOdds: 23
+  - type: STR_LOOSE_LIPS
+    eventWeights:
+      0:
+        STR_LOOSE_LIPS: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_WE_NEED_MALE_TOUCH: true
+    executionOdds: 23
+  - type: STR_INTREPID_BRAINERS
+    eventWeights:
+      0:
+        STR_INTREPID_BRAINERS: 100
+    researchTriggers:
+       STR_SISTER_VICTIM_RECRUITMENT_BRAINER: true
+    firstMonth: 0
+    executionOdds: 23
+  - type: STR_WANTED_POSTER
+    eventWeights:
+      0:
+        STR_WANTED_POSTER: 100
+    firstMonth: 0
+    maxScore: 4000
+    executionOdds: 23
+  - type: STR_SHADOW_OF_THE_COMET
+    eventWeights:
+      0:
+        STR_SHADOW_OF_THE_COMET: 100
+    firstMonth: 11
+    lastMonth: 11
+    executionOdds: 100
+  - type: STR_HIDEOUT_ON_FIRE
+    eventWeights:
+      0:
+        STR_HIDEOUT_ON_FIRE: 100
+    minDifficulty: 2
+    firstMonth: 0
+    executionOdds: 13
+  - type: STR_FUNGUS_OUTBREAK_1
+    eventWeights:
+      0:
+        STR_FUNGUS_OUTBREAK: 100
+    minDifficulty: 3
+    firstMonth: 3
+    executionOdds: 13
+  - type: STR_FUNGUS_OUTBREAK_2
+    eventWeights:
+      0:
+        STR_FUNGUS_HARVEST: 100
+    itemTriggers:
+       STR_FUNGUS_OUTBREAK: true
+    firstMonth: 3
+    executionOdds: 90
+  - type: STR_ASSASSINATION_ATTEMPT_1
+    eventWeights:
+      0:
+        STR_ASSASSINATION_ATTEMPT: 100
+      9:
+        STR_ASSASSINATION_ATTEMPT: 100
+        STR_ASSASSINATION_ATTEMPT_NINJA: 125
+    minDifficulty: 1
+    firstMonth: 0
+    executionOdds: 23
+  - type: STR_ASSASSINATION_ATTEMPT_2
+    eventWeights:
+      0:
+        STR_ASSASSINATION_ATTEMPT: 100
+    minDifficulty: 1
+    firstMonth: 3
+    executionOdds: 23
+  - type: STR_WASTELAND_SORCERESS
+    eventWeights:
+      0:
+        STR_WASTELAND_SORCERESS: 100
+    minDifficulty: 1
+    firstMonth: 5
+    researchTriggers:
+       STR_WEIRDNESS: true
+       STR_WASTELAND_SORCERESS: false
+    executionOdds: 33
+  - type: STR_BLESSINGS
+    eventWeights:
+      0:
+        STR_BLESSINGS: 100
+    minDifficulty: 1
+    firstMonth: 0
+    researchTriggers:
+       STR_WASTELAND_PRIESTESS: false
+    executionOdds: 23
+  - type: STR_PSI_INITIATION_EVENT
+    eventWeights:
+      0:
+        STR_PSI_INITIATION_EVENT: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_PSI_INITIATION_PREQ: true
+       STR_PSI_INITIATION: false
+    executionOdds: 50
+  - type: STR_STARDOM_GIG
+    eventWeights:
+      0:
+        STR_STARDOM_GIG_GOOD: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_STARDOM: true
+    executionOdds: 44
+  - type: STR_DIPLOMACY
+    eventWeights:
+      0:
+        STR_DIPLOMACY: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_DIPLOMACY: true
+    minScore: 6000
+    maxScore: 15000
+    executionOdds: 17
+  - type: STR_DIPLOMACY_GREEN
+    eventWeights:
+      0:
+        STR_DIPLOMACY: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_DIPLOMACY: true
+       STR_CODEX_GREEN: true
+    minScore: 6000
+    maxScore: 25000
+    executionOdds: 17
+  - type: STR_CHARMY
+    eventWeights:
+      0:
+        STR_CHARMY: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_PERSUASION: true
+    maxScore: 6000
+    executionOdds: 13
+  - type: STR_CHARMY_GOLD
+    eventWeights:
+      0:
+        STR_CHARMY: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_PERSUASION: true
+       STR_CODEX_GOLD: true
+    maxScore: 8000
+    executionOdds: 13
+  - type: STR_PLOTTING
+    eventWeights:
+      0:
+        STR_PLOTTING: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_PLOTTING: true
+    maxScore: 6000
+    executionOdds: 13
+  - type: STR_PLOTTING_GRAY
+    eventWeights:
+      0:
+        STR_PLOTTING: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_PLOTTING: true
+       STR_CODEX_GRAY: true
+    maxScore: 10000
+    executionOdds: 13
+  - type: STR_MORALE_BUSTING_SPEECH
+    eventWeights:
+      0:
+        STR_MORALE_BUSTING_SPEECH: 100
+    firstMonth: 0
+    executionOdds: 13
+  - type: STR_MORALE_BOOSTING_SPEECH
+    eventWeights:
+      0:
+        STR_MORALE_BOOSTING_SPEECH: 100
+    firstMonth: 0
+    maxScore: 2000
+    researchTriggers:
+       STR_PIRATE_LIFE: true
+    executionOdds: 33
+  - type: STR_MORALE_BOOSTING_SPEECH_GOLD
+    eventWeights:
+      0:
+        STR_MORALE_BOOSTING_SPEECH: 100
+    firstMonth: 0
+    maxScore: 4000
+    researchTriggers:
+       STR_PIRATE_LIFE: true
+       STR_CODEX_GOLD: true
+    executionOdds: 33
+  - type: STR_SNEAKY_NINJAS
+    eventWeights:
+      0:
+        STR_SNEAKY_NINJAS: 100
+    firstMonth: 12
+    minScore: 4000
+    executionOdds: 23
+  - type: STR_SNEAKY_NINJAS
+    eventWeights:
+      0:
+        STR_SNEAKY_NINJAS: 100
+    firstMonth: 12
+    minScore: 12000
+    executionOdds: 23
+  - type: STR_SNEAKY_NINJAS
+    eventWeights:
+      0:
+        STR_SNEAKY_NINJAS: 100
+    firstMonth: 12
+    minScore: 20000
+    executionOdds: 23
+  - type: STR_DES_001
+    eventWeights:
+      0:
+        STR_DES_001: 100
+    firstMonth: 6
+    minDifficulty: 1
+    minScore: 3000
+    researchTriggers:
+       STR_DES_001: false
+       STR_TINY_DRILL_INVESTIGATION: true
+       STR_DOOM_HUMAN_CORPSE: true
+       STR_SKULL: true
+       STR_GODS_E5: true
+       STR_GODS_SUMMARY: true
+    executionOdds: 90
+  - type: STR_NEC_001
+    eventWeights:
+      0:
+        STR_NEC_001: 100
+    firstMonth: 6
+    minDifficulty: 1
+    minScore: 3000
+    researchTriggers:
+       STR_NEC_001: false
+       STR_VOICES_OF_THE_DEAD: true
+       STR_MEDICINE: true
+       STR_GODS_E3: true
+       STR_GODS_SUMMARY: true
+       GHOST_0_ARMOR: true
+    executionOdds: 33
+  - type: STR_LFS_001
+    eventWeights:
+      0:
+        STR_LFS_001: 100
+    firstMonth: 6
+    minDifficulty: 1
+    minScore: 3000
+    researchTriggers:
+       STR_LFS_001: false
+       STR_SAT_NETWORK: true
+       STR_TINY_DRILL_INVESTIGATION: true
+    executionOdds: 66
+  - type: STR_LFS_002
+    eventWeights:
+      0:
+        STR_LFS_002: 100
+    firstMonth: 12
+    minDifficulty: 1
+    minScore: 3000
+    researchTriggers:
+       STR_LFS_002: false
+       STR_LFS_001: true
+       STR_GODS_E2: true
+       STR_OPTRONICS: true
+       STR_CUISINE: true
+       STR_DARK_STAR: true
+       STR_CLOAKING_DEVICE_INVESTIGATION: true
+    executionOdds: 50
+  - type: STR_LFS_003
+    eventWeights:
+      0:
+        STR_LFS_003: 100
+    firstMonth: 24
+    minDifficulty: 1
+    minScore: 3000
+    researchTriggers:
+       STR_LFS_003: false
+       STR_LFS_002: true
+       STR_SHADOWREALM: true
+       STR_SHADOW_DESCENT: true
+       STR_MAGITECH_SUMMARY: true
+       STR_GLAMOUR: true
+       STR_LINGERIE_SET: true
+       STR_DIPLOMACY: true
+       STR_LUXURY_SPA: true
+    executionOdds: 37
+  - type: STR_GOODSCORE
+    eventWeights:
+      0:
+        STR_GOODSCORE_SUPPLIES: 100
+        STR_GOODSCORE_PARTY: 100
+        STR_GOODSCORE_LAZY: 100
+        STR_GOODSCORE_STRIKE: 100
+        STR_GOODSCORE_EXPECTATIONS: 100
+    firstMonth: 2
+    minScore: 6000
+    executionOdds: 50
+  - type: STR_OKSCORE
+    eventWeights:
+      0:
+        STR_OKSCORE_BRAWL: 100
+        STR_OKSCORE_IMPROVEMENTS: 100
+        STR_OKSCORE_BOX: 100
+        STR_OKSCORE_DRUNK: 100
+        STR_OKSCORE_TOY: 100
+        STR_OKSCORE_EXPLOSION: 100
+    firstMonth: 1
+    minScore: 3000
+    maxScore: 5999
+    executionOdds: 67
+  - type: STR_NORMALSCORE
+    eventWeights:
+      0:
+        STR_NORMALSCORE_TIPS: 100
+        STR_NORMALSCORE_SPEECH: 100
+        STR_NORMALSCORE_JUNK_PILES: 100
+        STR_NORMALSCORE_STAGNATION: 100
+        STR_NORMALSCORE_ROBBERY: 100
+        STR_NORMALSCORE_DRINKING: 100
+        STR_NORMALSCORE_BRAWL: 100
+        STR_NORMALSCORE_PILL: 100
+    firstMonth: 1
+    minScore: 2
+    maxScore: 2999
+    executionOdds: 75
+  - type: STR_LOWSCORE
+    eventWeights:
+      0:
+        STR_LOWSCORE_BADENDO: 100
+        STR_LOWSCORE_MEHENDO: 100
+        STR_LOWSCORE_AVERTED: 100
+        STR_LOWSCORE_OKENDO: 100
+        STR_LOWSCORE_GOODENDO: 100
+    firstMonth: 2
+    maxScore: 1
+    executionOdds: 85
+  - type: STR_STREET_FIGHTING
+    eventWeights:
+      0:
+        STR_STREET_FIGHTING: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_BOUNTY_HUNTING_PRIZE_MARTIAL_ARTS: true
+    executionOdds: 13
+  - type: STR_DESPERATE_SMUGGLER
+    eventWeights:
+      0:
+        STR_DESPERATE_SMUGGLER_MYSTERYBOX_BOUGHT: 5
+        STR_DESPERATE_SMUGGLER_LOOTBOX_BOUGHT: 100
+        STR_DESPERATE_SMUGGLER_LOOTBOX_STOLEN: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_CONTACT_SMUGGLERS: true
+    executionOdds: 13
+  - type: STR_PLAGUE
+    eventWeights:
+      0:
+        STR_PLAGUE_SLIME_INFESTATION: 100
+        STR_PLAGUE_JIM: 100
+        STR_PLAGUE_SDD: 100
+        STR_PLAGUE_POLTERGEIST: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_PSI_LAB: true
+    executionOdds: 2
+  - type: STR_EXTREME_WEATHER_1
+    eventWeights:
+      0:
+        STR_EXTREME_WEATHER_EVIL: 100
+        STR_EXTREME_WEATHER_GOOD: 100
+    firstMonth: 1
+    executionOdds: 10
+  - type: STR_EXTREME_WEATHER_2
+    eventWeights:
+      0:
+        STR_EXTREME_WEATHER_EVIL: 100
+        STR_EXTREME_WEATHER_GOOD: 100
+    firstMonth: 2
+    executionOdds: 10
+  - type: STR_LORD_TAURON_CUTS_CABLES
+    eventWeights:
+      0:
+        STR_LORD_TAURON_CUTS_CABLES: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_POWER_PLANT: true
+    executionOdds: 23
+  - type: STR_BRAZEN_BARD
+    eventWeights:
+      0:
+        STR_BRAZEN_BARD_FLATTERING_SONG: 100
+        STR_BRAZEN_BARD_UNFLATTERING_SONG: 100
+        STR_BRAZEN_BARD_FORGETTABLE_SONG: 100
+        STR_BRAZEN_BARD_COPYRIGHTED_SONG: 70
+    firstMonth: 0
+    executionOdds: 23
+  - type: STR_KNOCK_KNOCK_0
+    eventWeights: &EventWeightsKnockKnock
+      0:
+        STR_KNOCK_KNOCK_WILLING_SLAVE: 10
+        STR_KNOCK_KNOCK_ARTISANS: 50
+        STR_KNOCK_KNOCK_SUICIDER_BOMBER: 50
+        STR_KNOCK_KNOCK_YOUNG_UBER: 250
+        STR_KNOCK_KNOCK_GNOME_MAD: 50
+        STR_KNOCK_KNOCK_WANDERER: 100
+        STR_KNOCK_KNOCK_CASTAWAYS: 100
+        STR_KNOCK_KNOCK_BRAD_AND_JANET: 100
+        STR_KNOCK_KNOCK_JESTERS: 100
+        STR_KNOCK_KNOCK_STUDENT: 125
+        STR_KNOCK_KNOCK_FREAK: 75
+        STR_KNOCK_KNOCK_HUNTER: 100
+        STR_KNOCK_KNOCK_ALCHEMIST: 100
+        STR_KNOCK_KNOCK_PENITENT: 50
+        STR_KNOCK_KNOCK_PROTESTERS: 50
+        STR_KNOCK_KNOCK_ARTIFICIER: 75
+        STR_KNOCK_KNOCK_GIFTMASTERS: 10
+      4:
+        STR_KNOCK_KNOCK_WILLING_SLAVE: 100
+        STR_KNOCK_KNOCK_ARTISANS: 100
+        STR_KNOCK_KNOCK_SUICIDER_BOMBER: 100
+        STR_KNOCK_KNOCK_YOUNG_UBER: 200
+        STR_KNOCK_KNOCK_GNOME_MAD: 50
+        STR_KNOCK_KNOCK_WANDERER: 100
+        STR_KNOCK_KNOCK_CASTAWAYS: 50
+        STR_KNOCK_KNOCK_BRAD_AND_JANET: 100
+        STR_KNOCK_KNOCK_JESTERS: 100
+        STR_KNOCK_KNOCK_STUDENT: 100
+        STR_KNOCK_KNOCK_FREAK: 75
+        STR_KNOCK_KNOCK_HUNTER: 100
+        STR_KNOCK_KNOCK_ALCHEMIST: 100
+        STR_KNOCK_KNOCK_PENITENT: 50
+        STR_KNOCK_KNOCK_PROTESTERS: 75
+        STR_KNOCK_KNOCK_ARTIFICIER: 50
+        STR_KNOCK_KNOCK_GIFTMASTERS: 15
+      12:
+        STR_KNOCK_KNOCK_WILLING_SLAVE: 100
+        STR_KNOCK_KNOCK_ARTISANS: 150
+        STR_KNOCK_KNOCK_SUICIDER_BOMBER: 150
+        STR_KNOCK_KNOCK_YOUNG_UBER: 150
+        STR_KNOCK_KNOCK_GNOME_MAD: 50
+        STR_KNOCK_KNOCK_WANDERER: 100
+        STR_KNOCK_KNOCK_CASTAWAYS: 10
+        STR_KNOCK_KNOCK_BRAD_AND_JANET: 75
+        STR_KNOCK_KNOCK_JESTERS: 100
+        STR_KNOCK_KNOCK_STUDENT: 75
+        STR_KNOCK_KNOCK_FREAK: 75
+        STR_KNOCK_KNOCK_HUNTER: 75
+        STR_KNOCK_KNOCK_ALCHEMIST: 100
+        STR_KNOCK_KNOCK_PENITENT: 50
+        STR_KNOCK_KNOCK_PROTESTERS: 100
+        STR_KNOCK_KNOCK_ARTIFICIER: 25
+        STR_KNOCK_KNOCK_GIFTMASTERS: 25
+    firstMonth: 0
+    executionOdds: 23
+  - type: STR_KNOCK_KNOCK_1
+    eventWeights: *EventWeightsKnockKnock
+    firstMonth: 0
+    executionOdds: 23
+  - type: STR_KNOCK_KNOCK_2
+    eventWeights: *EventWeightsKnockKnock
+    firstMonth: 0
+    executionOdds: 23
+  - type: STR_KNOCK_KNOCK_GRAY
+    eventWeights: *EventWeightsKnockKnock
+    firstMonth: 0
+    researchTriggers:
+       STR_CODEX_GRAY: true
+    executionOdds: 23
+  - type: STR_A_PARTY_TO_REMEMBER
+    eventWeights:
+      0:
+        STR_A_PARTY_TO_REMEMBER_PHOTOS: 100
+        STR_A_PARTY_TO_REMEMBER_BRAWL: 100
+        STR_A_PARTY_TO_REMEMBER_LEGENDARY: 100
+        STR_A_PARTY_TO_REMEMBER_AGENT: 100
+    firstMonth: 0
+    executionOdds: 23
+    researchTriggers:
+       STR_PARTY: true
+  - type: STR_SECRET_DOOR_VERY_EARLY
+    eventWeights:
+      0:
+        STR_SECRET_DOOR_JUNK: 100
+        STR_SECRET_DOOR_MEDICAL_SUPPLIES: 100
+        STR_SECRET_DOOR_AIR_MISSILES: 100
+        STR_SECRET_DOOR_AIR_CANNON: 100
+        STR_SECRET_DOOR_OLD_EARTH_WEAPON: 100
+        STR_SECRET_DOOR_MEGASCORPION_NEST: 100
+        STR_SECRET_DOOR_OLD_ARCHIVE: 100
+        STR_SECRET_DOOR_BOOBY_TRAP: 100
+        STR_SECRET_DOOR_EMPTY: 100
+        STR_SECRET_DOOR_CYBERKNIGHT: 100
+        STR_SECRET_DOOR_OLD_BOOTS: 100
+        STR_SECRET_DOOR_BOTTOMLESS_PIT: 100
+    firstMonth: 0
+    lastMonth: 3
+    executionOdds: 33
+  - type: STR_SECRET_DOOR_EARLY
+    eventWeights:
+      0:
+        STR_SECRET_DOOR_JUNK: 100
+        STR_SECRET_DOOR_MEDICAL_SUPPLIES: 100
+        STR_SECRET_DOOR_AIR_MISSILES: 100
+        STR_SECRET_DOOR_AIR_CANNON: 100
+        STR_SECRET_DOOR_OLD_EARTH_WEAPON: 100
+        STR_SECRET_DOOR_MEGASCORPION_NEST: 100
+        STR_SECRET_DOOR_OLD_ARCHIVE: 100
+        STR_SECRET_DOOR_BOOBY_TRAP: 100
+        STR_SECRET_DOOR_EMPTY: 100
+        STR_SECRET_DOOR_CYBERKNIGHT: 100
+        STR_SECRET_DOOR_OLD_BOOTS: 100
+        STR_SECRET_DOOR_BOTTOMLESS_PIT: 100
+    firstMonth: 4
+    lastMonth: 11
+    executionOdds: 10
+  - type: STR_SECRET_DOOR_LATE
+    eventWeights:
+      0:
+        STR_SECRET_DOOR_JUNK: 100
+        STR_SECRET_DOOR_MEDICAL_SUPPLIES: 100
+        STR_SECRET_DOOR_AIR_MISSILES: 100
+        STR_SECRET_DOOR_AIR_CANNON: 100
+        STR_SECRET_DOOR_OLD_EARTH_WEAPON: 100
+        STR_SECRET_DOOR_MEGASCORPION_NEST: 100
+        STR_SECRET_DOOR_OLD_ARCHIVE: 100
+        STR_SECRET_DOOR_BOOBY_TRAP: 100
+        STR_SECRET_DOOR_EMPTY: 100
+        STR_SECRET_DOOR_CYBERKNIGHT: 100
+        STR_SECRET_DOOR_OLD_BOOTS: 100
+        STR_SECRET_DOOR_BOTTOMLESS_PIT: 100
+    firstMonth: 12
+    executionOdds: 2
+  - type: STR_MAD_SCRIBBLINGS_1
+    eventWeights:
+      0:
+        STR_MAD_SCRIBBLINGS: 100
+    firstMonth: 0
+    executionOdds: 6
+    researchTriggers:
+       STR_CONSUMER_GOODS: true
+       STR_PERSONAL_LABS: true
+  - type: STR_MAD_SCRIBBLINGS_2
+    eventWeights:
+      0:
+        STR_MAD_SCRIBBLINGS: 100
+    firstMonth: 0
+    executionOdds: 6
+    researchTriggers:
+       STR_CONSUMER_GOODS: true
+       STR_PERSONAL_LABS: true
+  - type: STR_VOODOO_SCARE
+    eventWeights:
+      0:
+        STR_VOODOO_SCARE: 100
+    firstMonth: 0
+    executionOdds: 13
+    researchTriggers:
+       STR_PSI_LAB: true
+  - type: STR_SONIC_BOOM
+    eventWeights:
+      0:
+        STR_SONIC_BOOM: 100
+    firstMonth: 0
+    executionOdds: 13
+    researchTriggers:
+       STR_CONTACT_SHIP_JUNKYARD: true
+  - type: STR_SACRIFICES
+    eventWeights:
+      0:
+        STR_SACRIFICES: 100
+    firstMonth: 0
+    executionOdds: 75
+    researchTriggers:
+       STR_CROWNING_UC: true
+  - type: STR_REDUNDANCY
+    eventWeights:
+      0:
+        STR_REDUNDANCY: 100
+    firstMonth: 0
+    executionOdds: 7
+    researchTriggers:
+       STR_CONSUMER_GOODS: true
+       STR_PERSONAL_LABS: true
+  - type: STR_OPERATION_BROKEN_WAGON
+    eventWeights:
+      0:
+        STR_OPERATION_BROKEN_WAGON: 100
+    firstMonth: 0
+    executionOdds: 13
+  - type: STR_ELECTION_MEDDLING
+    eventWeights:
+      0:
+        STR_ELECTION_MEDDLING_SHADOWY: 100
+        STR_ELECTION_MEDDLING_UNSUCCESSFUL: 100
+        STR_ELECTION_MEDDLING_SUCCESSFUL: 100
+    firstMonth: 0
+    researchTriggers:
+       STR_JACKSTOWN_SCOUTING: true
+    executionOdds: 13

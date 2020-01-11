@@ -1,0 +1,717 @@
+enableCloseQuartersCombat: 1
+closeQuartersAccuracyGlobal: 100
+closeQuartersTuCostGlobal: 0
+closeQuartersEnergyCostGlobal: 6
+
+items:
+  - type: STR_PICKAXE
+    accuracyCloseQuarters: 60
+    closeQuartersMultiplier:
+      reactions: 0.0
+      melee: 0.5
+      flatHundred: 0.5
+  - type: STR_MANACLES
+    accuracyCloseQuarters: 60
+    closeQuartersMultiplier:
+      reactions: 0.0
+      strength: 1.0
+  - type: STR_CHAINSAW
+    accuracyCloseQuarters: 110
+    closeQuartersMultiplier:
+      reactions: 0.0
+      melee: 0.35
+      flatHundred: 0.65
+  - type: STR_CHAINSAW_LOLI
+    accuracyCloseQuarters: 120
+    closeQuartersMultiplier:
+      reactions: 0.0
+      melee: 0.35
+      flatHundred: 0.65
+  - type: STR_AUTO_AXE
+    accuracyCloseQuarters: 125
+    closeQuartersMultiplier:
+      reactions: 0.0
+      melee: 0.35
+      flatHundred: 0.65
+  - type: AUX_AUTO_AXE
+    accuracyCloseQuarters: 75
+    closeQuartersMultiplier:
+      reactions: 0.0
+      melee: 0.35
+      flatHundred: 0.65
+  - type: STR_CHAINSAW_HEAVY
+    accuracyCloseQuarters: 115
+    closeQuartersMultiplier:
+      reactions: 0.0
+      melee: 0.35
+      flatHundred: 0.65
+  - type: STR_RIPPER
+    accuracyCloseQuarters: 125
+    closeQuartersMultiplier:
+      reactions: 0.5
+      melee: 0.5
+  - type: STR_WHIP_LEATHER
+    accuracyCloseQuarters: 80
+    closeQuartersMultiplier:
+      reactions: 0.0
+      throwing: 0.5
+      melee: 0.5
+  - type: STR_WHIP
+    accuracyCloseQuarters: 80
+    closeQuartersMultiplier:
+      reactions: 0.0
+      throwing: 0.5
+      melee: 0.5
+  - type: STR_ELECTRIC_LASSO
+    accuracyCloseQuarters: 100
+    closeQuartersMultiplier:
+      reactions: 0.0
+      throwing: 0.5
+      melee: 0.5
+  - type: STR_POISONOUS_TENTACLE
+    accuracyCloseQuarters: 100
+    closeQuartersMultiplier:
+      reactions: 0.0
+      throwing: 0.5
+      melee: 0.5
+
+  - type: AUX_FISTO
+    weight: 0
+    bigSprite: 306
+    meleeHitSound: 218
+    meleeAnimation: 0
+    damageType: 6
+    meleeMultiplier:
+      melee: 0.5
+      reactions: 0.5
+    damageBonus:
+      strength: 0.5
+      melee: 0.25
+    damageAlter:
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.25
+      ToHealth: 0.3
+      IgnoreOverKill: false
+    accuracyMelee: 90
+    tuMelee: 16
+    flatRate: true
+    battleType: 3
+    fixedWeapon: true
+    recover: false
+    clipSize: -1
+    specialUseEmptyHand: true
+  - type: AUX_GHOST_FISTO
+    weight: 0
+    bigSprite: 306
+    meleeHitSound: 218
+    meleeAnimation: 0
+    damageType: 6
+    meleeMultiplier:
+      melee: 0.5
+      reactions: 0.5
+    damageBonus:
+      psiStrength: 0.4
+      strength: 0.2
+    damageAlter:
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 0.2
+      ToHealth: 0.1
+      IgnoreOverKill: false
+    accuracyMelee: 120
+    tuMelee: 16
+    flatRate: true
+    battleType: 3
+    fixedWeapon: true
+    recover: false
+    clipSize: -1
+    specialUseEmptyHand: true
+  - type: AUX_WARP_CLAWS
+    weight: 0
+    bigSprite: 3216
+    meleeHitSound: 75
+    meleeAnimation: 24
+    power: 10
+    damageType: 14
+    meleeMultiplier:
+      melee: 0.5
+      reactions: 0.5
+    damageBonus:
+      strength: 0.7
+    damageAlter:
+      IgnoreOverKill: false
+      ToArmorPre: 0.25
+      SmokeThreshold: 36
+    accuracyMelee: 100
+    costMelee:
+      time: 13
+      energy: 15
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    specialUseEmptyHand: true
+    invWidth: 2
+    invHeight: 2
+    experienceTrainingMode: 13
+    fixedWeapon: true
+    recover: false
+  - type: AUX_SAINT_FISTO
+    weight: 0
+    bigSprite: 3137
+    floorSprite: 31
+    battleType: 10
+    power: 20
+#Melee segment
+    confMelee:
+      name: STR_PUNCH
+    meleeHitSound: 218
+    meleeAnimation: 0
+    meleeType: 6
+    meleePower: 0
+    meleeBonus:
+      psiStrength: 0.35
+      strength: 0.35
+    meleeAlter:
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.0
+      ToArmorPre: 0.1
+      ToHealth: 0.15
+      IgnoreOverKill: false
+      IgnorePainImmunity: true
+    accuracyMelee: 100
+    meleeMultiplier:
+      melee: 0.5
+      reactions: 0.5
+    costMelee:
+      time: 12
+      energy: 2
+    flatMelee:
+      time: true
+#segment end	  
+    invWidth: 2
+    invHeight: 2
+    experienceTrainingMode: 13
+    fixedWeapon: true
+    recover: false
+    clipSize: -1
+  - type: AUX_FLAMING_FISTO
+    weight: 0
+    bigSprite: 1107
+    bulletSprite: 25
+    hitAnimation: 168
+    fireSound: 224
+    explosionHitSound: 106
+    accuracySnap: 30
+    accuracyCloseQuarters: 110
+    accuracyMultiplier:
+      melee: 0.5
+      bravery: 0.5
+    costSnap:
+      time: 28
+      energy: 24
+    arcingShot: true
+    maxRange: 8
+    bulletSpeed: 80
+    kneelBonus: 110
+    battleType: 1
+    confSnap:
+      name: STR_BURST
+      shots: 6
+    damageType: 2
+    power: 20
+    damageAlter:
+      RandomType: 2
+      FireBlastCalc: false 
+      IgnoreSelfDestruct: false
+      FixRadius: 1
+      ToMorale: 25.0
+      ToTime: 1.0
+      ToItem: 2.0
+#Melee segment
+    confMelee:
+      name: STR_PUNCH
+    meleeHitSound: 79
+    meleeAnimation: 0
+    meleeType: 6
+    meleePower: 10
+    meleeBonus:
+      bravery: 0.3
+      strength: 0.5
+      melee: 0.2
+    meleeAlter:
+      RandomType: 2
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.0
+      ToHealth: 0.35
+    accuracyMelee: 100
+    meleeMultiplier:
+      melee: 1.0
+    costMelee:
+      time: 12
+      energy: 4
+    flatMelee:
+      time: true
+#segment end	  
+    experienceTrainingMode: 13
+    invWidth: 2
+    invHeight: 2
+    fixedWeapon: true
+    recover: false
+    specialUseEmptyHand: true
+    clipSize: -1
+  - type: STR_KUNG_FU_ALT
+    weight: 0
+    bigSprite: 1180
+    meleeHitSound: 218
+    meleeAnimation: 0
+    power: 0
+    damageType: 6
+    damageBonus:
+      strength: 0.2
+      reactions: 0.2
+      melee: 0.3
+    damageAlter:
+      RandomType: 6
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.25
+      ToTime: 2.5
+      ToHealth: 0.3
+    accuracyMelee: 125
+    meleeMultiplier:
+      melee: 0.5
+      reactions: 0.5
+    confMelee:
+      name: STR_PUNCH
+    costMelee:
+      time: 16
+      energy: 2
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    invWidth: 2
+    invHeight: 2
+    fixedWeapon: true
+    recover: false
+    specialUseEmptyHand: true
+  - type: AUX_SHOCKAFIST
+    weight: 3
+    bigSprite: 209
+    meleeHitSound: 19
+    meleeAnimation: 20
+    power: 30
+    damageBonus:
+      strength: 0.4
+      melee: 0.1
+    damageType: 12
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 0.5
+      ToArmor: 0.0
+      ToWound: 0.0
+      ToStun: 1.5
+      IgnorePainImmunity: true
+    accuracyMelee: 95
+    meleeMultiplier:
+      melee: 1.0
+    costMelee:
+      time: 8
+      energy: 2
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    fixedWeapon: true
+    recover: false
+  - type: AUX_ROBOT_FIST
+    weight: 3
+    bigSprite: 1266
+    meleeHitSound: 62
+    meleeAnimation: 28
+    power: 40
+    damageBonus:
+      strength: 0.5
+      melee: 0.1
+    damageType: 12
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 0.65
+      ToArmor: 0.0
+      ToArmorPre: 0.05
+      ToWound: 0.0
+      ToStun: 1.25
+      IgnorePainImmunity: true
+    accuracyMelee: 100
+    meleeMultiplier:
+      melee: 0.5
+      reactions: 0.5
+    costMelee:
+      time: 10
+      energy: 2
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 2
+    specialUseEmptyHand: true
+    fixedWeapon: true
+    recover: false
+  - type: AUX_HIDDEN_BLADE
+    weight: 0
+    bigSprite: 125
+    meleeHitSound: 75
+    meleeAnimation: 4
+    power: 20
+    damageType: 7
+    meleeMultiplier:
+      melee: 0.5
+      reactions: 0.5
+    damageBonus:
+      strength: 0.2
+      melee: 0.15
+    damageAlter:
+      ArmorEffectiveness: 0.75
+    accuracyMelee: 90
+    tuMelee: 9
+    flatRate: true
+    battleType: 3
+    fixedWeapon: true
+    recover: false
+    clipSize: -1
+    specialUseEmptyHand: true
+      
+  - type: STR_UNARMED_BASIC
+    weight: 0
+    bigSprite: 1178
+    meleeHitSound: 218
+    meleeAnimation: 0
+    power: 0
+    damageType: 6
+    damageBonus:
+      strength: 0.25
+      melee: 0.25
+    damageAlter:
+      RandomType: 1
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.5
+      ToHealth: 0.15
+    accuracyMelee: 100
+    meleeMultiplier:
+      melee: 0.5
+      reactions: 0.5
+    confMelee:
+      name: STR_PUNCH
+    costMelee:
+      time: 8
+      energy: 2
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    twoHanded: true
+    oneHandedPenalty: 80
+    invWidth: 2
+    invHeight: 2
+    fixedWeapon: true
+    recover: false
+    specialUseEmptyHand: true
+  - type: STR_UNARMED_WRESTLING
+    weight: 0
+    bigSprite: 791
+    bulletSprite: 5
+    fireSound: 216
+    hitSound: 218
+    hitAnimation: 126
+    power: 10
+    damageBonus:
+      strength: 0.3
+      bravery: 0.3
+    damageType: 6
+    damageAlter:
+      RandomType: 2
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 0.5
+      ToHealth: 0.1
+      ToTime: 4.0
+      ToEnergy: 4.0
+      ToMorale: 4.0
+    accuracyCloseQuarters: 150
+    accuracySnap: 150
+    accuracyMultiplier:
+      firing: 0.0
+      flatHundred: 0.33
+      melee: 0.33
+      bravery: 0.33
+    closeQuartersMultiplier:
+      reactions: 0.0
+      flatHundred: 0.33
+      melee: 0.33
+      bravery: 0.33
+    costSnap:
+      time: 36
+      energy: 20
+    confSnap:
+      name: STR_THIGH_WRESTLE
+#Melee segment
+    meleeHitSound: 218
+    meleeAnimation: 0
+    meleeType: 6
+    meleePower: 0
+    meleeBonus:
+      strength: 0.3
+      bravery: 0.3
+    meleeAlter:
+      RandomType: 2
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 0.5
+      ToHealth: 0.1
+      ToTime: 4.0
+      ToEnergy: 4.0
+      ToMorale: 4.0
+    accuracyMelee: 150
+    meleeMultiplier:
+      flatHundred: 0.33
+      melee: 0.33
+      bravery: 0.33
+    confMelee:
+      name: STR_ARM_WRESTLE
+    costMelee:
+      time: 28
+      energy: 15
+#segment end	  
+    twoHanded: true
+    oneHandedPenalty: 50
+    clipSize: -1
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    maxRange: 1
+    powerRangeThreshold: 2
+    powerRangeReduction: 99
+    bulletSpeed: 50
+    kneelBonus: 100
+    experienceTrainingMode: 1
+    fixedWeapon: true
+    recover: false
+    specialUseEmptyHand: true
+  - type: STR_UNARMED_GAUNTLET
+    weight: 0
+    bigSprite: 1179
+    meleeHitSound: 79
+    meleeAnimation: 0
+    power: 5
+    damageType: 6
+    damageBonus:
+      strength: 0.4
+      melee: 0.2
+    damageAlter:
+      RandomType: 2
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.25
+      ToHealth: 0.35
+    accuracyMelee: 90
+    meleeMultiplier:
+      melee: 1.0
+    confMelee:
+      name: STR_PUNCH
+    costMelee:
+      time: 10
+      energy: 3
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    invWidth: 2
+    invHeight: 2
+    fixedWeapon: true
+    recover: false
+    specialUseEmptyHand: true
+  - type: STR_UNARMED_GAUNTLET_PLUS
+    weight: 0
+    bigSprite: 1181
+    meleeHitSound: 79
+    meleeAnimation: 0
+    power: 10
+    damageType: 6
+    damageBonus:
+      bravery: 0.3
+      strength: 0.5
+      melee: 0.2
+    damageAlter:
+      RandomType: 2
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.0
+      ToHealth: 0.35
+    accuracyMelee: 90
+    meleeMultiplier:
+      melee: 1.0
+    confMelee:
+      name: STR_PUNCH
+    costMelee:
+      time: 12
+      energy: 4
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    invWidth: 2
+    invHeight: 2
+    fixedWeapon: true
+    recover: false
+    specialUseEmptyHand: true
+  - type: STR_GAUNTLET_CLAW
+    weight: 0
+    bigSprite: 1249
+    meleeHitSound: 75
+    meleeAnimation: 12
+    power: 20
+    damageType: 7
+    damageBonus:
+      strength: 0.25
+      reactions: 0.25
+    damageAlter:
+      RandomType: 2
+      ArmorEffectiveness: 1.25
+      ToMorale: 10.0
+      ToHealth: 2.0
+      ToArmorPre: 0.05
+    accuracyMelee: 110
+    meleeMultiplier:
+      melee: 0.5
+      reactions: 0.5
+    costMelee:
+      time: 9
+      energy: 4
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 2
+    experienceTrainingMode: 13
+    fixedWeapon: true
+    recover: false
+    specialUseEmptyHand: true
+  - type: STR_PUNK_CHAIN
+    weight: 0
+    bigSprite: 3051
+    meleeHitSound: 68
+    meleeAnimation: 4
+    power: 5
+    damageType: 3
+    damageBonus:
+      throwing: 0.25
+      melee: 0.25
+    damageAlter:
+      RandomType: 1
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.25
+      ToStun: 0.75
+      ToMorale: 5.0
+      ToWound: 0
+    accuracyMelee: 133
+    meleeMultiplier:
+      melee: 0.5
+      throwing: 0.5
+    costMelee:
+      time: 12
+      energy: 3
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    twoHanded: false
+    invWidth: 2
+    invHeight: 2
+    fixedWeapon: true
+    recover: false
+    specialUseEmptyHand: true
+  - type: STR_KUNG_FU
+    weight: 0
+    bigSprite: 1180
+    bulletSprite: 5
+    fireSound: 216
+    hitSound: 218
+    hitAnimation: 126
+    power: 0
+    damageBonus:
+      strength: 0.25
+      melee: 0.5
+    damageType: 6
+    damageAlter:
+      RandomType: 6
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.25
+      ToTime: 2.5
+      ToHealth: 0.2
+    accuracyCloseQuarters: 125
+    accuracySnap: 125
+    accuracyAuto: 125
+    sprayWaypoints: 5
+    accuracyMultiplier:
+      firing: 0.0
+      reactions: 0.5
+      melee: 0.5
+    costSnap:
+      time: 12
+      energy: 4
+    costAuto:
+      time: 36
+      energy: 32
+    confAuto:
+      shots: 5
+      name: STR_FLURRY
+    confSnap:
+      name: STR_KICK
+#Melee segment
+    meleeHitSound: 218
+    meleeAnimation: 0
+    meleeType: 6
+    meleePower: 0
+    meleeBonus:
+      strength: 0.25
+      melee: 0.25
+    meleeAlter:
+      RandomType: 6
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.25
+      ToHealth: 0.1
+    accuracyMelee: 125
+    meleeMultiplier:
+      melee: 0.5
+      reactions: 0.5
+    confMelee:
+      name: STR_PUNCH
+    costMelee:
+      time: 6
+      energy: 2
+    flatMelee:
+      time: true
+#segment end	  
+    twoHanded: true
+    oneHandedPenalty: 67
+    flatRate: true
+    clipSize: -1
+    battleType: 1
+    invWidth: 2
+    invHeight: 2
+    maxRange: 1
+    powerRangeThreshold: 2
+    powerRangeReduction: 99
+    bulletSpeed: 50
+    kneelBonus: 100
+    experienceTrainingMode: 13
+    fixedWeapon: true
+    recover: false
+    specialUseEmptyHand: true
+    

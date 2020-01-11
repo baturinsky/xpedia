@@ -1,0 +1,3878 @@
+invs:
+  - id: STR_GROUND
+    costs:
+      STR_QD_SLOT: 20
+      STR_BACK_PACK: 20
+      STR_BELT: 18
+      STR_LEFT_HAND: 14
+      STR_LEFT_LEG: 16
+      STR_LEFT_SHOULDER: 22
+      STR_RIGHT_HAND: 14
+      STR_RIGHT_LEG: 16
+      STR_RIGHT_SHOULDER: 22
+  - id: STR_RIGHT_HAND
+    costs:
+      STR_QD_SLOT: 5
+      STR_BACK_PACK: 10
+      STR_BELT: 6
+      STR_GROUND: 2
+      STR_LEFT_HAND: 2
+      STR_LEFT_LEG: 10
+      STR_LEFT_SHOULDER: 8
+      STR_RIGHT_LEG: 8
+      STR_RIGHT_SHOULDER: 10
+  - id: STR_LEFT_HAND
+    costs:
+      STR_QD_SLOT: 5
+      STR_BACK_PACK: 10
+      STR_BELT: 6
+      STR_GROUND: 2
+      STR_LEFT_LEG: 8
+      STR_LEFT_SHOULDER: 10
+      STR_RIGHT_HAND: 2
+      STR_RIGHT_LEG: 10
+      STR_RIGHT_SHOULDER: 8
+  - id: STR_BELT
+    x: 200
+    y: 104
+    slots:
+      - [0, 0]
+      - [1, 0]
+      - [2, 0]
+      - [3, 0]
+      - [2, 1]
+      - [3, 1]
+    costs:
+      STR_QD_SLOT: 6
+      STR_BACK_PACK: 14
+      STR_GROUND: 6
+      STR_LEFT_HAND: 4
+      STR_LEFT_LEG: 10
+      STR_LEFT_SHOULDER: 12
+      STR_RIGHT_HAND: 4
+      STR_RIGHT_LEG: 10
+      STR_RIGHT_SHOULDER: 12
+  - id: STR_RIGHT_LEG
+    costs:
+      STR_QD_SLOT: 10
+      STR_BACK_PACK: 16
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 8
+      STR_LEFT_LEG: 12
+      STR_LEFT_SHOULDER: 14
+      STR_RIGHT_HAND: 6
+      STR_RIGHT_SHOULDER: 16
+  - id: STR_LEFT_LEG
+    costs:
+      STR_QD_SLOT: 10
+      STR_BACK_PACK: 16
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 6
+      STR_LEFT_SHOULDER: 16
+      STR_RIGHT_HAND: 8
+      STR_RIGHT_LEG: 12
+      STR_RIGHT_SHOULDER: 14
+  - id: STR_RIGHT_SHOULDER
+    costs:
+      STR_QD_SLOT: 10
+      STR_BACK_PACK: 14
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 4
+      STR_LEFT_LEG: 14
+      STR_LEFT_SHOULDER: 10
+      STR_RIGHT_HAND: 6
+      STR_RIGHT_LEG: 12
+  - id: STR_LEFT_SHOULDER
+    costs:
+      STR_QD_SLOT: 10
+      STR_BACK_PACK: 14
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 6
+      STR_LEFT_LEG: 12
+      STR_RIGHT_HAND: 4
+      STR_RIGHT_LEG: 14
+      STR_RIGHT_SHOULDER: 10
+  - id: STR_BACK_PACK
+    x: 176
+    y: 37
+    slots:
+      - [0, 0]
+      - [1, 0]
+      - [2, 0]
+      - [3, 0]
+      - [0, 1]
+      - [1, 1]
+      - [2, 1]
+      - [3, 1]
+      - [0, 2]
+      - [1, 2]
+      - [2, 2]
+      - [3, 2]
+    costs:
+      STR_QD_SLOT: 24
+      STR_BELT: 24
+      STR_GROUND: 22
+      STR_LEFT_HAND: 20
+      STR_LEFT_LEG: 24
+      STR_LEFT_SHOULDER: 24
+      STR_RIGHT_HAND: 20
+      STR_RIGHT_LEG: 24
+      STR_RIGHT_SHOULDER: 24
+  - id: STR_QD_SLOT
+    x: 176
+    y: 104
+    slots:
+      - [0, 0]
+      - [0, 1]
+    costs:
+      STR_BACK_PACK: 14
+      STR_BELT: 8
+      STR_GROUND: 5
+      STR_LEFT_HAND: 3
+      STR_LEFT_LEG: 10
+      STR_LEFT_SHOULDER: 10
+      STR_RIGHT_HAND: 3
+      STR_RIGHT_LEG: 10
+      STR_RIGHT_SHOULDER: 10
+cutscenes:
+  - delete: intro
+  - type: intro
+    slideshow:
+      transitionSeconds: 19
+#      transitionSeconds: 24
+      musicId: GMGEO3
+#      musicId: GMSTORY
+      slides:
+        - imagePath: Resources/Cutscenes/Intro_00.png
+        - imagePath: Resources/Cutscenes/Intro_01.png
+          caption: STR_CUTSCENE_INTRO_01
+          captionSize: [125, 100]
+          captionPos: [5, 90]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/Intro_02a.png
+          caption: STR_CUTSCENE_INTRO_02_A
+          captionSize: [100, 100]
+          captionPos: [5, 80]
+          captionColor: 239
+        - imagePath: Resources/Cutscenes/Intro_02b.png
+          caption: STR_CUTSCENE_INTRO_02_B
+          captionSize: [100, 180]
+          captionPos: [5, 5]
+          captionColor: 239
+        - imagePath: Resources/Cutscenes/Intro_03a.gif
+          caption: STR_CUTSCENE_INTRO_03
+          captionSize: [310, 150]
+          captionPos: [5, 100]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/Intro_04b.png
+          caption: STR_CUTSCENE_INTRO_04
+          captionSize: [310, 150]
+          captionPos: [5, 150]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/Intro_05.png
+          caption: STR_CUTSCENE_INTRO_05
+          captionSize: [135, 150]
+          captionPos: [180, 100]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/Intro_06.png
+          caption: STR_CUTSCENE_INTRO_06
+          captionSize: [105, 150]
+          captionPos: [210, 20]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/Intro_07.png
+          caption: STR_CUTSCENE_INTRO_07
+          captionSize: [200, 150]
+          captionPos: [100, 5]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/Intro_08d.gif
+          caption: STR_CUTSCENE_INTRO_08
+          captionSize: [120, 150]
+          captionPos: [5, 5]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/Intro_09d.png
+          caption: STR_CUTSCENE_INTRO_09
+          captionSize: [150, 150]
+          captionPos: [5, 160]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/Intro_10.png
+          caption: STR_CUTSCENE_INTRO_10
+          captionSize: [180, 190]
+          captionPos: [5, 5]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/Intro_11.png
+          caption: STR_CUTSCENE_INTRO_11
+          captionSize: [150, 190]
+          captionPos: [5, 5]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/Intro_12c.png
+          caption: STR_CUTSCENE_INTRO_12
+          captionSize: [145, 190]
+          captionPos: [5, 5]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/Intro_00b.png
+          caption: STR_CUTSCENE_INTRO_00
+          captionSize: [105, 190]
+          captionPos: [210, 5]
+          captionColor: 239
+  - type: GudrunDuelLost
+    slideshow:
+      transitionSeconds: 32
+      musicId: AS_2_AMBIENT_02
+      slides:
+        - imagePath: Resources/Cutscenes/GDX_Duel_B1.png
+          caption: STR_GDX_DUEL_LOST_01
+          captionSize: [180, 90]
+          captionPos: [70, 100]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/GDX_Duel_B2.png
+          caption: STR_GDX_DUEL_LOST_02
+          captionSize: [180, 90]
+          captionPos: [70, 100]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/GDX_Duel_B3.png
+          caption: STR_GDX_DUEL_LOST_03
+          captionSize: [180, 90]
+          captionPos: [70, 100]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/GDX_Duel_B4.png
+          caption: STR_GDX_DUEL_LOST_04
+          captionSize: [180, 90]
+          captionPos: [70, 100]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/GDX_Duel_B5.png
+          caption: STR_GDX_DUEL_LOST_05
+          captionSize: [180, 90]
+          captionPos: [70, 100]
+          captionColor: 244
+  - type: ButcherDungeonEscape
+    slideshow:
+      musicId: GMGEO10
+      transitionSeconds: 32
+      slides:
+        - imagePath: Resources/Cutscenes/Escape_From_Hell_2.png
+          caption: STR_LOC_CATACOMBS_BUTCHER_WON
+          captionSize: [160, 70]
+          captionPos: [10, 10]
+          captionColor: 244
+  - type: ZombiePyramidsCutscene
+    slideshow:
+      musicId: GMTACTIC
+      transitionSeconds: 32
+      slides:
+        - imagePath: Resources/Cutscenes/Glowing_Pyramid.png
+          caption: STR_LOC_ZOMBIE_PYRAMID_WON_TXT
+          captionSize: [180, 90]
+          captionPos: [50, 30]
+          captionColor: 244
+commendations:
+  - type: STR_MEDAL_IMPORTANT_MISSIONS_NAME  #non-small craft, hardcoded
+    description: STR_MEDAL_ORIGINAL8_DESCRIPTION
+    sprite: 5
+    criteria:
+      totalLongDistanceHits: [9999]
+  - type: STR_MEDAL_ORIGINAL8_NAME  #original crew
+    description: STR_MEDAL_ORIGINAL8_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_ORIGINAL8]
+    sprite: 4
+    criteria:
+      totalLongDistanceHits: [9999]
+#start here
+  - type: STR_MEDAL_SERVICE_TIME_NAME  #Every 6 months of service
+    description: STR_MEDAL_SERVICE_TIME_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_SERVICE_TIME_1, STR_MEDAL_SERVICE_TIME_2, STR_MEDAL_SERVICE_TIME_3, STR_MEDAL_SERVICE_TIME_4, STR_MEDAL_SERVICE_TIME_5, STR_MEDAL_SERVICE_TIME_6, STR_MEDAL_SERVICE_TIME_7, STR_MEDAL_SERVICE_TIME_8, STR_MEDAL_SERVICE_TIME_9, STR_MEDAL_SERVICE_TIME_10]
+    sprite: 5
+    criteria:
+      totalMonthlyService: [6, 12, 18, 24, 30, 36, 42, 48, 54, 60]
+  - type: STR_MEDAL_IMMORTAL_NAME  #expanded Service Time
+    description: STR_MEDAL_IMMORTAL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_IMMORTAL_1, STR_MEDAL_IMMORTAL_2, STR_MEDAL_IMMORTAL_3, STR_MEDAL_IMMORTAL_4, STR_MEDAL_IMMORTAL_5, STR_MEDAL_IMMORTAL_6, STR_MEDAL_IMMORTAL_7, STR_MEDAL_IMMORTAL_8, STR_MEDAL_IMMORTAL_9, STR_MEDAL_IMMORTAL_10]
+    sprite: 5
+    criteria:
+      totalMonthlyService: [72, 84, 96, 108, 120, 144, 168, 192, 216, 240]
+  - type: STR_MEDAL_STATGAIN_NAME
+    description: STR_MEDAL_STATGAIN_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_STATGAIN_1, STR_MEDAL_STATGAIN_2, STR_MEDAL_STATGAIN_3, STR_MEDAL_STATGAIN_4, STR_MEDAL_STATGAIN_5, STR_MEDAL_STATGAIN_6, STR_MEDAL_STATGAIN_7, STR_MEDAL_STATGAIN_8, STR_MEDAL_STATGAIN_9, STR_MEDAL_STATGAIN_10]
+    sprite: 5
+    criteria:
+      totalStatGain: [125, 150, 175, 200, 233, 266, 300, 333, 366, 400]
+  - type: STR_MEDAL_CARREER_SCORE_NAME #Total Score
+    description: STR_MEDAL_CARREER_SCORE_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_CARREER_SCORE_1, STR_MEDAL_CARREER_SCORE_2, STR_MEDAL_CARREER_SCORE_3, STR_MEDAL_CARREER_SCORE_4, STR_MEDAL_CARREER_SCORE_5, STR_MEDAL_CARREER_SCORE_6, STR_MEDAL_CARREER_SCORE_7, STR_MEDAL_CARREER_SCORE_8, STR_MEDAL_CARREER_SCORE_9, STR_MEDAL_CARREER_SCORE_10]
+    sprite: 2
+    criteria:
+      totalScore: [5000, 10000, 15000, 20000, 30000, 50000, 75000, 100000, 150000, 200000]
+  - type: STR_MEDAL_CARREER_MISSIONS_NAME #Number of Missions Won
+    description: STR_MEDAL_CARREER_MISSIONS_DESCRIPTION
+    sprite: 5
+    soldierBonusTypes: [STR_MEDAL_CARREER_MISSIONS_1, STR_MEDAL_CARREER_MISSIONS_2, STR_MEDAL_CARREER_MISSIONS_3, STR_MEDAL_CARREER_MISSIONS_4, STR_MEDAL_CARREER_MISSIONS_5, STR_MEDAL_CARREER_MISSIONS_6, STR_MEDAL_CARREER_MISSIONS_7, STR_MEDAL_CARREER_MISSIONS_8, STR_MEDAL_CARREER_MISSIONS_9, STR_MEDAL_CARREER_MISSIONS_10]
+    criteria:
+      totalWins: [5, 10, 15, 20, 30, 50, 75, 100, 150, 200]
+  - type: STR_MEDAL_NIGHTOPS_NAME  #Night ops
+    description: STR_MEDAL_NIGHTOPS_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_NIGHTOPS_1, STR_MEDAL_NIGHTOPS_2, STR_MEDAL_NIGHTOPS_3, STR_MEDAL_NIGHTOPS_4, STR_MEDAL_NIGHTOPS_5, STR_MEDAL_NIGHTOPS_6, STR_MEDAL_NIGHTOPS_7, STR_MEDAL_NIGHTOPS_8, STR_MEDAL_NIGHTOPS_9, STR_MEDAL_NIGHTOPS_10]
+    sprite: 2
+    criteria:
+      totalNightMissions: [4, 7, 10, 15, 20, 30, 50, 75, 100, 150]
+  - type: STR_MEDAL_BASE_DEFENSE_NAME #up to 10 Hideout defenses
+    description: STR_MEDAL_BASE_DEFENSE_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_BASE_DEFENSE_1, STR_MEDAL_BASE_DEFENSE_2, STR_MEDAL_BASE_DEFENSE_3, STR_MEDAL_BASE_DEFENSE_4, STR_MEDAL_BASE_DEFENSE_5, STR_MEDAL_BASE_DEFENSE_6, STR_MEDAL_BASE_DEFENSE_7, STR_MEDAL_BASE_DEFENSE_8, STR_MEDAL_BASE_DEFENSE_9, STR_MEDAL_BASE_DEFENSE_10]
+    sprite: 4
+    criteria:
+      totalBaseDefenseMissions: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  - type: STR_MEDAL_ALIEN_BASE_ASSAULT_NAME #Assaulter on Enemy Hideout up to 10 times
+    description: STR_MEDAL_ALIEN_BASE_ASSAULT_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_ALIEN_BASE_ASSAULT_1, STR_MEDAL_ALIEN_BASE_ASSAULT_2, STR_MEDAL_ALIEN_BASE_ASSAULT_3, STR_MEDAL_ALIEN_BASE_ASSAULT_4, STR_MEDAL_ALIEN_BASE_ASSAULT_5, STR_MEDAL_ALIEN_BASE_ASSAULT_6, STR_MEDAL_ALIEN_BASE_ASSAULT_7, STR_MEDAL_ALIEN_BASE_ASSAULT_8, STR_MEDAL_ALIEN_BASE_ASSAULT_9, STR_MEDAL_ALIEN_BASE_ASSAULT_10]
+    sprite: 1
+    criteria:
+      totalAlienBaseAssaults: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  - type: STR_MEDAL_CAMPAIGN_RIBBON_NAME #"Missions in a Region.
+    description: STR_MEDAL_CAMPAIGN_RIBBON_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_CAMPAIGN_RIBBON_1, STR_MEDAL_CAMPAIGN_RIBBON_2, STR_MEDAL_CAMPAIGN_RIBBON_3, STR_MEDAL_CAMPAIGN_RIBBON_4, STR_MEDAL_CAMPAIGN_RIBBON_5, STR_MEDAL_CAMPAIGN_RIBBON_6, STR_MEDAL_CAMPAIGN_RIBBON_7, STR_MEDAL_CAMPAIGN_RIBBON_8, STR_MEDAL_CAMPAIGN_RIBBON_9, STR_MEDAL_CAMPAIGN_RIBBON_10]
+    sprite: 2
+    criteria:
+      totalMissionsInARegion: [20, 25, 30, 40, 50, 60, 70, 80, 90, 100]
+  - type: STR_MEDAL_MURDERER_NAME #Number of Murders
+    description: STR_MEDAL_MURDERER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_COMMENDATED]
+    sprite: 3
+    criteria:
+      killsWithCriteriaCareer: [1, 3, 7, 12, 18, 25, 33, 44, 66, 99]
+    killCriteria:
+      -
+         - [1, ["STR_REBEL", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_NINJA", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_RATMEN", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_BANDIT", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_RACE_HUMAN", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_SECTOID", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_OSIRON", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_FLOATER", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_MARSEC", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_SNAKEMAN", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_MUTON", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_SMUGGLER", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_RETICULAN", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_RAIDER", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_SPARTANS", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_GOVT", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_NAZIS", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STATUS_DEAD", "FACTION_NEUTRAL"]]
+      -
+         - [1, ["STATUS_DEAD", "FACTION_PLAYER"]]
+  - type: STR_MEDAL_CARREER_KILLS_NAME #Number of Kills total
+    description: STR_MEDAL_CARREER_KILLS_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_CARREER_KILLS_1, STR_MEDAL_CARREER_KILLS_2, STR_MEDAL_CARREER_KILLS_3, STR_MEDAL_CARREER_KILLS_4, STR_MEDAL_CARREER_KILLS_5, STR_MEDAL_CARREER_KILLS_6, STR_MEDAL_CARREER_KILLS_7, STR_MEDAL_CARREER_KILLS_8, STR_MEDAL_CARREER_KILLS_9, STR_MEDAL_CARREER_KILLS_10]
+    sprite: 3
+    criteria:
+      killsWithCriteriaCareer: [50, 75, 100, 150, 200, 300, 400, 500, 750, 1000]
+    killCriteria:
+      -
+         - [1, ["STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STATUS_DEAD", "FACTION_NEUTRAL"]]
+      -
+         - [1, ["STATUS_DEAD", "FACTION_PLAYER"]]
+  - type: STR_MEDAL_CARREER_CAPTURES_NAME #Number of Stuns total.
+    description: STR_MEDAL_CARREER_CAPTURES_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_CARREER_CAPTURES_1, STR_MEDAL_CARREER_CAPTURES_2, STR_MEDAL_CARREER_CAPTURES_3, STR_MEDAL_CARREER_CAPTURES_4, STR_MEDAL_CARREER_CAPTURES_5, STR_MEDAL_CARREER_CAPTURES_6, STR_MEDAL_CARREER_CAPTURES_7, STR_MEDAL_CARREER_CAPTURES_8, STR_MEDAL_CARREER_CAPTURES_9, STR_MEDAL_CARREER_CAPTURES_10]
+    sprite: 4
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 30, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+  - type: STR_MEDAL_RACE_KILLS_NAME #KOs by faction 
+    description: STR_MEDAL_RACE_KILLS_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_RACE_KILLS_1, STR_MEDAL_RACE_KILLS_2, STR_MEDAL_RACE_KILLS_3, STR_MEDAL_RACE_KILLS_4, STR_MEDAL_RACE_KILLS_5, STR_MEDAL_RACE_KILLS_6, STR_MEDAL_RACE_KILLS_7, STR_MEDAL_RACE_KILLS_8, STR_MEDAL_RACE_KILLS_9, STR_MEDAL_RACE_KILLS_10]
+    sprite: 3
+    criteria:
+      totalKillsByRace: [30, 40, 50, 75, 100, 150, 200, 300, 400, 500]
+  - type: STR_MEDAL_WEAPON_PROFICIENCY_NAME #KOs by weapon
+    description: STR_MEDAL_WEAPON_PROFICIENCY_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_WEAPON_PROFICIENCY_1, STR_MEDAL_WEAPON_PROFICIENCY_2, STR_MEDAL_WEAPON_PROFICIENCY_3, STR_MEDAL_WEAPON_PROFICIENCY_4, STR_MEDAL_WEAPON_PROFICIENCY_5, STR_MEDAL_WEAPON_PROFICIENCY_6, STR_MEDAL_WEAPON_PROFICIENCY_7, STR_MEDAL_WEAPON_PROFICIENCY_8, STR_MEDAL_WEAPON_PROFICIENCY_9, STR_MEDAL_WEAPON_PROFICIENCY_10]
+    sprite: 2
+    criteria:
+      totalKillsWithAWeapon: [20, 30, 40, 50, 75, 100, 150, 200, 350, 500]
+  - type: STR_MEDAL_FIREKILL_NAME #Kills with fire
+    description: STR_MEDAL_FIREKILL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_FIREKILL_1, STR_MEDAL_FIREKILL_2, STR_MEDAL_FIREKILL_3, STR_MEDAL_FIREKILL_4, STR_MEDAL_FIREKILL_5, STR_MEDAL_FIREKILL_6, STR_MEDAL_FIREKILL_7, STR_MEDAL_FIREKILL_8, STR_MEDAL_FIREKILL_9, STR_MEDAL_FIREKILL_10]
+    sprite: 1
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["DT_IN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_CHEMKILL_NAME #Kills with Chem and Smoke, and anti-511
+    description: STR_MEDAL_CHEMKILL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_CHEMKILL_1, STR_MEDAL_CHEMKILL_2, STR_MEDAL_CHEMKILL_3, STR_MEDAL_CHEMKILL_4, STR_MEDAL_CHEMKILL_5, STR_MEDAL_CHEMKILL_6, STR_MEDAL_CHEMKILL_7, STR_MEDAL_CHEMKILL_8, STR_MEDAL_CHEMKILL_9, STR_MEDAL_CHEMKILL_10]
+    sprite: 3
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["DT_ACID", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_MELEEKILL_NAME #"Kills with melee
+    description: STR_MEDAL_MELEEKILL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_MELEEKILL_1, STR_MEDAL_MELEEKILL_2, STR_MEDAL_MELEEKILL_3, STR_MEDAL_MELEEKILL_4, STR_MEDAL_MELEEKILL_5, STR_MEDAL_MELEEKILL_6, STR_MEDAL_MELEEKILL_7, STR_MEDAL_MELEEKILL_8, STR_MEDAL_MELEEKILL_9, STR_MEDAL_MELEEKILL_10]
+    sprite: 1
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["BT_MELEE", "DT_MELEE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["BT_MELEE", "DT_16", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["BT_MELEE", "DT_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["BT_MELEE", "DT_PLASMA", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["BT_MELEE", "DT_14", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_POISONKILL_NAME #Kills with Bio and Choke
+    description: STR_MEDAL_POISONKILL_DESCRIPTION
+    sprite: 3
+    soldierBonusTypes: [STR_MEDAL_POISONKILL_1, STR_MEDAL_POISONKILL_2, STR_MEDAL_POISONKILL_3, STR_MEDAL_POISONKILL_4, STR_MEDAL_POISONKILL_5, STR_MEDAL_POISONKILL_6, STR_MEDAL_POISONKILL_7, STR_MEDAL_POISONKILL_8, STR_MEDAL_POISONKILL_9, STR_MEDAL_POISONKILL_10]
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["DT_SMOKE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["DT_11", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_ELECTROKILL_NAME #Kills with electricity
+    description: STR_MEDAL_ELECTROKILL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_ELECTROKILL_1, STR_MEDAL_ELECTROKILL_2, STR_MEDAL_ELECTROKILL_3, STR_MEDAL_ELECTROKILL_4, STR_MEDAL_ELECTROKILL_5, STR_MEDAL_ELECTROKILL_6, STR_MEDAL_ELECTROKILL_7, STR_MEDAL_ELECTROKILL_8, STR_MEDAL_ELECTROKILL_9, STR_MEDAL_ELECTROKILL_10]
+    sprite: 1
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["DT_12", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["DT_13", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_MAGICKILL_NAME #Kills with Mind
+    description: STR_MEDAL_MAGICKILL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_MAGICKILL_1, STR_MEDAL_MAGICKILL_2, STR_MEDAL_MAGICKILL_3, STR_MEDAL_MAGICKILL_4, STR_MEDAL_MAGICKILL_5, STR_MEDAL_MAGICKILL_6, STR_MEDAL_MAGICKILL_7, STR_MEDAL_MAGICKILL_8, STR_MEDAL_MAGICKILL_9, STR_MEDAL_MAGICKILL_10]
+    sprite: 1
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["DT_15", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_PROXYKILL_NAME #"Kills with Proxies
+    description: STR_MEDAL_PROXYKILL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_PROXYKILL_1, STR_MEDAL_PROXYKILL_2, STR_MEDAL_PROXYKILL_3, STR_MEDAL_PROXYKILL_4, STR_MEDAL_PROXYKILL_5, STR_MEDAL_PROXYKILL_6, STR_MEDAL_PROXYKILL_7, STR_MEDAL_PROXYKILL_8, STR_MEDAL_PROXYKILL_9, STR_MEDAL_PROXYKILL_10]
+    sprite: 2
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["BT_PROXIMITYGRENADE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_SLAVEKILLS_NAME  #Kills through mind controlled units
+    description: STR_MEDAL_SLAVEKILLS_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_SLAVEKILLS_1, STR_MEDAL_SLAVEKILLS_2, STR_MEDAL_SLAVEKILLS_3, STR_MEDAL_SLAVEKILLS_4, STR_MEDAL_SLAVEKILLS_5, STR_MEDAL_SLAVEKILLS_6, STR_MEDAL_SLAVEKILLS_7, STR_MEDAL_SLAVEKILLS_8, STR_MEDAL_SLAVEKILLS_9, STR_MEDAL_SLAVEKILLS_10]
+    sprite: 3
+    criteria:
+      totalSlaveKills: [5, 10, 20, 30, 50, 75, 100, 150, 200, 500]
+  - type: STR_MEDAL_GUNSLINGER_NAME #killing 3 in a turn with a Gun
+    description: STR_MEDAL_GUNSLINGER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_GUNSLINGER_1, STR_MEDAL_GUNSLINGER_2, STR_MEDAL_GUNSLINGER_3, STR_MEDAL_GUNSLINGER_4, STR_MEDAL_GUNSLINGER_5, STR_MEDAL_GUNSLINGER_6, STR_MEDAL_GUNSLINGER_7, STR_MEDAL_GUNSLINGER_8, STR_MEDAL_GUNSLINGER_9, STR_MEDAL_GUNSLINGER_10]
+    sprite: 1
+    criteria:
+      killsWithCriteriaTurn: [1, 2, 4, 8, 15, 30, 45, 60, 100, 200]
+    killCriteria:
+      -
+         - [3, ["DT_AP", "BT_FIREARM", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [3, ["DT_LASER", "BT_FIREARM", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_BOMBER_NAME #killing 3 in a turn with Explosives
+    description: STR_MEDAL_BOMBER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_BOMBER_1, STR_MEDAL_BOMBER_2, STR_MEDAL_BOMBER_3, STR_MEDAL_BOMBER_4, STR_MEDAL_BOMBER_5, STR_MEDAL_BOMBER_6, STR_MEDAL_BOMBER_7, STR_MEDAL_BOMBER_8, STR_MEDAL_BOMBER_9, STR_MEDAL_BOMBER_10]
+    sprite: 5
+    criteria:
+      killsWithCriteriaTurn: [1, 2, 4, 8, 15, 30, 45, 60, 100, 200]
+    killCriteria:
+      -
+         - [3, ["DT_HE", "BT_FIREARM", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [3, ["FACTION_HOSTILE", "STATUS_DEAD", "BT_GRENADE"]]
+      -
+         - [3, ["FACTION_HOSTILE", "STATUS_DEAD", "BT_PROXIMITYGRENADE"]]
+  - type: STR_MEDAL_SLASHER_NAME #killing 3 in a turn with a bladed Melee weapon
+    description: STR_MEDAL_SLASHER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_SLASHER_1, STR_MEDAL_SLASHER_2, STR_MEDAL_SLASHER_3, STR_MEDAL_SLASHER_4, STR_MEDAL_SLASHER_5, STR_MEDAL_SLASHER_6, STR_MEDAL_SLASHER_7, STR_MEDAL_SLASHER_8, STR_MEDAL_SLASHER_9, STR_MEDAL_SLASHER_10]
+    sprite: 1
+    criteria:
+      killsWithCriteriaTurn: [1, 2, 4, 8, 15, 30, 45, 60, 100, 200]
+    killCriteria:
+      -
+         - [3, ["BT_MELEE", "DT_MELEE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [3, ["BT_MELEE", "DT_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [3, ["BT_MELEE", "DT_14", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_SAMURAI_NAME #killing 8 in a mission with a Melee weapon
+    description: STR_MEDAL_SAMURAI_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_SAMURAI_1, STR_MEDAL_SAMURAI_2, STR_MEDAL_SAMURAI_3, STR_MEDAL_SAMURAI_4, STR_MEDAL_SAMURAI_5, STR_MEDAL_SAMURAI_6, STR_MEDAL_SAMURAI_7, STR_MEDAL_SAMURAI_8, STR_MEDAL_SAMURAI_9, STR_MEDAL_SAMURAI_10]
+    sprite: 1
+    criteria:
+      killsWithCriteriaMission: [1, 2, 4, 8, 15, 30, 45, 60, 100, 200]
+    killCriteria:
+      -
+         - [8, ["BT_MELEE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_MONSTER_NAME #"Kills with Stun damage, all factions
+    description: STR_MEDAL_MONSTER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_MONSTER_1, STR_MEDAL_MONSTER_2, STR_MEDAL_MONSTER_3, STR_MEDAL_MONSTER_4, STR_MEDAL_MONSTER_5, STR_MEDAL_MONSTER_6, STR_MEDAL_MONSTER_7, STR_MEDAL_MONSTER_8, STR_MEDAL_MONSTER_9, STR_MEDAL_MONSTER_10]
+    sprite: 1
+    criteria:
+      killsWithCriteriaCareer: [2, 4, 7, 10, 15, 20, 30, 50, 75, 100]
+    killCriteria:
+      -
+         - [1, ["DT_STUN", "BT_MELEE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["DT_STUN", "BT_MELEE", "FACTION_NEUTRAL", "STATUS_DEAD"]]
+      -
+         - [1, ["DT_STUN", "BT_MELEE", "FACTION_PLAYER", "STATUS_DEAD"]]
+  - type: STR_MEDAL_TANK_KILLER_NAME #killing enemy tanks
+    description: STR_MEDAL_TANK_KILLER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_TANK_KILLER_1, STR_MEDAL_TANK_KILLER_2, STR_MEDAL_TANK_KILLER_3, STR_MEDAL_TANK_KILLER_4, STR_MEDAL_TANK_KILLER_5, STR_MEDAL_TANK_KILLER_6, STR_MEDAL_TANK_KILLER_7, STR_MEDAL_TANK_KILLER_8, STR_MEDAL_TANK_KILLER_9, STR_MEDAL_TANK_KILLER_10]
+    sprite: 5
+    criteria:
+      killsWithCriteriaMission: [2, 4, 7, 10, 15, 20, 25, 30, 40, 50]
+    killCriteria:
+      -
+         - [1, ["STR_XTANK_CANNON_TERRORIST", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CYBERDISC_TERRORIST", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ARMORED_CAR_TERRORIST", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SECTOPOD_TERRORIST", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_TIGER_TANK_TURRET", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_MONSTER_HUNTER_NAME #Kill x number of Beasts with a melee weapon
+    description: STR_MEDAL_MONSTER_HUNTER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_MONSTER_HUNTER_1, STR_MEDAL_MONSTER_HUNTER_2, STR_MEDAL_MONSTER_HUNTER_3, STR_MEDAL_MONSTER_HUNTER_4, STR_MEDAL_MONSTER_HUNTER_5, STR_MEDAL_MONSTER_HUNTER_6, STR_MEDAL_MONSTER_HUNTER_7, STR_MEDAL_MONSTER_HUNTER_8, STR_MEDAL_MONSTER_HUNTER_9, STR_MEDAL_MONSTER_HUNTER_10]
+    sprite: 5
+    criteria:
+      killsWithCriteriaMission: [4, 7, 10, 15, 20, 30, 50, 75, 100, 200]
+    killCriteria:
+      -
+         - [1, ["STR_BEAST", "BT_MELEE", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_MONSTER_RACE", "BT_MELEE", "STATUS_DEAD", "FACTION_HOSTILE"]]
+      -
+         - [1, ["STR_DEMON_TERRORIST", "BT_MELEE", "STATUS_DEAD", "FACTION_HOSTILE"]]
+  - type: STR_MEDAL_ARCHER_NAME #"Kills with bows
+    description: STR_MEDAL_ARCHER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_ARCHER_1, STR_MEDAL_ARCHER_2, STR_MEDAL_ARCHER_3, STR_MEDAL_ARCHER_4, STR_MEDAL_ARCHER_5, STR_MEDAL_ARCHER_6, STR_MEDAL_ARCHER_7, STR_MEDAL_ARCHER_8, STR_MEDAL_ARCHER_9, STR_MEDAL_ARCHER_10]
+    sprite: 2
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["STR_BOW", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SURVIVAL_BOW", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LONGBOW", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BOW_NEON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_PRIMAL_NAME #"Kills with primal and thrown weapons
+    description: STR_MEDAL_PRIMAL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_PRIMAL_1, STR_MEDAL_PRIMAL_2, STR_MEDAL_PRIMAL_3, STR_MEDAL_PRIMAL_4, STR_MEDAL_PRIMAL_5, STR_MEDAL_PRIMAL_6, STR_MEDAL_PRIMAL_7, STR_MEDAL_PRIMAL_8, STR_MEDAL_PRIMAL_9, STR_MEDAL_PRIMAL_10]
+    sprite: 1
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["STR_HANDLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BATON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CHITIN_KNIFE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHARK_GARLAND", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_AZTEC_CLUB", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BONE_CLUB", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_STONE_AX", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_AQUA_HATCHET", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BAMBOO", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHEPHERDS_STAFF", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_QUARTERSTAFF", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SPEAR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BOW_H", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ROCK_T", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FUSO_KNIVES", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_JAVELINS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_JAVELINS_AQUA", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_THROWING_AXES", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHREDDER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PRED_DISC", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_THROWING_HAMMER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BLOWPIPE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_DOGG_WEAPON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_BLOOD_DOG_WEAPON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_WARP_CLAWS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_ASSAULTER_NAME #"Kills with assault weapons
+    description: STR_MEDAL_ASSAULTER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_ASSAULTER_1, STR_MEDAL_ASSAULTER_2, STR_MEDAL_ASSAULTER_3, STR_MEDAL_ASSAULTER_4, STR_MEDAL_ASSAULTER_5, STR_MEDAL_ASSAULTER_6, STR_MEDAL_ASSAULTER_7, STR_MEDAL_ASSAULTER_8, STR_MEDAL_ASSAULTER_9, STR_MEDAL_ASSAULTER_10]
+    sprite: 5
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["STR_GAUNTLET_CLAW", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHIV", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_KNOIF_BANDIT", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_KNOIF", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_KNOIF_BARB", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_KNOIF_POISON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_KNOIF_POISON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LONG_KNIFE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_VIBRO_BLADE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PLASMA_DAGGER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_GHOST_DAGGER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_GHOST_DAGGER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CHAOS_DAGGER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PRED_CLAWS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RUSTY_BLADE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_WRAITH_BLADE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHORT_SWORD", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_WAKIZASHI", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RAPIER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_GLADIUS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CUTLASS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SWORD_MDV", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SWORD_PS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SWORD", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_VAMPIRIC_SWORD", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FORCE_BLADE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PLASMA_SWORD", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_KATANA", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_DEATHBLADE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_POISON_LANCE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BAMBOO", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_AQUA_TRIDENT", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_IMPALER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PIKE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_TESLA_COIL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_TASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FLINTLOCK_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CLOCKWORK_GUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HARQUEBUS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_DART_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PISTOL_LT", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BLACK_ADDER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_REVOLVER_LT", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_OLD_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_OLD_PISTOL_2", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_OLD_REVOLVER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_REVOLVER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_REVOLVER_POLICE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PEACEMAKER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MAUSER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LUGER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PISTOL_SILENCED", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PISTOL_BM", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PISTOL_ADV", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_COLT45", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SNUBBY", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_COMMANDO_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HEAVY_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MAGNUM", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SUPER_MAGNUM", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SLUGGA", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SLUGGA_MK2", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_PISTOL_MINI", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_PISTOL_LT", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_PISTOL_SNUB", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_PISTOL_M", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_PISTOL_DUELIST", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ES_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SR_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_GAUSS_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HORNET", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_KRUGER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_IGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RAYGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SONIC_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HEAT_RAY_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SMG", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SMG_SPIKED", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SKORPION", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LYNX", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LAWGIVER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MRSHAN_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SMG_ADV", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PAINBRINGER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_DEATH_BLOSSOM", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_PISTOL_PIR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ASSAULT_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RETICULAN_LASER_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_XG_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PIR_PLASMA_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ELITE_PLASMA_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MOLOTOV", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ANARCHY_BOMB", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_STICK_GRENADE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SPIKEBALL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BOOM_FRUIT", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_PSYCHOKILL_NAME #"Kills with psycho weapons
+    description: STR_MEDAL_PSYCHOKILL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_PSYCHOKILL_1, STR_MEDAL_PSYCHOKILL_2, STR_MEDAL_PSYCHOKILL_3, STR_MEDAL_PSYCHOKILL_4, STR_MEDAL_PSYCHOKILL_5, STR_MEDAL_PSYCHOKILL_6, STR_MEDAL_PSYCHOKILL_7, STR_MEDAL_PSYCHOKILL_8, STR_MEDAL_PSYCHOKILL_9, STR_MEDAL_PSYCHOKILL_10]
+    sprite: 1
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["STR_KNUCKLES", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_KNUCKLES_SPIKED", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PUNK_CHAIN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FISTY", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_UNARMED_GAUNTLET", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_UNARMED_GAUNTLET_PLUS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_TONFA", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SLAVERS_CANE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RAZOR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MACHETE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PIPE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_WRENCH", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SICKLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_DISCIPLINER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BILLHOOK", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_TECH_CLEAVER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SLICER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_AX", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BATTLE_AX", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_VIBRO_AX", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CLAW", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BLOOD_AX", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SPIKED_MACE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_POWER_MACE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_IRON_ROD", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHOVEL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BARDICHE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PITCHFORK", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_GREAT_CLUB", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_GOTHIC_HAMMER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BARBARIAN_SWORD", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BARBARIAN_AX", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BUTCHER_CLEAVER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SLUDGEHAMMER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BOATHOOK", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RIPPER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CHAINSAW", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CHAINSAW_LOLI", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_AUTO_AXE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_AUTO_AXE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CHAINSAW_HEAVY", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_NOOSE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_KUSARIGAMA", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ANCHOR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SUPER_STAPLER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_PISTOL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PLASMA_CASTER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SAWED_OFF", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SUPER_SAWED_OFF", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_DB_SHOTGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SMALL_SHOTGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MINI_SHOTGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHOTGUN_G", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHOTGUN_LT", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHOTGUN_POLICE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHOTGUN_ADV", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHOTGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHOTGUN_PA", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_UAC_SHOTGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ASG12", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_COMBAT_SHOTGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_COMBAT_SHOTGUN_B", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_STREET_SWEEPER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BLUNDERBUSS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BLUNDERBUSS_ADV", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CAWS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SUPER_SHOTGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FLAK_CANNON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_OGRE_SHOTGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BOOM_GUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SR_SHOTGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASLOCK_SHOTGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SCATTER_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FLECHETTE_GUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PLASMA_SHOTGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CANISTER_GUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LIGHTER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_LIGHTER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HAND_FLAMER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FLAMETHROWER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FLAMETHROWER_LR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HEAVY_FLAMER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MEGA_FLAMER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FIREBALL_LAUNCHER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FLAME_WHIP", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_SMGKILL_NAME #"Kills with 2-h SMGS
+    description: STR_MEDAL_SMGKILL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_SMGKILL_1, STR_MEDAL_SMGKILL_2, STR_MEDAL_SMGKILL_3, STR_MEDAL_SMGKILL_4, STR_MEDAL_SMGKILL_5, STR_MEDAL_SMGKILL_6, STR_MEDAL_SMGKILL_7, STR_MEDAL_SMGKILL_8, STR_MEDAL_SMGKILL_9, STR_MEDAL_SMGKILL_10]
+    sprite: 5
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["STR_HSMG", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MP40", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PPSH", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PPSH_3", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PPSH_4", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MP", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SMG_10MM", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MINI_SMG", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ASMG", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SMG_50CAL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_TOMMYGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_TOMMYGUN_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_STORM_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RAIL_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MPG", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_NOVA_PLASMA_GUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PIR_PLASMA_SUB", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_RIFLEKILL_NAME #"Kills with ARs
+    description: STR_MEDAL_RIFLEKILL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_RIFLEKILL_1, STR_MEDAL_RIFLEKILL_2, STR_MEDAL_RIFLEKILL_3, STR_MEDAL_RIFLEKILL_4, STR_MEDAL_RIFLEKILL_5, STR_MEDAL_RIFLEKILL_6, STR_MEDAL_RIFLEKILL_7, STR_MEDAL_RIFLEKILL_8, STR_MEDAL_RIFLEKILL_9, STR_MEDAL_RIFLEKILL_10]
+    sprite: 2
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["STR_UAC_CARBINE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RIFLE_AK", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RIFLE_AK_B", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RIFLE_LT", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RIFLE_M16", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RIFLE_SA80", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RIFLE_AK", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_AUTO_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RIFLE_ADV", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_INFANTRY_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BATTLE_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_OMEGA_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MRSHAN_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SMARTRIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_UAC_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SUPERHEAVY_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_RIFLE_M", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_RIFLE_PIR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_RIFLE_2", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ES_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MARSEC_LASGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BATTLE_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RETICULAN_LASER_GUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RAIL_RIFLE_OLD", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_GAUSS_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_XG_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SONIC_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LPG", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PIR_PLASMA_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PIR_HEAVY_PLASMA", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ASUKA_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_SNIPER_NAME #"Kills with sniper weapons
+    description: STR_MEDAL_SNIPER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_SNIPER_1, STR_MEDAL_SNIPER_2, STR_MEDAL_SNIPER_3, STR_MEDAL_SNIPER_4, STR_MEDAL_SNIPER_5, STR_MEDAL_SNIPER_6, STR_MEDAL_SNIPER_7, STR_MEDAL_SNIPER_8, STR_MEDAL_SNIPER_9, STR_MEDAL_SNIPER_10]
+    sprite: 2
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["STR_XBOW", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FLINTLOCK_MUSKET", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FLINTLOCK_MUSKET_B", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HAXXOR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_WINCHESTER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_CARBINE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RUGER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MRSHAN_SNIPER_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_SUPERCHARGER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_VARMINT_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HUNTING_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HUNTING_RIFLE_ADV", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ZIPGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_OLD_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_DRAGOON_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_NITRO_EXPRESS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BM_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SCOUT_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_COMMANDO_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_INFANTRY_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HUNTING_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ES_SNIPER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SR_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FLINTLOCK_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SNIPER_RIFLE_LT", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SNIPER_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SNIPER_RIFLE_ADV", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HSR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SNIPER_LASER_PIR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SNIPER_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_XG_SNIPER_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_GAUSS_SNIPER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PRECISION_PLASMA", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_CANNONEER_NAME #"Kills with cannons & heavy weapons
+    description: STR_MEDAL_CANNONEER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_CANNONEER_1, STR_MEDAL_CANNONEER_2, STR_MEDAL_CANNONEER_3, STR_MEDAL_CANNONEER_4, STR_MEDAL_CANNONEER_5, STR_MEDAL_CANNONEER_6, STR_MEDAL_CANNONEER_7, STR_MEDAL_CANNONEER_8, STR_MEDAL_CANNONEER_9, STR_MEDAL_CANNONEER_10]
+    sprite: 1
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["STR_PLASMA_PISTOL_LT", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SLUGTHROWER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RETICULAN_PLASMA_GUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HEAVY_PARTICLE_GUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BATTLE_PLASMA", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SPARTAN_MG", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MEGA_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MINING_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RAIL_DRIVER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_IRRADIATOR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_COOKER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LIGHTNING_THROWER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LACC", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HEAVY_CANNON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_AUTO_CANNON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MP_AUTO_CANNON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MEGA_CANNON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MRSHAN_AUTOCANNON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HEAVY_LASER_PIR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HEAVY_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SONIC_CANNON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BALLISTA", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PIR_CANNON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_KRAKEN_CANNON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_GRENADE_LAUNCHER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HGL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_AGL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_TTGL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BLIZZARD_LAUNCHER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MORTAR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_DAVY_CROCKET", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_3RL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RPG", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RPG_ADV", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_RECOILLESS_RIFLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ROCKET_LAUNCHER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ROCKET_LAUNCHER_ADV", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_QUAD_LAUNCHER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_UAC_ROCKET_LAUNCHER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MRSHAN_LAUNCHER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SSRL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SSRL_2", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SPORE_LAUNCHER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MINI_CANNON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PIR_SMALL_LAUNCHER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHOULDER_LAUNCHER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PLASMA_SCORCHER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ES_ION_CANNON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BFG", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PIR_BLASTER_LAUNCHER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_XBOW", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_XBOW", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_XBOW", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_MAXDAKKA_NAME #"Kills with machineguns etc
+    description: STR_MEDAL_MAXDAKKA_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_MAXDAKKA_1, STR_MEDAL_MAXDAKKA_2, STR_MEDAL_MAXDAKKA_3, STR_MEDAL_MAXDAKKA_4, STR_MEDAL_MAXDAKKA_5, STR_MEDAL_MAXDAKKA_6, STR_MEDAL_MAXDAKKA_7, STR_MEDAL_MAXDAKKA_8, STR_MEDAL_MAXDAKKA_9, STR_MEDAL_MAXDAKKA_10]
+    sprite: 1
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["STR_HARPOON_AUTO", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FLECHETTE_CANNON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHOOTA", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHOOTA_MK2", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_KILLGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHOOTA_MK3", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MAMMOTH_SHOTGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SAW", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SAW_GYRO", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SAW_MERIDIAN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LMG", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SMARTGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BOZAR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MACHINEGUN_LIGHT", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MACHINEGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MACHINEGUN_WHEELED", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HMG", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HYDRA_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_AUTO_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_XG_HEAVY", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HEAVY_GAUSS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_UAC_PLASMAGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CHAINGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MRSHAN_MINIGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ROTOGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MINIGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MINIGUN_2", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_UAC_HEAVY_NAILGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_GATLING_LASER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ES_HEAVY", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HELLGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_JOKER_NAME #"Killing joke
+    description: STR_MEDAL_JOKER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_JOKER_1, STR_MEDAL_JOKER_2, STR_MEDAL_JOKER_3, STR_MEDAL_JOKER_4, STR_MEDAL_JOKER_5, STR_MEDAL_JOKER_6, STR_MEDAL_JOKER_7, STR_MEDAL_JOKER_8, STR_MEDAL_JOKER_9, STR_MEDAL_JOKER_10]
+    sprite: 0
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["STR_BATTO", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BATTO_MAGIC", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CAT_PAWS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HAMMER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_POISONOUS_TENTACLE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_THROWING_STARS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SUNBLADES", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_STARS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_THROWING_CARDS", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_BAGPIPES", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["SPC_BANE_SPEAKER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_FIST", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_LASER_FIST", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHOTGUN_FIST", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_LASER_BALL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SHOTGUN_SHIELD", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_TOXIGUN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FLASK_ACID", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HOLY_HANDGRENADE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CROWBAR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PICKAXE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FUSION_TORCH", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_PLANT_X", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_LNG", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_DEMONIC_ESSENCE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MUTANT_FISH", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MEDI_KIT", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_BATTLEMAGE_NAME #"Kills with magical wpns
+    description: STR_MEDAL_BATTLEMAGE_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_BATTLEMAGE_1, STR_MEDAL_BATTLEMAGE_2, STR_MEDAL_BATTLEMAGE_3, STR_MEDAL_BATTLEMAGE_4, STR_MEDAL_BATTLEMAGE_5, STR_MEDAL_BATTLEMAGE_6, STR_MEDAL_BATTLEMAGE_7, STR_MEDAL_BATTLEMAGE_8, STR_MEDAL_BATTLEMAGE_9, STR_MEDAL_BATTLEMAGE_10]
+    sprite: 3
+    criteria:
+      killsWithCriteriaCareer: [10, 20, 35, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["AUX_BIOSUIT_WEAPON", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_RATMEISTER_STAFF", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_LUCKY_STAR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_TK_DEVICE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_TK_MAGE_HAND", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_WAND_CHOKE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_WAND_FIRE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_WAND_PAIN", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SKULL_ROD", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_FLAME_GLOVE", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_TOME_LIGHTNING", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_TOME_LIGHTNING", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_COBRA_STAFF", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_HEARTGRIP_STAFF", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_GHOST_BEAM", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_CERO", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ARCANE_RAY", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_STAFF_OF_EXPLOSION", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_SCEPTER_OF_FEAR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_DBLKILL_NAME #killing two in a turn
+    description: STR_MEDAL_DBLKILL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_DBLKILL_1, STR_MEDAL_DBLKILL_2, STR_MEDAL_DBLKILL_3, STR_MEDAL_DBLKILL_4, STR_MEDAL_DBLKILL_5, STR_MEDAL_DBLKILL_6, STR_MEDAL_DBLKILL_7, STR_MEDAL_DBLKILL_8, STR_MEDAL_DBLKILL_9, STR_MEDAL_DBLKILL_10]
+    sprite: 3
+    criteria:
+      killsWithCriteriaTurn: [1, 2, 4, 8, 15, 30, 45, 60, 100, 200]
+    killCriteria:
+      -
+         - [2, ["STATUS_DEAD", "FACTION_HOSTILE"]]
+  - type: STR_MEDAL_QUADKILL_NAME #killing four in a turn
+    description: STR_MEDAL_QUADKILL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_QUADKILL_1, STR_MEDAL_QUADKILL_2, STR_MEDAL_QUADKILL_3, STR_MEDAL_QUADKILL_4, STR_MEDAL_QUADKILL_5, STR_MEDAL_QUADKILL_6, STR_MEDAL_QUADKILL_7, STR_MEDAL_QUADKILL_8, STR_MEDAL_QUADKILL_9, STR_MEDAL_QUADKILL_10]
+    sprite: 5
+    criteria:
+      killsWithCriteriaTurn: [1, 2, 4, 8, 15, 30, 45, 60, 100, 200]
+    killCriteria:
+      -
+         - [4, ["STATUS_DEAD", "FACTION_HOSTILE"]]
+  - type: STR_MEDAL_7V7KILL_NAME #killing seven in a turn
+    description: STR_MEDAL_7V7KILL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_7V7KILL_1, STR_MEDAL_7V7KILL_2, STR_MEDAL_7V7KILL_3, STR_MEDAL_7V7KILL_4, STR_MEDAL_7V7KILL_5, STR_MEDAL_7V7KILL_6, STR_MEDAL_7V7KILL_7, STR_MEDAL_7V7KILL_8, STR_MEDAL_7V7KILL_9, STR_MEDAL_7V7KILL_10]
+    sprite: 1
+    criteria:
+      killsWithCriteriaTurn: [1, 2, 4, 8, 15, 30, 45, 60, 100, 200]
+    killCriteria:
+      -
+         - [7, ["STATUS_DEAD", "FACTION_HOSTILE"]]
+  - type: STR_MEDAL_MISSION_KILLS_5_NAME #Kill x number of foes in a mission (5)
+    description: STR_MEDAL_MISSION_KILLS_5_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_MISSION_KILLS_5_1, STR_MEDAL_MISSION_KILLS_5_2, STR_MEDAL_MISSION_KILLS_5_3, STR_MEDAL_MISSION_KILLS_5_4, STR_MEDAL_MISSION_KILLS_5_5, STR_MEDAL_MISSION_KILLS_5_6, STR_MEDAL_MISSION_KILLS_5_7, STR_MEDAL_MISSION_KILLS_5_8, STR_MEDAL_MISSION_KILLS_5_9, STR_MEDAL_MISSION_KILLS_5_10]
+    sprite: 3
+    criteria:
+      killsWithCriteriaMission: [1, 2, 4, 8, 15, 30, 45, 60, 100, 200]
+    killCriteria:
+      -
+         - [5, ["STATUS_DEAD", "FACTION_HOSTILE"]]
+  - type: STR_MEDAL_MISSION_KILLS_11_NAME #Kill x number of foes in a mission (11)
+    description: STR_MEDAL_MISSION_KILLS_11_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_MISSION_KILLS_11_1, STR_MEDAL_MISSION_KILLS_11_2, STR_MEDAL_MISSION_KILLS_11_3, STR_MEDAL_MISSION_KILLS_11_4, STR_MEDAL_MISSION_KILLS_11_5, STR_MEDAL_MISSION_KILLS_11_6, STR_MEDAL_MISSION_KILLS_11_7, STR_MEDAL_MISSION_KILLS_11_8, STR_MEDAL_MISSION_KILLS_11_9, STR_MEDAL_MISSION_KILLS_11_10]
+    sprite: 3
+    criteria:
+      killsWithCriteriaMission: [1, 2, 4, 8, 15, 30, 45, 60, 100, 200]
+    killCriteria:
+      -
+         - [11, ["STATUS_DEAD", "FACTION_HOSTILE"]]
+  - type: STR_MEDAL_WRESTLER_NAME #Stuns with Melee, non-Special
+    description: STR_MEDAL_WRESTLER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_WRESTLER_1, STR_MEDAL_WRESTLER_2, STR_MEDAL_WRESTLER_3, STR_MEDAL_WRESTLER_4, STR_MEDAL_WRESTLER_5, STR_MEDAL_WRESTLER_6, STR_MEDAL_WRESTLER_7, STR_MEDAL_WRESTLER_8, STR_MEDAL_WRESTLER_9, STR_MEDAL_WRESTLER_10]
+    sprite: 5
+    criteria:
+      killsWithCriteriaCareer: [20, 30, 40, 50, 75, 100, 150, 200, 350, 500]
+    killCriteria:
+      -
+         - [1, ["AUX_SAINT_FISTO", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_SAINT_FISTO", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [1, ["STR_KUNG_FU_ALT", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_KUNG_FU_ALT", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [1, ["AUX_FISTO", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["AUX_FISTO", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [1, ["STR_UNARMED_BASIC", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_UNARMED_BASIC", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [1, ["STR_UNARMED_WRESTLING", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_UNARMED_WRESTLING", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [1, ["STR_KUNG_FU", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_KUNG_FU", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+  - type: STR_MEDAL_SPECIALSTUN_NAME #Stuns with special
+    description: STR_MEDAL_SPECIALSTUN_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_COMMENDATED, STR_MEDAL_SPECIALSTUN_2, STR_MEDAL_SPECIALSTUN_3, STR_MEDAL_SPECIALSTUN_4, STR_MEDAL_SPECIALSTUN_4, STR_MEDAL_SPECIALSTUN_6, STR_MEDAL_SPECIALSTUN_6, STR_MEDAL_SPECIALSTUN_8, STR_MEDAL_SPECIALSTUN_9, STR_MEDAL_SPECIALSTUN_10]
+    sprite: 4
+    criteria:
+      killsWithCriteriaCareer: [5, 10, 20, 30, 50, 75, 100, 150, 200, 500]
+    killCriteria:
+      -
+         - [1, ["STR_SAKURA_STAFF", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [1, ["AUX_SEDUCTION", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [1, ["AUX_BAD_TOUCH", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [1, ["STR_WAND_HARTO", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [1, ["STR_SCROLL_PINK", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+  - type: STR_MEDAL_IDOL_NAME #3 Stuns per mission
+    description: STR_MEDAL_IDOL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_IDOL_1, STR_MEDAL_IDOL_2, STR_MEDAL_IDOL_3, STR_MEDAL_IDOL_4, STR_MEDAL_IDOL_5, STR_MEDAL_IDOL_6, STR_MEDAL_IDOL_7, STR_MEDAL_IDOL_8, STR_MEDAL_IDOL_9, STR_MEDAL_IDOL_10]
+    sprite: 4
+    criteria:
+      killsWithCriteriaMission: [1, 2, 4, 8, 15, 30, 45, 60, 100, 200]
+    killCriteria:
+      -
+         - [3, ["FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+  - type: STR_MEDAL_SUCCUBUS_NAME #6 Stuns with special / mission
+    description: STR_MEDAL_SUCCUBUS_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_SUCCUBUS_1, STR_MEDAL_SUCCUBUS_2, STR_MEDAL_SUCCUBUS_3, STR_MEDAL_SUCCUBUS_4, STR_MEDAL_SUCCUBUS_5, STR_MEDAL_SUCCUBUS_6, STR_MEDAL_SUCCUBUS_7, STR_MEDAL_SUCCUBUS_8, STR_MEDAL_SUCCUBUS_9, STR_MEDAL_SUCCUBUS_10]
+    sprite: 4
+    criteria:
+      killsWithCriteriaMission: [1, 2, 4, 8, 15, 30, 45, 60, 100, 200]
+    killCriteria:
+      -
+         - [6, ["STR_SAKURA_STAFF", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [6, ["AUX_SEDUCTION", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [6, ["AUX_BAD_TOUCH", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [6, ["STR_WAND_HARTO", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [6, ["STR_SCROLL_PINK", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+  - type: STR_MEDAL_VIPHUNTER_NAME #capturing Leaders and Commanders
+    description: STR_MEDAL_VIPHUNTER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_VIPHUNTER_1, STR_MEDAL_VIPHUNTER_2, STR_MEDAL_VIPHUNTER_3, STR_MEDAL_VIPHUNTER_4, STR_MEDAL_VIPHUNTER_5, STR_MEDAL_VIPHUNTER_6, STR_MEDAL_VIPHUNTER_7, STR_MEDAL_VIPHUNTER_8, STR_MEDAL_VIPHUNTER_9, STR_MEDAL_VIPHUNTER_10]
+    sprite: 2
+    criteria:
+      killsWithCriteriaCareer: [1, 2, 4, 7, 10, 15, 20, 30, 40, 50]
+    killCriteria:
+      -
+         - [1, ["STR_LIVE_LEADER", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [1, ["STR_LIVE_COMMANDER", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+  - type: STR_MEDAL_ATTITUDE_PROBLEM_NAME #kill Guild Team Leaders
+    description: STR_MEDAL_ATTITUDE_PROBLEM_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_ATTITUDE_PROBLEM]
+    sprite: 2
+    criteria:
+      killsWithCriteriaCareer: [7]
+    killCriteria:
+      -
+         - [1, ["STR_GUILD_TEAM_LEADER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_GUILD_LEADER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_DOTS_NAME #kill Provosts etc
+    description: STR_MEDAL_DOTS_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_DOTS]
+    sprite: 2
+    criteria:
+      killsWithCriteriaCareer: [3]
+    killCriteria:
+      -
+         - [1, ["STR_SECTOID_COMMANDER", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ACADEMY_COUNSELLOR", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_ACADEMY_SCIENTIST", "FACTION_HOSTILE", "STATUS_DEAD"]]
+  - type: STR_MEDAL_ROOMSERVICE_NAME #capture maids
+    description: STR_MEDAL_ROOMSERVICE_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_ROOMSERVICE]
+    sprite: 5
+    criteria:
+      killsWithCriteriaCareer: [10]
+    killCriteria:
+      -
+         - [1, ["STR_CHURCH_HANDMAID", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+      -
+         - [1, ["STR_CHURCH_MAIDEN", "FACTION_HOSTILE", "STATUS_UNCONSCIOUS"]]
+  - type: STR_MEDAL_UNMAGICA_NAME #kill Magical Girls
+    description: STR_MEDAL_UNMAGICA_DESCRIPTION
+    sprite: 0
+    criteria:
+      killsWithCriteriaCareer: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    killCriteria:
+      -
+         - [1, ["STR_MAGICAL_GIRL", "FACTION_HOSTILE", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MAGICAL_GIRL", "FACTION_PLAYER", "STATUS_DEAD"]]
+      -
+         - [1, ["STR_MAGICAL_GIRL", "FACTION_NEUTRAL", "STATUS_DEAD"]]
+  - type: STR_MEDAL_REACTIONFIRE_NAME #reaction fire instances
+    description: STR_MEDAL_REACTIONFIRE_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_REACTIONFIRE_1, STR_MEDAL_REACTIONFIRE_2, STR_MEDAL_REACTIONFIRE_3, STR_MEDAL_REACTIONFIRE_4, STR_MEDAL_REACTIONFIRE_5, STR_MEDAL_REACTIONFIRE_6, STR_MEDAL_REACTIONFIRE_7, STR_MEDAL_REACTIONFIRE_8, STR_MEDAL_REACTIONFIRE_9, STR_MEDAL_REACTIONFIRE_10]
+    sprite: 2
+    criteria:
+      totalReactionFire: [3, 5, 8, 11, 15, 20, 30, 45, 60, 75]
+  - type: STR_MEDAL_LUCKYSHOT_NAME #Low accuracy hits 
+    description: STR_MEDAL_LUCKYSHOT_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_LUCKYSHOT_1, STR_MEDAL_LUCKYSHOT_2, STR_MEDAL_LUCKYSHOT_3, STR_MEDAL_LUCKYSHOT_4, STR_MEDAL_LUCKYSHOT_5, STR_MEDAL_LUCKYSHOT_6, STR_MEDAL_LUCKYSHOT_7, STR_MEDAL_LUCKYSHOT_8, STR_MEDAL_LUCKYSHOT_9, STR_MEDAL_LUCKYSHOT_10]
+    sprite: 5
+    criteria:
+      totalLowAccuracyHits: [2, 3, 4, 5, 7, 10, 13, 20, 25, 30]
+  - type: STR_MEDAL_UNDERFIRE_NAME #Shot at 10x times (10 levels)
+    description: STR_MEDAL_UNDERFIRE_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_UNDERFIRE_1, STR_MEDAL_UNDERFIRE_2, STR_MEDAL_UNDERFIRE_3, STR_MEDAL_UNDERFIRE_4, STR_MEDAL_UNDERFIRE_5, STR_MEDAL_UNDERFIRE_6, STR_MEDAL_UNDERFIRE_7, STR_MEDAL_UNDERFIRE_8, STR_MEDAL_UNDERFIRE_9, STR_MEDAL_UNDERFIRE_10]
+    sprite: 5
+    criteria:
+      totalShotAt10Times: [1, 2, 3, 4, 5, 6, 8, 10, 12, 15]
+  - type: STR_MEDAL_MULTIPLEHITS_NAME #being hit
+    description: STR_MEDAL_MULTIPLEHITS_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_MULTIPLEHITS_1, STR_MEDAL_MULTIPLEHITS_2, STR_MEDAL_MULTIPLEHITS_3, STR_MEDAL_MULTIPLEHITS_4, STR_MEDAL_MULTIPLEHITS_5, STR_MEDAL_MULTIPLEHITS_6, STR_MEDAL_MULTIPLEHITS_7, STR_MEDAL_MULTIPLEHITS_8, STR_MEDAL_MULTIPLEHITS_9, STR_MEDAL_MULTIPLEHITS_10]
+    sprite: 5
+    criteria: 
+      totalHit5Times: [4, 5, 6, 8, 10, 12, 15, 20, 30, 50]
+  - type: STR_MEDAL_PURPLE_HEART_NAME #being wounded
+    description: STR_MEDAL_PURPLE_HEART_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_PURPLE_HEART_1, STR_MEDAL_PURPLE_HEART_2, STR_MEDAL_PURPLE_HEART_3, STR_MEDAL_PURPLE_HEART_4, STR_MEDAL_PURPLE_HEART_5, STR_MEDAL_PURPLE_HEART_6, STR_MEDAL_PURPLE_HEART_7, STR_MEDAL_PURPLE_HEART_8, STR_MEDAL_PURPLE_HEART_9, STR_MEDAL_PURPLE_HEART_10]
+    sprite: 1
+    criteria:
+      totalTimesWounded: [1, 2, 4, 7, 10, 15, 20, 30, 40, 50]
+  - type: STR_MEDAL_UNCONSCIOUS_NAME #"Smelling Salts": I've been knocked out 
+    description: STR_MEDAL_UNCONSCIOUS_DESCRIPTION
+    sprite: 4
+    criteria:
+      totalFellUnconcious: [1, 3, 6, 10, 15, 20, 30, 50, 75, 100]
+  - type: STR_MEDAL_CRIMSON_HEART_NAME #given for number of days wounded. 
+    soldierBonusTypes: [STR_MEDAL_CRIMSON_HEART_1, STR_MEDAL_CRIMSON_HEART_2, STR_MEDAL_CRIMSON_HEART_3, STR_MEDAL_CRIMSON_HEART_4, STR_MEDAL_CRIMSON_HEART_5, STR_MEDAL_CRIMSON_HEART_6, STR_MEDAL_CRIMSON_HEART_7, STR_MEDAL_CRIMSON_HEART_8, STR_MEDAL_CRIMSON_HEART_9, STR_MEDAL_CRIMSON_HEART_10]
+    description: STR_MEDAL_CRIMSON_HEART_DESCRIPTION
+    sprite: 1
+    criteria:
+      totalDaysWounded: [15, 30, 60, 100, 150, 200, 300, 500, 750, 1000]
+  - type: STR_MEDAL_HEALER_NAME  #Wounds healed
+    description: STR_MEDAL_HEALER_DESCRIPTION
+    sprite: 4
+    criteria:
+      totalWoundsHealed: [5, 6, 8, 10, 15, 20, 25, 30, 40, 50]
+  - type: STR_MEDAL_REVIVE_NAME #waking a comrade up
+    description: STR_MEDAL_REVIVE_DESCRIPTION
+    sprite: 4
+    criteria:
+      totalRevives: [1, 3, 10, 15, 25, 50, 75, 100, 150, 200]
+  - type: STR_MEDAL_FRIENDLYFIRE_NAME #Hit by Friendly fire.
+    description: STR_MEDAL_FRIENDLYFIRE_DESCRIPTION
+    sprite: 4
+    criteria:
+      totalFriendlyFired: [1, 3, 10, 15, 25, 50, 75, 100, 150, 200]
+  - type: STR_MEDAL_LONESURVIVOR_NAME #Lone survivor of any mission
+    description: STR_MEDAL_LONESURVIVOR_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_LONESURVIVOR_1, STR_MEDAL_LONESURVIVOR_2, STR_MEDAL_LONESURVIVOR_3, STR_MEDAL_LONESURVIVOR_4, STR_MEDAL_LONESURVIVOR_5, STR_MEDAL_LONESURVIVOR_6, STR_MEDAL_LONESURVIVOR_7, STR_MEDAL_LONESURVIVOR_8, STR_MEDAL_LONESURVIVOR_9, STR_MEDAL_LONESURVIVOR_10]
+    sprite: 2
+    criteria:
+      total_lone_survivor: [1, 2, 4, 8, 12, 20, 30, 50, 75, 100]
+  - type: STR_MEDAL_GLOBETROTTER_NAME #One mission in each region
+    description: STR_MEDAL_GLOBETROTTER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_GLOBETROTTER]
+    sprite: 5
+    criteria:
+      globeTrotter: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  - type: STR_MEDAL_SAVEDALL_NAME #All civilians in a Pogrom were saved
+    description: STR_MEDAL_SAVEDALL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_SAVEDALL_1, STR_MEDAL_SAVEDALL_2, STR_MEDAL_SAVEDALL_3, STR_MEDAL_SAVEDALL_4, STR_MEDAL_SAVEDALL_5, STR_MEDAL_SAVEDALL_6, STR_MEDAL_SAVEDALL_7, STR_MEDAL_SAVEDALL_8, STR_MEDAL_SAVEDALL_9, STR_MEDAL_SAVEDALL_10]
+    sprite: 4
+    criteria:
+      totalValientCrux: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  - type: STR_MEDAL_CIV_KILLS_NAME #Civvie kills
+    description: STR_MEDAL_CIV_KILLS_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_CIV_KILLS_1, STR_MEDAL_CIV_KILLS_2, STR_MEDAL_CIV_KILLS_3, STR_MEDAL_CIV_KILLS_4, STR_MEDAL_CIV_KILLS_5, STR_MEDAL_CIV_KILLS_6, STR_MEDAL_CIV_KILLS_7, STR_MEDAL_CIV_KILLS_8, STR_MEDAL_CIV_KILLS_9, STR_MEDAL_CIV_KILLS_10]
+    sprite: 3
+    criteria:
+      killsWithCriteriaCareer: [1, 2, 4, 8, 15, 30, 45, 60, 100, 200]
+    killCriteria:
+      -
+         - [1, ["STATUS_DEAD", "FACTION_NEUTRAL"]]
+  - type: STR_MEDAL_BETRAYER_NAME #Friendly Kills
+    description: STR_MEDAL_BETRAYER_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_BETRAYER_1, STR_MEDAL_BETRAYER_2, STR_MEDAL_BETRAYER_3, STR_MEDAL_BETRAYER_4, STR_MEDAL_BETRAYER_5, STR_MEDAL_BETRAYER_6, STR_MEDAL_BETRAYER_7, STR_MEDAL_BETRAYER_8, STR_MEDAL_BETRAYER_9, STR_MEDAL_BETRAYER_10]
+    sprite: 3
+    criteria:
+      killsWithCriteriaCareer: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    killCriteria:
+      -
+         - [1, ["STATUS_DEAD", "FACTION_PLAYER"]]
+  - type: STR_MEDAL_POSTMORTEM_KILL_NAME #Posthumous Award to troopss that dropped an enemy even after they fell in battle.  1-10
+    description: STR_MEDAL_POSTMORTEM_KILL_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_POSTMORTEM_KILL]
+    sprite: 1
+    criteria:
+      totalPostMortemKills: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  - type: STR_MEDAL_MIA_NAME #"Tattered Wanted Poster": missing in action
+    description: STR_MEDAL_MIA_DESCRIPTION
+    sprite: 4
+    criteria:
+      isMIA: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  - type: STR_MEDAL_FALLEN_NAME
+    description: STR_MEDAL_FALLEN_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_FALLEN]
+    sprite: 3
+    criteria:
+      isDead: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  - type: STR_MEDAL_FALLEN2_NAME
+    description: STR_MEDAL_FALLEN2_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_FALLEN2_1, STR_MEDAL_FALLEN2_2, STR_MEDAL_FALLEN2_3, STR_MEDAL_FALLEN2_4, STR_MEDAL_FALLEN2_5, STR_MEDAL_FALLEN2_6, STR_MEDAL_FALLEN2_7, STR_MEDAL_FALLEN2_8, STR_MEDAL_FALLEN2_9, STR_MEDAL_FALLEN2_10]
+    sprite: 3
+    criteria:
+      isDead: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  - type: STR_MEDAL_REVOLVINGDOOR_NAME
+    description: STR_MEDAL_REVOLVINGDOOR_DESCRIPTION
+    soldierBonusTypes: [STR_MEDAL_REVOLVINGDOOR_1, STR_MEDAL_REVOLVINGDOOR_2, STR_MEDAL_REVOLVINGDOOR_3, STR_MEDAL_REVOLVINGDOOR_4, STR_MEDAL_REVOLVINGDOOR_5, STR_MEDAL_REVOLVINGDOOR_6, STR_MEDAL_REVOLVINGDOOR_7, STR_MEDAL_REVOLVINGDOOR_8, STR_MEDAL_REVOLVINGDOOR_9, STR_MEDAL_REVOLVINGDOOR_10]
+    sprite: 3
+    criteria:
+      isDead: [13, 15, 18, 20, 25, 30, 35, 50, 70, 100]
+missionRatings:
+  2000: STR_MS_RATING_2000
+  1500: STR_MS_RATING_1500
+  1000: STR_MS_RATING_1000
+  750: STR_MS_RATING_750
+  500: STR_MS_RATING_500
+  300: STR_MS_RATING_300
+  150: STR_MS_RATING_150
+  75: STR_MS_RATING_75
+  -75: STR_MS_RATING_0
+  -250: STR_MS_RATING_BAD
+  -400: STR_MS_RATING_WORSE
+  -800: STR_MS_RATING_TERRIBLE
+  -10000: STR_MS_RATING_DISASTER
+monthlyRatings:
+  50000: STR_MT_RATING_50K
+  40000: STR_MT_RATING_40K
+  30000: STR_MT_RATING_30K
+  25000: STR_MT_RATING_25K
+  20000: STR_MT_RATING_20K
+  15000: STR_MT_RATING_15K
+  12000: STR_MT_RATING_12K
+  10000: STR_MT_RATING_10K
+  8000: STR_MT_RATING_8K
+  6000: STR_MT_RATING_6K
+  5000: STR_MT_RATING_5K
+  4000: STR_MT_RATING_4K
+  3000: STR_MT_RATING_3K
+  2000: STR_MT_RATING_2K
+  1500: STR_MT_RATING_1K5
+  1000: STR_MT_RATING_1K
+  600: STR_MT_RATING_600
+  300: STR_MT_RATING_300
+  -250: STR_MT_RATING_0
+  -1000: STR_MT_RATING_BAD
+  -100000: STR_MT_RATING_JOKE
+itemCategories:
+  - type: STR_BAT_CAT_AUX
+    listOrder: 10
+  - type: STR_BAT_CAT_TANK_AMMO
+    listOrder: 20
+  - type: STR_BAT_CAT_ONE_HANDED
+    listOrder: 90
+  - type: STR_BAT_CAT_TWO_HANDED
+    listOrder: 92
+  - type: STR_BAT_CAT_MELEE
+    listOrder: 100
+  - type: STR_BAT_CAT_AUTO_MELEE
+    listOrder: 110
+  - type: STR_BAT_CAT_THROWN
+    listOrder: 120
+  - type: STR_BAT_CAT_PISTOL
+    listOrder: 130
+  - type: STR_BAT_CAT_SHOTGUN
+    listOrder: 140
+  - type: STR_BAT_CAT_CARBINE
+    listOrder: 150
+  - type: STR_BAT_CAT_RIFLE
+    listOrder: 150
+  - type: STR_BAT_CAT_SNIPER
+    listOrder: 160
+  - type: STR_BAT_CAT_CHAINGUN
+    listOrder: 170
+  - type: STR_BAT_CAT_CANNON
+    listOrder: 180
+  - type: STR_BAT_CAT_GL
+    listOrder: 190
+  - type: STR_BAT_CAT_RL
+    listOrder: 200
+  - type: STR_BAT_CAT_GUIDED
+    listOrder: 210
+  - type: STR_BAT_CAT_GRENADE
+    listOrder: 250
+  - type: STR_BAT_CAT_PROXY
+    listOrder: 260
+  - type: STR_BAT_CAT_HEALING
+    listOrder: 310
+  - type: STR_BAT_CAT_STIM
+    listOrder: 320
+  - type: STR_BAT_CAT_MORALE
+    listOrder: 330
+  - type: STR_BAT_CAT_INTELLIGENCE
+    listOrder: 390
+  - type: STR_BAT_CAT_UTILITY
+    listOrder: 395
+  - type: STR_BAT_CAT_SHIELD
+    listOrder: 397
+  - type: STR_BAT_CAT_MAGIC
+    listOrder: 400
+  - type: STR_BAT_CAT_PIERCING
+    listOrder: 510
+  - type: STR_BAT_CAT_FIRE
+    listOrder: 520
+  - type: STR_BAT_CAT_CONCUSSIVE
+    listOrder: 530
+  - type: STR_BAT_CAT_EXPLOSIVE
+    listOrder: 531
+  - type: STR_BAT_CAT_HEAT
+    listOrder: 532
+  - type: STR_BAT_CAT_LASER
+    listOrder: 540
+  - type: STR_BAT_CAT_PLASMA
+    listOrder: 550
+  - type: STR_BAT_CAT_STUN
+    listOrder: 560
+  - type: STR_BAT_CAT_CUTTING
+    listOrder: 570
+  - type: STR_BAT_CAT_CHEM
+    listOrder: 580
+  - type: STR_BAT_CAT_CHOKE
+    listOrder: 590
+  - type: STR_BAT_CAT_POISON_GAS
+    listOrder: 591
+  - type: STR_BAT_CAT_SMOKE
+    listOrder: 599
+  - type: STR_BAT_CAT_SPECIAL
+    listOrder: 600
+  - type: STR_BAT_CAT_E511
+    listOrder: 610
+  - type: STR_BAT_CAT_BIO
+    listOrder: 620
+  - type: STR_BAT_CAT_EMP
+    listOrder: 630
+  - type: STR_BAT_CAT_ELECTRIC
+    listOrder: 640
+  - type: STR_BAT_CAT_WARP
+    listOrder: 650
+  - type: STR_BAT_CAT_MIND
+    listOrder: 660
+  - type: STR_BAT_CAT_FOREVER
+    listOrder: 890
+  - type: STR_BAT_CAT_PSI_ONLY
+    listOrder: 900
+  - type: STR_BAT_CAT_STUNWEAPON
+    listOrder: 901
+  - type: STR_BAT_CAT_MOSTLY_HARMLESS
+    listOrder: 905
+  - type: STR_BAT_CAT_INFILTRATION
+    listOrder: 910
+  - type: STR_BAT_CAT_STEALTHY
+    listOrder: 911
+  - type: STR_BAT_CAT_UNDERWATER
+    listOrder: 912
+  - type: STR_BAT_CAT_0G
+    listOrder: 913
+  - type: STR_BAT_CAT_DREAMWORLD
+    listOrder: 914
+  - type: STR_BAT_CAT_TREASURE
+    listOrder: 1000
+  - type: STR_BAT_CAT_ARMORS
+    listOrder: 1005
+  - type: STR_BAT_CAT_PEOPLE
+    listOrder: 1010
+  - type: STR_BAT_CAT_MONSTERS
+    listOrder: 1015
+  - type: STR_BAT_CAT_CORPSE
+    listOrder: 1018
+  - type: STR_BAT_CAT_RESOURCE
+    listOrder: 1020
+  - type: STR_BAT_CAT_COMPONENT
+    listOrder: 1030
+  - type: STR_BAT_CAT_MERCHANDISE
+    listOrder: 1035
+  - type: STR_BAT_CAT_DOCUMENT
+    listOrder: 1040
+  - type: STR_BAT_CAT_LIABILITIES
+    listOrder: 1900
+  - type: STR_BAT_CAT_MONEYMAKERS
+    listOrder: 1910
+  - type: STR_BAT_CAT_ARTIFACT
+    listOrder: 1999
+startingConditions:
+  - type: STR_STARCON_ACADEMY_CRUISE
+    allowedCraft:
+      - STR_JETBIKE
+      - STR_SABRE
+      - STR_BRAVE_WHALER
+      - STR_BARACUDA
+      - STR_RAIL_POD
+  - type: STR_STARCON_SPACE_FREIGHTER
+    allowedCraft:
+      - STR_FIRESTORM
+      - STR_DEVASTATOR
+      - STR_INTERCEPTOR
+      - STR_PREDATOR
+      - STR_NIGHTMARE
+      - STR_SABRE
+      - STR_BRAVE_WHALER
+      - STR_BARACUDA
+      - STR_LIGHTNING
+      - STR_HYDRA
+      - STR_CAPSULE
+  - type: STR_STARCON_NOLANDTANKS
+    defaultArmor: &SECTION_DEFAULT_ARMORS_NOTANKS
+      STR_SOLDIER: 
+        STR_PIR_NUDE_UC: 100
+      STR_SOLDIER_S:
+        STR_PIR_NUDE_UC: 100
+      STR_SOLDIER_M:
+        STR_PIR_NUDE_UC: 100
+      STR_SOLDIER_V:
+        STR_PIR_NUDE_UC: 100
+      STR_SOLDIER_X:
+        STR_PIR_NUDE_UC: 100
+      STR_SOLDIER_R:
+        STR_PIR_NUDE_UC: 100
+      STR_SOLDIER_W:
+        STR_PIR_NUDE_UC: 100
+      STR_SOLDIER_SLAVE:
+        STR_SLAVE_ARMOR_JUMPSUIT_UC: 100
+      STR_SOLDIER_HERO:
+        STR_SLAVE_ARMOR_JUMPSUIT_UC: 100
+      STR_SOLDIER_PEASANT:
+        STR_PEASANT_ARMOR_JUMPSUIT_UC: 100
+      STR_SOLDIER_HYBRID:
+        STR_HYBRID_THONG_UC: 100
+      STR_SOLDIER_LOKNAR:
+        STR_LOKNAR_UNARMORED_UC: 100
+      STR_SOLDIER_SYNTH:
+        STR_SYNTH_NUDE_A_UC: 100
+      STR_SOLDIER_GNOME:
+        STR_GNOME_DRESS_UC: 100
+      STR_SOLDIER_SPECTRE:
+        STR_PIR_SPECTRE_UC: 100
+      STR_SOLDIER_CHORT:
+        STR_CHORT_ARMOR_UC: 100
+      STR_SOLDIER_DOGE:
+        STR_DOGE_UNARMORED_UC: 100
+      STR_SOLDIER_BLOODOGE:
+        STR_BLOODOGE_UNARMORED_UC: 100
+    forbiddenArmors: &SECTION_ALLOWED_ARMORS_NOLANDTANKS
+      - STR_ACAR_2MG_ARMOR_UC
+      - STR_ACAR_HMG_ARMOR_UC
+      - STR_ACAR_AC25MM_ARMOR_UC
+      - STR_ACAR_AGL_ARMOR_UC
+      - STR_ACAR_RPG_ARMOR_UC
+      - STR_ACAR_105_RECOILLESS_ARMOR_UC
+      - STR_ACAR_FLAK_ARMOR_UC
+      - STR_ACAR_FLAMER_ARMOR_UC
+      - STR_ACAR_LASCANNON_ARMOR_UC
+      - STR_ACAR_GAUSS_CANNON_ARMOR_UC
+      - STR_ACAR_PLASMA_CANNON_ARMOR_UC
+      - STR_ACAR_HAVOK_ARMOR_UC
+      - STR_HOVERTANK_HAVOK_ARMOR_UC
+      - STR_TANKP_AUTOCANNON_ARMOR_UC
+      - STR_TANKP_BATTLECANNON_ARMOR_UC
+      - STR_TANKP_LASCANNON_ARMOR_UC
+      - STR_BOMBARD_ARMOR_UC
+      - STR_XEC_SCOUT_ARMOR_UC
+      - STR_XEC_TERMINATOR_ARMOR_UC
+      - STR_XEC_PALADIN_ARMOR_UC
+      - STR_XEC_LANCER_ARMOR_UC
+      - STR_XEC_ARMAGEDDON_ARMOR_UC
+      - STR_XEC_HAVOK_ARMOR_UC
+      - STR_XEC_ARCHER_ARMOR_UC
+      - STR_XEC_RETRIBUTOR_ARMOR_UC
+      - STR_XEC_EXORCIST_ARMOR_UC
+      - STR_BIKE_ARMOR_UC
+      - STR_QUAD_ARMOR_UC
+    allowedVehicles:
+      - STR_DOGE
+      - STR_BLOODOGE
+      - STR_WHITERABBIT
+      - STR_BLACK_CAT
+      - STR_PARROT
+      - STR_WEREDOGE
+      - STR_CYCLOPS_CONVERT
+      - STR_DOCTOR_X_VAMPIRE
+  - type: STR_STARCON_NOHEAVYARMOREXCEPTFLYING
+    defaultArmor: *SECTION_DEFAULT_ARMORS_NOTANKS
+    forbiddenArmors:
+      - STR_ACAR_2MG_ARMOR_UC
+      - STR_ACAR_HMG_ARMOR_UC
+      - STR_ACAR_AC25MM_ARMOR_UC
+      - STR_ACAR_AGL_ARMOR_UC
+      - STR_ACAR_RPG_ARMOR_UC
+      - STR_ACAR_105_RECOILLESS_ARMOR_UC
+      - STR_ACAR_FLAK_ARMOR_UC
+      - STR_ACAR_FLAMER_ARMOR_UC
+      - STR_ACAR_LASCANNON_ARMOR_UC
+      - STR_ACAR_GAUSS_CANNON_ARMOR_UC
+      - STR_ACAR_PLASMA_CANNON_ARMOR_UC
+      - STR_ACAR_HAVOK_ARMOR_UC
+      - STR_HOVERTANK_LASCANNON_ARMOR_UC
+      - STR_HOVERTANK_GAUSS_CANNON_ARMOR_UC
+      - STR_HOVERTANK_PLASMA_CANNON_ARMOR_UC
+      - STR_HOVERTANK_HAVOK_ARMOR_UC
+      - STR_TANKP_AUTOCANNON_ARMOR_UC
+      - STR_TANKP_BATTLECANNON_ARMOR_UC
+      - STR_TANKP_LASCANNON_ARMOR_UC
+      - STR_BOMBARD_ARMOR_UC
+      - STR_XEC_SCOUT_ARMOR_UC
+      - STR_XEC_TERMINATOR_ARMOR_UC
+      - STR_XEC_PALADIN_ARMOR_UC
+      - STR_XEC_LANCER_ARMOR_UC
+      - STR_XEC_ARMAGEDDON_ARMOR_UC
+      - STR_XEC_HAVOK_ARMOR_UC
+      - STR_XEC_ARCHER_ARMOR_UC
+      - STR_XEC_RETRIBUTOR_ARMOR_UC
+      - STR_XEC_EXORCIST_ARMOR_UC
+      - STR_BIKE_ARMOR_UC
+      - STR_QUAD_ARMOR_UC
+      - STR_COPTER_ARMOR_UC
+      - STR_TAC_FULL_ARMOR_UC
+      - STR_CHAIN_MAIL_A_UC
+      - STR_CHAIN_MAIL_UC
+      - STR_PLATE_MAIL_A_UC
+      - STR_PLATE_MAIL_UC
+      - STR_POWER_SUIT_WRECKED_UC
+      - STR_POWER_SUIT_UC
+      - STR_POWER_SUIT_ADV_UC
+      - STR_BIO_SUIT_ADV_UC
+      - STR_BIO_SUIT_NECRO_UC
+      - STR_BRUTE_ARMOR_UC
+      - STR_VAMPY_ROBE_UC
+      - STR_SLAYER_ARMOR_UC
+      - STR_GUARDIAN_UC
+      - STR_LOADER_ARMOR_UC
+      - STR_SLAVE_ARMOR_PIROMAN_A_UC
+      - STR_SLAVE_ARMOR_CRUSADER_A_UC
+      - STR_SLAVE_ARMOR_CRUSADER_UC
+      - STR_DEFENDER_SLAVE_UC
+      - STR_SLAVE_ARMOR_DEMOLISHER_UC
+      - STR_LOADER_ARMOR_SLAVE_UC
+      - STR_DEVASTATOR_ARMOR_SLAVE_UC
+      - STR_DEFENDER_PEASANT_UC
+      - STR_LOADER_ARMOR_PEASANT_UC
+      - STR_LOADER_ARMOR_HYBRID_UC
+      - STR_LOADER_ARMOR_GNOME_UC
+    allowedVehicles:
+      - STR_DOGE
+      - STR_BLOODOGE
+      - STR_WHITERABBIT
+      - STR_BLACK_CAT
+      - STR_WEREDOGE
+      - STR_CYCLOPS_CONVERT
+      - STR_DOCTOR_X_VAMPIRE
+  - type: STR_STARCON_UNDERGROUND
+    defaultArmor: *SECTION_DEFAULT_ARMORS_NOTANKS
+    forbiddenArmors: &SECTION_ALLOWED_ARMORS_NOTANKS
+      - STR_ACAR_2MG_ARMOR_UC
+      - STR_ACAR_HMG_ARMOR_UC
+      - STR_ACAR_AC25MM_ARMOR_UC
+      - STR_ACAR_AGL_ARMOR_UC
+      - STR_ACAR_RPG_ARMOR_UC
+      - STR_ACAR_105_RECOILLESS_ARMOR_UC
+      - STR_ACAR_FLAK_ARMOR_UC
+      - STR_ACAR_FLAMER_ARMOR_UC
+      - STR_ACAR_LASCANNON_ARMOR_UC
+      - STR_ACAR_GAUSS_CANNON_ARMOR_UC
+      - STR_ACAR_PLASMA_CANNON_ARMOR_UC
+      - STR_ACAR_HAVOK_ARMOR_UC
+      - STR_HOVERTANK_LASCANNON_ARMOR_UC
+      - STR_HOVERTANK_GAUSS_CANNON_ARMOR_UC
+      - STR_HOVERTANK_PLASMA_CANNON_ARMOR_UC
+      - STR_HOVERTANK_HAVOK_ARMOR_UC
+      - STR_TANKP_AUTOCANNON_ARMOR_UC
+      - STR_TANKP_BATTLECANNON_ARMOR_UC
+      - STR_TANKP_LASCANNON_ARMOR_UC
+      - STR_BOMBARD_ARMOR_UC
+      - STR_XEC_SCOUT_ARMOR_UC
+      - STR_XEC_TERMINATOR_ARMOR_UC
+      - STR_XEC_PALADIN_ARMOR_UC
+      - STR_XEC_LANCER_ARMOR_UC
+      - STR_XEC_ARMAGEDDON_ARMOR_UC
+      - STR_XEC_HAVOK_ARMOR_UC
+      - STR_XEC_ARCHER_ARMOR_UC
+      - STR_XEC_RETRIBUTOR_ARMOR_UC
+      - STR_XEC_EXORCIST_ARMOR_UC
+      - STR_BIKE_ARMOR_UC
+      - STR_QUAD_ARMOR_UC
+      - STR_COPTER_ARMOR_UC
+    allowedVehicles:
+      - STR_DOGE
+      - STR_BLOODOGE
+      - STR_WHITERABBIT
+      - STR_BLACK_CAT
+      - STR_WEREDOGE
+      - STR_CYCLOPS_CONVERT
+      - STR_DOCTOR_X_VAMPIRE
+  - type: STR_STARCON_UNDERGROUND_TIGHT
+    allowedSoldierTypes:
+      - STR_SOLDIER_LOKNAR
+      - STR_SOLDIER_GNOME
+      - STR_SOLDIER_SPECTRE
+      - STR_SOLDIER_DOGE
+      - STR_SOLDIER_CHORT
+    defaultArmor:
+      STR_SOLDIER_LOKNAR:
+        STR_LOKNAR_UNARMORED_UC: 100
+      STR_SOLDIER_GNOME:
+        STR_GNOME_NUDE_UC: 100
+      STR_SOLDIER_SPECTRE:
+        STR_PIR_SPECTRE_UC: 100
+      STR_SOLDIER_DOGE:
+        STR_DOGE_UNARMORED_UC: 100
+      STR_SOLDIER_CHORT:
+        STR_CHORT_ARMOR_UC: 100
+    allowedArmors:
+      - STR_LOKNAR_NUDE_UC
+      - STR_LOKNAR_UNARMORED_UC
+      - STR_LOKNAR_PET_UC
+      - STR_LOKNAR_FAKK_UC
+      - STR_LOKNAR_RATMEISTER_UC
+      - STR_LOKNAR_BANE_SUIT_UC
+      - STR_LOKNAR_CUMMISSAR_UC
+      - STR_LOKNAR_PUNK_UC
+      - STR_LOKNAR_COAT_UC
+      - STR_LOKNAR_SLAYER_UC
+      - STR_LOKNAR_SLAYER_S_UC
+      - STR_LOKNAR_ASSASSIN_UC
+      - STR_GNOME_NUDE_UC
+      - STR_GNOME_DRESS_UC
+      - STR_GNOME_EXPLORER_UC
+      - STR_PIR_SPECTRE_UC
+      - STR_DOGE_UNARMORED_UC
+      - STR_CHORT_ARMOR_UC
+      - BOXX_ARMOR
+    allowedVehicles:
+      - STR_DOGE
+      - STR_WHITERABBIT
+      - STR_BLACK_CAT
+  - type: STR_STARCON_SEA_SURFACE
+    defaultArmor: *SECTION_DEFAULT_ARMORS_NOTANKS
+    forbiddenArmors: *SECTION_ALLOWED_ARMORS_NOLANDTANKS
+    allowedVehicles:
+      - STR_DOGE
+      - STR_BLOODOGE
+      - STR_PARROT
+      - STR_WHITERABBIT
+      - STR_BLACK_CAT
+      - STR_ROBO_PARROT
+      - STR_DOCTOR_X_VAMPIRE
+    allowedCraft:
+      - STR_VENTURA
+      - STR_FUEGO
+      - STR_FORTUNA
+      - STR_METALLO
+      - STR_AIRSPEEDER
+      - STR_PIRANHA_AIRBIKE
+      - STR_JETBIKE
+      - STR_AIRCAR
+      - STR_AIRVAN
+      - STR_AIRBUS
+      - STR_GDXCAR
+      - STR_GOLDHAWK
+      - STR_SAKURABUS
+      - STR_WHITEWORM
+      - STR_SCARAB
+      - STR_MI2400
+      - STR_VERDANT_SNAKE
+      - STR_SAPPHIRE_JELLYFISH
+      - STR_SHADOWBAT
+      - STR_CHARIOT
+      - STR_FIRESTORM
+      - STR_SABRE
+      - STR_SWORDFISH
+      - STR_LIGHTNING
+      - STR_KRAKEN
+      - STR_HYDRA
+      - STR_RAIL_POD
+      - STR_FATSUB
+      - STR_TRITON
+      - STR_ZEPPELIN
+  - type: STR_STARCON_AIRCAR_RACE
+    allowedCraft:
+      - STR_PIRANHA_AIRBIKE
+      - STR_AIRSPEEDER
+      - STR_AIRCAR
+      - STR_AIRBUS
+      - STR_AIRVAN
+      - STR_GDXCAR
+      - STR_GOLDHAWK
+      - STR_SAKURABUS
+      - STR_WHITEWORM
+      - STR_SCARAB
+      - STR_VERDANT_SNAKE
+      - STR_SAPPHIRE_JELLYFISH
+      - STR_SHADOWBAT
+      - STR_FATSUB
+  - type: STR_STARCON_DISC_DUEL
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    defaultArmor:
+      STR_SOLDIER: 
+        BOXX_ARMOR: 100
+    allowedArmors:
+      - STR_GRAVBALL_OUTFIT_UC
+      - BOXX_ARMOR
+    allowedItems:
+      - STR_DAZZLING_DISC
+    allowedVehicles:
+      - STR_NONE
+    allowedCraft:
+      - STR_JETBIKE
+      - STR_SABRE
+      - STR_BRAVE_WHALER
+      - STR_BARACUDA
+      - STR_RAIL_POD
+  - type: STR_STARCON_PRISON
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_SOLDIER_S
+      - STR_SOLDIER_M
+      - STR_SOLDIER_V
+      - STR_SOLDIER_X
+      - STR_SOLDIER_R
+      - STR_SOLDIER_W
+      - STR_SOLDIER_S
+    defaultArmor:
+      STR_SOLDIER: 
+        STR_PIR_NUDE_UC: 40
+        STR_PIR_TOPLESS_UC: 20
+        STR_PIR_CASTAWAY_ARMOR_UC: 10
+        STR_RAGS_UC: 30
+        noChange: 0
+      STR_SOLDIER_S:
+        STR_PIR_NUDE_UC: 30
+        STR_PIR_TOPLESS_UC: 30
+        STR_PIR_CASTAWAY_ARMOR_UC: 20
+        STR_RAGS_UC: 20
+        noChange: 0
+      STR_SOLDIER_M:
+        STR_PIR_NUDE_UC: 20
+        STR_PIR_TOPLESS_UC: 30
+        STR_PIR_CASTAWAY_ARMOR_UC: 30
+        STR_RAGS_UC: 20
+        noChange: 0
+      STR_SOLDIER_V:
+        STR_PIR_NUDE_UC: 20
+        STR_PIR_TOPLESS_UC: 40
+        STR_PIR_CASTAWAY_ARMOR_UC: 40
+        noChange: 0
+      STR_SOLDIER_X:
+        STR_PIR_NUDE_UC: 35
+        STR_RAGS_UC: 35
+        STR_PIR_CHAINS_UC: 30
+        noChange: 0
+      STR_SOLDIER_R:
+        STR_PIR_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_W:
+        STR_PIR_TOPLESS_UC: 100
+        noChange: 0
+    allowedArmors:
+      - STR_PIR_TOPLESS_UC
+      - STR_PIR_NUDE_UC
+      - STR_RAGS_UC
+      - STR_PEASANT_ARMOR_SAINT_UC
+      - STR_SLAVE_ARMOR_SAINT_UC
+      - BOXX_ARMOR
+    allowedItems:
+      - STR_SHIV
+    allowedVehicles:
+      - STR_BLACK_CAT
+      - STR_DOCTOR_X_VAMPIRE
+    allowedCraft:
+      - STR_AIRBUS
+      - STR_AIRVAN
+      - STR_GDXCAR
+      - STR_RAIL_POD
+  - type: STR_STARCON_RETICULAN_DUNGEON
+    allowedSoldierTypes:
+      - STR_SOLDIER_PEASANT
+      - STR_SOLDIER_GNOME
+    defaultArmor:
+      STR_SOLDIER_PEASANT:
+        STR_PEASANT_BONDAGE_GEAR_UC: 100
+      STR_SOLDIER_GNOME:
+        STR_GNOME_NUDE_UC: 100
+    allowedArmors:
+      - STR_PEASANT_BONDAGE_GEAR_UC
+      - STR_PEASANT_ARMOR_SAINT_UC
+      - STR_GNOME_NUDE_UC
+    allowedItems:
+      - STR_NONE
+    allowedVehicles:
+      - STR_NONE
+    allowedCraft:
+      - STR_FUEGO
+      - STR_AIRSPEEDER
+      - STR_PIRANHA_AIRBIKE
+      - STR_JETBIKE
+      - STR_AIRCAR
+      - STR_AIRBUS
+      - STR_AIRVAN
+      - STR_GDXCAR
+      - STR_GOLDHAWK
+      - STR_SAKURABUS
+      - STR_WHITEWORM
+      - STR_SCARAB
+      - STR_MI2400
+      - STR_VERDANT_SNAKE
+      - STR_SAPPHIRE_JELLYFISH
+      - STR_SHADOWBAT
+      - STR_CHARIOT
+      - STR_FIRESTORM
+      - STR_DRAKKAR
+      - STR_DEVASTATOR
+      - STR_INTERCEPTOR
+      - STR_PREDATOR
+      - STR_NIGHTMARE
+      - STR_SABRE
+      - STR_BRAVE_WHALER
+      - STR_BARACUDA
+      - STR_SWORDFISH
+      - STR_LIGHTNING
+      - STR_KRAKEN
+      - STR_HYDRA
+      - STR_MINING_SHIP
+      - STR_RAIL_POD
+      - STR_FATSUB
+      - STR_PIGEON
+      - STR_CAPSULE
+      - STR_MI2400
+  - type: STR_STARCON_MOSTLY_HARMLESS
+    allowedItemCategories:
+      - STR_BAT_CAT_MOSTLY_HARMLESS
+      - STR_BAT_CAT_INTELLIGENCE
+      - STR_BAT_CAT_UTILITY
+      - STR_BAT_CAT_HEALING
+      - STR_BAT_CAT_STIM
+      - STR_BAT_CAT_MORALE
+      - STR_BAT_CAT_TREASURE
+    defaultArmor: *SECTION_DEFAULT_ARMORS_NOTANKS
+    forbiddenArmors: *SECTION_ALLOWED_ARMORS_NOTANKS
+    allowedVehicles:
+      - STR_DOGE
+      - STR_PARROT
+      - STR_WHITERABBIT
+      - STR_BLACK_CAT
+      - STR_ROBO_PARROT
+      - STR_DOCTOR_X_VAMPIRE
+  - type: STR_STARCON_PLAINCLOTHES_INFILTRATION
+    defaultArmor:
+      STR_SOLDIER: 
+        STR_PIR_CASTAWAY_ARMOR_UC: 100
+      STR_SOLDIER_S:
+        STR_PIR_CASTAWAY_ARMOR_UC: 100
+      STR_SOLDIER_M:
+        STR_PIR_CASTAWAY_ARMOR_UC: 100
+      STR_SOLDIER_V:
+        STR_PIR_CASTAWAY_ARMOR_UC: 100
+      STR_SOLDIER_X:
+        STR_PIR_CASTAWAY_ARMOR_UC: 100
+      STR_SOLDIER_R:
+        STR_PIR_CASTAWAY_ARMOR_UC: 100
+      STR_SOLDIER_W:
+        STR_MAGE_ROBE_UC: 100
+      STR_SOLDIER_SLAVE:
+        STR_SLAVE_PUNK_UC: 100
+      STR_SOLDIER_HERO:
+        STR_SLAVE_PUNK_UC: 100
+      STR_SOLDIER_PEASANT:
+        STR_PEASANT_ARMOR_DRESS_UC: 100
+      STR_SOLDIER_HYBRID:
+        STR_HYBRID_ADVISOR_UC: 100
+      STR_SOLDIER_LOKNAR:
+        STR_LOKNAR_UNARMORED_UC: 100
+      STR_SOLDIER_SYNTH:
+        STR_SYNTH_DANCER_UC: 100
+      STR_SOLDIER_GNOME:
+        STR_GNOME_DRESS_UC: 100
+      STR_SOLDIER_SPECTRE:
+        STR_PIR_SPECTRE_UC: 100
+      STR_SOLDIER_CHORT:
+        STR_CHORT_ARMOR_UC: 100
+      STR_SOLDIER_DOGE:
+        STR_DOGE_UNARMORED_UC: 100
+      STR_SOLDIER_BLOODOGE:
+        BOXX_ARMOR: 100
+    allowedArmors:
+      - STR_PIR_CASTAWAY_ARMOR_UC
+      - STR_BARBARIAN_FURS_UC
+      - STR_ADVENTURER_OUTFIT_UC
+      - STR_GANGER_OUTFIT_UC
+      - STR_PIR_ROBBER_UC
+      - STR_PIR_ROGUE_UC
+      - STR_PIR_SWASHBUCKLER_UC
+      - STR_CLOTHING_UC
+      - STR_SAILOR_UNIFORM_UC
+      - STR_RUNT_OUTFIT_UC
+      - STR_BRAINER_OUTFIT_UC
+      - STR_GYM_OUTFIT_UC
+      - STR_MEIDO_OUTFIT_UC
+      - STR_NURSE_OUTFIT_UC
+      - STR_NURSE_OUTFIT_ADV_UC
+      - STR_PIR_OFFICER_UC
+      - STR_STEALTH_ARMOR_UC
+      - STR_HOLOSUIT_UC
+      - STR_LINGERIE_SET_UC
+      - STR_THIEF_ARMOR_UC
+      - STR_MAGE_ROBE_UC
+      - STR_PIR_SPECTRE_UC
+      - STR_SLAVE_ARMOR_LOINCLOTH_UC
+      - STR_SLAVE_PUNK_UC
+      - STR_SLAVE_ARMOR_TUNIC_UC
+      - STR_SLAVE_ARMOR_JUMPSUIT_UC
+      - STR_SUPER_SLAVE_ARMOR_UC
+      - STR_GREEN_LIGHTER_ARMOR_UC
+      - STR_BAT_GLAD_ARMOR_UC
+      - STR_FLASH_BANG_ARMOR_UC
+      - STR_PEASANT_ARMOR_DRESS_UC
+      - STR_PEASANT_ARMOR_JUMPSUIT_UC
+      - STR_PEASANT_NURSE_OUTFIT_UC
+      - STR_HYBRID_ARMOR_JUMPSUIT_UC
+      - STR_HYBRID_ADVISOR_UC
+      - STR_LOKNAR_UNARMORED_UC  
+      - STR_LOKNAR_FAKK_UC
+      - STR_LOKNAR_COAT_UC  
+      - STR_LOKNAR_PUNK_UC  
+      - STR_LOKNAR_ASSASSIN_UC  
+      - STR_LOKNAR_BANE_SUIT_UC  
+      - STR_LOKNAR_CUMMISSAR_UC
+      - STR_SYNTH_DANCER_UC
+      - STR_SYNTH_PIR_STEALTHSUIT_UC
+      - STR_GNOME_DRESS_UC
+      - STR_QUAD_ARMOR_UC
+      - STR_ARMOR_SAINT_UC
+      - STR_PEASANT_ARMOR_SAINT_UC
+      - STR_SLAVE_ARMOR_SAINT_UC
+      - STR_DOGE_UNARMORED_UC
+      - STR_CHORT_ARMOR_UC
+      - BOXX_ARMOR
+    allowedItemCategories:
+      - STR_BAT_CAT_INFILTRATION
+    allowedVehicles:
+      - STR_PARROT
+      - STR_WHITERABBIT
+      - STR_BLACK_CAT
+      - STR_DOGE
+      - STR_ROBO_PARROT
+      - STR_DOCTOR_X_VAMPIRE
+  - type: STR_STARCON_NOHELMET_INFILTRATION_MAX6
+    defaultArmor: &SECTION_DEFAULT_ARMORS_NOHELMET
+      STR_SOLDIER: 
+        STR_PIR_TOPLESS_UC: 100
+      STR_SOLDIER_S:
+        STR_PIR_TOPLESS_UC: 100
+      STR_SOLDIER_M:
+        STR_PIR_TOPLESS_UC: 100
+      STR_SOLDIER_V:
+        STR_PIR_TOPLESS_UC: 100
+      STR_SOLDIER_X:
+        STR_PIR_TOPLESS_UC: 100
+      STR_SOLDIER_R:
+        STR_PIR_TOPLESS_UC: 100
+      STR_SOLDIER_W:
+        STR_PIR_TOPLESS_UC: 100
+      STR_SOLDIER_SLAVE:
+        STR_SLAVE_PUNK_UC: 100
+      STR_SOLDIER_HERO:
+        STR_SLAVE_PUNK_UC: 100
+      STR_SOLDIER_PEASANT:
+        STR_PEASANT_ARMOR_DRESS_UC: 100
+      STR_SOLDIER_HYBRID:
+        STR_HYBRID_ADVISOR_UC: 100
+      STR_SOLDIER_LOKNAR:
+        STR_LOKNAR_PUNK_UC: 100
+      STR_SOLDIER_SYNTH:
+        STR_SYNTH_DANCER_UC: 100
+      STR_SOLDIER_GNOME:
+        STR_GNOME_DRESS_UC: 100
+      STR_SOLDIER_SPECTRE:
+        STR_PIR_SPECTRE_UC: 100
+      STR_SOLDIER_CHORT:
+        STR_CHORT_ARMOR_UC: 100
+      STR_SOLDIER_DOGE:
+        STR_DOGE_UNARMORED_UC: 100
+      STR_SOLDIER_BLOODOGE:
+        STR_BLOODOGE_UNARMORED_UC: 100
+    allowedArmors: &SECTION_ALLOWED_ARMORS_NOHELMET
+      - STR_PIR_NUDE_UC
+      - STR_PIR_TOPLESS_UC
+      - STR_PIR_CASTAWAY_ARMOR_UC
+      - STR_BARBARIAN_FURS_UC
+      - STR_BARBARIAN_RAGS_UC
+      - STR_BARBARIAN_ARMOR_UC
+      - STR_SAVAGE_ARMOR_UC
+      - STR_RAGS_UC
+      - STR_PIR_CHAINS_UC
+      - STR_SCOUT_OUTFIT_UC
+      - STR_ADVENTURER_OUTFIT_UC
+      - STR_GANGER_OUTFIT_UC
+      - STR_SAILOR_UNIFORM_UC
+      - STR_PIR_ROGUE_UC
+      - STR_PIR_ROBBER_UC
+      - STR_PIR_SWASHBUCKLER_UC
+      - STR_CLOTHING_UC
+      - STR_RUNT_OUTFIT_UC
+      - STR_BRAINER_OUTFIT_UC
+      - STR_GYM_OUTFIT_UC
+      - STR_SWIMSUIT_UC
+      - STR_BIKINI_UC
+      - STR_NURSE_OUTFIT_UC
+      - STR_NURSE_OUTFIT_ADV_UC
+      - STR_AMAZON_ARMOR_UC
+      - STR_BERSERKER_ARMOR_UC
+      - STR_PIR_OFFICER_UC
+      - STR_SMOKEY_ARMOR_UC
+      - STR_SMOKEY_MK2_ARMOR_UC
+      - STR_THIEF_ARMOR_UC
+      - STR_CHILLER_UC
+      - STR_SCALE_MAIL_UC
+      - STR_BASIC_ARMOR_UC
+      - STR_CAMO_PAINT_UC
+      - STR_KEVLAR_ARMOR_UC
+      - STR_SNIPER_ARMOR_UC
+      - STR_TAC_VEST_UC
+      - STR_TAC_ARMOR_UC
+      - STR_LEATHER_ARMOR_UC
+      - STR_METAL_ARMOR_UC
+      - STR_GLITTER_ARMOR_UC
+      - STR_CHAIN_MAIL_UC
+      - STR_POWER_SUIT_WRECKED_UC
+      - STR_FLYING_SUIT_UC
+      - STR_LOOTED_RAIDER_BOSS_ARMOR_UC
+      - STR_REVENANT_ARMOR_UC
+      - STR_THEBAN_DRESS_UC
+      - STR_MAGE_ROBE_UC
+      - STR_VAMPY_ROBE_UC
+      - STR_PIR_SLAVE_ARMOR_UC
+      - STR_VOODOO_ARMOR_UC
+      - STR_SORCERESS_ARMOR_UC
+      - STR_STEALTH_ARMOR_UC
+      - STR_HOLOSUIT_UC
+      - STR_FORCE_ARMOR_UC
+      - STR_SWIFTSUIT_UC
+      - STR_BLITZ_ARMOR_UC
+      - STR_GRAVBALL_OUTFIT_UC
+      - STR_ARRANCAR_ARMOR_UC
+      - STR_ASSASSIN_UC
+      - STR_ASSAULT_UC
+      - STR_ASSAULT_2_UC
+      - STR_PIR_STORM_ARMOR_UC
+      - STR_DEFENDER_DMG_UC
+      - STR_DEFENDER_UC
+      - STR_GRAV_ARMOR_UC
+      - STR_CRYSTALISK_ARMOR_UC
+      - STR_NIGHT_OPS_ARMOR_UC
+      - STR_MEIDO_OUTFIT_UC
+      - STR_LINGERIE_SET_X_UC
+      - STR_LINGERIE_SET_UC
+      - STR_MAGICAL_GIRL_OUTFIT_UC
+      - STR_PIR_SPECTRE_UC
+      - STR_SLAVE_NUDE_UC
+      - STR_SLAVE_ARMOR_LOINCLOTH_UC
+      - STR_SLAVE_PUNK_UC
+      - STR_SLAVE_ARMOR_TUNIC_UC
+      - STR_SLAVE_ARMOR_PIROMAN_UC
+      - STR_SLAVE_ARMOR_CRUSADER_UC
+      - STR_SLAVE_ARMOR_PIRATE_UC
+      - STR_SLAVE_ARMOR_JUMPSUIT_UC
+      - STR_SLAVE_ARMOR_TAC_VEST_UC
+      - STR_DEFENDER_SLAVE_UC
+      - STR_SLAVE_ARMOR_OPERATOR_UC
+      - STR_SLAVE_ARMOR_GI_UC
+      - STR_SLAVE_DIVER_UC
+      - STR_SUPER_SLAVE_ARMOR_UC
+      - STR_GREEN_LIGHTER_ARMOR_UC
+      - STR_BAT_GLAD_ARMOR_UC
+      - STR_FLASH_BANG_ARMOR_UC
+      - STR_PILLOW_KNIGHT_UC
+      - STR_PEASANT_NUDE_UC
+      - STR_PEASANT_MUD_UC
+      - STR_PEASANT_ARMOR_DRESS_UC
+      - STR_PEASANT_ARMOR_HUNTER_UC
+      - STR_PEASANT_ARMOR_MILITIA_UC
+      - STR_PEASANT_ARMOR_JUMPSUIT_UC
+      - STR_TAC_VEST_PEASANT_UC
+      - STR_DEFENDER_PEASANT_UC
+      - STR_PEASANT_CAMO_UC
+      - STR_SWIMSUIT_PEASANT_UC
+      - STR_PEASANT_ARMOR_GLADIATRIX_UC
+      - STR_PEASANT_NURSE_OUTFIT_UC
+      - STR_PEASANT_ARMOR_RAVEN_UC
+      - STR_PEASANT_DIVER_UC
+      - STR_HYBRID_NUDE_UC
+      - STR_HYBRID_THONG_UC
+      - STR_HYBRID_ADVISOR_UC
+      - STR_HYBRID_ARMOR_JUMPSUIT_UC
+      - STR_HYBRID_TAC_VEST_UC
+      - STR_LOKNAR_NUDE_UC
+      - STR_LOKNAR_UNARMORED_UC
+      - STR_LOKNAR_PET_UC
+      - STR_LOKNAR_COAT_UC
+      - STR_LOKNAR_PUNK_UC
+      - STR_LOKNAR_SLAYER_UC
+      - STR_LOKNAR_FAKK_UC
+      - STR_LOKNAR_ASSASSIN_UC  
+      - STR_LOKNAR_RATMEISTER_UC
+      - STR_LOKNAR_BANE_SUIT_UC
+      - STR_LOKNAR_CUMMISSAR_UC
+      - STR_SYNTH_NUDE_A_UC
+      - STR_SYNTH_REFRACTOR_UC
+      - STR_SYNTH_REFRACTOR_A_UC
+      - STR_SYNTH_CHILLER_ARMOR_UC
+      - STR_SYNTH_CHILLER_ARMOR_A_UC
+      - STR_SYNTH_PIR_STEALTHSUIT_UC
+      - STR_SYNTH_DANCER_UC
+      - STR_GNOME_DRESS_UC
+      - STR_GNOME_EXPLORER_UC
+      - STR_ARMOR_SAINT_UC
+      - STR_PEASANT_ARMOR_SAINT_UC
+      - STR_SLAVE_ARMOR_SAINT_UC
+      - STR_CHORT_ARMOR_UC
+      - STR_DOGE_UNARMORED_UC
+      - STR_BLOODOGE_UNARMORED_UC
+    allowedItemCategories:
+      - STR_BAT_CAT_INFILTRATION
+    allowedVehicles: &SECTION_ALLOWED_VEHICLES_NOHELMET
+      - STR_DOGE
+      - STR_PARROT
+      - STR_WHITERABBIT
+      - STR_BLACK_CAT
+      - STR_BLOODOGE
+      - STR_ROBO_PARROT
+      - STR_DOCTOR_X_VAMPIRE
+    allowedCraft:
+      - STR_AIRSPEEDER
+      - STR_AIRCAR
+      - STR_AIRBUS
+      - STR_AIRVAN
+      - STR_GDXCAR
+      - STR_GOLDHAWK
+      - STR_SCARAB
+      - STR_VERDANT_SNAKE
+      - STR_JETBIKE
+      - STR_INTERCEPTOR
+      - STR_PREDATOR
+      - STR_NIGHTMARE
+      - STR_SABRE
+      - STR_BRAVE_WHALER
+      - STR_BARACUDA
+      - STR_SWORDFISH
+      - STR_LIGHTNING
+      - STR_RAIL_POD
+  - type: STR_STARCON_NOHELMET
+    defaultArmor: *SECTION_DEFAULT_ARMORS_NOHELMET
+    allowedArmors: *SECTION_ALLOWED_ARMORS_NOHELMET
+    allowedVehicles: *SECTION_ALLOWED_VEHICLES_NOHELMET
+  - type: STR_STARCON_CITY
+    defaultArmor:
+      STR_SOLDIER: 
+        BOXX_ARMOR: 100
+      STR_SOLDIER_S:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_M:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_V:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_X:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_R:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_W:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_SLAVE:
+        STR_SLAVE_PUNK_UC: 100
+      STR_SOLDIER_HERO:
+        STR_SLAVE_PUNK_UC: 100
+      STR_SOLDIER_PEASANT:
+        STR_PEASANT_ARMOR_DRESS_UC: 100
+      STR_SOLDIER_HYBRID:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_LOKNAR:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_SYNTH:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_GNOME:
+        STR_GNOME_DRESS_UC: 100
+      STR_SOLDIER_SPECTRE:
+        STR_PIR_SPECTRE_UC: 100
+      STR_SOLDIER_CHORT:
+        STR_CHORT_ARMOR_UC: 100
+      STR_SOLDIER_DOGE:
+        STR_DOGE_UNARMORED_UC: 100
+      STR_SOLDIER_BLOODOGE:
+        BOXX_ARMOR: 100
+    allowedArmors:
+      - STR_PIR_OFFICER_UC
+      - STR_SORCERESS_ARMOR_UC
+      - STR_STEALTH_ARMOR_UC
+      - STR_HOLOSUIT_UC
+      - STR_THIEF_ARMOR_UC
+      - STR_PIR_SLAVE_ARMOR_UC
+      - STR_PIR_SPECTRE_UC
+      - STR_SLAVE_ARMOR_LOINCLOTH_UC
+      - STR_SLAVE_PUNK_UC
+      - STR_SLAVE_ARMOR_TUNIC_UC
+      - STR_SLAVE_ARMOR_PIROMAN_UC
+      - STR_SLAVE_ARMOR_PIROMAN_A_UC
+      - STR_SLAVE_ARMOR_CRUSADER_UC
+      - STR_SLAVE_ARMOR_CRUSADER_A_UC
+      - STR_SLAVE_ARMOR_PIRATE_UC
+      - STR_SLAVE_ARMOR_OPERATOR_UC
+      - STR_SLAVE_ARMOR_GI_UC
+      - STR_SLAVE_ARMOR_JUMPSUIT_UC
+      - STR_SLAVE_ARMOR_TAC_VEST_UC
+      - STR_SUPER_SLAVE_ARMOR_UC
+      - STR_GREEN_LIGHTER_ARMOR_UC
+      - STR_BAT_GLAD_ARMOR_UC
+      - STR_FLASH_BANG_ARMOR_UC
+      - STR_PILLOW_KNIGHT_UC
+      - STR_SWIMSUIT_PEASANT_UC
+      - STR_PEASANT_ARMOR_DRESS_UC
+      - STR_PEASANT_ARMOR_HUNTER_UC
+      - STR_PEASANT_ARMOR_MILITIA_UC
+      - STR_PEASANT_ARMOR_JUMPSUIT_UC
+      - STR_PEASANT_ARMOR_GLADIATRIX_UC
+      - STR_PEASANT_NURSE_OUTFIT_UC
+      - STR_TAC_VEST_PEASANT_UC
+      - STR_LOKNAR_ASSASSIN_UC
+      - STR_LOKNAR_BANE_SUIT_UC
+      - STR_GNOME_DRESS_UC
+      - STR_ARMOR_SAINT_UC
+      - STR_PEASANT_ARMOR_SAINT_UC
+      - STR_SLAVE_ARMOR_SAINT_UC
+      - STR_QUAD_ARMOR_UC
+      - STR_DOGE_UNARMORED_UC
+      - STR_CHORT_ARMOR_UC
+      - BOXX_ARMOR
+    allowedVehicles:
+      - STR_DOGE
+      - STR_PARROT
+      - STR_WHITERABBIT
+      - STR_BLACK_CAT
+      - STR_ROBO_PARROT
+      - STR_DOCTOR_X_VAMPIRE
+  - type: STR_STARCON_CITY_STEALTH
+    defaultArmor:
+      STR_SOLDIER: 
+        BOXX_ARMOR: 100
+      STR_SOLDIER_S:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_M:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_V:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_X:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_R:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_W:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_SLAVE:
+        STR_SLAVE_PUNK_UC: 100
+      STR_SOLDIER_HERO:
+        STR_SLAVE_PUNK_UC: 100
+      STR_SOLDIER_PEASANT:
+        STR_PEASANT_ARMOR_DRESS_UC: 100
+      STR_SOLDIER_HYBRID:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_LOKNAR:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_SYNTH:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_GNOME:
+        STR_GNOME_DRESS_UC: 100
+      STR_SOLDIER_SPECTRE:
+        STR_PIR_SPECTRE_UC: 100
+      STR_SOLDIER_CHORT:
+        STR_CHORT_ARMOR_UC: 100
+      STR_SOLDIER_DOGE:
+        STR_DOGE_UNARMORED_UC: 100
+      STR_SOLDIER_BLOODOGE:
+        BOXX_ARMOR: 100
+    allowedArmors:
+      - STR_PIR_OFFICER_UC
+      - STR_SORCERESS_ARMOR_UC
+      - STR_STEALTH_ARMOR_UC
+      - STR_HOLOSUIT_UC
+      - STR_PIR_CHAINS_UC
+      - STR_PIR_SLAVE_ARMOR_UC
+      - STR_PIR_SPECTRE_UC
+      - STR_LOKNAR_PET_UC
+      - STR_LOKNAR_ASSASSIN_UC
+      - STR_LOKNAR_BANE_SUIT_UC
+      - STR_SLAVE_NUDE_UC
+      - STR_SLAVE_ARMOR_LOINCLOTH_UC
+      - STR_SLAVE_PUNK_UC
+      - STR_SLAVE_ARMOR_TUNIC_UC
+      - STR_SLAVE_ARMOR_PIRATE_UC
+      - STR_SLAVE_ARMOR_JUMPSUIT_UC
+      - STR_SUPER_SLAVE_ARMOR_UC
+      - STR_GREEN_LIGHTER_ARMOR_UC
+      - STR_BAT_GLAD_ARMOR_UC
+      - STR_FLASH_BANG_ARMOR_UC
+      - STR_SLAVE_DIVER_UC
+      - STR_PILLOW_KNIGHT_UC
+      - STR_PEASANT_NUDE_UC
+      - STR_PEASANT_MUD_UC
+      - STR_PEASANT_DIVER_UC
+      - STR_PEASANT_ARMOR_BIOAQUA_UC
+      - STR_SWIMSUIT_PEASANT_UC
+      - STR_PEASANT_ARMOR_DRESS_UC
+      - STR_PEASANT_ARMOR_HUNTER_UC
+      - STR_PEASANT_ARMOR_MILITIA_UC
+      - STR_PEASANT_ARMOR_JUMPSUIT_UC
+      - STR_PEASANT_ARMOR_GLADIATRIX_UC
+      - STR_PEASANT_NURSE_OUTFIT_UC
+      - STR_GNOME_NUDE_UC
+      - STR_GNOME_DRESS_UC
+      - STR_GNOME_EXPLORER_UC
+      - STR_ARMOR_SAINT_UC
+      - STR_PEASANT_ARMOR_SAINT_UC
+      - STR_SLAVE_ARMOR_SAINT_UC
+      - STR_CHORT_ARMOR_UC
+      - STR_DOGE_UNARMORED_UC
+      - BOXX_ARMOR
+    allowedVehicles:
+      - STR_DOGE
+      - STR_PARROT
+      - STR_WHITERABBIT
+      - STR_BLACK_CAT
+      - STR_ROBO_PARROT
+      - STR_DOCTOR_X_VAMPIRE
+    allowedItemCategories:
+      - STR_BAT_CAT_STEALTHY
+  - type: STR_STARCON_EMANSION
+    defaultArmor:
+      STR_SOLDIER: 
+        STR_MEIDO_OUTFIT_UC: 100
+      STR_SOLDIER_S:
+        STR_MEIDO_OUTFIT_UC: 100
+      STR_SOLDIER_M:
+        STR_MEIDO_OUTFIT_UC: 100
+      STR_SOLDIER_V:
+        STR_MEIDO_OUTFIT_UC: 100
+      STR_SOLDIER_X:
+        STR_MEIDO_OUTFIT_UC: 100
+      STR_SOLDIER_R:
+        STR_MEIDO_OUTFIT_UC: 100
+      STR_SOLDIER_W:
+        STR_MAGE_ROBE_UC: 100
+      STR_SOLDIER_SLAVE:
+        STR_SLAVE_ARMOR_LOINCLOTH_UC: 100
+      STR_SOLDIER_HERO:
+        STR_SLAVE_ARMOR_LOINCLOTH_UC: 100
+      STR_SOLDIER_PEASANT:
+        STR_PEASANT_ARMOR_DRESS_UC: 100
+      STR_SOLDIER_HYBRID:
+        STR_HYBRID_ADVISOR_UC: 100
+      STR_SOLDIER_LOKNAR:
+        STR_LOKNAR_PET_UC: 100
+      STR_SOLDIER_GNOME:
+        STR_GNOME_DRESS_UC: 100
+      STR_SOLDIER_SYNTH:
+        STR_SYNTH_DANCER_UC: 100
+      STR_SOLDIER_SPECTRE:
+        STR_PIR_SPECTRE_UC: 100
+      STR_SOLDIER_CHORT:
+        STR_CHORT_ARMOR_UC: 100
+      STR_SOLDIER_DOGE:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_BLOODOGE:
+        BOXX_ARMOR: 100
+    allowedArmors:
+      - STR_MEIDO_OUTFIT_UC
+      - STR_NURSE_OUTFIT_UC
+      - STR_NURSE_OUTFIT_ADV_UC
+      - STR_PIR_OFFICER_UC
+      - STR_MAGE_ROBE_UC
+      - STR_VAMPY_ROBE_UC
+      - STR_SORCERESS_ARMOR_UC
+      - STR_VOODOO_ARMOR_UC
+      - STR_STEALTH_ARMOR_UC
+      - STR_HOLOSUIT_UC
+      - STR_INFERNA_ARMOR_UC
+      - STR_ARRANCAR_ARMOR_UC
+      - STR_LINGERIE_SET_X_UC
+      - STR_LINGERIE_SET_UC
+      - STR_MAGICAL_GIRL_OUTFIT_UC
+      - STR_THIEF_ARMOR_UC
+      - STR_THEBAN_DRESS_UC
+      - STR_PIR_SLAVE_ARMOR_UC
+      - STR_PIR_SPECTRE_UC
+      - STR_SLAVE_ARMOR_LOINCLOTH_UC
+      - STR_SUPER_SLAVE_ARMOR_UC
+      - STR_GREEN_LIGHTER_ARMOR_UC
+      - STR_BAT_GLAD_ARMOR_UC
+      - STR_FLASH_BANG_ARMOR_UC
+      - STR_SWIMSUIT_PEASANT_UC
+      - STR_PEASANT_ARMOR_GLADIATRIX_UC
+      - STR_PEASANT_ARMOR_DRESS_UC
+      - STR_PEASANT_NURSE_OUTFIT_UC
+      - STR_HYBRID_ADVISOR_UC
+      - STR_LOKNAR_PET_UC
+      - STR_LOKNAR_ASSASSIN_UC  
+      - STR_LOKNAR_BANE_SUIT_UC  
+      - STR_SYNTH_DANCER_UC
+      - STR_SYNTH_PIR_STEALTHSUIT_UC
+      - STR_GNOME_DRESS_UC
+      - STR_ARMOR_SAINT_UC
+      - STR_PEASANT_ARMOR_SAINT_UC
+      - STR_SLAVE_ARMOR_SAINT_UC
+      - STR_CHORT_ARMOR_UC
+      - BOXX_ARMOR
+    allowedItemCategories:
+      - STR_BAT_CAT_INFILTRATION
+    allowedVehicles:
+      - STR_PARROT
+      - STR_WHITERABBIT
+      - STR_BLACK_CAT
+      - STR_ROBO_PARROT
+      - STR_DOCTOR_X_VAMPIRE
+    allowedCraft:
+      - STR_AIRBUS
+      - STR_AIRCAR
+      - STR_AIRSPEEDER
+      - STR_AIRVAN
+      - STR_GDXCAR
+      - STR_GOLDHAWK
+      - STR_SAKURABUS
+      - STR_MI2400
+      - STR_VERDANT_SNAKE
+      - STR_SHADOWBAT
+      - STR_VENTURA
+      - STR_FORTUNA
+      - STR_FUEGO
+      - STR_METALLO
+      - STR_DROPSHIP
+      - STR_JETBIKE
+      - STR_CHARIOT
+      - STR_FIRESTORM
+      - STR_DRAKKAR
+      - STR_DEVASTATOR
+      - STR_INTERCEPTOR
+      - STR_PREDATOR
+      - STR_NIGHTMARE
+      - STR_SABRE
+      - STR_BRAVE_WHALER
+      - STR_BARACUDA
+      - STR_SWORDFISH
+      - STR_LIGHTNING
+      - STR_HYDRA
+      - STR_KRAKEN
+      - STR_TRITON
+      - STR_ZEPPELIN
+      - STR_RAIL_POD
+  - type: STR_STARCON_SHADOWLANDS_1
+    defaultArmor:
+      STR_SOLDIER:
+        STR_PIR_NUDE_DREAMLAND_UC: 100
+      STR_SOLDIER_S:
+        STR_PIR_NUDE_DREAMLAND_UC: 100
+      STR_SOLDIER_M:
+        STR_PIR_NUDE_DREAMLAND_UC: 100
+      STR_SOLDIER_V:
+        STR_PIR_NUDE_DREAMLAND_UC: 100
+      STR_SOLDIER_X:
+        STR_PIR_NUDE_DREAMLAND_UC: 100
+      STR_SOLDIER_R:
+        STR_PIR_NUDE_DREAMLAND_UC: 100
+      STR_SOLDIER_W:
+        STR_PIR_NUDE_DREAMLAND_UC: 100
+      STR_SOLDIER_SLAVE:
+        STR_SLAVE_NUDE_DREAMLAND_UC: 100
+      STR_SOLDIER_HERO:
+        STR_SLAVE_NUDE_DREAMLAND_UC: 100
+      STR_SOLDIER_PEASANT:
+        STR_PEASANT_NUDE_DREAMLAND_UC: 100
+      STR_SOLDIER_HYBRID:
+        STR_HYBRID_NUDE_DREAMLAND_UC: 100
+      STR_SOLDIER_LOKNAR:
+        STR_LOKNAR_NUDE_DREAMLAND_UC: 100
+      STR_SOLDIER_SYNTH:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_GNOME:
+        STR_GNOME_NUDE_DREAMLAND_UC: 100
+      STR_SOLDIER_SPECTRE:
+        STR_PIR_SPECTRE_UC: 100
+      STR_SOLDIER_CHORT:
+        STR_CHORT_ARMOR_UC: 100
+      STR_SOLDIER_DOGE:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_BLOODOGE:
+        BOXX_ARMOR: 100
+    allowedArmors:
+      - STR_PIR_NUDE_DREAMLAND_UC
+      - STR_SLAVE_NUDE_DREAMLAND_UC
+      - STR_PILLOW_KNIGHT_UC
+      - STR_PEASANT_NUDE_DREAMLAND_UC
+      - STR_HYBRID_NUDE_DREAMLAND_UC
+      - STR_LOKNAR_NUDE_DREAMLAND_UC
+      - STR_ARMOR_SAINT_UC
+      - STR_PEASANT_ARMOR_SAINT_UC
+      - STR_SLAVE_ARMOR_SAINT_UC
+      - STR_PIR_SPECTRE_UC
+      - STR_CHORT_ARMOR_UC
+      - BOXX_ARMOR
+    allowedItemCategories:
+      - STR_BAT_CAT_DREAMWORLD
+    allowedVehicles:
+      - STR_WHITERABBIT
+      - STR_BLACK_CAT
+      - STR_DOCTOR_X_VAMPIRE
+    allowedCraft:
+      - STR_AIRCAR
+      - STR_AIRVAN
+      - STR_AIRBUS
+      - STR_GDXCAR
+      - STR_GOLDHAWK
+      - STR_SAKURABUS
+      - STR_WHITEWORM
+      - STR_SCARAB
+      - STR_MI2400
+      - STR_VERDANT_SNAKE
+      - STR_SAPPHIRE_JELLYFISH
+      - STR_SHADOWBAT
+      - STR_FATSUB
+      - STR_TRITON
+      - STR_RAIL_POD
+      - STR_SKYRANGER
+      - STR_PIGEON
+      - STR_ZEPPELIN
+      - STR_CONVOY
+      - STR_EXPEDITION
+      - STR_BIKES
+  - type: STR_STARCON_SEA
+    defaultArmor:
+      STR_SOLDIER:
+        STR_TOPLESS_SEA_UC: 100
+      STR_SOLDIER_S:
+        STR_TOPLESS_SEA_UC: 100
+      STR_SOLDIER_M:
+        STR_TOPLESS_SEA_UC: 100
+      STR_SOLDIER_V:
+        STR_TOPLESS_SEA_UC: 100
+      STR_SOLDIER_X:
+        STR_TOPLESS_SEA_UC: 100
+      STR_SOLDIER_R:
+        STR_TOPLESS_SEA_UC: 100
+      STR_SOLDIER_W:
+        STR_TOPLESS_SEA_UC: 100
+      STR_SOLDIER_SLAVE:
+        STR_SLAVE_NUDE_SEA_UC: 100
+      STR_SOLDIER_HERO:
+        STR_SLAVE_NUDE_SEA_UC: 100
+      STR_SOLDIER_PEASANT:
+        STR_PEASANT_NUDE_SEA_UC: 100
+      STR_SOLDIER_HYBRID:
+        STR_HYBRID_THONG_SEA_UC: 100
+      STR_SOLDIER_LOKNAR:
+        STR_LOKNAR_UNARMORED_SEA_UC: 100
+      STR_SOLDIER_SYNTH:
+        STR_SYNTH_NUDE_SEA_UC: 100
+      STR_SOLDIER_GNOME:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_SPECTRE:
+        STR_PIR_SPECTRE_UC: 100
+      STR_SOLDIER_CHORT:
+        STR_CHORT_ARMOR_UC: 100
+      STR_SOLDIER_DOGE:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_BLOODOGE:
+        BOXX_ARMOR: 100
+    allowedArmors:
+      - STR_PIR_NUDE_SEA_UC
+      - STR_TOPLESS_SEA_UC
+      - STR_SWIMSUIT_SEA_UC
+      - STR_BIKINI_SEA_UC
+      - STR_AMAZON_ARMOR_SEA_UC
+      - STR_BRAINER_OUTFIT_SEA_UC
+      - STR_THIEF_ARMOR_SEA_UC
+      - STR_CHILLER_SEA_UC
+      - STR_SPACE_SUIT_SEA_UC
+      - STR_POWER_SUIT_ADV_EVA_SEA_UC
+      - STR_DEMONIC_ARMOR_SEA_UC
+      - STR_INFERNA_ARMOR_SEA_UC
+      - STR_BIO_SUIT_ADV_SEA_UC
+      - STR_BIO_SUIT_NECRO_SEA_UC
+      - STR_ANNIHILATOR_ARMOR_SEA_UC
+      - STR_SORCERESS_ARMOR_SEA_UC
+      - STR_THEBAN_DRESS_SEA_UC
+      - STR_STEALTH_ARMOR_SEA_UC
+      - STR_SWIFTSUIT_SEA_UC
+      - STR_BLITZ_ARMOR_SEA_UC
+      - STR_CRYSTALISK_ARMOR_SEA_UC
+      - STR_LOADER_ARMOR_SEA_UC
+      - STR_MAGICAL_GIRL_OUTFIT_SEA_UC
+      - STR_PIR_SPECTRE_UC
+      - STR_SLAVE_NUDE_SEA_UC
+      - STR_SLAVE_ARMOR_LOINCLOTH_SEA_UC
+      - STR_SLAVE_DIVER_SEA_UC
+      - STR_SLAVE_SPACE_SUIT_SEA_UC
+      - STR_LOADER_ARMOR_SLAVE_SEA_UC
+      - STR_DEVASTATOR_ARMOR_SLAVE_SEA_UC
+      - STR_PEASANT_NUDE_SEA_UC
+      - STR_SWIMSUIT_PEASANT_SEA_UC
+      - STR_PEASANT_DIVER_SEA_UC
+      - STR_PEASANT_SPACE_SUIT_SEA_UC
+      - STR_PEASANT_ARMOR_BIOAQUA_SEA_UC
+      - STR_LOADER_ARMOR_PEASANT_SEA_UC
+      - STR_HYBRID_NUDE_SEA_UC
+      - STR_HYBRID_THONG_SEA_UC
+      - STR_HYBRID_SPACE_SUIT_SEA_UC
+      - STR_LOADER_ARMOR_HYBRID_SEA_UC
+      - STR_LOKNAR_NUDE_SEA_UC
+      - STR_LOKNAR_UNARMORED_SEA_UC
+      - STR_SPACE_SUIT_LOKNAR_SEA_UC
+      - STR_SHADOW_ARMOR_LOKNAR_SEA_UC
+      - STR_SYNTH_NUDE_SEA_UC
+      - STR_SYNTH_CHILLER_ARMOR_SEA_UC
+      - STR_SYNTH_SPACE_SUIT_SEA_UC
+      - STR_SYNTH_JUGULATOR_ARMOR_SEA_UC
+      - STR_LOADER_ARMOR_GNOME_SEA_UC
+      - STR_GNOME_EXPLORER_SEA_UC
+      - STR_ARMOR_SAINT_UC
+      - STR_PEASANT_ARMOR_SAINT_UC
+      - STR_SLAVE_ARMOR_SAINT_UC
+      - STR_CHORT_ARMOR_UC
+      - BOXX_ARMOR
+    allowedItemCategories:
+      - STR_BAT_CAT_UNDERWATER
+    allowedVehicles:
+      - STR_DOCTOR_X_VAMPIRE
+    allowedCraft:
+      - STR_GDXCAR
+      - STR_SAKURABUS
+      - STR_WHITEWORM
+      - STR_VERDANT_SNAKE
+      - STR_SAPPHIRE_JELLYFISH
+      - STR_VENTURA
+      - STR_FORTUNA
+      - STR_FUEGO
+      - STR_METALLO
+      - STR_FIRESTORM
+      - STR_DRAKKAR
+      - STR_BRIG
+      - STR_LIGHTNING
+      - STR_HYDRA
+      - STR_KRAKEN
+      - STR_MINING_SHIP
+      - STR_FATSUB
+      - STR_TRITON
+      - STR_AVENGER
+      - STR_EXPEDITION
+  - type: STR_STARCON_SPACE
+    defaultArmor:
+      STR_SOLDIER:
+        STR_SPACE_POD_UC: 100
+      STR_SOLDIER_S:
+        STR_SPACE_POD_UC: 100
+      STR_SOLDIER_M:
+        STR_SPACE_POD_UC: 100
+      STR_SOLDIER_V:
+        STR_SPACE_POD_UC: 100
+      STR_SOLDIER_X:
+        STR_SPACE_POD_UC: 100
+      STR_SOLDIER_R:
+        STR_SPACE_POD_UC: 100
+      STR_SOLDIER_W:
+        STR_SPACE_POD_UC: 100
+      STR_SOLDIER_SLAVE:
+        STR_SPACE_POD_SLAVE_UC: 100
+      STR_SOLDIER_HERO:
+        STR_SPACE_POD_SLAVE_UC: 100
+      STR_SOLDIER_PEASANT:
+        STR_SPACE_POD_PEASANT_UC: 100
+      STR_SOLDIER_LOKNAR:
+        STR_SPACE_POD_LOKNAR_UC: 100
+      STR_SOLDIER_HYBRID:
+        STR_SPACE_POD_HYBRID_UC: 100
+      STR_SOLDIER_SYNTH:
+        STR_SYNTH_NUDE_A_SPACE_UC: 100
+      STR_SOLDIER_GNOME:
+        STR_SPACE_POD_GNOME_UC: 100
+      STR_SOLDIER_SPECTRE:
+        STR_PIR_SPECTRE_UC: 100
+      STR_SOLDIER_CHORT:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_DOGE:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_BLOODOGE:
+        BOXX_ARMOR: 100
+    allowedArmors:
+      - STR_SPACE_POD_UC
+      - STR_SPACE_SUIT_SPACE_UC
+      - STR_IRONMAN_ARMOR_SPACE_UC
+      - STR_ANNIHILATOR_ARMOR_SPACE_UC
+      - STR_SORCERESS_ARMOR_SPACE_UC
+      - STR_PIR_SPECTRE_UC
+      - STR_SPACE_POD_SLAVE_UC
+      - STR_SLAVE_SPACE_SUIT_SPACE_UC
+      - STR_SPACE_POD_PEASANT_UC
+      - STR_PEASANT_SPACE_SUIT_SPACE_UC
+      - STR_SPACE_POD_LOKNAR_UC
+      - STR_SPACE_SUIT_LOKNAR_SPACE_UC
+      - STR_SHADOW_ARMOR_LOKNAR_SPACE_UC
+      - STR_SPACE_POD_HYBRID_UC
+      - STR_HYBRID_SPACE_SUIT_SPACE_UC
+      - STR_SYNTH_NUDE_A_SPACE_UC
+      - STR_SYNTH_REFRACTOR_A_SPACE_UC
+      - STR_SYNTH_REFRACTOR_A_SPACE_UC
+      - STR_SYNTH_CHILLER_ARMOR_A_SPACE_UC
+      - STR_SYNTH_CHILLER_ARMOR_A_SPACE_UC
+      - STR_SYNTH_SPACE_SUIT_SPACE_UC
+      - STR_SYNTH_JUGULATOR_ARMOR_SPACE_UC
+      - STR_SPACE_POD_GNOME_UC
+      - STR_ARMOR_SAINT_UC
+      - STR_PEASANT_ARMOR_SAINT_UC
+      - STR_SLAVE_ARMOR_SAINT_UC
+      - STR_HOVERTANK_LASCANNON_ARMOR_UC
+      - STR_HOVERTANK_LASCANNON_ARMOR_UC
+      - STR_HOVERTANK_GAUSS_CANNON_ARMOR_UC
+      - STR_HOVERTANK_PLASMA_CANNON_ARMOR_UC
+      - STR_HOVERTANK_HAVOK_ARMOR_UC
+      - BOXX_ARMOR
+    allowedItemCategories:
+      - STR_BAT_CAT_0G
+    allowedVehicles:
+      - STR_LOOTED_CYBERDISC_ROCKET
+      - STR_LOOTED_CYBERDISC_LASER
+      - STR_LOOTED_CYBERDISC_PLASMA
+      - STR_HWP_SENTRY_SPIKE
+    allowedCraft:
+      - STR_FORTUNA
+      - STR_CHARIOT
+      - STR_FIRESTORM
+      - STR_DEVASTATOR
+      - STR_INTERCEPTOR
+      - STR_PREDATOR
+      - STR_NIGHTMARE
+      - STR_SABRE
+      - STR_BRAVE_WHALER
+      - STR_BARACUDA
+      - STR_SWORDFISH
+      - STR_LIGHTNING
+      - STR_HYDRA
+      - STR_KRAKEN
+      - STR_MINING_SHIP
+      - STR_CAPSULE
+      - STR_AVENGER
+  - type: STR_STARCON_EXO
+    defaultArmor:
+      STR_SOLDIER:
+        STR_SPACE_SUIT_UC: 100
+      STR_SOLDIER_S:
+        STR_SPACE_SUIT_UC: 100
+      STR_SOLDIER_M:
+        STR_SPACE_SUIT_UC: 100
+      STR_SOLDIER_V:
+        STR_SPACE_SUIT_UC: 100
+      STR_SOLDIER_X:
+        STR_SPACE_SUIT_UC: 100
+      STR_SOLDIER_R:
+        STR_SPACE_SUIT_UC: 100
+      STR_SOLDIER_W:
+        STR_SPACE_SUIT_UC: 100
+      STR_SOLDIER_SLAVE:
+        STR_SLAVE_SPACE_SUIT_UC: 100
+      STR_SOLDIER_HERO:
+        STR_SLAVE_SPACE_SUIT_UC: 100
+      STR_SOLDIER_PEASANT:
+        STR_PEASANT_SPACE_SUIT_UC: 100
+      STR_SOLDIER_HYBRID:
+        STR_HYBRID_SPACE_SUIT_UC: 100
+      STR_SOLDIER_LOKNAR:
+        STR_SPACE_SUIT_LOKNAR_UC: 100
+      STR_SOLDIER_SYNTH:
+        STR_SYNTH_NUDE_A_UC: 100
+      STR_SOLDIER_GNOME:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_SPECTRE:
+        STR_PIR_SPECTRE_UC: 100
+      STR_SOLDIER_CHORT:
+        STR_CHORT_ARMOR_UC: 100
+      STR_SOLDIER_DOGE:
+        BOXX_ARMOR: 100
+      STR_SOLDIER_BLOODOGE:
+        BOXX_ARMOR: 100
+    allowedArmors:
+      - STR_SPACE_SUIT_UC
+      - STR_BIO_SUIT_ADV_UC
+      - STR_BIO_SUIT_NECRO_UC
+      - STR_SLAYER_ARMOR_UC
+      - STR_IRONMAN_ARMOR_UC
+      - STR_ANNIHILATOR_ARMOR_UC
+      - STR_SORCERESS_ARMOR_UC
+      - STR_DEMONIC_ARMOR_UC
+      - STR_INFERNA_ARMOR_UC
+      - STR_INFERNA_ARMOR_A_UC
+      - STR_STEALTH_ARMOR_UC
+      - STR_LOADER_ARMOR_UC
+      - STR_POWER_SUIT_ADV_EVA_UC
+      - STR_PIR_SPECTRE_UC
+      - STR_SYNTH_NUDE_UC
+      - STR_SYNTH_NUDE_A_UC
+      - STR_SYNTH_REFRACTOR_UC
+      - STR_SYNTH_REFRACTOR_A_UC
+      - STR_SYNTH_CHILLER_ARMOR_UC
+      - STR_SYNTH_CHILLER_ARMOR_A_UC
+      - STR_SYNTH_SPACE_SUIT_UC
+      - STR_SYNTH_JUGULATOR_ARMOR_UC
+      - STR_SYNTH_PIR_STEALTHSUIT_UC
+      - STR_SYNTH_DANCER_UC
+      - STR_SLAVE_SPACE_SUIT_UC
+      - STR_LOADER_ARMOR_SLAVE_UC
+      - STR_DEVASTATOR_ARMOR_SLAVE_UC
+      - STR_PEASANT_ARMOR_BIOAQUA_EVA_UC
+      - STR_PEASANT_SPACE_SUIT_UC
+      - STR_LOADER_ARMOR_PEASANT_UC
+      - STR_HYBRID_SPACE_SUIT_UC
+      - STR_LOADER_ARMOR_HYBRID_UC
+      - STR_SPACE_SUIT_LOKNAR_UC
+      - STR_SHADOW_ARMOR_LOKNAR_UC
+      - STR_LOADER_ARMOR_GNOME_UC
+      - STR_ARMOR_SAINT_UC
+      - STR_PEASANT_ARMOR_SAINT_UC
+      - STR_SLAVE_ARMOR_SAINT_UC
+      - STR_CHORT_ARMOR_UC
+      - STR_HOVERTANK_LASCANNON_ARMOR_UC
+      - STR_HOVERTANK_GAUSS_CANNON_ARMOR_UC
+      - STR_HOVERTANK_PLASMA_CANNON_ARMOR_UC
+      - STR_HOVERTANK_HAVOK_ARMOR_UC
+      - STR_XEC_SCOUT_ARMOR_UC
+      - STR_XEC_TERMINATOR_ARMOR_UC
+      - STR_XEC_ARCHER_ARMOR_UC
+      - STR_XEC_ARMAGEDDON_ARMOR_UC
+      - STR_XEC_HAVOK_ARMOR_UC
+      - STR_XEC_RETRIBUTOR_ARMOR_UC
+      - STR_XEC_LANCER_ARMOR_UC
+      - STR_XEC_EXORCIST_ARMOR_UC
+      - STR_XEC_PALADIN_ARMOR_UC
+      - BOXX_ARMOR
+    allowedVehicles:
+      - STR_LOOTED_CYBERDISC_HMG
+      - STR_LOOTED_CYBERDISC_ROCKET
+      - STR_LOOTED_CYBERDISC_LASER
+      - STR_LOOTED_CYBERDISC_PLASMA
+      - STR_HWP_SENTRY_SPIKE
+      - STR_CYCLOPS_CONVERT
+      - STR_DOCTOR_X_VAMPIRE
+enviroEffects:
+  - type: STR_ENVIRO_SPACE_FREIGHTER
+    paletteTransformations:
+      PAL_BATTLESCAPE: PAL_DGOOD_SPACE
+  - type: STR_ENVIRO_HEAT
+    mapBackgroundColor: 47
+    paletteTransformations:
+      PAL_BATTLESCAPE: PAL_HOT 
+    environmentalConditions:
+      STR_FRIENDLY:
+        chancePerTurn: 100
+        firstTurn: 2
+        lastTurn: 1000
+        message: "STR_AURA_HEAT_TXT"
+        color: 29
+        weaponOrAmmo: "AURA_HEAT"
+        side: 4
+        bodyPart: 1
+    armorTransformations:
+      STR_BARBARIAN_FURS_UC: STR_BARBARIAN_RAGS_UC
+      STR_TOPLESS_SEA_UC: STR_PIR_TOPLESS_UC
+      STR_SWIMSUIT_SEA_UC: STR_SWIMSUIT_UC
+      STR_BIKINI_SEA_UC: STR_BIKINI_UC
+      STR_BRAINER_OUTFIT_SEA_UC: STR_BRAINER_OUTFIT_UC
+      STR_THIEF_ARMOR_SEA_UC: STR_PIR_TOPLESS_UC
+      STR_CHILLER_SEA_UC: STR_CHILLER_UC
+      STR_SPACE_SUIT_SEA_UC: STR_SPACE_SUIT_UC
+      STR_POWER_SUIT_ADV_EVA_SEA_UC: STR_POWER_SUIT_ADV_UC
+      STR_BIO_SUIT_ADV_SEA_UC: STR_BIO_SUIT_ADV_UC
+      STR_BIO_SUIT_NECRO_SEA_UC: STR_BIO_SUIT_NECRO_UC
+      STR_ANNIHILATOR_ARMOR_SEA_UC: STR_ANNIHILATOR_ARMOR_UC
+      STR_STEALTH_ARMOR_SEA_UC: STR_STEALTH_ARMOR_UC
+      STR_SWIFTSUIT_SEA_UC: STR_SWIFTSUIT_UC
+      STR_BLITZ_ARMOR_SEA_UC: STR_BLITZ_ARMOR_UC
+      STR_CRYSTALISK_ARMOR_SEA_UC: STR_CRYSTALISK_ARMOR_UC
+      STR_LOADER_ARMOR_SEA_UC: STR_LOADER_ARMOR_UC
+      STR_MAGICAL_GIRL_OUTFIT_SEA_UC: STR_MAGICAL_GIRL_OUTFIT_UC
+      STR_AMAZON_ARMOR_SEA_UC: STR_AMAZON_ARMOR_UC
+      STR_PIR_NUDE_SEA_UC: STR_PIR_NUDE_UC
+      STR_THEBAN_DRESS_SEA_UC: STR_THEBAN_DRESS_UC
+      STR_SORCERESS_ARMOR_SEA_UC: STR_SORCERESS_ARMOR_UC
+      STR_DEMONIC_ARMOR_SEA_UC: STR_DEMONIC_ARMOR_UC
+      STR_INFERNA_ARMOR_SEA_UC: STR_INFERNA_ARMOR_UC
+      STR_SLAVE_NUDE_SEA_UC: STR_SLAVE_NUDE_UC
+      STR_SLAVE_ARMOR_LOINCLOTH_SEA_UC: STR_SLAVE_ARMOR_LOINCLOTH_UC
+      STR_SLAVE_DIVER_SEA_UC: STR_SLAVE_DIVER_UC
+      STR_SLAVE_SPACE_SUIT_SEA_UC: STR_SLAVE_SPACE_SUIT_UC
+      STR_LOADER_ARMOR_SLAVE_SEA_UC: STR_LOADER_ARMOR_SLAVE_UC
+      STR_DEVASTATOR_ARMOR_SLAVE_SEA_UC: STR_DEVASTATOR_ARMOR_SLAVE_UC
+      STR_PEASANT_NUDE_SEA_UC: STR_PEASANT_NUDE_UC
+      STR_SWIMSUIT_PEASANT_SEA_UC: STR_SWIMSUIT_PEASANT_UC
+      STR_PEASANT_DIVER_SEA_UC: STR_PEASANT_DIVER_UC
+      STR_PEASANT_ARMOR_BIOAQUA_SEA_UC: STR_PEASANT_ARMOR_BIOAQUA_UC
+      STR_PEASANT_SPACE_SUIT_SEA_UC: STR_PEASANT_SPACE_SUIT_UC
+      STR_LOADER_ARMOR_PEASANT_SEA_UC: STR_LOADER_ARMOR_PEASANT_UC
+      STR_HYBRID_NUDE_SEA_UC: STR_HYBRID_NUDE_UC
+      STR_HYBRID_THONG_SEA_UC: STR_HYBRID_THONG_UC
+      STR_HYBRID_SPACE_SUIT_SEA_UC: STR_HYBRID_SPACE_SUIT_UC
+      STR_LOADER_ARMOR_HYBRID_SEA_UC: STR_LOADER_ARMOR_HYBRID_UC
+      STR_LOKNAR_NUDE_SEA_UC: STR_LOKNAR_NUDE_UC
+      STR_LOKNAR_UNARMORED_SEA_UC: STR_LOKNAR_UNARMORED_UC
+      STR_SPACE_SUIT_LOKNAR_SEA_UC: STR_SPACE_SUIT_LOKNAR_UC
+      STR_SHADOW_ARMOR_LOKNAR_SEA_UC: STR_SHADOW_ARMOR_LOKNAR_UC
+      STR_SYNTH_NUDE_SEA_UC: STR_SYNTH_NUDE_UC
+      STR_SYNTH_CHILLER_ARMOR_SEA_UC: STR_SYNTH_CHILLER_ARMOR_UC
+      STR_SYNTH_SPACE_SUIT_SEA_UC: STR_SYNTH_SPACE_SUIT_UC
+      STR_SYNTH_JUGULATOR_ARMOR_SEA_UC: STR_SYNTH_JUGULATOR_ARMOR_UC
+      STR_LOADER_ARMOR_GNOME_SEA_UC: STR_LOADER_ARMOR_GNOME_UC
+      STR_GNOME_EXPLORER_SEA_UC: STR_GNOME_EXPLORER_UC
+  - type: STR_ENVIRO_COLD
+    mapBackgroundColor: 223
+    paletteTransformations:
+      PAL_BATTLESCAPE: PAL_COLD 
+    environmentalConditions:
+      STR_FRIENDLY:
+        chancePerTurn: 100
+        firstTurn: 2
+        lastTurn: 1000
+        message: "STR_AURA_COLD_TXT"
+        color: 205
+        weaponOrAmmo: "AURA_COLD"
+        side: 4
+        bodyPart: 1
+    armorTransformations:
+      STR_BARBARIAN_RAGS_UC: STR_BARBARIAN_FURS_UC
+      STR_SCOUT_OUTFIT_UC: STR_GANGER_OUTFIT_UC
+      STR_ADVENTURER_OUTFIT_UC: STR_GANGER_OUTFIT_UC
+      STR_PIR_SWASHBUCKLER_UC: STR_PIR_ROBBER_UC
+      STR_GNOME_NUDE_UC: STR_GNOME_DRESS_UC
+  - type: STR_ENVIRO_SEA_SURFACE
+    mapBackgroundColor: 136
+  - type: STR_ENVIRO_ENEMY_UNBREAKABLE
+    environmentalConditions:
+      STR_HOSTILE:
+        chancePerTurn: 100
+        firstTurn: 2
+        lastTurn: 1000
+        message: "STR_AURA_ENEMY_MORALE_TXT"
+        color: 242
+        weaponOrAmmo: "AURA_ENEMY_MORALE"
+        bodyPart: 0
+  - type: STR_ENVIRO_ACID_RAIN
+    mapBackgroundColor: 79
+    paletteTransformations:
+      PAL_BATTLESCAPE: PAL_DGOOD_ACID 
+    environmentalConditions:
+      STR_FRIENDLY:
+        chancePerTurn: 100
+        firstTurn: 2
+        lastTurn: 1000
+        message: "STR_ACID_RAIN_TXT"
+        color: 45
+        weaponOrAmmo: "AURA_ACID_RAIN"
+        side: -1
+        bodyPart: -1
+      STR_NEUTRAL:
+        chancePerTurn: 100
+        firstTurn: 2
+        lastTurn: 1000
+        weaponOrAmmo: "AURA_ACID_RAIN"
+        side: -1
+        bodyPart: -1
+    armorTransformations: &SECTION_ARMOR_TRANSFORM_EVA
+      STR_POWER_SUIT_ADV_UC: STR_POWER_SUIT_ADV_EVA_UC
+      STR_PEASANT_ARMOR_BIOAQUA_UC: STR_PEASANT_ARMOR_BIOAQUA_EVA_UC
+  - type: STR_ENVIRO_MAGMA
+    mapBackgroundColor: 24
+    paletteTransformations:
+      PAL_BATTLESCAPE: PAL_MAGMA 
+    environmentalConditions:
+      STR_FRIENDLY:
+        chancePerTurn: 100
+        firstTurn: 2
+        lastTurn: 1000
+        message: "STR_MAGMA_BURN_TXT"
+        color: 13
+        weaponOrAmmo: "AURA_MAGMA_BURN"
+        side: -1
+        bodyPart: -1
+      STR_NEUTRAL:
+        chancePerTurn: 100
+        firstTurn: 2
+        lastTurn: 1000
+        weaponOrAmmo: "AURA_MAGMA_BURN"
+        side: -1
+        bodyPart: -1
+      STR_HOSTILE:
+        chancePerTurn: 100
+        firstTurn: 2
+        lastTurn: 1000
+        weaponOrAmmo: "AURA_MAGMA_BURN"
+        side: -1
+        bodyPart: -1
+    armorTransformations: *SECTION_ARMOR_TRANSFORM_EVA
+  - type: STR_ENVIRO_PLAINCLOTHES_INFILTRATION
+    armorTransformations:
+      STR_BARBARIAN_RAGS_UC: STR_BARBARIAN_FURS_UC
+      STR_SCOUT_OUTFIT_UC: STR_GANGER_OUTFIT_UC
+      STR_GNOME_EXPLORER_UC: STR_GNOME_DRESS_UC
+  - type: STR_ENVIRO_NOHEAVYARMOREXCEPTFLYING
+    armorTransformations:
+      STR_GUARDIAN_UC: STR_DEFENDER_UC
+      STR_SLAVE_ARMOR_PIROMAN_A_UC: STR_SLAVE_ARMOR_PIROMAN_UC
+  - type: STR_ENVIRO_NOHELMET
+    armorTransformations: &SECTION_ARMOR_TRANSFORM_NOHELMET
+      STR_BARBARIAN_ARMOR_S_UC: STR_BARBARIAN_ARMOR_UC
+      STR_HEAVY_KEVLAR_ARMOR_UC: STR_KEVLAR_ARMOR_UC
+      STR_PERSONAL_ARMOR_UC: STR_TAC_ARMOR_UC
+      STR_TAC_FULL_ARMOR_UC: STR_TAC_ARMOR_UC
+      STR_CHAIN_MAIL_A_UC: STR_CHAIN_MAIL_UC
+      STR_PLATE_MAIL_A_UC: STR_CHAIN_MAIL_UC
+      STR_SLAYER_ARMOR_UC: STR_PIR_NUDE_UC
+      STR_BIO_SUIT_ADV_UC: STR_PIR_NUDE_UC
+      STR_BIO_SUIT_NECRO_UC: STR_PIR_NUDE_UC
+      STR_DEMONIC_ARMOR_UC: STR_PIR_NUDE_UC
+      STR_GUARDIAN_UC: STR_DEFENDER_UC
+      STR_SLAVE_ARMOR_TUNIC_A_UC: STR_SLAVE_ARMOR_TUNIC_UC
+      STR_SLAVE_ARMOR_PIROMAN_A_UC: STR_SLAVE_ARMOR_PIROMAN_UC
+      STR_SLAVE_ARMOR_CRUSADER_A_UC: STR_SLAVE_ARMOR_CRUSADER_UC
+      STR_SLAVE_ARMOR_POINTMAN_UC: STR_SLAVE_ARMOR_GI_UC
+      STR_SLAVE_ARMOR_LEGION_UC: STR_SLAVE_ARMOR_JUMPSUIT_UC
+      STR_PEASANT_FUSILIER_UC: STR_PEASANT_CAMO_UC
+      STR_PEASANT_STALKER_UC: STR_PEASANT_MUD_UC
+      STR_PEASANT_ARMOR_LEGION_UC: STR_PEASANT_ARMOR_JUMPSUIT_UC
+      STR_PEASANT_ARMOR_BIOAQUA_UC: STR_PEASANT_NUDE_UC
+      STR_LOKNAR_SLAYER_S_UC: STR_LOKNAR_SLAYER_UC
+  - type: STR_ENVIRO_SHADOWLANDS_1
+    paletteTransformations:
+      PAL_BATTLESCAPE: PAL_DGOOD_SPACE
+  - type: STR_ENVIRO_SEA
+    mapBackgroundColor: 239
+    paletteTransformations:
+      PAL_BATTLESCAPE: PAL_DGOOD_SEA 
+    armorTransformations:
+      STR_SWIMSUIT_UC: STR_SWIMSUIT_SEA_UC
+      STR_BIKINI_UC: STR_BIKINI_SEA_UC
+      STR_BRAINER_OUTFIT_UC: STR_BRAINER_OUTFIT_SEA_UC
+      STR_THIEF_ARMOR_UC: STR_THIEF_ARMOR_SEA_UC
+      STR_CHILLER_UC: STR_CHILLER_SEA_UC
+      STR_SPACE_SUIT_UC: STR_SPACE_SUIT_SEA_UC
+      STR_POWER_SUIT_ADV_UC: STR_POWER_SUIT_ADV_EVA_SEA_UC
+      STR_BIO_SUIT_ADV_UC: STR_BIO_SUIT_ADV_SEA_UC
+      STR_BIO_SUIT_NECRO_UC: STR_BIO_SUIT_NECRO_SEA_UC
+      STR_ANNIHILATOR_ARMOR_UC: STR_ANNIHILATOR_ARMOR_SEA_UC
+      STR_STEALTH_ARMOR_UC: STR_STEALTH_ARMOR_SEA_UC
+      STR_SWIFTSUIT_UC: STR_SWIFTSUIT_SEA_UC
+      STR_BLITZ_ARMOR_UC: STR_BLITZ_ARMOR_SEA_UC
+      STR_CRYSTALISK_ARMOR_UC: STR_CRYSTALISK_ARMOR_SEA_UC
+      STR_LOADER_ARMOR_UC: STR_LOADER_ARMOR_SEA_UC
+      STR_MAGICAL_GIRL_OUTFIT_UC: STR_MAGICAL_GIRL_OUTFIT_SEA_UC
+      STR_PIR_NUDE_UC: STR_PIR_NUDE_SEA_UC
+      STR_PIR_CHAINS_UC: STR_PIR_NUDE_SEA_UC
+      STR_PIR_SLAVE_ARMOR_UC: STR_PIR_NUDE_SEA_UC
+      STR_PIR_CASTAWAY_ARMOR_UC: STR_PIR_NUDE_SEA_UC
+      STR_BARBARIAN_RAGS_UC: STR_PIR_NUDE_SEA_UC
+      STR_BARBARIAN_FURS_UC: STR_PIR_NUDE_SEA_UC
+      STR_BARBARIAN_ARMOR_UC: STR_PIR_NUDE_SEA_UC
+      STR_BARBARIAN_ARMOR_S_UC: STR_PIR_NUDE_SEA_UC
+      STR_RAGS_UC: STR_PIR_NUDE_SEA_UC
+      STR_PIR_OFFICER_UC: STR_SWIMSUIT_SEA_UC
+      STR_AMAZON_ARMOR_UC: STR_AMAZON_ARMOR_SEA_UC
+      STR_SCALE_MAIL_UC: STR_PIR_NUDE_SEA_UC
+      STR_POWER_SUIT_WRECKED_UC: STR_PIR_NUDE_SEA_UC
+      STR_POWER_SUIT_UC: STR_PIR_NUDE_SEA_UC
+      STR_BIKE_ARMOR_UC: STR_PIR_NUDE_SEA_UC
+      STR_MUSCLE_ARMOR_UC: STR_PIR_NUDE_SEA_UC
+      STR_BRUTE_ARMOR_UC: STR_PIR_NUDE_SEA_UC
+      STR_THEBAN_DRESS_UC: STR_THEBAN_DRESS_SEA_UC
+      STR_MAGE_ROBE_UC: STR_PIR_NUDE_SEA_UC
+      STR_VAMPY_ROBE_UC: STR_PIR_NUDE_SEA_UC
+      STR_VOODOO_ARMOR_UC: STR_PIR_NUDE_SEA_UC
+      STR_SORCERESS_ARMOR_UC: STR_SORCERESS_ARMOR_SEA_UC
+      STR_DEMONIC_ARMOR_UC: STR_DEMONIC_ARMOR_SEA_UC
+      STR_INFERNA_ARMOR_UC: STR_INFERNA_ARMOR_SEA_UC
+      STR_INFERNA_ARMOR_A_UC: STR_INFERNA_ARMOR_SEA_UC
+      STR_ARRANCAR_ARMOR_UC: STR_PIR_NUDE_SEA_UC
+      STR_SLAVE_ARMOR_LOINCLOTH_UC: STR_SLAVE_ARMOR_LOINCLOTH_SEA_UC
+      STR_SLAVE_DIVER_UC: STR_SLAVE_DIVER_SEA_UC
+      STR_SLAVE_SPACE_SUIT_UC: STR_SLAVE_SPACE_SUIT_SEA_UC
+      STR_LOADER_ARMOR_SLAVE_UC: STR_LOADER_ARMOR_SLAVE_SEA_UC
+      STR_DEVASTATOR_ARMOR_SLAVE_UC: STR_DEVASTATOR_ARMOR_SLAVE_SEA_UC
+      STR_SWIMSUIT_PEASANT_UC: STR_SWIMSUIT_PEASANT_SEA_UC
+      STR_PEASANT_DIVER_UC: STR_PEASANT_DIVER_SEA_UC
+      STR_PEASANT_ARMOR_BIOAQUA_UC: STR_PEASANT_ARMOR_BIOAQUA_SEA_UC
+      STR_PEASANT_SPACE_SUIT_UC: STR_PEASANT_SPACE_SUIT_SEA_UC
+      STR_LOADER_ARMOR_PEASANT_UC: STR_LOADER_ARMOR_PEASANT_SEA_UC
+      STR_HYBRID_NUDE_UC: STR_HYBRID_NUDE_SEA_UC
+      STR_HYBRID_THONG_UC: STR_HYBRID_THONG_SEA_UC
+      STR_HYBRID_SPACE_SUIT_UC: STR_HYBRID_SPACE_SUIT_SEA_UC
+      STR_LOADER_ARMOR_HYBRID_UC: STR_LOADER_ARMOR_HYBRID_SEA_UC
+      STR_LOKNAR_NUDE_UC: STR_LOKNAR_NUDE_SEA_UC
+      STR_LOKNAR_PET_UC: STR_LOKNAR_NUDE_SEA_UC
+      STR_LOKNAR_FAKK_UC: STR_LOKNAR_NUDE_SEA_UC
+      STR_LOKNAR_RATMEISTER_UC: STR_LOKNAR_NUDE_SEA_UC
+      STR_SPACE_SUIT_LOKNAR_UC: STR_SPACE_SUIT_LOKNAR_SEA_UC
+      STR_SHADOW_ARMOR_LOKNAR_UC: STR_SHADOW_ARMOR_LOKNAR_SEA_UC
+      STR_SYNTH_CHILLER_ARMOR_UC: STR_SYNTH_CHILLER_ARMOR_SEA_UC
+      STR_SYNTH_CHILLER_ARMOR_A_UC: STR_SYNTH_CHILLER_ARMOR_SEA_UC
+      STR_SYNTH_SPACE_SUIT_UC: STR_SYNTH_SPACE_SUIT_SEA_UC
+      STR_SYNTH_JUGULATOR_ARMOR_UC: STR_SYNTH_JUGULATOR_ARMOR_SEA_UC
+      STR_GNOME_EXPLORER_UC: STR_GNOME_EXPLORER_SEA_UC
+      STR_LOADER_ARMOR_GNOME_UC: STR_LOADER_ARMOR_GNOME_SEA_UC
+  - type: STR_ENVIRO_SPACE
+    paletteTransformations:
+      PAL_BATTLESCAPE: PAL_DGOOD_SPACE 
+    environmentalConditions:
+      STR_FRIENDLY:
+        chancePerTurn: 100
+        firstTurn: 2
+        lastTurn: 1000
+        message: "STR_AURA_COLD_DEADLY_TXT"
+        color: 205
+        weaponOrAmmo: "AURA_COLD_DEADLY"
+        side: 4
+        bodyPart: 1
+    armorTransformations:
+      STR_SPACE_SUIT_UC: STR_SPACE_SUIT_SPACE_UC
+      STR_IRONMAN_ARMOR_UC: STR_IRONMAN_ARMOR_SPACE_UC
+      STR_ANNIHILATOR_ARMOR_UC: STR_ANNIHILATOR_ARMOR_SPACE_UC
+      STR_SORCERESS_ARMOR_UC: STR_SORCERESS_ARMOR_SPACE_UC
+      STR_SLAVE_SPACE_SUIT_UC: STR_SLAVE_SPACE_SUIT_SPACE_UC
+      STR_PEASANT_SPACE_SUIT_UC: STR_PEASANT_SPACE_SUIT_SPACE_UC
+      STR_HYBRID_SPACE_SUIT_UC: STR_HYBRID_SPACE_SUIT_SPACE_UC
+      STR_SPACE_SUIT_LOKNAR_UC: STR_SPACE_SUIT_LOKNAR_SPACE_UC
+      STR_SHADOW_ARMOR_LOKNAR_UC: STR_SHADOW_ARMOR_LOKNAR_SPACE_UC
+      STR_SYNTH_REFRACTOR_UC: STR_SYNTH_REFRACTOR_A_SPACE_UC
+      STR_SYNTH_REFRACTOR_A_UC: STR_SYNTH_REFRACTOR_A_SPACE_UC
+      STR_SYNTH_CHILLER_ARMOR_UC: STR_SYNTH_CHILLER_ARMOR_A_SPACE_UC
+      STR_SYNTH_CHILLER_ARMOR_A_UC: STR_SYNTH_CHILLER_ARMOR_A_SPACE_UC
+      STR_SYNTH_SPACE_SUIT_UC: STR_SYNTH_SPACE_SUIT_SPACE_UC
+      STR_SYNTH_JUGULATOR_ARMOR_UC: STR_SYNTH_JUGULATOR_ARMOR_SPACE_UC
+  - type: STR_ENVIRO_CYDONIA
+    paletteTransformations:
+      PAL_BATTLESCAPE: PAL_MARS 
+    environmentalConditions:
+      STR_FRIENDLY:
+        chancePerTurn: 100
+        firstTurn: 2
+        lastTurn: 1000
+        message: "STR_AURA_FEAR_TXT"
+        color: 191
+        weaponOrAmmo: "AURA_FEAR"
+        side: 3
+        bodyPart: 0
+    armorTransformations: &SECTION_ARMOR_TRANSFORM_EXO
+      STR_POWER_SUIT_ADV_UC: STR_POWER_SUIT_ADV_EVA_UC
+      STR_PEASANT_ARMOR_BIOAQUA_UC: STR_PEASANT_ARMOR_BIOAQUA_EVA_UC
+  - type: STR_ENVIRO_COLDSPACE
+    environmentalConditions:
+      STR_FRIENDLY:
+        chancePerTurn: 100
+        firstTurn: 2
+        lastTurn: 1000
+        message: "STR_AURA_COLD_DEADLY_TXT"
+        color: 208
+        weaponOrAmmo: "AURA_COLD_DEADLY"
+        side: 4
+        bodyPart: 1
+    armorTransformations: *SECTION_ARMOR_TRANSFORM_EXO
+startingTime:
+  second: 0
+  minute: 0
+  hour: 12
+  weekday: 4
+  day: 1
+  month: 1
+  year: 2601
+costHireEngineer: 10000
+costHireScientist: 200000
+costEngineer: 5000
+costScientist: 100000
+timePersonnel: 72
+initialFunding: 325
+startingDifficulty: 2  
+difficultyCoefficient: [0, 0, 1, 3, 7]
+aimAndArmorMultipliers: [0.75, 1.0, 1.0, 1.0, 1.33]
+statGrowthMultipliers:
+  tu: 4
+  stamina: 0
+  health: 3
+  bravery: 0
+  reactions: 8
+  firing: 4
+  throwing: 2
+  strength: 4
+  psiStrength: 4
+  psiSkill: 3
+  melee: 3
+defeatScore: -900
+defeatFunds: -1000000
+turnAIUseGrenade: 1
+turnAIUseBlaster: 1
+alienFuel: [STR_ELERIUM_115, 25]
+fontName: AmigaFont.dat
+maxLookVariant: 11
+maxViewDistance: 40
+chanceToStopRetaliation: 80
+tooMuchSmokeThreshold: 13
+oneHandedPenaltyGlobal: 50
+kneelBonusGlobal: 120
+minReactionAccuracy: 5
+surrenderMode: 2
+bughuntMinTurn: 15
+bughuntMaxEnemies: 2
+bughuntRank: 0 # commanders are VIPs
+bughuntLowMorale: 70
+bughuntTimeUnitsLeft: 35
+ufoGlancingHitThreshold: 5
+ufoBeamWidthParameter: 50
+performanceBonusFactor: 333
+useCustomCategories: true
+showDogfightDistanceInKm: true
+noLOSAccuracyPenaltyGlobal: 50
+theMostUselessOptionEver: 1 # 0 enabled (default), 1 disabled on iron man, 2 disabled
+theBiggestRipOffEver: 333000
+psiUnlockResearch: STR_PSI_LAB
+showFullNameInAlienInventory: true
+extraNerdyPediaInfo: true
+pediaReplaceCraftFuelWithRangeType: 2
+shortRadarRange: 1250
+disableUnderwaterSounds: true
+lighting:
+  enhanced: 7
+ufoTractorBeamSizeModifiers:
+  - 400 # very small, tractor beams are 400% or 4x as effective
+  - 200
+  - 100
+  - 50
+  - 25 # very large, tractor beams are 25% or 1/4x as effective
+pilotBraveryThresholds:
+  - 100
+  - 80
+  - 40
+fixedUserOptions:
+  soldierDiaries: true
+  battleUFOExtenderAccuracy: true
+  canSellLiveAliens: true
+  anytimeMartialTraining: true
+  battleExplosionHeight: 2
+  storageLimitsEnforced: true
+  craftLaunchAlways: true
+  canTransferCraftsWhileAirborne: true
+  showMoreStatsInInventoryView: true
+  battleHairBleach: true
+  strafe: true
+  forceFire: true
+  globeSeasons: true
+  alienBleeding: true
+  noAlienPanicMessages: true
+  allowPsionicCapture: true
+  bleedingIndicator: true
+  oxceAutoSell: true
+  statisticalBulletConservation: true
+  allowPsiStrengthImprovement: false
+  psiStrengthEval: true
+  battleInstantGrenade: false
+  weaponSelfDestruction: false
+  retainCorpses: false
+  oxcePlayBriefingMusicDuringEquipment: true
+  oxceUfoLandingAlert: false
+  oxceStartUpTextMode: 1
+  oxceRememberDisabledCraftWeapons: true
+  oxceHighlightNewTopics: true
+ai:
+  extendedFireModeChoice: true
+  destroyBaseFacilities: true
+constants:
+  - explosionOffset: 8
+  - underwaterSmokeOffset: 8
+mana:
+  enabled: true
+  battleUI: true
+  trainingPrimary: true
+  trainingSecondary: true
+  replenishAfterMission: false

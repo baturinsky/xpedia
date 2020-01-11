@@ -1,0 +1,43 @@
+customPalettes:
+  - type: PAL_DGOOD_NORMAL
+    target: PAL_BATTLESCAPE
+    file: Resources/Pals/neopal666.pal
+  - type: PAL_DGOOD_NORMALPEDIA
+    target: PAL_BATTLEPEDIA
+    file: Resources/Pals/neopal666.pal
+  - type: PAL_DGOOD_SEA
+    target: PAL_DGOOD_SEA
+    file: Resources/Pals/dgoodpal_water.pal
+  - type: PAL_DGOOD_SPACE
+    target: PAL_DGOOD_SPACE
+    file: Resources/Pals/dgoodpal_space.pal
+  - type: PAL_DGOOD_ACID
+    target: PAL_DGOOD_ACID
+    file: Resources/Pals/dgoodpal_grinder.pal
+  - type: PAL_MARS
+    target: PAL_MARS
+    file: Resources/Pals/pal_hotpursuit.pal
+  - type: PAL_MAGMA
+    target: PAL_MAGMA
+    file: Resources/Pals/pal_hotpursuit.pal
+  - type: PAL_ORANGE
+    target: PAL_ORANGE
+    file: Resources/Pals/hehexd.pal
+  - type: PAL_HOT
+    target: PAL_HOT
+    file: Resources/Pals/neopal666_hotasfuck.pal
+  - type: PAL_COLD
+    target: PAL_COLD
+    file: Resources/Pals/neopa666cold.pal
+  - type: PAL_GEO_NEW
+    target: PAL_GEOSCAPE
+    file: Resources/Pals/geo_CC_Dark.pal    
+  - type: PAL_BATTLESCAPE_1
+    target: PAL_BATTLESCAPE_1
+    file: Resources/Pals/dgoodpal_water.pal
+  - type: PAL_BATTLESCAPE_2
+    target: PAL_BATTLESCAPE_2
+    file: Resources/Pals/dgoodpal_water.pal
+  - type: PAL_BATTLESCAPE_3
+    target: PAL_BATTLESCAPE_3
+    file: Resources/Pals/dgoodpal_water.pal

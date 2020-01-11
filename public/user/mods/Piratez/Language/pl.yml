@@ -1,0 +1,2917 @@
+pl:
+  STR_USA: "KONFEDERACJA"
+  STR_RUSSIA: "AUTONOMIA"
+  STR_UK: "ŻELAZNE PLEMIĘ"
+  STR_FRANCE: "EUROSYNDYKAT"
+  STR_GERMANY: "CZARNA MARCHIA"
+  STR_ITALY: "ROMANIKA"
+  STR_SPAIN: "NORDFEDERACJA"
+  STR_CHINA: "PAŃSTWO ŚRODKA"
+  STR_JAPAN: "FUSO"
+  STR_INDIA: "BRAMY ZAŚWIATÓW"
+  STR_BRAZIL: "MROCZNE DOMINIUM"
+  STR_AUSTRALIA: "KRAJ ŚMIERCI"
+  STR_NIGERIA: "UKRYTA KRAINA"
+  STR_SOUTH_AFRICA: "DZIKIE POLA"
+  STR_EGYPT: "TEBAŃSKA TYRANIA"
+  STR_CANADA: "KRÓLESTWO KANADY"
+  STR_NCR: "REPUBLIKA KALI"
+  STR_LATIN_EMPIRE: "IMPERIUM ŁACIŃSKIE"
+  STR_TECHNOCRACY: "TECHNOKRACJA"
+  STR_TURAN: "TURAN"
+  STR_INDONESIA: "PIRACKIE CIEŚNINY"
+  STR_CHILE: "STALOWY PAKT"
+  STR_VENEZUELA: "CZERWONA REWOLUCJA"
+  STR_NEW_YORK: "Port Zagłady"
+  STR_WASHINGTON: "Brama Zdrajców"
+  STR_LOS_ANGELES: "Cmentarzysko"
+  STR_MONTREAL: "Wieża Nocy"
+  STR_HAVANA: "Wybrzeże Żalu"
+  STR_MEXICO_CITY: "Monolit"
+  STR_CHICAGO: "Miasto Tajfunów"
+  STR_VANCOUVER: "Wrakowisko"
+  STR_DALLAS: "Dallas D.C."
+  STR_BRASILIA: "Nadzieja"
+  STR_BOGOTA: "Spaczony Kamień"
+  STR_BUENOS_AIRES: "Cyrk Ciszy"
+  STR_SANTIAGO: "Wspomnienie Ziemi"
+  STR_RIO_DE_JANEIRO: "Rozpacz"
+  STR_LIMA: "Limbo"
+  STR_CARACAS: "Wieża Dusz"
+  STR_LONDON: "Spektral"
+  STR_PARIS: "Miasto Syndykatu"
+  STR_BERLIN: "Wolne Miasto"
+  STR_MOSCOW: "Czarna Cytadela"
+  STR_ROME: "Epicentrum"
+  STR_MADRID: "Dworce Szaleństwa"
+  STR_BUDAPEST: "Bastion"
+  STR_LAGOS: "Dłoń Bogobójcy"
+  STR_CAIRO: "Teby"
+  STR_CASABLANCA: "Przeklęte Miasto"
+  STR_PRETORIA: "Czarne Sanktuarium"
+  STR_NAIROBI: "Wiecznozmienne Miejsce"
+  STR_CAPE_TOWN: "Otchłań"
+  STR_KINSHASA: "Pandemonium"
+  STR_ANKARA: "Wraithbane"
+  STR_DELHI: "Zakazane Jaskinie"
+  STR_KARACHI: "Kamienna Forteca"
+  STR_BAGHDAD: "Wielka Biblioteka"
+  STR_TEHRAN: "Labirynt"
+  STR_BOMBAY: "Łzy Bogini"
+  STR_CALCUTTA: "Ogrody Rozkoszy"
+  STR_TOKYO: "Świt"
+  STR_BEIJING: "Zakazane Miasto"
+  STR_BANGKOK: "Pobojowisko"
+  STR_MANILA: "Ukryty Targ"
+  STR_SEOUL: "Astralny Most"
+  STR_SINGAPORE: "Singapur"
+  STR_JAKARTA: "Pałac Wolności"
+  STR_SHANGHAI: "Wysoka Skała"
+  STR_HONG_KONG: "Port Bluźnierców"
+  STR_NOVOSIBIRSK: "Witchaven"
+  STR_CANBERRA: "Tajna Arena"
+  STR_WELLINGTON: "Złoty Port"
+  STR_MELBOURNE: "Terminus"
+  STR_PERTH: "Diabelska Jama"
+  STR_HELSINKI: "Hel"
+  STR_CONSTANTINE: "Konstantynopol"
+  STR_KARAGAND: "Skrzyżowanie"
+  STR_KARAKORUM: "Karakorum"
+  STR_VLADIVOSTOK: "Zorza"
+  STR_JERUSALEM: "Jerozolima"
+  REGION_CITIES: "Gdzieś"
+  REGION_CITIES_3: "Gdzieś"
+  REGION_CITIES_4: "Gdzieś"
+  REGION_HELLO_WORLD: "WITAJ ŚWIECIE"
+  REGION_WORLD_ACADEMY: "Świat"
+  REGION_WORLD_GUILD: "Świat"
+  REGION_WORLD_MEGAPOL: "Świat"
+  REGION_WORLD_BANDIT: "Świat"
+  REGION_WORLD_MARSEC: "Świat"
+  REGION_WORLD_NECRO: "Świat"
+  REGION_WORLD_RUFFIANS: "Świat"
+  STR_OPENXCOM: "OXC: X-PirateZ v.J17.A"
+  STR_AGGRESSIVERETALIATION_DESC: "UFO będą usiłowały wykryć twoje bazy przez cały czas, bez względu na parametry ich misji."
+  STR_CANSELLLIVEALIENS_DESC: "[YARR!!!] Umożliwia sprzedaż żywych obcych, zalecane podczas korzystania z limitów magazynowania"
+  STR_BATTLEINSTANTGRENADE_DESC: "[BEGONE] Granaty nastawione na wybuch w ciągu 0 tur wybuchną natychmiast po rzuceniu, zamiast pod koniec danej tury."
+  STR_BATTLEUFOEXTENDERACCURACY_DESC: "[YARR!!!] Celność strzałów spada po przekroczeniu pewnego dystansu zależnie od typu strzału. Skorygowana celność będzie wyświetlana przy kursorze."
+  STR_CANTRANSFERCRAFTSWHILEAIRBORNE_DESC: "[YARR!!!] Statki mogą być transferowane podczas lotu."
+  STR_CRAFTLAUNCHALWAYS_DESC: "[YARR!!!] Statki mogą wystartować nawet gdy nie są gotowe, nadpisując ich potrzebę na konserwację."
+  STR_GLOBESEASONS_DESC: "[YARR!!!] Wykorzystuje bardziej realistyczną projekcję światła słonecznego na mapie świata zgodnie z osiowym nachyleniem Ziemi."
+  STR_SHOWMORESTATSININVENTORYVIEW_DESC: "[YARR!!!] Ukazuje dodatkowe informacje o wybranym żołnierzu na ekranie ekwipunku."
+  STR_STRAFE_DESC: "[YARR!!!] Włącza strafing, bieg i niezależny ruch wieży czołgu, gdy trzymasz CTRL."
+  STR_ALLOWPSIONICCAPTURE_DESC: "[YARR!!!] Przejęcie kontroli nad umysłami wszystkich pozostających obcych skutkuje zwycięstwem, a oni liczą się jako przejęci żywcem."
+  STR_WEAPONSELFDESTRUCTION_DESC: "[BEGONE] Bronie noszone przez obcych samoczynnie się zniszczą jeśli ich posiadacz umrze, podobnie jak w remake'u z 2012."
+  STR_ALLOWPSISTRENGTHIMPROVEMENT_DESC: "[BEGONE] Psioniczna siła żołnierzy może zostać udoskonalona przez doświadczenie i trening."
+  STR_BATTLEHAIRBLEACH_DESC: "[YARR!!!] Podmienia sprite żołnierzy na polu bitwy, by te odpowiadały wyglądowi ich ekwipunku."
+  STR_ALIENBLEEDING_DESC: "[YARR!!!] Umożliwia zadawanie śmiertelnych ran większości obcych."
+  STR_FORCE_FIRE_DESC: "[YARR!!!] Umożliwia wymuszenie oddania strzału przez twoich żołnierzy podczas przytrzymywania CTRL, bez względu na przeszkody."
+  STR_SMALL_SCOUT_UFOPEDIA: "Ten niewielki statek jest głównie używany do rekonesansu, lub badań. Zazwyczaj poprzedza większe jednostki na początku misji. Może pomieścić tylko jednego załoganta i składa się z niewielu użytecznych materiałów."
+  STR_MEDIUM_SCOUT_UFOPEDIA: "Mały statek niebojowy, który przedstawia niewielkie zagrożenie dla twoich jednostek. Używany głównie przez Akademię i Kupców. Załoga w zakresie od 5 do 10 członków, połowa z nich to cywile.{NEWLINE}Max ONM: 39"
+  STR_LARGE_SCOUT_UFOPEDIA: "Statek ogólnego przeznaczenia używany głównie przez Akademię i Kupców do bardziej ambitnych misji. Przewozi od 7 do 19 członków załogi, w tym zawsze inżyniera.{NEWLINE}Max ONM: 39"
+  STR_FIRE_PIT_UFOPEDIA: "Każdy, kto postanowi beztrosko przespacerować się przez ten pozornie zwyczajny korytarz, aktywuje bomby ogniowe ukryte w ścianach. Nawet jeśli nie upieką intruza, przynajmniej spowodują że ten zatrzyma się na moment. Ostrzeżenie: Lonty nie są niezawodne i mogą czasami nie odpalić się natychmiastowo."
+  STR_CANCEL_UC: "WON"
+  STR_NONE: "Brak"
+  STR_BUILD_NEW_BASE_UC: NOWA KRYJÓWKA
+  STR_BASE_INFORMATION: BUCHALTERIA
+  STR_EQUIP_CRAFT: STATKI
+  STR_BUILD_FACILITIES: ROZBUDUJ
+  STR_RESEARCH: "BADANIA"
+  STR_MANUFACTURE: "PRODUKCJA"
+  STR_TRANSFER_UC: WYŚLIJ
+  STR_TRANSFER: "Transfer"
+  STR_AMOUNT_TO_TRANSFER: "ILOŚĆ DO PRZETRANSFEROWANIA"
+  STR_PURCHASE_RECRUIT: CZARNY RYNEK
+  STR_SACK: POD KIL
+  STR_SELL_SACK_UC: OPYL
+  STR_GEOSCAPE_UC: MOSTEK
+  STR_NAME: "Nazwa"
+  STR_AREA: "Obszar"
+  STR_BUILD_NEW_BASE: Załóż kryjówkę
+  STR_CANCEL: "Won"
+  STR_MAINTENANCE_UC: "UTRZYMANIE>"
+  STR_MAINTENANCE: "Utrzymanie"
+  STR_OK: "JO"
+  STR_INSTALLATION: "Instalacja"
+  STR_CURRENT_RESEARCH: "OBECNE BADANIA"
+  STR_CONSTRUCTION_TIME_UC: "CZAS KONSTRUKCJI"
+  STR_SCIENTISTS_AVAILABLE: Rozkminiaczki wolne>{ALT}{0}
+  STR_SCIENTISTS_ALLOCATED: Rozkminiaczki zajęte>{ALT}{0}
+  STR_SCIENTISTS_ALLOCATED_UC: ROZKMINIACZKI ZAJĘTE
+  STR_SCIENTISTS_AVAILABLE_UC: ROZKMINIACZKI WOLNE>{ALT}{0}
+  STR_RESEARCH_PROJECT: "PROJEKT BADAŃ"
+  STR_START_PROJECT: "ROZPOCZNIJ PROJEKT"
+  STR_PROGRESS: "POSTĘP"
+  STR_NEW_PROJECT: "Nowy projekt"
+  STR_CANCEL_PROJECT: "ANULUJ PROJEKT"
+  STR_NEW_RESEARCH_PROJECTS: "NOWY PROJEKT BADAŃ"
+  STR_INCREASE: Dawaj
+  STR_DECREASE: Mniej
+  STR_ENGINEERS_AVAILABLE: Dłubaczki wolne>{ALT}{0}
+  STR_ENGINEERS_ALLOCATED: Dłubaczki zajęte>{ALT}{0}
+  STR_ENGINEERS__ALLOCATED: Dłubaczki przydzielone
+  STR_ENGINEERS_AVAILABLE_UC: DŁUBACZKI WOLNE>{ALT}{0}
+  STR_ENGINEER_HOURS_TO_PRODUCE_ONE_UNIT: "{0} roboczogodzin na sztukę"
+  STR_WORK_SPACE_REQUIRED: "Potrzebna przestrzeń>{ALT}{0}"
+  STR_SPECIAL_MATERIALS_REQUIRED: "WYMAGANE ZASOBY"
+  STR_CURRENT_PRODUCTION: "OBECNA PRODUKCJA"
+  STR_UNITS_PRODUCED: "Wyprodukowane jednostki"
+  STR_TOTAL_TO_PRODUCE: "Razem do Wyprodukowania"
+  STR_COST__PER__UNIT: "Koszt{NEWLINE}na{NEWLINE}Jednostkę"
+  STR_COST_PER_UNIT_: "Koszt jednostkowy>{ALT}{0}"
+  STR_DAYS_HOURS_LEFT: "Pozostałe Dni/Godziny "
+  STR_NEW_PRODUCTION: "Nowa Produkcja"
+  STR_PRODUCTION_ITEMS: "Produkcja Przedmiotów"
+  STR_CATEGORY: "KATEGORIA"
+  STR_START_PRODUCTION: "ROZPOCZNIJ PRODUKCJĘ"
+  STR_UNITS_TO_PRODUCE: "Jednostek do Wyprodukowania"
+  STR_INCREASE_UC: DAWAJ
+  STR_DECREASE_UC: MNIEJ
+  STR_PURCHASE_HIRE_PERSONNEL: "Kup, co chcesz"
+  STR_COST_OF_PURCHASES: "Koszt Zakupu>{ALT}{0}"
+  STR_COST_PER_UNIT_UC: "KOSZT NA JEDNOSTKĘ"
+  STR_QUANTITY_UC: "ILOŚĆ"
+  STR_PERSONNEL_AVAILABLE_PERSONNEL_TOTAL: LUDZIE NIEZAJĘCI:LUDZIE RAZEM>
+  STR_WORKSHOP_SPACE_AVAILABLE: "Dostępna Przestrzeń Warsztatowa>{ALT}{0}"
+  STR_CURRENT_FUNDS: "Obecne Fundusze>{ALT}{0}"
+  STR_ITEM: "Przedmiot"
+  STR_SOLDIERS: Załogantki
+  STR_SCIENTISTS: Rozkminiaczki
+  STR_ENGINEERS: Dłubaczki
+  STR_STORES: "Zapasy"
+  STR_SPACE_USED_SPACE_AVAILABLE: "PRZESTRZEŃ UŻYWANA:PRZESTRZEŃ DOSTĘPNA>"
+  STR_LIVING_QUARTERS: "Koszary"
+  STR_LABORATORIES: "Laboratoria"
+  STR_WORK_SHOPS: "Warsztaty"
+  STR_HANGARS: "Hangary"
+  STR_SHORT_RANGE_DETECTION: "Detekcja Krótkiego Zasięgu"
+  STR_DEFENSE_STRENGTH: "Siła Obrony"
+  STR_TRANSFERS_UC: "TRANSFERY"
+  STR_TRANSFERS: "Transfery"
+  STR_ARRIVAL_TIME_HOURS: "Czas Przybycia (godziny)"
+  STR_COST: "Koszt"
+  STR_COST_: "Koszt>{ALT}{0}"
+  STR_AREA_: "Obszar>{ALT}{0}"
+  STR_BASE_NAME: "Jak nazwiemy kryjówkę, kapitanko?"
+  STR_SELECT_POSITION_FOR_ACCESS_LIFT: "WYBIERZ MIEJSCE NA WINDĘ"
+  STR_SELECT_DESTINATION_BASE: "Wysłać, ale dokąd?"
+  STR_GAME_OVER_1: "Gwiezdni Bogowie rządzą Ziemią z boską mocą i żelazną pięścią, jak to było przez stulecia. Populacja mutantów jak i ludzi kontynuuje swoje bezcelowe życie. Nawet ci bogaci i u władzy są wciąż ich niewolnikami. Nic się nie zmieniło, i nic nie zmieni. Nikt nie może nigdy kwestionować wiecznego porządku rzeczy. Nie będzie zbawiciela, nie będzie rewolucjonisty ... czy będzie? Na pewno to nie ty."
+  STR_GAME_OVER_2: "Twoje dziedzictwo zmieniło się w popiół. Wszelka wiedza i moc, którą zdobyłaś, są stracone na zawsze. Ktokolwiek, kto przyjdzie po tobie, będzie musiał zacząć od zera."
+  STR_VICTORY_1: "Kiedy weszłaś do komnaty spostrzegłaś Solarnego Gubernatora, nic więcej niż wielki mózg obcego, cel twojego zadania. Bezbronny, błaga o wysłuchanie nim podejmiesz decyzję o pociągnięciu za spust."
+  STR_VICTORY_2: "Mózg przemawia: 'Wiele milionów lat temu planeta, którą ty nazywasz Marsem, tętniła życiem. To życie zostało sprowadzone do jałowej planety przez naszą cywilizację, jak również i do twojej. Przez miliony lat my odwiedzaliśmy twoją planetę i genetycznie rozwijaliśmy twoich przodków. Kiedy nadszedł czas, my to odzyskaliśmy. Nie możesz nas zabić, ponieważ jesteś częścią nas..."
+  STR_VICTORY_3: "Oto centrum marsjańskiej cywilizacji, piramidy zbudowane miliony lat temu przez twoich przodków. Żadna planeta nie jest poza naszym zasięgiem i możesz dzielić się tą sławą. Ogromne niebezpieczeństwo czyha w zimnych odmętach kosmosu z powodu którego Gwiezdne Imperium zostało stworzone. Prosimy tylko o twoją współpracę ..."
+  STR_VICTORY_4: "'Pokój nie wchodzi w grę', taka jest twa odpowiedź podkreślona wystrzałem, który zakańcza egzystencję Solarnego Gubernatora. Teraz cały rdzeń dowodzenia i kontroli, ogromne struktury klonowania i produkcji na Marsie, cudowna technologia, wszystko jest na wyciągnięcie twej ręki."
+  STR_VICTORY_5: "Podchodzi twój oficer. 'Zarekwirowaliśmy międzygwiezdny okręt flagowy gubernatorów. Jakie są twoje rozkazy, Kapitanko?' Rządzenie zaledwie Ziemią nawet nie wydaje się być warte zachodu. Potęga starożytnych jest pod twoją komend, a gwiazdy zapraszają cię do nieskończonego wszechświata..."
+  STR_NOT_ENOUGH_SPECIAL_MATERIALS_TO_PRODUCE_ITEM_AT_BASE: "Niewystarczająca ilość zasobów, by wyprodukować{NEWLINE}{0}{NEWLINE}w{NEWLINE}{1}!"
+  STR_NOT_ENOUGH_MONEY_TO_PRODUCE_ITEM_AT_BASE: "Niewystarczająca ilość pieniędzy, by wyprodukować{NEWLINE}{0}{NEWLINE}w{NEWLINE}{1}"
+  STR_PRODUCTION_OF_ITEM_AT_BASE_IS_COMPLETE: "Produkcja{NEWLINE}{0}{NEWLINE}w{NEWLINE}{1}{NEWLINE}jest zakończona"
+  STR_CONSTRUCTION_OF_FACILITY_AT_BASE_IS_COMPLETE: "Konstrukcja{NEWLINE}{0}{NEWLINE}w{NEWLINE}{1}{NEWLINE}is complete"
+  STR_UFO_ACTIVITY_IN_AREAS: "Aktywność ruchu/strefy"
+  STR_UFO_ACTIVITY_IN_COUNTRIES: "Aktywność ruchu/kraje"
+  STR_XCOM_ACTIVITY_IN_AREAS: "Nasza aktywność/strefy"
+  STR_XCOM_ACTIVITY_IN_COUNTRIES: "Nasza aktywność/kraje"
+  STR_OK_5_SECONDS: "AYE - 5 sek"
+  STR_UFO_IS_NOT_RECOVERED: "Łup wyśliznął się nam z rąk"
+  STR_UFO_IS_RECOVERED: "Łup zdobyty!"
+  STR_CRAFT_IS_LOST: "Statek stracony"
+  STR_TERROR_CONTINUES: "Rzeź wolnych mutantów trwa!"
+  STR_ALIENS_DEFEATED: "Wróg pobity!"
+  STR_BASE_IS_LOST: "Kryjówka stracona!"
+  STR_BASE_IS_SAVED: "Kryjówka obroniona!"
+  STR_ALIEN_BASE_STILL_INTACT: "Wrogi fort odparł szturm!"
+  STR_ALIEN_BASE_DESTROYED: "Wrogi fort zniszczony!"
+  STR_ALIENS_KILLED: "WROGÓW ZABITO"
+  STR_ALIEN_CORPSES_RECOVERED: "ZWŁOK OGRABIONO"
+  STR_LIVE_ALIENS_RECOVERED: "ZAKŁADNIKÓW WZIĘTO"
+  STR_ALIEN_BASE_CONTROL_DESTROYED: "MOSTEK ZNISZCZONO"
+  STR_XCOM_OPERATIVES_KILLED: "ZAŁOGANTÓW POLEGŁO"
+  STR_XCOM_OPERATIVES_RETIRED_THROUGH_INJURY: "ZAŁOGANTÓW ZWOLNIONO ZE SŁUŻBY"
+  STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "ZAŁOGANTÓW NIE STAWIŁO SIĘ NA APEL"
+  STR_TANKS_DESTROYED: "AUXILIÓW STRACONO"
+  STR_XCOM_CRAFT_LOST: "STATEK STRACONO"
+  STR_UFO_RECOVERY: "BRAĆ ŁUPY!"
+  STR_ALIEN_BASE_RECOVERY: "SZTURM NA FORT!"
+  STR_BASE_DEFENSES_INITIATED: "BATERIE OBRONNE PROWADZĄ OGIEŃ..."
+  STR_GRAV_SHIELD_REPELS_UFO: "TARCZA SPOWALNIA WROGA!"
+  STR_UFO_DESTROYED: "ROZBITY W PYŁ!"
+  STR_SELL_ITEMS_SACK_PERSONNEL: "Opyl, co masz!"
+  STR_SELL_SACK: "Stoi"
+  STR_UFO_CRASH_RECOVERY: "BRAĆ ŁUPY!"
+  STR_UFO_CRASH_RECOVERY_BRIEFING: "Przybyliśmy do miejsca 'wymuszonego awaryjnego lądowania', Kapitanko! Prawdopodobnie wielu tych cholernych psów przetrwało lądowanie i nie rozstaną się z łupem bez walki. Gorzej dla nich! Jeśli jednak coś pójdzie nie tak, pamiętaj, że ktokolwiek pozostawiony poza pokładem w czasie odlotu będzie stracony!"
+  STR_UFO_GROUND_ASSAULT: "BRAĆ ŁUPY!"
+  STR_UFO_GROUND_ASSAULT_BRIEFING: "Wyśmienicie, Kapitanko! Zdołaliśmy wylądować na cichacza tuż obok ich statku. Wszelakie dobra jakie przewozili są nienaruszone i tylko czekają, by je zabrać! Yarr!"
+  STR_BASE_DEFENSE: "OBRONA KRYJÓWKI"
+  STR_BASE_UC_: "KRYJÓWKA> {0}"
+  STR_BASE_DEFENSE_BRIEFING: "Wrogie psy wzięły na cel naszą bazę i jest ona teraz atakowana! Czas, by zapłacili za swój błąd... Albo ograniczyć straty i zbiec. Twój wybór, Kapitanko."
+  STR_ALIEN_BASE_ASSAULT: "SZTURM NA FORT"
+  STR_CYDONIA_BRIEFING: "Wszystko jest gotowe na wielki finał, Kap'tanie! Czas strącić ze stołków tych fałszywych bogów i przejąć potęgę Pradawnych!"
+  STR_TERROR_MISSION: "POGROM MUTANTÓW"
+  STR_TERROR_MISSION_NO_PENALTY: "POGROM MUTANTÓW (Najemnik)"
+  STR_LAUNCH_INTERCEPTION: "ŻAGLE STAW!"
+  STR_CRAFT: "STATEK"
+  STR_BASE: "KRYJÓWKA"
+  STR_YES: "JO!"
+  STR_NO: "E..."
+  STR_SELECT_SITE_FOR_NEW_BASE: "GDZIE ZAŁOŻYM KRYJÓWKĘ?"
+  STR_RETURN_TO_BASE: "WRACAJ DO PORTU"
+  STR_SELECT_NEW_TARGET: "NOWY KURS"
+  STR_PATROL: "KOTWICĘ RZUĆ"
+  STR_DAMAGED_RETURNING_TO_BASE: "USZKODZONY - WRACA DO PORTU"
+  STR_LOW_FUEL_RETURNING_TO_BASE: "BRAK PALIWA - WRACA DO PORTU"
+  STR_TAILING_UFO: "ŚLEDZI KONTAKT"
+  STR_INTERCEPTING_UFO: GONI KONTAKT-{0}
+  STR_RETURNING_TO_BASE: WRACA DO PORTU
+  STR_RANK_NONE: Pomocnik
+  STR_ROOKIE: Dziewka
+  STR_SQUADDIE: Piratka
+  STR_SERGEANT: Szefowa
+  STR_CAPTAIN: Pani
+  STR_COLONEL: Baronessa
+  STR_COMMANDER: Królowa
+  STR_CRAFT_READY_TO_LAND_NEAR_DESTINATION: "{0}{ALT}{NEWLINE}zbliża się{NEWLINE}{ALT}{1}"
+  STR_BEGIN_MISSION: "Gotowi do boju?"
+  STR_SELECT_SQUAD_FOR_CRAFT: Wybierz załogę dla {0}
+  STR_CENTER_ON_UFO_TIME_5_SECONDS: POKAŻ KONTAKT-CZAS=5 Sek
+  STR_REDIRECT_CRAFT: ZMIEŃ KURS
+  STR_GO_TO_LAST_KNOWN_UFO_POSITION: KURS NA OSTATNIĄ POZYCJĘ KONTAKTU
+  STR_UFO_: KONTAKT-{0}
+  STR_ALIEN_BASE_: FORT-{0}
+  STR_TERROR_SITE: POGROM-{0}
+  STR_NOW_PATROLLING: Rzucił kotwicę
+  STR_UFOPAEDIA: Łupopedia
+  STR_HEAVY_WEAPONS_PLATFORMS: JEDNOSTKI I PANCERZE
+  STR_WEAPONS_AND_EQUIPMENT: BROŃ I EKWIPUNEK
+  STR_ALIEN_ARTIFACTS: SKARBY
+  STR_ALIEN_LIFE_FORMS: FRAKCJE
+  STR_ALIEN_RESEARCH_UC: TAJEMNICE
+  STR_UFO_COMPONENTS: WIEDZA
+  STR_UFOS: WROGIE STATKI
+  STR_MAXIMUM_SPEED_UC: "PRD.MAX>{ALT}{0}{ALT}"
+  STR_ACCELERATION: "PRZYSP.>{ALT}{0}{ALT}"
+  STR_FUEL_CAPACITY: "PALIWO>{ALT}{0}{ALT}"
+  STR_WEAPON_PODS: "BRONIE>{ALT}{0}{ALT}"
+  STR_DAMAGE_CAPACITY_UC: "ŻYWOTN.>{ALT}{0}{ALT}"
+  STR_CARGO_SPACE: "ZAŁOGA>{ALT}{0}{ALT}"
+  STR_COCKPIT_CAPACITY: "PILOCI>{ALT}{0}{ALT}"
+  STR_HWP_CAPACITY: "AUXILIA>{ALT}{0}{ALT}"
+  STR_CRAFT_WEAPON: "Broń okrętowa"
+  STR_CRAFT_AMMUNITION: "Amunicja okrętowa"
+  STR_HEAVY_WEAPONS_PLATFORM: "Czołg"
+  STR_COMBAT_UNIT: Jednostka
+  STR_AMMUNITION: "Amunicja"
+  STR_WEAPON: "Broń"
+  STR_WEAPON_M: "Broń biała"
+  STR_WEAPON_G: "Broń strzelecka"
+  STR_WEAPON_X: "Broń inna"
+  STR_AMMUNITION_STD: "Amunicja zwykła"
+  STR_AMMUNITION_ADV: "Amunicja specjalna"
+  STR_AMMUNITION_HV: "Amunicja ciężka"
+  STR_AMMUNITION_LAS: "Amunicja laserowa"
+  STR_AMMUNITION_MD: "Amunicja magnetyczna"
+  STR_AMMUNITION_PL: "Amunicja plazmowa"
+  STR_DAMAGE_NONE: "SPECJALNE"
+  STR_DAMAGE_ARMOR_PIERCING: "PENETRUJĄCE"
+  STR_DAMAGE_INCENDIARY: "OGNIOWE"
+  STR_DAMAGE_HIGH_EXPLOSIVE: "TĘPE"
+  STR_DAMAGE_LASER_BEAM: "LASEROWE"
+  STR_DAMAGE_PLASMA_BEAM: "PLAZMOWE"
+  STR_DAMAGE_STUN: "GŁUSZĄCE"
+  STR_DAMAGE_MELEE: "SIECZNE"
+  STR_DAMAGE_ACID: "CHEMICZNE"
+  STR_DAMAGE_SMOKE: "DUSZĄCE"
+  STR_DAMAGE_10: "ANTY-E511"
+  STR_DAMAGE_11: "BIOLOGICZNE"
+  STR_DAMAGE_12: "ELEKTRYCZNE"
+  STR_DAMAGE_13: "EMP"
+  STR_DAMAGE_14: "WARP"
+  STR_DAMAGE_15: "UMYSŁU"
+  STR_SHOT_TYPE: "TYP ATAKU"
+  STR_ALIEN_CORPSE: Zwłoki
+  STR_UFO_COMPONENT: Komponent
+  STR_CANNON: "30mm Cannon"
+  STR_CANNON_UC: "30MM CANNON"
+  STR_CANNON_ROUNDS_X50: "30mm Cannon Rounds(x50)"
+  STR_LASER_CARBINE: Stingy
+  STR_LASER_SUPERCHARGER: "Super-Samo-Ładowacz"
+  STR_LASER_RIFLE: Advanced Lasgun
+  STR_HEAVY_LASER: Portable Lascannon
+  STR_SOLDIER_M: Wojownik
+  STR_SOLDIER_V: Weteran
+  STR_SOLDIER_X: Dziwak
+  STR_SOLDIER_SYNTH: Syntek
+  STR_SCIENTIST: Rozkminiaczka
+  STR_ENGINEER: Dłubaczka
+  STR_RATING: "NIESŁAWA> {0}"
+  STR_UFO: KONTAKT
+  STR_GENERAL_STORES: "Skarbiec"
+  STR_SMALL_RADAR_SYSTEM: "Radar Hi-Fi"
+  STR_LARGE_RADAR_SYSTEM: "Przesterowany radar"
+  STR_MISSILE_DEFENSES: "Silos rakietowy"
+  STR_ALIEN_CONTAINMENT: Cele więzienne
+  STR_CRYO_PRISON: Więzienie Kriogeniczne
+  STR_PLASMA_DEFENSE: "Obrona Plazmowa"
+  STR_PLASMA_DEFENSES: "Bateria plazomwa"
+  STR_FUSION_BALL_DEFENSES: "Silos fuzjokul"
+  STR_PSIONIC_LABORATORY: Szkoła wudu
+  STR_COUNTRY: "Kraj"
+  STR_FUNDING: Opłaty za ochronę
+  STR_HWPS: AUXILIA
+  STR_TOTAL_UC: "CAŁKOWITE"
+  STR_INCOME: "Przychód"
+  STR_EXPENDITURE: "Wydatki"
+  STR_XCOM_PROJECT_MONTHLY_REPORT: TWÓJ MIESIĘCZNY RAPORT PIRACKI
+  STR_COUNCIL_IS_GENERALLY_SATISFIED: "Pomimo twoich średnich dokonań, narody świata są wciąż zainteresowane fundowaniem naszej operacji. Jednak nie spodziewaj się ogromnych dodatków."
+  STR_COUNCIL_IS_VERY_PLEASED: "Narody świata są pod wrażeniem naszego korsarstwa i zadecydowały wzmożyć swoje wsparcie."
+  STR_COUNCIL_IS_DISSATISFIED: "Narody świata zaczynają myśleć, że jesteś paskudnym żartem. Załoga się niepokoi. Jeśli twój wynik się nie poprawi w następnym miesiącu, będzie niemiło."
+  STR_YOU_HAVE_NOT_SUCCEEDED: "Twoje dokonania były tak okropne, że narody świata zadecydowały zmniejszyć straty i przestać cię wspierać."
+  STR_YOU_HAVE_FAILED: "Nie jest dobrze. Perspektywy na przyszłość wyglądają blado, straciłaś nie tylko zewnętrze wsparcie, ale także zaufanie załogi. Wywiązał się bunt. Zdradziecka załoga w nadziei na ubłaganie wierzycieli postanowiła cię obalić. Czas na spacer po desce, Kap'tanie."
+  STR_COUNTRY_IS_PARTICULARLY_PLEASED: "{0} jest szczególnie pod wrażeniem tego jak czynisz życie ich wrogów lichym i zgodzili się, by zwiększyć wypłacany haracz."
+  STR_COUNTRIES_ARE_PARTICULARLY_HAPPY: "{0} jest szczególnie pod wrażeniem tego jak czynisz życie ich wrogów lichym i zgodzili się, by zwiększyć wypłacany haracz."
+  STR_COUNTRY_IS_UNHAPPY_WITH_YOUR_ABILITY: "{0} sądzi że jesteś w dużej mierze nieszkodliwa i zadecydowali zredukować wypłacany haracz."
+  STR_COUNTRIES_ARE_UNHAPPY_WITH_YOUR_ABILITY: "{0} sądzi że jesteś w dużej mierze nieszkodliwa i zadecydowali zredukować wypłacany haracz."
+  STR_COUNTRY_HAS_SIGNED_A_SECRET_PACT: "{0} wprowadziło politykę 'Zero Tolerancji'. Nie spodziewaj się żadnego haraczu od nich."
+  STR_COUNTRIES_HAVE_SIGNED_A_SECRET_PACT: "{0} wprowadziło politykę 'Zero Tolerancji'. Nie spodziewaj się żadnego haraczu od nich."
+  STR_COUNCIL_REDUCE_DEBTS: "Komornicy zapukali do twoich drzwi. Musisz zredukować swój dług poniżej $1 milliona do końca następnego miesiąca, albo będziesz musiała zapłacić głową."
+  STR_CRAFT_TYPE: "TYP STATKU"
+  STR_RACE: "FLAGA"
+  STR_SELECT_DIFFICULTY_LEVEL: "Wybierz poziom trudności"
+  STR_1_BEGINNER: "1> Kapitan Brzdąc"
+  STR_2_EXPERIENCED: "2> John Silver"
+  STR_3_VETERAN: "3> Czarnobrody"
+  STR_4_GENIUS: "4> Davy Jones"
+  STR_5_SUPERHUMAN: "5> Jack Sparrow"
+  STR_MISSION_GENERATOR: "SYMULATOR TAKTYCZNY"
+  STR_ALIEN_OPTIONS: "OPCJE PRZECIWNIKÓW"
+  STR_IRONMAN: "SUPERMUTANT"
+  STR_IRONMAN_DESC: "Tego sam nie zasejwujesz. Lepie' nie."
+  STR_PSIONIC_TRAINING: "Zajęcia z wudu"
+  STR_PSI_TRAINING: "Zajęcia z wudu"
+  STR_REMAINING_PSI_LAB_CAPACITY: "Wolne ławki> {ALT}{0}"
+  STR_PSIONIC__STRENGTH: "Talent{NEWLINE}VooDoo"
+  STR_PSIONIC_SKILL_IMPROVEMENT: "Mądrość{NEWLINE}/Wzrost"
+  STR_WEAPONS_CREW_HWPS: "BROŃ/{NEWLINE}ZAŁ./AUX"
+  STR_ABANDON_GAME: "OPUŚĆIĆ OKRĘT!"
+  STR_ABANDON_GAME_QUESTION: "WSZYSCY DO ŁODZI, KAPITANKO?"
+  STR_IS_LOW_ON_FUEL_RETURNING_TO_BASE: "leci na oparach,{NEWLINE}wraca do portu."
+  STR_SOLDIER_LIST: "Załoga"
+  STR_PSIONIC_STRENGTH: "TALENT WUDU"
+  STR_PSIONIC_SKILL: "MĄDROŚĆ"
+  STR_SOLDIERS_UC: "ZAŁOGA"
+  STR_ALIEN_DIES_NO_ALIEN_CONTAINMENT_FACILITY: "Brak miejsca w więzieniu! Zakładnicy zostali okradzeni i przepędzeni!"
+  STR_ALIEN_DIES_NO_ALIEN_CONTAINMENT_FACILITY_1: "NIE WYKRYTO AKWARIUM! Ryby zdechły."
+  STR_ALIEN_DIES_NO_ALIEN_CONTAINMENT_FACILITY_2: "Brak wolnych zwierzęcych klatek! Schwytane zwierzęta zostały zarżnięte."
+  STR_NO_ALIEN_CONTAINMENT_FOR_TRANSFER: "TO SZALEŃSTWO!{SMALLLINE}W tamtej kryjówce nie ma więzienia, Kapitanko!"
+  STR_NO_ALIEN_CONTAINMENT_FOR_TRANSFER_1: "NA BRODĘ NEPTUNA!{SMALLLINE}Nie ma żadnego akwarium w kryjówce, Kap'tanie!"
+  STR_NO_ALIEN_CONTAINMENT_FOR_TRANSFER_2: "POMYŚL O ZWIERZĄTKACH!{SMALLLINE}Nie ma żadnych klatek dla zwierząt w kryjówce, Kap'tanie!"
+  STR_CONTAINMENT_EXCEEDED: "BRAK MIEJSCA W WIĘZIENIU!{SMALLLINE}w {0} skończyły się cele. Musimy pognać paru precz!"
+  STR_CONTAINMENT_EXCEEDED_1: "NIE WYKRYTO AKWARIUM!{SMALLLINE}Niewystarczające obiekty w {0}. Usuń nadmiar wodnych form życia."
+  STR_CONTAINMENT_EXCEEDED_2: "Brak wolnych klatek dla zwierząt {0}{SMALLLINE}Musimy ścigać nadmiar zwierząt na wolności!"
+  STR_MANAGE_CONTAINMENT: "Zarządzanie więźniami"
+  STR_MANAGE_CONTAINMENT_2: "Zarządzaj klatkami dla zwierząt"
+  STR_ALIEN: "Więzień"
+  STR_ALIEN_1: "Ryba"
+  STR_ALIEN_2: "Zwierze"
+  STR_REMOVE_SELECTED: "Brać okup!"
+  STR_REMOVE_SELECTED_1: "Sprzedaj!"
+  STR_REMOVE_SELECTED_2: "Sprzedaj!"
+  STR_LIVE_ALIENS: "Trzymać"
+  STR_LIVE_ALIENS_1: "Zatrzymaj"
+  STR_LIVE_ALIENS_2: "Zatrzymaj"
+  STR_DEAD_ALIENS: "Na okup"
+  STR_DEAD_ALIENS_1: "Sprzedaj"
+  STR_DEAD_ALIENS_2: "Sprzedaj"
+  STR_UNDER_INTERROGATION: "W labie"
+  STR_UNDER_INTERROGATION_1: "W laboratorium"
+  STR_UNDER_INTERROGATION_2: "W laboratorium"
+  STR_MARS_CYDONIA_LANDING: "Mars: Cydonia Landing"
+  STR_MARS_THE_FINAL_ASSAULT: "Mars: Ostateczna Rozgrywka"
+  STR_MARS_THE_FINAL_ASSAULT_BRIEFING: "Winda w piramidzie zabiera twoich dzielnych wojowników głęboko pod powierzchnię planety. Gdzieś tam rezyduje Solarny Gubernator, pociągając za sznurki, jak ogromny pająk w labiryncie. Ze swojej ogromnej armii nie ma już nic poza osobistą strażą miedzy tobą a nim. To jest to, decydujący moment, jedyna szansa, aby go zabić i wykorzystać jego moc dla siebie. Śmierć lub Chwała!"
+  STR_THE_ALIENS_HAVE_DESTROYED_THE_UNDEFENDED_BASE: "Nasi wrogowie przejęli {0} ponieważ było niebronione!"
+  STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "Plotka w lokalnej tawernie ostrzega przed konkurencją w"
+  STR_STANDOFF: "ŚLEDZIĆ"
+  STR_CAUTIOUS_ATTACK: "STRZELAĆ NA DYSTANS"
+  STR_STANDARD_ATTACK: "PEŁNA BURTOWA!"
+  STR_AGGRESSIVE_ATTACK: "DO ABORDAŻU!"
+  STR_DISENGAGING: "WYCOFUJEM SIĘ!"
+  STR_UFO_HIT: "DOSTAŁ!"
+  STR_UFO_CRASH_LANDS: "WRÓG IDZIE NA DNO!"
+  STR_MINIMISE_AT_STANDOFF_RANGE_ONLY: "Nie w ogniu bitwy, Kapitanko!"
+  STR_UFO_RETURN_FIRE: "SZCZELAJOM DO NAS!"
+  STR_INTERCEPTOR_DAMAGED: ">>> DOSTAJEMY! <<<"
+  STR_INTERCEPTOR_DESTROYED: ">>> STATEK STRACONY! <<<"
+  STR_UFO_OUTRUNNING_INTERCEPTOR: "NĘDZNICY ZWIEWAJĄ!"
+  STR_ALIENS_TERRORISE: "POGROM MUTANTÓW W:"
+  STR_STORES_UC: "SKARBIEC"
+  STR_INTERCEPT: "WYZNACZ KURS"
+  STR_BASES: "KRYJÓWKI"
+  STR_GRAPHS: "DZIENNIK"
+  STR_UFOPAEDIA_UC: "ŁUPOPEDIA"
+  STR_OPTIONS_UC: "KONTRAKTY"
+  STR_FUNDING_UC: "OCHRONA"
+  STR_XCOM_PERFORMANCE_ROSTER: "Ocena zdolności pirackich"
+  STR_NEW_BATTLE: "Szybka Bitwa"
+  STR_ENTER_NAME: "Jak nazwać?"
+  STR_PERFORMANCE_RATING: "Ocena"
+  STR_CRAFT_RENTAL: "Utrzymanie floty"
+  STR_IN_PSIONIC_TRAINING: "Uczy się wudu"
+  STR_GRENADE_IS_ACTIVATED: "Bomba odbezpieczona! Ostrożnie~"
+  STR_GRENADE_IS_DEACTIVATED: "Bomba zabezpieczona, Kapitanko!"
+  STR_UNPRIME_GRENADE: "Deaktywuj Bombę"
+  STR_UNPRIME_NUKE: "Rozbrój Mini-Atomówkę"
+  STR_UNPRIME_SDD: "Rozbrój Złowrogie Urządzenie"
+  STR_UNABLE_TO_USE_ALIEN_ARTIFACT_UNTIL_RESEARCHED: "Nic się nie dzieje, Kapitanko!"
+  STR_MIND_CONTROL: "Opętanie"
+  STR_PANIC_UNIT: "Groza"
+  STR_MORALE_ATTACK_SUCCESSFUL: "Boi się!"
+  STR_MIND_CONTROL_SUCCESSFUL: "Pod kontrolą!"
+  STR_HAS_PANICKED_MALE: "{0}{NEWLINE} Oszalał!"
+  STR_HAS_PANICKED_FEMALE: "{0}{NEWLINE} Oszalała!"
+  STR_PSIONIC_SKILL_SHORT: "Magia>{ALT}{0}"
+  STR_ALIEN_ARTIFACT: "Niewiadomo, co"
+  STR_ARMOR_: "{0}"
+  STR_ARMOR: "PANCERZ"
+  STR_AMMO: "AMUNICJA"
+  STR_AMMO_: "AMUNICJA>{ALT}{0}"
+  STR_AMMO_ROUNDS_LEFT: "{NEWLINE}Amun:{NEWLINE}Strz={ALT}{0}"
+  STR_PRIME_GRENADE: "Odbezpiecz"
+  STR_USE_SCANNER: Ahoj?
+  STR_USE_MEDI_KIT: Użyj
+  STR_XCOM: "My"
+  STR_ALIENS: "Oni"
+  STR_RIGHT_HAND: "P. RĘKA"
+  STR_LEFT_HAND: "L. RĘKA"
+  STR_RIGHT_SHOULDER: "P. RAMIĘ"
+  STR_LEFT_SHOULDER: "L. RAMIĘ"
+  STR_BACK_PACK: "   PLECAK"
+  STR_BELT: "     PAS"
+  STR_HEAD: "GŁOWA"
+  STR_TORSO: "KORPUS"
+  STR_RIGHT_ARM: "P. RĘKA"
+  STR_LEFT_ARM: "L. RĘKA"
+  STR_RIGHT_LEG: "P. NOGA"
+  STR_LEFT_LEG: "L. NOGA"
+  STR_QD_SLOT: "P.O."
+  STR_IS_UNDER_ALIEN_CONTROL_MALE: "{0}{NEWLINE}opętano złym czarem!"
+  STR_IS_UNDER_ALIEN_CONTROL_FEMALE: "{0}{NEWLINE}opętano złym czarem!"
+  STR_USE_MIND_PROBE: "Zajrzy"
+  STR_HAS_DIED_FROM_A_FATAL_WOUND_MALE: "{0}{NEWLINE}nie dał rady"
+  STR_HAS_DIED_FROM_A_FATAL_WOUND_FEMALE: "{0}{NEWLINE}nie dała rady"
+  STR_CORPSE: "Trup"
+  STR_MUTILATED_CORPSE: "Okaleczony Trup"
+  STR_PILE_OF_GORE: "Stos Flaków"
+  STR_CORPSE_UNARMORED: "Pirackie ozdoby"
+  STR_ABORT_MISSION: "Cała naprzód! UCIEKAMY!"
+  STR_ABORT_MISSION_QUESTION: "Uciekamy? Tak, Kapitanko?"
+  STR_ALL_ALIENS_KILLED_IN_CRASH: "Everyone killed in crash,{NEWLINE}Sending the crew to loot the bodies!"
+  STR_SOLDIERS_RECRUITED: "ZREKRUTOWANI>{ALT}{0}"
+  STR_SOLDIERS_LOST: "POLEGLI>{ALT}{0}"
+  STR_PSISTRENGTHEVAL: "Ocena talentu wudu"
+  STR_GO_TO_BASE: "Do kryjówki"
+  STR_NEW_FIGHTER_CRAFT: "Opancerzony myśliwiec"
+  STR_NEW_FIGHTER_TRANSPORTER: "Ulepszony transportowiec"
+  STR_ULTIMATE_CRAFT: "Okręt marsjański"
+  STR_AVENGER: "ZDOBYWCA"
+  STR_XCOM_BASE_CANNOT_BE_BUILT: "Nie możem żyć pod wodą, Kapitanko, nie jesteśmy syrenkami!"
+  STR_TOTAL_UFOS: "Wykryta Żegluga"
+  STR_TOTAL_ALIEN_BASES: "Odkryte sekretne bazy"
+  STR_NOT_ENOUGH_ITEMS: "Potrzebujemy więcej {0}s{NEWLINE} żeby wybudować ten obiekt"
+  STR_PHYSICAL_TRAINING: "Trening fizyczny"
+  STR_TRAINING: "Trening"
+  STR_REMAINING_TRAINING_FACILITY_CAPACITY: "POZOSTAŁO MIEJSCA DO TRENINGU> {ALT}{0}"
+  STR_NOT_ENOUGH_MORALE: "Brak ci dyscypliny!"
+  STR_NOT_ENOUGH_HEALTH: "Trzeba więcej krwi!"
+  STR_NOT_ENOUGH_STUN: "Jesteś zbyt otumaniona!"
+  STR_NO_USES_LEFT: "Nic już nie zostało"
+  STR_CRAFT_WEAPON_LIGHT_ONE: "BR.LEK-1>{ALT}{0}"
+  STR_CRAFT_WEAPON_LIGHT_TWO: "BR.LEK-2>{ALT}{0}"
+  STR_CRAFT_WEAPON_LIGHT_THREE: "BR.LEK-3>{ALT}{0}"
+  STR_CRAFT_WEAPON_LIGHT_FOUR: "BR.LEK-4>{ALT}{0}"
+  STR_CRAFT_WEAPON_HEAVY_ONE: "BR.CIĘŻ-1>{ALT}{0}"
+  STR_CRAFT_WEAPON_HEAVY_TWO: "BR.CIĘŻ-2>{ALT}{0}"
+  STR_CRAFT_WEAPON_HEAVY_THREE: "BR.CIĘŻ-3>{ALT}{0}"
+  STR_CRAFT_WEAPON_HEAVY_FOUR: "BR.CIĘŻ-4>{ALT}{0}"
+  STR_CRAFT_WEAPON_MISSILE_ONE: "RAKIETY-1>{ALT}{0}"
+  STR_CRAFT_WEAPON_MISSILE_TWO: "RAKIETY-2>{ALT}{0}"
+  STR_CRAFT_WEAPON_MISSILE_THREE: "RAKIETY-3>{ALT}{0}"
+  STR_CRAFT_WEAPON_MISSILE_FOUR: "RAKIETY-4>{ALT}{0}"
+  STR_SHOT_TYPE_AUTO: "Seria (x{0})"
+  STR_SHOT_TYPE_SNAP: "Szybki (x{0})"
+  STR_SHOT_TYPE_AIMED: "Celowany (x{0})"
+  STR_KILLS2: ZABICI
+  STR_HIGH_EXPLOSIVE: "Ładunek wybuchowy"
+  STR_STINGRAY_LAUNCHER: "Wyrzutnia rakiet Trygon"
+  STR_STINGRAY_MISSILES: "Rakiety Trygon"
+  STR_STINGRAY: "TRYGON"
+  STR_NONE_UC: "BRAK"
+  STR_HIT_LOG_WEAPON: "Broń"
+  STR_RANK_PEA_0: "Wieśniak"
+  STR_RANK_SLV_0: "Żołnierz niewolny"
+  STR_RANK_BEAST_0: "Bestia"
+  STR_OXCE: "Rozszerzony"
+  STR_TRAINING_FINISHED: "TRENING ZAKOŃCZONY"
+  STR_NO_DONE: "ZAKOŃCZONE"
+  STR_WHAT_CAN_I_WEAR: "Co założyć?"
+  STR_STARTING_CONDITION_ARMORS: "Ze wszystkich strojów o których wiemy, tylko te wymienione mogą się przydać podczas tej misji: {NEWLINE}{NEWLINE}{0}"
+  STR_CANCEL_AND_IGNORE_UC: "CAŁA WSTECZ!"
+  STR_WE_CAN_NOW_RENT: "Możemy teraz nabyć"
+  STR_WE_CAN_NOW_BUILD: "Możemy teraz wybudować"
+  STR_REFUND_PRODUCTION: "ZWROT!"
+  STR_FAILED_CQB_CHECK: "Przeciwnik uniknął naszego ataku!"
+  STR_ITEM_DESTROYED: "Przedmiot zniszczony:"
+  STR_ASSIGN_PILOTS: "Zabierz mnie do nich!"
+  STR_WE_CAN_NOW_PURCHASE: "Możemy teraz kupić"
+  STR_START_FIRING: "Otworzyć Ogień! Wszystkim co mamy!"
+  STR_SKIP_FIRING: "Wpuść ich..."
+  STR_INFO: "HĘ?"
+  STR_INFO_UFOPEDIA: "ANAL"
+  STR_PERFORMANCE_BONUS: "Bonus Nikczemności"
+  STR_RUN: "Rozpocznij wybrany test!"
+  STR_DAY_SHORT: "{0}d."
+  STR_HOUR_SHORT: "{0}g."
+  STR_PATROLLING: "STOI NA KOTWICY"
+  STR_RETURNING: "POWRÓT DO KRYJÓWKI"
+  STR_INTERCEPTING: "W POGONI"
+  STR_EN_ROUTE: "ŻEGLUJE"
+  STR_DIRECT_DEPENDENCIES: "Potrzebne do Produkcji:"
+  STR_END_OF_SEARCH: "Koniec Poszukiwań..."
+  STR_NEW_TURN: "Nowa Tura"
+  STR_BUG_HUNT_ACTIVATED: "Tryb 'Łowcy Robali' aktywowany: Wrogowie są widoczni na minimapie!"
+  STR_LIVE_ALIENS_SURRENDERED: "JEŃCY"
+  STR_UFO_HIT_NO_DAMAGE: "ODBITE OD POWŁOKI"
+  STR_UFO_HIT_GLANCING: "NIEBEZPOŚREDNIE TRAFIENIE!"
+  STR_UFO_SHIELD_HIT: "TRAFIŁ ICH TARCZE!"
+  STR_UFO_SHIELD_DOWN: "TARCZE WROGA PADŁY!"
+  STR_INTERCEPTOR_SHIELD_HIT: "PROSTO W NASZĄ TARCZĘ!"
+  STR_SHIELD: "TARCZE>{ALT}{0}"
+  STR_TRACTOR_BEAM_ENGAGED: "PROMIEŃ ŚCIĄGAJĄCY WŁĄCZONY!"
+  STR_EVASIVE_MANEUVERS: "MANEWRY WYMIJAJACE!"
+  STR_UFO_HAS_LANDED: "Statek wylądował w{NEWLINE}{0}"
+  STR_UFO_LANDING_ALERT: "Wróg wylądował"
+  STR_STATS_FOR_NERDS: "Analiza"
+  STR_AUTO_NIGHT_VISION: "Automatyczna Noktowizja"
+  STR_ANYTIMEMARTIALTRAINING: "Trening fizyczny w dowolnym czasie"
+  STR_MINIMAP_BORDER_INDICATOR: "Wyświetl granice planszy na minimapie"
+  STR_ADD_VEHICLES_TO_MEMORIAL: "Jednostki wsparcia na tablicy poległych"
+  STR_SHOW_QUICK_SEARCH: "Pokaż okienko szybkiego szukania"
+  STR_ADD_VEHICLES_TO_MEMORIAL_DESC: "Stracone jednostki wsparcia będą dodane do tablicy poległych, tak jak żołnierze."
+  STR_SHOW_QUICK_SEARCH_DESC: "Włącza okno szybkiego szukania na ekranach takich jak magazyny, badania, produkcja itp. Kliknij na okienko (zwykle w lewym górnym rogu) i wpisz, a potem wciśnij Enter, by wyszukać."
+  BT_NONE: "Brak"
+  BT_AMMO: "Amunicja"
+  BT_MELEE: "Wręcz"
+  BT_GRENADE: "Granat"
+  BT_PSIAMP: "Wudu"
+  BT_CORPSE: "Zwłoki"
+  STR_NO_TRAJECTORY: "Ni ma trajektorii, kapitanko!"
+  STR_LINE_OF_SIGHT_REQUIRED: "Nie widzę ich, kapitanko!"
+  STR_MUST_USE_BOTH_HANDS: "Ni da się jedną ręką, kapitanko!"
+  STR_END_MISSION_QUESTION: "Rozkaz do zakończenia bitwy?"
+  STR_STATS: "EXP"
+  STR_LOOT: "ŁUP"
+  STR_SELL: "OPYL"
+  STR_REFUND_VALUE: "Zysk na sprzedaży> {ALT}{0}"
+  STR_PERSONNEL: "My"
+  STR_CRAFT_ARMAMENT: "Flota"
+  STR_COMPONENTS: "Skarby"
+  STR_GRAND_TOTAL: "Wszystkie kryjówki"
+  STR_UFO_TRACKER: "Wykryte kontakty"
+  STR_STARTING_CONDITION_CRAFT: "Ten statek się do tego nie nadaje, kapitanko!{NEWLINE}{NEWLINE}Możemy wziąć jeden z tych: {0}"
+  STR_SHOT_TYPE_MELEE: "Cios"
+  STR_WEIGHT_PEDIA1: "Wg: {0}"
+  STR_WEIGHT_PEDIA2: "Wg: {0}/{1}"
+  STR_NOT_ENOUGH_LIVING_SPACE_AT_BASE: "Brak miejsce mieszkalnych dla:{NEWLINE}{0}{NEWLINE}at{NEWLINE}{1}"
+  STR_NOT_ENOUGH_PILOTS: "Za mało pilotów!{NEWLINE}Minimum: {0}"
+  STR_PILOTS: "PILOCI"
+  STR_PILOT_MISSING: "BRAK PILOTÓW"
+  STR_ADD_PILOT: "Dodaj Pilota"
+  STR_SELECT_PILOT: "Wybierz Pilota"
+  STR_REMOVE_ALL_PILOTS: "Usuń Wszystkich Pilotów"
+  STR_ACCURACY_BONUS: "Bonus Celości:"
+  STR_DODGE_BONUS: "Bonus Uniku:"
+  STR_APPROACH_SPEED: "Prędkość Podejścia:"
+  STR_COWARDLY: "Tchórzliwie (-50%)"
+  STR_NORMAL: "Zwyczajnie"
+  STR_BOLD: "Dość Odważnie (+50%)"
+  STR_VERY_BOLD: "Odważnie (+50)"
+  STR_SAVE_UC: "ZAPISZ"
+  STR_NO_WOUNDED: "-"
+  STR_MT_RATING_10K: "WRÓG PUBLICZNY"
+  STR_MT_RATING_8K: "POSTRACH NIEBA"
+  STR_MT_RATING_6K: "SZEF"
+  STR_MT_RATING_5K: "PRZEDSIĘBIORCA"
+  STR_MT_RATING_4K: "REKETER"
+  STR_MT_RATING_3K: "ŁOTR"
+  STR_MT_RATING_2K: "ROZBÓJNIK"
+  STR_MT_RATING_1K5: "BANDYTA"
+  STR_MT_RATING_1K: "KIZIOR"
+  STR_MT_RATING_600: "CHULIGAN"
+  STR_MT_RATING_300: "OSIŁEK"
+  STR_MT_RATING_0: "DUPEK ŻOŁĘDNY"
+  STR_MT_RATING_BAD: "FRAJER"
+  STR_MT_RATING_JOKE: "CWEL"
+  STR_MS_RATING_2000: "LEGENDARNIE"
+  STR_MS_RATING_1500: "OKRUTNIE"
+  STR_MS_RATING_1000: "STRASZNIE"
+  STR_MS_RATING_750: "IMPONUJĄCO"
+  STR_MS_RATING_500: "ZNAMIENICIE"
+  STR_MS_RATING_300: "DOBRZE"
+  STR_MS_RATING_150: "NIEŹLE"
+  STR_MS_RATING_75: "MOŻE BYĆ"
+  STR_MS_RATING_0: "NIESPECJALNIE"
+  STR_MS_RATING_BAD: "CIENKO"
+  STR_MS_RATING_WORSE: "ŻAŁOŚNIE"
+  STR_MS_RATING_TERRIBLE: "BEZNADZIEJNIE"
+  STR_MS_RATING_DISASTER: "KATASTROFA!"
+  STR_AUXILIARY: "Pomocnik"
+  STR_ALL: "Wszystko"
+  STR_EQUIPPED: "Zaekwipowane"
+  STR_UNASSIGNED: "Inne"
+  STR_BAT_CAT_AUX: "Auxilia"
+  STR_BAT_CAT_PISTOL: "Pistolety"
+  STR_BAT_CAT_PROXY: "Miny Zbliżeniowe"
+  STR_BAT_CAT_INTELLIGENCE: "Inteligencja"
+  STR_BAT_CAT_MORALE: "Morale"
+  STR_BAT_CAT_SHIELD: "Zabezpieczający"
+  STR_BAT_CAT_MOSTLY_HARMLESS: "W Zasadzie Niegroźna"
+  STR_BAT_CAT_INFILTRATION: "Infiltracja"
+  STR_BAT_CAT_UNDERWATER: "Podwodą"
+  STR_BAT_CAT_0G: "0-G"
+  STR_BAT_CAT_TREASURE: "Skarb"
+  STR_BAT_CAT_ARMORS: "Odzienie"
+  STR_BAT_CAT_RESOURCE: "Surowe Zasoby"
+  STR_BAT_CAT_COMPONENT: "Komponenty"
+  STR_BAT_CAT_PEOPLE: "Ludzie"
+  STR_BAT_CAT_MONSTERS: "Potwory"
+  STR_BAT_CAT_DOCUMENT: "Dokumentacja"
+  STR_BAT_CAT_MERCHANDISE: "Towary"
+  STR_FILTER_NEW: "Nowy"
+  STR_FILTER_HIDDEN: "Ukryty"
+  STR_FILTER_FACILITY_REQUIRED: "Brak Wymaganego Obiektu"
+  STR_MARK_ALL_AS: "Zaznacz wszystko jako:"
+  STR_MARK_ALL_AS_NEW: "Nowy"
+  STR_MARK_ALL_AS_NORMAL: "Normalny"
+  STR_MARK_ALL_AS_HIDDEN: "Ukryty"
+  STR_UNITS_REQUIRED: "WYMAGANE JEDNOSTKI"
+  STR_UNITS_AVAILABLE: "DOSTĘPNE JEDNOSTKI"
+  STR_STOP_PRODUCTION: "ZATRZYMAJ PRODUKCJĘ"
+  STR_REQUIRES: "Wymaga:"
+  STR_DEPENDS_ON: "Zależy od:"
+  STR_UNLOCKED_BY: "Odblokowany przez:"
+  STR_GET_FOR_FREE_FROM: "Za darmo z:"
+  STR_REQUIRED_BY: "Wymagany przez:"
+  STR_LEADS_TO: "Prowadzi do:"
+  STR_UNLOCKS: "Odblokowuje:"
+  STR_GIVES_ONE_FOR_FREE: "Daje jedno za darmo:"
+  STR_RESEARCH_PROGRESS: "Ogólnie: {0}%"
+  STR_RESEARCH_COMPLETED: "Badanie Zakończone"
+  STR_RESEARCH_REQUIRED: "Badania wymagane:"
+  STR_FACILITIES_REQUIRED: "Obiekty wymagane:"
+  STR_MATERIALS_REQUIRED: "Materiały wymagane:"
+  STR_ITEMS_PRODUCED: "Przedmioty wyprodukowane:"
+  STR_AVAILABLE_TOPICS: "DOSTĘPNE TEMATY"
+  STR_GO_TO_TRANSFERS: "Odeślij trochę łupu"
+  STR_VIEW_REPORTS: "SPRAWDŹ REPORT"
+  STR_WE_CAN_NOW_RESEARCH: "Możemy teraz zbadać"
+  STR_WE_CAN_NOW_PRODUCE: "Możemy teraz wyprodukować"
+  STR_SUNDAY: "NIEDZIELA"
+  STR_MONDAY: "PONIEDZIAŁEK"
+  STR_TUESDAY: "WTOREK"
+  STR_WEDNESDAY: "ŚRODA"
+  STR_THURSDAY: "CZWARTEK"
+  STR_FRIDAY: "PIĄTEK"
+  STR_SATURDAY: "SOBOTA"
+  STR_NOT_ENOUGH_ITEM_TO_REFUEL_CRAFT_AT_BASE: "Niewystarczająco {0} by zatankować {1} w {2}"
+  STR_NOT_ENOUGH_ITEM_TO_REARM_CRAFT_AT_BASE: "Niewystarczająco {0} by uzbroić {1} w {2}"
+  LIB: "Biblioteka"
+  WORKS: "Warsztat"
+  GMGEO3: "Oblot"
+  GMGEO4: "Hiperfale"
+  STR_TRANSFER_TIME: "Czas transferu>{ALT}{0}"
+  STR_RECOVERY_TIME: "Czas rehabilitacji>{ALT}{0}"
+  STR_CURRENT_STATS: "Obecne statystyki"
+  STR_CHANGES: "Zmiany"
+  STR_WHITERABBIT: "Biały Królik"
+  STR_WHITERABBIT_CORPSE: "Martwy Królik"
+  STR_WHITERABBIT_CLOCK: "Zegarek Kieszonkowy"
+  STR_DIARY: "PAMIĘTNIK"
+  STR_KILLED: "ZABICI"
+  STR_STUNNED: "OGŁUSZENI"
+  STR_UNKNOWN: "Nieznana"
+  STR_POOR: "Słabo"
+  STR_AVERAGE: "Przeciętnie"
+  STR_GOOD: "Dobrze"
+  STR_EXCELLENT: "Wyśmienicie"
+  STR_NO_RECORD: "Brak zapisów"
+  STR_RATING_UC: "KLASYFIKACJA"
+  STR_DAY: "Dzień"
+  STR_NIGHT: "Noc"
+  STR_COMBAT: "BÓJ"
+  STR_COMMENDATIONS_UC: "NAZNACZENIA"
+  STR_COMMENDATIONS: "Naznaczenia"
+  STR_MEDALS: "TYTUŁY"
+  STR_AWARD_0: "Naznaczona"
+  STR_AWARD_1: "Niesławna"
+  STR_AWARD_2: "Sroga"
+  STR_AWARD_3: "Przeklęta"
+  STR_AWARD_4: "Wspaniała"
+  STR_AWARD_8: "CARYCA"
+  STR_AWARD_9: "PÓŁBOGINI"
+  STR_AWARD_DECOR_0: "Naznaczona"
+  STR_AWARD_DECOR_1: "Niesławna"
+  STR_AWARD_DECOR_2: "Sroga"
+  STR_AWARD_DECOR_3: "Przeklęta"
+  STR_AWARD_DECOR_4: "Wspaniała"
+  STR_AWARD_DECOR_8: "CARYCA"
+  STR_AWARD_DECOR_9: "PÓŁBOGINI"
+  STR_MEDAL_ORIGINAL8_NAME: "Zbiegła Wariatka"
+  STR_MEDAL_SERVICE_TIME_NAME: "Ciasto Urodzinowe"
+  STR_MEDAL_IMMORTAL_NAME: "Nieśmiertelna"
+  STR_MEDAL_CARREER_SCORE_NAME: "Wróg Publiczny"
+  STR_MEDAL_CARREER_MISSIONS_NAME: "Weteran"
+  STR_MEDAL_NIGHTOPS_NAME: "Słowik"
+  STR_MEDAL_BASE_DEFENSE_NAME: "Obrońca"
+  STR_MEDAL_ALIEN_BASE_ASSAULT_NAME: "Szturmowiec"
+  STR_MEDAL_CAMPAIGN_RIBBON_NAME: "Plaga {0}"
+  STR_MEDAL_MURDERER_NAME: "Morderczyni"
+  STR_MEDAL_CARREER_KILLS_NAME: "Anioł Śmierci"
+  STR_MEDAL_CARREER_CAPTURES_NAME: "Demon Miłości"
+  STR_MEDAL_RACE_KILLS_NAME: "Zmora {0}"
+  STR_MEDAL_WEAPON_PROFICIENCY_NAME: "Czarny pas stylu {0}"
+  STR_MEDAL_FIREKILL_NAME: "Piromanka"
+  STR_MEDAL_CHEMKILL_NAME: "Chemiczka"
+  STR_MEDAL_POISONKILL_NAME: "Trucicielka"
+  STR_MEDAL_ELECTROKILL_NAME: "Elektryzatorka"
+  STR_MEDAL_MAGICKILL_NAME: "Nekromantka"
+  STR_MEDAL_MELEEKILL_NAME: "Szermierka"
+  STR_MEDAL_ARCHER_NAME: "Łuczniczka"
+  STR_MEDAL_PROXYKILL_NAME: "Mistrzyni Pułapek"
+  STR_MEDAL_BOMBER_NAME: "Bombowiec"
+  STR_MEDAL_SAMURAI_NAME: "Samuraj"
+  STR_MEDAL_SLASHER_NAME: "Slasher"
+  STR_MEDAL_MONSTER_NAME: "Potwór"
+  STR_MEDAL_SLAVEKILLS_NAME: "Mistrzyni Marionetek"
+  STR_MEDAL_TANK_KILLER_NAME: "Zabójczyni Czołgów"
+  STR_MEDAL_MONSTER_HUNTER_NAME: "Łowczyni Potworów"
+  STR_MEDAL_PSYCHOKILL_NAME: "Psychol"
+  STR_MEDAL_DBLKILL_NAME: "Zabójca z Zimną Krwią"
+  STR_MEDAL_QUADKILL_NAME: "Wielobujczyni"
+  STR_MEDAL_7V7KILL_NAME: "Osoba Masowego Rażenia"
+  STR_MEDAL_MISSION_KILLS_5_NAME: "Czarna Wdowa"
+  STR_MEDAL_MISSION_KILLS_11_NAME: "Krwawa Wdowa"
+  STR_MEDAL_WRESTLER_NAME: "Wrestlerka"
+  STR_MEDAL_SUCCUBUS_NAME: "Sukkub"
+  STR_MEDAL_VIPHUNTER_NAME: "Niszczyciel"
+  STR_MEDAL_ATTITUDE_PROBLEM_NAME: "Problem z Zachowaniem"
+  STR_MEDAL_DOTS_NAME: "Obrońca Prawdziwej Nauki"
+  STR_MEDAL_LUCKYSHOT_NAME: "Fortuna"
+  STR_MEDAL_UNDERFIRE_NAME: "Magnes na Pociski"
+  STR_MEDAL_MULTIPLEHITS_NAME: "Laska ze Stali"
+  STR_MEDAL_PURPLE_HEART_NAME: "Miękki Cel"
+  STR_MEDAL_UNCONSCIOUS_NAME: "Śpiąca Królewna"
+  STR_MEDAL_CRIMSON_HEART_NAME: "Pacjent"
+  STR_MEDAL_HEALER_NAME: "Pielęgniarka"
+  STR_MEDAL_REVIVE_NAME: "Anioł Miłosierdzia"
+  STR_MEDAL_FRIENDLYFIRE_NAME: "Najlepszy Rodzaj Przyjaciela"
+  STR_MEDAL_LONESURVIVOR_NAME: "Ocalały"
+  STR_MEDAL_GLOBETROTTER_NAME: "Obieżyświat"
+  STR_MEDAL_CIV_KILLS_NAME: "Upadły Anioł"
+  STR_MEDAL_BETRAYER_NAME: "Zdrajczyni"
+  STR_MEDAL_POSTMORTEM_KILL_NAME: "Mścicielka"
+  STR_MEDAL_MIA_NAME: "Zagubiona"
+  STR_MEDAL_FALLEN_NAME: "Duch"
+  STR_MEDAL_ORIGINAL8_UFOPEDIA: "Oryginalna załoga, pochodząca z różnych Uber Stref, która uciekła z niewoli tajemniczego, eksperymentalnego obozu pracy. Po zarekwirowaniu Airbusa i nie znając lepszej alternatywy, podążyła za tajemniczym sygnałem, który doprowadził ją do podziemnych tuneli, które okazały się być czymś więcej niż tylko tunelami...{NEWLINE} Miały na sobie nie więcej niż szmaty, które nazywały 'ubraniami', kilka broni które zdołały skonstruować, lub znaleźć, oraz niewiele wiedzy o świecie, lecz są jednymi z najlepszych z gatunku Uber."
+  STR_MEDAL_SERVICE_TIME_UFOPEDIA: "Przyznawane co sześć miesięcy, licząc od czasu dołączenia w nasze szeregi. Tak, my mamy urodziny dwa razy w roku!"
+  STR_MEDAL_IMMORTAL_UFOPEDIA: "Przyznawane dziewczynie, która przetrwała 6 lat pirackiej kariery, która na tej drodze życia jest niemal równa z byciem nieśmiertelnym. Będzie przyznawane corocznie, do dziesiątej rocznicy, później co dwa lata. Może to czas zakończyć kampanię tak, czy inaczej?"
+  STR_MEDAL_PSYCHOKILL_UFOPEDIA: "Przyznawane tylko prawdziwym psychopatom, kiedy przychodzi do ich wyborów uzbrojenia. Liczą się zabójstwa rzeczami jak kije, maczety, tasaki, albo siekiery, jak również piły łańcuchowe, strzelby i kilka innych broni. {NEWLINE}40 minimum. 100 dla Trzeciej Żelaznej Czaszki."
+  STR_MEDAL_SERVICE_TIME_DESCRIPTION: "Przyznawane co sześć miesięcy, licząc od czasu dołączenia w nasze szeregi. Tak, my mamy urodziny dwa razy w roku!"
+  STR_MEDAL_IMMORTAL_DESCRIPTION: "Przyznawane dziewczynie, która przetrwała 6 lat pirackiej kariery, która na tej drodze życia jest niemal równa z byciem nieśmiertelnym. Będzie przyznawane corocznie, do dziesiątej rocznicy, później co dwa lata. Może to czas zakończyć kampanię tak, czy inaczej?"
+  STR_MEDAL_PSYCHOKILL_DESCRIPTION: "Przyznawane tylko prawdziwym psychopatom, kiedy przychodzi do ich wyborów uzbrojenia. Liczą się zabójstwa rzeczami jak kije, maczety, tasaki, albo siekiery, jak również piły łańcuchowe, strzelby i kilka innych broni. {NEWLINE}40 minimum. 100 dla Trzeciej Żelaznej Czaszki."
+  STR_CUTSCENE_INTRO_01: "W tajnym laboratorium Akademii rozległ się alarm. Obiekty testowe zaczęły uciekać."
+  STR_CUTSCENE_INTRO_02_A: "Straże z trudem próbowały ich powstrzymać, lecz mutantki, choć naiwne, były w posiadaniu znacznie większej siły, szybkości i motywacji. A co najważniejsze, pozyskały już trochę broni. Eksplozje, ogień i chaos zaczęły się rozprzestrzeniać."
+  STR_CUTSCENE_INTRO_02_B: "Niepewne niczego poza pragnieniem wolności, mutantkom udało się dotrzeć do lądowiska. Hellerium płonęło w ich żyłach i myśli pędziły w ich głowach, wzięli mały statek transportowy. Ku ich uldze, statki Akademii miały bardzo proste sterowanie. Deaktywacja autopilota była tak prosta jak uderzenie młota w panel sterowania. Wkrótce pędzili w noc. Udało im się zbiec."
+  STR_CUTSCENE_INTRO_04: "Była tylko jedna wskazówka gdzie się teraz udać. Ich liderka miała sen o kobiecie z nienaturalnie fioletowymi oczami, która dała jej zestaw koordynat. Może to było szalone, by pokładać nadzieje w marzeniu sennym, ale one już to zrobiły wcześniej -  marzenie senne było tym co zachęciło je do ucieczki. Nie miały żadnej innej opcji; Nie znały niczego innego."
+  STR_CUTSCENE_INTRO_05: "Zawarły pokój z bogami i podróżowały aż do świtu. Ogromna tajemnica mroku została zastąpiona nieskończonymi, dziwnymi widokami kąpiącymi się w porannym słońcu; obfitość możliwości i może informacji z których nie miały dla nich sensu."
+  STR_CUTSCENE_INTRO_06: "Zbliżając się do celu, widziały skromne wioski, oddzielone pasami głuszy. Dość standardowy widok w tych czasach. Lecz dla nich to wszystko było nowe."
+  STR_CUTSCENE_INTRO_07: "Wylądowały w opustoszałej dolinie, banda rozbitków z niczym więcej niż marzeniem. Jedynym dowodem na to, że wszystko było prawdziwe był mały amulet w kształcie wiertła, które ze sobą miały. Amulet okazał się być kluczem pasującym do otworu znalezionego w połowie zakopanym w gruncie. Kiedy przekręciły klucz, mogły tylko patrzeć w zdumieniu jak część stoku powoli zaczęło się otwierać, ukazując przepastne wejście."
+  STR_CUTSCENE_INTRO_08: "Wewnątrz znalazły podziemny kompleks, pozornie opuszczony przez stulecia. Lecz dla nich to była ukryta forteca, dach nad głową; a pod tym znalazły ogromny basen osadu z Hellerium. Ich zmutowany Uber metabolizm wymagał energii Hellerium do funkcjonowania, więc mogły tu żyć. To było świetne miejsce by założyć nową wioskę, więc tak zadecydowały."
+  STR_CUTSCENE_INTRO_09: "Życie w pierwszych tygodniach było proste; poznały lokalnych wieśniaków, łowiły i handlowały i zamieniły nową kryjówkę w prawdziwy dom."
+  STR_CUTSCENE_INTRO_10: "Ale idylla nie mogła trwać wiecznie. Ciężko uzbrojony konwój przybył do doliny. Nowo przybyli powiedzieli, że przemawiają w imieniu lokalnych plemion, Sojuszu Mutantów, jak również rządów planety. Powiedzieli, że reprezentują sojusz ludów tyranizowanych przez Akademię i ich rówieśników, Ziemian, którzy sprzedali swoje dusze Gwiezdnym Bogom, panów Gwiezdnego Imperium, przez które Ziemia była okupowana od wielu stuleci."
+  STR_CUTSCENE_INTRO_11: "Odbyły się negocjacje. Dlaczego rozbitkowie powinni być zadowoleni z tego, kim są, jeśli mogliby stać się kimś więcej? Kryjówka, którą znalazły, zwłaszcza stare laboratorium, zawierała moc, by zmienić świat, choćby tylko odrobinę. Goście zaoferowali przymierze - jeśli mutantki odważyłyby się postąpić jak prawdziwi panowie zamku, który znalazły, nie wykorzystując go samolubnie, jak pospolici bandyci. Albo mogły zwolnić miejsce i poszukać fortuny gdzie indziej. Ziemia obfitowała w zbójników i pilnie potrzebowała wojowników."
+  STR_AURA_HEAT_TXT: "Okropny skwar! Obrażenia od ogłuszenia!"
+  STR_AURA_COLD_TXT: "Jest lodowato! Energia jest redukowana!"
+  STR_AURA_COLD_DEADLY_TXT: "Czujesz chłód pustki."
+  STR_ACID_RAIN_TXT: "Kwas pada z nieba! To boli!!!"
+  STR_AURA_FEAR_TXT: "Opresyjna aura Gubernatora obniża nasze morale!"
+  STR_AURA_ENEMY_MORALE_TXT: "Obrońcy otrzymają premię do Morale!"
+  STR_MARKER_XCOM_FILES: Tajemnicza Syberyjska Baza
+  STR_ALERT_XCOM_FILES: Syberyjska Baza Odnaleziona!
+  STR_LOC_EMANSION: Napad na Posiadłość
+  STR_ALERT_EMANSION: Okazja do Napadu na Dwór!
+  STR_LOC_LOKNAR_VILLAGE_DEFENSE: "Pomóż Lokk'Naarom!"
+  STR_LOC_LOKNAR_VILLAGE_DEFENSE_2: "Pomóż Lokk'Naarom!"
+  STR_MARKER_LOKNAR_VILLAGE: "Wioska Lokk'Naar"
+  STR_ALERT_LOKNAR_VILLAGE_DEFENSE: "Pomóż Lokk'Naarom!"
+  STR_LOC_BEASTMEN_ALTAR: Krwawe Rytuały
+  STR_ALERT_BEASTMEN_ALTAR: Krwawe Rytuały
+  STR_LOC_BEASTMEN_ALTAR_BRIEFING: "{NEWLINE}Grupa żałosnych stworzeń pochwyciła podróżnika i przygotowuję się do przeprowadzenia makabrycznej ofiary dla swych bogów!{NEWLINE}Pogoda: Skwar. Morze: Niejednostajne."
+  STR_MARKER_DEMON_SACRIFICE: Ołtarz Ofiarny
+  STR_LOC_RATLING_VILLAGE: Rodeo Szczuroludzi
+  STR_MARKER_RATLING_VILLAGE: Wioska Sczuroludzi
+  STR_ALERT_RATLING_VILLAGE: Rodeo Szczuroludzi
+  STR_LOC_HT_HOUSE: Strąć Wieżę Strażniczą
+  STR_MARKER_HT_HOUSE: Wieża Strażnicza
+  STR_ALERT_HT_HOUSE: Strąć Wieżę Strażniczą
+  STR_LOC_HT_HOUSE_BRIEFING: "Ten budynek jest używane przez te Duże Frakcje aby szpiegować miejscowych, co by mogli dorzucić im nowe podatki, albo inną podłość. Frakcje może są duże, ale wieża - mała, więc zabierzmy się do roboty, nie, Kap'tanie? Musimy tylko znaleźć sposób by pokonać, albo oszukać robotycznego strażnika - Uwaga przed Klątwą Maszyny!{NEWLINE}Pogoda: Umiarkowana. Morze: Spokojne."
+  STR_LOC_GOVT_CAR: "Opuszczeni Agenci Rządowi"
+  STR_MARKER_GOVT_CAR: "Opuszczeni Agenci Rządowi"
+  STR_ALERT_GOVT_CAR: "Opuszczeni Agenci Rządowi"
+  STR_LOC_GOVT_CAR_BRIEFING: "Jeden z Prowincjonalnych Rządów stracił drużynę na tym terenie podczas operacji zwanej 'działaniem pod obcą flagą' i teraz nie mogą ocalić własnych ludzi przed lokalnymi bandytami z powodu czegoś na co mówią 'prawdopodobne zaprzeczenie'. Jeśli zdołamy oczyścić to miejsce, zapłacą nam niezły okup za jakichkolwiek Agentów, których uda nam się odnaleźć.{NEWLINE}Pogoda: Umiarkowana. Morze: Spokojne."
+  STR_LOC_DISTRESS_BUNKER: Dziewucha Rozbitek
+  STR_LOC_DISTRESS_BUNKER_TEMPERATE: Dziewucha Rozbitek
+  STR_LOC_DISTRESS_BUNKER_JUNGLE: Dziewucha rozbitek (Dżungla)
+  STR_LOC_DISTRESS_BUNKER_COLD: Dziewucha rozbitek (Mróz)
+  STR_LOC_DISTRESS_BUNKER_DESERT: Dziewucha rozbitek (Pustynia)
+  STR_MARKER_DISTRESS_BUNKER: Dziewucha rozbitek
+  STR_DISTRESS_BUNKER_TEMPERATE_BRIEFING: "Jedna z naszych dziewuch nadała wezwanie z tej lokacji. W jej ostatniej transmisji bredziła z powodu braku wody i radiacji. Musimy ją ocalić nim umrze, albo zostanie pojmana - jeśli wciąż tam jest.{NEWLINE}Pogoda: Umiarkowana. Morze: Spokojne"
+  STR_DISTRESS_BUNKER_JUNGLE_BRIEFING: "Jedna z naszych dziewuch nadała wezwanie z tej lokacji. W jej ostatniej transmisji bredziła z powodu braku wody i radiacji. Musimy ją ocalić nim umrze, albo zostanie pojmana - jeśli wciąż tam jest.{NEWLINE}Pogoda: Skwar. Morze: Spokojne"
+  STR_DISTRESS_BUNKER_COLD_BRIEFING: "Jedna z naszych dziewuch nadała wezwanie z tej lokacji. W jej ostatniej transmisji bredziła z powodu braku wody i radiacji. Musimy ją ocalić nim umrze, albo zostanie pojmana - jeśli wciąż tam jest.{NEWLINE}Pogoda: Lodowato. Morze: Spokojne"
+  STR_DISTRESS_BUNKER_DESERT_BRIEFING: "Jedna z naszych dziewuch nadała wezwanie z tej lokacji. W jej ostatniej transmisji bredziła z powodu braku wody i radiacji. Musimy ją ocalić nim umrze, albo zostanie pojmana - jeśli wciąż tam jest.{NEWLINE}Pogoda: Skwar. Morze: Spokojne"
+  STR_DISTRESS_CALL: Wezwanie Pomocy
+  STR_DISTRESS_CALL_TEMPERATE: Wezwanie Pomocy
+  STR_DISTRESS_CALL_JUNGLE: Wezwanie Pomocy (Dżungla)
+  STR_DISTRESS_CALL_COLD: Wezwanie Pomocy (Mróz)
+  STR_DISTRESS_CALL_DESERT: Wezwanie Pomocy (Pustynia)
+  STR_MARKER_DISTRESS_CALL: Rozpaczliwy Sygnał Radiowy
+  STR_ALERT_DISTRESS_CALL: Rozpaczliwe Wezwanie Przechwycone
+  STR_LOC_ACADEMY_OUTPOST: Naukowe Eksperymenty
+  STR_LOC_ACADEMY_OUTPOST_TEMPERATE: Naukowe Eksperymenty
+  STR_LOC_ACADEMY_OUTPOST_JUNGLE: Naukowe Eksperymenty (Dżungla)
+  STR_LOC_ACADEMY_OUTPOST_COLD: Naukowe Eksperymenty (Mróz)
+  STR_LOC_ACADEMY_OUTPOST_DESERT: Naukowe Eksperymenty (Pustynia)
+  STR_MARKER_ACADEMY_OUTPOST: Posterunek Akademii
+  STR_ALERT_ACADEMY_OUTPOST: Naukowe Eksperymenty
+  STR_LOC_ACADEMY_OUTPOST_TEMPERATE_BRIEFING: "Tutaj, dziewki Akademii, wzniosły kapryśny domek. Dom bólu ma się rozumieć, gdzie pochwyconych ludzi i zwierząt czeka nieznany los. Honor wymaga, aby położyć temu kres i uwolnić wszystko, co nie jest zabetonowane w ziemi! Możemy tu zdobyć też trochę wiedzy, szczególnie od tych Blond Medyków. Śrut może je co najwyżej rozjuszyć, lecz są warte znacznie więcej żywe.{NEWLINE}Pogoda: Umiarkowanie. Morze: Normalne."
+  STR_LOC_ACADEMY_OUTPOST_JUNGLE_BRIEFING: "Tutaj, dziewki Akademii, wzniosły kapryśny domek. Dom bólu ma się rozumieć, gdzie pochwyconych ludzi i zwierząt czeka nieznany los. Honor wymaga, aby położyć temu kres i uwolnić wszystko, co nie jest zabetonowane w ziemi! Możemy tu zdobyć też trochę wiedzy, szczególnie od tych Blond Medyków. Śrut może je co najwyżej rozjuszyć, lecz są warte znacznie więcej żywe.{NEWLINE}Pogoda: Skwar. Morze: Normalne"
+  STR_LOC_ACADEMY_OUTPOST_COLD_BRIEFING: "Tutaj, dziewki Akademii, wzniosły kapryśny domek. Dom bólu ma się rozumieć, gdzie pochwyconych ludzi i zwierząt czeka nieznany los. Honor wymaga, aby położyć temu kres i uwolnić wszystko, co nie jest zabetonowane w ziemi! Możemy tu zdobyć też trochę wiedzy, szczególnie od tych Blond Medyków. Śrut może je co najwyżej rozjuszyć, lecz są warte znacznie więcej żywe.{NEWLINE}Pogoda: Lodowato. Morze: Normalne"
+  STR_LOC_ACADEMY_OUTPOST_DESERT_BRIEFING: "Tutaj, dziewki Akademii, wzniosły kapryśny domek. Dom bólu ma się rozumieć, gdzie pochwyconych ludzie i zwierzęt czeka nieznany los. Honor wymaga, aby położyć temu kres i uwolnić wszystko, co nie jest zabetonowane w ziemi! Możemy tu zdobyć też trochę wiedzy, szczególnie od tych Blond Medyków. Śrut może je co najwyżej rozjuszyć, lecz są warte znacznie więcej żywe.{NEWLINE}Pogoda: Skwar. Morze: Normalne"
+  STR_LOC_ACADEMY_TOWN: Kampus Akademii
+  STR_LOC_ACADEMY_TOWN_TEMPERATE: Masakra w Kampusie
+  STR_LOC_ACADEMY_TOWN_HOT: Masakra w Kampusie (Gorąco)
+  STR_LOC_ACADEMY_TOWN_COLD: Masakra w Kampusie (Mróz)
+  STR_MARKER_ACADEMY_TOWN: Kampus Akademii
+  STR_ALERT_ACADEMY_TOWN: Masakra w Kampusie
+  STR_MARKER_CHURCH_OUTPOST: Świątynia Ojca
+  STR_LOC_MONSTER_HUNT_SHAMBLER: "Łampa Łowy"
+  STR_MARKER_LOC_MONSTER_HUNT_SHAMBLER: "Łowy na łaziska"
+  STR_ALERT_MONSTER_HUNT_SHAMBLER: "Łowy na łaziska"
+  STR_LOC_WHOREHOUSE: "Willa Czerwonych Latarń"
+  STR_ALERT_WHOREHOUSE: "Ocal Siostrę"
+  STR_LOC_WHOREHOUSE_TITLE: "Ocal Siostrę"
+  STR_MARKER_LOC_WHOREHOUSE: "Willa Czerwonych Latarń"
+  STR_MISSION_BANDIT_TOWN: "!Bandyckie Przedsiębiorstwo!"
+  STR_MISSION_BANDIT_TOWN_UFOPEDIA: "Zdaję się, że nie ma honoru pośród złodziei. Bandyci atakują każdą łatwą zdobycz, a my możemy docenić ich zyski w zamian. Wyłączenie ich zapuszczonych miast z biznesu przyniesie nam nie tylko zysk, lecz także trochę rozgłosu. Co to dla Uber jak my, pokonać męty jak oni? Nawet jeśli ich strefa nie jest naszym gankiem przed domem?"
+  STR_LOC_BANDIT_TOWN: "Miasto Bandytów"
+  STR_ALERT_BANDIT_TOWN: "Miasto Bandytów"
+  STR_LOC_BANDIT_TOWN_TITLE: "Miasto Bandytów"
+  STR_MARKER_LOC_BANDIT_TOWN: "Miasto Bandytów"
+  STR_LOC_BANDIT_TOWN_BRIEFING: "Zlokalizowaliśmy miasteczko bandytów na tym terenie. Z pewnością posiadają dobra i jeńców, które my możemy zabrać - Jak Wikingowie! Prawdopodobnie będzie ich tam wielu, lecz oni są słabi. Nie powinniśmy mieć żadnego problemu, jeśli przygotujemy się na dużą bitwę.{NEWLINE} Pogoda: Umiarkowanie. Morze: Niespokojne."
+  STR_ALERT_BOUNTY_HUNT_D: "Łowienie Nagród! (Lvl: D)"
+  STR_ALERT_BOUNTY_HUNT_C: "Łowienie Nagród! (Lvl: C)"
+  STR_ALERT_BOUNTY_HUNT_B: "Łowienie Nagród! (Lvl: B)"
+  STR_LOC_PIRATE_CRUISE: "Piekielny Rejs"
+  STR_LOC_PIRATE_CRUISE_TITLE: "Piekielny Rejs"
+  STR_MARKER_LOC_PIRATE_CRUISE: "Piekielny Rejs"
+  STR_LOC_PIRATE_CRUISE_BRIEFING: "Łowy Nagród Poziom B{NEWLINE}Od: Pirackie Cieśniny{NEWLINE}Pomocy! Jeden z naszych całkowicie niewinnych statków rejsowych jest właśnie atakowany przez Głębinowców! Takie rzeczy zdarzają się kiedy wybierzesz się w pełne morze... Lecz potrzebujemy zysków! Ocal statek, możesz odebrać cały łup, jak również i naszą wdzięczność.{NEWLINE}Pogoda: Umiarkowanie. Morze: Sztorm."
+  STR_LOC_FUNKY_ZOMBIES: "Niedzielne Miasteczko"
+  STR_LOC_FUNKY_ZOMBIES_BRIEFING: "Łowy Nagród Poziom C{NEWLINE}Od: Wiz Biz{NEWLINE}Czarodzieje mają dla ciebie małe zadanie. Jeden z naszych członków ma... Delikatną własność w pobliżu tego miasteczka. Miejsce jest całkowicie spokojne i bezpieczne, w środku: Kolektyw Wesołych Mutantów. Nie ma mowy by cokolwiek poszło źle. A w bardzo nieprawdopodobnym przypadku, gdy źle pójdzie, ogranicz zniszczenia. Miej na uwadze, że skoro masz za zadanie się wprowadzić i trzymać wartę nad miastem, odwołanie misji jest niemożliwe. Tylko W Zasadzie Nieszkodliwe są dozwolone.{NEWLINE}Pogoda: Czarodzieje Rządzą!"
+  STR_LOC_KKK_HOUSE: "Dziupla Humanistów"
+  STR_MARKER_LOC_KKK_HOUSE: "Dziupla Humanistów"
+  STR_LOC_KKK_HOUSE_BRIEFING: "Łowy Nagród Poziom D{NEWLINE}Od: Saya z Sojuszu Mutantów{NEWLINE}Uzyskałam informacje o grupie Humanistów, którzy zlinczowali rodzinę niewinnych mutantów. Ta zniewaga krwi wymaga. Ci tak zwani 'Ludzie Czystej Krwi' obecnie celebrują swój uczynek w domu zlokalizowanym na tym obszarze. Uderz z cieni i nie pozostaw nikogo żywego.{NEWLINE}Pogoda: Umiarkowanie."
+  STR_LOC_TRAITORS: "Zdrajcy na wolności"
+  STR_LOC_TRAITORS_TITLE: "Bez litości dla Zdrajców"
+  STR_MARKER_LOC_TRAITORS: "Zdrajcy na wolności"
+  STR_LOC_TRAITORS_BRIEFING: "Łowy Nagród Poziom D{NEWLINE}Od: Saya z Sojuszu Mutantów{NEWLINE}Mała grupa ludzi zaczęła dzielić się sekretami Sojuszy z wrogami wszystkich Mutantów. Oni muszą zostać zabici, a ich ciała muszą być znalezione jako wiadomość. Jeśli się nie pośpieszysz, ich Rozbójnicza eskorta zabierze ich do dziupli, a ponowne ich wyśledzenie może okazać się trudne.{NEWLINE}Pogoda: Umiarkowanie."
+  STR_LOC_BARN_GROX: "Farma Lokk'Naar"
+  STR_LOC_BARN_GROX_TITLE: "Długi Farmera"
+  STR_MARKER_LOC_BARN_GROX: "Farma Lokk'Naar"
+  STR_LOC_CATACOMBS_COIN_HUNT: "Archeologia Praktyczna"
+  STR_LOC_CATACOMBS_COIN_HUNT_TITLE: "Archeologia Praktyczna"
+  STR_MARKER_CATACOMBS_COIN_HUNT: "Archeologiczne Wykopaliska"
+  STR_LOC_SINS_OF_THE_FATHER: "Grzechy Ojca"
+  STR_LOC_SINS_OF_THE_FATHER_TITLE: "Grzechy Ojca"
+  STR_MARKER_SINS_OF_THE_FATHER: "Świątynia Ojca"
+  STR_LOC_SINS_OF_THE_FATHER_BRIEFING: "Łowy Nagród Poziom D{NEWLINE}Od: Kartel Bankowy Goblina Zaxx'a{NEWLINE}To smutne, że żaden człowiek nie jest bez grzechu, nawet księża, a chciwość jest paskudą pokusą w rzeczy samej... Weszliśmy w układ z kapłanem tej świątyni. Miał za zadanie zbierać wszelakie Stare Monety od swojego stada i sprzedawać je nam. Niestety, nasi nieustępliwi konkurenci, Elfman Bro$ zaoferowali lepszą cenę. Ulżyj kapłanowi od trudu noszenia na swych barkach ciężaru jego grzechu. Bądź ostrożna. Zwieje na pierwszą oznakę niebezpieczeństwa, więc możesz użyć tylko prostych ubrań i sprzętu infiltracyjnego."
+  STR_LOC_CRACKHOUSE: "Dilernia"
+  STR_LOC_CRACKHOUSE_TITLE: "Napad na Dilernie"
+  STR_MARKER_LOC_CRACKHOUSE: "Dilernia"
+  STR_LOC_CRACKHOUSE_BRIEFING: "Łowy Nagród Poziom D{NEWLINE}Od: Jack{NEWLINE}Słuchajcie najemnicy. Zlokalizowałem norę jednego z tych Bystrzaków, który próbował oszukiwać ludzi na Czarnym Rynku cały czas. Przydałoby mu się trochę sprawiedliwości zaserwowanej w starym stylu nim znów się przemieści. Możesz zatrzymać cokolwiek tam znajdziesz jako dodatkowy łup.{NEWLINE}Pogoda: Umiarkowanie."
+  STR_LOC_HITMAN: "Wściekły Pies"
+  STR_LOC_HITMAN_TITLE: "Wściekły Pies"
+  STR_MARKER_LOC_HITMAN: "Psia Kryjówka"
+  STR_LOC_HITMAN_BRIEFING: "Łowy Nagród Poziom C{NEWLINE}Od: Goblin Zaxx{NEWLINE}Jeden z naszych wykonawców stał się ciężarem. Wytropiliśmy go w tej małej dziurze w ziemi. Zajmij się nim nim zdąży zaszkodzić naszej firmie, to będzie docenione w rzeczy samej. Bądź ostrożna - On jest raczej... Dobrze wytresowany.{NEWLINE}Pogoda: Brak Danych."
+  STR_LOC_BANDIT_CAVES: "Bandyckie Jaskinie"
+  STR_LOC_BANDIT_CAVES_TITLE: "Bandyckie Jaskinie"
+  STR_MARKER_LOC_BANDIT_CAVES: "Bandyckie Jaskinie"
+  STR_LOC_ELFMAN_BROS: "Napad na bank"
+  STR_LOC_ELFMAN_BROS_TITLE: "Napad na bank"
+  STR_MARKER_LOC_ELFMAN_BROS: "Napad na bank"
+  STR_MARKER_GHOUL_REFINERY: Miasteczko guli
+  STR_VESSEL_PROBE: Sonda Imperialna
+  STR_VESSEL_FOOT_PATROL: Gang Tułaczy
+  STR_VESSEL_FOOT_PATROL_NECRO: Gang Tułaczy
+  STR_VESSEL_PROBE_FOOT_ATTACK: Atak Naziemny
+  STR_LOC_DEEP_ONE_01: Sonda Imperialna
+  STR_LOC_RET_BASE: Sonda Imperialna
+  STR_CIVILIAN_TRAFFIC: Cywilny Ruch Powietrzny
+  STR_VESSEL_AIRBUS: Airbus Akademii
+  STR_VESSEL_AMBULANCE: Opancerzony Ambulans
+  STR_VESSEL_POL_CHASER: Myśliwiec Megapol
+  STR_VESSEL_POL_CRUISER: Krążownik Megapol
+  STR_VESSEL_POL_INTERCEPTOR: Łapacz Megapol
+  STR_VESSEL_POL_DROPSHIP: Transportowiec Megapol
+  STR_VESSEL_POL_PATROL: Radiowóz Megapol
+  STR_VESSEL_FIGHTER: Myśliwiec
+  STR_VESSEL_BOMBER: Bombowiec
+  STR_VESSEL_EXCAVATOR: Statek wydobywczy
+  STR_BATTLESHIP: "Krążownik"
+  STR_LOC_ATRIUM: Sonda Imperialna
+  STR_LOC_MANSION: Sonda Imperialna
+  STR_LOC_KEEP: Sonda Imperialna
+  STR_SHAMBLER_CORPSE: "Tusza łaziska"
+  STR_SHAMBLER_TERRORIST: "Białe łazisko"
+  STR_DOOM_IMP_CORPSE: "Zwłoki impa"
+  STR_DEEP_ONE_CORPSE: "Zwłoki głębiona"
+  STR_LOBSTERMAN_CORPSE: "Zwłoki homaroida"
+  SHARK_BITE: "Ugryzienie rekina"
+  STR_DEEP_ONE_1_CORPSE_BATTLE: "Zwłoki głębiona"
+  STR_DEEP_ONE_6_CORPSE_BATTLE: "Zwłoki homaroida"
+  STR_MUTANT_FISH: "Ryba mutant"
+  STR_REAPER_HIDE: "Skóra żeńca"
+  STR_REAPER_MEAT: "Żenina"
+  STR_OSIRON: "Osiron"
+  STR_MARSEC: "MARSEK"
+  STR_SOLMINE: "Solkop"
+  STR_SECTOID: "Akademia"
+  STR_SECTOID_TERROR: "Akademia"
+  STR_SECTOID_NONCOM: "Akademia"
+  STR_SECTOID_HOUSE: "Akademia (szkoła)"
+  STR_SECTOID_INDUSTRIAL: "Akademia"
+  STR_SNAKEMAN: "Kościół"
+  STR_CHURCH_TERROR: "Kościół"
+  STR_CHURCH_NONCOM: "Kościół"
+  STR_CHURCH_INDUSTRIAL: "Kościół"
+  STR_ETHEREAL: "Gwiezdni Bogowie"
+  STR_ETHEREAL_WAR: "Gwiezdni Bogowie"
+  STR_MUTON: "Najemnicy"
+  STR_MUTON_TERROR: "Najemnicy"
+  STR_FLOATER: "Gildia Handlowa"
+  STR_FLOATER_TERROR: "Gildia Handlowa"
+  STR_FLOATER_NONCOM: "Gildia Handlowa"
+  STR_FLOATER_INDUSTRIAL: "Gildia Handlowa"
+  STR_FLOATER_SPACE: "Gildia Handlowa (0-G)"
+  STR_APOCALYPSE_CULT: "Kultyści Apokalipsy"
+  STR_RAIDER: "Grasanci"
+  STR_RAIDER_TERROR: "Grasanci"
+  STR_SPARTANS: "Spartanie"
+  STR_GOVT: "Władze lokalne"
+  STR_GOVT_ELITES: "Władze lokalne"
+  STR_GOVT_SECURITY: "Władze lokalne"
+  STR_GOVT_INDUSTRIAL: "Władze lokalne"
+  STR_NAZIS: "Humaniści"
+  STR_NAZIS_TERROR: "Humaniści!"
+  STR_MIXED_KKK: "Clandestino"
+  STR_SMUGGLER: "Szmuglerzy"
+  STR_PASSENGERS: "Kupcy"
+  STR_SOLDIERZ: "Wojska ziemskie"
+  STR_CIVILIANZ_1: "Wolni ludzie"
+  STR_CIVILIAN: "Swobodni mutanci"
+  STR_AQUATOID: "Akwatoidzi"
+  STR_DEEP_ONE: "Istoty z Głębin"
+  STR_BEASTMEN_WILD: "Zwierzoludzie (dzicy)"
+  STR_BEASTMEN_SEA: "Zwierzoludzie (morscy)"
+  STR_DEEP_ONE_CHANTS: "Pieśni z głębin"
+  STR_CANNYS: "Kanibalki"
+  STR_LOBSTERMAN: "Homaroidy"
+  STR_RETICULAN: "Retykulanie"
+  STR_ERIDIAN: "Erydianie"
+  STR_NUBIRAN: "Nubiranie"
+  STR_CYCLOPS: "Cyklopy"
+  STR_WASPITE: "Szerszony"
+  STR_BANDIT: "Bandyci"
+  STR_BANDIT_TOWN: "Bandyci (miasto)"
+  STR_BANDIT_ROBBERS: "Rabusie"
+  STR_RATMEN: "Szczuracy"
+  STR_GHOUL_RACE: "Gule"
+  STR_DOOM: "Mroczni"
+  STR_DOOM_TERROR: "Mroczni"
+  STR_CELATID: "Pierdziworki"
+  STR_CHRYSSALID: "Krysalidy"
+  STR_WAR_MACHINES: "Machiny wojenne"
+  STR_BEAST: "Zwierzęta"
+  STR_GHOST: "Duchy"
+  STR_ZOMBIE: "Zombiak"
+  STR_ZOMBIE_SMART: "Nieznana"
+  STR_CULT_OF_CHERNOBOG: "Kult Czernoboga"
+  STR_REAPER: "Żeńce"
+  STR_SECTOPOD: "Sektopody"
+  STR_CYBERDISC: "Cyberdyski"
+  STR_BOOMOSAURUS: "Bumozaury"
+  STR_ADRONE: "Drona Akademii"
+  STR_NEKOMIMI: "Nekomimi"
+  STR_ANIMATRONS: "Animatrony"
+  STR_THE_SILENCE: "Cisza"
+  STR_LIVE_COMMANDER: "VIP"
+  STR_LIVE_LEADER: "Ważniak"
+  STR_LIVE_ENGINEER: "Technik"
+  STR_LIVE_MEDIC: "Specjalista"
+  STR_LIVE_NAVIGATOR: "Wojownik"
+  STR_LIVE_SOLDIER: "Sługus"
+  STR_LIVE_TERRORIST: "Bestia"
+  STR_GUILD_SOLDIER: "Popychacz"
+  STR_GUILD_TEAM_LEADER: "Brygadzista Gildii"
+  STR_GUILD_MEDIC: "Lekarz Gildii"
+  STR_GUILD_GUARD: "Porządkowy Gildii"
+  STR_GUILD_SPACE_TECH: "Technik kosmiczny Gildii"
+  STR_GUILD_SHIP_OFFICER: "Oficer statku Gildii"
+  STR_GUILD_NAVIGATOR: "Nawigator Gildii"
+  STR_MARSEC_SECURITY: "Agent MARSEKa"
+  STR_MARSEC_BODYGUARD: "Ochroniarz Marsec"
+  STR_GUILD_ENGINEER: "Inżynier Gildii"
+  STR_GUILD_LEADER: "Przedstawicielka Gildii"
+  STR_GUILD_COMMANDER: "Mistrz Gildii"
+  STR_GUILD_PILOT: "Powietrzny marynarz Gildii"
+  STR_GUILD_SPACEMAN: "Kosmonauta Gildii"
+  STR_GUILD_ATTENDANT: "Hostessa Gildii"
+  STR_GUILD_EXTERMINATOR: "Deratyzator Gildii"
+  STR_MARSEC_MARINE: "Piechota kolonialna Marseka"
+  STR_ACADEMY_NURSE: "Pielęgniarka Akademii"
+  STR_ACADEMY_STUDENT: "Studentka Akademii"
+  STR_SECTOID_SOLDIER: "Badaczka"
+  STR_SECTOID_EXPLORER: "Odkrywczyni"
+  STR_SECTOID_NAVIGATOR: "Porządkowy Osironu"
+  STR_OSIRON_LAD: "Młodzian Osironu"
+  STR_SECTOID_MEDIC: "Lekarz Akademii"
+  STR_SECTOID_ENGINEER: "Inżynier Akademii"
+  STR_ACADEMY_SCIENTIST: "Naukowiec Akademii"
+  STR_ACADEMY_COUNSELLOR: "Kuratorka Akademii"
+  STR_ACADEMY_THRALL: "Podopieczny Akademii"
+  STR_SECTOID_LEADER: "Esperka Akademii"
+  STR_SECTOID_COMMANDER: "Rektorka Akademii"
+  STR_CHURCH_SOLDIER: "Neofita Syriusza"
+  STR_CHURCH_BOY: "Ministrant"
+  STR_CHURCH_NAVIGATOR: "Zelota Syriusza"
+  STR_CHURCH_HANDMAID: "Gosposia Syriusza"
+  STR_CHURCH_MAIDEN: "Dziewica Syriusza"
+  STR_CHURCH_ELITE: "Egzaltowana Syriusza"
+  STR_CHURCH_ENGINEER: "Opancerzona władczyni zwierząt"
+  STR_BEASTMASTER_TERRORIST: "Władczyni zwierząt"
+  STR_CHURCH_MATRON: "Matrona Syriusza"
+  STR_CHURCH_PRIEST: "Ksiądz Syriusza"
+  STR_CHURCH_LEADER: "Wielebny Syriusza"
+  STR_CHURCH_COMMANDER: "Kardynał Syriusza"
+  STR_APOC_DISCIPLE: "Uczeń Apokalipsy"
+  STR_APOC_SADIST: "Sadysta Apokalipsy"
+  STR_MUTON_SOLDIER: "Szeregowy najemnik"
+  STR_MUTON_NAVIGATOR: "Komandos najemnik"
+  STR_MUTON_ENGINEER: "Inżynier najemników"
+  STR_MUTON_HEAVY: "Szturmowiec najemnik"
+  STR_MUTON_LEADER: "Kapitan najemników"
+  STR_MUTON_COMMANDER: "Herszt najemników"
+  STR_ETHEREAL_SOLDIER: "Strażnik Gwiezdnych Bogów"
+  STR_ETHEREAL_COMMANDER: "Koordynator Gwiezdnych Bogów"
+  STR_RAIDER_SCOUT: "Grasantka zwiadowca"
+  STR_RAIDER_THUG: "Grasant zabijaka"
+  STR_RAIDER_BUZZARD: "Grasantka pustułka"
+  STR_RAIDER_BOSS: "Szef grasantów"
+  STR_RAIDER_HUMONGOUS: "Ogromniasty grasant"
+  STR_RAIDER_FIREBAT: "Grasant płomieniec"
+  STR_SPARTAN_SCOUT: "Zwiadowca Spartan"
+  STR_SPARTAN_RIFLEMAN: "Karabinier Spartan"
+  STR_SPARTAN_HEAVY: "Strzelec Spartan"
+  STR_SPARTAN_CAPTAIN: "Porucznik Spartan"
+  STR_HUMAN_SOLDIER_COMMANDO: "Człowiek komandos"
+  STR_HUMAN_NOMAD: "Nomad"
+  STR_MEGAPOL: "Megapol"
+  STR_MEGAPOL_LATE: "Megapol"
+  STR_MEGAPOL_WOLFMAN: "Wilkoczłek Megapolu"
+  STR_MEGAPOL_ENFORCER: "Siepacz Megapolu"
+  STR_MEGAPOL_DETECTIVE: "Detektyw Megapolu"
+  STR_MEGAPOL_APEMAN: "Małpolud Megapolu"
+  STR_BANDIT_RATMAN: "Szczurak"
+  STR_BANDIT_RATMAN_HUNTER: "Szczurak rzezimieszek"
+  STR_BANDIT_RATMAN_LEADER: "Porucznik mafii szczurackiej"
+  STR_REAPER_CAVALRY_TERRORIST: "Jeździec żenny"
+  STR_BANDIT_HIGHWAYMAN: "Lotny"
+  STR_BANDIT_BOY: "Blokers"
+  STR_BANDIT_DRIFTER: "Włóczęga"
+  STR_BANDIT_FUSSBALLER: "Piłkarz"
+  STR_BANDIT_HITMAN: "Kizior"
+  STR_BANDIT_BOSS: "Szef bandytów"
+  STR_BANDIT_TOMB_RUNNER: "Hiena"
+  STR_BANDIT_GHOUL: "Gul"
+  STR_BANDIT_GHOUL_SCI: "Gul naukowiec"
+  STR_BLOOD_DOG_TERRORIST: "Brytan"
+  STR_DOGG: "Pies"
+  STR_DOGG_TERRORIST: "Wilczur"
+  STR_MONSTER_RACE: "Monstra"
+  STR_MONSTER_RACE_NIGHT: "Monstra (mrok)"
+  STR_MONSTER_RACE_SEA: "Monstra (morze)"
+  STR_MONSTER_RACE_SEA_2: "Monstra (morze) Alter"
+  STR_HALLUCINOID_TERRORIST: "Halucynoid"
+  STR_MONSTER_HUNTERS: "Łowca potworów"
+  STR_MEGASCORPION: "Megaskorpion"
+  STR_MEGASCORPION_TERRORIST: "Megaskorpion"
+  STR_MEGASCORPION_CORPSE: "Martwy megaskorpion"
+  STR_MEGASCORPION_STING: "Kolec megaskorpiona"
+  MEGASCORPION_ARMOR: "Oględziny megaskorpiona"
+  STR_MEGASCORPION_POISON: "Trucizna zwierzęca"
+  STR_GIANTSPIDER: "Wielki pająk"
+  STR_GIANTSPIDER_TERRORIST: "Wielki pająk"
+  GIANTSPIDER_ARMOR: "Oględziny wielkiego pająka"
+  STR_GIANTSPIDER_CORPSE: "Zezwłok wielkiego pająka"
+  STR_SPIDER_SILK: "Pajęczy jedwab"
+  STR_CHUPACABRA: "Czupakabra"
+  STR_CHUPACABRA_TERRORIST: "Czupakabra"
+  CHUPACABRA_ARMOR: "Oględziny czupakabry"
+  STR_CHUPACABRA_CORPSE: "Tuszka czupakabry"
+  STR_VAMPIRE_BAT: "Nietoperz wampir"
+  STR_VAMPIRE_BAT_TERRORIST: "Nietoperz wampir"
+  VAMPIRE_BAT_ARMOR: "Oględziny nietoperza wampira"
+  STR_VAMPIRE_BAT_CORPSE: "Tuszka nietoperza wampira"
+  STR_GIANT_BEETLE: "Wielki karaluch"
+  STR_GIANT_BEETLE_TERRORIST: "Wielki karaluch"
+  GIANT_BEETLE_ARMOR: "Oględziny wielkiego karalucha"
+  STR_GIANT_BEETLE_CORPSE: "Zezwłok wielkiego karalucha"
+  STR_GIANT_RAT: "Wielki szczur"
+  STR_GIANT_RAT_TERRORIST: "Wielki szczur"
+  GIANT_RAT_ARMOR: "Oględziny wielkiego szczura"
+  STR_GIANT_RAT_CORPSE: "Zdechły szczur"
+  STR_RYBA_TERRORIST: "Ryba mutant"
+  STR_RYBA_CORPSE: "Martwa ryba"
+  STR_KRAB_TERRORIST: "Krab mutant"
+  STR_KRAB_CORPSE: "Martwy krab"
+  STR_MONSTER_TEETH: "Kły potwora"
+  STR_MONSTER_EYE: "Oko potwora"
+  STR_SHARKMAN_OIL: "Tran z rekinoczłeka"
+  STR_WEREWOLF_TESTICLES: "Jądra potwora"
+  STR_VAMPIRE_BLOOD: "Krew wampira"
+  STR_RET_PEON: "Retikulanin kmieć"
+  STR_RET_HYBRID: "Retikulanin hybryda"
+  STR_RET_SIREN: "Syrena"
+  STR_RET_SECTOGRE: "Sektogr"
+  STR_RET_COMMANDO: "Retikulanin technik"
+  STR_RET_ELDER: "Stary Retikulanin"
+  STR_RET_MECHTOID: "Mechtoid"
+  STR_GOVT_AGENT: "Agent rządowy"
+  STR_GOVT_PILOT: "Pilot rządowy"
+  STR_GOVT_MP: "Żandarm"
+  STR_GOVT_ENFORCER: "Pacyfikator rządowy"
+  STR_GOVT_ELITE: "Elitarny żołnierz rządowy"
+  STR_GOVT_SIREN: "Syrena rządowa"
+  STR_GOVT_GENERAL: "Generał sił rządowych"
+  STR_NAZI_SOLDIER: "Żołnierz humanista"
+  STR_NAZI_SS: "Instruktor Humanistów"
+  STR_NAZI_LEADER: "Przywódca Humanistów"
+  STR_NAZI_STORMTROOPER: "Szturmowiec humanista"
+  STR_NAZI_SUPERSOLDIER: "Superżołnierz humanista"
+  STR_NAZI_KKK: "Aktywista humanista"
+  STR_KILLER_DROIDS: "Mordercze roboty"
+  STR_TECHNOCRACY_TERMINATOR_TERRORIST: "Optroniczny morderca typ 801"
+  STR_TECHNOCRACY_INFILTRATOR_TERRORIST: "Twardzielka"
+  STR_TECHNOCRACY_0_CORPSE_BATTLE: "Niesprawny typ 801"
+  TECHNOCRACY_ARMOR_P0: Oględziny typu 801
+  TECHNOCRACY_ARMOR_P0A: "Normalny"
+  AUX_TEC_0_WEAPON: Karabin fuzyjny robota
+  STR_NUCLEAR_BATT: Bateria nuklearna
+  STR_TECHNOCRACY_MEK_LEADER: "Technomantka"
+  STR_SMUGGLER_CATGIRL: "Kotka"
+  STR_SMUGGLER_ENGINEER: "Niedźwiedzorobal"
+  STR_SMUGGLER_CAPTAIN: "Kapitan szmuglerów"
+  STR_MAGICAL_GIRL: "Magiczna dziewczyna"
+  STR_MAGICAL_GIRL_CORPSE: "Kamień duszy"
+  STR_MAGICAL_CREATURES_RACE: "Istoty magiczne"
+  STR_MAGICAL_CREATURES: "Nieznana"
+  STR_STAR_GOD_PUBLIC_ENEMY: "Wróg publiczny"
+  STR_LOBSTERMAN_TERRORIST: "Homaroid"
+  STR_SHARKMAN_TERRORIST: "Rekinoczłek"
+  STR_DEEP_ONE_SOLDIER: "Głębion wojownik"
+  STR_DEEP_ONE_NOMAD: "Głębion wędrowny"
+  STR_CYCLOPS_SOLDIER: "Cyklop stróż"
+  STR_GHOST_GAL: "Duszyca"
+  STR_WRAITH_SOLDIER: "Upiór"
+  STR_ZOMBIE_STERILE_TERRORIST: "Zombiak"
+  STR_ZOMBIE_STERILE_CORPSE: "Zwłoki zombiaka"
+  STR_ZOMBIE_GRUBAS_TERRORIST: "Gruby zombiak"
+  STR_ZOMBIE_GRUBAS_CORPSE: "Zwłoki grubego zombiaka"
+  STR_ZOMBIE_SADAKO_TERRORIST: "Strzyga"
+  STR_ZOMBIE_SADAKO_CORPSE: "Zwłoki strzygi"
+  STR_ZOMBIE_PIMP_TERRORIST: "Zakręcony zombiak"
+  STR_ZOMBIE_PIMP_CORPSE: "Zwłoki zakręconego zombiaka"
+  STR_ZOMBIE_TROOPER_1: "Zombiak sołdat"
+  STR_ZOMBIE_TROOPER_2: "Zombiak sołdat"
+  STR_ZOMBIE_TROOPER_CORPSE: "Zwłoki zombiaka sołdata"
+  STR_MEGAZOMBIE_TERRORIST: "Megazombi"
+  STR_MEGAZOMBIE_CORPSE: "Zwłoki megazombi"
+  STR_WASPITE_SOLDIER: "Szerszon"
+  STR_TROLLETARIAT: "Trolletariat"
+  STR_HUMANS: "Wolni ludzie"
+  STR_RACE_HUMAN: "Wolni ludzie"
+  STR_RACE_VAMPIRE: "Wampiry"
+  STR_RACE_CYBORGS: "Cyborgi"
+  STR_SHADOW_CHASING: "Ściganie cieni"
+  STR_DARK_STAR: "Ciemna Gwiazda"
+  STR_SHADOWREALM: "Kraina Cieni"
+  STR_HUMAN_MALE_3: "Twardziel"
+  STR_HUMAN_FEMALE_4: "Twardzielka"
+  STR_HUMAN_MASTER: "Ludzki Mag"
+  STR_HUMAN_NOBLEWOMAN: "Szlachcianka"
+  STR_HUMAN_FATMAN: "Grubas"
+  STR_HUMAN_LABOURER: "Robotnik"
+  STR_HUMAN_LABOURER_FEM: "Robotnica"
+  STR_HUMAN_HOE: "Dziwka"
+  STR_BEASTMEN: "Zwierzoludzie"
+  STR_WEREWOLF: "Wilkołak"
+  STR_WEREWOLF_WARRIOR: "Wilkołak dzikus"
+  WEREWOLF_ARMOR: "Oględziny wilkołaka"
+  STR_BEASTMAN_9_CORPSE_BATTLE: "Zwłoki wilkołaka"
+  STR_NINJA: "Podniebni ninja"
+  STR_NINJA_GAL: "Dziewka ninja"
+  STR_NINJA_WARRIOR: "Wojowniczka ninja"
+  STR_REBEL_TRAITORS: "Zdrajcy Sojuszu"
+  STR_REBEL_MALE: "Rebeliant"
+  STR_REBEL_MALE_CIV: "Rebeliant"
+  MALE_CIVILIAN: "Pół-Uber"
+  CIVILIAN_MUT_3: "Owadooki"
+  CIVILIAN_MUT_4: "Lamia"
+  CIVILIAN_YOUNG_UBER: "Młoda Uber"
+  STR_PIRATE_CIV: "Korsarz"
+  STR_BRUTE_SAILOR_CIV: "Kapitan Korsarzy"
+  STR_HOSTAGE_LOVER_OF_DR_X: "Kochanek Dr. X"
+  STR_DOOM_SOLDIER: "Opętany Żołnierz"
+  STR_DOOM_SARGE: "Opętany Sierżant"
+  STR_DOOM_GUNNER: "Opętany Strzelec"
+  STR_DOOM_IMP_TERRORIST: "Imp"
+  STR_DOOM_HELL_BARON_TERRORIST: "Baron Piekła"
+  STR_DOOM_DEMON_TERRORIST: "Szczękodemon"
+  STR_DOOM_SPECTRE_TERRORIST: "Widmodemon"
+  STR_DOOM_CACODEMON_TERRORIST: "Kakodemon"
+  STR_CYBERDISC_TERRORIST: "Cyberdysk"
+  STR_REAPER_TERRORIST: "Żeniec"
+  STR_CHRYSSALID_TERRORIST: "Kryzalid"
+  STR_SECTOPOD_TERRORIST: "Sektopod"
+  STR_BOOMOSAURUS_TERRORIST: "Bumozaur"
+  STR_ADRONE_TERRORIST: "Dron Akademii"
+  STR_MARSEC_HUNTER_DRONE_TERRORIST: "Drona łowna MARSEKu"
+  STR_ARMORED_CAR_TERRORIST: "Opancerzony Pojazd"
+  STR_VESSEL_SENTRY_UFOPEDIA: "Statek zwiadowczy, szybki i wyposażony w kosztowny zestaw czujników. Kiedy takiego zobaczysz, może to oznaczać, że wróg szuka twojej kryjówki.{NEWLINE}Max ONM: 91"
+  STR_SECURITY_AUTOPSY: "Akwaplastyk"
+  STR_SNAKEMAN_AUTOPSY: "Sekcja wężownika"
+  STR_GUILD_AUTOPSY: "Durawłókno"
+  STR_ZOMBIE_STERILE: "Zombiak"
+  ZOMBIE_STERILE_ARMOR: "Oględziny zombiaka"
+  STR_ZOMBIE_GRUBAS: "Zombi grubas"
+  ZOMBIE_GRUBAS_ARMOR: "Oględziny grubego zombiaka"
+  ZOMBIE_SADAKO_ARMOR: "Oględziny strzygi"
+  ZOMBIE_PIMP_ARMOR: "Oględziny zakręconego zombiaka"
+  STR_ZOMBIE_TROOPER: "Zombiak sołdat"
+  ZOMBIE_TROOPER_1_ARMOR: "Oględziny zombiaka sołdata"
+  ZOMBIE_TROOPER_2_ARMOR: "Zombiak sołdat (ranny)"
+  STR_DOOM_HUMAN_AUTOPSY: "Mroczni"
+  STR_DOOM_IMP: "Diablik"
+  STR_DOOM_HELL_BARON: "Baron piekieł"
+  STR_DOOM_DEMON: "Szczękodemon"
+  STR_DOOM_SPECTRE: "Widmodemon"
+  STR_DOOM_CACODEMON: "Kakodemon"
+  STR_FLOATER_AUTOPSY_UFOPEDIA: "Ta istota została drastycznie zmodyfikowana chirurgicznie. Urządzenie, które zdaje się tworzyć tułów, jest systemem podtrzymywania życia, pełniącym funkcje usuniętego serca, płuc i układu trawiennego, co umożliwia w ten sposób tym istotom przetrwanie nawet w ekstremalnie nieprzyjaznym środowisku. Mózg jest mniejszy niż nasz, ale narządy zmysłów są dobrze rozwinięte"
+  STR_CHRYSSALID_AUTOPSY: "Krysalid"
+  STR_FLOATER_UFOPEDIA: "Lewitony są przede wszystkim żołnierzami i terrorystami. Z natury są zabójczymi bestiami wspomaganymi cybernetyką i genetycznie ulepszonymi do walki. Dolna część ciała i większość organów wewnętrznych została chirurgicznie usunięta, a na ich miejsce został wstawiony system podtrzymywania życia. System ten zawiera jednostkę antygrawitacyjną, która pozwala tym stworzeniom lewitować w powietrzu, choć niepewnie."
+  REAPER_ARMOR: "Oględziny żeńca"
+  STR_REAPER_AUTOPSY: "Sekcja żeńca"
+  STR_SILACOID_TERRORIST: "Łupek"
+  STR_SILACOID: "Łupek"
+  STR_SILACOID_CORPSE: Trup Łupka
+  SECTOPOD_ARMOR: "Oględziny sektopoda"
+  STR_SECTOPOD_AUTOPSY: "Sekcja sektopoda"
+  MAP_COMRCURBAN: "Centrum handlowe"
+  MAP_DESERTMOUNT: "Pustynny górzysty"
+  MAP_DESERTTEMPLE: "Pustynna świątynia"
+  MAP_DAWNURBANA: "Miasto Świtu A"
+  MAP_DAWNURBANB: "Miasto Świtu B"
+  MAP_FORESTMOUNT: "Leśny górzysty"
+  MAP_FORESTPOLAR: "Leśny podmokły"
+  MAP_GRASSLANDDESERT: "Trawiasty pustynny"
+  MAP_GRASSLANDFOREST: "Trawiasty leśny"
+  MAP_INDUSTRIALURBAN: "Przemysłowy"
+  MAP_JUNGLE: "Dżungla"
+  MAP_JUNGLEMOUNT: "Dżungla górzysta"
+  MAP_JUNGLEPOLAR: "Dżungla bagnista"
+  MAP_JUNGLETEMPLE: "Świątynia w dżungli"
+  MAP_POLARDESERT: "Polarny pustynny"
+  MAP_POLARMOUNT: "Polarny górzysty"
+  MAP_PORTURBAN: "Zmodyfikowany port"
+  MAP_PORTTFTD: "Port TFTD"
+  MAP_RAILYARDURBAN: "Dworzec kolejowy"
+  MAP_SAVANNADESERT: "Sawanna pustynna"
+  MAP_SAVANNAFOREST: Sawanna leśna
+  MAP_STEPPEDESERT: Stepowy pustynny
+  MAP_STEPPEFOREST: Stepowy leśny
+  MAP_TAIGADESERT: "Tajga pustynna"
+  MAP_TAIGAFOREST: "Tajga leśna"
+  MAP_TUNDRADESERT: "Tundrowy pustynny"
+  MAP_TUNDRAMOUNT: "Tundrowy górzysty"
+  MAP_GRASSLANDPOLAR: "Trawiasty bagienny"
+  MAP_SAVANNAPOLAR: "Sawanna bagienna"
+  MAP_TAIGAPOLAR: "Tajga bagnista"
+  MAP_TUNDRAPOLAR: "Tundra bagnista"
+  MAP_TUNDRAFOREST: "Tundrowy leśny"
+  MAP_COMPLEXGHOUL: "Miasteczko guli"
+  MAP_COMPLEXURBAN: "Rafineria"
+  MAP_ISLANDURBAN: "Miasteczko na wyspie"
+  MAP_SLUMURBAN: "Osiedla biedoty (skrzyżowanie)"
+  MAP_SLUMURBAN_NOROADS: "Osiedla biedoty"
+  MAP_MADURBANSNOW: "Miasto zimą"
+  MAP_URBANWAR: "Miasto '44"
+  MAP_MAGAZYNMAFII: "Magazyn mafii"
+  STR_SKYRANGER: "SKYRANGER"
+  STR_SUPPLY_SHIP: "Zaopatrzeniowiec"
+  STR_MISSION: "Misja"
+  STR_EYE_OF_HORUS: Oko Horusa
+  STR_EXPLOSIVE: Materiały wybuchowe
+  STR_LARGE_BUNKER: "(Duży bunkier)"
+  STR_EXPEDITION: EKSPEDYCJA
+  STR_VENTURA: BONAVENTURA
+  STR_FUEGO: EL FUEGO
+  STR_FORTUNA: FORTUNA
+  STR_METALLO: METALLO
+  STR_VENTURA_HULL: Przestronny kadłub
+  STR_FUEGO_HULL: Smukły kadłub
+  STR_FORTUNA_HULL: Skrzący kadłub
+  STR_METALLO_HULL: Pancerny kadłub
+  STR_FATSUB: ROZDYMKA
+  STR_TRITON: TRYTON
+  STR_DROPSHIP: BURZA
+  STR_JETBIKE: LOTOCYKL REKIN
+  STR_AIRVAN: FRUWAN
+  STR_AIRCAR: FRUWÓZ
+  STR_AIRSPEEDER: ŚMIGACZ
+  STR_PIRANHA_AIRBIKE: PIRANIA
+  STR_GOLDHAWK: JASTRZĄB
+  STR_SAKURABUS: ŻÓŁW
+  STR_WHITEWORM: ROBAK
+  STR_SCARAB: SKARABEUSZ
+  STR_MI2400: SKORPION
+  STR_VERDANT_SNAKE: WĄŻ
+  STR_SAPPHIRE_JELLYFISH: POLIP
+  STR_SHADOWBAT: GACEK
+  STR_CHARIOT: MAMUT
+  STR_PIGEON: KAPUŚ
+  STR_SKYRANGER_TRANSPORT: Transportowiec Włóczęga
+  STR_BASIC_INTERCEPTOR: Montaż myśliwców
+  STR_INTERCEPTOR: MYŚLIWY-MORDERCA
+  STR_NIGHTMARE: KOSZMAR
+  STR_PREDATOR: DRAPIEŻCA
+  STR_KRAKEN: KRAKEN
+  STR_SABRE: SZABLA
+  STR_DRAKKAR: DRAKKAR
+  STR_DEVASTATOR: DEWASTATOR
+  STR_HYDRA: SMOK
+  STR_BRIG: LEWIATAN
+  STR_FIRESTORM: DOCEL
+  STR_BRAVE_WHALER: ŚMIAŁY HARPUNNIK
+  STR_BARACUDA: BARAKUDA
+  STR_SWORDFISH: MIECZNIK
+  STR_LIGHTNING: KRAB
+  STR_MINING_SHIP: POSZUKIWACZ
+  STR_ZEPPELIN: STEROWIEC SZPIEGOWSKI
+  STR_MERC_FIGHTER: PIES WOJNY
+  STR_M_WING: M-YŚLIWIEC
+  STR_CAPSULE: ZUBRIN
+  STR_SONIC_OSCILLATOR_UC: OSCYLATOR
+  STR_TESLA_CANNON: Działko Tesli
+  STR_TESLA_CANNON_UC: DZIAŁKO TESLI
+  STR_MINI_LASER: Okrętowy laser samoładujący
+  STR_MINI_LASER_UC: LASER SAMOŁADUJĄCY
+  STR_GAT_LASCANNON: Okrętowy ciężki rotolaser
+  STR_GAT_LASCANNON_UC: ROTOLASER
+  STR_LASER_CANNON: Okrętowy laser wiązkowy
+  STR_LASER_CANNON_UC: LASER WIĄZKOWY
+  STR_RAMJET_CANNON: Działo 'Taran'
+  STR_RAMJET_CANNON_UC: TARAN
+  STR_RAMJET_ROUNDS: Pociski do 'Tarana'
+  STR_BIG_GUN: Działo okrętowe
+  STR_BIG_GUN_UC: DZIAŁO OKRĘTOWE
+  STR_BIGGER_GUN: Działo 'Likwidator'
+  STR_BIGGER_GUN_UC: LIKWIDATOR
+  STR_BIG_GUN_SHELLS: Pociski 120mm
+  STR_BIGGER_GUN_SHELLS: Pociski do 'Likwidatora'
+  STR_MED_CANNON: Działko 50mm
+  STR_MED_CANNON_UC: DZIAŁKO 50MM
+  STR_MED_CANNON_SHELLS: Pociski 50mm
+  STR_MED_CANNON_ADV: Działko 50mm 'Buldog'
+  STR_MED_CANNON_ADV_UC: DZIAŁKO BULDOG
+  STR_SMALL_CANNON: "Działko 25mm"
+  STR_SMALL_CANNON_1: "Działko 25mm"
+  STR_SMALL_CANNON_UC: "DZIAŁKO 25MM"
+  STR_SMALL_CANNON_1_UC: DZIAŁKO 25MM
+  STR_SMALL_CANNON_ROUNDS_X50: Pociski 25mm (x50)
+  STR_SPIKE_LAUNCHER: Wyrzutnia 'Ćwieków'
+  STR_SPIKE_LAUNCHER_UC: RAKIETY 'ĆWIEK'
+  STR_SPIKE_ROCKETS: Rakiety 'Ćwiek'
+  STR_MEDUSA_UC: MEDUZA
+  STR_MEDUSA_LAUNCHER: Wyrzutnia 'Meduz'
+  STR_MEDUSA_MISSILES: Rakiety 'Meduza'
+  STR_LONGLANCE: LANSJER
+  STR_LONGLANCE_LAUNCHER: Wyrzutnia 'Lansjerów'
+  STR_LONGLANCE_MISSILES: Rakiety 'Lansjer'
+  STR_HAMMERMITE: MŁOTODZIERŻCA
+  STR_HAMMERMITE_LAUNCHER: Wyrzutnia 'Młotodzierżców'
+  STR_HAMMERMITE_MISSILES: Rakiety 'Młotodzierżca'
+  STR_SIDEWINDER: MEWA
+  STR_SIDEWINDER_LAUNCHER: Wyrzutnia 'Mew'
+  STR_SIDEWINDER_MISSILES: Rakiety 'Mewa'
+  STR_MISSILE_ADV: METEOR
+  STR_MISSILE_ADV_LAUNCHER: Wyrzutnia 'Meteorów'
+  STR_MISSILE_ADV_MISSILES: Rakiety 'Meteor'
+  STR_REAPER_CANNON: Działko 'Rozpruwacz'
+  STR_REAPER_CANNON_UC: DZIAŁKO 'ROZPRUWACZ'
+  STR_REAPER_CANNON_ROUNDS_X50: "Pociski do 'Rozpruwacza' (x50)"
+  STR_LASCANNON_LITE: Okrętowe działko laserowe
+  STR_LASCANNON_LITE_UC: DZIAŁKO LASEROWE
+  STR_GAUSS_CANNON: Działko Gaussa
+  STR_GAUSS_CANNON_UC: DZIAŁKO GAUSSA
+  STR_GAUSS_CANNON_ROUNDS_X25: Pociski do działka Gaussa (x25)
+  STR_PLASMA_SPITTER: Plazmopluj
+  STR_PLASMA_SPITTER_UC: PLAZMOPLUJ
+  STR_BOMB_LAUNCHER: Wyrzutnia bomb plazmowych
+  STR_BOMB_LAUNCHER_UC: BOMBY PLAZMOWE
+  STR_CRAFT_BOMB: Okrętowa bomba plazmowa
+  STR_THRUSTER: Dysza zmiennowektorowa
+  STR_THRUSTER_UC: DYSZA
+  STR_TARGETER: Celownik hiperfalowy
+  STR_TARGETER_UC: CELOWNIK
+  STR_SHIELD_GEN: Okrętowy generator tarcz
+  STR_SHIELD_GEN_UC: TARCZE
+  STR_HWP_AMMUNITION: Amunicja czołgowa
+  STR_TAMED_REAPER: Oswojony żeniec
+  STR_MUTANT_REAPER: Zmutowany żeniec
+  STR_JAWS: Szczęki
+  STR_CYCLOPS_CONVERT: Nawrócony Cyklop
+  CYCLOPS_GAZE: Spojrzenie Cyklopa
+  STR_WEREDOGE: "Udomowiony Wilkołak"
+  STR_DOGE: "Pies bojowy"
+  STR_DOGE_CORPSE: "Martwy pies"
+  STR_DOGE_JAWS: "Ugryzienie"
+  STR_PARROT: "Papuga"
+  STR_PARROT_CORPSE: "Martwa papuga"
+  STR_PARROT_BEAK: "Dzób"
+  STR_SECURITY_CAMERA: "Monitoring"
+  STR_SOLDIER_HYBRID: Owadooki
+  STR_SOLDIER_PEASANT: Wieśniak
+  STR_RECRUIT_PEASANTS: Rekrutuj Lokalnych Wieśniaków
+  STR_PEASANT_MILITIA: Milicja Wieśniaków
+  STR_MILITIA_TRAINING: Trening Milicji
+  STR_SLAVE_SOLDIERS: Żołnierze niewolni
+  STR_SOLDIER_SLAVE: Żołnierz niewolny
+  STR_SOLDIER_SLAVE_RECRUITMENT: "Rekrutuj: Żołnierz niewolnik"
+  STR_SUPER_SLAVE: Super Drab
+  STR_CORPSE_SUPER_SLAVE: Martwy Super Drab
+  STR_GREEN_LIGHTER: Zielony Zapalnik
+  STR_CORPSE_GREEN_LIGHTER: Martwy Zielony Zapalnik
+  STR_BAT_GLAD_PROJECT: Jestem Nietoperek!
+  STR_BAT_GLAD: Nietoperek
+  STR_CORPSE_BAT_GLAD: Martwy Nietoperek
+  STR_FLASH_BANG_PROJECT: Demon prędkości
+  STR_FLASH_BANG: Demon prędkości
+  STR_CORPSE_FLASH_BANG: Martwy demon prędkości
+  STR_SUPER_SLAVE_ARMOR: "Strój superdraba"
+  STR_GREEN_LIGHTER_ARMOR: "Strój zielonego zapalnika"
+  STR_BAT_GLAD_ARMOR: "Strój nietoperza"
+  STR_FLASH_BANG_ARMOR: "Strój Szybkiego Lopeza"
+  STR_PILLOW_KNIGHT: Strój rycerza poduszki
+  STR_PILLOW_KNIGHT_UC: RYCERZ PODUSZKI
+  STR_SLAVE_ARMOR_LOINCLOTH_UC: "PRZEPASKA"
+  STR_SLAVE_ARMOR_LOINCLOTH_SEA_UC: "PRZEPASKA (MORZE)"
+  STR_SLAVE_ARMOR_PIROMAN_UC: "PIROMAN"
+  STR_SLAVE_ARMOR_PIROMAN_A_UC: "PIROMAN (T)"
+  STR_SLAVE_ARMOR_CRUSADER_UC: "KRZYŻOWIEC"
+  STR_SLAVE_ARMOR_CRUSADER_A_UC: "KRZYŻOWIEC (T)"
+  STR_DOOMGUY_ARMOR_DMG: "Pancerz Doomguy'a (Uszkodzony)"
+  STR_SPACE_SUIT_HUMAN: "Skafander Kosmiczny dla Ludzi"
+  STR_SLAVE_ARMOR_DOOM_UC: "DUMIARZ"
+  STR_SLAVE_ARMOR_DOOM_2_UC: "DUMIARZ 2"
+  STR_SUPER_SLAVE_ARMOR_UC: "SUPERDRAB"
+  STR_GREEN_LIGHTER_ARMOR_UC: "ZIELONY ZAPALNIK"
+  STR_FLASH_BANG_ARMOR_UC: "SZYBKI LOPEZ"
+  STR_PEASANT_ARMOR_MILITIA_UC: "MILICJA"
+  STR_PEASANT_SPACE_SUIT_SPACE_UC: "Szata krukoszpona"
+  STR_ARMOR_RAVENCLAW: "Szata krukoszpona"
+  STR_PEASANT_ARMOR_RAVEN_UC: "KRUKOSZPON"
+  STR_CRAFT_GATLING_LASER: Szybkostrzelne działko laserowe
+  STR_LIFTER: Antywinda
+  STR_UFO_POWER_SOURCE: Silnik okrętowy
+  STR_UFO_NAVIGATION: Służebna SI
+  STR_UFO_CONSTRUCTION: Konstrukcja okrętu
+  STR_ALIEN_FOOD: System podtrzymywania życia
+  STR_ALIEN_REPRODUCTION: Komora regeneracyjna
+  STR_ALIEN_ENTERTAINMENT: Hipno-panel
+  STR_ALIEN_SURGERY: Jednostka chirurgiczna
+  STR_EXAMINATION_ROOM: Skaner przemysłowy
+  STR_ALIEN_ALLOYS: Plastal
+  STR_ALIEN_HABITAT: Komora kriogeniczna
+  STR_CYDONIA_OR_BUST: "Śmierć lub Chwała!"
+  STR_ELERIUM_115: Hellerium
+  STR_ELERIUM_115_EX: Pozyskiwanie piekłonium
+  STR_GRAV_SHIELD: Bateria odpychaczy
+  STR_PSI_LAB: Wudu
+  STR_PSI_ILLUSION: "Wudu: Iluzje"
+  STR_PSI_EXCESS: "Wudu: Amok"
+  STR_PSI_DESTRUCTION: "Wudu: Destrukcja"
+  STR_PSI_COMMUNION: "Wudu: Jedność"
+  STR_HYPERWAVE_MYSTICISM: "Mistyka hiperfalowa"
+  STR_CHRONOMANCY: "Chronomancja"
+  STR_VAMPIRISM: "Wampiryzm"
+  STR_DEMONIC_RITUALS: "Demoniczne rytuały"
+  STR_MEDI_KIT: Specjalnie destylowany rum
+  STR_STUN_ROD: Zepsuty pręt ogłuszający
+  STR_CATTLE_PROD: Pastuszy kij
+  STR_IMPALER: Palownik
+  STR_CANTEEN: Manierka orzeźwienia
+  STR_BEER: Piwo 'Atom'
+  STR_MOONSHINE: Księżycówka
+  STR_VODKA: Wódka 'Kosmoportowa'
+  STR_SAKE: Sake Solkop
+  STR_MUSHROOM_BEER: Piwo grzybowe
+  STR_COMBAT_DRUGS: Narkotyki bojowe
+  STR_STIMM: Stymm
+  STR_OXYGEN_TANK: Butla z tlenem
+  STR_MEDIPACK_SAVIOUR: Magiczna apteczka
+  STR_MOTION_SCANNER: Hej-fon
+  STR_PSI_AMP: Laska wudu
+  STR_MASTERS_CANE: "Laska maga"
+  STR_SAKURA_STAFF: "Pastorał"
+  STR_PERSUADOTRON: "Perswadotron 2000"
+  STR_PSI_AMP_LARGE: "Większa laska wudu"
+  AUX_PSI_ORB: "Kula wudu"
+  STR_GHOST_BEAM: Widmowy promień
+  STR_GHOST_DAGGER: Widmowy sztylet
+  STR_CERO: Kula anihilacji
+  STR_ARCANE_RAY: Mistyczny promień
+  AUX_GOOD_TOUCH: Dobry dotyk
+  AUX_BAD_TOUCH: Zły dotyk
+  AUX_SEDUCTION: Magia miłosna
+  AUX_SEDUCTION_ATTACK: Kuszenie
+  AUX_TOWER_SHIELD: Pawęż
+  AUX_ROMAN_SHIELD: Tarcza piromańska
+  AUX_CRUSADER_SHIELD: Tarcza krzyżowca
+  AUX_ROUND_SHIELD: Tarcza drewniana
+  STR_POLICE_SHIELD: Tarcza policyjna
+  STR_ROCK_T: "Kamerdulec"
+  AUX_BONG: Zielone bongo
+  AUX_LIGHTER: Zapalniczka
+  STR_TASER: "Tasownik"
+  AUX_IDENT: Ident
+  AUX_CRYSTAL_BALL: Kryształowa kula
+  AUX_BLOOD_MAGIC: Magia krwi
+  AUX_LUCKY_STAR: Szczęśliwa gwiazda
+  AUX_PILLOW: Poduszka puchatości
+  AUX_CHRYSSALID_WEAPON: Szczypce krysalida
+  AUX_CYBERDISC_WEAPON: Działko plazmowe cyberdysku
+  AUX_REAPER_WEAPON: Ugryzienie żeńca
+  AUX_CELATID_WEAPON: Splunięcie celatyda
+  AUX_ZOMBIE_WEAPON: Cios zombiaka
+  AUX_ZOMBIE_INFECTOR_WEAPON: Infekcja zombi
+  AUX_DOGG_WEAPON: "Ugryzienie"
+  AUX_CHUPACABRA_WEAPON: "Ugryzienie czupakabry"
+  AUX_GIANT_BEETLE_WEAPON: "Ugryzienie wielkiego żuka"
+  AUX_FISTO: "Piącha"
+  AUX_SPIRIT_FLAMES: "Płomienie duchowe"
+  STR_MBT_ADVANCE: Prywatyzacja pokoju na świecie
+  STR_ICBM: "ICBM"
+  STR_FIGHTER_WRECKAGE: Myśliwiec powypadkowy
+  STR_MENACING_HULL: Groźnie wyglądający kadłub
+  STR_WRECK: POWYPADKOWY
+  STR_CLOAKING_DEVICE: Urządzenie maskujące
+  STR_CLOAKING_DEVICE_FAUX: URZĄDZENIE MASKUJĄCE
+  STR_CLOAKING_DEVICE_FAUX_UC: URZĄDZENIE MASKUJĄCE
+  STR_TINY_DRILL: Malutki świderek
+  STR_USE_DRILL_RED: "Użyj świderka (CZERWONE)"
+  STR_USE_DRILL_GRAY: "Użyj świderka (SZARE)"
+  STR_USE_DRILL_GOLD: "Użyj świderka (ZŁOTE)"
+  STR_USE_DRILL_GREEN: "Użyj świderka (ZIELONE)"
+  STR_HELLERIUM_CHARM: Piekłoński amulet
+  STR_DRUG_DISPENSOR: Podajnik narkotyków
+  STR_HANDLE: Rękojeść
+  STR_SHEPHERDS_STAFF: "Kij pasterski"
+  STR_FAN: Wachlarz
+  STR_OFFICERS_BATON: "Trzcinka oficerska"
+  STR_STUN_BATON: Pałka elektryczna
+  STR_SHIV: Kozik
+  STR_KNOIF: Sztylet
+  STR_KNOIF_BARB: Puginał
+  STR_CHITIN_KNIFE: Nóż chitynowy
+  STR_LONG_KNIFE: Długi nóż
+  STR_KNOIF_POISON: Zatruty sztylet
+  STR_KNOIF_BANDIT: Majcher
+  STR_MACHETE: "Maczeta"
+  STR_VIBRO_BLADE: "Wibroostrze"
+  STR_PLASMA_DAGGER: "Nóż plazmowy"
+  STR_SHARK_GARLAND: "Monstrumano"
+  STR_PIPE: "Gazrurka"
+  STR_WRENCH: "Klucz francuski"
+  STR_CAT_PAWS: "Kocie łapki"
+  STR_PRED_CLAWS: "Monopazury"
+  STR_PRED_DISC: "Dysk śmierci"
+  STR_VAMPIRIC_SWORD: "Miecz wampiryzmu"
+  STR_SLAVERS_CANE: "Obuch łowcy niewolników"
+  STR_TONFA: Kijek ninja
+  STR_BATON: Pała
+  STR_BATTO: Kij do zabijania
+  STR_BATTO_MAGIC: Magiczny kij do zabijania
+  STR_BONE_CLUB: Kościana pałka
+  STR_SPIKED_MACE: Obuszek
+  STR_IRON_ROD: "Żelazny pręt"
+  STR_GREAT_CLUB: "Wielka maczuga"
+  STR_PITCHFORK: "Widły"
+  STR_SHOVEL: "Szpadel"
+  STR_CROWBAR: "Pan Rączka"
+  STR_KNUCKLES: "Kastet"
+  STR_FISTY: "Energokastet"
+  STR_SICKLE: Sierp
+  STR_RUSTY_BLADE: Przerdzewiałe ostrze
+  STR_SHORT_SWORD: Kordelas
+  STR_WAKIZASHI: Nóż do sudoku
+  STR_CUTLASS: Szabla
+  STR_RAPIER: Rapier
+  STR_GLADIUS: Wibromiecz
+  STR_BARBARIAN_SWORD: Miecz barbarzyński
+  STR_KATANA: Miecz z Fuso
+  STR_SWORD_MDV: Długi miecz
+  STR_SWORD_PS: Technoostrze
+  STR_SWORD: Elektromiecz
+  STR_CLAW: Elektropazury
+  STR_FORCE_BLADE: Miecz siłowy
+  STR_PLASMA_SWORD: Szaszka plazmowa
+  STR_DEATHBLADE: Piekielny miecz
+  STR_BLOOD_AX: Krway topór
+  STR_AX: Siekiera
+  STR_VIBRO_AX: Wibrotopór
+  STR_AQUA_TRIDENT: Akwatrójząb
+  STR_AQUA_HATCHET: Akwaciupaga
+  STR_BILLHOOK: Tasak
+  STR_TECH_CLEAVER: Technotasak
+  STR_STONE_AX: Kamienny toporek
+  STR_THROWING_CARDS: Magiczne karty
+  STR_THROWING_STARS: Gwiazdki ninja
+  STR_FUSO_KNIVES: Nożyki z Fuso
+  STR_SUNBLADES: Słoneczne ostrza
+  STR_JAVELINS: Oszczepy
+  STR_THROWING_AXES: Toporki rzucane
+  STR_BOW_H: Łuk myśliwski
+  STR_BOW_H_QUIVER: Strzały myśliwskie
+  STR_BOW_H_QUIVER_FIRE: Strzały ogniste
+  STR_BOW: Łuk bojowy
+  STR_BOW_QUIVER: Strzały bojowe
+  STR_BOW_QUIVER_AQUA: Akwastrzały bojowe
+  STR_LONGBOW: Długi łuk
+  STR_LONGBOW_QUIVER: Strzały do długiego łuku
+  STR_BOW_NEON: Łuk z Przyszłości
+  STR_XBOW: Kusza
+  STR_XBOW_QUIVER: Bełty
+  STR_XBOW_CORAL: Kusza koralowa
+  STR_XBOW_CORAL_QUIVER: Bełty koralowe
+  STR_BAMBOO: Krótki bojowy kij bambusowy
+  STR_SPEAR: Włócznia
+  STR_BARBARIAN_AX: Topór barbarzyński
+  STR_BARDICHE: Berdysz
+  STR_HAMMER: Młot
+  STR_PICKAXE: Kilof
+  STR_MANACLES: Kajdanki
+  STR_RIPPER: Rozpruwacz
+  STR_CHAINSAW: Piła motorowa
+  STR_CHAINSAW_HEAVY: Ciężka piła
+  STR_AUTO_AXE: Autosiekiera
+  AUX_AUTO_AXE: Autosiekiera (Motör)
+  STR_TESLA_COIL: Cewka Tesli
+  STR_CS_GAS: Puszka z gazem łzawiącym
+  STR_ZAP_GUN: Pistolet prądowy
+  STR_OLD_PISTOL: Stara dziewiątka
+  STR_OLD_PISTOL_2: Lśniąca dziewiątka
+  STR_OLD_PISTOL_CLIP: Magazynek do dziewiątki
+  STR_OLD_PISTOL_CLIP_EP: Magazynek elektryczny do dziewiątki
+  STR_OLD_REVOLVER: "Stary rewolwer"
+  STR_REVOLVER: "Stary dobry rewolwer"
+  STR_REVOLVER_POLICE: "Rewolwer policyjny"
+  STR_REVOLVER_DRUM: "Bębenek do rewolweru"
+  STR_PEACEMAKER: Srebrny Wąż
+  STR_PEACEMAKER_DRUM: Bębenek do Srebrnego Węża
+  STR_PISTOL: Pistolet szturmowy
+  STR_PISTOL_CLIP: Magazynek do pistoletu szturmowego
+  STR_PISTOL_ADV: Inteligentny pistolet
+  STR_PISTOL_ADV_CLIP: Magazynek do p. inteligentnego
+  STR_BLACK_ADDER: Czarna Żmija
+  STR_PISTOL_LT: Pistolet kieszonkowy
+  STR_PISTOL_LT_CLIP: Magazynek do pistoletu kieszonkowego
+  STR_REVOLVER_LT: Mały rewolwer
+  STR_REVOLVER_LT_DRUM: Bębenek do małego rewolweru
+  STR_LUGER: Pistolet oficerski
+  STR_LUGER_CLIP: Magazynek do pistoletu oficerskiego
+  STR_MAUSER: Pistolet wyborowy
+  STR_MAUSER_CLIP: Magazynek do pistoletu wyborowego
+  STR_PISTOL_SILENCED: Pistolet z tłumikiem
+  STR_PISTOL_SILENCED_CLIP: Magazynek do pistoletu z tłumikiem
+  STR_PISTOL_BM: Pistolet z Czarnej Marchii
+  STR_PISTOL_BM_CLIP: Magazynek do pistoletu Cz.M.
+  STR_COLT45: Duża klamka
+  STR_COLT45_CLIP: Magazynek do dużej klamki
+  STR_COLT45_CLIP_EP: Magazynek elektryczny do dużej klamki
+  STR_SNUBBY: Prosiak
+  STR_SNUBBY_DRUM: Bębenek do Prosiaka
+  STR_SNUBBY_DRUM_NUKE: Bębenek hiperprędkościowy do Prosiaka
+  STR_COMMANDO_PISTOL: Pistolet komandoski
+  STR_HEAVY_PISTOL: Konfederacki Orzeł
+  STR_HEAVY_PISTOL_CLIP: Magazynek do Konfederackiego Orła
+  STR_HEAVY_PISTOL_CLIP_MAG: Magazynek magnetyczny do Konfederackiego Orła
+  STR_MAGNUM: Magnum
+  STR_SUPER_MAGNUM: Supermagnum
+  STR_MAGNUM_DRUM: Bębenek do magnum
+  STR_MAGNUM_DRUM_ACID: Bębenek kwasowy do magnum
+  STR_SLUGGA: Krócica
+  STR_SLUGGA_AMMO: Naboje do krócicy
+  STR_SLUGGA_AMMO_PSI: Naboje arkanistyczne do krócicy
+  STR_SLUGGA_MK2: Kręcona krócica
+  STR_SMG: Pistolet maszynowy
+  STR_SMG_SPIKED: Jeżura
+  STR_SMG_CLIP: Magazynek do p.m.
+  STR_SMG_CLIP_ACID: Magazynek kwasowy do p.m.
+  STR_SMG_CLIP_INCENDIARY: Magazynek zapalający do p.m.
+  STR_SMG_ADV: P.m. 'Żbik'
+  STR_SMG_ADV_CLIP: Magazynek hiperprędkościowy do 'Żbika'
+  STR_SMG_ADV_CLIP_ETAP: Magazynek ETAP do 'Żbika'
+  STR_SKORPION: P.m. 'Skorpion'
+  STR_SKORPION_CLIP_API: Magazynek ppanc/zapalający do 'Skorpiona'
+  STR_DEATH_BLOSSOM: P.m. 'Wiązanka'
+  STR_DEATH_BLOSSOM_CLIP_AP: Magazynek ppanc/zapalający do 'Wiązanki'
+  STR_DEATH_BLOSSOM_CLIP_HVAP: Magazynek hiperprędkościowy do 'Wiązanki'
+  STR_DEATH_BLOSSOM_CLIP_ACID: Magazynek kwasowy do 'Wiązanki'
+  STR_CLOCKWORK_GUN: Pistolet zegarowy
+  STR_FLINTLOCK_PISTOL: Pistolet skałkowy
+  STR_FLINTLOCK_MUSKET: Muszkiet
+  STR_FLINTLOCK_MUSKET_B: "Muszkiet z bagnetem"
+  STR_FLINTLOCK_BALLS: "Kule muszkietowe"
+  STR_FLINTLOCK_BALLS_G: "Kule muszkietowe z gazem"
+  STR_IGUN: "i-Gun"
+  STR_IGUN_CLIP: "Bateria do i-Guna"
+  STR_SAWED_OFF: "Obrzyn"
+  STR_SHOTGUN_FIST: "Strzelbowa Piącha"
+  STR_LASER_FIST: "Laserowa Piącha"
+  AUX_LASER_FIST: "Laserowa Piącha"
+  STR_DB_SHOTGUN: "Dwururka"
+  STR_SUPER_SAWED_OFF: "Super Obrzyn"
+  STR_BUCKSHOT: "Gruby śrut"
+  STR_BUCKSHOT_HV: ".6g Śrut"
+  STR_BUCKSHOT_ACID: "Chemiczny Śrut"
+  STR_SMALL_SHOTGUN: Krótka Strzelba
+  STR_MINI_SHOTGUN: Mini Strzelba
+  STR_SHOTGUN_G: Stara Dobra Strzelba
+  STR_SHOTGUN_G_SHELLS: Małośrutówka
+  STR_SHOTGUN_LT: Pompka
+  STR_SHOTGUN_POLICE: Strzelba Policyjna
+  STR_SHOTGUN: Strzelba wojskowa
+  STR_SHOTGUN_ADV: Inteligentna Strzelba
+  STR_SHOTGUN_SHELLS: Naboje śrutowe do strzelby
+  STR_SHOTGUN_SHELLS_AP: Naboje ppanc do strzelby
+  STR_SHOTGUN_SHELLS_RUBBER: Naboje gumowe do strzelby
+  STR_SHOTGUN_SHELLS_HEAT: Naboje kumulacyjne do strzelby
+  STR_SHOTGUN_SHELLS_ACID: Naboje śrutowo-kwasowe do strzelby
+  STR_SHOTGUN_PA: "Ciężka strzelba"
+  STR_SHOTGUN_PA_SHELLS: "Śrut do ciężkiej strzelby"
+  STR_SHOTGUN_PA_SLUGS: "Naboje do ciężkiej strzelby"
+  STR_UAC_SHOTGUN: "Strzelba UAC"
+  STR_UAC_SHOTGUN_SHELLS: "Naboje do strzelby UAC"
+  STR_STREET_SWEEPER: Zamiatacz Ulic
+  STR_COMBAT_SHOTGUN: Strzelba szturmowa
+  STR_COMBAT_SHOTGUN_B: Strzelba Okopowa
+  STR_COMBAT_SHOTGUN_DRUM: Bęben śrutowy do strzelby szturmowej
+  STR_COMBAT_SHOTGUN_DRUM_I: Bęben śrutowo-zapalający do strzelby szturmowej
+  STR_SUPER_SHOTGUN: Superstrzelba
+  STR_SUPER_SHOTGUN_CLIP: Magazynek do superstrzelby
+  STR_MAMMOTH_SHOTGUN: Strzelba Łańcuchowa 'Mamut'
+  STR_MAMMOTH_SHOTGUN_CLIP: 'Bęben ze śrutem do ''Mamuta'' '
+  STR_SMITHING: Kowalstwo
+  STR_PRIMITIVE_WEAPONS: Bronie prymitywne
+  STR_PRIMITIVE_WEAPONS_2: Narzędzia i ostrza
+  STR_POISONED_WEAPONS: Trucizny i kwasy
+  STR_BASIC_INCENDIARIES: Spacer po ogniu
+  STR_ALCHEMY: Alchemia
+  STR_TINKERING: Majsterkowanie
+  STR_SC_WIRE_USE: Obwody Nadprzewodnikowe
+  STR_DURATHREAD_MANUFACTURING: Drukowanie Durawłókien
+  STR_PLASTASTEEL_MANUFACTURING: Kucie Plastastali
+  STR_SYNTHMUSCLE_MANUFACTURING: Drukowanie Syntmięśni
+  STR_POWER_SUIT_MANUFACTURING: Produkcja Strojów Wspomaganych
+  STR_CHAINSAW_GOOD: Łańcuchowe Dobro
+  STR_POWER_TOOLS: Wspomagane Narzędzia
+  STR_INDUSTRIAL_TOOLS: Narzędzia Przemysłowe
+  STR_EXCAVATION: Górnictwo
+  STR_GEMOLOGY: Gemologia
+  STR_AIR_FILTRATION: Filtrowanie Powietrza
+  STR_CHEMISTRY: Zaawansowana Chemia
+  STR_CHEMICAL_WEAPONS: Bronie Chemiczne
+  STR_MUTANT_GUNS: "Spluwy Dla Nas"
+  STR_SHOOTA_PRODUCTION: Większe spluwy
+  STR_CLOCKWORK_GUN_PRODUCTION: Zawiłe Rusznikarstwo
+  STR_BLUNDERBUSS: Organki
+  STR_BLUNDERBUSS_AMMO: Śrut do organków
+  STR_BLUNDERBUSS_AMMO_ACID: Śrut kwasowy do organków
+  STR_BLUNDERBUSS_AMMO_HE: Naboje wybuchowe do organków
+  STR_BLUNDERBUSS_ADV: Kręcone organki
+  STR_BLUNDERBUSS_DRUM_GOLD: Bęben złoty do organków
+  STR_BLUNDERBUSS_DRUM_ACID: Bęben kwasowy do organków
+  STR_BLUNDERBUSS_DRUM_HE: Bęben wybuchowy do organków
+  STR_SLUGTHROWER: Hakownica
+  STR_SLUGTHROWER_SHELLS: Pociski do hakownicy
+  STR_BOOM_GUN: Grzmiący kij
+  STR_BOOM_AMMO: Ładunki do grzmiącego kija
+  STR_CAWS: Strzelba SWBO
+  STR_CAWS_CLIP_AP: "Magazynek ppanc do SWBO"
+  STR_CAWS_CLIP_S: "Magazynek śrutowy do SWBO"
+  STR_CAWS_CLIP_AQUA: "Magaynek 'Aqua' do SWBO"
+  STR_SCATTER_LASER: Masakrator
+  STR_UAC_CARBINE: Krabinek MKA
+  STR_HSMG: Rozpylacz
+  STR_MP40: Mierniczek
+  STR_HSMG_CLIP: Magazynek do rozpylacza
+  STR_HSMG_CLIP_AQUA: Magazynek do Rozpylacza 'Aqua'
+  STR_MINI_SMG: Mini Pistolet Maszynowy
+  STR_MINI_SMG_CLIP: Bęben Mini Pistoletu Maszynowego
+  STR_ASMG: Szturmowy p.m.
+  STR_ASMG_CLIP: Magazynek do szturmowego p.m.
+  STR_ASMG_CLIP_HVAP: Magazynek hiperprędkościowy do szturmowego p.m.
+  STR_MP: P.m. z Czarnej Marchii
+  STR_MP_CLIP: Magazynek do p.m. Cz.M.
+  STR_SMG_10MM: P.M. EuroSyndykatu
+  STR_SMG_10MM_CLIP: 'Magazynek do ES P.M. '
+  STR_SMG_10MM_CLIP_AQUA: Magazynek 'Aqua' do ES P.M.
+  STR_PPSH: Linuksowy p.m.
+  STR_PPSH_CLIP: Magazynek do linuksowego p.m.
+  STR_SMG_50CAL: "P.m. 'Big Ben'"
+  STR_SMG_50CAL_CLIP: "Magazynek do 'Big Bena'"
+  STR_TOMMYGUN: Tomek
+  STR_TOMMYGUN_DRUM: Bęben do Tomka
+  STR_TOMMYGUN_LASER: Atomek
+  STR_TOMMYGUN_DRUM_LASER: Bęben do Atomka
+  STR_MPG: Rozpylacz magnetoplazmowy
+  STR_MPG_CLIP: Magazynek magnetoplazmowy
+  STR_KRUGER: Kruger
+  STR_KRUGER_CLIP: Kanister plazmowy do Krugera
+  STR_RAYGUN: Gotycki promiennik
+  STR_RAYGUN_CLIP: Bateria do promiennika
+  STR_SONIC_PISTOL: Pistolet Soniczny
+  STR_SONIC_PISTOL_CLIP: Magazynek do Pistoletu Sonicznego
+  STR_SONIC_RIFLE: Karabin Soniczny
+  STR_SONIC_RIFLE_CLIP: Magazynek do Karabinu Sonicznego
+  STR_SONIC_CANNON: Działo Soniczne
+  STR_SONIC_CANNON_CLIP: Magazynek do Działa Sonicznego
+  STR_SONIC_PULSER: Soniczny Pulsator
+  STR_HEAT_RAY_PISTOL: Promień Żaru
+  STR_HEAT_RAY_PISTOL_CLIP: Ogniwo do Promienia Żaru
+  STR_WINCHESTER: "Stary dobry sztucer"
+  STR_WINCHESTER_AMMO: "Naboje do starego sztucera"
+  STR_VARMINT_RIFLE: Karabin na Szkodniki
+  STR_VARMINT_RIFLE_CLIP: Amunicja do Karabinu na Szkodniki
+  STR_SCOUT_RIFLE: Karabin Zwiadowczy
+  STR_HUNTING_RIFLE: Sztucer myśliwski
+  STR_HUNTING_RIFLE_ADV: Sztucer z lunetką
+  STR_HUNTING_RIFLE_CLIP: Naboje do sztucera myśliwskiego
+  STR_HUNTING_RIFLE_CLIP_PS: Naboje plastalowe do sztucera myśliwskiego
+  STR_NITRO_EXPRESS: Żeńcówka
+  STR_NITRO_EXPRESS_CLIP: Ładunki do żeńcówki
+  STR_COMMANDO_RIFLE: Karabin komandoski
+  STR_COMMANDO_RIFLE_CLIP: Magazynek do karabinu komandoskiego
+  STR_FLINTLOCK_RIFLE: Muszkiet
+  STR_MINNIE_BULLET: Pocisk 'Minnie'
+  STR_SNIPER_RIFLE_LT: Lekki Karabin Snajperski
+  STR_SNIPER_RIFLE_LT_CLIP: Magazynek do Lekkiego Kar. Snajp.
+  STR_SNIPER_RIFLE: Karabin snajperski
+  STR_SNIPER_RIFLE_CLIP: Magazynek do karabinu snajperskiego
+  STR_SNIPER_RIFLE_CLIP_AP: Magazynek Ppanc do Karabinu Snajperskiego
+  STR_SNIPER_RIFLE_CLIP_PS: Magazynek plastalowy do karabinu snajperskiego
+  STR_SNIPER_RIFLE_ADV: Kręcona snajperka
+  STR_SNIPER_RIFLE_ADV_CLIP: "Bęben do kręconej snajperki"
+  STR_HSR: C. kar. snajperski 'Pyton'
+  STR_HSR_CLIP_AP: Magazynek ppanc do 'Pytona'
+  STR_HSR_CLIP_ACID: Magazynek kwasowy do 'Pytona'
+  STR_HSR_CLIP_HE: Magazynek wybuchowy do 'Pytona'
+  STR_SUPERHEAVY_RIFLE: Karabin 37mm
+  STR_SUPERHEAVY_RIFLE_AMMO: Naboje do kar. 37mm
+  STR_AUTO_RIFLE: Karabin Automatyczny
+  STR_RIFLE: Karabin szturmowy
+  STR_RIFLE_CLIP: Magazynek do kar. szturmowego
+  STR_RIFLE_CLIP_AP: Magazynek Ppanc do Kar. Szturmowego
+  STR_RIFLE_CLIP_PS: Magazynek plastalowy do kar. szturmowego
+  STR_RIFLE_AK: Poradziecki automat
+  STR_RIFLE_AK_B: Automat z bangetem
+  STR_RIFLE_AK_CLIP: Magazynek do automatu
+  STR_RIFLE_AK_CLIP_MAG: Magazynek magnetyczny do automatu
+  STR_RUGER: Karabinek z lunetką
+  STR_RIFLE_SA80: Karabinek bulpup
+  STR_RIFLE_M16: Karabinek KSK
+  STR_RIFLE_LT: Zdezelowany Karabin
+  STR_RIFLE_M16_CLIP: Magazynek do kbk. KSK
+  STR_RIFLE_M16_CLIP_EP: Magazynek elektryczny do kbk. KSK
+  STR_SMARTRIFLE: Inteligentny karabin
+  STR_SMARTRIFLE_CLIP: Magazynek do kar. inteligentnego
+  STR_INFANTRY_RIFLE: Karabin Piechoty
+  STR_BATTLE_RIFLE: Ciężki karabin
+  STR_BATTLE_RIFLE_CLIP: Magazynek do ciężkiego karabinu
+  STR_BATTLE_RIFLE_CLIP_PS: Magazynek plastalowy do ciężkiego karabinu
+  STR_OMEGA_RIFLE: Karabin 'Omega'
+  STR_OMEGA_RIFLE_CLIP: Magazynek do 'Omegi'
+  STR_OMEGA_RIFLE_CLIP_ETAP: Magazynek ETAP do 'Omegi'
+  STR_UAC_RIFLE: Karabin UAC
+  STR_UAC_CLIP: Mag. karabinu UAC
+  STR_SHOOTA: Karabin abordażowy
+  STR_SHOOTA_MK2: Kręcony kulomiot
+  STR_SHOOTA_MK3: Superkulomiot
+  STR_SHOOTA_CLIP: Taśma abordażowa
+  STR_SHOOTA_CLIP_SMALL: "Taśma abordażowa krótka"
+  STR_SHOOTA_CLIP_LARGE: "Taśma abordażowa długa"
+  STR_CHAINGUN: Obrotówka
+  STR_CHAINGUN_CLIP: Amunicja do obrotówki
+  AUX_ROTOGUN: Obrotówa
+  STR_ROTOGUN: Obrotówa
+  STR_ROTOGUN_AMMO: Amunicja do Obrotówy
+  STR_SAW: RKM
+  STR_SAW_GYRO: Żyroskopowy RKM
+  STR_SAW_CLIP: Amunicja do RKMu
+  STR_SAW_CLIP_PS: Amunicja plastalowa do RKMu
+  STR_LMG: Karabin maszynowy
+  STR_SMARTGUN: Inteligentny k.m.
+  STR_LMG_CLIP: Amunicja do k.m.
+  STR_LMG_CLIP_PS: "Amunicja plastalowa do k.m."
+  STR_SPARTAN_MG: "Ogniopluj"
+  STR_SPARTAN_MG_AMMO: Amunicja wybuchowa do ogniopluja
+  STR_MACHINEGUN: Karabin Maszynowy
+  STR_MACHINEGUN_BELT: Pas z Amunicją do KM'u
+  STR_MACHINEGUN_BELT_PS: "Pas z Amunicją Plastalową do KM'u"
+  STR_MACHINEGUN_BELT_LONG: Skrzynia z Amunicją do KM'u
+  STR_MACHINEGUN_BELT_LONG_PS: "Skrzynia z Plastalową Amunicją do KM'u"
+  STR_HMG: WKM
+  STR_HMG_CLIP_PS_SMALL: "Mały magazynek plastalowy do WKM"
+  STR_MINIGUN: Działko rewolwerowe
+  STR_MINIGUN_AMMO: Amunicja do działka rewolwerowego
+  STR_MINIGUN_AMMO_PS: Amunicja plastalowa do działka rewolwerowego
+  STR_MINIGUN_2: Działko 'Wulkan'
+  STR_MINIGUN_2_AMMO: Taśma do 'Wulkanu'
+  STR_BOZAR: Bossar
+  STR_BOZAR_CLIP: Magazynek do Bossara
+  STR_LACC: LACzeK
+  STR_LACC_AP_AMMO: Naboje ppanc do Laczka
+  STR_LACC_HE_AMMO: Naboje wybuchowe do Laczka
+  STR_LACC_I_AMMO: Naboje fosforowe do Laczka
+  STR_HEAVY_CANNON: Działko ręczne
+  STR_HC_AP_AMMO: Naboje ppanc do działka ręcznego
+  STR_HC_HE_AMMO: Naboje wybuchowe do działka ręcznego
+  STR_AC_I_AMMO: Naboje gazowe do działka automatycznego
+  STR_MEGA_CANNON: Działko szturmowe MARSEKu
+  STR_MC_HE_AMMO: Naboje burzące do działka MARSEKu
+  STR_MEGA_LASER: Multilaser MARSEKu
+  STR_MEGA_LASER_CLIP: Baterie do multilasera MARSEKu
+  STR_MEGA_FLAMER: Ciężki miotacz ognia MARSEKu
+  STR_MEGA_FLAMER_CLIP: Zbiornik do miotacza ognia MARSEKu
+  STR_BALLISTA: Balista
+  STR_BALLISTA_BOLTS: Bełty do Balisty
+  STR_PIR_CANNON: Armatka
+  STR_PIR_CANNONBALL: Kula armatnia
+  STR_PIR_CANNONBALL_HE: Granat armatni
+  STR_PIR_CANNONBALL_INC: Pirotechniczna Kula Armatnia
+  STR_PIR_CANNONBALL_ACID: "Kula Armatnia z Kwasem"
+  STR_PIR_CANNONBALL_SC: Granat armatni nadprzewodzący
+  STR_GRENADE_LAUNCHER: Granatnik
+  STR_HGL: Ciężki Granatnik
+  STR_AGL: Granatnik szturmowy
+  STR_AGL_CLIP: Bęben do granatnika szturmowego
+  STR_BLIZZARD_LAUNCHER: Wyrzutnia 'Grad'
+  STR_BLIZZARD_SHELLS_HE: Pociski odłamkowe do 'Gradu'
+  STR_BLIZZARD_SHELLS_I: Pociski zapalające do 'Gradu'
+  STR_BLIZZARD_SHELLS_SMOKE: Pociski dymne do 'Gradu'
+  STR_MORTAR: Moździerz
+  STR_MORTAR_SHELL_HE: Moździerzowy granat odłamkowy
+  STR_MORTAR_SHELL_I: Moździerzowy granat fosforowy
+  STR_MORTAR_SHELL_SMOKE: Moździerzowy granat dymny
+  STR_MORTAR_SHELL_GAS: Moździerzowy granat gazowy
+  STR_MORTAR_SHELL_FUSION: Moździerzowy granat fuzyjny
+  STR_DAVY_CROCKET: "Przenośny moździerz"
+  STR_DC_SHELL: "Pociski do przenośnego moździerza"
+  STR_3RL: Moździerz rakietowy 'Tornado'
+  STR_3RL_HE: Rakiety odłamkowe do 'Tornada'
+  STR_3RL_FUSION: Rakiety fuzyjne do 'Tornada'
+  STR_3RL_EXTRA_AMMO: "Specjalna amunicja do 'Tornada'"
+  STR_RPG: Granatnik rakietowy
+  STR_RPG_ADV: Granatnik z namierzaniem
+  STR_SMALL_ROCKET: Rakieta burząca do granatnika
+  STR_SMALL_ROCKET_ADV: Rakieta kumulacyjna do granatnika
+  STR_SMALL_ROCKET_NOOK: Rakieta 'Hades'
+  STR_BABY_NUKE: Mała Atomówka
+  STR_BABY_NUKE_BLUEPRINTS: Bronie uranowe
+  STR_RECOILLESS_RIFLE: Działo bezodrzutowe
+  STR_RECOILLESS_RIFLE_SHELL: Pocisk do działa bezodrzutowego
+  STR_ROCKET_LAUNCHER_ADV: Ulepszona wyrzutnia rakiet
+  STR_LARGE_ROCKET: Rakieta burząca
+  STR_FUSION_ROCKET: Rakieta fuzyjna
+  STR_FLECHETTE_ROCKET: Pocisk śrutowy do wyrzutni rakiet
+  STR_MAG_ROCKET: Rakieta magnetyczna
+  STR_UAC_ROCKET_LAUNCHER: Wyrzutnia rakiet UAC
+  STR_QUAD_LAUNCHER: Poczwórna wyrzutnia
+  STR_QUAD_ROCKETS: Zasobnik z rakietami
+  STR_QUAD_ROCKETS_NAPALM: Kasety z napalmem
+  STR_RED_DRAGON_MISSILE: Chiński Smok
+  STR_FAIRY_DRAGON_MISSILE: Czarodziejski Smok
+  STR_SSRL: Pancerfaust
+  STR_HARPOON: Miotacz harpunów
+  STR_HARPOON_CARBINE: Karabin Harpunowy
+  STR_HARPOON_AP_CLIP: Harpuny
+  STR_HARPOON_STUN_CLIP: Harpuny ogłuszające
+  STR_HARPOON_STUN_B_CLIP: Harpuny usypiające
+  STR_DART_PISTOL: Pistolet strzałkowy
+  STR_DART_PISTOL_CLIP: Strzałki usypiające
+  STR_HARPOON_AUTO: Automatyczny miotacz harpunów
+  STR_LIGHTER: Zapalniczka
+  STR_FLAMETHROWER: Miotacz ognia
+  STR_FLAMETHROWER_LR: Dalekonośny miotacz ognia
+  STR_FLAMETHROWER_CLIP: Paliwo do miotacza
+  STR_HEAVY_FLAMER: Ciężki miotacz ognia
+  STR_HEAVY_FLAMER_CLIP: Paliwo do ciężkiego miotacza
+  AUX_LNG: "Pistolet na Ciekły Azot (Kapsuła Ratunkowa)"
+  AUX_BIOSUIT_WEAPON: "Żrąca Chmura"
+  STR_TOXIGUN: Opylacz
+  STR_TOXIGUN_CLIP: Zbiornik z toksynami
+  STR_CANISTER_GUN: Karabin kanistrowy
+  STR_CANISTER_GUN_CLIP: Kanister z toksynami
+  STR_CANISTER_GUN_CLIP_I: Kanister zapalający
+  STR_FIREBALL_LAUNCHER: Wyrzutnia kul ognistych z Areny
+  STR_RAIL_DRIVER: Miotacz szynowy
+  STR_RAIL_COIL: Cewka do miotacza szynowego
+  STR_IRRADIATOR: Napromieniowacz
+  STR_IRRADIATOR_CELL: Ogniwo Napromieniowacza
+  STR_COOKER: Kuchenka mikrofalowa
+  STR_COOKER_CLIP: Ogniwo Kuchenki Mikrofalowej
+  STR_LIGHTNING_THROWER: Miotacz Błyskawic
+  STR_LIGHTNING_THROWER_CELL: Ogniwo Miotacza Błyskawic
+  STR_FUSION_TORCH: Spawarka fuzyjna
+  STR_FUSION_TORCH_CLIP: Ogniwo Spawarki Fuzyjnej
+  STR_FIRE_EXT: Gaśnica
+  STR_HUNTING_LASER: Laser myśliwski
+  STR_ES_HEAVY: Ciężki laser Eurosyndykatu
+  STR_ES_HEAVY_CLIP: Bateria do c. las. ES
+  STR_ES_RIFLE: Laser Eurosyndykatu
+  STR_ES_RIFLE_CLIP: Bateria do lasera ES
+  STR_ES_PISTOL: Pistolet laserowy Eurosyndykatu
+  STR_ES_PISTOL_CLIP: Bateria do pistoletu las. ES
+  STR_SR_PISTOL: "Pistolet Strażników Kosmosu"
+  STR_SR_PISTOL_CLIP: "Bateria do pistoletu SK"
+  STR_SR_RIFLE: "Karabin 'Łowca'"
+  STR_SR_RIFLE_CLIP: "Bateria do 'Łowcy'"
+  STR_SR_SHOTGUN: "Strzelba Strażników Kosmosu"
+  STR_SR_SHOTGUN_CLIP: "Bateria do strzelby SK"
+  STR_MARSEC_LASGUN: "Laspluwa Marsec"
+  STR_MARSEC_LASGUN_CLIP: "Bateria do Laspluwy Marsec"
+  STR_ASSAULT_LASER: Przypalacz
+  STR_SNIPER_LASER: Zdmuchiwacz
+  STR_GATLING_LASER: Grubasek
+  STR_BATTLE_LASER: Ciężki laser bojowy
+  STR_LASER_PISTOL: Rozwalacz
+  STR_LASER_PISTOL_MINI: Kieszonkowy Ładowacz Laserowy
+  STR_LASER_PISTOL_LT: Samoładujący pistolet laserowy
+  STR_LASER_PISTOL_PIR: Pistolet laserowy
+  STR_LASER_PISTOL_CLIP_LO: Bateria do pistoletu laserowego
+  STR_LASER_PISTOL_CLIP_HI: Bateria ulepszona do p. laserowego
+  STR_LASER_PISTOL_CLIP_AP: Przeciwpancerna Bateria do P.Laserowego
+  STR_STORM_LASER: Laser szturmowy
+  STR_STORM_LASER_CLIP_LO: Bateria do lasera szturmowego
+  STR_STORM_LASER_CLIP_HI: Bateria ulepszona do las. szturm.
+  STR_LASER_PISTOL_M: M-Laserowy Pistolet
+  STR_LASER_PISTOL_M_CLIP: Bateria do M-L.Pistoletu
+  STR_LASER_RIFLE_M: M-Laspluwa
+  STR_LASER_RIFLE_M_CLIP: Bateria do M-Laspluwy
+  STR_LASER_RIFLE_PIR: Laser
+  STR_LASER_RIFLE_CLIP_LO: Bateria do lasera
+  STR_LASER_RIFLE_CLIP_HI: Bateria ulepszona do lasera
+  STR_LASER_RIFLE_CLIP_AP: Przeciwpancerna Bateria do Lasera
+  STR_SNIPER_LASER_PIR: Laser snajperski
+  STR_SNIPER_LASER_CLIP_LO: Bateria do lasera snajperskiego
+  STR_SNIPER_LASER_CLIP_HI: Bateria ulepszona do las. snajp.
+  STR_HEAVY_LASER_PIR: Ciężki laser
+  STR_HEAVY_LASER_CLIP_LO: Bateria do ciężkiego lasera
+  STR_HEAVY_LASER_CLIP_HI: Bateria ulepszona do c. las.
+  STR_AUTO_LASER: Autolaser
+  STR_AUTO_LASER_CLIP_LO: Bateria do autolasera
+  STR_AUTO_LASER_CLIP_HI: Bateria ulepszona do autolasera
+  STR_MP_LASCANNON_CLIP_LO: Bateria do przenośnego działa laserowego
+  STR_MP_LASCANNON_CLIP: Bateria ulepszona do przenośnego d. las.
+  STR_HYDRA_LASER: Laser 'Hydra'
+  STR_HYDRA_LASER_CLIP: Bateria do 'Hydry'
+  STR_MINING_LASER: Laser górniczy
+  STR_RAIL_RIFLE_OLD: Karabin Szynowy
+  STR_RAIL_RIFLE_OLD_CLIP: Magazynek do Karabinu Szynowego
+  STR_RETICULAN_LASER_GUN: Retikulański laser
+  STR_RETICULAN_PLASMA_GUN: Retikulański miotacz plazmy
+  STR_RETICULAN_PLASMA_GUN_CLIP: Magazynek do retikulańskiego miotacza plazmy
+  STR_SPORE_LAUNCHER: Wyrzutnia zarodników
+  STR_SPORES_TOXIN: Zarodniki śmierci
+  STR_NOVA_PLASMA_GUN: Karabin fuzyjny 'Nowa'
+  STR_NOVA_PLASMA_GUN_CLIP: Magazynek do 'Nowej'
+  STR_PLASMA_CASTER: Miotacz plazmy
+  STR_PLASMA_CASTER_CLIP: Mag. miotacza plazmy
+  STR_PLASMA_SHOTGUN: Strzelba plazmowa
+  STR_PLASMA_SHOTGUN_CLIP: Magazynek do strzelby plazmowej
+  STR_HEAVY_PARTICLE_GUN: Ciężki Akcelerator Cząsteczek
+  STR_HEAVY_PARTICLE_GUN_CLIP: Bateria CAC
+  STR_LPG: Lekki plazmioch
+  STR_LPG_CLIP: Magazynek do lekkiego plazmiocha
+  STR_PLASMA_SCORCHER: Wypalacz plazmowy
+  STR_PLASMA_SCORCHER_CLIP: Magazynek do wypalacza
+  STR_UAC_BLUEPRINTS: Dokumentacja MKA
+  STR_UAC_PLASMAGUN: Miotacz plazmy MKA
+  STR_UAC_PLASMAGUN_BATTERY: Bateria do miotacza MKA
+  STR_UAC_PLASMAGUN_BATTERY_BROKEN: Zepsuta bateria do miotacza MKA
+  STR_ES_ION_CANNON: Działo Jonowe EuroSyndykatu
+  STR_ES_ION_CANNON_CLIP: Batteria Działa Jonowego ES
+  STR_BFG: BFG
+  STR_BFG_BATTERY: Bateria do BFG
+  STR_BFG_BATTERY_BROKEN: Zepsuta bateria do BFG
+  STR_HELLGUN: Piekielny karabin
+  STR_TK_DEVICE: Projektor TK
+  STR_GAUSS_PISTOL: Pistolet Gaussa
+  STR_GAUSS_PISTOL_CLIP: Magazynek do pistoletu Gaussa
+  STR_GAUSS_RIFLE: Muszkiet Gaussa
+  STR_GAUSS_RIFLE_CLIP: Magazynek do muszkietu Gaussa
+  STR_GAUSS_SNIPER: Snajperka Gaussa
+  STR_GAUSS_SNIPER_CLIP: Magazynek do snajperki Gaussa
+  STR_HEAVY_GAUSS: Ciężki miotacz Gaussa
+  STR_HEAVY_GAUSS_CLIP: Magazynek do c. miotacza Gaussa
+  STR_FLECHETTE_GUN: Działko Strzałkowe
+  STR_FLECHETTE_CANNON: Multidziałko igłowe
+  STR_PIR_PLASMA_PISTOL: Pistolet plazmowy
+  STR_PIR_PLASMA_PISTOL_CLIP: Magazynek do pistoletu plazmowego
+  STR_ELITE_PLASMA_PISTOL: Mistrzowski pistolet plazmowy
+  STR_ELITE_PLASMA_PISTOL_CLIP: Magazynek do mistrzowskiego p. plazmowego
+  STR_PIR_PLASMA_SUB: Plazmowa krócica
+  STR_PIR_PLASMA_SUB_CLIP: Magazynek do plazmowej krócicy
+  STR_PIR_PLASMA_RIFLE: Karabin plazmowy
+  STR_PIR_PLASMA_RIFLE_CLIP: Magazynek do karabinu plazmowego
+  STR_PIR_HEAVY_PLASMA: Ciężki miotacz plazmy
+  STR_PIR_HEAVY_PLASMA_CLIP: Magazynek do ciężkiego miotacza plazmy
+  STR_PRECISION_PLASMA: Plazmowy Eliminator
+  STR_PRECISION_PLASMA_CLIP: Bateria do Plazmowego Eliminatora
+  STR_PIR_ALIEN_GRENADE: Hellerium Grenade
+  STR_PIR_BLASTER_LAUNCHER: Wyrzutnia 'Niszczyciel'
+  STR_PIR_BLASTER_BOMB: Bomba do 'Niszczyciela'
+  STR_PIR_STUN_BOMB: Minibomba Ogłuszająca
+  STR_SHOULDER_LAUNCHER: Wyrzutnia naramienna
+  STR_SL_I: Minibomba Ogniowa
+  STR_SL_SMOKE: Minibomba Dymna
+  STR_SL_ACID: Minibomba Kwasowa
+  STR_SL_EMP: Minibomba EMP
+  STR_DYNAMITE: Dynamit
+  STR_EMP_GRENADE: Granat EMP
+  STR_RIOT_GRENADE: Granat Na Zamieszki
+  STR_STUN_GRENADE_PIR: Granat ogłuszający
+  STR_STASIS_GRENADE: "Granat zamrażający"
+  STR_GRENADE: "Granat zaczepny"
+  STR_PROXIMITY_GRENADE: "Granat zbliżeniowy"
+  STR_SOL_DEMO_CHARGE: "Ładunek górniczy Solkopu"
+  STR_NUKE_CHARGE: "Nuklearny ładunek burzący"
+  STR_BABY_NUKE_TIMED: "Mała Atomówka (Czasowa)"
+  STR_BABY_NUKE_TIMED_DA: "Mała Atomówka (Czasowa) Demontaż"
+  STR_STICK_GRENADE: Granat na kiju
+  STR_GRENADE_FRAG: Granat obronny
+  STR_GRENADE_FUSION: Granat fuzyjny
+  STR_SATCHEL_CHARGE: Ładunek plecakowy
+  STR_BARREL_BOMB: Bomba Beczkowa
+  STR_INCENDIARY_GRENADE: Granat Zapalający
+  STR_FIREBOMB: Bomba ognista
+  STR_GAS_BOMB: Bomba z Trującym Gazem
+  STR_COV: Skrzynka Pełna Przemocy
+  STR_WP_GRENADE: Biały fosfor
+  STR_GAS_GRENADE: Granat gazowy
+  STR_ACID_GRENADE: Granat kwasowy
+  STR_MINE: Mina
+  STR_MINE_N: Kręcona mina
+  STR_KNOCKOUT_GRENADE: Granat nokautujący
+  STR_HALLUCINOGEN_GRENADE: Granat z Gazem Halucynogennym
+  STR_MOLOTOV: Koktail Mołotowa
+  STR_ANARCHY_BOMB: Bomba z prochem
+  STR_SPIKEBALL: Kolcokula
+  STR_BOOM_FRUIT: Wybuchowoc
+  STR_FLASK_ACID: Flaszka kwasu
+  STR_HEALING_GEL: Żel leczniczy
+  STR_BANDAGE: Bandaże
+  STR_FIRST_AID_KIT: Zestaw pierwszej pomocy
+  STR_IDENT_DEV: Ident
+  STR_SMALL_MEDIPACK: Mała apteczka
+  STR_MEDIPACK: Torba medyka polowego
+  AUX_MEDIPACK_EGGHEAD: "Torba Lekarska"
+  STR_SUPER_MEDIPACK: "Zestaw do nanochirurgii"
+  STR_GROG_BARREL: "X-Grog"
+  STR_NOOSE: Sznur
+  STR_KUSARIGAMA: Sierp Ninja
+  STR_WHIP_LEATHER: Bicz
+  STR_WHIP: Elektrobicz
+  STR_FLAME_WHIP: Oczyszczający Bicz
+  STR_ELECTRIC_LASSO: Elektryczne Lasso
+  STR_ANCHOR: Kotwica
+  STR_POWER_MACE: Energomaczuga
+  STR_YELLOW_GEM: Topaz
+  STR_BLUE_GEM: Szafir
+  STR_GREEN_GEM: Szmaragd
+  STR_RED_GEM: Rubin
+  STR_DIAMOND: Diament
+  STR_MONEY_PURSE: Portmonetka
+  STR_CASH_BAG: Worek forsy
+  STR_SAFE: Sejf z Milionem Dolarów
+  STR_TREASURE_CHEST: Skrzynia ze skarbem
+  STR_NUCLEAR_MATERIALS: Nielegalnie wzbogacony uran
+  STR_RANGEFINDER: Dalmierz
+  STR_LIGHT_CRYSTAL: Kryształ świetlny
+  STR_CRYSTAL_SKULL: Kryształowa Czaszka
+  STR_TORCH: Pochodnia
+  STR_SHAWL: Ekstrawagancki Szal
+  STR_FUR_HAT: Uszanka
+  STR_A_SPACE_TOWEL: Kosmiczny Ręcznik
+  STR_GAS_MASK: Maska Przeciwgazowa
+  STR_THERMAL_SHIRT: Koszulka z Radiatorami
+  STR_AY_GOGGLES: Gogle Bezpieczeństwa
+  STR_CHEM_COAT: Chemiczny Płaszcz
+  STR_BARBED_STOCKINGS: 'Ćwiekowane Pończochy '
+  STR_PIRATE_FLAG: Sztandar bitewny
+  STR_PIRATE_PIPES: Kobza bitewna
+  LIGHT_SOURCE_10: Lampa
+  LIGHT_SOURCE_15: Lampa
+  LIGHT_SOURCE_20: Lampa
+  STR_BLOWPIPE: Dmuchawka
+  STR_BLOWPIPE_DARTS_ACID: Zatrute strzałki
+  STR_BAGPIPES: Złowieszcza kobza
+  STR_CELATID_ESSENCE: Esencja Celatyda
+  STR_DEMONIC_ESSENCE: Demoniczna esencja
+  STR_VAMPIRE_ESSENCE: Żywa Krew
+  STR_ZOMBIE_BRAIN: Nieumarły Mózg
+  STR_ROD_OF_BLISS: Pręt rozkoszy
+  STR_WAND_CHOKE: Różdżka bezduszka
+  STR_WAND_FIRE: Różdżka ogniuszka
+  STR_WAND_PAIN: Różdżka szarpuszka
+  STR_SKULL_ROD: Różdżka Ognia Piekielnego
+  STR_COBRA_STAFF: Berło Kobry
+  STR_HEARTGRIP_STAFF: Laska uścisku śmierci
+  STR_ADVANCED_PERSONAL_ARMORS: Zaawansowany pancerz osobisty
+  STR_FLYING_ARMORS: Latające Pancerze
+  STR_LOKNAR_FAKK_UC: "MŚCICIEL"
+  STR_CHILLER_UC: "KLIMA"
+  STR_CHILLER_SEA_UC: "KLIMA (MORZE)"
+  STR_SYNTH_CHILLER_ARMOR_UC: "KLIMA /SYN"
+  STR_SYNTH_CHILLER_ARMOR_A_UC: "KLIMA /SYN (A)"
+  STR_SYNTH_CHILLER_ARMOR_SEA_UC: "KLIMA /SYN (MORZE)"
+  STR_SYNTH_CHILLER_ARMOR_A_SPACE_UC: "KLIMA /SYN (0-G)"
+  STR_PIR_NUDE_UC: NUDYSTKA
+  STR_PIR_NUDE_SEA_UC: "NUDYSTKA (MORZE)"
+  STR_PIR_CASTAWAY_ARMOR_UC: "ROZBITEK"
+  STR_SCOUT_OUTFIT_UC: "ZWIEDŹMA"
+  STR_ADVENTURER_OUTFIT_UC: "AWANTURNICA"
+  STR_GANGER_OUTFIT_UC: "GANGSTERKA"
+  STR_RAGS: Śmierdzące szmaty
+  STR_RAGS_UC: SZMATY
+  STR_PIR_TOPLESS_UC: TOPLESS
+  STR_TOPLESS_SEA_UC: "TOPLESS (MORZE)"
+  STR_RUNT_OUTFIT: Kombinezon Dłubaczki
+  STR_RUNT_OUTFIT_UC: DŁUBACZKA
+  STR_BRAINER_OUTFIT: Strój rozkminiaczki
+  STR_BRAINER_OUTFIT_UC: ROZKMINIACZKA
+  STR_BRAINER_OUTFIT_SEA_UC: "ROZKMINIACZKA (MORZE)"
+  STR_CLOTHING_TRIBAL: Plemienne Łachmany
+  STR_CLOTHING_BASIC: Ciuchy dla Uber
+  STR_CLOTHING_LOKNAR: "Ciuchy dla Lokk'Naar"
+  STR_CLOTHING: Strój piracki
+  STR_CLOTHING_UC: PIRATKA
+  STR_PIR_ROGUE_UC: ŁOTRZYCA
+  STR_PIR_ROBBER_UC: HARDKOR
+  STR_GYM_OUTFIT: Strój gimnastyczny
+  STR_GYM_OUTFIT_UC: GIMNASTYCZKA
+  STR_SWIMSUIT: Strój pływacki
+  STR_SWIMSUIT_UC: PŁYWACZKA
+  STR_SWIMSUIT_SEA_UC: PŁYWACZKA (MORZE)
+  STR_BIKINI: Bikini
+  STR_BIKINI_UC: BIKINI
+  STR_BIKINI_SEA_UC: BIKINI (MORZE)
+  STR_PIR_OFFICER_UC: "EL ADMIRAL DE CORAZON"
+  STR_LINGERIE_SET: Strój uwodzicielki
+  STR_LINGERIE_SET_UC: UWODZICIELKA
+  STR_LINGERIE_SET_X_UC: "UWODZICIELKA (X)"
+  STR_MAGICAL_GIRL_OUTFIT_SEA_UC: "WRÓŻKA (MORZE)"
+  STR_MAGICAL_GIRL_OUTFIT_UC: WRÓŻKA
+  STR_NURSE_OUTFIT: Strój pielęgniarki
+  STR_NURSE_OUTFIT_UC: PIELĘGNIARKA
+  STR_NURSE_OUTFIT_ADV_UC: ZBAWICIELKA
+  STR_BARBARIAN_RAGS_UC: WYSPIARKA
+  STR_BARBARIAN_FURS_UC: ESKIMOSKA
+  STR_BARBARIAN_ARMOR_UC: BARBARZYNKA
+  STR_BARBARIAN_ARMOR_S_UC: "BARBARZYNKA (T)"
+  STR_SAVAGE_ARMOR_UC: "DZIKUSKA"
+  STR_AMAZON_ARMOR: Strój amazonki
+  STR_AMAZON_ARMOR_UC: AMAZONKA
+  STR_BERSERKER_ARMOR_UC: BERSERKERKA
+  STR_NIGHT_OPS_ARMOR: Strój do nocnych operacji
+  STR_NIGHT_OPS_ARMOR_UC: CICHOCIEMNA
+  STR_MEIDO_OUTFIT: Stój służącej
+  STR_MEIDO_OUTFIT_UC: SŁUŻĄCA
+  STR_SMOKEY_ARMOR: Strój przeciwdymny
+  STR_SMOKEY_ARMOR_UC: ZADYMIARA
+  STR_SMOKEY_MK2_ARMOR: Pancerz plecionkowy
+  STR_SMOKEY_MK2_ARMOR_UC: PLECIONKA
+  STR_SPACE_POD_UC: "KAPSUŁA (0-G)"
+  STR_SPACE_POD_LOKNAR_UC: "KAPSUŁA /LOK (0-G)"
+  STR_SPACE_SUIT: Kombinezon kosmiczny
+  STR_SPACE_SUIT_UC: KOSMONAUTKA
+  STR_SPACE_SUIT_SPACE_UC: "KOSMONAUTKA (0-G)"
+  STR_SPACE_SUIT_SEA_UC: "KOSMONAUTKA (MORZE)"
+  STR_SCALE_MAIL: Zbroja łuskowa
+  STR_SCALE_MAIL_UC: ZBROJA ŁUSKOWA
+  STR_BASIC_ARMOR: Pancerz wojownika
+  STR_BASIC_ARMOR_UC: WOJOWNICZKA
+  STR_CAMO_PAINT: Malowany Kamuflaż
+  STR_CAMO_PAINT_UC: MALOWANY KAMUFLAŻ
+  STR_KEVLAR_ARMOR: Strój partyzancki
+  STR_KEVLAR_ARMOR_UC: PARTYZANTKA
+  STR_HEAVY_KEVLAR_ARMOR: Zakamuflowany Pancerz Powstańca
+  STR_HEAVY_KEVLAR_ARMOR_UC: POWSTANIEC
+  STR_SNIPER_ARMOR: Strój snajperski
+  STR_SNIPER_ARMOR_UC: SNAJPERKA
+  STR_LEATHER_ARMOR: Pancerz z durawłókna
+  STR_LEATHER_ARMOR_UC: DURAWŁÓKNO
+  STR_METAL_ARMOR: Zbroja metalowa
+  STR_METAL_ARMOR_UC: ZBROJA METALOWA
+  STR_CHAIN_MAIL: Kolczuga
+  STR_CHAIN_MAIL_A_UC: "KOLCZUGA (T)"
+  STR_CHAIN_MAIL_UC: "KOLCZUGA"
+  STR_PLATE_MAIL: "Zbroja płytowa"
+  STR_PLATE_MAIL_UC: ZBROJA PŁYTOWA
+  STR_PLATE_MAIL_A_UC: "ZBROJA PŁYTOWA (T)"
+  STR_SLAYER_ARMOR: Molochowa zbroja
+  STR_SLAYER_ARMOR_UC: MOLOCH
+  STR_POWER_SUIT_WRECKED: Niewspomagany pancerz wspomagany
+  STR_POWER_SUIT_WRECKED_UC: NIEZŁOMNA
+  STR_POWER_SUIT: Pancerz Wspomagany 'Niszczyciel'
+  STR_POWER_SUIT_UC: NISZCZYCIEL
+  STR_POWER_SUIT_ADV: Pancerz Wspomagany 'Herold'
+  STR_POWER_SUIT_ADV_UC: "HEROLD"
+  STR_POWER_SUIT_ADV_EVA_UC: "HEROLD (EVA)"
+  STR_POWER_SUIT_ADV_EVA_SEA_UC: "HEROLD (MORZE)"
+  STR_BIO_SUIT_ADV: Żywozbroja
+  STR_BIO_SUIT_ADV_UC: ŻYWOZBROJA
+  STR_BIO_SUIT_ADV_SEA_UC: "ŻYWOZBROJA (MORZE)"
+  STR_BIO_SUIT_NECRO_UC: NOSICIELKA
+  STR_BIO_SUIT_NECRO_SEA_UC: NOSICIELKA (MORZE)
+  STR_PERSONAL_ARMOR_STUDY: Współczesny pancerz osobisty
+  STR_PERSONAL_ARMOR_CAT: Odzienie
+  STR_PERSONAL_ARMOR_REPAIR: Naprawa pancerza
+  STR_PERSONAL_ARMOR_UC: "TAKTYCZNA (H)"
+  STR_GRAV_ARMOR: Uprząż antygrawitacyjna
+  STR_GRAV_ARMOR_UC: GRAW-UPRZĄŻ
+  STR_FLYING_SUIT_UC: SZTURMÓWKA
+  STR_RAIDER_BOSS_ARMOR: Pancerz Szefa Gangu
+  STR_LOOTED_RAIDER_BOSS_ARMOR_UC: SZEF
+  STR_IRONMAN_ARMOR: Pancerz superherosa
+  STR_IRONMAN_ARMOR_UC: SUPERHEROINA
+  STR_IRONMAN_ARMOR_SPACE_UC: "SUPERHEROINA (0-G)"
+  STR_REVENANT_ARMOR: Pancerz 'Upiór'
+  STR_REVENANT_ARMOR_UC: UPIORZYCA
+  STR_MUSCLE_ARMOR: Kombinezon z synmięśni
+  STR_MUSCLE_ARMOR_UC: SYNMIĘŚNIE
+  STR_BRUTE_ARMOR: Pancerz 'Brutal'
+  STR_BRUTE_ARMOR_UC: BRUTALKA
+  STR_ANNIHILATOR_ARMOR: Pancerz 'Anihilator'
+  STR_ANNIHILATOR_ARMOR_UC: ANIHILATORKA
+  STR_ANNIHILATOR_ARMOR_SEA_UC: "ANIHILATORKA (MORZE)"
+  STR_ANNIHILATOR_ARMOR_SPACE_UC: "ANIHILATORKA (0-G)"
+  STR_SORCERESS_ARMOR_UC: CZARODZIEJKA
+  STR_SORCERESS_ARMOR_SEA_UC: "CZARODZIEJKA (MORZE)"
+  STR_SORCERESS_ARMOR_SPACE_UC: "CZARODZIEJKA (0-G)"
+  STR_VOODOO_ARMOR: Strój czarownicy
+  STR_VOODOO_ARMOR_UC: CZAROWNICA
+  STR_STEALTH_ARMOR: Strój 'Duch'
+  STR_STEALTH_ARMOR_UC: DUSZYCA
+  STR_STEALTH_ARMOR_SEA_UC: "DUSZYCA (MORZE)"
+  STR_FORCE_ARMOR: Osobisty refraktor
+  STR_FORCE_ARMOR_UC: REFRAKTOR
+  STR_MAGE_ROBE: Szaty nowicjusza
+  STR_MAGE_ROBE_UC: NOWICJUSZKA
+  STR_VAMPY_ROBE_UC: WAMPIRZYCA
+  STR_PIR_SLAVE_ARMOR_UC: MASOCHISTKA
+  STR_SWIFTSUIT: Uprząż szybkości
+  STR_SWIFTSUIT_UC: CHYŻOLOTNA
+  STR_SWIFTSUIT_SEA_UC: "CHYŻOLOTNA (MORZE)"
+  STR_BLITZ_ARMOR: Pancerz 'Błyskawica'
+  STR_BLITZ_ARMOR_UC: BŁYSKAWICA
+  STR_BLITZ_ARMOR_SEA_UC: "BŁYSKAWICA (MORZE)"
+  STR_DEMONIC_ARMOR: Pancerz Furiosy
+  STR_DEMONIC_ARMOR_UC: FURIOSA
+  STR_DEMONIC_ARMOR_SEA_UC: "FURIOSA (MORZE)"
+  STR_ARRANCAR_ARMOR: Strój destruktora
+  STR_ARRANCAR_ARMOR_UC: DESTRUKTORKA
+  STR_TAC_VEST: Kamizelka taktyczna
+  STR_TAC_VEST_UC: KAMIZELKA
+  STR_TAC_ARMOR: Pancerz taktyczny
+  STR_TAC_ARMOR_UC: TAKTYCZNA
+  STR_TAC_FULL_ARMOR: Ciężki pancerz
+  STR_TAC_FULL_ARMOR_UC: CIĘŻKI PANCERZ
+  STR_PIR_ASSASSIN: Pancerz asasyna
+  STR_ASSASSIN_UC: ASASYNKA
+  STR_PIR_ASSAULT: Pancerz lewitujący
+  STR_ASSAULT_UC: LEWITATORKA
+  STR_ASSAULT_2_UC: WAŻKA
+  STR_PIR_STORM_ARMOR: Pancerz desantowy
+  STR_PIR_STORM_ARMOR_UC: DESANTNICZKA
+  STR_PIR_DEFENDER_REPAIR: "R: Pancerz 'Obrońca'"
+  STR_PIR_DEFENDER: Pancerz 'Obrońca'
+  STR_DEFENDER_UC: OBROŃCZYNI
+  STR_PIR_DEFENDER_DMG: "Pancerz 'Obrońca' (uszkodzony)"
+  STR_DEFENDER_DMG_UC: "OBROŃCZYNI (-)"
+  STR_PIR_GUARDIAN: Pancerz 'Strażnik'
+  STR_GUARDIAN_UC: STRAŻNICZKA
+  STR_CRYSTALISK_ARMOR: Kseno-Pancerz
+  STR_CRYSTALISK_ARMOR_UC: KSENO
+  STR_LOADER_ARMOR: Ładowarka
+  STR_LOADER_ARMOR_UC: ŁADOWARKA
+  STR_LOADER_ARMOR_SEA_UC: "ŁADOWARKA (MORZE)"
+  STR_COPTER_ARMOR: Żyrokopter
+  STR_COPTER_ARMOR_UC: ŻYROKOPTER
+  STR_BIKE_Q_ARMOR: Szturmotor
+  STR_BIKE_ARMOR_UC: SZTURMOTOR
+  STR_UFO_POWER_SOURCE_SMALL: "Mały silnik statkowy"
+  STR_RET_FUSION_REACTOR: "Reticulan Fusion Reactor"
+  STR_SECTOWEED: "Sektoziele"
+  STR_SECFLOWER: "Miesięcznica"
+  STR_APPLE: "Jabłko"
+  STR_ORANGE: "Pomarańcza"
+  STR_EVIL_GRASS: "Zła trawa"
+  STR_BOOT: "Stary but"
+  STR_AMPHORE: "Amfora"
+  STR_ANKH: "Złoty ankh"
+  STR_GOLDEN_CUP: "Kielich wysadzany klejnotami"
+  STR_GOLDEN_CROSS: "Krzyż wysadzany klejnotami"
+  STR_CROWN: "Królewska korona"
+  STR_JUNK_PILE: "Kupa śmieci"
+  STR_TROPHIES: "Trofea"
+  STR_TROPHIES_UC: "NAGRODY I TROFEA"
+  STR_MISSIONS_D: "Zlecenia poziom D"
+  STR_BOUNTY_HUNTING_C_PASS: "Mosiężna odznaka łowcy nagród (C)"
+  STR_MISSIONS_C: "Zlecenia poziom C"
+  STR_BOUNTY_HUNTING_B_PASS: "Srebrna odznaka łowcy nagród (B)"
+  STR_MISSIONS_B: "Zlecenia poziom B"
+  STR_TROPHIES_COINS: "Dawne pieniądze"
+  STR_TROPHIES_VICTIMS: "Uratowani nieszczęśnicy"
+  STR_CUSTOMER_JACK: "Klient: Yacenty"
+  STR_CUSTOMER_GOBLIN_ZAXX: "Klient: bank Goblin Zaxx"
+  STR_CUSTOMER_MUTANT_ALLIANCE: "Klient: Sojusz Mutantów"
+  STR_CUSTOMER_WIZ_BIZ: "Klient: czarbiznes"
+  STR_BOUNTY_HUNTING_DONATION_JACK: "Rzuć Yacentemu sto koła"
+  STR_BOUNTY_HUNTING_DONATION_GOBLIN_ZAXX: "Rzuć Goblin Zaxxom sto koła"
+  STR_BOUNTY_HUNTING_DONATION_MUTANT_ALLIANCE: "Rzuć Sojuszowi sto koła"
+  STR_BOUNTY_HUNTING_PRIZE_PEACEMAKER: "Nagroda: Srebrny Wąż"
+  STR_BOUNTY_HUNTING_PRIZE_EAGLE: "Nagroda: sprzęt konfederacki"
+  STR_BOUNTY_HUNTING_PRIZE_PIRANHA: "Nagroda: Pirania"
+  STR_BOUNTY_HUNTING_PRIZE_JACK_FAVOR: "Nagroda: wdzięczność Yacentego"
+  STR_BOUNTY_HUNTING_PRIZE_CANNON: "Nagroda: działko 30mm"
+  STR_BOUNTY_HUNTING_PRIZE_PERSUADOTRON: "Nagroda: Perswadotron"
+  STR_BOUNTY_HUNTING_PRIZE_SUPERCHARGER: "Nagroda: supersamoładowacz"
+  STR_BOUNTY_HUNTING_PRIZE_AUTOCANNONS: "Nagroda: działka automatyczne"
+  STR_BOUNTY_HUNTING_PRIZE_BLACK_ADDER: "Nagroda: Czarna Żmija"
+  STR_BOUNTY_HUNTING_PRIZE_MAGNUM: "Nagroda: magnum z lunetką"
+  STR_BOUNTY_HUNTING_PRIZE_BANK_FAVORS: "Nagroda: wdzięczność banku"
+  STR_BOUNTY_HUNTING_PRIZE_BIG_GUN: "Nagroda: działo okrętowe"
+  STR_BOUNTY_HUNTING_PRIZE_DURATHREAD: "Nagroda: durawłókno"
+  STR_BOUNTY_HUNTING_PRIZE_ALLIANCE_FAVORS: "Nagroda: wdzięczność Sojuszu"
+  STR_BOUNTY_HUNTING_PRIZE_SPIKE_ROCKETS: "Nagroda: rakiety 'Ćwiek'"
+  STR_BOUNTY_HUNTING_PRIZE_SAYA: "Nagroda: Saya"
+  STR_TROPHY_CREDIT_GOBLIN_ZAXX: "Żetony nagród Goblin Zaxxów"
+  STR_TROPHY_CREDIT_JACK: "Żetony nagród Yacentego"
+  STR_TROPHY_CREDIT_MUTANT_ALLIANCE: "Żetony nagród Sojuszu"
+  STR_TROPHY_CREDIT_WIZ_BIZ: "Żetony nagród czarbiznesu"
+  STR_SILVER_BAR: Sztabka srebra
+  STR_GOLD_BAR: Sztabka złota
+  STR_ECONOMIC_FUNDAMENTALS: Podstawy ekonomii
+  STR_DATA_DISK: "Zaszyfrowany dysk"
+  STR_DATA_DISK_B: "Odszyfrowany dysk"
+  STR_ILLEGAL_DATA: "Piracka laserpłyta"
+  STR_ILLEGAL_DATA_PROCUREMENT: "Wymień baterię n. na piracką płytę"
+  STR_CODE_ALLIANCE: "Dane Sojuszu Mutantów"
+  STR_CODE_GOVT_PERSONAL: "Prywatne kody rządu"
+  STR_CODE_NAZI: "dane humanistów"
+  STR_PADD: Komputer osobisty
+  STR_GUNS_N_AMMO: Almanach broni
+  STR_BRIEFCASE: Dokumenty rządowe
+  STR_ARCANE_BOOK: Księga wiedzy tajemnej
+  STR_LIBER_OCCULTIS: Liber Occultus
+  STR_LIBER_OCCULTIS_TRANSLATED: Przekład Liber Occultus
+  STR_CHURCH_RITUALS: Rytuały Kościoła
+  STR_RING: Sygnet
+  STR_MEDALLION: Biżuteria
+  STR_COINS: Cenne monety
+  STR_DOLLAR_BRIEFCASE: Walizka dawnych pieniędzy
+  STR_COIN_CHEST: Szkatuła pełna monet
+  STR_JADE_URN: Sole pustki
+  STR_FOOD_BAG: "Pożywka"
+  STR_CONSUMER_GOODS: "Dobra konsumenckie"
+  STR_ELECTRONIC_PIECES: "Części optroniczne"
+  STR_MEDICAL_SUPPLIES: "Medykamenty"
+  STR_LONGEVITY_SERUM: "Serum długowieczności"
+  STR_CHOCOLATE: "Czekolada"
+  STR_CIGS: "Fajki Budda-X"
+  STR_CRACK: Igiełka
+  STR_WINE: Chateau de la Mort
+  STR_OLD_BOOKS: Książki ze starej Ziemi
+  STR_PORN: "Mutanckie porno"
+  STR_PORN_1: "Pornosesja zdjęciowa (3/25)"
+  STR_PORN_2: "Kompilacja porno (0.2)"
+  STR_PORN_3: "Czytanka do poduszki (Saya)"
+  STR_NEWSPAPER: Słoneczny Kurier
+  STR_LINGERIE: Luksusowa bielizna
+  STR_OLD_EARTH_VOODOO: Wudu starej Ziemi
+  STR_MOST_COMMON_POWER: Najpowszechniejsza supermoc
+  STR_PIRATEY_LINGERIE: Piracka bielizna
+  STR_PLOTTING: Knucie
+  STR_PILLOW_BOOK: Czytanka do poduszki
+  STR_CANNON_PARTS: Części do działka 30mm
+  STR_MED_CANNON_PARTS: Części do działka 50mm
+  STR_GAT_LASCANNON_PARTS: Części do ciężkiego rotolasera
+  STR_GAUSS_CANNON_PARTS: Części do działka Gaussa
+  STR_GAUSS_CANNON_AMMO_PROD: Amunicja do gaussów - podstawy
+  STR_PLASMA_SPITTER_PARTS: Części do plazmopluja
+  STR_BOMB_LAUNCHER_PARTS: Części do wyrzutni bomb plazmowych
+  STR_GENERIC_CRATE: Skrzynka
+  STR_GOLDEN_CRATE: Złota skrzynka
+  STR_ENVIRO: Wrogie środowisko
+  STR_CAMOUFLAGE: Kamuflaż
+  STR_HEATVISION: Termowizja
+  STR_SOULSENSE: Zmysł duchowy
+  STR_VIOLENCE: Przemoc
+  STR_CUNNING: Spryt
+  STR_SURVIVAL: Przetrwanie
+  STR_WEIRDNESS: Dyrdymały
+  STR_COMMUNICATIONS: Łączność
+  STR_DIPLOMACY: Dyplomacja
+  STR_CIVILIZATION: Cywilizacja
+  STR_INTERROGATION: Techniki przesłuchiwania
+  STR_INRG: Przesłuchiwanie
+  STR_OCCULT: Okultyzm
+  STR_ROBBERY: Rabunek
+  STR_EMANCIPATION: Wyzwolenie niewolników
+  STR_FEUDALISM: Feudalizm
+  STR_STARDOM: Gwiazdorstwo
+  STR_PIMPCRAFT: Sutenerstwo
+  STR_COURTESAN: KURTYZANA
+  STR_SALVAGE: "Niewolnictwo"
+  STR_PERSUASION: "Perswazja"
+  STR_SQUIRE: "GIERMEK"
+  STR_SLAVE: "NIEWOLNIK"
+  STR_SLAVE_MAID: "DZIEWKA NIEWOLNA"
+  STR_SLAVE_MAID_SUPER: "SUPERDZIEWKA"
+  STR_SLAVE_SKILLED: "NIEWOLNIK SPECJALISTA"
+  STR_SLAVE_MANAGER: "NADZORCZYNI NIEWOLNIKÓW"
+  STR_SLAVE_GLADIATRIX: "GLADIATORKA"
+  STR_SLAVE_MAGICAL: "WIEDŹMA NIEWOLNA"
+  STR_SLAVE_BRUTE: "POGANIACZ NIEWOLNIKÓW"
+  STR_SLAVE_SERVITOR: "PASTERKA DRONÓW"
+  STR_SLAVE_ROBOT: "ROBOT NIEWOLNY"
+  STR_YEOMAN: KAWALER
+  STR_YEOMAN_TRAINING: Szkolenie giermków
+  STR_CONTRABAND: Kontrabanda
+  STR_CUISINE: Kuchnia postapokaliptyczna
+  STR_UNDERGROUND_HUNTING: Łowiectwo jaskiniowe
+  STR_FORGERY: Fałszerstwo
+  STR_BEASTMEN_TAMING: Cywilizowanie zwierzoczłeków
+  STR_ANIMAL_TAMING: Oswajanie zwierząt
+  STR_SKINNING: Skórowanie zwierząt
+  STR_ROBOT_DISASSEMBLY: Demontaż robotów
+  STR_MERCHANDISE: Towary
+  STR_ALCOHOL: Alkohol
+  STR_EXTRACTION: Wydobycie
+  STR_HACKING: Hakowanie
+  STR_ASSEMBLY: Montaż
+  STR_DISASSEMBLY: Demontaż
+  STR_SPECIAL_PROJECT: Projekt specjalny
+  STR_PIRATEZ_BACKGROUND: Nasza walka
+  STR_PIRATEZ_UBERS: Nasze pochodzenie
+  STR_THE_MARTIAN_SOLUTION: Gubernator Solarny
+  STR_ALIEN_ORIGINS: Kto jest kim?
+  STR_PIRATEZ_HIERARCHY: Hierarchia społeczna
+  STR_SAT_NETWORK: Ziemska sieć satelitów
+  STR_DATA_MINING: Kopanie danych
+  STR_DATA_DISK_MINING: "Kopanie danych (1 dysk)"
+  STR_GOVT_HACKING: Hakowanie danych rządowych
+  STR_NAZI_HACKING: Hakowanie danych humanistów
+  STR_SCI_REP: "A tera co?"
+  STR_LOGISTICS: "Logistyka"
+  STR_SCHOOL_BOOKS: Książki naukowe
+  STR_SCHOOLING_1: Wiosenne porządki
+  STR_SCHOOLING_2: Powrót do szkoły
+  STR_SCHOOLING_2_B: Matura
+  STR_SCHOOLING_3: Studia wyższe
+  STR_PIRATEZ_COOKING: Sztuka kucharska
+  STR_FLINTLOCKS_PRODUCTION: Muszkiety i bomby
+  STR_BALLISTICS: Balistyka
+  STR_MELEE_SUMMARY: BRONI BIAŁEJ OPISANIE
+  STR_BOWS_SUMMARY: ŁUKÓW OPISANIE
+  STR_PISTOLS_SUMMARY: PISTOLETÓW OPISANIE
+  STR_SHOTGUNS_SUMMARY: STRZELB OPISANIE
+  STR_SMGS_SUMMARY: PEEMEK OPISANIE
+  STR_RIFLES_SUMMARY: KARABINÓW OPISANIE
+  STR_SNIPER_SUMMARY: SNAJPERSTWA OPISANIE
+  STR_HEAVY_WEAPONS_SUMMARY: "BRONI CIĘŻKICH OPISANIE"
+  STR_EXPLOSIVES_SUMMARY: ŁADUNKÓW WYBUCHOWYCH OPISANIE
+  STR_MAGITECH_SUMMARY: MAGIOTECHNOLOGIA
+  STR_PROTECTIVE_GEAR: ODZIEŻ OCHRONNA
+  STR_AMMO_MANUFACTURING_1: Broń palna i amunicja
+  STR_AMMO_MANUFACTURING_2: Produkcja amunicji karabinowej
+  STR_AMMO_MANUFACTURING_3: Zaawansowana broń palna
+  STR_CANNONS_MANUFACTURING_1: Produkcja amunicji do działek
+  STR_CANNONS_MANUFACTURING_2: Lekka broń pokładowa
+  STR_CANNONS_MANUFACTURING_3: Ciężka broń pokładowa
+  STR_CRAFT_MISSILES: Przenoszenie rakiet
+  STR_LASER_AMMO: Nadprzewodzące baterie do laserów
+  STR_LASER_AMMO_NUCLEAR: Baterie nuklearne do laserów
+  STR_EXPLOSIVE_AMMO: Amunicja wybuchowa
+  STR_ACIDIC_AMMO: Amunicja chemiczna
+  STR_STUN_BOMB_PRODUCTION: Produkcja minibomb głuszących
+  STR_LASER_DISASSEMBLY: Demontaż broni laserowej
+  STR_LASER_WEAPONS: Budowa broni laserowej
+  STR_PARTICLE_WEAPONS: Bronie cząsteczkowe
+  STR_GAUSS_DISASSEMBLY: Demontaż broni Gaussa
+  STR_PLASMA_DISASSEMBLY: Demontaż broni plazmowej
+  STR_NUCLEAR_LASERS: Lasery nuklearne
+  STR_NUCLEAR_GAUSS_AMMO: Amunicja N do gausów
+  STR_ADVANCED_WEAPONS: Plotki o superbroniach
+  STR_COMBAT_101: Vademecum wojownika
+  STR_COMBAT_STRESS: Stres walki
+  STR_EVASION: Uniki
+  STR_DRESSUP: Moda bojowa
+  STR_FINANCE: "Finanse"
+  STR_FINANCES: Te upierdliwe finanse
+  STR_PILOTING: Pilotaż
+  STR_SURRENDER: Kapitulacja wroga
+  STR_WALK_THE_PLANK: Idziesz za burtę
+  STR_HOTKEYS_ARTICLE: Gorące guziczki
+  STR_HOTKEYS_ARTICLE_2: "Gorące guziczki 2"
+  STR_LOOT_DISTRIBUTION: Podział łupów
+  STR_RECRUITMENT: Zaciąg do załogi
+  STR_BOUNTY_HUNTING: Płatne zlecenia
+  STR_SPACE_MISSIONS: "!Misje w 0-g!"
+  STR_ENGINEER_PLUS: Podstawy inżynierii
+  STR_PILOT_PLUS: Oblot
+  STR_ACADEMY_MED_KNOWHOW: MEDYCYNA AKADEMII
+  STR_ACADEMY_ENG_KNOWHOW: INŻYNIERIA AKADEMII
+  STR_TRADERS_ENG_KNOWHOW: INŻYNIERIA GILDII
+  STR_MERCS_ENG_KNOWHOW: INŻYNIERIA NAJEMNIKÓW
+  STR_MUTANT_ABILITIES: Nasze zdolności
+  STR_MUTANT_ORIGINS: Pochodzenie mutantów
+  STR_MUTANT_PHYSIOLOGY: Badania kontrolne
+  STR_BRAINER_ORIGINS: Geneza Rozkminiaczek
+  STR_SPACE_SURVIVAL: "Przetrwanie w Kosmosie"
+  STR_MEDICINE: Medycyna
+  STR_ADVANCED_MEDICINE: Medycyna zaawansowana
+  STR_PHARMACOLOGY: Farmakologia
+  STR_COMBAT_DRUGS_MANUFACTURING: Produkcja narkotyków bojowych
+  STR_TRANQUILIZERS: Zaawansowane Środki Uspokajające
+  STR_SLAYER_BULLETS: Naboje rezuńskie
+  STR_PLASTASTEEL_MUNITIONS: Amunicja plastalowa
+  STR_AQUA_AMMO: Pociski 'Aqua'
+  STR_EP_MUNITIONS: Amunicja elektroimpulsowa
+  STR_MAG_MUNITIONS: Amunicja MAG
+  STR_ELERIUM_EXPLOSIVES: Detonacja piekłonium
+  STR_NUCLEAR_MUNITIONS: Amunicja piekłońska
+  STR_FUSION_EXPLOSIVES: Detonacja fuzyjna
+  STR_ATOM_POWER: Potęga atomu
+  STR_ELECTRICS: Bronie zelektryfikowane
+  STR_FORCEFIELDS: Pola siłowe
+  STR_STARGOD_SHIELDS: Tarcze Gwiezdnych Bogów
+  STR_SUBSPACE: Podprzestrzeń
+  STR_GRAVITY_PHYSICS: Grawitystyka
+  STR_LIQUID_METALS: Ciekłe Metale
+  STR_TRACTORS_AND_REPULSORS: Ściągacze i odpychacze
+  STR_PHASE_SHIELD: Tarcza fazowa
+  STR_NEURAL_SCANNER: Skaner neuralny
+  STR_SENSOSPHERE: Sensosfera
+  STR_RETEGES: Reteges
+  STR_GAUSS_UNLOCK: Odblokowanie broni Gaussa
+  STR_PSI_UNLOCK: Odblokowanie broni Gwiezdnego Imperium
+  STR_POWER_SOURCE_TWEAKING: Napęd cząsteczkowy
+  STR_MINI_POWER_SOURCE: Piekłońskie baterie
+  STR_FIGHTER_CONSTRUCTION: Usprawniona Konstrukcja Myśliwców
+  STR_SELF_REPAIRING_HULL: Kadłub samoregenerujący
+  STR_OPTRONICS: Układy optroniczne
+  STR_DATA_ENCRYPTION: "Kody bogów"
+  STR_PBA_TRAINING: Kurs obsługi maszynerii
+  STR_EXOSUITS: Egzokombinezony
+  STR_CYBERNETIC_INTERFACE: Interfejs cybernetyczny
+  STR_MIND_MACHINE_INTERFACE: Interfejs mistyczny
+  STR_SMART_WEAPONS: Broń inteligentna
+  STR_HYPERWAVES: Hiperfale
+  STR_HEAVY_CONSTRUCTION: Konstrukcja w Przemyśle Ciężkim
+  STR_HABITATION_ADVANCE: Zaawansowane Siedliska
+  STR_RETICULAN_GENETICS: Genetyka Retikulan
+  STR_RETICULAN_POWER_SYSTEMS: Systemy Energetyczne Retikulian
+  STR_RETICULAN_HIVE: Rój Retikulian
+  STR_GLADIATOR_TRAINING: "Trening Gladiatorów"
+  STR_WAT_DO: "Zrób naradę"
+  STR_PARTY: "Zrób imprezę"
+  STR_PIRATE_LIFE: "My piratki"
+  STR_KULTUR: "Nasza kultura"
+  STR_JACKSTOWN: "Yacentowo"
+  STR_JACKSTOWN_SCOUTING: "Odwiedź pobliskie miasteczko"
+  STR_INSPECT_MACHINERY: "Obejrzyj maszynerię"
+  STR_CONTACT_BLACK_MARKET: "Kontakt: czarny rynek"
+  STR_CONTACT_MUTANT_ALLIANCE: "*Sojusz Mutantów*"
+  STR_CONTACT_GENERAL_SUPPLIES: "Kontakt: handlarze"
+  STR_CONTACT_CAR_THIEVES: "Kontakt: złodzieje samochodów"
+  STR_CONTACT_BUILDERS: "Kontakt: cech budowniczych"
+  STR_WORKER: "POMOCNIK"
+  STR_CONTACT_SHIP_JUNKYARD: "Kontakt: Złomowisko"
+  STR_CONTACT_KRAZY_HANNA: "Kontakt: Walnięta Hanka"
+  STR_CONTACT_GUN_EMPORIUM: "Kontakt: Galeria Prochowa"
+  STR_CONTACT_DEALERS: "Kontakt: autoryzowani dilerzy"
+  STR_CONTACT_SMUGGLERS: "Kontakt: przemytnicy"
+  STR_CONTACT_MERCENARIES: "Kontakt: najemnicy"
+  STR_CONTACT_EUROSYNDICATE: "Kontakt: Eurosyndykat"
+  STR_MISSION_EUROSYNDICATE_DEAL: "*Kontrakt z Eurosyndykatem*"
+  STR_MISSION_EUROSYNDICATE_DEAL_END: "*Renegocjacja kontraktu z Eurosyndykatem*"
+  STR_CONTACT_FUSO: "Kontakt: Fuso"
+  STR_CONTACT_RETICULANS: "Kontakt: Retykulanie"
+  STR_SOLDIER_SPECTRE: "Cień"
+  STR_EXPEDITIONS: Ekspedycje
+  STR_VIP_KIDNAPPING: "Porywanie VIP'ów"
+  STR_ZERO_ZERO: "Zero Tolerancji dla Zera Tolerancji"
+  STR_RETICULAN_AND_HUMAN_TECH: "Integrowanie Retikuliańskiej i Ziemskiej Technologii"
+  STR_HUMAN_RETICULAN_ALLIANCE: "*Kooperacja Ziemsko-Reticuliańska*"
+  STR_CYBERDISC_CORPSE: Wrak cyberdysku
+  STR_SECTOPOD_CORPSE: Wrak sektopoda
+  SECTOPOD_ARMOR_2: Kadłub sektopoda
+  STR_SECURITY_CORPSE: Akwaplastyk
+  STR_SCRAP_METAL: Złom
+  STR_LIBRARY: "Biblioteka"
+  STR_FACTORY: "Fabryka"
+  STR_JAIL: Cele więzienne
+  STR_GAUSS_DEFENSE: "Obrona Gaussa"
+  STR_BOW_UFOPEDIA: "To ŁUK. Stworzony do walki. Nie da się prościej, kolego."
+  STR_BOW_NEON_UFOPEDIA: "Skąd bierze się tą neonowe światło? Z przyszłości, skarbie."
+  STR_TESLA_COIL_UFOPEDIA: "Smaży twych wrogów z pomocą potężnych elektrycznych wyładowań, czyż to nie wspaniałe? Jeśli nie zdechną od masywnych obrażeń, to z pewnością padną na glebę w ostateczności. Właściwie nie wymaga celowania, ale maksymalny zasięg jest bardzo ograniczony."
+  STR_OLD_PISTOL_2_UFOPEDIA: "Wyczyszczony i przywrócony do dawnej chwały. Zwiększona celność, zwłaszcza na większych dystansach."
+  STR_PEACEMAKER_UFOPEDIA: "Doskonale wytworzony rewolwer, który tylko nieustraszony strzelec może wykorzystać w pełni jego możliwości."
+  STR_PISTOL_LT_UFOPEDIA: "Włóż do swojej kieszeni. W ostateczności, rozpryskaj swój mózg na ścianie, choć może to wymagać kilku strzałów."
+  STR_BLACK_ADDER_UFOPEDIA: "Najszybszy pistolet ze wszystkich, Również najwygodniejszy w walce wręcz. Używa tych samych magazynków co Podręczny Pistolet."
+  STR_REVOLVER_LT_UFOPEDIA: "Strzela zaskakująco dużymi pociskami, jak na taki drobiażdżek. To wciąż oznacza, że te pociski są tylko trochę mniej ...tycie."
+  STR_PISTOL_SILENCED_UFOPEDIA: "Mały pistolecik z wielką metalową tubą przykręconą do lufy. Podobno pozwala użytkownikowi na wykorzystanie zaskoczenia i podstępu w celu szybkiej i cichej eksterminacji. Refleks jest kluczem do ich wykorzystania."
+  STR_HEAVY_PISTOL_UFOPEDIA: "Plotka głosi, że Konfederaci używają tych pistoletów do zabijania niedźwiedzi. Kanadyjczycy zwracają uwagę na to, że prawdziwy dżentelmen preferuje karabin z celownikiem optycznym. Oraz odpowiada tylko przed rodziną królewską, a nie zarządem najbogatszych właścicieli niewolników. "
+  STR_FLINTLOCK_MUSKET_B_UFOPEDIA: "Wstawienie solidnego bagnetu na Muszkiecie drastycznie poprawia wydajność broni."
+  STR_CLOCKWORK_GUN_UFOPEDIA: "Drogi i szalenie zawiły, ale dostarcza standardowe kule czarnoprochowców szybciej niż cokolwiek innego."
+  STR_IGUN_UFOPEDIA: "Znana także jako 'Kurrr-Bateria-Padła-W-Pistolecie', strzela tylko w trybie dwustrzału, a jej 'modna' bateria trzyma  7 strzałów. Łatwo dostępna na rynkach zbytu Gildii Handlowców, jednak jej cena nie jest niska. Jest także dość ciężka, ale jej plazmowe pociski są dość niszczycielskie."
+  STR_SAWED_OFF_UFOPEDIA: "Chcesz stanąć twarzą w twarz ze śrutem? Nie? Więc z pewnością znasz kogoś, kto chce."
+  STR_MINI_SHOTGUN_UFOPEDIA: "Zminiaturyzowana, lecz dość skuteczna strzelba, całkiem użyteczna w czasie misji Infiltracyjnych. "
+  STR_SHOTGUN_LT_UFOPEDIA: "'Tania' to słowo kluczowe. Ten kawał złomu jest dość kompaktowy, ale nie może używać wzmocnionej amunicji. Wymierzone strzały nie imponują. "
+  STR_SHOTGUN_ADV_UFOPEDIA: "Odpicowana wersja Wojskowej Strzelby."
+  STR_COMBAT_SHOTGUN_B_UFOPEDIA: "Istnieje pewna opowiastka o knypku z północno-zachodniego Blackmarch, który odparł cały Pogrom zorganizowany przez Humanistów używając nic więcej niż broni jak ta. Używa standardowej amunicji Bojowego Shotguna i jest wyposażona w kujący instrument."
+  STR_STREET_SWEEPER_UFOPEDIA: "Jak nazwa wskazuje, świetnie spisuje się, gdy musisz coś, lub kogoś sprzątnąć. Używa naboi do Bojowego Shotguna, ale jest celniejszy."
+  STR_RIFLE_AK_UFOPEDIA: "Stary jak świat, tani jak barszcz i możesz go zanurzyć w barszczu, wyjąć i nadal będzie działać. Mniej celny, lecz lżejszy i z większym magazynkiem niż współczesne karabiny."
+  STR_SHOOTA_MK3_UFOPEDIA: "'Nigdy nie można mieć za dużo dakka'{NEWLINE} - Mun Tzu"
+  STR_HSMG_UFOPEDIA: "Rozpyl i zmów paciorek, załaduj powietrze ołowiem i ewentualnie coś trafisz. Ta prosta broń posiada pojemny magazynek i wytrzymały, choć nieprecyzyjny, mechanizm."
+  STR_MP40_UFOPEDIA: "Rozpylacz, tylko lepszy. Cały wysmarowany. Używa tych samych magazynków."
+  STR_HSR_UFOPEDIA: "Pyton, ponieważ kąsa. Jak wąż. Cóż, on właściwie dusi swoje ofiary, ale nie ma co się denerwować takimi szczegółami, racja?"
+  STR_SUPERHEAVY_RIFLE_UFOPEDIA: "Ponad 60 kilo wagi i odrzut, który mógłby powalić konia, tej broni nie poleca się amatorom."
+  STR_HMG_UFOPEDIA: "CKM wypluwa dewastujący grad kul, ale jest zbyt ciężki dla zwykłego człowieka - choć taka waga zapewnia stabilność podczas ognia automatycznego.{NEWLINE}Celność x2 podczas kucania."
+  STR_MINIGUN_UFOPEDIA: "Stąpaj powoli i dzierż wielką broń. Albo jakkolwiek to powiedzenie brzmiało. To obrotowe działo wręcz 'rzyga' gradem pocisków. Trafienia powodują niewielkie uszkodzenia pancerza, jeśli go nie spenetrują."
+  STR_MINIGUN_2_UFOPEDIA: "Jeśli kilka serii wystrzelonych z tego ciężkiego miniguna nie jest wystarczające by oczyścić farmę, to ja nie wiem co może. Uszkadza pancerz."
+  STR_CENTER_ON_SITE_TIME_5_SECONDS: "WYŚRODKUJ-CZAS=5 Sek"
+  REAPER_ARMOR_M: "Oględziny zmutowanego żeńca"
+  REAPER_CAVALRY_ARMOR: "Oględziny jeźdźca żennego"
+  SHAMBLER_ARMOR: "Oględziny łaziska"
+  ZOMBIE_ARMOR: "Oględziny zombiaka krysalidzkiego"
+  REAPER_ARMOR_M_UFOPEDIA: "Oględziny zmutowanego żeńca. NW: 16."
+  REAPER_CAVALRY_ARMOR_UFOPEDIA: "Oględziny jeźdźca żennego. NW: 16."
+  ZOMBIE_ARMOR_UFOPEDIA: "Oględziny zombiaka krysalidzkiego. NW: 20."
+  STR_ALIEN_HARVEST: "Pilnowanie porządku"
+  STR_ALIEN_ABDUCTION: "Pacyfikacja"
+  STR_ALIEN_ABDUCTION_PIR: "Porywanie ludzi"
+  STR_ALIEN_INFILTRATION: "Luksusowa przejażdżka"
+  STR_ALIEN_BASE: "Tajna baza"
+  STR_ALIEN_TERROR: "Pogrom mutantów"
+  STR_MISSION_HARASSMENT: "Grabież"
+  STR_ALIEN_RETALIATION: "Obława"
+  STR_ALIEN_RETALIATION_S: "Obława"
+  STR_ALIEN_RETALIATION_M: "Obława"
+  STR_ALIEN_RETALIATION_L: "Obława"
+  STR_ALIEN_RETALIATION_C: "Obława"
+  STR_CRACKDOWN_LESSER: "Obława"
+  STR_ALIEN_SUPPLY: "Zaopatrzenie bazy"
+  STR_MUTANT_POGROM_DISTRESS: "Pogrom mutantów"
+  STR_MUTANT_POGROM_DISTRESS_NO_PENALTY: "Pogrom mutantów"
+  STR_MISSION_CIVILIAN_TRAFFIC_1: Cywilny Ruch Powietrzny
+  STR_MISSION_CIVILIAN_TRAFFIC_2: Cywilny Ruch Powietrzny
+  STR_MISSION_CIVILIAN_TRAFFIC_3: Cywilny Ruch Powietrzny
+  STR_MISSION_CIVILIAN_TRAFFIC_4: Cywilny Ruch Powietrzny
+  STR_MISSION_CIVILIAN_TRAFFIC_5: Cywilny Ruch Powietrzny
+  STR_NEWSPAPER_006: "Żeńce znów atakują"
+  STR_GODS_E1: "Złoty Imperator"
+  STR_GODS_E4: "Czarna Strażniczka"
+  STR_GODS_E5: "Niszczyciel"
+  STR_GODS_E6: "Królowa Węży"
+  STR_GODS_E7: "Pan Rozstajów"
+  STR_GODS_E8: "Pani Dziewięciu Księżyców"
+  STR_VIP_001: "Yulia"
+  STR_GDX_003: "W poszukiwaniu dr X"
+  STR_GDX_004: "!Kryjówka dr X!"
+  STR_GDX_005: "Baza danych dr X"
+  STR_LFS_001: "Dziwny przekaz (1)"
+  STR_LFS_002: "Dziwny przekaz (2)"
+  STR_LFS_003: "Dziwny przekaz (3)"
+  STR_PINUP_001: "#001"
+  STR_PINUP_002: "#002"
+  STR_PINUP_003: "#003"
+  STR_PINUP_004: "#004"
+  STR_PINUP_005: "#005"
+  STR_PINUP_006: "#006"
+  STR_PINUP_007: "#007"
+  STR_PINUP_008: "#008"
+  STR_PINUP_009: "#009"
+  STR_PINUP_010: "#010"
+  STR_PINUP_011: "#011"
+  STR_PINUP_012: "#012"
+  STR_PINUP_013: "#013"
+  STR_PINUP_014: "#014"
+  STR_PINUP_015: "#015"
+  STR_PINUP_016: "#016"
+  STR_PINUP_017: "#017"
+  STR_PINUP_018: "#018"
+  STR_PINUP_019: "#019"
+  STR_PINUP_020: "#020"
+  STR_PINUP_021: "#021"
+  STR_PINUP_022: "#022"
+  STR_PINUP_023: "#023"
+  STR_PINUP_024: "#024"
+  STR_PINUP_025: "#025"
+  STR_PINUP_026: "#026"
+  STR_PINUP_027: "#027"
+  STR_PINUP_028: "#028"
+  STR_PINUP_029: "#029"
+  STR_PINUP_030: "#030"
+  STR_PINUP_031: "#031"
+  STR_AVALANCHE_MISSILES_XXX: "Rakiety 'Lawina"
+  STR_STINGRAY_MISSILES_XXX: "Rakiety Odyniec"
+  STR_RAYGUN_CLIP_XXX: "Bateria do promiennika (6x10)"
+  STR_NITRO_EXPRESS_CLIP_XXX: "Ładunki do żeńcówki (3x10)"
+  STR_PIR_CANNONBALL_XXX: "Kule armatnie (x5)"
+  STR_PIR_CANNONBALL_INC_XXX: "Pirotechniczne kule armatnie (x5)"
+  STR_ZOMBIE_STERILE_CORPSE_EXTRACTION: "O. zwłoki zombiaka (1)"
+  STR_ZOMBIE_STERILE_TERRORIST_EXTRACTION: "Z. zombiaka (2)"
+  STR_ZOMBIE_GRUBAS_TERRORIST_EXTRACTION: "Z. grubego zombiaka (5)"
+  STR_ZOMBIE_PIMP_TERRORIST_EXTRACTION: "Z. zakręconego zombiaka (4)"
+  STR_REAPER_MEAL: "Smażone flaki żeńcowe"
+  STR_WAY_POINT: "PUNKT NAWIGACYJNY"
+  STR_ARE_YOU_SURE_CYDONIA: "Czy jesteś pewna, że chcesz wysłać ten statek na misję do Cydonii?"
+  STR_MISSION_COMPLETE_RETURNING_TO_BASE: "MISJA UKOŃCZONA - POWRÓT DO BAZY"

@@ -16,9 +16,9 @@
   let searchDelayHandle = null;
   let seeSide = true;
   let hugeFont = false;
+  let allowHugeFont = false;
   let showDropdown = false;
   let showLanguagesDropdown = false;
-  let allowHugeFont = false;
 
 
   let isTouch = 'ontouchstart' in window;
@@ -113,7 +113,7 @@
 
   $: {
     console.info(article || "no article");
-    document.documentElement.style.fontSize = hugeFont ? "24pt" : "12pt";
+    //document.documentElement.style.fontSize = hugeFont ? "24pt" : "12pt";
   }
 
   let sortArticles = false;

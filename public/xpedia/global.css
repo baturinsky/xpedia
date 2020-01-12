@@ -387,6 +387,7 @@ button {
   top: 0;
   left: 0;
   height: 3rem;
+  max-height: 3rem;
   min-width: 100%;
   position: fixed;
   align-items: stretch;
@@ -680,7 +681,7 @@ ol {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .on-wide{
     display: none;
   }
@@ -689,8 +690,9 @@ ol {
     max-width: 5rem;
   }
 
-  .navbar-current-article{
-    overflow-y: hidden;
-    text-align: center;
+  a.navbar-current-article{
+    white-space: normal;
+    font-size: 70%;
+    padding: 0;
   }  
 }

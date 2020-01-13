@@ -692,7 +692,10 @@ ol {
 
   a.navbar-current-article{
     white-space: normal;
-    font-size: 70%;
     padding: 0;
   }  
+
+  html {
+    font-size:70%;
+  }
 }

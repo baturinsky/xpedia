@@ -166,7 +166,7 @@
       class="navbar-dropdown-container"
       on:mouseover={e => dropdown(true)}
       on:mouseout={e => dropdown(false)}>
-      <div class="navbar-button" on:click={e => dropdown()}>
+      <div class="navbar-button" on:mousedown={e => dropdown()}>
         <img src="xpedia/favicon.png" alt="XPedia" class="xpedia-icon" />
         <nobr>
           <span class="on-wide">{rul.str('BootyPedia')}&nbsp;</span>

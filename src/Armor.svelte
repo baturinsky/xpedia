@@ -67,7 +67,7 @@
                   <div class="armor-variant">{body}</div>
                 {/if}
                 {#each armor.dollSprites[body] as url, j}
-                  <img src={url} alt={body} class="armor-layer" />
+                  <img src={url} alt={body} onerror="this.onerror=null; this.src='xpedia/0.jpg'" class="armor-layer" />
                 {/each}
               </div>
             {/if}

@@ -29,5 +29,5 @@
 </style>
 
 <figure class="smrt">
-  <img on:load={e => loaded(e.target)} {src} alt="X" />
+  <img on:load={e => loaded(e.target)} {src} alt="X" onerror="this.onerror=null; this.src='xpedia/0.jpg'"/>
 </figure>

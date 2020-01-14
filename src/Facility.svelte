@@ -69,6 +69,7 @@
                 {#each { length: size } as _, x}
                   <img
                     class="sprite"
+                    onerror="this.onerror=null; this.src='xpedia/0.jpg'"
                     alt="X"
                     src={rul.specialSprite('baseSprite', prop * 1 + x * size + y)} />
                 {/each}

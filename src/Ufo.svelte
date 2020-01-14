@@ -18,7 +18,7 @@
         <td class="padding-right">{@html rul.decamelize(key)}</td>
         <td>
           {#if ['modSprite'].includes(key)}
-            <img class="sprite" alt='X' src={rul.sprite(prop)}/>
+            <img class="sprite" alt='X' src={rul.sprite(prop)} onerror="this.onerror=null; this.src='xpedia/0.jpg'"/>
           {:else if key == "raceBonus"}
             <table class="number-table">
             {#each Object.keys(prop).sort() as field, i}

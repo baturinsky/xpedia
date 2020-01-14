@@ -3,7 +3,7 @@
 
   export let id;
   export let left = false;
-  export let maxWidth = window.innerWidth>1400?640:320;
+  export let maxWidth = window.innerWidth > 1400 ? 640 : 320;
   export let maxZoom = 4;
   export let style = "";
 
@@ -17,6 +17,12 @@
     img.height = img.naturalHeight * zoom;
   }
 
+  function noimage(img) {
+    img.onerror = null;
+    img.src = "xpedia/0.png";
+    img.style.border = "none";
+  }
+
   console.log(id);
 </script>
 
@@ -27,6 +33,7 @@
         class="pedia-image"
         style={style + (left ? 'float:left' : '')}
         on:load={e => loaded(e.target)}
+        on:error={e => noimage(e.target)}
         alt={id || ''}
         src={rul.sprite(id)} />
     </a>

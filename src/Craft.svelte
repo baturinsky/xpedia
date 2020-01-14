@@ -29,6 +29,7 @@
           {:else if ['sprite'].includes(key)}
             <img
               class="sprite"
+              onerror="this.onerror=null; this.src='xpedia/0.jpg'"
               alt="X"
               src={rul.specialSprite('baseSprite', prop * 1 + 33)} />
           {:else if ['requiresBaseFunc'].includes(key)}

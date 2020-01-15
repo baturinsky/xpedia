@@ -773,8 +773,8 @@ export default class Ruleset {
         } else {
           let old = this.raw[key];
           let adding = file[key];
-          if (old.concat) {
-            this.raw[key] = old.concat(adding);
+          if (adding.concat) {
+            this.raw[key] = adding.concat(old);
           } else {
             for (let k of adding) {
               if (k in old) Object.assign(old[k], adding[k]);

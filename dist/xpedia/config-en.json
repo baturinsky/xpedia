@@ -4,6 +4,9 @@
   "mod_name": "Piratez",
   "backup_language": "en-US",
   "run": false,
+  "extra_language_yaml": ["xpedia/lang/default.yml"],
+  "extra_rul": ["xpedia/lang/xpedia.rul"],
+  "extra_text": {"Ruleset Reference Text":"xpedia/lang/Ruleset Reference.html"},
 
   "languages": [
     {

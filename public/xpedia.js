@@ -14,12 +14,18 @@ function makeFiles(config) {
     Object.assign(config1, config);
     delete config1.languages;
     Object.assign(config1, lang);
+
     config1.extra_language_yaml = (config.extra_language_yaml || []).concat(
       lang.extra_language_yaml || []
     );
-    config1.extra_texts = {};
-    Object.assign(config1.extra_texts, config.extra_texts);
-    Object.assign(config1.extra_texts, lang.extra_texts);
+
+    config1.extra_rul = (config.extra_rul || []).concat(
+      lang.extra_rul || []
+    );
+    
+    config1.extra_text = {};
+    Object.assign(config1.extra_text, config.extra_text);
+    Object.assign(config1.extra_text, lang.extra_text);
 
     console.log(JSON.stringify(config1));
 
@@ -95,6 +101,10 @@ function makePlainText(config) {
     all.push([f, fs.readFileSync(f)]);
   }
 
+  for (let f of config.extra_rul) {
+    all.push([f, fs.readFileSync(f)]);
+  }
+
   let lang = [];
   lang.push("langv-" + fs.readFileSync(vanilla_language_path));
 
@@ -112,8 +122,8 @@ function makePlainText(config) {
   if(config.json)
     all = all.map(([filename, text]) => ["JSON@" + filename, jsonify(text, filename)]);  
 
-  for (let i in config.extra_texts) {
-    all.push([`TEXT@${i}`, fs.readFileSync(config.extra_texts[i])]);
+  for (let i in config.extra_text) {
+    all.push([`TEXT@${i}`, fs.readFileSync(config.extra_text[i])]);
   }
 
   all.push(["JSON@xpedia", configJSON]);

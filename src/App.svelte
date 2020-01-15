@@ -34,19 +34,21 @@
     window.location.hash = "#" + id;
   }
 
-  function checkHash() {
+  function checkHash() {    
     showDropdown = showLanguagesDropdown = false;
     let hash = decodeURI(document.location.hash);
-    if (hash == "#MAIN") {
+    if(hash.substr(0,2) != "##")
+      return;
+    id = hash.substr(2);
+
+    if (id == "MAIN") {
       query = "";
     }
-    if (hash) {
-      let dd = hash.indexOf("::");
+    if (id) {
+      let dd = id.indexOf("::");
       if (dd != -1) {
-        id = hash.substr(1, dd - 1);
-        query = hash.substr(dd + 2);
-      } else {
-        id = hash.substr(1);
+        id = id.substr(0, dd - 1);
+        query = id.substr(dd + 2);
       }
 
       if (id == "SEARCH") {
@@ -205,17 +207,17 @@
         style={showDropdown ? 'visibility:visible' : 'visibility:hidden'}>
         <div class="flex-horisontal" style="flex-wrap:nowrap">
           <div class="navbar-auto navbar-list">
-            <a href="#MAIN" style="text-decoration:underline;">
+            <a href="##MAIN" style="text-decoration:underline;">
               {rul.str('HOME')}
             </a>
             <div style="height:0.5em;" />
             {#each rul.typeSectionsOrder as section, i}
-              <a href={'#' + section.id}>{section.title}</a>
+              <a href={'##' + section.id}>{section.title}</a>
             {/each}
           </div>
           <div class="navbar-custom navbar-list">
             {#each rul.sectionsOrder as section, i}
-              <a href={'#' + section.id}>{section.title}</a>
+              <a href={'##' + section.id}>{section.title}</a>
             {/each}
           </div>
         </div>
@@ -225,7 +227,7 @@
 
     <a
       class="navbar-button navbar-current-article"
-      href={'#' + (currentSection ? currentSection.id : 'MAIN')}>
+      href={'##' + (currentSection ? currentSection.id : 'MAIN')}>
       {currentSection ? currentSection.title : ''}
     </a>
 
@@ -286,7 +288,7 @@
             {#each sortedArticles(section.articles) as option}
               {#if article && article.id == option.id}
                 <a
-                  href={'#' + option.id}
+                  href={'##' + option.id}
                   bind:this={activeOption}
                   class="active-article-option side-link">
                   {option.title}
@@ -294,16 +296,12 @@
               {:else}
                 <a
                   class="side-link"
-                  href={'#' + option.id}
+                  href={'##' + option.id}
                   on:click={() => (ignoreNextAutoscroll = true)}>
                   {option.title}
                 </a>
               {/if}
             {/each}
-            <br />
-            <br />
-            <br />
-            &nbsp;
           </div>
         {/if}
       {/each}

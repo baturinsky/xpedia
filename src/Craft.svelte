@@ -2,6 +2,7 @@
   import { rul } from "./Ruleset";
   import BaseServiceList from "./BaseServiceList.svelte";
   import { Link, Intro, LinksPage, Value } from "./Components";
+  import TableKey from "./TableKey.svelte"
 
   export let craft;
 
@@ -19,9 +20,7 @@
   ) as [key, prop]}
     {#if !['type', 'battlescapeTerrainData', 'craftInventoryTile', 'deployment'].includes(key)}
       <tr>
-        <td class="padding-right">
-          {@html rul.decamelize(key)}
-        </td>
+        <TableKey key={key}/>
         <td>
           {#if ['weaponStrings'].includes(key)}
             <Value

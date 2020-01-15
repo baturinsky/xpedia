@@ -42,6 +42,9 @@
     "fuse.js": "^3.4.5",
     "js-yaml": "^3.13.1",
     "pako": "^1.0.10",
+    "postcss": "^7.0.26",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-scss": "^2.1.0",
     "yaml": "^1.7.2"
   }
 }

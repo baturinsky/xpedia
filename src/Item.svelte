@@ -6,6 +6,8 @@
   import CanvasImage from "./CanvasImage.svelte";
   import BaseServiceList from "./BaseServiceList.svelte";
   import Value from "./Value.svelte";
+  import AlterList from "./AlterList.svelte"
+  import TableKey from "./TableKey.svelte"
 
   export let item;
   export let title = rul.str("Item");
@@ -47,8 +49,8 @@
   }
 </style>
 
-<tr>
-  <td colspan="2" class="table-header">{title}</td>
+<tr class="table-header">
+  <td colspan="2">{title}</td>
 </tr>
 {#if (item.sprite && item.sprite != 'Resources/Blanks/Blank.png') || attacks.length > 0}
   <tr>
@@ -96,22 +98,28 @@
                   </td>
                   <td>
                     <nobr>
-                      <bigger>
-                        <em>{attack.accuracy}</em>{"%"}
-                      </bigger>
+                      <span>
+                        <em class="big-number">{attack.accuracy}</em>
+                        {'%'}
+                      </span>
+
+                      <span>
+                        {#if attack.range}
+                          {@html rul
+                            .str('at N m')
+                            .replace('N', `<em>${attack.range}</em>`)}
+                        {/if}
+                      </span>
+
                       <div>
-                      <SpecialBonus bonus={attack.accuracyMultiplier} />
+                        <SpecialBonus bonus={attack.accuracyMultiplier} />
                       </div>
-                      {#if attack.range}
-                        {@html rul
-                          .str('at N m')
-                          .replace('N', `<em>${attack.range}</em>`)}
-                      {/if}
                     </nobr>
                   </td>
                   <td>
                     <nobr>
-                      <em>{attack.cost.time}</em>{attack.flatTime ? '' : '%'}
+                      <em>{attack.cost.time}</em>
+                      {attack.flatTime ? '' : '%'}
                       <small>{rul.str('TU')}</small>
                     </nobr>
                     {#each Object.keys(attack.cost) as res}
@@ -143,22 +151,14 @@
                   {/if}
                 </td>
               </tr>
-            {/each}
-            <tr>
-              {#if item.damageAlter}
-                <td colspan="4" style="columns: 2;">
-                  <small>
-                    {#each Object.keys(item.damageAlter).sort() as field, i}
-                      <nobr>
-                        {rul.str(field)}:
-                        <Value val={item.damageAlter[field]} />
-                      </nobr>
-                      <br />
-                    {/each}
-                  </small>
-                </td>
+
+              {#if attack.mode == 'ammo' && attack.alter}
+                <AlterList items={attack.alter} />
               {/if}
-            </tr>
+            {/each}
+            {#if item.damageAlter && item.battleType != 2}
+              <AlterList items={item.damageAlter} />
+            {/if}
           </table>
         {/if}
       </div>
@@ -171,9 +171,7 @@
 ) as [key, prop]}
   {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(key)}
     <tr>
-      <td>
-        {@html rul.decamelize(key)}
-      </td>
+      <TableKey key={key}/>
       <td class="right-column">
         {#if ['requiresBuyBaseFunc'].includes(key)}
           <BaseServiceList items={prop} vertical={true} />
@@ -195,7 +193,7 @@
         {:else if ['damageType', 'meleeType'].includes(key)}
           {rul.damageTypeName(prop)}
         {:else if key == 'battleType'}
-          {prop}: {rul.battleTypes[prop]}
+          {prop}: {rul.str(rul.battleTypes[prop])}
         {:else if key.includes('Sound')}
           {#each soundsFrom(prop) as sound, i}
             {@html i > 0 ? '<br/>' : ''}

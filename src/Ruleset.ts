@@ -335,6 +335,10 @@ export class Attack {
       (mode == "melee" && item.battleType == 3) ||
       (mode == "psi" && item.battleType == 9) ||
       (mode == "throw" && [4, 5].includes(item.battleType));
+
+    if(mode == "throw" && !isDefaultAttack)
+      return null;
+
     let exists = item["accuracy" + capMode] || item["cost" + capMode] || isDefaultAttack;
 
     if (!exists) return null;

@@ -1,0 +1,8 @@
+default:
+  tip_medikitType: 
+    <ul><li> 0 = All functions</li>
+    <li> 1 = Heal only</li>
+    <li> 2 = Stimulant only</li>
+    <li> 3 = Painkiller only</li></ul>
+  tip_attraction: Represents how likely an alien is to pick up this item. Values below 5 will be ignored (by design).
+  tip_escortsJoinFightAgainstHK: Should craft escorts join the fight against HK automatically (true)? Or is only fighting one-on-one allowed (false)?

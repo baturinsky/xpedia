@@ -19,9 +19,10 @@
   let allowHugeFont = false;
   let showDropdown = false;
   let showLanguagesDropdown = false;
+  let tooltip;
 
+  let isTouch = "ontouchstart" in window;
 
-  let isTouch = 'ontouchstart' in window;
 
   async function loadRules() {
     await rul.load(source);
@@ -68,6 +69,11 @@
     } else {
       currentSection = null;
     }
+
+    if (activeOption) {
+      activeOption.scrollIntoView({ behavior: "auto", block: "center" })
+    }
+
   }
 
   function nextArticle(delta) {
@@ -103,14 +109,6 @@
 
   rulesLoaded.then(checkHash);
 
-  afterUpdate(() => {
-    if (activeOption) {
-      tick().then(() =>
-        activeOption.scrollIntoView({ behavior: "auto", block: "center" })
-      );
-    }
-  });
-
   $: {
     console.info(article || "no article");
     //document.documentElement.style.fontSize = hugeFont ? "24pt" : "12pt";
@@ -118,13 +116,12 @@
 
   let sortArticles = false;
 
-  function dropdown(val=null){
+  function dropdown(val = null) {
     console.log("drop", val);
-    if(val === null){      
-      showDropdown = !showDropdown
+    if (val === null) {
+      showDropdown = !showDropdown;
     } else {
-      if(!isTouch)
-        showDropdown = val;
+      if (!isTouch) showDropdown = val;
     }
   }
 
@@ -132,6 +129,32 @@
     sortArticles
       ? articles.slice().sort((a, b) => (a.title > b.title ? 1 : -1))
       : articles;
+
+  window.addEventListener("mousemove", async e => {
+    if (tooltip) {
+      if (e.target.attributes.tooltip) {
+        let rect = e.target.getBoundingClientRect();
+        tooltip.style.left = rect.left + rect.width/2 + "px";
+        tooltip.style.top = rect.top + "px";
+        let t = e.target.attributes.tooltip.value;
+        toggleTooltip(t in rul.lang && !e.shiftKey ? rul.lang[t]:t.substr(4));
+      } else {
+        toggleTooltip(null)
+      }
+    }
+  });
+
+  function toggleTooltip(text) {
+    tooltip.innerHTML = text;
+    let classes = tooltip.classList;
+    if (text) {
+      classes.add("visible");
+    } else {
+      classes.remove("visible");
+    }
+  }
+
+
 </script>
 
 <style>
@@ -277,11 +300,14 @@
                 </a>
               {/if}
             {/each}
-            <br/><br/><br/>&nbsp;
+            <br />
+            <br />
+            <br />
+            &nbsp;
           </div>
         {/if}
       {/each}
-      <br>
+      <br />
     </nav>
   {/if}
 
@@ -325,4 +351,6 @@
       <Intro />
     {/if}
   </div>
+
+  <div class="tooltip fadein" bind:this={tooltip}>Tooltip</div>
 {/await}

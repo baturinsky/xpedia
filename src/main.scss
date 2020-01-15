@@ -107,6 +107,7 @@ h4 {
   color: #66ffff;
   text-align: center;
   font-size: larger;
+  background-color: $lighter !important;
   padding-bottom: 0.2rem;
 }
 
@@ -167,7 +168,7 @@ input {
 }
 
 .cols {
-  columns: 12rem;
+  columns: 15rem;
   color: green;
   text-align: left;
   column-gap: 0.5rem;
@@ -361,6 +362,15 @@ button {
   padding-right: 2rem;
 }
 
+.links-page li {
+  max-width: 18rem;
+  overflow-x: hidden;
+}
+
+.links-page ol {
+  list-style-type: lower-alpha;
+}
+
 .links-page-header {
   text-align: center;
   color: #66ffff;
@@ -468,8 +478,8 @@ button {
   position: fixed;
   border-right: solid 1px $border-color;
   width: 12rem;
-  top: 3rem;
   left: 0;
+  top: 3rem;
   max-height: calc(100vh - 3rem);
   overflow-y: scroll;
   overflow-x: hidden;
@@ -500,10 +510,9 @@ button {
 .main {
   margin: 0;
   padding-right: 1em;
-  padding-top: 3rem;
   padding-left: 12.5rem;
   padding-bottom: 3rem;
-  overflow-y: scroll;
+  padding-top: 3rem;
   flex: 1;
 }
 
@@ -577,6 +586,7 @@ a.canvas-image:hover {
 ul,
 ol {
   margin-top: 0;
+  padding-inline-start: 1rem;
 }
 
 .warnings {
@@ -701,7 +711,7 @@ ol {
   visibility: visible;
   opacity: 1;
   transition: opacity 0.2s ease-in;
-  transition-delay: 1s;
+  transition-delay: 0.5s;
 }
 
 .fadein:not(.visible) {

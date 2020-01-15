@@ -31,7 +31,7 @@
   let rulesLoaded = loadRules();
 
   function goTo(id) {
-    window.location.hash = "#" + id;
+    window.location.hash = "##" + id;
   }
 
   function checkHash() {    
@@ -47,8 +47,8 @@
     if (id) {
       let dd = id.indexOf("::");
       if (dd != -1) {
-        id = id.substr(0, dd - 1);
         query = id.substr(dd + 2);
+        id = id.substr(0, dd);
       }
 
       if (id == "SEARCH") {
@@ -119,7 +119,6 @@
   let sortArticles = false;
 
   function dropdown(val = null) {
-    console.log("drop", val);
     if (val === null) {
       showDropdown = !showDropdown;
     } else {

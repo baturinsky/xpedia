@@ -13,6 +13,8 @@ function backLink(id: string, list: string[], to: any, field: string) {
   if (!list) return;
   for (let key of list) {
     let back = to[key];
+    if(!back)
+      continue;
     back[field] = back[field] || [];
     back[field].push(id);
   }
@@ -774,7 +776,7 @@ export default class Ruleset {
           let old = this.raw[key];
           let adding = file[key];
           if (adding.concat) {
-            this.raw[key] = adding.concat(old);
+            this.raw[key] = old.concat(adding);
           } else {
             for (let k of adding) {
               if (k in old) Object.assign(old[k], adding[k]);
@@ -808,11 +810,13 @@ export default class Ruleset {
       let merged = {};
       for (let data of this.raw[category]) {
         let id = data.type || data.id || data.name || data.delete;
+        if(id == "BIGOBS.PCK")
+          console.log("bigobs");
         if ("delete" in data) {
           delete merged[id];
         } else {
-          if (id && id in merged) {
-            Object.assign(merged[id], data);
+          if (id in merged) {
+            merged[id] = Object.assign(data, merged[id]);
           } else {
             merged[id] = data;
           }
@@ -985,8 +989,9 @@ export default class Ruleset {
 
   decamelize(str, separ = " ") {
     if (typeof str === "string") {
-      if (rul.lang[str]) str = rul.lang[str];
+      if (rul.lang[str]) return rul.lang[str];
       if (this.lang[fieldNames[str]]) return this.lang[fieldNames[str]];
+
       if (str.includes("_") && str.search(/[a-z]/) == -1)
         str = str.replace(/_/g, " ");
       else str = str.replace(/([^A-Z])([A-Z])/g, "$1" + separ + "$2");

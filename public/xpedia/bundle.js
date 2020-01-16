@@ -11237,7 +11237,7 @@ var app = (function () {
     const { console: console_1 } = globals;
     const file$4 = "src\\Illustration.svelte";
 
-    // (29:0) {#if id && rul.sprite(id)}
+    // (30:0) {#if id && rul.sprite(id)}
     function create_if_block$3(ctx) {
     	let div;
     	let a;
@@ -11257,10 +11257,10 @@ var app = (function () {
     			attr_dev(img, "style", img_style_value = /*style*/ ctx[2] + (/*left*/ ctx[1] ? "float:left" : ""));
     			attr_dev(img, "alt", img_alt_value = /*id*/ ctx[0] || "");
     			if (img.src !== (img_src_value = rul.sprite(/*id*/ ctx[0]))) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$4, 31, 6, 694);
+    			add_location(img, file$4, 32, 6, 707);
     			attr_dev(a, "href", a_href_value = rul.sprite(/*id*/ ctx[0]));
-    			add_location(a, file$4, 30, 4, 661);
-    			add_location(div, file$4, 29, 2, 650);
+    			add_location(a, file$4, 31, 4, 674);
+    			add_location(div, file$4, 30, 2, 663);
 
     			dispose = [
     				listen_dev(img, "load", /*load_handler*/ ctx[6], false, false, false),
@@ -11299,7 +11299,7 @@ var app = (function () {
     		block,
     		id: create_if_block$3.name,
     		type: "if",
-    		source: "(29:0) {#if id && rul.sprite(id)}",
+    		source: "(30:0) {#if id && rul.sprite(id)}",
     		ctx
     	});
 
@@ -11372,6 +11372,7 @@ var app = (function () {
     	let { style = "" } = $$props;
 
     	function loaded(img) {
+    		return;
     		console.info(img);
     		let zoom = Math.min(maxZoom, Math.max(1, Math.floor(maxWidth / img.naturalWidth)));
     		img.width = img.naturalWidth * zoom;
@@ -12507,7 +12508,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (55:0) {#if (item.sprite && item.sprite != 'Resources/Blanks/Blank.png') || attacks.length > 0}
+    // (54:0) {#if (item.sprite && item.sprite != 'Resources/Blanks/Blank.png') || attacks.length > 0}
     function create_if_block_8(ctx) {
     	let tr;
     	let td;
@@ -12538,10 +12539,10 @@ var app = (function () {
     			set_style(div, "display", "flex");
     			set_style(div, "align-items", "flex-start");
     			set_style(div, "margin", "5px 3px");
-    			add_location(div, file$9, 57, 6, 1454);
+    			add_location(div, file$9, 56, 6, 1401);
     			attr_dev(td, "colspan", "2");
-    			add_location(td, file$9, 56, 4, 1430);
-    			add_location(tr, file$9, 55, 2, 1420);
+    			add_location(td, file$9, 55, 4, 1377);
+    			add_location(tr, file$9, 54, 2, 1367);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
@@ -12601,14 +12602,14 @@ var app = (function () {
     		block,
     		id: create_if_block_8.name,
     		type: "if",
-    		source: "(55:0) {#if (item.sprite && item.sprite != 'Resources/Blanks/Blank.png') || attacks.length > 0}",
+    		source: "(54:0) {#if (item.sprite && item.sprite != 'Resources/Blanks/Blank.png') || attacks.length > 0}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (64:8) {#if attacks.length > 0}
+    // (63:8) {#if attacks.length > 0}
     function create_if_block_9(ctx) {
     	let table;
     	let thead;
@@ -12647,10 +12648,10 @@ var app = (function () {
 
     			t3 = space();
     			if (if_block1) if_block1.c();
-    			add_location(td, file$9, 71, 14, 2005);
-    			add_location(thead, file$9, 65, 12, 1783);
+    			add_location(td, file$9, 70, 14, 1952);
+    			add_location(thead, file$9, 64, 12, 1730);
     			attr_dev(table, "class", "attacks-table");
-    			add_location(table, file$9, 64, 10, 1740);
+    			add_location(table, file$9, 63, 10, 1687);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, table, anchor);
@@ -12761,14 +12762,14 @@ var app = (function () {
     		block,
     		id: create_if_block_9.name,
     		type: "if",
-    		source: "(64:8) {#if attacks.length > 0}",
+    		source: "(63:8) {#if attacks.length > 0}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (67:14) {#if item.battleType != 2}
+    // (66:14) {#if item.battleType != 2}
     function create_if_block_18(ctx) {
     	let td0;
     	let t1;
@@ -12786,9 +12787,9 @@ var app = (function () {
     			t3 = space();
     			td2 = element("td");
     			td2.textContent = `${rul.str("cost")}`;
-    			add_location(td0, file$9, 67, 16, 1850);
-    			add_location(td1, file$9, 68, 16, 1894);
-    			add_location(td2, file$9, 69, 16, 1942);
+    			add_location(td0, file$9, 66, 16, 1797);
+    			add_location(td1, file$9, 67, 16, 1841);
+    			add_location(td2, file$9, 68, 16, 1889);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, td0, anchor);
@@ -12811,14 +12812,14 @@ var app = (function () {
     		block,
     		id: create_if_block_18.name,
     		type: "if",
-    		source: "(67:14) {#if item.battleType != 2}",
+    		source: "(66:14) {#if item.battleType != 2}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (95:16) {:else}
+    // (94:16) {:else}
     function create_else_block_1(ctx) {
     	let td0;
     	let t0_value = rul.str(/*attack*/ ctx[12].name) + "";
@@ -12911,18 +12912,18 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(td0, file$9, 95, 18, 3091);
+    			add_location(td0, file$9, 94, 18, 3038);
     			attr_dev(em0, "class", "big-number");
-    			add_location(em0, file$9, 101, 24, 3317);
-    			add_location(span0, file$9, 100, 22, 3285);
-    			add_location(span1, file$9, 105, 22, 3450);
-    			add_location(div, file$9, 113, 22, 3742);
-    			add_location(nobr0, file$9, 99, 20, 3255);
-    			add_location(td1, file$9, 98, 18, 3229);
-    			add_location(em1, file$9, 120, 22, 3983);
-    			add_location(small, file$9, 122, 22, 4086);
-    			add_location(nobr1, file$9, 119, 20, 3953);
-    			add_location(td2, file$9, 118, 18, 3927);
+    			add_location(em0, file$9, 100, 24, 3264);
+    			add_location(span0, file$9, 99, 22, 3232);
+    			add_location(span1, file$9, 104, 22, 3397);
+    			add_location(div, file$9, 112, 22, 3689);
+    			add_location(nobr0, file$9, 98, 20, 3202);
+    			add_location(td1, file$9, 97, 18, 3176);
+    			add_location(em1, file$9, 119, 22, 3930);
+    			add_location(small, file$9, 121, 22, 4033);
+    			add_location(nobr1, file$9, 118, 20, 3900);
+    			add_location(td2, file$9, 117, 18, 3874);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, td0, anchor);
@@ -13050,14 +13051,14 @@ var app = (function () {
     		block,
     		id: create_else_block_1.name,
     		type: "else",
-    		source: "(95:16) {:else}",
+    		source: "(94:16) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (76:16) {#if attack.mode == 'ammo'}
+    // (75:16) {#if attack.mode == 'ammo'}
     function create_if_block_14(ctx) {
     	let if_block_anchor;
     	let current;
@@ -13113,14 +13114,14 @@ var app = (function () {
     		block,
     		id: create_if_block_14.name,
     		type: "if",
-    		source: "(76:16) {#if attack.mode == 'ammo'}",
+    		source: "(75:16) {#if attack.mode == 'ammo'}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (107:24) {#if attack.range}
+    // (106:24) {#if attack.range}
     function create_if_block_17(ctx) {
     	let html_tag;
     	let raw_value = rul.str("at N m").replace("N", `<em>${/*attack*/ ctx[12].range}</em>`) + "";
@@ -13144,14 +13145,14 @@ var app = (function () {
     		block,
     		id: create_if_block_17.name,
     		type: "if",
-    		source: "(107:24) {#if attack.range}",
+    		source: "(106:24) {#if attack.range}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (126:22) {#if res != 'time' && attack.cost[res] != 0}
+    // (125:22) {#if res != 'time' && attack.cost[res] != 0}
     function create_if_block_16(ctx) {
     	let br;
     	let t0;
@@ -13180,9 +13181,9 @@ var app = (function () {
     			small = element("small");
     			t2 = text(t2_value);
     			t3 = space();
-    			add_location(br, file$9, 126, 24, 4300);
-    			add_location(small, file$9, 129, 26, 4426);
-    			add_location(nobr, file$9, 127, 24, 4332);
+    			add_location(br, file$9, 125, 24, 4247);
+    			add_location(small, file$9, 128, 26, 4373);
+    			add_location(nobr, file$9, 126, 24, 4279);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br, anchor);
@@ -13222,14 +13223,14 @@ var app = (function () {
     		block,
     		id: create_if_block_16.name,
     		type: "if",
-    		source: "(126:22) {#if res != 'time' && attack.cost[res] != 0}",
+    		source: "(125:22) {#if res != 'time' && attack.cost[res] != 0}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (125:20) {#each Object.keys(attack.cost) as res}
+    // (124:20) {#each Object.keys(attack.cost) as res}
     function create_each_block_4(ctx) {
     	let if_block_anchor;
     	let current;
@@ -13285,14 +13286,14 @@ var app = (function () {
     		block,
     		id: create_each_block_4.name,
     		type: "each",
-    		source: "(125:20) {#each Object.keys(attack.cost) as res}",
+    		source: "(124:20) {#each Object.keys(attack.cost) as res}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (77:18) {#if item.battleType != 2}
+    // (76:18) {#if item.battleType != 2}
     function create_if_block_15(ctx) {
     	let td0;
     	let t0;
@@ -13348,11 +13349,11 @@ var app = (function () {
     			t8 = text(": ");
     			t9 = text(t9_value);
     			attr_dev(td0, "class", "ammo-img svelte-1lgzdls");
-    			add_location(td0, file$9, 77, 20, 2227);
-    			add_location(br, file$9, 87, 22, 2793);
-    			add_location(small, file$9, 88, 22, 2823);
+    			add_location(td0, file$9, 76, 20, 2174);
+    			add_location(br, file$9, 86, 22, 2740);
+    			add_location(small, file$9, 87, 22, 2770);
     			attr_dev(td1, "colspan", "2");
-    			add_location(td1, file$9, 85, 20, 2697);
+    			add_location(td1, file$9, 84, 20, 2644);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, td0, anchor);
@@ -13409,14 +13410,14 @@ var app = (function () {
     		block,
     		id: create_if_block_15.name,
     		type: "if",
-    		source: "(77:18) {#if item.battleType != 2}",
+    		source: "(76:18) {#if item.battleType != 2}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (137:18) {#if 'damage' in attack || 'damageType' in attack}
+    // (136:18) {#if 'damage' in attack || 'damageType' in attack}
     function create_if_block_12(ctx) {
     	let nobr;
 
@@ -13480,10 +13481,10 @@ var app = (function () {
     			t9 = space();
     			if (if_block) if_block.c();
     			if_block_anchor = empty();
-    			add_location(em, file$9, 139, 22, 4815);
-    			add_location(small, file$9, 140, 22, 4868);
-    			add_location(nobr, file$9, 137, 20, 4708);
-    			add_location(br, file$9, 146, 20, 5191);
+    			add_location(em, file$9, 138, 22, 4762);
+    			add_location(small, file$9, 139, 22, 4815);
+    			add_location(nobr, file$9, 136, 20, 4655);
+    			add_location(br, file$9, 145, 20, 5138);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, nobr, anchor);
@@ -13569,14 +13570,14 @@ var app = (function () {
     		block,
     		id: create_if_block_12.name,
     		type: "if",
-    		source: "(137:18) {#if 'damage' in attack || 'damageType' in attack}",
+    		source: "(136:18) {#if 'damage' in attack || 'damageType' in attack}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (148:20) {#if attack.damageType}
+    // (147:20) {#if attack.damageType}
     function create_if_block_13(ctx) {
     	let current;
 
@@ -13618,14 +13619,14 @@ var app = (function () {
     		block,
     		id: create_if_block_13.name,
     		type: "if",
-    		source: "(148:20) {#if attack.damageType}",
+    		source: "(147:20) {#if attack.damageType}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (155:14) {#if attack.mode == 'ammo' && attack.alter}
+    // (154:14) {#if attack.mode == 'ammo' && attack.alter}
     function create_if_block_11(ctx) {
     	let current;
 
@@ -13665,14 +13666,14 @@ var app = (function () {
     		block,
     		id: create_if_block_11.name,
     		type: "if",
-    		source: "(155:14) {#if attack.mode == 'ammo' && attack.alter}",
+    		source: "(154:14) {#if attack.mode == 'ammo' && attack.alter}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (74:12) {#each attacks as attack}
+    // (73:12) {#each attacks as attack}
     function create_each_block_3(ctx) {
     	let tr;
     	let current_block_type_index;
@@ -13705,8 +13706,8 @@ var app = (function () {
     			t1 = space();
     			if (if_block2) if_block2.c();
     			if_block2_anchor = empty();
-    			add_location(td, file$9, 135, 16, 4612);
-    			add_location(tr, file$9, 74, 14, 2110);
+    			add_location(td, file$9, 134, 16, 4559);
+    			add_location(tr, file$9, 73, 14, 2057);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
@@ -13811,14 +13812,14 @@ var app = (function () {
     		block,
     		id: create_each_block_3.name,
     		type: "each",
-    		source: "(74:12) {#each attacks as attack}",
+    		source: "(73:12) {#each attacks as attack}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (159:12) {#if item.damageAlter && item.battleType != 2}
+    // (158:12) {#if item.damageAlter && item.battleType != 2}
     function create_if_block_10(ctx) {
     	let current;
 
@@ -13858,14 +13859,14 @@ var app = (function () {
     		block,
     		id: create_if_block_10.name,
     		type: "if",
-    		source: "(159:12) {#if item.damageAlter && item.battleType != 2}",
+    		source: "(158:12) {#if item.damageAlter && item.battleType != 2}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (172:2) {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(key)}
+    // (171:2) {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(key)}
     function create_if_block$6(ctx) {
     	let tr;
     	let t0;
@@ -13936,8 +13937,8 @@ var app = (function () {
     			if_block.c();
     			t1 = space();
     			attr_dev(td, "class", "right-column svelte-1lgzdls");
-    			add_location(td, file$9, 174, 6, 5982);
-    			add_location(tr, file$9, 172, 4, 5941);
+    			add_location(td, file$9, 173, 6, 5929);
+    			add_location(tr, file$9, 171, 4, 5888);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
@@ -13998,14 +13999,14 @@ var app = (function () {
     		block,
     		id: create_if_block$6.name,
     		type: "if",
-    		source: "(172:2) {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(key)}",
+    		source: "(171:2) {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(key)}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (207:8) {:else}
+    // (206:8) {:else}
     function create_else_block$3(ctx) {
     	let current;
 
@@ -14045,14 +14046,14 @@ var app = (function () {
     		block,
     		id: create_else_block$3.name,
     		type: "else",
-    		source: "(207:8) {:else}",
+    		source: "(206:8) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (202:62) 
+    // (201:62) 
     function create_if_block_7(ctx) {
     	let a;
     	let t0_value = /*prop*/ ctx[4] + "";
@@ -14071,11 +14072,11 @@ var app = (function () {
     			img = element("img");
     			set_style(a, "vertical-align", "top");
     			attr_dev(a, "href", a_href_value = rul.specialSprite(/*key*/ ctx[3], /*prop*/ ctx[4]));
-    			add_location(a, file$9, 202, 10, 7194);
+    			add_location(a, file$9, 201, 10, 7141);
     			attr_dev(img, "class", "sprite svelte-1lgzdls");
     			attr_dev(img, "alt", img_alt_value = /*prop*/ ctx[4]);
     			if (img.src !== (img_src_value = rul.specialSprite(/*key*/ ctx[3], /*prop*/ ctx[4]))) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$9, 205, 10, 7308);
+    			add_location(img, file$9, 204, 10, 7255);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -14111,14 +14112,14 @@ var app = (function () {
     		block,
     		id: create_if_block_7.name,
     		type: "if",
-    		source: "(202:62) ",
+    		source: "(201:62) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (197:40) 
+    // (196:40) 
     function create_if_block_6(ctx) {
     	let each_1_anchor;
     	let each_value_2 = soundsFrom(/*prop*/ ctx[4]);
@@ -14179,14 +14180,14 @@ var app = (function () {
     		block,
     		id: create_if_block_6.name,
     		type: "if",
-    		source: "(197:40) ",
+    		source: "(196:40) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (195:38) 
+    // (194:38) 
     function create_if_block_5(ctx) {
     	let t0_value = /*prop*/ ctx[4] + "";
     	let t0;
@@ -14222,14 +14223,14 @@ var app = (function () {
     		block,
     		id: create_if_block_5.name,
     		type: "if",
-    		source: "(195:38) ",
+    		source: "(194:38) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (193:60) 
+    // (192:60) 
     function create_if_block_4(ctx) {
     	let t_value = rul.damageTypeName(/*prop*/ ctx[4]) + "";
     	let t;
@@ -14255,14 +14256,14 @@ var app = (function () {
     		block,
     		id: create_if_block_4.name,
     		type: "if",
-    		source: "(193:60) ",
+    		source: "(192:60) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (191:130) 
+    // (190:130) 
     function create_if_block_3$1(ctx) {
     	let current;
 
@@ -14302,14 +14303,14 @@ var app = (function () {
     		block,
     		id: create_if_block_3$1.name,
     		type: "if",
-    		source: "(191:130) ",
+    		source: "(190:130) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (178:63) 
+    // (177:63) 
     function create_if_block_2$3(ctx) {
     	let table;
     	let current;
@@ -14333,7 +14334,7 @@ var app = (function () {
     			}
 
     			attr_dev(table, "class", "number-table");
-    			add_location(table, file$9, 178, 10, 6197);
+    			add_location(table, file$9, 177, 10, 6144);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, table, anchor);
@@ -14400,14 +14401,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2$3.name,
     		type: "if",
-    		source: "(178:63) ",
+    		source: "(177:63) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (176:8) {#if ['requiresBuyBaseFunc'].includes(key)}
+    // (175:8) {#if ['requiresBuyBaseFunc'].includes(key)}
     function create_if_block_1$3(ctx) {
     	let current;
 
@@ -14447,14 +14448,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1$3.name,
     		type: "if",
-    		source: "(176:8) {#if ['requiresBuyBaseFunc'].includes(key)}",
+    		source: "(175:8) {#if ['requiresBuyBaseFunc'].includes(key)}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (198:10) {#each soundsFrom(prop) as sound, i}
+    // (197:10) {#each soundsFrom(prop) as sound, i}
     function create_each_block_2(ctx) {
     	let html_tag;
     	let raw_value = (/*i*/ ctx[9] > 0 ? "<br/>" : "") + "";
@@ -14471,7 +14472,7 @@ var app = (function () {
     			html_tag = new HtmlTag(raw_value, t0);
     			audio.controls = true;
     			if (audio.src !== (audio_src_value = /*sound*/ ctx[10])) attr_dev(audio, "src", audio_src_value);
-    			add_location(audio, file$9, 199, 12, 7042);
+    			add_location(audio, file$9, 198, 12, 6989);
     		},
     		m: function mount(target, anchor) {
     			html_tag.m(target, anchor);
@@ -14495,14 +14496,14 @@ var app = (function () {
     		block,
     		id: create_each_block_2.name,
     		type: "each",
-    		source: "(198:10) {#each soundsFrom(prop) as sound, i}",
+    		source: "(197:10) {#each soundsFrom(prop) as sound, i}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (180:12) {#each Object.keys(prop) as field, i}
+    // (179:12) {#each Object.keys(prop) as field, i}
     function create_each_block_1(ctx) {
     	let tr;
     	let td0;
@@ -14529,10 +14530,10 @@ var app = (function () {
     			td1 = element("td");
     			create_component(link.$$.fragment);
     			t2 = space();
-    			add_location(em, file$9, 182, 18, 6338);
-    			add_location(td0, file$9, 181, 16, 6314);
-    			add_location(td1, file$9, 184, 16, 6401);
-    			add_location(tr, file$9, 180, 14, 6292);
+    			add_location(em, file$9, 181, 18, 6285);
+    			add_location(td0, file$9, 180, 16, 6261);
+    			add_location(td1, file$9, 183, 16, 6348);
+    			add_location(tr, file$9, 179, 14, 6239);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
@@ -14570,14 +14571,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(180:12) {#each Object.keys(prop) as field, i}",
+    		source: "(179:12) {#each Object.keys(prop) as field, i}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (169:0) {#each Object.entries(item).sort((a, b) =>    a[0] > b[0] ? 1 : -1  ) as [key, prop]}
+    // (168:0) {#each Object.entries(item).sort((a, b) =>    a[0] > b[0] ? 1 : -1  ) as [key, prop]}
     function create_each_block$6(ctx) {
     	let show_if = !["sprite", "type", "_attacks", "damageAlter"].includes(/*key*/ ctx[3]);
     	let if_block_anchor;
@@ -14636,7 +14637,7 @@ var app = (function () {
     		block,
     		id: create_each_block$6.name,
     		type: "each",
-    		source: "(169:0) {#each Object.entries(item).sort((a, b) =>    a[0] > b[0] ? 1 : -1  ) as [key, prop]}",
+    		source: "(168:0) {#each Object.entries(item).sort((a, b) =>    a[0] > b[0] ? 1 : -1  ) as [key, prop]}",
     		ctx
     	});
 
@@ -14678,9 +14679,9 @@ var app = (function () {
 
     			each_1_anchor = empty();
     			attr_dev(td, "colspan", "2");
-    			add_location(td, file$9, 52, 2, 1291);
+    			add_location(td, file$9, 51, 2, 1238);
     			attr_dev(tr, "class", "table-header");
-    			add_location(tr, file$9, 51, 0, 1262);
+    			add_location(tr, file$9, 50, 0, 1209);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -23018,7 +23019,7 @@ var app = (function () {
     /* src\Article.svelte generated by Svelte v3.16.7 */
     const file$k = "src\\Article.svelte";
 
-    // (58:0) {#if !(article.id in rul.units)}
+    // (54:0) {#if !(article.id in rul.units)}
     function create_if_block_16$1(ctx) {
     	let current;
 
@@ -23058,14 +23059,14 @@ var app = (function () {
     		block,
     		id: create_if_block_16$1.name,
     		type: "if",
-    		source: "(58:0) {#if !(article.id in rul.units)}",
+    		source: "(54:0) {#if !(article.id in rul.units)}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (62:0) {#if textwithHighlights}
+    // (58:0) {#if textwithHighlights}
     function create_if_block_15$1(ctx) {
     	let div;
 
@@ -23073,7 +23074,7 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			attr_dev(div, "class", "article-text");
-    			add_location(div, file$k, 62, 2, 1768);
+    			add_location(div, file$k, 58, 2, 1745);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -23090,14 +23091,14 @@ var app = (function () {
     		block,
     		id: create_if_block_15$1.name,
     		type: "if",
-    		source: "(62:0) {#if textwithHighlights}",
+    		source: "(58:0) {#if textwithHighlights}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (74:66) 
+    // (70:66) 
     function create_if_block_14$2(ctx) {
     	let current;
 
@@ -23139,14 +23140,14 @@ var app = (function () {
     		block,
     		id: create_if_block_14$2.name,
     		type: "if",
-    		source: "(74:66) ",
+    		source: "(70:66) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (72:42) 
+    // (68:42) 
     function create_if_block_13$2(ctx) {
     	let current;
 
@@ -23188,14 +23189,14 @@ var app = (function () {
     		block,
     		id: create_if_block_13$2.name,
     		type: "if",
-    		source: "(72:42) ",
+    		source: "(68:42) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (70:42) 
+    // (66:42) 
     function create_if_block_12$2(ctx) {
     	let current;
 
@@ -23237,14 +23238,14 @@ var app = (function () {
     		block,
     		id: create_if_block_12$2.name,
     		type: "if",
-    		source: "(70:42) ",
+    		source: "(66:42) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (68:0) {#if article.id == 'SERVICES'}
+    // (64:0) {#if article.id == 'SERVICES'}
     function create_if_block_11$2(ctx) {
     	let current;
     	const baseservices = new BaseServices({ $$inline: true });
@@ -23276,14 +23277,14 @@ var app = (function () {
     		block,
     		id: create_if_block_11$2.name,
     		type: "if",
-    		source: "(68:0) {#if article.id == 'SERVICES'}",
+    		source: "(64:0) {#if article.id == 'SERVICES'}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (83:6) {#if article.id in rul.units}
+    // (79:6) {#if article.id in rul.units}
     function create_if_block_10$2(ctx) {
     	let current;
 
@@ -23323,14 +23324,14 @@ var app = (function () {
     		block,
     		id: create_if_block_10$2.name,
     		type: "if",
-    		source: "(83:6) {#if article.id in rul.units}",
+    		source: "(79:6) {#if article.id in rul.units}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (87:6) {#if article.id in rul.items}
+    // (83:6) {#if article.id in rul.items}
     function create_if_block_9$2(ctx) {
     	let current;
 
@@ -23370,14 +23371,14 @@ var app = (function () {
     		block,
     		id: create_if_block_9$2.name,
     		type: "if",
-    		source: "(87:6) {#if article.id in rul.items}",
+    		source: "(83:6) {#if article.id in rul.items}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (95:67) 
+    // (91:67) 
     function create_if_block_8$2(ctx) {
     	let current;
 
@@ -23419,14 +23420,14 @@ var app = (function () {
     		block,
     		id: create_if_block_8$2.name,
     		type: "if",
-    		source: "(95:67) ",
+    		source: "(91:67) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (93:2) {#if article.id in rul.armors}
+    // (89:2) {#if article.id in rul.armors}
     function create_if_block_7$2(ctx) {
     	let current;
 
@@ -23466,14 +23467,14 @@ var app = (function () {
     		block,
     		id: create_if_block_7$2.name,
     		type: "if",
-    		source: "(93:2) {#if article.id in rul.armors}",
+    		source: "(89:2) {#if article.id in rul.armors}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (99:2) {#if article.id in rul.baseServices}
+    // (95:2) {#if article.id in rul.baseServices}
     function create_if_block_6$3(ctx) {
     	let current;
 
@@ -23515,14 +23516,14 @@ var app = (function () {
     		block,
     		id: create_if_block_6$3.name,
     		type: "if",
-    		source: "(99:2) {#if article.id in rul.baseServices}",
+    		source: "(95:2) {#if article.id in rul.baseServices}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (103:2) {#if article.id in rul.crafts}
+    // (99:2) {#if article.id in rul.crafts}
     function create_if_block_5$3(ctx) {
     	let current;
 
@@ -23562,14 +23563,14 @@ var app = (function () {
     		block,
     		id: create_if_block_5$3.name,
     		type: "if",
-    		source: "(103:2) {#if article.id in rul.crafts}",
+    		source: "(99:2) {#if article.id in rul.crafts}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (107:2) {#if article.id in rul.craftWeapons}
+    // (103:2) {#if article.id in rul.craftWeapons}
     function create_if_block_4$4(ctx) {
     	let current;
 
@@ -23611,14 +23612,14 @@ var app = (function () {
     		block,
     		id: create_if_block_4$4.name,
     		type: "if",
-    		source: "(107:2) {#if article.id in rul.craftWeapons}",
+    		source: "(103:2) {#if article.id in rul.craftWeapons}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (111:2) {#if article.id in rul.ufos}
+    // (107:2) {#if article.id in rul.ufos}
     function create_if_block_3$8(ctx) {
     	let current;
 
@@ -23658,14 +23659,14 @@ var app = (function () {
     		block,
     		id: create_if_block_3$8.name,
     		type: "if",
-    		source: "(111:2) {#if article.id in rul.ufos}",
+    		source: "(107:2) {#if article.id in rul.ufos}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (115:2) {#if article.id in rul.facilities}
+    // (111:2) {#if article.id in rul.facilities}
     function create_if_block_2$c(ctx) {
     	let current;
 
@@ -23707,14 +23708,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2$c.name,
     		type: "if",
-    		source: "(115:2) {#if article.id in rul.facilities}",
+    		source: "(111:2) {#if article.id in rul.facilities}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (121:6) {#if article.id in rul.manufacture}
+    // (117:6) {#if article.id in rul.manufacture}
     function create_if_block_1$c(ctx) {
     	let current;
 
@@ -23756,14 +23757,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1$c.name,
     		type: "if",
-    		source: "(121:6) {#if article.id in rul.manufacture}",
+    		source: "(117:6) {#if article.id in rul.manufacture}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (125:6) {#if article.id in rul.research}
+    // (121:6) {#if article.id in rul.research}
     function create_if_block$g(ctx) {
     	let current;
 
@@ -23805,7 +23806,7 @@ var app = (function () {
     		block,
     		id: create_if_block$g.name,
     		type: "if",
-    		source: "(125:6) {#if article.id in rul.research}",
+    		source: "(121:6) {#if article.id in rul.research}",
     		ctx
     	});
 
@@ -23951,24 +23952,24 @@ var app = (function () {
     			if (if_block11) if_block11.c();
     			t20 = space();
     			if (if_block12) if_block12.c();
-    			add_location(nobr, file$k, 51, 2, 1423);
+    			add_location(nobr, file$k, 47, 2, 1400);
     			set_style(span, "flex", "1");
-    			add_location(span, file$k, 52, 2, 1469);
+    			add_location(span, file$k, 48, 2, 1446);
     			attr_dev(button0, "class", "page-turn");
-    			add_location(button0, file$k, 53, 2, 1496);
+    			add_location(button0, file$k, 49, 2, 1473);
     			attr_dev(button1, "class", "page-turn");
-    			add_location(button1, file$k, 54, 2, 1572);
-    			add_location(h1, file$k, 50, 0, 1415);
+    			add_location(button1, file$k, 50, 2, 1549);
+    			add_location(h1, file$k, 46, 0, 1392);
     			attr_dev(table0, "class", "main-table");
-    			add_location(table0, file$k, 81, 4, 2369);
+    			add_location(table0, file$k, 77, 4, 2346);
     			attr_dev(div0, "class", "flex-vertical");
-    			add_location(div0, file$k, 80, 2, 2336);
+    			add_location(div0, file$k, 76, 2, 2313);
     			attr_dev(table1, "class", "main-table");
-    			add_location(table1, file$k, 119, 4, 3377);
+    			add_location(table1, file$k, 115, 4, 3354);
     			attr_dev(div1, "class", "flex-vertical");
-    			add_location(div1, file$k, 118, 2, 3344);
+    			add_location(div1, file$k, 114, 2, 3321);
     			attr_dev(div2, "class", "flex-horisontal");
-    			add_location(div2, file$k, 77, 0, 2256);
+    			add_location(div2, file$k, 73, 0, 2233);
 
     			dispose = [
     				listen_dev(button0, "click", /*click_handler*/ ctx[5], false, false, false),

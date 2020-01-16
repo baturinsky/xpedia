@@ -8,6 +8,7 @@
   export let style = "";
 
   function loaded(img) {
+    return;
     console.info(img);
     let zoom = Math.min(
       maxZoom,

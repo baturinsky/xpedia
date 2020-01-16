@@ -1,6 +1,5 @@
 <script>
   import { rul } from "./Ruleset";
-  import Illustration from "./Illustration.svelte";
   import SpecialBonus from "./SpecialBonus.svelte";
   import Link from "./Link.svelte";
   import CanvasImage from "./CanvasImage.svelte";

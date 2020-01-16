@@ -574,9 +574,9 @@ h1 {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
   float: right;
-  padding: 2px;
-  margin: 5px;
-  border: solid 2px $border-color;
+  margin: 1rem;
+  width: 640px;
+  height: auto;
 }
 
 a.canvas-image:hover {
@@ -749,5 +749,12 @@ ol {
 
   html {
     font-size: 70%;
+  }
+
+}
+
+@media screen and (max-width: 1600px) {
+  .pedia-image{
+    width:320px;
   }
 }

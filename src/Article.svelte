@@ -40,10 +40,6 @@
   }
 </script>
 
-<style>
-
-</style>
-
 <svelte:head>
   <title>{rul.str(article.title || 'XPedia')}</title>
 </svelte:head>

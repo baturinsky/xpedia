@@ -810,10 +810,13 @@ export default class Ruleset {
       let category = this.raw[categoryName];
       if(!Array.isArray(category))
         continue;
+
+      if(categoryName == "extraSprites")
+        debugger;
       
-      for (let data of category) {
+      for (let data of category) {        
           
-        let id = data.type || data.id || data.name || data.delete;
+        let id = data.type || data.id || data.name || data.delete || data.typeSingle;
         
         if(!id || deleted[id])
           continue;

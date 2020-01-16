@@ -23,6 +23,11 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
+  text-size-adjust: none;
+}
+
+* {
+  text-size-adjust: none;
 }
 
 a {
@@ -123,7 +128,6 @@ h4 {
 }
 
 .article-text {
-  padding: 5px 0px 5px 5px;
   max-width: 80rem;
 }
 
@@ -509,11 +513,7 @@ button {
 
 .main {
   margin: 0;
-  padding-right: 1em;
-  padding-left: 12.5rem;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
-  flex: 1;
+  padding: 3rem 1rem 3rem 13rem;
 }
 
 nav a {
@@ -570,12 +570,13 @@ h1 {
   background-color: black;
 }
 
-.pedia-image {
+.illustration img {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
   float: right;
-  margin: 1rem;
+  padding-bottom: 1rem;
   width: 640px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -754,7 +755,7 @@ ol {
 }
 
 @media screen and (max-width: 1600px) {
-  .pedia-image{
+  .illustration img{
     width:320px;
   }
 }

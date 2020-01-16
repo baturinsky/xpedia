@@ -28,15 +28,12 @@
 </script>
 
 {#if id && rul.sprite(id)}
-  <div>
-    <a href={rul.sprite(id)}>
-      <img
-        class="pedia-image"
-        style={style + (left ? 'float:left' : '')}
-        on:load={e => loaded(e.target)}
-        on:error={e => noimage(e.target)}
-        alt={id || ''}
-        src={rul.sprite(id)} />
-    </a>
-  </div>
+  <a href={rul.sprite(id)} class="illustration">
+    <img      
+      style={style + (left ? 'float:left' : '')}
+      on:load={e => loaded(e.target)}
+      on:error={e => noimage(e.target)}
+      alt={id || ''}
+      src={rul.sprite(id)} />
+  </a>
 {/if}

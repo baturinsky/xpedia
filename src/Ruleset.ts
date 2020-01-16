@@ -811,9 +811,6 @@ export default class Ruleset {
       if(!Array.isArray(category))
         continue;
 
-      if(categoryName == "extraSprites")
-        debugger;
-      
       for (let data of category) {        
           
         let id = data.type || data.id || data.name || data.delete || data.typeSingle;

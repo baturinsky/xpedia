@@ -27,7 +27,7 @@
               val={prop.map(slot => rul.str(slot).replace('>{ALT}{0}', ''))} />
           {:else if ['sprite'].includes(key)}
             <img
-              class="sprite"
+              class="craft sprite"
               onerror="this.onerror=null; this.src='xpedia/0.png'"
               alt="X"
               src={rul.specialSprite('baseSprite', prop * 1 + 33)} />

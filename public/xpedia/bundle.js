@@ -7875,8 +7875,6 @@ var app = (function () {
                 var category = this.raw[categoryName];
                 if (!Array.isArray(category))
                     continue;
-                if (categoryName == "extraSprites")
-                    debugger;
                 for (var _i = 0, category_1 = category; _i < category_1.length; _i++) {
                     var data = category_1[_i];
                     var id = data.type || data.id || data.name || data.delete || data.typeSingle;
@@ -17148,7 +17146,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			img = element("img");
-    			attr_dev(img, "class", "sprite");
+    			attr_dev(img, "class", "craft sprite");
     			attr_dev(img, "onerror", "this.onerror=null; this.src='xpedia/0.png'");
     			attr_dev(img, "alt", "X");
     			if (img.src !== (img_src_value = rul.specialSprite("baseSprite", /*prop*/ ctx[3] * 1 + 33))) attr_dev(img, "src", img_src_value);
@@ -21694,7 +21692,7 @@ var app = (function () {
 
     			attr_dev(div, "class", "tight");
     			set_style(div, "columns", /*size*/ ctx[2]);
-    			set_style(div, "width", 32 * /*size*/ ctx[2] + "px");
+    			set_style(div, "width", 64 * /*size*/ ctx[2] + "px");
     			add_location(div, file$h, 66, 12, 2057);
     		},
     		m: function mount(target, anchor) {
@@ -21733,7 +21731,7 @@ var app = (function () {
     			}
 
     			if (dirty & /*size*/ 4) {
-    				set_style(div, "width", 32 * /*size*/ ctx[2] + "px");
+    				set_style(div, "width", 64 * /*size*/ ctx[2] + "px");
     			}
     		},
     		i: noop,
@@ -21988,7 +21986,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			img = element("img");
-    			attr_dev(img, "class", "sprite");
+    			attr_dev(img, "class", "facility sprite");
     			attr_dev(img, "onerror", "this.onerror=null; this.src='xpedia/0.jpg'");
     			attr_dev(img, "alt", "X");
     			if (img.src !== (img_src_value = rul.specialSprite("baseSprite", /*prop*/ ctx[5] * 1 + /*x*/ ctx[15] * /*size*/ ctx[2] + /*y*/ ctx[13]))) attr_dev(img, "src", img_src_value);

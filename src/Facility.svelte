@@ -64,11 +64,11 @@
           {:else if ['provideBaseFunc', 'requiresBaseFunc', 'forbiddenBaseFunc'].includes(key)}
             <BaseServiceList items={prop} vertical={true} />
           {:else if ['spriteFacility', 'spriteShape'].includes(key)}
-            <div class="tight" style="columns:{size};width:{32 * size}px;">
+            <div class="tight" style="columns:{size};width:{64 * size}px;">
               {#each { length: size } as _, y}
                 {#each { length: size } as _, x}
                   <img
-                    class="sprite"
+                    class="facility sprite"
                     onerror="this.onerror=null; this.src='xpedia/0.jpg'"
                     alt="X"
                     src={rul.specialSprite('baseSprite', prop * 1 + x * size + y)} />

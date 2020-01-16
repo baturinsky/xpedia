@@ -164,9 +164,10 @@ canvas {
 .pixelated {
   padding: 0.2rem; }
 
-.crisp-edges {
+img {
   image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges; }
+  image-rendering: crisp-edges;
+  image-rendering: pixelated; }
 
 .menu-list a {
   padding: 0.1rem 0.75rem; }
@@ -317,14 +318,18 @@ button {
   margin-left: 0.75rem; }
 
 .links-page {
-  padding-right: 2rem; }
+  padding-right: 2rem;
+  padding-left: 1rem; }
 
 .links-page li {
-  max-width: 18rem;
-  overflow-x: hidden; }
+  list-style-type: decimal-leading-zero;
+  list-style-position: outside; }
 
-.links-page ol {
-  list-style-type: lower-alpha; }
+.links-page a {
+  white-space: normal;
+  overflow-x: hidden;
+  max-width: 13rem;
+  display: block; }
 
 .links-page-header {
   text-align: center;
@@ -635,3 +640,7 @@ ol {
 @media screen and (max-width: 1600px) {
   .illustration img {
     width: 320px; } }
+
+img.facility, img.craft {
+  height: 64px;
+  width: 64px; }

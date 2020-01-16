@@ -490,9 +490,9 @@ h1 {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
   float: right;
-  padding: 2px;
-  margin: 5px;
-  border: solid 2px #441c58; }
+  margin: 1rem;
+  width: 640px;
+  height: auto; }
 
 a.canvas-image:hover {
   background: transparent; }
@@ -631,3 +631,7 @@ ol {
     padding: 0; }
   html {
     font-size: 70%; } }
+
+@media screen and (max-width: 1600px) {
+  .pedia-image {
+    width: 320px; } }

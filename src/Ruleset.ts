@@ -114,6 +114,8 @@ export class Manufacture {
     if (this.requires) {
       for (let resName of this.requires) {
         let res = rul.research[resName];
+        if(!res)        
+          continue;
         if (!res.manufacture) res.manufacture = [];
         res.manufacture.push(this.name);
       }
@@ -764,8 +766,8 @@ export default class Ruleset {
     return num in this[type] ? this.path + this[type][num] : "xpedia/0.png";
   }
 
-  parse(data: any) {
-    for (let file of data) {
+  combineFiles(data:any[], reversed = false){
+    for (let file of (reversed?data.reverse():data)) {
       for (let key in file) {
         if (key.substr(0, 4) == "lang") {
           Object.assign(this.lang, file[key]);
@@ -786,8 +788,68 @@ export default class Ruleset {
         }
       }
     }
+  }
 
-    let articleTypes = [
+
+  categoriesNames:[
+    "crafts",
+    "items",
+    "armors",
+    "ufopaedia",
+    "manufacture",
+    "units",
+    "alienDeployments",
+    "research"
+  ];
+
+  mergeRuls(reversed = false){
+    for (let categoryName in this.raw) {
+      let merged = {};
+      let deleted = {};
+
+      let category = this.raw[categoryName];
+      if(!Array.isArray(category))
+        continue;
+      
+      for (let data of category) {
+          
+        let id = data.type || data.id || data.name || data.delete;
+        
+        if(!id || deleted[id])
+          continue;
+
+        if ("delete" in data) {
+          if(reversed)
+            deleted[id] = true;
+          else
+            delete merged[id];
+          continue;
+        }
+
+        if (id && id in merged) {          
+          if(reversed) {
+            for(let k in data){
+              if(!(k in merged[id]))
+                merged[id][k] = data[k];
+            }
+          } else {
+            Object.assign(merged[id], data);
+          }
+        } else {
+          merged[id] = data;
+        }
+        
+      }
+      this.raw[categoryName] = Object.values(merged);
+    }
+  }
+
+  parse(data: any) {
+    let reversed = true;
+
+    this.combineFiles(data, reversed);
+
+    let specialSections = [
       "ITEMS",
       "CONDITIONS",
       "CATEGORIES",
@@ -796,32 +858,9 @@ export default class Ruleset {
       "SERVICES"
     ];
 
-    for (let type of articleTypes) new Section(type, "TYPE");
+    for (let type of specialSections) new Section(type, "TYPE");
 
-    for (let category of [
-      "items",
-      "armors",
-      "ufopaedia",
-      "manufacture",
-      "units",
-      "alienDeployments",
-      "research"
-    ]) {
-      let merged = {};
-      for (let data of this.raw[category]) {
-        let id = data.type || data.id || data.name || data.delete;
-        if ("delete" in data) {
-          delete merged[id];
-        } else {
-          if (id && id in merged) {
-            Object.assign(merged[id], data);
-          } else {
-            merged[id] = data;
-          }
-        }
-      }
-      this.raw[category] = Object.values(merged);
-    }
+    this.mergeRuls(reversed);
 
     this.path = "user/mods/" + rul.modName + "/";
 
@@ -930,8 +969,8 @@ export default class Ruleset {
       .filter(a => a.units)
       .map(a => a.type);
 
-    for (let type of articleTypes)
-      rul.sections[type]._articles = rul.sections[type].articles.sort((a, b) =>
+    for (let sectionName of specialSections)
+      rul.sections[sectionName]._articles = rul.sections[sectionName].articles.sort((a, b) =>
         a.title < b.title ? -1 : 1
       );
 

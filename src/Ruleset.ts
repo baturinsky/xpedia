@@ -13,8 +13,7 @@ function backLink(id: string, list: string[], to: any, field: string) {
   if (!list) return;
   for (let key of list) {
     let back = to[key];
-    if(!back)
-      continue;
+    if (!back) continue;
     back[field] = back[field] || [];
     back[field].push(id);
   }
@@ -62,7 +61,6 @@ function parseYaml(text: string) {
             console.log(e.message);
           }
         });
-
       } catch (e) {
         console.log(e.message);
       }
@@ -151,7 +149,6 @@ export class Manufacture {
       section: "MANUFACTURE",
       type_id: "MANUFACTURE"
     });
-
   }
 }
 
@@ -338,14 +335,14 @@ export class Attack {
       (mode == "psi" && item.battleType == 9) ||
       (mode == "throw" && [4, 5].includes(item.battleType));
 
-    if(mode == "throw" && !isDefaultAttack)
-      return null;
+    if (mode == "throw" && !isDefaultAttack) return null;
 
-    let exists = item["accuracy" + capMode] || item["cost" + capMode] || isDefaultAttack;
+    let exists =
+      item["accuracy" + capMode] || item["cost" + capMode] || isDefaultAttack;
 
     if (!exists) return null;
 
-    if(item.type == "STR_MASTERS_CANE"){
+    if (item.type == "STR_MASTERS_CANE") {
       console.log(item);
       console.log(mode);
     }
@@ -425,7 +422,10 @@ export class Attack {
       this.alter.range = item[mode + "Range"];
     }
 
-    this.range = item[mode + "Range"] || (this.alter && this.alter.range) || defaultRange[mode];
+    this.range =
+      item[mode + "Range"] ||
+      (this.alter && this.alter.range) ||
+      defaultRange[mode];
 
     this.possible = true;
   }
@@ -775,7 +775,7 @@ export default class Ruleset {
         } else {
           let old = this.raw[key];
           let adding = file[key];
-          if (adding.concat) {
+          if (old.concat) {
             this.raw[key] = old.concat(adding);
           } else {
             for (let k of adding) {
@@ -810,13 +810,11 @@ export default class Ruleset {
       let merged = {};
       for (let data of this.raw[category]) {
         let id = data.type || data.id || data.name || data.delete;
-        if(id == "BIGOBS.PCK")
-          console.log("bigobs");
         if ("delete" in data) {
           delete merged[id];
         } else {
-          if (id in merged) {
-            merged[id] = Object.assign(data, merged[id]);
+          if (id && id in merged) {
+            Object.assign(merged[id], data);
           } else {
             merged[id] = data;
           }

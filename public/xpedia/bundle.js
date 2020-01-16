@@ -24823,21 +24823,21 @@ var app = (function () {
     			attr_dev(input, "class", "input");
     			attr_dev(input, "type", "text");
     			attr_dev(input, "placeholder", input_placeholder_value = rul.str("Search..."));
-    			add_location(input, file$l, 262, 6, 6680);
+    			add_location(input, file$l, 262, 6, 6681);
     			attr_dev(div8, "class", "navbar-search");
-    			add_location(div8, file$l, 261, 4, 6646);
+    			add_location(div8, file$l, 261, 4, 6647);
     			attr_dev(nav, "class", "navbar flex-horisontal");
     			add_location(nav, file$l, 186, 2, 4144);
     			set_style(span2, "font-size", "150%");
-    			add_location(span2, file$l, 316, 4, 8233);
+    			add_location(span2, file$l, 316, 4, 8234);
     			attr_dev(button, "class", "side-hide-button");
     			attr_dev(button, "style", button_style_value = /*seeSide*/ ctx[8] ? "" : "left:1em;");
-    			add_location(button, file$l, 310, 2, 8079);
+    			add_location(button, file$l, 310, 2, 8080);
     			attr_dev(div9, "class", "main");
     			attr_dev(div9, "style", div9_style_value = /*seeSide*/ ctx[8] ? "" : "padding-left:3rem;");
-    			add_location(div9, file$l, 319, 2, 8286);
+    			add_location(div9, file$l, 319, 2, 8287);
     			attr_dev(div10, "class", "tooltip fadein");
-    			add_location(div10, file$l, 351, 2, 9109);
+    			add_location(div10, file$l, 351, 2, 9110);
 
     			dispose = [
     				listen_dev(div0, "mousedown", /*mousedown_handler*/ ctx[26], false, false, false),
@@ -25265,7 +25265,7 @@ var app = (function () {
     		c: function create() {
     			a = element("a");
     			t = text(t_value);
-    			attr_dev(a, "href", a_href_value = "" + (/*lang*/ ctx[47].save_as + "#" + /*id*/ ctx[6]));
+    			attr_dev(a, "href", a_href_value = "" + (/*lang*/ ctx[47].save_as + "##" + /*id*/ ctx[6]));
     			add_location(a, file$l, 248, 12, 6321);
     		},
     		m: function mount(target, anchor) {
@@ -25273,7 +25273,7 @@ var app = (function () {
     			append_dev(a, t);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty[0] & /*id*/ 64 && a_href_value !== (a_href_value = "" + (/*lang*/ ctx[47].save_as + "#" + /*id*/ ctx[6]))) {
+    			if (dirty[0] & /*id*/ 64 && a_href_value !== (a_href_value = "" + (/*lang*/ ctx[47].save_as + "##" + /*id*/ ctx[6]))) {
     				attr_dev(a, "href", a_href_value);
     			}
     		},
@@ -25310,11 +25310,11 @@ var app = (function () {
     			span1 = element("span");
     			span1.textContent = "A";
     			set_style(span0, "font-size", "150%");
-    			add_location(span0, file$l, 256, 8, 6532);
+    			add_location(span0, file$l, 256, 8, 6533);
     			set_style(span1, "font-size", "75%");
-    			add_location(span1, file$l, 257, 8, 6578);
+    			add_location(span1, file$l, 257, 8, 6579);
     			attr_dev(button, "class", "navbar-button");
-    			add_location(button, file$l, 255, 6, 6454);
+    			add_location(button, file$l, 255, 6, 6455);
     			dispose = listen_dev(button, "click", /*click_handler*/ ctx[32], false, false, false);
     		},
     		m: function mount(target, anchor) {
@@ -25382,10 +25382,10 @@ var app = (function () {
     			? ""
     			: "text-decoration:line-through");
 
-    			add_location(button, file$l, 275, 6, 6904);
-    			add_location(br, file$l, 306, 6, 8050);
+    			add_location(button, file$l, 275, 6, 6905);
+    			add_location(br, file$l, 306, 6, 8051);
     			attr_dev(nav, "class", "sidebar");
-    			add_location(nav, file$l, 273, 4, 6875);
+    			add_location(nav, file$l, 273, 4, 6876);
     			dispose = listen_dev(button, "click", /*click_handler_1*/ ctx[34], false, false, false);
     		},
     		m: function mount(target, anchor) {
@@ -25478,9 +25478,9 @@ var app = (function () {
     			}
 
     			attr_dev(p, "class", "menu-label");
-    			add_location(p, file$l, 284, 10, 7309);
+    			add_location(p, file$l, 284, 10, 7310);
     			attr_dev(div, "class", "menu-list");
-    			add_location(div, file$l, 285, 10, 7361);
+    			add_location(div, file$l, 285, 10, 7362);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -25551,7 +25551,7 @@ var app = (function () {
     			t = text(t_value);
     			attr_dev(a, "class", "side-link");
     			attr_dev(a, "href", a_href_value = "##" + /*option*/ ctx[44].id);
-    			add_location(a, file$l, 295, 16, 7758);
+    			add_location(a, file$l, 295, 16, 7759);
     			dispose = listen_dev(a, "click", /*click_handler_2*/ ctx[36], false, false, false);
     		},
     		m: function mount(target, anchor) {
@@ -25595,7 +25595,7 @@ var app = (function () {
     			t = text(t_value);
     			attr_dev(a, "href", a_href_value = "##" + /*option*/ ctx[44].id);
     			attr_dev(a, "class", "active-article-option side-link");
-    			add_location(a, file$l, 288, 16, 7519);
+    			add_location(a, file$l, 288, 16, 7520);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -25796,8 +25796,8 @@ var app = (function () {
     			t3 = space();
     			if_block.c();
     			if_block_anchor = empty();
-    			add_location(em, file$l, 329, 6, 8542);
-    			add_location(br, file$l, 331, 6, 8574);
+    			add_location(em, file$l, 329, 6, 8543);
+    			add_location(br, file$l, 331, 6, 8575);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -25929,7 +25929,7 @@ var app = (function () {
     		c: function create() {
     			i = element("i");
     			i.textContent = "Nothing found";
-    			add_location(i, file$l, 339, 8, 8789);
+    			add_location(i, file$l, 339, 8, 8790);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, i, anchor);
@@ -25991,7 +25991,7 @@ var app = (function () {
     		c: function create() {
     			i = element("i");
     			i.textContent = "Query too short";
-    			add_location(i, file$l, 335, 8, 8697);
+    			add_location(i, file$l, 335, 8, 8698);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, i, anchor);

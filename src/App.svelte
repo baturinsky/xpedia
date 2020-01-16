@@ -246,7 +246,7 @@
           class="navbar-dropdown"
           style={showLanguagesDropdown ? 'visibility:visible' : 'visibility:hidden'}>
           {#each rul.config.languages as lang}
-            <a href="{lang.save_as}#{id}">{lang.name}</a>
+            <a href="{lang.save_as}##{id}">{lang.name}</a>
           {/each}
         </div>
       </div>

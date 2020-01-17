@@ -327,6 +327,7 @@ export class Attack {
   range: number;
   pellets: number = 1;
   name: string;
+  item: Item;
 
   constructor(item: Item, public mode: string) {
     let capMode = mode.charAt(0).toUpperCase() + mode.substr(1);
@@ -663,6 +664,11 @@ export class Item {
       }
     }
 
+    if(this.battleType == 2){
+      this._attacks[0].item = this;
+      this._attacks[0].mode = "ammo";
+    }
+    
     return this._attacks;
   }
 
@@ -928,7 +934,7 @@ export default class Ruleset {
     }
 
     for (let item of Object.values(this.items)) {
-      item.attacks();
+      item.attacks();      
       if (item.compatibleAmmo) {
         for (let ammoId of item.compatibleAmmo) {
           let ammo = this.items[ammoId];

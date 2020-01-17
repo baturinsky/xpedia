@@ -7744,6 +7744,10 @@ var app = (function () {
                     }
                 }
             }
+            if (this.battleType == 2) {
+                this._attacks[0].item = this;
+                this._attacks[0].mode = "ammo";
+            }
             return this._attacks;
         };
         Item.prototype.addCategory = function (catName) {
@@ -12551,11 +12555,11 @@ var app = (function () {
     			td = element("td");
     			div = element("div");
     			if (if_block) if_block.c();
-    			add_location(div, file$9, 56, 6, 1428);
+    			add_location(div, file$9, 56, 6, 1397);
     			attr_dev(td, "colspan", "2");
     			attr_dev(td, "class", "td-attacks-table");
-    			add_location(td, file$9, 55, 4, 1379);
-    			add_location(tr, file$9, 54, 2, 1369);
+    			add_location(td, file$9, 55, 4, 1348);
+    			add_location(tr, file$9, 54, 2, 1338);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
@@ -12620,7 +12624,7 @@ var app = (function () {
     	let t2;
     	let t3;
     	let current;
-    	let if_block0 = /*item*/ ctx[0].battleType != 2 && create_if_block_18(ctx);
+    	let if_block0 = /*item*/ ctx[0].battleType != 2 && create_if_block_17(ctx);
     	let each_value_3 = /*attacks*/ ctx[2];
     	let each_blocks = [];
 
@@ -12650,10 +12654,10 @@ var app = (function () {
 
     			t3 = space();
     			if (if_block1) if_block1.c();
-    			add_location(td, file$9, 65, 14, 1744);
-    			add_location(thead, file$9, 59, 12, 1522);
+    			add_location(td, file$9, 65, 14, 1713);
+    			add_location(thead, file$9, 59, 12, 1491);
     			attr_dev(table, "class", "attacks-table");
-    			add_location(table, file$9, 58, 10, 1479);
+    			add_location(table, file$9, 58, 10, 1448);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, table, anchor);
@@ -12676,7 +12680,7 @@ var app = (function () {
     				if (if_block0) {
     					if_block0.p(ctx, dirty);
     				} else {
-    					if_block0 = create_if_block_18(ctx);
+    					if_block0 = create_if_block_17(ctx);
     					if_block0.c();
     					if_block0.m(thead, t0);
     				}
@@ -12685,7 +12689,7 @@ var app = (function () {
     				if_block0 = null;
     			}
 
-    			if (dirty & /*attacks, rul, item, Object*/ 5) {
+    			if (dirty & /*attacks, rul, Object*/ 4) {
     				each_value_3 = /*attacks*/ ctx[2];
     				let i;
 
@@ -12772,7 +12776,7 @@ var app = (function () {
     }
 
     // (61:14) {#if item.battleType != 2}
-    function create_if_block_18(ctx) {
+    function create_if_block_17(ctx) {
     	let td0;
     	let t1;
     	let td1;
@@ -12789,9 +12793,9 @@ var app = (function () {
     			t3 = space();
     			td2 = element("td");
     			td2.textContent = `${rul.str("cost")}`;
-    			add_location(td0, file$9, 61, 16, 1589);
-    			add_location(td1, file$9, 62, 16, 1633);
-    			add_location(td2, file$9, 63, 16, 1681);
+    			add_location(td0, file$9, 61, 16, 1558);
+    			add_location(td1, file$9, 62, 16, 1602);
+    			add_location(td2, file$9, 63, 16, 1650);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, td0, anchor);
@@ -12812,7 +12816,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_18.name,
+    		id: create_if_block_17.name,
     		type: "if",
     		source: "(61:14) {#if item.battleType != 2}",
     		ctx
@@ -12821,7 +12825,7 @@ var app = (function () {
     	return block;
     }
 
-    // (89:16) {:else}
+    // (87:16) {:else}
     function create_else_block_1(ctx) {
     	let td0;
     	let t0_value = rul.str(/*attack*/ ctx[12].name) + "";
@@ -12859,7 +12863,7 @@ var app = (function () {
     	let small;
     	let t14;
     	let current;
-    	let if_block = /*attack*/ ctx[12].range && create_if_block_17(ctx);
+    	let if_block = /*attack*/ ctx[12].range && create_if_block_16(ctx);
 
     	const specialbonus = new SpecialBonus({
     			props: {
@@ -12914,18 +12918,18 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(td0, file$9, 89, 18, 2830);
+    			add_location(td0, file$9, 87, 18, 2696);
     			attr_dev(em0, "class", "big-number");
-    			add_location(em0, file$9, 95, 24, 3056);
-    			add_location(span0, file$9, 94, 22, 3024);
-    			add_location(span1, file$9, 99, 22, 3189);
-    			add_location(div, file$9, 107, 22, 3481);
-    			add_location(nobr0, file$9, 93, 20, 2994);
-    			add_location(td1, file$9, 92, 18, 2968);
-    			add_location(em1, file$9, 114, 22, 3722);
-    			add_location(small, file$9, 116, 22, 3825);
-    			add_location(nobr1, file$9, 113, 20, 3692);
-    			add_location(td2, file$9, 112, 18, 3666);
+    			add_location(em0, file$9, 93, 24, 2922);
+    			add_location(span0, file$9, 92, 22, 2890);
+    			add_location(span1, file$9, 97, 22, 3055);
+    			add_location(div, file$9, 105, 22, 3347);
+    			add_location(nobr0, file$9, 91, 20, 2860);
+    			add_location(td1, file$9, 90, 18, 2834);
+    			add_location(em1, file$9, 112, 22, 3588);
+    			add_location(small, file$9, 114, 22, 3691);
+    			add_location(nobr1, file$9, 111, 20, 3558);
+    			add_location(td2, file$9, 110, 18, 3532);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, td0, anchor);
@@ -12975,7 +12979,7 @@ var app = (function () {
     				if (if_block) {
     					if_block.p(ctx, dirty);
     				} else {
-    					if_block = create_if_block_17(ctx);
+    					if_block = create_if_block_16(ctx);
     					if_block.c();
     					if_block.m(span1, null);
     				}
@@ -13053,7 +13057,7 @@ var app = (function () {
     		block,
     		id: create_else_block_1.name,
     		type: "else",
-    		source: "(89:16) {:else}",
+    		source: "(87:16) {:else}",
     		ctx
     	});
 
@@ -13062,241 +13066,6 @@ var app = (function () {
 
     // (70:16) {#if attack.mode == 'ammo'}
     function create_if_block_14(ctx) {
-    	let if_block_anchor;
-    	let current;
-    	let if_block = /*item*/ ctx[0].battleType != 2 && create_if_block_15(ctx);
-
-    	const block = {
-    		c: function create() {
-    			if (if_block) if_block.c();
-    			if_block_anchor = empty();
-    		},
-    		m: function mount(target, anchor) {
-    			if (if_block) if_block.m(target, anchor);
-    			insert_dev(target, if_block_anchor, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			if (/*item*/ ctx[0].battleType != 2) {
-    				if (if_block) {
-    					if_block.p(ctx, dirty);
-    					transition_in(if_block, 1);
-    				} else {
-    					if_block = create_if_block_15(ctx);
-    					if_block.c();
-    					transition_in(if_block, 1);
-    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
-    				}
-    			} else if (if_block) {
-    				group_outros();
-
-    				transition_out(if_block, 1, 1, () => {
-    					if_block = null;
-    				});
-
-    				check_outros();
-    			}
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(if_block);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(if_block);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			if (if_block) if_block.d(detaching);
-    			if (detaching) detach_dev(if_block_anchor);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_14.name,
-    		type: "if",
-    		source: "(70:16) {#if attack.mode == 'ammo'}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (101:24) {#if attack.range}
-    function create_if_block_17(ctx) {
-    	let html_tag;
-    	let raw_value = rul.str("at N m").replace("N", `<em>${/*attack*/ ctx[12].range}</em>`) + "";
-
-    	const block = {
-    		c: function create() {
-    			html_tag = new HtmlTag(raw_value, null);
-    		},
-    		m: function mount(target, anchor) {
-    			html_tag.m(target, anchor);
-    		},
-    		p: function update(ctx, dirty) {
-    			if (dirty & /*attacks*/ 4 && raw_value !== (raw_value = rul.str("at N m").replace("N", `<em>${/*attack*/ ctx[12].range}</em>`) + "")) html_tag.p(raw_value);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) html_tag.d();
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_17.name,
-    		type: "if",
-    		source: "(101:24) {#if attack.range}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (120:22) {#if res != 'time' && attack.cost[res] != 0}
-    function create_if_block_16(ctx) {
-    	let br;
-    	let t0;
-    	let nobr;
-    	let t1;
-    	let small;
-    	let t2_value = rul.str(/*res*/ ctx[15]) + "";
-    	let t2;
-    	let t3;
-    	let current;
-
-    	const value = new Value({
-    			props: {
-    				val: /*attack*/ ctx[12].cost[/*res*/ ctx[15]]
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			br = element("br");
-    			t0 = space();
-    			nobr = element("nobr");
-    			create_component(value.$$.fragment);
-    			t1 = space();
-    			small = element("small");
-    			t2 = text(t2_value);
-    			t3 = space();
-    			add_location(br, file$9, 120, 24, 4039);
-    			add_location(small, file$9, 123, 26, 4165);
-    			add_location(nobr, file$9, 121, 24, 4071);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, br, anchor);
-    			insert_dev(target, t0, anchor);
-    			insert_dev(target, nobr, anchor);
-    			mount_component(value, nobr, null);
-    			append_dev(nobr, t1);
-    			append_dev(nobr, small);
-    			append_dev(small, t2);
-    			append_dev(nobr, t3);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const value_changes = {};
-    			if (dirty & /*attacks*/ 4) value_changes.val = /*attack*/ ctx[12].cost[/*res*/ ctx[15]];
-    			value.$set(value_changes);
-    			if ((!current || dirty & /*attacks*/ 4) && t2_value !== (t2_value = rul.str(/*res*/ ctx[15]) + "")) set_data_dev(t2, t2_value);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(value.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(value.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(br);
-    			if (detaching) detach_dev(t0);
-    			if (detaching) detach_dev(nobr);
-    			destroy_component(value);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_16.name,
-    		type: "if",
-    		source: "(120:22) {#if res != 'time' && attack.cost[res] != 0}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (119:20) {#each Object.keys(attack.cost) as res}
-    function create_each_block_4(ctx) {
-    	let if_block_anchor;
-    	let current;
-    	let if_block = /*res*/ ctx[15] != "time" && /*attack*/ ctx[12].cost[/*res*/ ctx[15]] != 0 && create_if_block_16(ctx);
-
-    	const block = {
-    		c: function create() {
-    			if (if_block) if_block.c();
-    			if_block_anchor = empty();
-    		},
-    		m: function mount(target, anchor) {
-    			if (if_block) if_block.m(target, anchor);
-    			insert_dev(target, if_block_anchor, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			if (/*res*/ ctx[15] != "time" && /*attack*/ ctx[12].cost[/*res*/ ctx[15]] != 0) {
-    				if (if_block) {
-    					if_block.p(ctx, dirty);
-    					transition_in(if_block, 1);
-    				} else {
-    					if_block = create_if_block_16(ctx);
-    					if_block.c();
-    					transition_in(if_block, 1);
-    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
-    				}
-    			} else if (if_block) {
-    				group_outros();
-
-    				transition_out(if_block, 1, 1, () => {
-    					if_block = null;
-    				});
-
-    				check_outros();
-    			}
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(if_block);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(if_block);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			if (if_block) if_block.d(detaching);
-    			if (detaching) detach_dev(if_block_anchor);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_each_block_4.name,
-    		type: "each",
-    		source: "(119:20) {#each Object.keys(attack.cost) as res}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (71:18) {#if item.battleType != 2}
-    function create_if_block_15(ctx) {
     	let td0;
     	let t0;
     	let td1;
@@ -13351,11 +13120,11 @@ var app = (function () {
     			t8 = text(": ");
     			t9 = text(t9_value);
     			attr_dev(td0, "class", "ammo-img svelte-1lgzdls");
-    			add_location(td0, file$9, 71, 20, 1966);
-    			add_location(br, file$9, 81, 22, 2532);
-    			add_location(small, file$9, 82, 22, 2562);
+    			add_location(td0, file$9, 70, 18, 1887);
+    			add_location(br, file$9, 80, 20, 2433);
+    			add_location(small, file$9, 81, 20, 2461);
     			attr_dev(td1, "colspan", "2");
-    			add_location(td1, file$9, 79, 20, 2436);
+    			add_location(td1, file$9, 78, 18, 2341);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, td0, anchor);
@@ -13410,16 +13179,188 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_15.name,
+    		id: create_if_block_14.name,
     		type: "if",
-    		source: "(71:18) {#if item.battleType != 2}",
+    		source: "(70:16) {#if attack.mode == 'ammo'}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (131:18) {#if 'damage' in attack || 'damageType' in attack}
+    // (99:24) {#if attack.range}
+    function create_if_block_16(ctx) {
+    	let html_tag;
+    	let raw_value = rul.str("at N m").replace("N", `<em>${/*attack*/ ctx[12].range}</em>`) + "";
+
+    	const block = {
+    		c: function create() {
+    			html_tag = new HtmlTag(raw_value, null);
+    		},
+    		m: function mount(target, anchor) {
+    			html_tag.m(target, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*attacks*/ 4 && raw_value !== (raw_value = rul.str("at N m").replace("N", `<em>${/*attack*/ ctx[12].range}</em>`) + "")) html_tag.p(raw_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) html_tag.d();
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_16.name,
+    		type: "if",
+    		source: "(99:24) {#if attack.range}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (118:22) {#if res != 'time' && attack.cost[res] != 0}
+    function create_if_block_15(ctx) {
+    	let br;
+    	let t0;
+    	let nobr;
+    	let t1;
+    	let small;
+    	let t2_value = rul.str(/*res*/ ctx[15]) + "";
+    	let t2;
+    	let t3;
+    	let current;
+
+    	const value = new Value({
+    			props: {
+    				val: /*attack*/ ctx[12].cost[/*res*/ ctx[15]]
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			br = element("br");
+    			t0 = space();
+    			nobr = element("nobr");
+    			create_component(value.$$.fragment);
+    			t1 = space();
+    			small = element("small");
+    			t2 = text(t2_value);
+    			t3 = space();
+    			add_location(br, file$9, 118, 24, 3905);
+    			add_location(small, file$9, 121, 26, 4031);
+    			add_location(nobr, file$9, 119, 24, 3937);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, br, anchor);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, nobr, anchor);
+    			mount_component(value, nobr, null);
+    			append_dev(nobr, t1);
+    			append_dev(nobr, small);
+    			append_dev(small, t2);
+    			append_dev(nobr, t3);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const value_changes = {};
+    			if (dirty & /*attacks*/ 4) value_changes.val = /*attack*/ ctx[12].cost[/*res*/ ctx[15]];
+    			value.$set(value_changes);
+    			if ((!current || dirty & /*attacks*/ 4) && t2_value !== (t2_value = rul.str(/*res*/ ctx[15]) + "")) set_data_dev(t2, t2_value);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(value.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(value.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(br);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(nobr);
+    			destroy_component(value);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_15.name,
+    		type: "if",
+    		source: "(118:22) {#if res != 'time' && attack.cost[res] != 0}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (117:20) {#each Object.keys(attack.cost) as res}
+    function create_each_block_4(ctx) {
+    	let if_block_anchor;
+    	let current;
+    	let if_block = /*res*/ ctx[15] != "time" && /*attack*/ ctx[12].cost[/*res*/ ctx[15]] != 0 && create_if_block_15(ctx);
+
+    	const block = {
+    		c: function create() {
+    			if (if_block) if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if (if_block) if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			if (/*res*/ ctx[15] != "time" && /*attack*/ ctx[12].cost[/*res*/ ctx[15]] != 0) {
+    				if (if_block) {
+    					if_block.p(ctx, dirty);
+    					transition_in(if_block, 1);
+    				} else {
+    					if_block = create_if_block_15(ctx);
+    					if_block.c();
+    					transition_in(if_block, 1);
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			} else if (if_block) {
+    				group_outros();
+
+    				transition_out(if_block, 1, 1, () => {
+    					if_block = null;
+    				});
+
+    				check_outros();
+    			}
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(if_block);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(if_block);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if (if_block) if_block.d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block_4.name,
+    		type: "each",
+    		source: "(117:20) {#each Object.keys(attack.cost) as res}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (129:18) {#if 'damage' in attack || 'damageType' in attack}
     function create_if_block_12(ctx) {
     	let nobr;
 
@@ -13483,10 +13424,10 @@ var app = (function () {
     			t9 = space();
     			if (if_block) if_block.c();
     			if_block_anchor = empty();
-    			add_location(em, file$9, 133, 22, 4554);
-    			add_location(small, file$9, 134, 22, 4607);
-    			add_location(nobr, file$9, 131, 20, 4447);
-    			add_location(br, file$9, 140, 20, 4930);
+    			add_location(em, file$9, 131, 22, 4420);
+    			add_location(small, file$9, 132, 22, 4473);
+    			add_location(nobr, file$9, 129, 20, 4313);
+    			add_location(br, file$9, 138, 20, 4796);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, nobr, anchor);
@@ -13572,14 +13513,14 @@ var app = (function () {
     		block,
     		id: create_if_block_12.name,
     		type: "if",
-    		source: "(131:18) {#if 'damage' in attack || 'damageType' in attack}",
+    		source: "(129:18) {#if 'damage' in attack || 'damageType' in attack}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (142:20) {#if attack.damageType}
+    // (140:20) {#if attack.damageType}
     function create_if_block_13(ctx) {
     	let current;
 
@@ -13621,14 +13562,14 @@ var app = (function () {
     		block,
     		id: create_if_block_13.name,
     		type: "if",
-    		source: "(142:20) {#if attack.damageType}",
+    		source: "(140:20) {#if attack.damageType}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (149:14) {#if attack.mode == 'ammo' && attack.alter}
+    // (147:14) {#if attack.mode == 'ammo' && attack.alter}
     function create_if_block_11(ctx) {
     	let current;
 
@@ -13668,7 +13609,7 @@ var app = (function () {
     		block,
     		id: create_if_block_11.name,
     		type: "if",
-    		source: "(149:14) {#if attack.mode == 'ammo' && attack.alter}",
+    		source: "(147:14) {#if attack.mode == 'ammo' && attack.alter}",
     		ctx
     	});
 
@@ -13708,8 +13649,8 @@ var app = (function () {
     			t1 = space();
     			if (if_block2) if_block2.c();
     			if_block2_anchor = empty();
-    			add_location(td, file$9, 129, 16, 4351);
-    			add_location(tr, file$9, 68, 14, 1849);
+    			add_location(td, file$9, 127, 16, 4217);
+    			add_location(tr, file$9, 68, 14, 1818);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
@@ -13821,7 +13762,7 @@ var app = (function () {
     	return block;
     }
 
-    // (153:12) {#if item.damageAlter && item.battleType != 2}
+    // (151:12) {#if item.damageAlter && item.battleType != 2}
     function create_if_block_10(ctx) {
     	let current;
 
@@ -13861,14 +13802,14 @@ var app = (function () {
     		block,
     		id: create_if_block_10.name,
     		type: "if",
-    		source: "(153:12) {#if item.damageAlter && item.battleType != 2}",
+    		source: "(151:12) {#if item.damageAlter && item.battleType != 2}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (166:2) {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(key)}
+    // (164:2) {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(key)}
     function create_if_block$6(ctx) {
     	let tr;
     	let t0;
@@ -13939,8 +13880,8 @@ var app = (function () {
     			if_block.c();
     			t1 = space();
     			attr_dev(td, "class", "right-column svelte-1lgzdls");
-    			add_location(td, file$9, 168, 6, 5718);
-    			add_location(tr, file$9, 166, 4, 5680);
+    			add_location(td, file$9, 166, 6, 5584);
+    			add_location(tr, file$9, 164, 4, 5546);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
@@ -14001,14 +13942,14 @@ var app = (function () {
     		block,
     		id: create_if_block$6.name,
     		type: "if",
-    		source: "(166:2) {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(key)}",
+    		source: "(164:2) {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(key)}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (201:8) {:else}
+    // (199:8) {:else}
     function create_else_block$3(ctx) {
     	let current;
 
@@ -14048,14 +13989,14 @@ var app = (function () {
     		block,
     		id: create_else_block$3.name,
     		type: "else",
-    		source: "(201:8) {:else}",
+    		source: "(199:8) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (196:62) 
+    // (194:62) 
     function create_if_block_7(ctx) {
     	let a;
     	let t0_value = /*prop*/ ctx[4] + "";
@@ -14074,11 +14015,11 @@ var app = (function () {
     			img = element("img");
     			set_style(a, "vertical-align", "top");
     			attr_dev(a, "href", a_href_value = rul.specialSprite(/*key*/ ctx[3], /*prop*/ ctx[4]));
-    			add_location(a, file$9, 196, 10, 6930);
+    			add_location(a, file$9, 194, 10, 6796);
     			attr_dev(img, "class", "sprite svelte-1lgzdls");
     			attr_dev(img, "alt", img_alt_value = /*prop*/ ctx[4]);
     			if (img.src !== (img_src_value = rul.specialSprite(/*key*/ ctx[3], /*prop*/ ctx[4]))) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$9, 199, 10, 7044);
+    			add_location(img, file$9, 197, 10, 6910);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -14114,14 +14055,14 @@ var app = (function () {
     		block,
     		id: create_if_block_7.name,
     		type: "if",
-    		source: "(196:62) ",
+    		source: "(194:62) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (191:40) 
+    // (189:40) 
     function create_if_block_6(ctx) {
     	let each_1_anchor;
     	let each_value_2 = soundsFrom(/*prop*/ ctx[4]);
@@ -14182,14 +14123,14 @@ var app = (function () {
     		block,
     		id: create_if_block_6.name,
     		type: "if",
-    		source: "(191:40) ",
+    		source: "(189:40) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (189:38) 
+    // (187:38) 
     function create_if_block_5(ctx) {
     	let t0_value = /*prop*/ ctx[4] + "";
     	let t0;
@@ -14225,14 +14166,14 @@ var app = (function () {
     		block,
     		id: create_if_block_5.name,
     		type: "if",
-    		source: "(189:38) ",
+    		source: "(187:38) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (187:60) 
+    // (185:60) 
     function create_if_block_4(ctx) {
     	let t_value = rul.damageTypeName(/*prop*/ ctx[4]) + "";
     	let t;
@@ -14258,14 +14199,14 @@ var app = (function () {
     		block,
     		id: create_if_block_4.name,
     		type: "if",
-    		source: "(187:60) ",
+    		source: "(185:60) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (185:130) 
+    // (183:130) 
     function create_if_block_3$1(ctx) {
     	let current;
 
@@ -14305,14 +14246,14 @@ var app = (function () {
     		block,
     		id: create_if_block_3$1.name,
     		type: "if",
-    		source: "(185:130) ",
+    		source: "(183:130) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (172:63) 
+    // (170:63) 
     function create_if_block_2$3(ctx) {
     	let table;
     	let current;
@@ -14336,7 +14277,7 @@ var app = (function () {
     			}
 
     			attr_dev(table, "class", "number-table");
-    			add_location(table, file$9, 172, 10, 5933);
+    			add_location(table, file$9, 170, 10, 5799);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, table, anchor);
@@ -14403,14 +14344,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2$3.name,
     		type: "if",
-    		source: "(172:63) ",
+    		source: "(170:63) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (170:8) {#if ['requiresBuyBaseFunc'].includes(key)}
+    // (168:8) {#if ['requiresBuyBaseFunc'].includes(key)}
     function create_if_block_1$3(ctx) {
     	let current;
 
@@ -14450,14 +14391,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1$3.name,
     		type: "if",
-    		source: "(170:8) {#if ['requiresBuyBaseFunc'].includes(key)}",
+    		source: "(168:8) {#if ['requiresBuyBaseFunc'].includes(key)}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (192:10) {#each soundsFrom(prop) as sound, i}
+    // (190:10) {#each soundsFrom(prop) as sound, i}
     function create_each_block_2(ctx) {
     	let html_tag;
     	let raw_value = (/*i*/ ctx[9] > 0 ? "<br/>" : "") + "";
@@ -14474,7 +14415,7 @@ var app = (function () {
     			html_tag = new HtmlTag(raw_value, t0);
     			audio.controls = true;
     			if (audio.src !== (audio_src_value = /*sound*/ ctx[10])) attr_dev(audio, "src", audio_src_value);
-    			add_location(audio, file$9, 193, 12, 6778);
+    			add_location(audio, file$9, 191, 12, 6644);
     		},
     		m: function mount(target, anchor) {
     			html_tag.m(target, anchor);
@@ -14498,14 +14439,14 @@ var app = (function () {
     		block,
     		id: create_each_block_2.name,
     		type: "each",
-    		source: "(192:10) {#each soundsFrom(prop) as sound, i}",
+    		source: "(190:10) {#each soundsFrom(prop) as sound, i}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (174:12) {#each Object.keys(prop) as field, i}
+    // (172:12) {#each Object.keys(prop) as field, i}
     function create_each_block_1(ctx) {
     	let tr;
     	let td0;
@@ -14532,10 +14473,10 @@ var app = (function () {
     			td1 = element("td");
     			create_component(link.$$.fragment);
     			t2 = space();
-    			add_location(em, file$9, 176, 18, 6074);
-    			add_location(td0, file$9, 175, 16, 6050);
-    			add_location(td1, file$9, 178, 16, 6137);
-    			add_location(tr, file$9, 174, 14, 6028);
+    			add_location(em, file$9, 174, 18, 5940);
+    			add_location(td0, file$9, 173, 16, 5916);
+    			add_location(td1, file$9, 176, 16, 6003);
+    			add_location(tr, file$9, 172, 14, 5894);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
@@ -14573,14 +14514,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(174:12) {#each Object.keys(prop) as field, i}",
+    		source: "(172:12) {#each Object.keys(prop) as field, i}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (163:0) {#each Object.entries(item).sort((a, b) =>    a[0] > b[0] ? 1 : -1  ) as [key, prop]}
+    // (161:0) {#each Object.entries(item).sort((a, b) =>    a[0] > b[0] ? 1 : -1  ) as [key, prop]}
     function create_each_block$6(ctx) {
     	let show_if = !["sprite", "type", "_attacks", "damageAlter"].includes(/*key*/ ctx[3]);
     	let if_block_anchor;
@@ -14639,7 +14580,7 @@ var app = (function () {
     		block,
     		id: create_each_block$6.name,
     		type: "each",
-    		source: "(163:0) {#each Object.entries(item).sort((a, b) =>    a[0] > b[0] ? 1 : -1  ) as [key, prop]}",
+    		source: "(161:0) {#each Object.entries(item).sort((a, b) =>    a[0] > b[0] ? 1 : -1  ) as [key, prop]}",
     		ctx
     	});
 
@@ -14681,9 +14622,9 @@ var app = (function () {
 
     			each_1_anchor = empty();
     			attr_dev(td, "colspan", "2");
-    			add_location(td, file$9, 51, 2, 1240);
+    			add_location(td, file$9, 51, 2, 1209);
     			attr_dev(tr, "class", "table-header");
-    			add_location(tr, file$9, 50, 0, 1211);
+    			add_location(tr, file$9, 50, 0, 1180);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -14836,7 +14777,6 @@ var app = (function () {
     				if (item.compatibleAmmo) for (let ammoId of item.compatibleAmmo) {
     					let ammo = rul.items[ammoId];
     					let ammoAttack = ammo.attacks()[0];
-    					ammoAttack.item = ammo;
     					attacks.push(ammoAttack);
     				}
 

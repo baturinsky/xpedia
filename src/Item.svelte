@@ -20,11 +20,11 @@
 
   $: {
     attacks = item.attacks().slice();
+
     if (item.compatibleAmmo)
       for (let ammoId of item.compatibleAmmo) {
         let ammo = rul.items[ammoId];
         let ammoAttack = ammo.attacks()[0];
-        ammoAttack.item = ammo;
         attacks.push(ammoAttack);
       }
 
@@ -68,24 +68,22 @@
             {#each attacks as attack}
               <tr>
                 {#if attack.mode == 'ammo'}
-                  {#if item.battleType != 2}
-                    <td class="ammo-img">
-                      <CanvasImage
-                        src={rul.sprite(attack.item.sprite)}
-                        maxWidth={32 * attack.item.invWidth}
-                        maxHeight={32 * attack.item.invHeight}
-                        zoom="2" />
-                      <!--<img class="sprite" use:ammoSprite style="position:relative;" alt="X" src={rul.sprite(attack.item.sprite)}/>-->
-                    </td>
-                    <td colspan="2">
-                      <Link href={attack.item.type} />
-                      <br />
-                      <small>
-                        {rul.str('Shots')}: {attack.item.clipSize}
-                        {rul.str('Wgt')}: {attack.item.weight}
-                      </small>
-                    </td>
-                  {/if}
+                  <td class="ammo-img">
+                    <CanvasImage
+                      src={rul.sprite(attack.item.sprite)}
+                      maxWidth={32 * attack.item.invWidth}
+                      maxHeight={32 * attack.item.invHeight}
+                      zoom="2" />
+                    <!--<img class="sprite" use:ammoSprite style="position:relative;" alt="X" src={rul.sprite(attack.item.sprite)}/>-->
+                  </td>
+                  <td colspan="2">
+                    <Link href={attack.item.type} />
+                    <br />
+                    <small>
+                      {rul.str('Shots')}: {attack.item.clipSize}
+                      {rul.str('Wgt')}: {attack.item.weight}
+                    </small>
+                  </td>
                 {:else}
                   <td>
                     {rul.str(attack.name)}{attack.shots == 1 ? '' : '×' + attack.shots}

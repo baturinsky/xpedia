@@ -64,7 +64,9 @@
         zoom="2" 
         />
     {/if}
-    {@html textwithHighlights}
+    <span>
+      {@html textwithHighlights}
+    </span>
   </div>
 {/if}
 

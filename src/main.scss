@@ -134,11 +134,16 @@ h4 {
   background: rgba(0, 0, 0, 0) !important;
 }
 
-.article-text {
-  max-width: 60rem;
+.article-text{
+  max-width: 53rem;
   display: flex;
   flex-direction: row;
 }
+
+.article-text span{
+  min-width: 0;
+}
+
 
 .flex-horisontal {
   display: flex;

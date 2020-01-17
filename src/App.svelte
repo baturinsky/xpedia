@@ -85,12 +85,6 @@
     }
   }
 
-  document.addEventListener("keydown", event => {
-    const keyName = event.key;
-    if (keyName == "ArrowRight") nextArticle(1);
-    if (keyName == "ArrowLeft") nextArticle(-1);
-  });
-
   function searchKeyUp(e) {
     if (searchDelayHandle) clearTimeout(searchDelayHandle);
 
@@ -130,6 +124,13 @@
     sortArticles
       ? articles.slice().sort((a, b) => (a.title > b.title ? 1 : -1))
       : articles;
+
+  document.addEventListener("keydown", event => {
+    const keyName = event.key;
+    if (keyName == "ArrowRight") nextArticle(1);
+    if (keyName == "ArrowLeft") nextArticle(-1);
+  });
+
 
   window.addEventListener("mousemove", async e => {
     if (tooltip) {

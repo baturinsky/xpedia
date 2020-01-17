@@ -1,15 +1,18 @@
 <script>
-  export let src;
+  import { rul } from "./Ruleset";
+  export let src = null;
   export let maxWidth = 1e6;
   export let maxHeight = 1e6;
   export let zoom = 1;
+  export let item = null;
 
   let canvas;
   let ctx;
   let img = null;
-  let loaded = false
+  let loaded = false;
 
   function updateImage() {
+
     canvas.width = Math.min(maxWidth, img.naturalWidth * zoom);
     canvas.height = Math.min(maxHeight, img.naturalHeight * zoom);
     ctx.imageSmoothingEnabled = false;
@@ -28,7 +31,14 @@
   }
 
   $: {
-    if (src && img) {      
+    if (item) {
+      console.log(item);
+      src = rul.sprite(item.sprite);
+      maxWidth = 32 * item.invWidth;
+      maxHeight = 32 * item.invHeight;
+    }
+
+    if (src && img) {
       loaded = false;
       img.src = src;
     }
@@ -36,5 +46,9 @@
 </script>
 
 <a href={src} class="canvas-image">
-<canvas class="pixelated" style="display:{loaded?'inline':'none'}" bind:this={canvas} use:prepareCanvas />
+  <canvas
+    class="pixelated"
+    style="display:{loaded ? 'inline' : 'none'}"
+    bind:this={canvas}
+    use:prepareCanvas />
 </a>

@@ -13,6 +13,7 @@
   import Facility from "./Facility.svelte";
   import BaseService from "./BaseService.svelte";
   import BaseServices from "./BaseServices.svelte";
+  import CanvasImage from "./CanvasImage.svelte";
   import { Link, LinksPage, Value, LinksList } from "./Components";
 
   import { createEventDispatcher } from "svelte";
@@ -57,6 +58,12 @@
 
 {#if textwithHighlights}
   <div class="article-text">
+    {#if article.id in rul.items}
+      <CanvasImage
+        item={rul.items[article.id]}
+        zoom="2" 
+        />
+    {/if}
     {@html textwithHighlights}
   </div>
 {/if}
@@ -72,19 +79,16 @@
 {/if}
 
 <div class="flex-horisontal">
-  <svelte:component this={other} {query} />
+  <svelte:component this={other} {query} />  
 
-  <div class="flex-vertical">
-    <table class="main-table">
-      {#if article.id in rul.units}
-        <Unit unit={rul.units[article.id]} />
-      {/if}
-
-      {#if article.id in rul.items}
-        <Item item={rul.items[article.id]} />
-      {/if}
-    </table>
-  </div>
+  <table class="main-table">
+    {#if article.id in rul.units}
+      <Unit unit={rul.units[article.id]} />
+    {/if}
+    {#if article.id in rul.items}
+      <Item item={rul.items[article.id]} />
+    {/if}
+  </table>
 
   {#if article.id in rul.armors}
     <Armor armor={rul.armors[article.id]} />

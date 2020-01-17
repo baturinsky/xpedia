@@ -5,8 +5,8 @@
   import CanvasImage from "./CanvasImage.svelte";
   import BaseServiceList from "./BaseServiceList.svelte";
   import Value from "./Value.svelte";
-  import AlterList from "./AlterList.svelte"
-  import TableKey from "./TableKey.svelte"
+  import AlterList from "./AlterList.svelte";
+  import TableKey from "./TableKey.svelte";
 
   export let item;
   export let title = rul.str("Item");
@@ -53,13 +53,8 @@
 </tr>
 {#if (item.sprite && item.sprite != 'Resources/Blanks/Blank.png') || attacks.length > 0}
   <tr>
-    <td colspan="2">
-      <div style="display: flex; align-items: flex-start; margin: 5px 3px;">
-        <CanvasImage
-          src={rul.sprite(item.sprite)}
-          maxWidth={32 * item.invWidth}
-          maxHeight={32 * item.invHeight}
-          zoom="2" />
+    <td colspan="2" class="td-attacks-table">
+      <div>
         {#if attacks.length > 0}
           <table class="attacks-table">
             <thead>
@@ -170,7 +165,7 @@
 ) as [key, prop]}
   {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(key)}
     <tr>
-      <TableKey key={key}/>
+      <TableKey {key} />
       <td class="right-column">
         {#if ['requiresBuyBaseFunc'].includes(key)}
           <BaseServiceList items={prop} vertical={true} />

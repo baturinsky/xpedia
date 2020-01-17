@@ -28,6 +28,8 @@ body {
 
 * {
   text-size-adjust: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -41,18 +43,23 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+/*
 .main-table > tr:nth-child(odd) {
   background: $table-light;
 }
 
 .main-table > tr:nth-child(even) {
   background: $table-dark;
+}*/
+
+.main-table > tr > td {
+  border-bottom: solid 0.3px $lighter;
 }
 
 .main-table {
   border: solid 0.3px $border-color;
   border-collapse: collapse;
-  margin: 0;
+  margin: 0.1rem;
 }
 
 .main-table td {
@@ -128,7 +135,9 @@ h4 {
 }
 
 .article-text {
-  max-width: 80rem;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .flex-horisontal {
@@ -137,10 +146,6 @@ h4 {
   align-items: stretch;
   justify-content: flex-start;
   flex-wrap: wrap;
-}
-
-.flex-horisontal > * {
-  margin: 1px;
 }
 
 .flex-vertical {
@@ -235,19 +240,38 @@ audio {
   width: 300px;
 }
 
+.td-attacks-table {
+  padding: 0 !important;  
+}
+
+.td-attacks-table > div {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
+
 .attacks-table {
   border-spacing: 0;
   border-collapse: collapse;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .attacks-table td {
-  border: solid 0.3px $lighter;
+  border-top: solid 0.3px $lighter;
+  border-right: solid 0.1px $lighter;
   vertical-align: top;
   padding: 0.2rem;
+  text-align: center;
+}
+
+.attacks-table tr td:last-child,
+.attacks-table tr thead:last-child {
+  border-right: 0;
 }
 
 .attacks-table thead {
-  background: $lighter;
   white-space: nowrap;
 }
 
@@ -373,13 +397,12 @@ button {
   list-style-position: outside;
 }
 
-.links-page a{
-  white-space: normal;  
+.links-page a {
+  white-space: normal;
   overflow-x: hidden;
   max-width: 13rem;
   display: block;
 }
-
 
 .links-page-header {
   text-align: center;
@@ -757,16 +780,20 @@ ol {
   html {
     font-size: 70%;
   }
-
 }
 
 @media screen and (max-width: 1600px) {
-  .illustration img{
-    width:320px;
+  .illustration img {
+    width: 320px;
   }
 }
 
-img.facility, img.craft{
-  height:64px;
-  width:64px;
+img.facility,
+img.craft {
+  height: 64px;
+  width: 64px;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
 }

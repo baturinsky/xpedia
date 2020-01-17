@@ -345,7 +345,7 @@ export class Attack {
 
     if (!exists) return null;
 
-    if (item.type == "STR_MASTERS_CANE") {
+    if (item.type == "STR_THROWING_HAMMER") {
       console.log(item);
       console.log(mode);
     }
@@ -426,7 +426,7 @@ export class Attack {
     }
 
     this.range =
-      item[mode + "Range"] ||
+      item[mode + "Range"] || item[mode.substr(0,3) + "Range"] ||
       (this.alter && this.alter.range) ||
       defaultRange[mode];
 

@@ -319,10 +319,10 @@ export class Attack {
   flatTime = false;
   damage: number;
   damageBonus: { [key: string]: number };
-  damageType: number;
+  damageType: string;
   accuracy: number;
   accuracyMultiplier: { [key: string]: number };
-  alter: { [key: string]: number };
+  alter: { [key: string]: string };
   shots: number = 1;
   range: number;
   pellets: number = 1;
@@ -423,6 +423,11 @@ export class Attack {
     if (mode + "Range" in item) {
       this.alter = Object.assign({}, this.alter || {});
       this.alter.range = item[mode + "Range"];
+    }
+
+    for(let k in this.alter){
+      if(k == "damageType" || k == "ResistType")
+        this.alter[k] = rul.damageTypes[this.alter[k]];
     }
 
     this.range =
@@ -593,10 +598,10 @@ export class Item {
   bigSprite: string;
   meleePower: number;
   meleeBonus: any;
-  meleeType: number;
+  meleeType: string;
   power: number;
   damageBonus: any;
-  damageType: number;
+  damageType: string;
   shotgunPellets: number;
   meleeAlter: any;
   damageAlter: any;
@@ -653,7 +658,7 @@ export class Item {
         let attack = new Attack(this, mode);
         if (attack.possible) {
           this._attacks.push(attack);
-          if (!isNaN(+attack.damageType))
+          if (attack.damageType)
             this.addCategory("dmg=" + rul.damageTypes[attack.damageType]);
           if (attack.damageBonus) {
             for (let k in attack.damageBonus) this.addCategory("dmg*" + k);

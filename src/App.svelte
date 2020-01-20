@@ -134,12 +134,17 @@
 
   window.addEventListener("mousemove", async e => {
     if (tooltip) {
-      if (e.target.attributes.tooltip) {
+      let el = e.target;
+      while (el && el.attributes && !el.attributes.tooltip) 
+        el = el.parentNode;
+      
+      if (el && el.attributes) {
+        let idattr = el.attributes.tooltip;
         let rect = e.target.getBoundingClientRect();
         tooltip.style.left = rect.left + rect.width/2 + "px";
         tooltip.style.top = rect.top + "px";
-        let t = e.target.attributes.tooltip.value;
-        toggleTooltip(t in rul.lang && !e.shiftKey ? rul.lang[t]:t.substr(4));
+        let id = idattr.value;
+        toggleTooltip(id in rul.lang && !e.shiftKey ? rul.lang[id]:id.substr(4));
       } else {
         toggleTooltip(null)
       }

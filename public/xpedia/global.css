@@ -26,6 +26,11 @@ body {
   margin: 0;
   padding: 0; }
 
+nobr {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid; }
+
 a {
   color: #90ee90;
   text-decoration: none;
@@ -44,7 +49,7 @@ a:hover {
   background: $table-dark;
 }*/
 .main-table > tr > td {
-  border-bottom: solid 0.3px #382c44; }
+  border-top: solid 0.3px #382c44; }
 
 .main-table {
   border: solid 0.3px #441c58;
@@ -75,7 +80,7 @@ a:hover {
   padding-left: 0px; }
 
 .number-table-header {
-  border-bottom: solid 0.3px #441c58; }
+  border-top: solid 0.3px #441c58; }
 
 .number-table-header td:first-child {
   text-align: center; }
@@ -90,21 +95,11 @@ h4 {
   margin: 10px 0px;
   color: #aaffff; }
 
-.table-header {
-  color: #66ffff;
-  text-align: center;
-  font-size: larger;
-  background-color: #382c44 !important;
-  padding-bottom: 0.2rem; }
-
 .table-subheader {
   color: white;
   text-align: center;
   background-color: #382c44;
   margin: 0.3rem 0rem; }
-
-.subtable {
-  background: rgba(0, 0, 0, 0) !important; }
 
 .article-text {
   max-width: 53rem;
@@ -206,11 +201,8 @@ img {
   margin: 0px 5px; }
 
 audio {
-  height: 20px;
-  width: 300px; }
-
-.td-attacks-table {
-  padding: 0 !important; }
+  height: 1rem;
+  width: 20rem; }
 
 .td-attacks-table > div {
   display: flex;
@@ -225,7 +217,7 @@ audio {
   padding: 0; }
 
 .attacks-table td {
-  border-top: solid 0.3px #382c44;
+  border-top: solid 1px #441c58;
   border-right: solid 0.1px #382c44;
   vertical-align: top;
   padding: 0.2rem;
@@ -648,9 +640,6 @@ ol {
   padding: 0;
   margin: 0; }
 
-.attack-alter {
-  columns: 2; }
-
 @media screen and (max-width: 700px) {
   .on-wide {
     display: none; }
@@ -673,3 +662,31 @@ img.craft {
 
 .nowrap {
   flex-wrap: nowrap; }
+
+.wikitable {
+  border-collapse: collapse; }
+
+.wikitable tr {
+  border: solid 0.3px #441c58; }
+
+.wikitable td {
+  padding: 0.5rem; }
+
+.table-header {
+  color: #66ffff;
+  text-align: center;
+  font-size: larger;
+  background-color: #382c44;
+  padding-bottom: 0.2rem; }
+
+.subtable {
+  background: rgba(0, 0, 0, 0); }
+
+td.td-attacks-table {
+  padding: 0; }
+
+.attack-alter {
+  columns: 2; }
+
+td.attack-alter {
+  border-top: dotted 0.3px #382c44; }

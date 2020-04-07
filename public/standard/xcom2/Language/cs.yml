@@ -75,7 +75,7 @@ cs:
   STR_PURCHASE_RECRUIT: "NÁKUP / NÁBOR"
   STR_SACK: "PROPUŠTĚNÍ"
   STR_SELL_SACK_UC: "PRODEJ / PROPUŠTĚNÍ"
-  STR_GEOSCAPE_UC: "GLOBUS"
+  STR_GEOSCAPE_UC: "GLÓBUS"
   STR_NAME: "Jméno"
   STR_AREA: "Oblast"
   STR_BUILD_NEW_BASE: "Postavit novou základnu"

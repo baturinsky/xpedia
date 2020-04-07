@@ -9,6 +9,7 @@
   import TableKey from "./TableKey.svelte";
 
   export let item;
+  export let text = "";
   export let title = rul.str("Item");
   let attacks;
 
@@ -54,11 +55,22 @@
 {#if (item.sprite && item.sprite != 'Resources/Blanks/Blank.png') || attacks.length > 0}
   <tr>
     <td colspan="2" class="td-attacks-table">
+      <div class="row">
+        <div style="vertical-align:middle;">
+          <CanvasImage {item} zoom="2" />
+        </div>
+        <span style="padding:1rem;">
+          {@html text}
+        </span>
+      </div>
+
       <div>
         {#if attacks.length > 0}
           <table class="attacks-table">
             <thead>
-              {#if item.battleType != 2}
+              {#if item.battleType == 2}
+                <td colspan="3" />
+              {:else}
                 <td>{rul.str('mode')}</td>
                 <td>{rul.str('accuracy')}</td>
                 <td>{rul.str('cost')}</td>
@@ -154,6 +166,7 @@
           </table>
         {/if}
       </div>
+
     </td>
   </tr>
 {/if}

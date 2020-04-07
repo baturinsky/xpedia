@@ -224,7 +224,6 @@ soldierTransformation:
       - STR_SOLDIER_S
       - STR_SOLDIER_M
       - STR_SOLDIER_V
-      - STR_SOLDIER_X
       - STR_SOLDIER_W
       - STR_SOLDIER_GNOME
     forbiddenPreviousTransformations:
@@ -260,7 +259,6 @@ soldierTransformation:
       - STR_SOLDIER_S
       - STR_SOLDIER_M
       - STR_SOLDIER_V
-      - STR_SOLDIER_X
       - STR_SOLDIER_R
       - STR_SOLDIER_W
       - STR_SOLDIER_PEASANT
@@ -291,6 +289,52 @@ soldierTransformation:
     lowerBoundAtMinStats: true
     upperBoundAtMaxStats: false
     upperBoundAtStatCaps: true
+  - name: STR_ANG_103
+    requires:
+      - STR_ANG_103
+    reset: false
+    keepSoldierArmor: false
+    createsClone: false
+    needsCorpseRecovered: true
+    allowsDeadSoldiers: true
+    allowsLiveSoldiers: false
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_SOLDIER_S
+      - STR_SOLDIER_M
+      - STR_SOLDIER_V
+      - STR_SOLDIER_X
+      - STR_SOLDIER_R
+      - STR_SOLDIER_W
+      - STR_SOLDIER_SLAVE
+      - STR_SOLDIER_HERO
+      - STR_SOLDIER_PEASANT
+      - STR_SOLDIER_HYBRID
+      - STR_SOLDIER_LOKNAR
+      - STR_SOLDIER_GNOME
+    requiredMinStats:
+      bravery: 70
+      reactions: 60
+      psiStrength: 50
+    cost: 20000
+    requiredItems:
+      STR_SIVALINGA: 1
+    percentGainedStatChange:
+      tu: -10
+      stamina: -10
+      health: -10
+      bravery: 0
+      reactions: -10
+      firing: -10
+      throwing: -10
+      strength: -10
+      psiStrength: 0
+      psiSkill: -10
+      melee: -10
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
   - name: STR_SPECTRE_SUMMONING
     requires:
       - STR_SPECTRE_SUMMONING

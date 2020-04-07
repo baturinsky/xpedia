@@ -9,7 +9,7 @@ ru:
   STR_AVATAR_NAME_8: "#08 Ангелина"
   STR_PSI_SHORT: "М.К.>{ALT}{0}/{1}"
   STR_EVASIVE_MANEUVERS: "УКЛОНЕНИЕ"
-  STR_UFO_HAS_LANDED: "НПО лег на дно в{NEWLINE}{0}"
+  STR_UFO_HAS_LANDED: "НПО лег на дно. Место - {NEWLINE}{0}"
   GMGEO1: "Трек #1 в страт. режиме"
   GMGEO2: "Трек #2 в страт. режиме"
   GMGEO3: "Трек #3 в страт. режиме"

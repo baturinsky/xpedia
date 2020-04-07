@@ -11,7 +11,7 @@
 </script>
 
 <table class="main-table">
-  <tr> <td colspan="2" class="table-header">Craft</td> </tr>
+  <tr class="table-header"> <td colspan="2">Craft</td> </tr>
   {#each Object.entries(ufo).sort((a, b) => (a[0] > b[0] ? 1 : -1)) as [key, prop]}
     {#if !['type', 'battlescapeTerrainData', 'craftInventoryTile', 'deployment'].includes(key)}
       <tr>

@@ -5,6 +5,7 @@ de:
   STR_FRANCE: "EUROSYNDIKAT"
   STR_GERMANY: "SCHWARZMARK"
   STR_ITALY: "ROMANIEN"
+  STR_SPAIN: "Nördliche Föderation"
   STR_CHINA: "ZENTRALPROVINZ"
   STR_JAPAN: "FUSO"
   STR_INDIA: "GEISTERTORE"
@@ -88,6 +89,7 @@ de:
   REGION_WORLD_BANDIT: "Weltweit"
   REGION_WORLD_MARSEC: "Global"
   REGION_WORLD_NECRO: "Weltweit"
+  REGION_WORLD_RUFFIANS: "Weltweit"
   STR_AGGRESSIVERETALIATION_DESC: "UFOs versuchen unabhängig von ihren Missionsparametern jederzeit, Ihre Basen zu erkennen."
   STR_STORAGELIMITSENFORCED_DESC: "[YARR !!!] Erzwingt die Eindämmung von Aliens und erweitert die Lagergrenzen für lebende Aliens und Artefakte, die aus Missionen geborgen wurden."
   STR_CANSELLLIVEALIENS_DESC: "[YARR !!!] Ermöglicht den Verkauf lebender Aliens, empfohlen bei Überfüllung der Lager."
@@ -109,19 +111,12 @@ de:
   STR_MEDIUM_SCOUT_UFOPEDIA: "Ein kleines, nicht kämpfendes Schiff, das nur eine geringe Bedrohung für Ihr Schiff darstellt. Wird von Akademikern und Händlern in den meisten Missionen verwendet. Die Besatzung besteht aus 5 bis 10 Mitgliedern, die Hälfte davon Zivilisten.{NEWLINE}Max DPM: 39"
   STR_LARGE_SCOUT_UFOPEDIA: "Ein Allzweckschiff, das von Akademikern und Händlern für anspruchsvollere Missionen eingesetzt wird. Es kann eine Besatzung von 7 bis 19 Personen aufnehmen, immer mit einem Ingenieur. Größtenteils harmlos.{NEWLINE}Max DPM: 52"
   STR_HARVESTER_UFOPEDIA: "Das sogenannte Schrein-Schiff ist das Hauptschiff der Kirche, das manchmal von einem Pfarrer oder Kardinal kommandiert wird. Es kann eine Besatzung von nur 11 bis hin zu 31 Personen aufnehmen, die mit Laserwaffen und Flammenwerfern bewaffnet sind.{NEWLINE}ARMOR: 10; SHIELDS: 200 (Reg x1); Max DPM: 172"
-  STR_ABDUCTOR_UFOPEDIA: "Obwohl es nicht wirklich ein Kriegsschiff ist, repräsentiert dieses Schiff ein Elite-Level der Technologie und hält eine Elite-Crew, so ist es besser nicht zu unterschätzen. Es wird normalerweise für spezielle Missionen verwendet.{NEWLINE}SHIELDS: 500 (Reg x3); Max DPM: 164"
   STR_TERROR_SHIP_UFOPEDIA: "Dies ist nur ein großes Landungsschiff. Seine Waffen sind vielleicht nicht die mächtigsten, aber es ist gepanzert und kann eine Menge einstecken. Allerdings wird es eine Menge Schande bringen, wenn man es abschießt.{NEWLINE}ARMOR: 5; Max DPM: 156"
-  STR_BATTLESHIP_UFOPEDIA: "Der Kreuzer gehört zu den größten und leistungsstärksten Schiffen, die es gibt, und ist mit dem am besten ausgestatteten Personal besetzt. Um es noch schlimmer zu machen, wurde es mit Blick auf Boarding-Aktionen entwickelt und kann benutzt werden, um unsere Verstecke direkt anzugreifen.{NEWLINE}ARMOR: 25; Max DPM: 272"
-  STR_SUPPLY_SHIP_UFOPEDIA: "Versorgungsschiffe werden benutzt, um regelmäßige Versorgungsflüge zu gegnerischen Geheimbasen zu fliegen. Sie können dabei leicht am Boden angegriffen werden, aber seien Sie gewarnt - die empfindliche Ausrüstung, die sie tragen, soll nicht in feindliche Hände fallen, so dass das Selbstzerstörungssystem den Energiekern nach etwa 20 Runden explodiert lässt und das Schiff verdampft. Die Plasmaentlüftung warnt vor der bevorstehenden Explosion."
-  STR_ACCESS_LIFT_UFOPEDIA: "Der Aufzug ist immer die erste Anlage, die in einem neuen Versteck gebaut wird. Hier eine einfache Vermutung, darüber was er macht: OK, er ermöglicht den Zugang - sowohl für willkommene als auch für unwillkommene Gäste. Besonders die unhöfliche Art, die, wenn man die Türklingel ignoriert, die Tür sprengt. Er kann jedoch nicht vollständig abgesichert werden, da wir den Verkehr von Arbeitern und Sklaven brauchen, die über der Erde leben."
+  STR_SUPPLY_SHIP_UFOPEDIA: "Versorgungsschiffe werden genutzt um feindliche Geheimbasen mit Nachschub zu versorgen. Sie sind schnell und schwer zu erwischen, transportieren aber gute Beute (vor allem Hellerium) und haben eine eher kleine Wachmannschaft."
   STR_CORRIDOR_UFOPEDIA: "Eine einfache Kreuzung mit einer Mittelkammer kann gebaut werden, um entlegene Teile eines Verstecks mit der Rohrleitung und dem Stromnetz zu verbinden. Es sperrt auch die Abwasserkanäle ab und macht sie für Feinde unpassierbar. Die Ausstattung besteht aus einer Sicherheitskamera. Um mehr Korridore zu bauen, müssen wir was über Elektrik und Elektronik lernen."
   STR_FIRE_PIT_UFOPEDIA: "Wer sorglos in diesen scheinbar normalen Korridor schlendert, löst in seinen Wänden versteckte Brandbomben aus. Selbst wenn sie den Eindringling nicht rösten, lassen sie ihn zumindest einen Moment innehalten. Warnung: Die Sicherungen sind nicht unfehlbar und können manchmal nicht sofort aktiviert werden."
   STR_GAS_CHAMBER_UFOPEDIA: "Dieser Raum ist mit versteckten Bomben ausgestattet, die mächtiges Schlafgas freisetzen, wenn jemand in der Nähe ist. Gefangene zu fangen war noch nie so einfach, es sei denn, sie tragen Gasmasken."
-  STR_HYDROPONICS_UFOPEDIA: "Mit Hilfe örtlicher Bauern und einem Verständnis des Ökosystems in unserem Versteck haben wir einen Weg um unterirdisch Pflanzen für Zehrung und Profit anzubauen. Die bekannte Zonen-Pflanze Über-Weizen ist eine ideale Nutzpflanze, die schnell auf unserer Hellerium-Brühe wächst und uns soit monatlich 120k$ einbringt. Der gemeine Über-Weizen hat viele Verwendungen: man kann Alkohol draus brauen, man kann mutierte Schnitter damit füttern (und mutieren), Überbrot draus backen und alle Arten von Backwerk! Das Mehl ist außerdem echt hochexplosiv. Vielleicht lernen wir in der Zukunft noch forschrittlichere Formen des Ackerbaus..."
-  STR_HYDROPONICS_WEED_HARVEST_UFOPEDIA: "Automatische Beleuchtung und -wässerung erlaubt (ergrast?) uns eine notorisch schwierige aber sehr nützliche Pflanze zu meistern: das Sectogras. Ackerbau is nix für Dumpfköpfe und bedarf der Befolgung bestimmter Zwischenschritte: {NEWLINE}1) Sektogras Plantage bauen, das kostet 12 Sectogras. Es kann frisch gebaut werden oder über eine bestehende Plantage, letzteres spart uns $80k.{NEWLINE}2) Wenn fertig, 'Abreißen' um Wasser und Licht zu verändern und die zweite Phase des Wachstums einzuleiten. Das kostet $40k.{NEWLINE}3) Wenn voll ausgewachsen, wieder 'Abreißen' um zu ernten (kostet $5k). Dies bringt uns 240 Sectogras und lässt eine normale Plantage über."
   STR_HYDROPONICS_BOOM_HARVEST_UFOPEDIA: "Bumms-Frucht anzubauen ist 'ne Herausforderung, wenn wir nicht die ganze Bude hochjagen wollen. Das heißt: Höhere Kosten und stärkere Wände.{NEWLINE}1)Bau die Bumms-Plantage, diese bedarf 10 Bumms-Früchte & 10 Hellerium. Es kann frisch ausgebuddelt oder über eine alte Plantage gebaut werden, das letztere ist 80k $ billiger.{NEWLINE}2)Wenn fertig, 'Abreißen'. Wie gehabt. 50k $ Kosten. {NEWLINE}3)Wenn ausgewachsen, wieder 'Abreißen' (um zu ernten). Kostet 10k$, gibt uns 100 Bummsfrüchte und eine normale Plantage."
-  STR_LIBRARY_UFOPEDIA: "In dieser luxuriösen Einrichtung werden alle Arten von Büchern, Zeitschriften, Romantik, Abenteuer, Erotik, Kristallen und Elektronik, und gelegentlich auch geheimnisvolle Arbeiten aufbewahrt. Es kann als Arbeitsplatz für einen einzelnen Denker dienen, aber was noch wichtiger ist, es ist absolut notwendig für einige der ausgefalleneren Forschungs- und Herstellungsprojekte. Gute Bücher sind jedoch schwer zu finden und extrem teuer, daher ist die Einrichtung eines solchen Ortes ein großer Aufwand (eine Verschwendung von Geld, würden manche sagen)."
-  STR_MESS_HALL_UFOPEDIA: "Kein Versteck ist komplett ohne diese Einrichtung! Es serviert frische Getränke aus der Brennerei (erfordert eine um zu funktionieren), was die Heilungsrate unserer Handlanger leicht erhöht (besonders bei denen mit hoher Gesundheit). Es bietet auch ein Kulturzentrum, ein geeignetes Forum für öffentliche Diskussionen (wir sind also nicht mehr auf den Hangar beschränkt!) und einen Arbeitsraum für 1 Denker; ohne sie sind viele kulturelle Fortschritte und einige Missionschancen unmöglich zu erforschen. Pro Versteck kann nur eine einzige Messehalle gebaut werden."
   STR_MED_BAY_UFOPEDIA: "Eine Allgemeinmedizinische Einrichtung, die die Wundheilung aller Handlanger in einem Versteck beschleunigt - zu einem Preis. Durch die Heilung von zusätzlichen 0,5 HP pro Tag wird die Ausfallzeit um ein Drittel reduziert. Ihre Handlanger mögen sich darüber beschweren, dass die Genesung überstürzt ist, aber sie werden, im Gegensatz zu den alten müden Gesichter in der Schlafbaracke, nicht über die Gesellschaft der Krankenschwestern spotten. Nur eine einzige Krankenstation kann pro Versteck gebaut werden, aber der Gesundheitsbonus stapelt sich mit allen Boni, die von ähnlichen Einrichtungen bereitgestellt werden (als ob wir etwas darüber wüssten, ho, ho). Gibt Arbeit für einen einzelnen, sehr eifrigen Denker.{NEWLINE}Für den Bau dieser Einrichtung werden 10 medizinische Verbrauchsmaterialien benötigt."
   STR_SURGERY_ROOM_UFOPEDIA: "Dies benötigt eine vorhandene Bibliothek um zu operieren. Beachten Sie die doppelte Bedeutung des Wortes, ha, ha. Jedenfalls, verschiedene chirurgische Eingriffe erfordern eine solche spezialisierte Umgebung, die es allen Verwundeten ermöglicht, zusätzliche 0,25 HP plus 1 % der Max HP des Soldaten zu genesen, wodurch sich die Erholungszeiten fast halbieren. Diese Einrichtung beherbergt auch 2 Denker. Pro Versteck ist nur ein einziger Operationssaal erlaubt.{NEWLINE}Der Bau dieser Einrichtung erfordert 3 Chirurgie-Einheiten."
   STR_CLONING_CENTRE_UFOPEDIA: "Dieses Gebäude wird es uns ermöglichen, alle Arten von Lebewesen zu züchten, von Organen bis hin zu ganzen Organismen. Selbst wenn wir noch keine Kreaturen erfunden haben, wird es bei der medizinischen Versorgung helfen, und täglich 0,75 HP an alle vor Ort anwesenden Handlanger zurückgeben. Die Macht der Schöpfung liegt nun bei uns! Bis zu zehn Wichte können in dieser Einrichtung arbeiten, für deren Betrieb ein Operationssaal erforderlich ist. Pro Versteck ist nur ein einziges Klonzentrum erlaubt."
@@ -130,23 +125,9 @@ de:
   STR_REFINERY_UFOPEDIA: "Ermöglicht die Herstellung von Chemikalien und modernen chemischen Waffen. Bietet Platz für 10 Wichte und Laborplatz für 1 Denker. Benötigt einen Extraktor, der gebaut werden muss."
   STR_MINT_UFOPEDIA: "Bietet Werkzeuge zur Herstellung von Falschgeld. Wenn ihr es in einem Versteck habt, könnt ihr alle eure finanziellen Probleme so wie in der Händlergilde lösen strg+P, wie cool ist das? Bietet Platz für 10 Wichte.{NEWLINE}Für den Bau dieser Anlage ist ein Industriescanner erforderlich."
   STR_POWER_PLANT_UFOPEDIA: "Diese Anlage ist zwar recht teuer in der Anschaffung, wird aber sofort zu einem Geldverdiener, da sie für den Betrieb anderer Anlagen genutzt werden kann und überschüssiger Strom verkauft werden kann. Darüber hinaus benötigen wir diese Anlage für jeden Fertigungsprozess, der eine ungewöhnlich hohe Energiedichte erfordert.{NEWLINE}Für den Bau dieser Anlage werden 2 Schiffsmotoren benötigt."
-  STR_INDUSTRIAL_PRINTER_UFOPEDIA: "Dies ist eine werkstattartige Einrichtung. Es ist zwar weniger platzeffektiv als ein Äquivalent von 4 Werkstätten (bietet Platz für nur 100 Wichte), ist aber definitiv kosteneffektiver. Noch wichtiger ist, dass es die Herstellung von Gegenständen mit sehr komplizierter interner Struktur ermöglicht, insbesondere von fortschrittlichen Rüstungsanzügen.{NEWLINE} Für den Bau dieser Einrichtung sind 3 industrielle Scanner erforderlich."
-  STR_BURROW_UFOPEDIA: "Eine stilvolle (und luftige) allgemeine Höhlenwohnung. Kann bis zu 10 Personen aufnehmen, sowie 10 Tiere (gezähmt oder nicht). Außerdem bietet sie 25 Lagerplätze."
-  STR_BEAST_DEN_UFOPEDIA: "Eine große Höhle, in der bis zu 20 Bestien und 50 Lagereinheiten Platz finden. Einfach perfekt für diejenigen, die glauben, dass es keine bessere Versteck-Verteidigung als ein Bataillon von Hunden gibt."
-  STR_LIVING_QUARTERS_UFOPEDIA: "Hier leben wir, essen, erholen uns von Wunden und machen alle möglichen (besser ungesagten) Sachen, um die endlose Langeweile zu bekämpfen. Jeder Block kann bis zu 25 freie Personen aufnehmen, seien es Handlanger, Wichte oder Denker."
-  STR_LIVING_QUARTERS_SMALL_UFOPEDIA: "Kleine und billige Radaranlage mit 10 Kojen und 25 Stauraum, ideal für Rückzugsverstecke. Es ist eine preiswerte Variante mit einem Erkennungsradius von 650 Seemeilen, aber es kann jedes fliegende Objekt innerhalb dieses Radius mit einer 100% Genauigkeit (unter idealen Bedingungen...) erkennen, wobei Scans alle halbe Stunde scharf gemacht werden."
-  STR_LIVING_QUARTERS_LARGE_UFOPEDIA: "Wir haben eine größere und effizientere Version der Kaserne entwickelt, mit zusätzlichem Komfort (frisch vom Schrottplatz). Es bietet Platz für bis zu 135 Personen und verfügt über einen kleinen Stauraum (50 Plätze). Da dieser ganze Müll jedoch recht teuer ist, ist die Anlage nicht ganz billig.."
-  STR_LIVING_QUARTERS_ADVANCED_UFOPEDIA: "Diese hochmoderne Einrichtung ist umweltfreundlich und dank besserer Ergonomie und erstklassigem Komfort können wir 40 Personen hineinquetschen und ihnen trotzdem eine gute Nachtruhe gewähren - wenn sie das wollen. Es verfügt auch über eine auf dem Dach montierte defensive Laserkanone, sowie ein Aufspürradar. Dennoch ist es ratsam, die Bewohner so oft wie möglich zu Aktivitäten außerhalb der Kaserne zu schicken, damit sie sich bei Überfüllung nicht gegenseitig umbringen. Weiterhin +5 Lagerplätze."
-  STR_GENERAL_STORES_LARGE_UFOPEDIA: "Größer ist besser, oder? Diese riesigen Tresore erlauben uns, mehr Beute zu speichern, als ein statistischer Pirat zählen kann (nämlich 515 Einheiten)."
-  STR_GENERAL_STORES_ARMORED_UFOPEDIA: "Dieses fortschrittliche Lagerhaus kann 175 Einheiten Waren und / oder Warez aufnehmen und wird von einer autonomen Flugabwehrbefestigung verteidigt."
   STR_JAIL_UFOPEDIA: "Jeder Zellenblock bietet Platz für 15 spezielle Gäste, die entweder zum Lösegeld freigelassen werden können - entweder normal (Hehler) oder nachdem sie sie zuerst ihres Besitzes beraubt haben (mit einem besseren Ertrag als von einer toten Leiche), wenn es sich lohnt; Um dies zu tun, überprüfen Sie die Kategorie Raub in der Werkstatt. Die Nummern stellen dar: 1. Rüstungsteile; 2. Fraktionsbezogenes Zeug; 3. gemeinsame Waren. Sie erhalten auch Lösegeld (in Blauen Chips), aber, da die Waren beschädigt sind, nur für die Hälfte des Normalwerts. Um einen Gefangenen zu berauben, müssen Sie ihn zuerst verhören. Befragte Gefangene werden, solange sie ehrenhaft sind, im Austausch für ihre Informationen freigelassen."
-  STR_LABORATORY_UFOPEDIA: "Hoi Kapt'n, hier sehen Sie das fabelhafte frühere Forschungslabor, das wir hier gefunden haben! Bitte berühre sie keine Sachen, sie könnten dich beißen! Wir können alte und neue Geheimnisse für Sie entdecken - alles, was sie tun müssen, ist uns Denkern einen Auftrag zu erteilen! Das ist ein echter Schatz - hier haben wir die Werkzeuge, um neue Dinge zu erfinden, alte Dinge zu verstehen und Gefangene zu verhören. Wenn wir kein Labor hätten, wären wir nur gewöhnliche Banditen gewesen. Wir können bis zu 15 wirklich teure Leute reinstopfen, bevor sie sich gegenseitig umbringen. Die erforschten Gegenstände werden von den Denkern zerstört oder entsorgt, mit seltenen Ausnahmen.{NEWLINE}Das Labor erhöht den Lagerplatz um 50."
   STR_SMALL_RADAR_SYSTEM_UFOPEDIA: "Ohne Radar sind Sie praktisch blind. Oder zumindest einäugig, denn das Aufspüren einer Beute würde eine Patrouille am Himmel erfordern. Dieses Radar ist eine große Version eines hochauflösenden Systems, das auf Fahrzeugen montiert ist. Eine vollständige Suche dauert 30 Minuten und erkennt automatisch jedes Schiff im Bereich von 1250 Seemeilen{NEWLINE}.Für den Bau dieser Anlage ist die Technologie \"Kommunikation\" erforderlich."
   STR_LARGE_RADAR_SYSTEM_UFOPEDIA: "Mit einer Reichweite von 2000 Seemeilen deckt dieses Gerät eine riesige Fläche ab, kostet aber viel Geld. Es kann aber auch verwendet werden, um die Navigationsgeräte gegnerischer Schiffe zu blockieren und sie hoffentlich zum Absturz zu bringen."
-  STR_SAM_DEFENSES_UFOPEDIA: "Diese Einrichtung begrüßt jeden unwillkommenen Gast mit einer Salve von Stingray-Raketen. Etwas geringer Schaden für die Kosten, aber ein erfolgreicher Treffer ist sicher. Inklusive kleinem Mannschaftsraum für 5 Personen."
-  STR_MISSILE_DEFENSES_UFOPEDIA: "Ein Silo mit Avalanche-Atomraketen, bereit, alle unwillkommenen Gäste zu begrüßen. Sie werden kleinere Landungsschiffe in einer einzigen Salve auslöschen. Allerdings haben die Raketen nur ein kleines Zeitfenster zum Feuern, es sei denn, wir wollen unsere eigene Basis zerstören, und dennoch sind mehrere Treffer nötig, um Schiffe der Militärklasse zu zerstören, und jedes dieser Silos wird nur eine einzige Chance zum Feuern haben."
-  STR_ARMORY_UFOPEDIA: "Pro Basis ist nur eine einzige Anlage erlaubt, die ein Kraftwerk benötigt. Es versorgt das Versteck mit zielsicherem Abwehrfeuer, sowie 100 Lagereinheiten- und 10 Arbeitsplätzen. Am wichtigsten ist, dass wir damit einzigartige Gegenstände bauen können, die nur hier erhältlich sind (z.B. Battle Tank M)."
-  STR_GENERAL_STORES_UFOPEDIA: "Alle Ausrüstungsgegenstände, Waffen, Munition, Schätze und sortierter Schrott werden in Tresoren gelagert, einschließlich der Ausrüstung, die in den Hangars für die Montage bestimmt ist. Ihr könnt auf dem Schwarzmarkt nichts kaufen und die Beute, die ihr vom Schlachtfeld bekommt, muss sofort verkauft werden, solange die Tresore voll sind. Jeder kann bis zu 75 Lagereinheiten aufnehmen, was sich in 15 Schiffsreaktorkernen oder fast 400 gewehrgroßen Geschützen niederschlägt."
   STR_ALIEN_CONTAINMENT_UFOPEDIA: "Durch den Einsatz von Stasis-Kammern können wir 40 Gefangene in eine kleine Einrichtung bringen, ohne sich um ein Ding auf der Welt sorgen zu müssen. {NEWLINE}Für den Bau dieser Einrichtung sind 40 Stasis-Kammern erforderlich."
   STR_MIND_SHIELD_UFOPEDIA: "Mit einer Reihe von Tarnvorrichtungen, die wir auch auf unseren Schiffen montieren, wird diese Einrichtung die Chancen, dass unser Versteck entdeckt wird, drastisch reduzieren. Normalerweise steigen die Chancen, entdeckt zu werden, mit der Anzahl der Gebäude im Versteck (obwohl es nur etwa 30% Unterschied zwischen dem kleinsten Versteck und einem vollständig aufgebauten gibt); Diese Verhüllung wird diese Chance halbieren. Wenn wir zwei Verhüllungen bauen, wird die Chance auf 1/3 reduziert, und so weiter - eine beliebige Anzahl von ihnen wird gestapelt, wenn auch mit abnehmenden Renditen... aber wir glauben, dass der Bau von 21 Verhüllungen jedes Versteck völlig unentdeckbar machen würden.{NEWLINE}R-Klick auf eine Verhüllung um sie zu deaktivieren..."
   STR_HYPER_WAVE_DECODER_UFOPEDIA: "Mit diesem Gerät müssen wir uns nicht mehr auf eine unbeständige Radardetektion verlassen. Der Decoder greift direkt auf verschlüsselte Kommunikationskanäle zu und lokalisiert nicht nur sofort jedes Schiff in Reichweite, sondern bietet auch viel Intelligenz. Die maximale Reichweite beträgt 2000 Seemeilen.{NEWLINE}Für den Aufbau dieser Anlage werden 6 Sklaven-KIs benötigt."
@@ -308,13 +289,20 @@ de:
   STR_TAILING_UFO: "BESCHATTE GEGNER"
   STR_INTERCEPTING_UFO: ABFANGKURS AUF SCHIFF-{0}
   STR_RETURNING_TO_BASE: RÜCKKEHR ZUM VERSTECK
-  STR_RANK_NONE: Auxilia
-  STR_ROOKIE: Maat
-  STR_SQUADDIE: Mädel
-  STR_SERGEANT: Boss Mädel
-  STR_CAPTAIN: Herrin
-  STR_COLONEL: Baronin
-  STR_COMMANDER: Piratenkönigin
+  STR_RANK_NONE: "Auxilia"
+  STR_ROOKIE: "Maat"
+  STR_SQUADDIE: "Mädel"
+  STR_SERGEANT: "Boss Mädel"
+  STR_CAPTAIN: "Herrin"
+  STR_COLONEL: "Prinzessin"
+  STR_COMMANDER: "Piratenkönigin"
+  STR_RANK_PEA_2: "Kaplan"
+  STR_RANK_PEA_3: "Priesterin"
+  STR_RANK_PEA_4: "Erzpriesterin"
+  STR_RANK_HYB_3: "Magier"
+  STR_RANK_HYB_4: "Erzmagier"
+  STR_RANK_HYB_5: "Magierkönig"
+  STR_RANK_SS_0: "Sklavensoldat"
   STR_CRAFT_READY_TO_LAND_NEAR_DESTINATION: "{0}{ALT}{NEWLINE}nähert sich{NEWLINE}{ALT}{1}"
   STR_BEGIN_MISSION: "Bereit für die Schlacht?"
   STR_SELECT_SQUAD_FOR_CRAFT: Wähle Besatzung für {0}
@@ -325,10 +313,11 @@ de:
   STR_ALIEN_BASE_: GEGNERISCHES VERSTECK-{0}
   STR_NOW_PATROLLING: Liegt vor Anker
   STR_UFOPAEDIA: Beutepädie
+  STR_XCOM_CRAFT_ARMAMENT: Schiffe und ihre Bewaffnung
   STR_HEAVY_WEAPONS_PLATFORMS: BEREIT FÜR DICH ZU KÄMPFEN
   STR_WEAPONS_AND_EQUIPMENT: ARBEITSHILFEN
   STR_ALIEN_ARTIFACTS: SCHÄTZE
-  STR_BASE_FACILITIES: GEBÄUDE
+  STR_BASE_FACILITIES: Gebäude
   STR_ALIEN_LIFE_FORMS: FRAKTIONEN
   STR_ALIEN_RESEARCH_UC: MYSTERIEN
   STR_UFO_COMPONENTS: TAGEBUCH
@@ -372,8 +361,8 @@ de:
   STR_DAMAGE_13: "EMP"
   STR_DAMAGE_14: "WARP"
   STR_DAMAGE_15: "GEIST"
-  STR_DAMAGE_16: "HITZE"
-  STR_DAMAGE_17: "KÄLTE"
+  STR_DAMAGE_17: "Hitze"
+  STR_DAMAGE_18: "Kälte"
   STR_SHOT_TYPE: "ANGRIFFSTYP"
   STR_ALIEN_CORPSE: Leiche
   STR_UFO_COMPONENT: Komponente
@@ -384,17 +373,15 @@ de:
   STR_LASER_SUPERCHARGER: "Super-Selbstlader"
   STR_LASER_RIFLE: Verb. Lasergewehr
   STR_HEAVY_LASER: Mobiles Lasergeschütz
-  STR_SOLDIER: Entflohene Verrückte
   STR_SOLDIER_S: Handlanger
   STR_SOLDIER_M: Krieger
   STR_SOLDIER_V: Veteran
   STR_SOLDIER_X: Freak
-  STR_SOLDIER_LOKNAR: "Lokk'Naar Krieger"
-  STR_SOLDIER_SYNTH: Syn
-  STR_SCIENTIST: Denker
-  STR_ENGINEER: Wicht
+  STR_SOLDIER_SYNTH: "Syn"
+  STR_SCIENTIST: "Denker"
+  STR_ENGINEER: "Wicht"
   STR_RATING: "VERRUFENHEIT> {0}"
-  STR_UFO: FEINDLICHES SCHIFF
+  STR_UFO: "FEINDLICHES SCHIFF"
   STR_GENERAL_STORES: "Tresorraum"
   STR_SMALL_RADAR_SYSTEM: "Hochaufl. Radar"
   STR_LARGE_RADAR_SYSTEM: "Überladenes Radar"
@@ -453,6 +440,8 @@ de:
   STR_ALIEN_DIES_NO_ALIEN_CONTAINMENT_FACILITY_1: "KEIN AQUARIUM GEFUNDEN! Die Fische sind gestorben."
   STR_ALIEN_DIES_NO_ALIEN_CONTAINMENT_FACILITY_2: "Keine freien Tierkäfige! Die gefangenen Tiere wurden wieder freigelassen."
   STR_NO_ALIEN_CONTAINMENT_FOR_TRANSFER: "DAS IST WAHNSINN!{SMALLLINE}In diesem Versteck gibt es keine Gefängniszellen, Käpt'n!"
+  STR_NO_ALIEN_CONTAINMENT_FOR_TRANSFER_1: "BEI NEPTUNS BART!{SMALLLINE}Wir haben keine Aquarien im Versteck, Käpt'n!"
+  STR_NO_ALIEN_CONTAINMENT_FOR_TRANSFER_2: "DENKT AN DIE TIERE!{SMALLLINE}Wir haben keine Tierkäfige im Versteck Käpt'n!"
   STR_CONTAINMENT_EXCEEDED: "KEIN PLATZ MEHR IM GEFÄNGNIS!{SMALLLINE}Keine freien Zellen mehr in {0}. Wir müssen alle weiteren Gefangenen rauswerfen!"
   STR_CONTAINMENT_EXCEEDED_1: "KEINE AQUARIEN GEFUNDEN!{SMALLLINE}Unzureichende Einrichtungen in {0}. Entfernen sie überzählige, aquatische Lebensformen!"
   STR_CONTAINMENT_EXCEEDED_2: "Keine leeren Tierkäfige in {0}{SMALLLINE}Wir müssen die überzähligen Tiere in die Wildnis jagen!"
@@ -474,7 +463,6 @@ de:
   STR_UNDER_INTERROGATION_1: "Im Labor"
   STR_UNDER_INTERROGATION_2: "Im Labor"
   STR_MARS_CYDONIA_LANDING: "Mars: Cydonia Landung"
-  STR_MARS_CYDONIA_LANDING_BRIEFING: "Ihr Raumschiff hat die außerirdischen Verteidigungssysteme getäuscht und ist in der Region Cydonia auf der Marsoberfläche gelandet. Unsere Informationen deuten darauf hin, dass eine der Pyramiden dort einen grünen Aufzug zu einem unterirdischen Komplex enthält. Sobald Sie alle Ihre Soldaten im Aufzugsbereich versammelt haben, klicken Sie auf das Symbol \"Mission abbrechen\", um zur nächsten Stufe zu gelangen. Und vergessen Sie nicht, Ihre Helme aufzusetzen, bevor Sie die Luftschleuse verlassen!"
   STR_MARS_THE_FINAL_ASSAULT: "Mars: Showdown"
   STR_MARS_THE_FINAL_ASSAULT_BRIEFING: "Der Pyramidenlift bringt deine tapferen Krieger tief unter die Erdoberfläche. Irgendwo hier residiert der Alien-Gouverneur und zieht die Fäden, wie eine riesige Spinne im Labyrinth. Von seinen riesigen Armeen hat er nur noch seine persönliche Wache zwischen sich und dir. Das ist es, der entscheidende Moment, die einzige Chance, ihn zu töten und seine Macht für sich zu nutzen. Tod oder Ruhm!"
   STR_THE_ALIENS_HAVE_DESTROYED_THE_UNDEFENDED_BASE: "Unsere Feinde haben {0} an sich gerissen, da es ohne Verteidigung war!"
@@ -541,7 +529,6 @@ de:
   STR_LEFT_ARM: "L. ARM"
   STR_RIGHT_LEG: "R. BEIN"
   STR_LEFT_LEG: "L. BEIN"
-  STR_PAIN_KILLER: "DROGEN"
   STR_IS_UNDER_ALIEN_CONTROL_MALE: "{0}{NEWLINE}steht unter einem bösen Zauber!"
   STR_IS_UNDER_ALIEN_CONTROL_FEMALE: "{0}{NEWLINE}steht unter einem bösen Zauber!"
   STR_USE_MIND_PROBE: "Untersuchen"
@@ -602,6 +589,7 @@ de:
   STR_LASER_DEFENSE: "Laser-Batterie"
   STR_AUTO_SHOT: "Auto"
   STR_SHOT_TYPE_AUTO: "Auto (x{0})"
+  STR_SHOT_TYPE_AIMED: "Gezielt (x{0})"
   STR_STAMINA: "AUSDAUER"
   STR_ENERGY: "ENERGIE"
   STR_ORIGINAL_ORDER: ORIG. REIHENF.
@@ -645,12 +633,14 @@ de:
   STR_TARGET_FRIEND: "; Target = FREUND"
   STR_TARGET_YOURSELF: "; Target = DU"
   STR_TARGET_ON_THE_GROUND: " (am Boden)"
-  STR_MEDI_KIT_QUANTITIES_LEFT: "Saft>{ALT}{0}{ALT}{NEWLINE}Stim>{ALT}{1}{ALT}{NEWLINE}Heil>{ALT}{2}"
   STR_CENTER_ON_WOUNDED_FRIEND: "Zentriere auf verwundete Einheit"
   STR_CENTER_ON_SHOCKED_FRIEND: "Zentriere auf beinahe bewusstlose Einheit"
   STR_SPACE_USED_UC: "GENUTZTER RAUM"
   STR_ARTICLE: "Artikel>{ALT} {0}"
   STR_COMPATIBLE_AMMO: "Passende Munition:"
+  STR_RANK_HYB_0: "Berater"
+  STR_RANK_SLV_0: "Sklavensoldat"
+  STR_RANK_BEAST_0: "Kriegsbestie"
   STR_OXCE: "Erweitert"
   STR_TRAINING_FINISHED: "TRAINING ABGESCHLOSSEN"
   STR_NO_DONE: "FERTIG"
@@ -731,7 +721,6 @@ de:
   STR_COUP_DE_GRACE_DESC: "Halte einen Feind in der einen Hand und eine Nahkampfwaffe mit Schnittschaden in der anderen und klicke dann auf den Feind, um ihn sofort zu töten."
   STR_TWO_HANDED_INDICATOR_DESC: "In der Gefechtsansicht wird über eine kleine Zahl in der rechten unteren Ecke einer Waffe angezeigt, ob diese einhändig oder zweihändig zu führen ist."
   STR_MINIMAP_BORDER_INDICATOR_DESC: "Die Hintergrundfarbe der Minimap wird auf grau gesetzt, wodurch die Grenzen der eigentlichen Karte deutlich sichtbar werden."
-  STR_EVERYONE_FIGHTS_NOBODY_QUITS_DESC: "... aber ihre HP sind um die Anzahl der Tage die sie noch zur Heilung benötigt hätten * 1.5 reduziert. Sei jedoch vorsichtig, die schwer verwundeten Mädels könnten durch Überanstrengung sterben."
   STR_ADD_VEHICLES_TO_MEMORIAL_DESC: "Jede verlorene Auxilia-Einheit wird der Gedenkstätte hinzugefügt, wie bei Soldaten."
   STR_BULLET_SAVING_DESC: "Es besteht die Chance ein volles Magazin zu bergen, abhängig davon wie viel Munition noch übrig war."
   STR_SHOW_ITEM_WEIGHT_IN_INVENTORY_DESC: "Zeigt das Gewicht eines Gegenstands neben dessen Namen an wenn er aufgehoben wird."
@@ -753,6 +742,15 @@ de:
   STR_ACTION_ITEM_3: "Aktion 3 (Auto)"
   STR_ACTION_ITEM_4: "Aktion 4 (Nahkampf)"
   STR_ACTION_ITEM_5: "Aktion 5 (Werfen)"
+  BT_NONE: "Nichts"
+  BT_AMMO: "Munition"
+  BT_MELEE: "Nahkampf"
+  BT_GRENADE: "Granate"
+  BT_PROXIMITYGRENADE: "Mine"
+  BT_SCANNER: "Scanner"
+  BT_PSIAMP: "VooDoo"
+  BT_FLARE: "Lichtquelle"
+  BT_CORPSE: "Toter"
   STR_TOGGLE_QUICK_SEARCH: "Aktiviere Schnellsuchleiste"
   STR_NO_TRAJECTORY: "Den Schuss krieg ich nicht hin, Käpt'n!"
   STR_LINE_OF_SIGHT_REQUIRED: "Kann Sie Nicht Seh'n, Käpt'n!"
@@ -809,6 +807,8 @@ de:
   STR_CANNOT_BUILD_MORE_OF_THIS_FACILITY_TYPE_AT_BASE: "Es können keine Einrichtungen dieses Typs mehr in diesem Versteck gebaut werden, Käpt'n!"
   STR_ECONOMY_WARNING: "Gelder ({0}) und Einkommen ({1}) sind niedrig und Wartungskosten ({2}) zu hoch! Verkaufe etwas um keinen Kredit aufnehmen zu müssen... fehlende Gelder: {3}"
   STR_MONTHLY_PROFIT: "PROFIT/MONAT>{ALT}{0}"
+  STR_MT_RATING_40K: "FARMHERR"
+  STR_MT_RATING_15K: "SYNDIKAT"
   STR_MT_RATING_10K: "STAATSFEIND"
   STR_MT_RATING_8K: "HIMMELSSCHRECKEN"
   STR_MT_RATING_6K: "BIG BOSS"
@@ -845,66 +845,33 @@ de:
   STR_THROWING_ACCURACY_ABBREVIATION: "WRF"
   STR_STRENGTH_ABBREVIATION: "STÄ"
   STR_MELEE_ACCURACY_ABBREVIATION: "NAH"
-  STR_PSIONIC_STRENGTH_ABBREVIATION: "VOO"
-  STR_PSIONIC_SKILL_ABBREVIATION: "DOO"
   STR_AUXILIARY: "Auxilia"
   STR_ALL: "Alles"
   STR_EQUIPPED: "Ausgerüstet"
   STR_UNASSIGNED: "Andere"
   STR_BAT_CAT_AUX: "Auxilia"
-  STR_BAT_CAT_MELEE: "Nahkampf"
-  STR_BAT_CAT_AUTO_MELEE: "Nahkampf - Auto"
-  STR_BAT_CAT_THROWN: "Bogenflugbahn"
   STR_BAT_CAT_PISTOL: "Pistolen"
-  STR_BAT_CAT_SHOTGUN: "Kurzwaffen"
-  STR_BAT_CAT_CARBINE: "Karabiner & SMGs"
-  STR_BAT_CAT_RIFLE: "Gewehre"
-  STR_BAT_CAT_SNIPER: "Scharfschützengewehre"
-  STR_BAT_CAT_CHAINGUN: "Gatling-Kanonen"
-  STR_BAT_CAT_CANNON: "Geschütze"
-  STR_BAT_CAT_GL: "Geschosswerfer (Bogen)"
-  STR_BAT_CAT_RL: "Geschosswerfer (Direkt)"
-  STR_BAT_CAT_GUIDED: "Geschosswerfer (Geführt)"
-  STR_BAT_CAT_GRENADE: "Zeitbomben"
+  STR_BAT_CAT_SHOTGUN: "Schrotflinten"
+  STR_BAT_CAT_RL: "Werfer"
   STR_BAT_CAT_PROXY: "Annäherungsminen"
   STR_BAT_CAT_INTELLIGENCE: "Spionage"
   STR_BAT_CAT_HEALING: "Heilung"
   STR_BAT_CAT_STIM: "Stimulation"
   STR_BAT_CAT_MORALE: "Moral"
-  STR_BAT_CAT_MAGIC: "Magie"
   STR_BAT_CAT_UTILITY: "Nützliches"
-  STR_BAT_CAT_PIERCING: "Schdn: Stechend"
-  STR_BAT_CAT_FIRE: "Schdn: Feuer"
-  STR_BAT_CAT_CONCUSSIVE: "Schdn: Explosion"
-  STR_BAT_CAT_EXPLOSIVE: "Wirkungsbereich"
-  STR_BAT_CAT_HEAT: "Schdn: HE Anti-Panzer"
-  STR_BAT_CAT_LASER: "Schdn: Laser"
-  STR_BAT_CAT_PLASMA: "Schdn: Plasma"
-  STR_BAT_CAT_STUN: "Schdn: Betäubung"
-  STR_BAT_CAT_CUTTING: "Schdn: Schnitt"
-  STR_BAT_CAT_CHEM: "Schdn: Chem"
-  STR_BAT_CAT_CHOKE: "Schdn: Erstickung"
-  STR_BAT_CAT_POISON_GAS: "Schdn: Giftgas"
-  STR_BAT_CAT_SMOKE: "Schdn: Rauch"
-  STR_BAT_CAT_SPECIAL: "Schdn: Verza."
-  STR_BAT_CAT_E511: "Schdn: Anti-E511"
-  STR_BAT_CAT_BIO: "Schdn: Bio"
-  STR_BAT_CAT_EMP: "Schdn: EMP"
-  STR_BAT_CAT_ELECTRIC: "Schdn: Elektr."
-  STR_BAT_CAT_WARP: "Schdn: Verform."
-  STR_BAT_CAT_MIND: "Schdn: Geistig"
+  STR_BAT_CAT_SMOKE: "Rauch"
   STR_BAT_CAT_SHIELD: "Schützend"
-  STR_BAT_CAT_FOREVER: "Unerschöpflich"
-  STR_BAT_CAT_PSI_ONLY: "VooDoo benötigt"
-  STR_BAT_CAT_STUNWEAPON: "Betäubungswaffe"
+  STR_BAT_CAT_STUNWEAPON: "Betäubungswaffen"
   STR_BAT_CAT_MOSTLY_HARMLESS: "Meist Harmlos"
   STR_BAT_CAT_INFILTRATION: "Infiltration"
   STR_BAT_CAT_UNDERWATER: "Unterwasser"
   STR_BAT_CAT_0G: "0-G"
   STR_BAT_CAT_TREASURE: "Schatz"
+  STR_BAT_CAT_ARTIFACT: "Artefakt"
   STR_BAT_CAT_RESOURCE: "Rohmaterialien"
   STR_BAT_CAT_COMPONENT: "Komponenten"
   STR_BAT_CAT_PEOPLE: "Leute"
+  STR_BAT_CAT_CORPSE: "Leichen"
   STR_BAT_CAT_MONSTERS: "Monster"
   STR_BAT_CAT_DOCUMENT: "okumentation"
   STR_FILTER_DEFAULT: "Standardeinstellung"
@@ -942,27 +909,21 @@ de:
   STR_AVAILABLE_TOPICS: "VERFÜGBARE THEMEN"
   STR_QS_THREE_LETTERS_A: "3 Buchstaben benötigt"
   STR_QS_THREE_LETTERS_B: "in der Schnellsuche..."
-  STR_OTHER_EMPLOYEES: "Auxilia, Slaven & Andere"
   STR_GO_TO_TRANSFERS: "Beute verschiffen"
   STR_VIEW_REPORTS: "BERICHTE ANZEIGEN"
   STR_WE_CAN_NOW_RESEARCH: "Wir können jetzt erforschen"
   STR_WE_CAN_NOW_PRODUCE: "Wir können jetzt produzieren"
-  STR_SUNDAY: "SONNTAG"
-  STR_MONDAY: "MONTAG"
-  STR_TUESDAY: "DIENSTAG"
-  STR_WEDNESDAY: "ITTWOCH"
-  STR_THURSDAY: "DONNERSTAG"
-  STR_FRIDAY: "FREITAG"
-  STR_SATURDAY: "SAMSTAG"
   STR_NOT_ENOUGH_ITEM_TO_REFUEL_CRAFT_AT_BASE: "Nicht genug {0} um {1} in {2} aufzutanken"
   STR_NOT_ENOUGH_ITEM_TO_REARM_CRAFT_AT_BASE: "Nicht genug {0} um {1} in {2} zu bewaffnen"
   CULT: "Messe"
   ALKO: "Brennerei"
   CLON: "Klonen"
-  CPU: "Labo/C-Core"
+  CPU: "Computer"
   CPU2: "C-Core"
+  CAS: "Casino"
   FUS: "Fusions-Krftw."
-  LAB: "Labo"
+  LAB: "Labor"
+  LAB2: "Pers. Labor"
   LIB: "Bibliothek"
   MINT: "Münzpräge"
   PRINT: "Drucker"
@@ -976,12 +937,30 @@ de:
   WORKS: "Werkstatt"
   ARMS: "Waffenkammer"
   BIO: "Biotech"
+  REDM: "Roter Magier"
+  STUDY: "Studieren"
+  GMGEO1: "Erstes Licht"
+  GMGEO2: "Extraktor"
+  GMGEO3: "Testflug"
+  GMGEO5: "Untergrundaktivitäten"
+  GMTACTIC: "Feind unbekannt"
+  GMTACTIC1: "Schlafende Riesen"
+  GMTACTIC4: "Der Krieger"
   STR_NO_LOS_PENALTY: "Keine Sichtlinie! Genauigkeit halbiert!"
   STR_PRIME_ENERGY_SHIELD: "Aktiviere Schild"
-  STR_ENERGY_SHIELD_IS_ACTIVE: "Wird in 5 Runden erschöpft sein"
+  STR_ENERGY_SHIELD_IS_ACTIVE: "Schild aktiv!"
+  STR_CHANGES: "Veränderungen"
+  STR_AIRBORNE: "Zwischen Himmel und Meer"
   STR_WHITERABBIT: "Weißes Kaninchen"
   STR_WHITERABBIT_CORPSE: "Totes Kaninchen"
   STR_WHITERABBIT_CLOCK: "Taschenuhr"
+  STR_BLACK_CAT: "Schwarze Katze"
+  STR_BLACK_CAT_CIV: "beschäftigte Katze"
+  STR_BLACK_CAT_CIV_RECOVER: "freundliche Katze"
+  STR_CAT: "Katze"
+  AUX_CAT_CLAWS: "Katzenkrallen"
+  AUX_PURR_PURR: "Katze schnurrt"
+  STR_BLACKCAT_CORPSE: "tote Katze"
   STR_DIARY: "TAGEBUCH"
   STR_KILLED: "GETÖTET"
   STR_STUNNED: "BETÄUBT"
@@ -996,6 +975,9 @@ de:
   STR_GOOD: "Gut"
   STR_EXCELLENT: "Hervorragend"
   STR_NO_RECORD: "Keine Daten"
+  STR_HUMAN: "Mutant"
+  STR_FRIENDLY: "Freund"
+  STR_HOSTILE: "Feind"
   STR_RATING_UC: "BEWERTUNG"
   STR_LOCATION: "ORT> {ALT}{0}"
   STR_DAYLIGHT_TYPE: "ZEIT> {ALT}{0}"
@@ -1026,6 +1008,8 @@ de:
   STR_AWARD_2: "Zwielichtig"
   STR_AWARD_3: "Berüchtigt"
   STR_AWARD_4: "Umwerfend"
+  STR_AWARD_5: "Heroisch "
+  STR_AWARD_6: "Prinzenhaft"
   STR_AWARD_8: "KAISERIN"
   STR_AWARD_9: "HALBGÖTTIN"
   STR_AWARD_DECOR_0: "Beurteilung"
@@ -1033,13 +1017,24 @@ de:
   STR_AWARD_DECOR_2: "Zwielichtig"
   STR_AWARD_DECOR_3: "Berüchtigt"
   STR_AWARD_DECOR_4: "Umwerfend"
+  STR_AWARD_DECOR_5: "Heldenhaft"
+  STR_AWARD_DECOR_6: "Prinzenhaft"
   STR_AWARD_DECOR_8: "KAISERIN"
   STR_AWARD_DECOR_9: "HALBGÖTTIN"
+  STR_KILLED_IN_ACTION: "GETÖTET IM KAMPF"
+  STR_KILLED_IN_ACTION_MALE: "GETÖTET IM KAMPF"
+  STR_KILLED_IN_ACTION_FEMALE: "GETÖTET IM KAMPF"
+  STR_MISSING_IN_ACTION: "VERLOREN AUF SEE"
+  STR_MISSING_IN_ACTION_MALE: "VERLOREN AUF SEE"
+  STR_MISSING_IN_ACTION_FEMALE: "VERLOREN AUF SEE"
+  STR_NIGHT_MISSIONS: "Nachtkämpfe"
   STR_AVERAGE_ACCURACY: "Durchschnittliche Genauigkeit"
+  STR_ALIEN_MOST_KILLS: "Meist gehasste Feind"
   STR_TOTAL_DAYS_WOUNDED: "Krankheitstage"
   STR_TOTAL_SCIENTISTS: "Eingestellte Denker"
   STR_TOTAL_ENGINEERS: "Eingestellte Wichte"
   STR_DIARY_ACCURACY: "GENAUIGKEIT> {ALT}{0}%"
+  STR_MEDAL_ORIGINAL8: "Entflohene Verrückte"
   STR_MEDAL_ORIGINAL8_NAME: "Entflohene Verrückte"
   STR_MEDAL_SERVICE_TIME_NAME: "Geburtstagskuchen"
   STR_MEDAL_IMMORTAL_NAME: "Unsterblich"
@@ -1059,11 +1054,9 @@ de:
   STR_MEDAL_CHEMKILL_NAME: "Chemiker"
   STR_MEDAL_POISONKILL_NAME: "Giftmischer"
   STR_MEDAL_ELECTROKILL_NAME: "Elektrifizierer"
-  STR_MEDAL_MAGICKILL_NAME: "Nekromant"
   STR_MEDAL_MELEEKILL_NAME: "Schwertkämpfer"
   STR_MEDAL_ARCHER_NAME: "Bogenschütze"
   STR_MEDAL_PROXYKILL_NAME: "Fallenmeister"
-  STR_MEDAL_GUNNER_NAME: "Gatling-Genie"
   STR_MEDAL_BOMBER_NAME: "Bomber"
   STR_MEDAL_SAMURAI_NAME: "Samurai"
   STR_MEDAL_SLASHER_NAME: "Schnitter"
@@ -1071,7 +1064,6 @@ de:
   STR_MEDAL_SLAVEKILLS_NAME: "Marionettenspieler"
   STR_MEDAL_TANK_KILLER_NAME: "Panzerkiller"
   STR_MEDAL_MONSTER_HUNTER_NAME: "Monsterjäger"
-  STR_MEDAL_ASSAULTER_NAME: "Stürmer"
   STR_MEDAL_PSYCHOKILL_NAME: "Psycho"
   STR_MEDAL_DBLKILL_NAME: "Eiskalter Killer"
   STR_MEDAL_QUADKILL_NAME: "Multi-Killer"
@@ -1083,6 +1075,7 @@ de:
   STR_MEDAL_IDOL_NAME: "ol"
   STR_MEDAL_SUCCUBUS_NAME: "Sukubus"
   STR_MEDAL_VIPHUNTER_NAME: "Verwüster"
+  STR_MEDAL_ATTITUDE_PROBLEM: "Fragwürdige Gesinnung"
   STR_MEDAL_ATTITUDE_PROBLEM_NAME: "Fragwürdige Gesinnung"
   STR_MEDAL_DOTS_NAME: "Verteidiger der wahren Wissenschaft"
   STR_MEDAL_REACTIONFIRE_NAME: "Lockerer Zeigefinger"
@@ -1093,38 +1086,29 @@ de:
   STR_MEDAL_UNCONSCIOUS_NAME: "Dornröschen"
   STR_MEDAL_CRIMSON_HEART_NAME: "Patient"
   STR_MEDAL_HEALER_NAME: "Krankenschwester"
-  STR_MEDAL_REVIVE_NAME: "Engel der Gnade"
   STR_MEDAL_FRIENDLYFIRE_NAME: "Beste Art von Freund"
   STR_MEDAL_LONESURVIVOR_NAME: "Überlebender"
   STR_MEDAL_SAVEDALL_NAME: "Kavalier"
+  STR_MEDAL_GLOBETROTTER: "Weltenbummler"
   STR_MEDAL_GLOBETROTTER_NAME: "Weltenbummler"
   STR_MEDAL_CIV_KILLS_NAME: "Gefallener Engel"
   STR_MEDAL_BETRAYER_NAME: "Verräter"
+  STR_MEDAL_POSTMORTEM_KILL: "Rächer"
   STR_MEDAL_POSTMORTEM_KILL_NAME: "Rächer"
   STR_MEDAL_MIA_NAME: "Gefallene"
+  STR_MEDAL_FALLEN: "Geist"
   STR_MEDAL_FALLEN_NAME: "Geist"
-  STR_MEDAL_ORIGINAL8_UFOPEDIA: "Die ursprüngliche Crew, die aus verschiedenen Uber-Zonen stammte, entkam der Gefangenschaft eines mysteriösen, experimentellen Arbeitslagers, kaperte einen Airbus und folgte, ohne es zu wissen, einem mysteriösen Signal und fand Zuflucht in unterirdischen Tunneln, die sich als Teil eines größeres Tunnelnetzwerk erwiesen...{NEWLINE}Sie hatten kaum mehr als Lumpen, die sie Kleidung nannten, ein paar gefundene oder selbst-konstruierte Waffen, und nicht viel Wissen über die Welt insgesamt, aber sie gehören zu den besten Uber-Exemplaren dort draußen."
-  STR_MEDAL_SERVICE_TIME_UFOPEDIA: "Verliehen alle sechs Monate, gerechnet ab dem Zeitpunkt des Eintritts in unsere Reihen. Ja, wir haben zweimal im Jahr Geburtstag!"
-  STR_MEDAL_IMMORTAL_UFOPEDIA: "Wird einem Mädel überreicht das 6 Jahre Pratentum überlebt hat, was auf diesem Lebensweg etwa soviel bedeutet wie unsterblich zu sein. Diese Auszeichnung wird bis zum 10ten Jubiläum jährlich überreicht, danach alle zwei Jahre. Vielleicht ist es an der Zeit die Kampagne auf die eine oder andere Art fertig zu bekommen?"
-  STR_MEDAL_STATGAIN_UFOPEDIA: "Zeichnet diejenigen aus, die sich über ihre Grenzen und Beschränkungen hinweg zu wunderschönen Wesen entwickelt haben. Benötigt einen Zuwachs von mindestens 125 Statuspunkten, jedes weitere Level dieser Verdammung braucht 25 mehr (33 auf höheren Graden)"
-  STR_MEDAL_CARREER_SCORE_UFOPEDIA: "Du bist auf der ganzen Welt bekannt und gefürchtet (oder zumindest in einigen Teilen davon, oder in einigen Tavernen). Dies wird für die Teilnahme an Highscoring-Missionen vergeben. Alle Punkte werden dann an jeden Teilnehmer vergeben und zusammengezählt.{NEWLINE} 5000 Infamie Minimum. 20.000 für den dritten Eisenschädel."
-  STR_MEDAL_CARREER_MISSIONS_UFOPEDIA: "Wird für das Anhäufen einer großen Anzahl von Mission während einer Piratenkarriere überreicht. Nur siegreiche Missionen zählen.{NEWLINE}5 Missionen Minimum. 20 für dritten eisernen Schädel."
-  STR_MEDAL_NIGHTOPS_UFOPEDIA: "Wird für die Teilnahme an vielen Nachtseinsätzen überreicht{NEWLINE}2 Missionen Minimum. 10 für dritten eisernen Schädel"
-  STR_MEDAL_BASE_DEFENSE_UFOPEDIA: "Wird überreicht für die Verteidigung des eigenen Verstecks.{NEWLINE}Ein Level für jede Verteidigung."
-  STR_MEDAL_ALIEN_BASE_ASSAULT_UFOPEDIA: "Wird für den Überfall auf geheime Basen überreicht.{NEWLINE}Ein Level für jeden Überfall auf eine geheime Basis."
-  STR_MEDAL_CAMPAIGN_RIBBON_UFOPEDIA: "Wird für die Teilnahme an vielen Missionen in einer bestimmten Region überreicht. Erfolgreich, fehlgeschlagen oder kompliziert.{NEWLINE}20 Missionen Minimum. 40 für dritten eisernen Schädel."
-  STR_MEDAL_MURDERER_UFOPEDIA: "Das Mädel klebt das Blut anderer Mit-Humanoider an ihren Händen. War das wirklich nötig?{NEWLINE}12 für dritten eisernen Schädel."
-  STR_MEDAL_CARREER_CAPTURES_UFOPEDIA: "Wird für das Umhauen vieler Feinde verliehen.{NEWLINE}10 Betäubungen mindestens. 50 für dritten eisernen Schädel."
-  STR_MEDAL_RACE_KILLS_UFOPEDIA: "Diese Auszeichnung gibt es für das Ausschalten einer Menge Feinde aus einer bestimmten Fraktion. Du kannst dennoch niemals alle töten!{NEWLINE}15 Neutralisierungen mindestens. 60 für dritten eisernen Schädel."
-  STR_MEDAL_WEAPON_PROFICIENCY_UFOPEDIA: "Dies wird für das Ausschalten einer Menge Feinde mit ein und demselben Waffentyp überreicht. Du musst schon eine sehr langweilige Person sein um einen höheren Rang zu erreichen.{NEWLINE}15 Neutralisierungen mindestens. 60 für dritten eisernen Schädel."
-  STR_MEDAL_FIREKILL_UFOPEDIA: "Dies wird fürs Töten mit Feuer überreicht.{NEWLINE}5 Kills mindestens. 30 für dritten eisernen Schädel."
-  STR_MEDAL_CHEMKILL_UFOPEDIA: "Dies wird fürs Schmelzen deiner Feinde mit Säure überreicht.{NEWLINE}5 Kills mindestens. 30 für dritten eisernen Schädel."
-  STR_MEDAL_POISONKILL_UFOPEDIA: "Dies wird für das Vergiften und zu Tode ersticken deiner Feinde verliehen.{NEWLINE}5 Kills mindestens. 30 für dritten eisernen Schädel."
-  STR_MEDAL_ELECTROKILL_UFOPEDIA: "Dies wird für das Töten von Gegnern mittels Elektrizität und EMP verliehen{NEWLINE}5 Kills mindestens. 30 für dritten eisernen Schädel."
-  STR_MEDAL_MAGICKILL_UFOPEDIA: "Wird verliehen wenn mit Flüchen die geistigen Schaden verursachen getötet wurde.{NEWLINE}5 Kills mindestens. 30 für dritten eisernen Schädel."
-  STR_MEDAL_MELEEKILL_UFOPEDIA: "Wird für Kills verliehen, die mit scharfen und pieksenden Nahkampfwaffen gemacht wurden.{NEWLINE}5 Kills mindestens. 30 für dritten eisernen Schädel."
-  STR_MEDAL_ARCHER_UFOPEDIA: "Wird für Kills mit dem Bogen verliehen.{NEWLINE}5 Kills mindestens. 30 für dritten eisernen Schädel."
-  STR_MEDAL_PROXYKILL_UFOPEDIA: "Wird für das Töten mit Fallen (wie etwa Landminen) verliehen.{NEWLINE}5 Kills mindestens. 30 für dritten eisernen Schädel."
+  STR_MEDAL_SERVICE_TIME_DESCRIPTION: "Verliehen alle sechs Monate, gerechnet ab dem Zeitpunkt des Eintritts in unsere Reihen. Ja, wir haben zweimal im Jahr Geburtstag!"
+  STR_MEDAL_IMMORTAL_DESCRIPTION: "Wird einem Mädel überreicht das 6 Jahre Pratentum überlebt hat, was auf diesem Lebensweg etwa soviel bedeutet wie unsterblich zu sein. Diese Auszeichnung wird bis zum 10ten Jubiläum jährlich überreicht, danach alle zwei Jahre. Vielleicht ist es an der Zeit die Kampagne auf die eine oder andere Art fertig zu bekommen?"
+  STR_MEDAL_STATGAIN_DESCRIPTION: "Zeichnet diejenigen aus, die sich über ihre Grenzen und Beschränkungen hinweg zu wunderschönen Wesen entwickelt haben. Benötigt einen Zuwachs von mindestens 125 Statuspunkten, jedes weitere Level dieser Verdammung braucht 25 mehr (33 auf höheren Graden)"
+  STR_MEDAL_CARREER_SCORE_DESCRIPTION: "Du bist auf der ganzen Welt bekannt und gefürchtet (oder zumindest in einigen Teilen davon, oder in einigen Tavernen). Dies wird für die Teilnahme an Highscoring-Missionen vergeben. Alle Punkte werden dann an jeden Teilnehmer vergeben und zusammengezählt.{NEWLINE} 5000 Infamie Minimum. 20.000 für den dritten Eisenschädel."
+  STR_MEDAL_CARREER_MISSIONS_DESCRIPTION: "Wird für das Anhäufen einer großen Anzahl von Mission während einer Piratenkarriere überreicht. Nur siegreiche Missionen zählen.{NEWLINE}5 Missionen Minimum. 20 für dritten eisernen Schädel."
+  STR_MEDAL_BASE_DEFENSE_DESCRIPTION: "Wird überreicht für die Verteidigung des eigenen Verstecks.{NEWLINE}Ein Level für jede Verteidigung."
+  STR_MEDAL_ALIEN_BASE_ASSAULT_DESCRIPTION: "Wird für den Überfall auf geheime Basen überreicht.{NEWLINE}Ein Level für jeden Überfall auf eine geheime Basis."
+  STR_MEDAL_CAMPAIGN_RIBBON_DESCRIPTION: "Wird für die Teilnahme an vielen Missionen in einer bestimmten Region überreicht. Erfolgreich, fehlgeschlagen oder kompliziert.{NEWLINE}20 Missionen Minimum. 40 für dritten eisernen Schädel."
+  STR_MEDAL_MURDERER_DESCRIPTION: "Das Mädel klebt das Blut anderer Mit-Humanoider an ihren Händen. War das wirklich nötig?{NEWLINE}12 für dritten eisernen Schädel."
+  STR_MEDAL_CARREER_CAPTURES_DESCRIPTION: "Wird für das Umhauen vieler Feinde verliehen.{NEWLINE}10 Betäubungen mindestens. 50 für dritten eisernen Schädel."
+  STR_MEDAL_PROXYKILL_DESCRIPTION: "Wird für das Töten mit Fallen (wie etwa Landminen) verliehen.{NEWLINE}5 Kills mindestens. 30 für dritten eisernen Schädel."
   STR_CUTSCENE_INTRO_00: "X-Piratez{NEWLINE}Ein OpenXCom-Mod von Dioxine{NEWLINE}Ich beanspruche keinerlei Rechte für die genutzten Ressourcen. Unterstützt freie Daten!{NEWLINE}Letzte Chance das hier auszuschalten. Fahre nur fort wenn du dich traust.{NEWLINE}{NEWLINE}Denk dran: Lies oder stirb."
   STR_CUTSCENE_INTRO_01: "Ein Alarm schrillte durch das gesamte Geheimlabor der Akademie. Die Testsubjekte waren dabei zu entkommen!"
   STR_CUTSCENE_INTRO_02_A: "Wächter kamen herbeei um sie zu bändigen, aber die Mutanten, naiv wie sie waren, besaßen die bei weitem größere Stärke, Geschwindigkeit und Motivation. Und am allerwichtigsten: sie hatten bereits einige Waffen in die Finger bekommen. Explosionen, Feuer und Chaos breiteten sich aus."
@@ -1137,7 +1121,6 @@ de:
   STR_CUTSCENE_INTRO_09: "Das Leben in den ersten Wochen war unkompliziert; sie trafen sich mit örtlichen Einwohnern, sie jagten und handelten und machten aus ihrem neuen Versteck ein echtes Zuhause."
   STR_CUTSCENE_INTRO_10: "Aber die Idylle konnte nicht ewig halten. Ein schwer bewaffneter Konvoi erreichte das Tal. Die Ankömmlinge sagten, sie sprächen im Namen der örtlichen Stämme, der Mutanten-Allianz und der Regierung des Planeten. Sie sagten sie repräsentierten eine Allianz der Völker, die durch die Akademie und ihresgleichen tyrannisiert werden; Erdlinge, die ihre Seelen an die Sternengötter verkauft haben, die Herren des Sternenimperiums von dem die Erde nun schon seit Jahrhunderten besetzt wird."
   STR_CUTSCENE_INTRO_11: "Verhandlungen wurden abgehalten. Warum sollten die Schiffsbrüchigen mit dem zufrieden sein was sie waren, wenn sie so viel mehr sein könnten? Das Versteck das sie gefunden hatten, insbesondere das alte Laboratorium darin, war mächtig genug die Welt zu verändern, wenn auch nur ein Stück. Die Besucher boten ein Bündnis an - Falls die Mutanten sich trauten sich wie die wahren Herren der von ihnen gefunden Festung zu verhalten und sie nicht nur für sich zu benutzen, wie ein Haufen gewöhnlicher Banditen. Oder sie könnten den Ort verlassen und ihr Glück anderswo suchen. Die Erde war voller Banditen und hatte ein paar Krieger dringend nötig."
-  STR_CUTSCENE_INTRO_12: "Sie entschieden sich zu bleiben, den Bedingungen zuzustimmen um so dieses Versteck zu ihrem Zufluchtsort machen zu können, von dem aus sie losfliegen und ins Abenteuer aufbrechen würden; und somit beginnt unsere Geschichte.."
   STR_AURA_HEAT_TXT: "Es ist brennend heiß! Erleide Betäubungsschaden!"
   STR_AURA_COLD_TXT: "Es ist eisig! Energie wird entzogen!"
   STR_AURA_COLD_DEADLY_TXT: "Du fühlst die Kälte der Leere."
@@ -1159,6 +1142,7 @@ de:
   STR_LOC_LOKNAR_VILLAGE_DEFENSE_BRIEFING: "Wir haben Nachricht von Jack erhalten, dass die von den bösartigen Narlocks gesendeten Sky Ninjas ein Rodeo in einem der Lokk'Naar Dörfer veranstalten. Wir werden in Äpfeln und Cash bezahlt wenn wir diesen Angriff abwehren{NEWLINE}Wetter: Warm. Meer: Normal."
   STR_CHURCH_CAMP_BRIEFING: "{NEWLINE}Die Kirche von Sirius trainiert in diesem Dschungelcamp eine neue Gruppe von Fanatikern. Lasst uns ihnen den Fehler ihrer Wege zeigen und ihre Waffen plündern!{NEWLINE} Wetter: Sengend heiß. Meer: Ungleichmäßig."
   STR_LOC_BEASTMEN_ALTAR: Blut Rituale
+  STR_ALERT_BEASTMEN_ALTAR: Blut Rituale
   STR_DISTRESS_BUNKER_TEMPERATE_BRIEFING: "Eines unserer geflohenen Mädchen hat einen Anruf von diesem Ort aus gesendet. In ihrer letzten Übertragung war sie im Delirium von dem Mangel an Wasser und der Strahlung. Wir müssen sie retten, bevor sie stirbt oder gefangen wird - wenn sie noch da ist.{NEWLINE} Wetter: Gemäßigt. Meer: Sanft"
   STR_DISTRESS_BUNKER_JUNGLE_BRIEFING: "Eines unserer geflohenen Mädchen hat einen Anruf von diesem Ort aus gesendet. In ihrer letzten Übertragung war sie im Delirium von dem Mangel an Wasser und der Strahlung. Wir müssen sie retten, bevor sie stirbt oder gefangen wird - wenn sie noch da ist.{NEWLINE} Wetter: Gemäßigt. Meer: Sanft"
   STR_DISTRESS_BUNKER_COLD_BRIEFING: "Eines unserer geflohenen Mädchen hat einen Anruf von diesem Ort aus gesendet. In ihrer letzten Übertragung war sie im Delirium von dem Mangel an Wasser und der Strahlung. Wir müssen sie retten, bevor sie stirbt oder gefangen wird - wenn sie noch da ist.{NEWLINE} Wetter: Gemäßigt. Meer: Sanft"
@@ -1167,10 +1151,25 @@ de:
   STR_LOC_ACADEMY_TOWN_HOT_BRIEFING: "Wir haben eine schlecht gesicherte Akademie-Stadt gefunden, die zur Eroberung reif ist. Unser Wissen über die Akademie und ihre Protokolle erlaubt es uns, innerhalb ihres Geländes zu landen und in ihrer Mitte Chaos anzurichten. Es ist eine großartige Gelegenheit, diesen Weibern einen mächtigen Schlag zu versetzen und unsere Truhen mit ihren Sachen zu füllen.{NEWLINE}Wetter: Sengend heiß. Meer: Rau"
   STR_LOC_ACADEMY_TOWN_COLD_BRIEFING: "Wir haben eine schlecht gesicherte Akademie-Stadt gefunden, die zur Eroberung reif ist. Unser Wissen über die Akademie und ihre Protokolle erlaubt es uns, innerhalb ihres Geländes zu landen und in ihrer Mitte Chaos anzurichten. Es ist eine großartige Gelegenheit, diesen Weibern einen mächtigen Schlag zu versetzen und unsere Truhen mit ihren Sachen zu füllen.{NEWLINE}Wetter: Frostkälte. Meer: Rau"
   STR_LOC_MONSTER_HUNT_SHAMBLER_BRIEFING: "\"Wampa Wovi\" ist die traditionelle Bezeichnung aus der Schwarzmark für die Jagd auf den legendären White Shambler. Ich sage dir das, Käpt'n, weil dieses sagenumwobene Tier irgendwo in der Nähe dieses Ortes gesichtet wurde! Lass es uns einpacken und damit reich werden! {NEWLINE} Wetter: Eisesskälte. Meer: Ruhig."
+  STR_LOC_POLIS: "Wunderschöne Leute"
+  STR_LOC_POLIS_TITLE: "Wunderschöne Leute"
+  STR_VESSEL_FIGHTER: Jäger
+  STR_VESSEL_FIGHTER_HUNT: Jäger
+  STR_VESSEL_BOMBER: Bomber
+  STR_VESSEL_EXCAVATOR: Exkavator
   STR_BOOMOSAURUS_CORPSE: "Bummsosaurus-Kadaver"
   STR_MUTANT_MEAT: "Mutantenfleisch"
   STR_BOOMOSAURUS_MEAT: "Bummsosaurierfleisch"
+  STR_WASPITE: "Waspite"
+  STR_ZOMBIE_SMART: "Unbekannt"
   STR_BOOMOSAURUS: "Bummsosaurus"
+  STR_LIVE_NAVIGATOR: "Krieger"
+  STR_LIVE_TERRORIST: "Kriegsbestie"
+  STR_MONSTER_RACE: "Monster"
+  TECHNOCRACY_ARMOR_P0A: "Normal"
+  STR_MAGICAL_CREATURES: "Unbekannt"
+  STR_STAR_GOD_PUBLIC_ENEMY: "Staatsfeind"
+  STR_WASPITE_SOLDIER: "Waspite"
   STR_BOOMOSAURUS_TERRORIST: "Bummsosaurus"
   STR_SOLDIER_UFOPEDIA: "Unsere Crew aus verzweifelten Mutantenmädels, die üblen Experimenten entkommen sind. Sie sind etwas stärker als gewöhnliche Ubers, besonders geistig, und verlangen keinen Sold (außer sie sind in der Rangliste), sind aber schwer zu beschaffen.{NEWLINE}Nachtsicht: 12.{NEWLINE}(Siehe: Mysterien, Überlieferungen & Verurteilungen)."
   STR_GUILD_SOLDIER_UFOPEDIA: "General Operatore sind verantwortlich für alle alltäglichen Aufgaben, die auf dem Schiff einer Gilde erledigt werden müssen, wie Wartung, Reinigung und kleinere administrative Aufgaben. Sie sind tatsächlich nur schlecht bewaffnete Zivilisten, die uns kaum Ärger machen werden, aber ich muss zugeben, dass sie ihren Arbeitgebern gegenüber loyal sind. Es muss wohl die Gier sein, Käpt'n, denn ich kann nicht verstehen, warum jemand der Gilde wegen ihrer großen moralischen Qualitäten treu sein sollte."
@@ -1183,6 +1182,38 @@ de:
   STR_BOOMOSAURUS_AUTOPSY_UFOPEDIA: "Wir dir vielleicht aufgefallen ist, hat diese große Echse einen Raketenwerfer auf dem Rücken. Das Gestell fasst bis zu 8 Brandraketen. Durch die Schuppenhaut zu schneiden dauerte ewig, also könnte es vielleicht guter Grundstoff für Rüstung sein. Darunter lag nichts Besonderes, nur Frischfleisch: es schmeckt am besten, wenn man es mit Knoblauch anbrät, und noch besser mit Rum. NS:9"
   STR_SILACOID_UFOPEDIA: "Dieser kleine Mistkerl spuckt Feuer, stampft auf Felsen und ist noch weniger kuschelig, als er aussieht. Trotz unserer Bemühungen ist es uns nicht gelungen, ihn zu trainieren, da er nur auf mächtige Zaubersprüche zu reagieren scheint, die jenseits unserer besten Adepten liegen. Um es noch schlimmer zu machen, wir können es auch nicht essen, jedenfalls nicht mehr als wie wir Steine essen können. Am Ende entkam er, äh, durch das Graben eines Tunnels mit seinen ...äh.. nennen wir es Zähne; der Stein wurde sowohl gekaut als auch mit Säure geschmolzen. Wenn ich ihn in meinem Leben nicht mehr sehe, kann ich damit leben."
   MAP_AREA51URBAN: "Militärbasis"
+  MAP_COMRCURBAN: "Commercial"
+  MAP_DESERTMOUNT: "Wüstenberg"
+  MAP_DESERTTEMPLE: "Wüstentempel"
+  MAP_DAWNURBANA: "Dawn City A"
+  MAP_DAWNURBANB: "Dawn City B"
+  MAP_FORESTMOUNT: "Waldberg"
+  MAP_FORESTPOLAR: "Waldsumpf"
+  MAP_GRASSLANDDESERT: "Grasland-Wüste"
+  MAP_GRASSLANDFOREST: "Grasland-Wald"
+  MAP_INDUSTRIALURBAN: "Industriell"
+  MAP_JUNGLEMOUNT: "Dschungelberg"
+  MAP_JUNGLEPOLAR: "Dschungelsumpf"
+  MAP_JUNGLETEMPLE: "Dschungeltempel"
+  MAP_POLARDESERT: "Polarwüste"
+  MAP_POLARMOUNT: "Polarberg"
+  MAP_PORTURBAN: "Hafen Modifiziert"
+  MAP_PORTTFTD: "Hafen TFTD"
+  MAP_RAILYARDURBAN: "Zugdepot"
+  MAP_SAVANNADESERT: "Savannenwüste"
+  MAP_SAVANNAFOREST: Savannenwald
+  MAP_STEPPEDESERT: Steppenwüste
+  MAP_STEPPEFOREST: Steppenwald
+  MAP_TAIGADESERT: "Taigawüste"
+  MAP_TAIGAFOREST: "Taigawald"
+  MAP_TUNDRADESERT: "Tundrawüste"
+  MAP_TUNDRAMOUNT: "Tundraberg"
+  MAP_GRASSLANDPOLAR: "Graslandsumpf"
+  MAP_SAVANNAPOLAR: "Savannensumpf"
+  MAP_TAIGAPOLAR: "Taigasumpf"
+  MAP_TUNDRAPOLAR: "Tundrasumpf"
+  MAP_TUNDRAFOREST: "Tundrawald"
+  STR_EXPLOSIVE: Sprengstoffe
   STR_AIRBALLS_TECH: Improvisierter Luft-Sprengsatz
   STR_SPIKE_LAUNCHER: Keilwerfer
   STR_SPIKE_LAUNCHER_UC: KEIL-RAKETEN
@@ -1261,29 +1292,69 @@ de:
   AUX_ACAR_WEAPON_HMG: "SMG (Fahrzeug"
   AUX_ACAR_WEAPON_AC25MM: "25mm Kanone (Fahrzeug)"
   STR_HWP_INCENDIARY_ROCKET: Bummsosaurus-Raketen
+  STR_DOGE: "Kampfhund"
+  STR_DOGE_CORPSE: "Toter Hund"
+  STR_DOGE_JAWS: "Beißen"
   STR_PARROT: "Papagei"
   STR_PARROT_CORPSE: "Toter Papagei"
   STR_PARROT_BEAK: "Schnabel"
+  STR_SOLDIER_SLAVE: Sklavensoldat
+  STR_PSI_LAB: VooDoo
   AUX_ZOMBIE_WEAPON: Zombie-Schlag
   AUX_ZOMBIE_INFECTOR_WEAPON: Zombieinfektion
   AUX_ADRONE_WEAPON: Drohnen-Lasgewehr
   AUX_BOOMOSAURUS_WEAPON: Bummsosaurus-Raketen
   AUX_BOOMOSAURUS_JAWS: Bummsosaurus-Biss
+  AUX_DOGG_WEAPON: "Beißen"
   STR_SHIV: Klinge
+  STR_CHITIN_KNIFE: Chitin messer
+  STR_MACHETE: "Machete"
+  STR_PLASMA_SWORD: Plasma-Schwert
   STR_PISTOL_BM: Schwarzmark Pistole
   STR_PISTOL_BM_CLIP: Schwarzmark Pistolen Magazin
+  STR_MAGNUM: Magnum
   STR_FLINTLOCK_BALLS: "Steinschloss-Kugeln"
   STR_FLINTLOCK_BALLS_G: "Steinschloss-Gas-Kugeln"
+  STR_SHOTGUN_SHELLS: Schrotpatronen
+  STR_SHOTGUN_SHELLS_AP: Flintenlaufgeschoss-Patronensatz
   STR_BOOM_GUN: Bumms-Gewehr
   STR_BOOM_AMMO: Bumms-Kartuschen
   STR_MP: Schwarzmark Alternative SMG
   STR_MP_CLIP: Schwarzmark SMG Magazin
   STR_RAYGUN: Gothische Strahlenkanone
   STR_RAYGUN_CLIP: Strahlenkanonen-Batterie
+  STR_HUNTING_RIFLE: Jagdgewehr
+  STR_SNIPER_RIFLE: Scharfschützengewehr
+  STR_SNIPER_RIFLE_CLIP: Scharfschützengewehr-Magazin
+  STR_RIFLE: Sturmgewehr
+  STR_HMG: Schweres Maschinengewehr
+  STR_MINIGUN: Minigun
+  STR_MINIGUN_AMMO: Minigun Ammo Pack
+  STR_GRENADE_LAUNCHER: 'Granatwerfer '
+  STR_FLAMETHROWER: Flammenwerfer
+  STR_TOXIGUN: Toxigun
+  STR_FUSION_TORCH: Fusion-Schweißgerät
+  STR_HEAVY_LASER_PIR: Schwerer Laser
+  STR_RAIL_RIFLE_OLD: Railgun Gewehr
+  STR_RAIL_RIFLE_OLD_CLIP: Railgun Gewehr-Magazin
+  STR_PLASMA_CASTER: Plasma Caster
+  STR_PLASMA_CASTER_CLIP: Plasma Caster-Magazin
+  STR_GAUSS_PISTOL: Gauss Pistole
+  STR_GAUSS_PISTOL_CLIP: Gauss Pistolen-Magazin
+  STR_HEAVY_GAUSS: Schwere Gauss
+  STR_HEAVY_GAUSS_CLIP: Schwere Gauss-Magazin
+  STR_PIR_PLASMA_SUB: Plasma-Subgewehr
+  STR_PIR_PLASMA_SUB_CLIP: Plasma-Subgewehrmagazin
+  STR_DYNAMITE: Dynamit
+  STR_STUN_GRENADE_PIR: Betaeubungs-granate
+  STR_INCENDIARY_GRENADE: Brandgranate
   STR_BOOM_FRUIT: Bumms-Frucht
-  STR_NOOSE: Schlinge
-  STR_PIR_CASTAWAY_ARMOR_UC: SCHIFFSBRÜCHIGEN FETZEN
+  STR_FIRST_AID_KIT: Erste-Hilfe-Koffer
+  STR_NOOSE: "Schlinge"
+  STR_PIR_CASTAWAY_ARMOR_UC: "SCHIFFSBRÜCHIGEN FETZEN"
   STR_RAGS_UC: FETZEN
+  STR_PIR_ROGUE_UC: SCHURKE
+  STR_MUSCLE_ARMOR_UC: SYNTHMUSKELN ANZUG
   STR_TROPHIES_UC: "PRÄMIEN & TROPHÄEN"
   STR_BOUNTY_HUNTING_DONATION_JACK: "Spende Jack 100k$ "
   STR_BOUNTY_HUNTING_DONATION_GOBLIN_ZAXX: "Spende Goblin Zaxx 100k$"
@@ -1292,18 +1363,85 @@ de:
   STR_BOUNTY_HUNTING_PRIZE_DINOSAUR: "S-Preis: Bummsosaurus"
   STR_BOUNTY_HUNTING_PRIZE_DINOSAUR_PREQ: "Vorr: Bummsosaurus"
   STR_BOUNTY_HUNTING_PRIZE_PEACEMAKER_UFOPEDIA: "Schau mal, wie du rumläufst, Schwester. Wenn du eine Pistole benutzen musst, dann wenigstens irgendeinen Müll. Die Silver Snake ist alt und nicht so modisch wie manches Zeug heutzutage, aber sie ist selten und sieht gut aus."
+  STR_CREDIT_CHIP_C: $100 Plastik Credit Chip
+  STR_CREDIT_CHIP_D: $200 Roter Credit Chip
+  STR_CREDIT_CHIP_M: $1000 Blauer Credit Chip
+  STR_CREDIT_CHIP_00: $2000 Lila Credit Chip
+  STR_CREDIT_CHIP_01: $5000 Silber Credit Chip
+  STR_CREDIT_CHIP_02: $20000 Gold Credit Chip
+  STR_CREDIT_CHIP_03: $50000 Obsidian Credit Chip
+  STR_CREDIT_CHIP: Credit Chip
+  STR_SILVER_BAR: Silberbarren
+  STR_GOLD_BAR: Goldbarren
+  STR_FORGED_CHIPS_C: Fälsche Plastik Chips (x250)
+  STR_FORGED_CHIPS: Fälsche Rote Chips (x75)
+  STR_FORGED_CHIPS_M: Fälsche Blaue Chips (x15)
+  STR_FORGED_CHIPS_00: Fälsche Lila Chips (x10)
+  STR_FORGED_CHIPS_01: Fälsche Silber Chips (x10)
+  STR_FORGED_CHIPS_02: ' Fälsche Gold Chips (x10)'
+  STR_DATA_DISK: "Verschlüsselte CD"
+  STR_DATA_DISK_B: "Entschlüsselte CD"
+  STR_RING: Siegelring
+  STR_MEDALLION: Schmuck
+  STR_COIN_CHEST: Truhe voller Münzen
   STR_CIGS: "Buddha-X Kippen"
+  STR_GENERIC_CRATE: Kiste
+  STR_GOLDEN_CRATE: Goldene Kiste
   STR_ENVIRO: Feindselige Umgebung
+  STR_CAMOUFLAGE: Tarnung
+  STR_HEATVISION: Thermalsicht
+  STR_VIOLENCE: Gewalt
+  STR_CUNNING: Verschlagenheit
+  STR_SURVIVAL: Überleben
+  STR_COMMUNICATIONS: Kommunikation
+  STR_DIPLOMACY: Diplomatie
+  STR_CIVILIZATION: 'Zivilisation '
+  STR_INTERROGATION: 'Verhörtechniken '
+  STR_SALVAGE: "Sklaverei"
+  STR_PERSUASION: "Überredungskunst"
+  STR_SQUIRE: "Knappe"
+  STR_SLAVE: "Sklave"
+  STR_SLAVE_BRUTE: "Sklaventreiber"
+  STR_SLAVE_X_PREQ: "Versklave X"
+  STR_CONTRABAND: Schmuggelware
+  STR_UNDERGROUND_HUNTING: Höhlenjagd
+  STR_ALCOHOL: Alkohol
+  STR_EXTRACTION: Extraktion
+  STR_HACKING: Hacken
+  STR_ASSEMBLY: Zusammenbauen
+  STR_DISASSEMBLY: Auseinanderbauen
+  STR_SPECIAL_PROJECT: Spezialprojekte
   STR_PIRATEZ_BACKGROUND: Unser Kampf
+  STR_PIRATEZ_UBERS: Unsere Herkunft
+  STR_ALIEN_ORIGINS: Wer ist Wer ?
+  STR_PIRATEZ_HIERARCHY: Die Soziale Hierarchie
+  STR_SEA_TRANSPORT: Seetransport
+  STR_BASIC_ELECTRONICS: Elektronik
+  STR_LOGISTICS: "Logistik"
+  STR_SCHOOLING_1: Frühjahrsputz
+  STR_BALLISTICS: Ballistik
+  STR_AMMO_MANUFACTURING_3: Erweitertes Waffenarsenal
+  STR_BOXES: Boxen
   STR_WALK_THE_PLANK: Plankengehen
+  STR_PILOT_PLUS: Testflug
+  STR_FUSION_EXPLOSIVES: 'Sprengstoffe mit Kernfusion '
+  STR_RUSSIAN_FILES_STAGED: Untersuchung des sibirischen Stützpunkts
+  STR_CYBERDISC_CORPSE: Cyberdisc-Wrack
+  STR_SECTOPOD_CORPSE: Sectopod-Wrack
   STR_CORRIDOR: "Korridor"
   STR_HYDROPONICS_BOOM: "Bumms-Plantage"
   STR_HYDROPONICS_BOOM_HARVEST: "Bumms-Plantage"
+  STR_CASINO: "Casino"
   STR_STILL: "Brennerei"
+  STR_LUXURY_SPA: "Luxus Spa"
+  STR_LIBRARY: "Bibliothek"
+  STR_MINT: "Münzpräge"
+  STR_REFINERY: "Raffinerie"
+  STR_WELL: "Extraktor"
   STR_LABORATORY: "Altertümliches Labor"
   STR_BURROW: "Höhlenbau"
   STR_JAIL: Gefängniszellen
-  STR_AIRBUS_UFOPEDIA: "EIN ZIVILES, BATTERIEBETRIEBENES SCHIFF, DAS WIR WÄHREND UNSERER FLUCHT AUS DER 'AKADEMIE' BEFREIT HABEN. ZUMINDEST BRAUCHT ES NUR EINEN NETZSTECKER FÜR DEN TREIBSTOFF. BRENNSTOFF: (x4). RADAR: 100. DODGE: +5%."
+  STR_GAUSS_DEFENSE: "Gauss-Abwehr"
   STR_MINI_LASER_UFOPEDIA: "DAS BESONDERE DIESER WAFFE IST, DASS SIE SICH SELBST AUFLÄDT, INDEM SIE DAS STROMNETZ DER VERSTECKE BENUTZT. JEDOCH KANN SIE EVENTUELL ÜBERHITZTEN UND DANN NICHT MEHR BIS ZUR MINDESTENS EINER OBERFLÄCHLICHEN WARTUNG VERWENDET WERDEN. KLASSE: LEICHT. WIEDERAUFLADEN: 2 STUNDEN"
   STR_BIG_GUN_UFOPEDIA: "BRUTAL UND EFFEKTIV,  DIESE KANONE FEUERT 120MM PANZER-BRECHENDE MUNITION FÜR MASSIVE SCHÄDEN. JEDOCH ERFORDERT SIE NACH JEDEM EINSATZ MEHRERE STUNDEN WARTUNG. KLASSE: SCHWER. WIEDERAUFLADEN. 10 STUNDEN"
   STR_RPC_UFOPEDIA: "EINE VERRÜCKTE WAFFE, DIE VON DEN RETIKULANERN KONSTRUIERT WURDE, LÄDT SIE SICH SELBST AUS DEM STROMNETZ AUF, ERFORDERT ABER EIN GUTES TRAINING DAFÜR UND WARTUNG. KLASSE: LEICHT. WIEDERAUFLADEN: 6 STUNDEN"
@@ -1323,14 +1461,15 @@ de:
   STR_CIVILIZATION_UFOPEDIA: "Wir haben genug kulturellen und materiellen Reichtum gewonnen, um uns als zivilisiert zu bezeichnen, und so eine Möglichkeit geschaffen, die Gesellschaft zu verbessern und den Wert des menschlichen Lebens zu erhöhen - falls wir dies wünschen. Dies ist eine der Voraussetzung für das Projekt Höhere Studien.[2000 points awarded]"
   STR_MENAGERIE_UFOPEDIA: "Zusätzlich zu Kriegern mit Namen, Gesichtern und Meinungen, können wir blind loyale wilde Bestien einsetzen, um unsere Befehle im Kampf zu erfüllen. Diese Bestien benötigen in unseren Schiffen \"Auxiliary\" Laderaum und werden niemals Kampferfahrung sammeln. Alle Verletzungen, die sie erleiden, spielen für uns keine Rolle. Sie sind sofort bereit für den nächsten Kampf, egal wie schwer sie im letzten verletzt wurden. Sie erfordern keine ständige Überwachung von Betreuern, aber sie müssen in einem Gehege oder einem gleichwertigen Gebäude gehalten werden."
   STR_COMBAT_101_UFOPEDIA: "Es gibt viele Statistiken und Wissenswertes über Waffen und Rüstungen. Kluge lesen hier zuerst.{NEWLINE}*WAFFEN verursachen normalerweise 0-200% ihres Grundschadens bei jedem Treffer. Bonus POWER wird vor jedem Zug hinzugefügt. Wenn deine Angriffe also nicht funktionieren, dann nicht immer, weil die Waffe Mist ist.{NEWLINE}*SPRENGKÖRPER verursachen in der Regel 50-150% ihres Basisschadens und wirken auch gegen BODEN-Panzerungen, wenn die Explosion innerhalb von 3 Felder zum Ziel stattfindet.{NEWLINE}*RESISTENZEN die im Eintrag RÜSTUNG stehen modifizieren den ausgelösten Schaden um ihre %.{NEWLINE}*Der endgültige Schaden wird reduziert durch den RÜSTUNGSWERT und geht auf die GESUNDHEIT wenn er höher als die Rüstung ist, was hoffentlich zum TOD führt."
+  STR_BOXES_UFOPEDIA: "Seien Sie immer vorsichtig mit der Registerkarte \"Was Sie anziehen sollten\" in den Briefings, die auf Einschränkungen des Tragesystem hinweist. Wenn eine falsche Ausstattung vorhanden ist, werden die Mädels gezwungen, in das zu wechseln, was verfügbar ist, was suboptimal sein kann. Im schlimmsten Fall landet sie in Boxen. Die Box stellt abstrakt eine Situation dar, in der das betreffende Mädchen völlig unfähig war, an der Mission teilzunehmen. In einem solchen Fall können Sie nur ohne ihre Hilfe gewinnen, oder die Box in die Extraktionszone tragen."
   STR_WALK_THE_PLANK_UFOPEDIA: "Die Crew ist loyal, wenn die Dinge gut laufen, aber wenn die Zeiten trostlos werden, kann es zu einer Meuterei kommen. Wollen Sie enteignet, gedemütigt und ersetzt werden? Halten Sie die Infamie höher als -500. Sie können mal ausrutschen, aber wenn Sie die Infamy im nächsten Monat nicht verbessern, wird der Crew klar werden, dass ein neuer Käpt'n der einzige Weg ist, um zu überleben. Machen sie nicht noch mehr Schulden. Sie haben wieder einen Monat Zeit, um Ihre Schulden auf unter $1M zu reduzieren, andernfalls wird die Crew Sie zum Sicherheitsproblem nominieren."
   STR_STEALTHSUITS_UFOPEDIA: "Es scheint, dass die teilweise Unsichtbarkeit der Stealth-Anzüge dadurch erreicht wird, dass sichtbares Licht und elektromagnetische Strahlung irgendwie verbogen werden. Diese Technologie ist sehr exotisch und scheint auf Prinzipien zu basieren, die der menschlichen oder Sternengötter-Wissenschaft, wie wir sie kennen, fremd sind. Es ähnelt den Voodoo-Unsichtbarkeitseffekten, scheint aber völlig unabhängig von VooDoo zu sein."
   STR_GRAV_CORPSE_UFOPEDIA: "Nachdem wir eine Antigravitationseinheit erhalten hatten, war es nicht allzu schwierig herauszufinden, wie wir sie wieder zum Laufen bringen konnten. Wir können jetzt, frei von der lästigen Schwerkraft, den Kampf in die Lüfte führen. Doch Vorsicht: Antigravitische Schaltungen reagieren heftig, wenn sie Chemikalien ausgesetzt sind."
   STR_SCHOOL_BOOKS_UFOPEDIA: "Wir haben genug Bücher und Anleitungen gesammelt, um dieses ganze Science-Fiction-Geschäft auf eine ganz anderes Level zu bringen, möglicherweise mit Laserpistolen oder sogar Unsterblichkeit. Was bedeuten all diese geheimnisvollen Worte? Wissen von jemandem nachzuschlagen, klingt auch besser als 'in jemanden', klingt logisch. Es sieht aus, als müssten wir noch viel lesen. Bauen Sie uns eine Bibliothek, ja?"
   STR_SCHOOLING_2_UFOPEDIA: "Das Lesen von Büchern und das Lösen von Gleichungen hat sicher eine Menge schlechte Presse in dieser Welt, und diese Aufgaben machen sicher Kopfschmerzen, aber die Hasser werden nicht mehr lachen, wenn die Früchte dieser harten Arbeit sichtbar werden. Vernunft und eigenständiges Denken, statt auf Menschen zu hören, ist der einzige Weg zur Macht.{NEWLINE}Unser nächster Schritt: Wir müssen Wissen über supraleitende Schaltkreise, Chemie und Medizin sammeln und dann das Projekt \"Schulabschluss\" starten. Wir brauchen auch eine Bibliothek in unserem Versteck, um es zu starten, und es wird wahrscheinlich lange dauern, bis es fertig ist."
-  STR_LASER_AMMO_AP_UFOPEDIA: "Nachdem wir ein tiefes Verständnis für die Teilchen-/Wellenphysik gewonnen haben, haben wir einen Weg gefunden, die Laserwaffen weiter zu stärken - und zwar einfach durch die Ausstattung mit neuen Energiezellen. Fortschrittliche Kühlmittel sorgen dafür, dass die Waffen nicht explodieren. Diese neuen Zellen werden die panzerbrechende Qualität von Lasern um etwa ein Drittel erhöhen. Ein halber Kapazitätsverlust des Magazins ist jedoch unvermeidlich. Außerdem werden wir nicht in der Lage sein, dass Hellerium zurückzuholen, das für die Produktion dieser Clips verwendet wurde."
   STR_DATA_ENCRYPTION_UFOPEDIA: "Wenn es um Computercode geht, sind die Sterngötter wirklich ihres Titels würdig. Ihre Verschlüsselungssoftware ist unzerbrechlich, und ihre Kompressionsalgorithmen reduzieren die Größe großer Datenmengen um durchschnittlich 99%, was die interstellare Kommunikation erheblich vereinfacht und es ihnen ermöglicht, ganze Personalakten digital auf relativ kleinen Optronic-Kristallmatrizen zu speichern. Die Mathematik geht wirklich über das menschliche Verständnis hinaus, aber wir haben uns eine Auswahl an Wartungstools und Hintertüren beschafft, um in deren Schlösser einzudringen, sowie eine exklusive Software, die es uns ermöglichen könnte, unsere eigenen leistungsstarken Rechenzentren zu betreiben."
-  STR_FORCEFIELDS_UFOPEDIA: "Mit den Informationen, die wir von einem Pfarrer erhielten, konnten wir endlich das Geheimnis der Energiefelder der Kirche durchbrechen. Sie sind in der Lage, alle Arten von Energien zu projizieren oder zu zerstreuen, was sie sowohl für Angriffe als auch für die Verteidigung nützlich macht. Wie sich herausstellt, sind sie nur eine Teilimplementierung von schiffsmontierten Schilden des Stellaren Empire. Solche echten Schilde regenerieren sich schnell (in der Regel .25% pro Sekunde), erfordern aber sperrige Maschinen. Ich denke jedoch, dass wir für unsere eigenen Schiffe einfachere, hybride Schilde entwickeln können, denen diese Art der Regeneration fehlt, die dafür aber kompakt genug für diese sind. Um sie zu regenerieren, müsste unser Schiff eine Stunde lang gewartet werden."
+  STR_CANNONS_MANUFACTURING_3_UFOPEDIA: "Es ist keine leichte Aufgabe, herauszufinden, wie man eine riesige Waffe an ein fliegendes Fahrzeug anbringt, wie man verhindert, dass sie beim Schießen abgerissen oder die Flugzeugzelle beschädigt wird... Nur eine kleine Auswahl der Probleme, die wir überwinden mussten. Aber beschweren wir uns? Natürlich nicht! Mit dieser Technologie können wir damit beginnen, Marinegeschütze an unsere Schiffe anzubringen und mit der Zeit andere, hoffentlich noch verheerendere Waffen zu entwickeln."
+  STR_ALIEN_BASE: "Geheimbasis"
   STR_BLACKMARCH_UFOPEDIA: "Die Einwohner dieses Landes sind bekannt für ihren Kampfgeist und ihren Stolz. Sie bevorzugen das ländliche Leben, da die Großstädte in der Regel schweres Artilleriefeuer anziehen. Gleiches gilt für die organisierte Infrastruktur - Waldwege und Tiertransporte sind hingegen schlechte Ziele für Bombenangriffe. Viele haben die Einheimischen für ungewaschene und ungebildete Primitive gehalten, was nur teilweise wahr zu sein scheint, da das Land nicht nur mehrere Invasionen durch ihre Kombination aus Guerillakrieg und militärischer Expertise abgewehrt hat, sondern sogar in der Lage war, sein Territorium auszudehnen, und es könnte vielleicht zu einer Großmacht werden, wenn es da nicht den Konflikt zwischen den vorherrschenden Gesell'schen Aktivisten, gegen die Anhänger des letzten gestürzten Kanzlers 'Krötel' gebe. In diesem Land gibt es nur zwei bedeutende Städte - der weitläufige alte BER Raumhafen, in dem sich die Einheimischen auch treffen, um ihr neues Regierungsloses Bürgerparlament zu bilden, und eine imposante Festung, Die Bastion, die als Bollwerk gegen die bösen Dinge dient, die im Süden leben."
   STR_NEWSPAPER_004_UFOPEDIA: "Der letzte Chryssalid-Befall in den Südalpen ist nach zwei Wochen Bombardement durch die Gesell'schen Zeppeline und Artillerie größtenteils verschwunden. Tausende Tonnen Chryssalidgas wurden verwendet; Diese schreckliche Waffe wirkt, indem sie den bereits überladenen Stoffwechsel dieser Kreaturen beschleunigt, sodass sie buchstäblich in Flammen aufgehen oder sogar explodieren. Offiziell ist das Gas für das normale Leben wenig gefährlich, aber die Akademie stimmt dem nicht zu und sagt, dass Überdosierungen Massensterben von kleinen Lebewesen verursachen können, die Biosphäre aus dem Gleichgewicht bringen und sogar selten schlecht abgeschirmte Hellerium-Geräte zünden. Provost Zakharina selbst appellierte an die internationale Gemeinschaft, das Gesell'sche Militär für ihre offen brutalen Aktionen zu verurteilen."
   STR_NEWSPAPER_006_UFOPEDIA: "Letzte Woche reisten Tausende von Mutanten aus der Schwarzmark, Romanien und der Eurasischen Autonomie in den Weiler Minsk, um die jährlichen Feiern ihres Festivals vom Wagenzug aus zu beobachten. Tatsächlich fahren viele Wagen dorthin, voll mit mutierten Unruhestiftern, Wahrsagern, Dieben und Krawallmachern. Die Akademie schlägt erneut ein Verbot der Reaper Chariots vor, da sie sowohl für Fahrer als auch für Zuschauer von Natur aus unsicher sind. Die Zahl der Opfer der diesjährigen Feierlichkeiten ist noch unbekannt, wird aber wahrscheinlich über ein Dutzend erreichen."

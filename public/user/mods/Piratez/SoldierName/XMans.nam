@@ -4,6 +4,7 @@ lookWeights:
   - 25
   - 25
 maleFirst: &FIRST_NAMES
+  - A certain
   - A friend of
   - Aaron
   - Abdul
@@ -21,6 +22,7 @@ maleFirst: &FIRST_NAMES
   - Ahmed
   - Al
   - Albert
+  - Aldous
   - Alec
   - Alfred
   - Alessandro
@@ -28,8 +30,10 @@ maleFirst: &FIRST_NAMES
   - Alexander
   - Alfonse
   - Alfonso
+  - Allan
   - Aloise
   - Alucard
+  - Alvin
   - Akira
   - Anders
   - Andreas
@@ -91,6 +95,7 @@ maleFirst: &FIRST_NAMES
   - Brother
   - Bruce
   - Bruno
+  - Bryn
   - Buck
   - Buckaroo
   - Bud
@@ -107,8 +112,10 @@ maleFirst: &FIRST_NAMES
   - Camil
   - Cap
   - Captain
+  - Caratacus
   - Carlos
   - Casper
+  - Cecil
   - Cedrick
   - Chad
   - Cham
@@ -128,6 +135,7 @@ maleFirst: &FIRST_NAMES
   - Cole
   - Colonel
   - Conan
+  - Connal
   - Conny
   - Constantine
   - Cor
@@ -168,6 +176,8 @@ maleFirst: &FIRST_NAMES
   - Dorsey
   - Dr.
   - Draco
+  - Drakul
+  - Drest
   - Dudley
   - Duke
   - Duncan
@@ -213,8 +223,10 @@ maleFirst: &FIRST_NAMES
   - Fergus
   - Fernando
   - Fidel
+  - Finian
   - Finn
   - Flambard
+  - Flyboy
   - Francois
   - Frank
   - Fred
@@ -287,6 +299,7 @@ maleFirst: &FIRST_NAMES
   - Hubb
   - Hubert
   - Hugo
+  - Hurley
   - Hussain
   - Ian
   - Ibrahim
@@ -372,6 +385,7 @@ maleFirst: &FIRST_NAMES
   - Kenny
   - Kevin
   - Khan
+  - Kieran
   - Kir
   - Kirian
   - Kirk
@@ -485,6 +499,7 @@ maleFirst: &FIRST_NAMES
   - Otello
   - Otto
   - Papa
+  - Parlan
   - Paul
   - Pavel
   - Pedro
@@ -496,11 +511,13 @@ maleFirst: &FIRST_NAMES
   - Philip
   - Pierre
   - Pius
+  - Pilgrim
   - Phil
   - Pontus
   - Prof.
   - Putin
   - Quientin
+  - Quincy
   - R J
   - Ralph
   - Ramil
@@ -518,6 +535,7 @@ maleFirst: &FIRST_NAMES
   - Rickety
   - Riddick
   - Ridley
+  - Rim
   - Rob
   - Robby
   - Roberto
@@ -553,6 +571,7 @@ maleFirst: &FIRST_NAMES
   - Sargeant
   - Sargon
   - Scott
+  - Seahawk
   - Seamus
   - Sean
   - Sebastian
@@ -562,6 +581,7 @@ maleFirst: &FIRST_NAMES
   - Sergio
   - Shah
   - Shamil
+  - Shanahan
   - Sherlock
   - Sidon
   - Sidor
@@ -613,6 +633,7 @@ maleFirst: &FIRST_NAMES
   - Tony
   - Topol
   - Tor
+  - Torin
   - Trent
   - Trevor
   - Tristan
@@ -692,6 +713,7 @@ maleLast:
   - Aden
   - Abrams
   - Adler
+  - Alamo
   - Alban
   - Alden
   - Alert
@@ -713,6 +735,7 @@ maleLast:
   - Ashcroft
   - Ashenbrenner
   - Asimov
+  - Assagne
   - Astral
   - Atom
   - Aulick
@@ -724,13 +747,15 @@ maleLast:
   - Bache
   - Badger
   - Bagley
+  - Bagwalter
+  - Bailey
   - Baker
   - Balch
   - Baldwin
+  - Ballantine
   - Ballard
   - Balmer
   - Baltimore
-  - Bailey
   - Bale
   - Banderaz
   - Bancroft
@@ -805,11 +830,16 @@ maleLast:
   - Boggs
   - Bole
   - Boll
+  - Bollocks
+  - Bollogs
+  - Bols
+  - Bolsonaro
   - Bolton
   - Bonaparte
   - Bond
   - Boneman
   - Bones
+  - Boomer
   - Bordelon
   - Borsalino
   - Borse
@@ -817,6 +847,7 @@ maleLast:
   - Borye
   - Boscogne
   - Bourne
+  - Bowden
   - Bowyer
   - Boyd
   - Boyes
@@ -848,6 +879,7 @@ maleLast:
   - Broome
   - Brown
   - Browning
+  - Brummond
   - Brush
   - Bruswain
   - Bryant
@@ -856,6 +888,7 @@ maleLast:
   - Buckley
   - Bull
   - Bullard
+  - Bullock
   - Bulmer
   - Bund
   - Burdock
@@ -902,7 +935,7 @@ maleLast:
   - Cavanni
   - Cavendish
   - Cavi
-  - Cecil
+  - Chaffe
   - Chan
   - Chang
   - Chamberlain
@@ -922,6 +955,7 @@ maleLast:
   - Chevalier
   - Chicago
   - Chi
+  - Childe
   - Chin
   - Choser
   - Chrysler
@@ -1014,6 +1048,7 @@ maleLast:
   - Danger
   - Daniels
   - Dark
+  - Darkmere
   - Darkwell
   - Darnhold
   - Dashiell
@@ -1109,6 +1144,7 @@ maleLast:
   - Endicot
   - English
   - Enfield
+  - Epstein
   - Erben
   - Ericsson
   - Escobar
@@ -1138,6 +1174,7 @@ maleLast:
   - Fergusson
   - Fernandez
   - Ferret
+  - Féval
   - Fiedel
   - Fillmore
   - Finch
@@ -1177,8 +1214,13 @@ maleLast:
   - Franks
   - Fraser
   - Frazier
+  - Free
+  - Freedom
+  - Freeland
   - Freud
+  - Friday
   - Fridman
+  - Frog
   - Frost
   - Fry
   - Fulbright
@@ -1297,8 +1339,10 @@ maleLast:
   - Haraden
   - Haradze
   - Harconnen
+  - Hardcastle
   - Harden
   - Harding
+  - Hardy
   - Hare
   - Harker
   - Harley
@@ -1348,6 +1392,7 @@ maleLast:
   - Herzog
   - Hess
   - Heston
+  - Hewson
   - Hickory
   - Hickox
   - Hicks
@@ -1377,13 +1422,18 @@ maleLast:
   - Hopewell
   - Hopkins
   - Hopkirk
+  - Hopscotch
   - Horn
   - Hornblower
+  - Horney
+  - Horningold
   - Horton
   - Hotchkiss
+  - Houston
   - Howard
   - Howes
   - Howey
+  - Howley
   - Howson
   - Howworth
   - Hoyle
@@ -1422,8 +1472,10 @@ maleLast:
   - Jacob Jones
   - Jaeger
   - Jameson
+  - Janeway
   - Jarvis
   - Jaspers
+  - Jaynor
   - Jeffers
   - Jefferson
   - Jekyll
@@ -1459,12 +1511,15 @@ maleLast:
   - Keller
   - Kelly
   - Kendrick
-  - Kent
   - Kennedy
   - Kennison
   - Kenobi
+  - Kent
+  - Kenway
   - Kerrigan
   - Kerry
+  - Kessel
+  - Kestrel
   - Keter
   - Keystone
   - Kidd
@@ -1569,6 +1624,8 @@ maleLast:
   - Longshaw
   - Lopez
   - Lost
+  - Lot
+  - Loubert
   - Loxley
   - Love
   - Lovecraft
@@ -1592,6 +1649,7 @@ maleLast:
   - Macomb
   - Maddogs
   - Madison
+  - Madox
   - Maggot
   - Mahan
   - Mahoney
@@ -1605,6 +1663,7 @@ maleLast:
   - Manning
   - Mansfield
   - Manson
+  - Manzarek
   - Mao
   - Maple
   - Maradona
@@ -1625,8 +1684,10 @@ maleLast:
   - Maury
   - Mauser
   - Maxim
+  - May
   - Mayrant
   - Mayo
+  - Mayweather
   - McArthur
   - McCaffrey
   - McCall
@@ -1678,6 +1739,7 @@ maleLast:
   - Mogila
   - Momoa
   - Monagan
+  - Monday
   - Monk
   - Monroe
   - Monsanto
@@ -1850,6 +1912,7 @@ maleLast:
   - Powell
   - Powers
   - Prachett
+  - Preach
   - Preble
   - Presley
   - Preston
@@ -1986,6 +2049,7 @@ maleLast:
   - Schwarzkopf
   - Scooter
   - Scorpio
+  - Scotch
   - Scott
   - Scrooge
   - Seagal
@@ -2006,10 +2070,12 @@ maleLast:
   - Shea
   - Sheik
   - Shekel
+  - Shell
   - Shelley
   - Shelton
   - Shepard
   - Shepman
+  - Sheridan
   - Sherman
   - Shields
   - Short
@@ -2036,6 +2102,8 @@ maleLast:
   - Smirnoff
   - Smith
   - Smithson
+  - Snow
+  - Snowden
   - Snuffley
   - Sodom
   - Soley
@@ -2111,6 +2179,7 @@ maleLast:
   - Stroganoff
   - Strong
   - Stuart
+  - Sturgeon
   - Sturm
   - Sturtevant
   - Sukhy
@@ -2118,6 +2187,7 @@ maleLast:
   - Sullivan
   - Summer
   - Sumner
+  - Sumter
   - Sun
   - Sunday
   - Swagger
@@ -2180,6 +2250,7 @@ maleLast:
   - Truxtun
   - Tucker
   - Tucklebery
+  - Tuesday
   - Tuft
   - Turner
   - Turpin
@@ -2287,6 +2358,7 @@ maleLast:
   - Winchester
   - Winfrey
   - Wing
+  - Winner
   - Winslow
   - Winsted
   - Winters
@@ -2308,6 +2380,7 @@ maleLast:
   - Wrong
   - X
   - Xerox
+  - Yacoubian
   - Yamaguchi
   - Yankee
   - Yarnall

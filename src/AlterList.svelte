@@ -8,7 +8,7 @@
 </script>
 
 <tr>
-  <td colspan="4" class="attack-alter">
+  <td colspan="4" class="attacks-alter">
     <small>
       {#each Object.keys(items).sort() as field, i}
         <div>

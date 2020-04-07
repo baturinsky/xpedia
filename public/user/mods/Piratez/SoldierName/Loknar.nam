@@ -66,6 +66,7 @@ maleFirst: &FIRST_NAMES
   - Ida
   - Ilona
   - Imogen
+  - Ini
   - Inna
   - Ino
   - Ira
@@ -646,3 +647,5 @@ maleLast:
   - Fistkick
   - Dogcat
   - Moneycheat
+  - Shademoor
+  - Darksprite

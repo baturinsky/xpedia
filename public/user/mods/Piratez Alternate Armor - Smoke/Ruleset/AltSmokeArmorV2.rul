@@ -1,0 +1,11 @@
+extraSprites:
+# Smokey Armor
+  - typeSingle: UBERGAL__7__SMOKEY_ARMOR
+    fileSingle: Resources/Armors/Gals/Smokey/Smokey_Armor.gif
+  - typeSingle: UBERGAL__11__SMOKEY_MASK
+    fileSingle: Resources/Armors/Gals/Smokey/Smokey_Mask_Held.gif
+# Mesh Armor
+  - typeSingle: UBERGAL__7__MESH_ARMOR
+    fileSingle: Resources/Armors/Gals/Smokey/Mesh_Armor.gif
+  - typeSingle: UBERGAL__11__MESH_MASK
+    fileSingle: Resources/Armors/Gals/Smokey/Mesh_Mask_Held.gif

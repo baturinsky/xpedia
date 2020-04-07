@@ -559,6 +559,9 @@ extraSprites:
     fileSingle: Resources/Armors/Soldiers/Tac/Pointman_Helmet.png
   - typeSingle: MHUMAN__14__POINTMAN_HELMET_WIDE
     fileSingle: Resources/Armors/Soldiers/Tac/Pointman_Helmet_Wide.png
+# Strongman
+  - typeSingle: MHUMAN__7__STRONGMAN_ARMOR
+    fileSingle: Resources/Armors/Soldiers/Tac/Strongman_Armor.png
 # Demolisher
   - typeSingle: MHUMAN__7__DEMOLISHER_ARMOR
     fileSingle: Resources/Armors/Soldiers/Tac/Demolisher_Armor.png
@@ -2797,6 +2800,9 @@ extraSprites:
     fileSingle: Resources/Armors/Gals/Blue/Guardian_Suit.gif
   - typeSingle: UBERGAL__14__GUARDIAN_HELMET
     fileSingle: Resources/Armors/Gals/Blue/Guardian_Helmet.gif
+# Zortrium Armor
+  - typeSingle: UBERGAL__11__ZORTRIUM_SUIT
+    fileSingle: Resources/Armors/Gals/Zortrium/Zortrium_Suit.png
 # Smokey Armor
   - typeSingle: UBERGAL__7__SMOKEY_ARMOR
     fileSingle: Resources/Armors/Gals/Smokey/Smokey_Armor.gif

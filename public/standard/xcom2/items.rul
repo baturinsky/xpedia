@@ -1417,7 +1417,7 @@ items: #done
     size: 0.8
     costSell: 115000
   - type: STR_BIODRONE_MELEE_WEAPON
-    bigSprite: -2
+    bigSprite: 73
     meleeSound: 26
     strengthApplied: true
     damageType: 7
@@ -1430,7 +1430,7 @@ items: #done
     clipSize: -1
     recover: false
   - type: HALLUCINOID_WEAPON
-    bigSprite: -7
+    bigSprite: 68
     meleeSound: 26
     strengthApplied: true
     damageType: 7
@@ -1443,7 +1443,7 @@ items: #done
     clipSize: -1
     recover: false
   - type: STR_LOBSTERMAN_MELEE_WEAPON
-    bigSprite: -5
+    bigSprite: 70
     meleeSound: 42
     strengthApplied: true
     damageType: 7
@@ -1456,7 +1456,7 @@ items: #done
     clipSize: -1
     recover: false
   - type: CALCINITE_WEAPON
-    bigSprite: -9
+    bigSprite: 66
     meleeSound: 16
     strengthApplied: true
     damageType: 7
@@ -1469,7 +1469,7 @@ items: #done
     clipSize: -1
     recover: false
   - type: DEEP_ONE_WEAPON
-    bigSprite: -3
+    bigSprite: 72
     bulletSprite: 8
     fireSound: 40
     hitSound: 41
@@ -1490,7 +1490,7 @@ items: #done
     arcingShot: true
     hitAnimation: -1
   - type: STR_TRISCENE_MELEE_WEAPON
-    bigSprite: -6
+    bigSprite: 69
     handSprite: 41
     meleeSound: 44
     strengthApplied: true
@@ -1505,7 +1505,7 @@ items: #done
     recover: false
   - type: STR_TRIBIO_SONIC_WEAPON
     weight: 3
-    bigSprite: -8
+    bigSprite: 67
     floorSprite: 29
     handSprite: 40
     fireSound: 36
@@ -1528,7 +1528,7 @@ items: #done
     vaporDensity: 30
   - type: XARQUID_WEAPON
     weight: 3
-    bigSprite: -8
+    bigSprite: 67
     floorSprite: 29
     handSprite: 40
     fireSound: 37
@@ -1550,7 +1550,7 @@ items: #done
     vaporColor: 3
     vaporDensity: 30
   - type: TENTACULAT_WEAPON
-    bigSprite: -4
+    bigSprite: 71
     meleeSound: 42
     strengthApplied: true
     damageType: 7
@@ -1564,7 +1564,7 @@ items: #done
     recover: false
     zombieUnit: STR_ZOMBIE
   - type: ZOMBIE_WEAPON
-    bigSprite: -1
+    bigSprite: 74
     meleeSound: 42
     strengthApplied: true
     damageType: 7

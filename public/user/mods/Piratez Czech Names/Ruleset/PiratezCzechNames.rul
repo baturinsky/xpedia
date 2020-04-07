@@ -1,0 +1,33 @@
+soldiers:
+  - type: STR_SOLDIER
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-cs.nam
+  - type: STR_SOLDIER_S
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-cs.nam
+  - type: STR_SOLDIER_M
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-cs.nam
+  - type: STR_SOLDIER_V
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-cs.nam
+  - type: STR_SOLDIER_X
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-cs.nam
+  - type: STR_SOLDIER_LOKNAR
+    soldierNames:
+      - delete
+      - SoldierName/Loknar-cs.nam
+  - type: STR_SOLDIER_SYNTH
+    soldierNames:
+      - delete
+      - SoldierName/Synths-cs.nam
+  - type: STR_SOLDIER_SLAVE
+    soldierNames:
+      - delete
+      - SoldierName/Xmans-cs.nam

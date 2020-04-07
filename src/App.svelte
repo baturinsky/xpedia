@@ -351,7 +351,7 @@
         <h1><a href={'#' + section.id}>{section.title}</a></h1>
         <LinksPage links={section.articles.map(a => a.id)} />
       {/each}-->
-      <Intro />
+      {@html rul.str("Main Page")}
     {/if}
   </div>
 

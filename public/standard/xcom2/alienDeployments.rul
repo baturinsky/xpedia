@@ -2725,6 +2725,7 @@ alienDeployments: #done
       music: GMBIGMAR
       background: BACK01.SCR
       showTarget: false
+      showCraft: false
   - type: STR_TLETH_P3
     data:
       - alienRank: 0
@@ -2866,5 +2867,6 @@ alienDeployments: #done
       music: GMBIGMAR
       background: BACK01.SCR
       showTarget: false
+      showCraft: false
     objectiveType: 14
     objectivesRequired: 8

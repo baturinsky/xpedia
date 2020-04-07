@@ -1,12 +1,11 @@
 <script>
   import { rul } from "./Ruleset";
-  import LinksPage from "./LinksPage.svelte"; 
 </script>
 
 <div class="columns">
   <div class="column is-full-touch is-9-desktop">
     <img class="title-image" src="xpedia/images/Title.png" alt="Title art by Anna Zemlina" title="Art by Anna Zemlina. X-Piratez logo by Alla Panova.">
-      {rul.str("Welcome onboard, seagal! Take your bunk at da orlop and have some X-Grog, yarrr!")}
+      123{rul.str("Welcome onboard, seagal! Take your bunk at da orlop and have some X-Grog, yarrr!")}
     <br/>
     <h4>{rul.str("Arrr, what da FLUFF is X-Piratez stuff?")}</h4>
       {rul.str("X-Piratez is a total conversion mod designed for OpenXcom, a free open-source reimplementation of UFO")}: {rul.str("Enemy Unknown (1994) and X-Com")}: {rul.str("Terror From The Deep. There are major gameplay differences, as well as a complete overhaul of research, manufacture, base facilities, and so on. X-Piratez is designed for the veteran X-Com player seeking a much longer and complex campaign.")}<br/>

@@ -3,10 +3,8 @@ fr:
   STR_UK: "Tribu de Fer"
   STR_FRANCE: "l'Eurosyndicat"
   STR_GERMANY: "La Marche Noire"
-  STR_SPAIN: "La Fédération du Nord"
   STR_CHINA: "La Province Centrale"
   STR_CANADA: "Royaume du Canada"
-  STR_NCR: "République de Californie"
   STR_LATIN_EMPIRE: "Empire Latin"
   STR_TECHNOCRACY: "La Technocratie"
   STR_CHILE: "Pacte d'Acier"
@@ -29,26 +27,59 @@ fr:
   STR_SINGAPORE: "Singapour"
   STR_JAKARTA: "Palais de la Liberté"
   STR_CANBERRA: "l'Arène Secrète"
+  STR_JERUSALEM: "Jérusalem"
   STR_AGGRESSIVERETALIATION_DESC: "Les OVNIs tenteront de détecter vos bases à tout moment, quels que soient leurs ordres de mission."
   STR_SMALL_SCOUT_UFOPEDIA: "Cet appareil minuscule est principalement utilisé pour la reconnaissance ou la recherche. normalement, il précède les navires plus gros au début d'une mission. son équipage est composé d'une unique personne et il transporte un butin de peu de valeur"
-  STR_LUXURY_SPA_UFOPEDIA: "En plus de l'immense piscine (youpi!), cette installation contient toutes sortes de divertissements, de loisirs et d'entraînement: un ring de combat, une terrasse de jeux (avec une belle vue), une salle d'arcade, un sauna et plus encore. Il permet non seulement à 30 membres d'améliorer leur condition physique, mais pourrait être aussi bien utile pour l'entraînement de nos auxiliaires, et augmente généralement le niveau civilisationnel et sanitaire d'un Repaire, améliorant ainsi la récupération quotidienne des blessures de 0,65% des HP Max. Le code vestimentaire de cette installation dit \"le moins, le mieux\", un maillot de bain est le maximum autorisé. un seul Spa est autorisé par Repaire.{NEWLINE}La construction de cette installation nécessite 4 esclaves et 6 servantes."
   STR_SCIENTISTS: Chercheurs
   STR_ENGINEERS: Grouillots
   STR_UFO_DESTROYED: "EXPLOSE EN MORCEAUX"
   STR_UFO_CRASH_RECOVERY_BRIEFING: "Nous sommes arrivés sur le lieu du crash, Capitaine! Il est probable que plusieurs de ces chiens galeux ont survécu à l'atterrissage et ne donneront pas leur butin sans se battre. Dommage pour eux! Cependant, si les choses tournent mal pour notre équipage, n'oubliez pas que toute personne qui n'est pas à bord au moment du décollage sera perdue!"
-  STR_SCIENTIST: Chercheur
-  STR_ENGINEER: Grouillot
+  STR_HEAVY_WEAPONS_PLATFORM: "Blindé"
+  STR_SCIENTIST: "Chercheur"
+  STR_ENGINEER: "Grouillot"
+  STR_BAT_CAT_MERCHANDISE: "Marchandise"
+  ALKO: "Alambic"
+  LIB: "Bibliothèque"
+  GMGEO3: "Vol d'essai"
   STR_TOTAL_SCIENTISTS: "Chercheurs engagés"
+  STR_MEDAL_GLOBETROTTER: "Globe-Trotter Confirmé"
+  STR_MEDAL_GLOBETROTTER_NAME: "Globe-Trotter Confirmé"
+  STR_VESSEL_FIGHTER: Chasseur
+  STR_VESSEL_FIGHTER_HUNT: Chasseur
+  STR_VESSEL_EXCAVATOR: Excavateur
   STR_VESSEL_PINK: Vaisseau Rose
+  STR_WASPITE: "Waspite"
+  STR_WASPITE_SOLDIER: "Waspite"
+  STR_GAUSS_CANNON: Canon Gauss
+  STR_GAUSS_CANNON_UC: CANON GAUSS
   STR_TRACTOR_BEAM: Rayon Tracteur
   STR_SHIELD_GEN: Générateur de Champ léger
   STR_SHIELD_GEN_LARGE: Générateur de Champ Lourd
+  STR_MAGNUM: Magnum 44
+  STR_SHOTGUN_SHELLS: Cart. de Fusil à Pompe
+  STR_SHOTGUN_SHELLS_AP: Cart. de Fusil à Pompe PA
+  STR_SNIPER_RIFLE: Fusil de Précision
+  STR_SNIPER_RIFLE_CLIP: Charg. de Fusil de Précision
+  STR_HMG: Mitrailleuse Lourde
+  STR_MINIGUN: Gatling
+  STR_MINIGUN_AMMO: Batt. de Gatling
+  STR_GRENADE_LAUNCHER: Lance-Grenades (46mm)
+  STR_FLAMETHROWER: Lance-Flammes
+  STR_TOXIGUN: Fusil à Toxine
+  STR_FUSION_TORCH: Torche à Fusion
+  STR_PLASMA_CASTER: Lanceur Plasma
+  STR_PLASMA_CASTER_CLIP: Charg. de Lanceur Plasma
+  STR_GAUSS_PISTOL: Pistolet Gauss
+  STR_GAUSS_PISTOL_CLIP: Charg. de Pistolet Gauss
+  STR_HEAVY_GAUSS: Canon Lourd Gauss
+  STR_HEAVY_GAUSS_CLIP: Charg. de Canon Lourd Gauss
+  STR_STUN_GRENADE_PIR: Grenade Assommante
   STR_INCENDIARY_GRENADE: Grenade Incendiaire
   STR_ACID_GRENADE: Grenade Chimique
   STR_BANDAGE: Bandages
   STR_FIRST_AID_KIT: Kit de Premier Soins
   STR_GROG_BARREL: "X-Grog"
-  STR_ELECTRIC_LASSO: 'Lasso Électrique '
+  STR_ELECTRIC_LASSO: "Lasso Électrique "
   STR_POISON_LANCE: "Toxi-Lance"
   STR_YELLOW_GEM: Topaze
   STR_RED_GEM: Rubis
@@ -65,7 +96,7 @@ fr:
   STR_BRIEFCASE: Papiers gouvernementaux
   STR_CHOCOLATE: "Chocolat"
   STR_CIGS: "Cigarettes Bouddha-X"
-  STR_PORN: Porno Mutant
+  STR_PORN: "Porno Mutant"
   STR_NEWSPAPER: le Courrier Solaire
   STR_PIRATEY_LINGERIE: Lingerie Pirate
   STR_DIPLOMACY: Diplomatie
@@ -74,14 +105,14 @@ fr:
   STR_OCCULT: Occultisme
   STR_ROBBERY: Cambriolage
   STR_COURTESAN: Courtisane
-  STR_SALVAGE: Esclavage
-  STR_SLAVE: Esclave
-  STR_SLAVE_MAID: Servante esclave
-  STR_SLAVE_MAID_SUPER: Super servante
-  STR_SLAVE_SKILLED: Esclave spécialiste
-  STR_SLAVE_MANAGER: Esclave maître d’œuvres
-  STR_SLAVE_GLADIATRIX: Esclave gladiatrice
-  STR_SLAVE_ROBOT: Esclave robotique
+  STR_SALVAGE: "Esclavage"
+  STR_SLAVE: "Esclave"
+  STR_SLAVE_MAID: "Servante esclave"
+  STR_SLAVE_MAID_SUPER: "Super servante"
+  STR_SLAVE_SKILLED: "Esclave spécialiste"
+  STR_SLAVE_MANAGER: "Esclave maître d’œuvres"
+  STR_SLAVE_GLADIATRIX: "Esclave gladiatrice"
+  STR_SLAVE_ROBOT: "Esclave robotique"
   STR_CONTRABAND: Contrebande
   STR_CUISINE: Cuisine Post-Apocalyptique
   STR_MERCHANDISE: Marchandise
@@ -98,6 +129,7 @@ fr:
   STR_SAT_NETWORK: Réseau de Satellites Terrestre
   STR_SCHOOLING_1: Nettoyage de printemps
   STR_BALLISTICS: Balistiques
+  STR_MELEE_SUMMARY: 'Balistiques '
   STR_COMBAT_STRESS: Stress du Combat
   STR_PILOTING: Pilotage
   STR_RECRUITMENT: Recruitement
@@ -128,6 +160,5 @@ fr:
   STR_CLONING_CENTRE: "Centre de clonage"
   STR_STUDY_ROOM: "Salle d'études"
   STR_SUMMONING_CIRCLE: "Cercle d'invocation"
-  STR_FUSION_REACTOR: "Réacteur à fusion"
   STR_FACTORY: "Usine"
   STR_MISSION_COMPLETE_RETURNING_TO_BASE: "MISSION ACCOMPLIE - RETOUR A LA BASE"

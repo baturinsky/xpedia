@@ -1883,6 +1883,105 @@ armors:
       F45: ["", "", "F45_NUDE", "", "", "", "", "POINTMAN_ARMOR", "", "", "HEAD_F45", "", "", "", "POINTMAN_HELMET"]
       F46: ["", "", "F46_NUDE", "", "", "", "", "POINTMAN_ARMOR", "", "", "HEAD_F46", "", "", "", "POINTMAN_HELMET_WIDE"]
       F47: ["", "", "F47_NUDE", "", "", "", "", "POINTMAN_ARMOR", "", "", "HEAD_F47", "", "", "", "POINTMAN_HELMET"]
+  - type: STR_SLAVE_ARMOR_STRONGMAN_UC
+    layersDefaultPrefix: MHUMAN
+    layersDefinition:
+      M0: ["", "", "M0_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M0", "", "LEGION_HEADBAND", "", ""]
+      M1: ["", "", "M1_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M1", "", "LEGION_HEADBAND", "", ""]
+      M2: ["", "", "M2_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M2", "", "LEGION_HEADBAND", "", ""]
+      M3: ["", "", "M3_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M3", "", "LEGION_HEADBAND", "", ""]
+      M4: ["", "", "M4_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M4", "", "LEGION_HEADBAND", "", ""]
+      M5: ["", "", "M5_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M5", "", "LEGION_HEADBAND", "", ""]
+      M6: ["", "", "M6_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M6", "", "LEGION_HEADBAND", "", ""]
+      M7: ["", "", "M7_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M7", "", "LEGION_HEADBAND", "", ""]
+      M8: ["", "", "M8_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M8", "", "LEGION_HEADBAND", "", ""]
+      M9: ["", "", "M9_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M9", "", "LEGION_HEADBAND", "", ""]
+      M10: ["", "", "M10_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M10", "", "LEGION_HEADBAND", "", ""]
+      M11: ["", "", "M11_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M11", "", "LEGION_HEADBAND", "", ""]
+      M12: ["", "", "M12_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M12", "", "LEGION_HEADBAND", "", ""]
+      M13: ["", "", "M13_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M13", "", "LEGION_HEADBAND", "", ""]
+      M14: ["", "", "M14_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M14", "", "LEGION_HEADBAND", "", ""]
+      M15: ["", "", "M15_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M15", "", "LEGION_HEADBAND", "", ""]
+      M16: ["", "", "M16_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M16", "", "LEGION_HEADBAND", "", ""]
+      M17: ["", "", "M17_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M17", "", "LEGION_HEADBAND", "", ""]
+      M18: ["", "", "M18_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M18", "", "LEGION_HEADBAND", "", ""]
+      M19: ["", "", "M19_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M19", "", "LEGION_HEADBAND", "", ""]
+      M20: ["", "", "M20_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M20", "", "LEGION_HEADBAND", "", ""]
+      M21: ["", "", "M21_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M21", "", "LEGION_HEADBAND", "", ""]
+      M22: ["", "", "M22_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M22", "", "LEGION_HEADBAND", "", ""]
+      M23: ["", "", "M23_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M23", "", "LEGION_HEADBAND", "", ""]
+      M24: ["", "", "M24_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M24", "", "LEGION_HEADBAND", "", ""]
+      M25: ["", "", "M25_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M25", "", "LEGION_HEADBAND", "", ""]
+      M26: ["", "", "M26_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M26", "", "LEGION_HEADBAND", "", ""]
+      M27: ["", "", "M27_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M27", "", "LEGION_HEADBAND", "", ""]
+      M28: ["", "", "M28_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M28", "", "LEGION_HEADBAND", "", ""]
+      M29: ["", "", "M29_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M29", "", "LEGION_HEADBAND", "", ""]
+      M30: ["", "", "M30_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M30", "", "LEGION_HEADBAND", "", ""]
+      M31: ["", "", "M31_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M31", "", "LEGION_HEADBAND", "", ""]
+      M32: ["", "", "M32_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M32", "", "LEGION_HEADBAND", "", ""]
+      M33: ["", "", "M33_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M33", "", "LEGION_HEADBAND", "", ""]
+      M34: ["", "", "M34_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M34", "", "LEGION_HEADBAND", "", ""]
+      M35: ["", "", "M35_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M35", "", "LEGION_HEADBAND", "", ""]
+      M36: ["", "", "M36_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M36", "", "LEGION_HEADBAND", "", ""]
+      M37: ["", "", "M37_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M37", "", "LEGION_HEADBAND", "", ""]
+      M38: ["", "", "M38_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M38", "", "LEGION_HEADBAND", "", ""]
+      M39: ["", "", "M39_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M39", "", "LEGION_HEADBAND", "", ""]
+      M40: ["", "", "M40_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M40", "", "LEGION_HEADBAND", "", ""]
+      M41: ["", "", "M41_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M41", "", "LEGION_HEADBAND", "", ""]
+      M42: ["", "", "M42_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M42", "", "LEGION_HEADBAND", "", ""]
+      M43: ["", "", "M43_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M43", "", "LEGION_HEADBAND", "", ""]
+      M44: ["", "", "M44_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M44", "", "LEGION_HEADBAND", "", ""]
+      M45: ["", "", "M45_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M45", "", "LEGION_HEADBAND", "", ""]
+      M46: ["", "", "M46_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M46", "", "LEGION_HEADBAND", "", ""]
+      M47: ["", "", "M47_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_M47", "", "LEGION_HEADBAND", "", ""]
+      F0: ["", "", "F0_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F0", "", "LEGION_HEADBAND", "", ""]
+      F1: ["", "", "F1_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F1", "", "LEGION_HEADBAND", "", ""]
+      F2: ["", "", "F2_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F2", "", "LEGION_HEADBAND", "", ""]
+      F3: ["", "", "F3_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F3", "", "LEGION_HEADBAND", "", ""]
+      F4: ["", "", "F4_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F4", "", "LEGION_HEADBAND", "", ""]
+      F5: ["", "", "F5_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F5", "", "LEGION_HEADBAND", "", ""]
+      F6: ["", "", "F6_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F6", "", "LEGION_HEADBAND", "", ""]
+      F7: ["", "", "F7_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F7", "", "LEGION_HEADBAND", "", ""]
+      F8: ["", "", "F8_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F8", "", "LEGION_HEADBAND", "", ""]
+      F9: ["", "", "F9_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F9", "", "LEGION_HEADBAND", "", ""]
+      F10: ["", "", "F10_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F10", "", "LEGION_HEADBAND", "", ""]
+      F11: ["", "", "F11_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F11", "", "LEGION_HEADBAND", "", ""]
+      F12: ["", "", "F12_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F12", "", "LEGION_HEADBAND", "", ""]
+      F13: ["", "", "F13_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F13", "", "LEGION_HEADBAND", "", ""]
+      F14: ["", "", "F14_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F14", "", "LEGION_HEADBAND", "", ""]
+      F15: ["", "", "F15_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F15", "", "LEGION_HEADBAND", "", ""]
+      F16: ["", "", "F16_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F16", "", "LEGION_HEADBAND", "", ""]
+      F17: ["", "", "F17_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F17", "", "LEGION_HEADBAND", "", ""]
+      F18: ["", "", "F18_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F18", "", "LEGION_HEADBAND", "", ""]
+      F19: ["", "", "F19_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F19", "", "LEGION_HEADBAND", "", ""]
+      F20: ["", "", "F20_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F20", "", "LEGION_HEADBAND", "", ""]
+      F21: ["", "", "F21_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F21", "", "LEGION_HEADBAND", "", ""]
+      F22: ["", "", "F22_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F22", "", "LEGION_HEADBAND", "", ""]
+      F23: ["", "", "F23_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F23", "", "LEGION_HEADBAND", "", ""]
+      F24: ["", "", "F24_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F24", "", "LEGION_HEADBAND", "", ""]
+      F25: ["", "", "F25_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F25", "", "LEGION_HEADBAND", "", ""]
+      F26: ["", "", "F26_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F26", "", "LEGION_HEADBAND", "", ""]
+      F27: ["", "", "F27_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F27", "", "LEGION_HEADBAND", "", ""]
+      F28: ["", "", "F28_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F28", "", "LEGION_HEADBAND", "", ""]
+      F29: ["", "", "F29_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F29", "", "LEGION_HEADBAND", "", ""]
+      F30: ["", "", "F30_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F30", "", "LEGION_HEADBAND", "", ""]
+      F31: ["", "", "F31_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F31", "", "LEGION_HEADBAND", "", ""]
+      F32: ["", "", "F32_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F32", "", "LEGION_HEADBAND", "", ""]
+      F33: ["", "", "F33_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F33", "", "LEGION_HEADBAND", "", ""]
+      F34: ["", "", "F34_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F34", "", "LEGION_HEADBAND", "", ""]
+      F35: ["", "", "F35_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F35", "", "LEGION_HEADBAND", "", ""]
+      F36: ["", "", "F36_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F36", "", "LEGION_HEADBAND", "", ""]
+      F37: ["", "", "F37_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F37", "", "LEGION_HEADBAND", "", ""]
+      F38: ["", "", "F38_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F38", "", "LEGION_HEADBAND", "", ""]
+      F39: ["", "", "F39_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F39", "", "LEGION_HEADBAND", "", ""]
+      F40: ["", "", "F40_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F40", "", "LEGION_HEADBAND", "", ""]
+      F41: ["", "", "F41_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F41", "", "LEGION_HEADBAND", "", ""]
+      F42: ["", "", "F42_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F42", "", "LEGION_HEADBAND", "", ""]
+      F43: ["", "", "F43_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F43", "", "LEGION_HEADBAND", "", ""]
+      F44: ["", "", "F44_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F44", "", "LEGION_HEADBAND", "", ""]
+      F45: ["", "", "F45_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F45", "", "LEGION_HEADBAND", "", ""]
+      F46: ["", "", "F46_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F46", "", "LEGION_HEADBAND", "", ""]
+      F47: ["", "", "F47_NUDE", "", "", "", "", "STRONGMAN_ARMOR", "", "", "HEAD_F47", "", "LEGION_HEADBAND", "", ""]
   - type: STR_SLAVE_ARMOR_DEMOLISHER_UC
     layersDefaultPrefix: MHUMAN
     layersDefinition:
@@ -3568,7 +3667,7 @@ armors:
       M19: ["", "SHEPHERD_HAT_BACK", "M19_NUDE", "", "", "", "", "SHEPHERD_DRESS_A", "", "", "HEAD_M19", "", "", "", "SHEPHERD_HAT_FRONT"]
       M20: ["", "SHEPHERD_HAT_BACK", "M20_NUDE", "", "", "", "", "SHEPHERD_DRESS_B", "", "", "HEAD_M20", "", "", "", "SHEPHERD_HAT_FRONT"]
       M21: ["", "SHEPHERD_HAT_BACK", "M21_NUDE", "", "", "", "", "SHEPHERD_DRESS_A", "", "", "HEAD_M21", "", "", "", "SHEPHERD_HAT_FRONT"]
-      M22: ["", "SHEPHERD_HAT_BACK", "M22_NUDE", "", "HIJAB_M22", "", "", "SHEPHERD_DRESS_B", "", "", "HEAD_M22", "", "", "HIJAB_TOP_M22"]
+      M22: ["", "SHEPHERD_HAT_BACK", "M22_NUDE", "", "HIJAB_M22", "", "", "SHEPHERD_DRESS_B", "", "", "HEAD_M22", "", "", "HIJAB_TOP_M22", "SHEPHERD_HAT_FRONT"]
       M23: ["", "SHEPHERD_HAT_BACK", "M23_NUDE", "", "", "", "", "SHEPHERD_DRESS_B", "", "", "HEAD_M23", "", "", "", "SHEPHERD_HAT_FRONT"]
       M24: ["", "SHEPHERD_HAT_BACK", "M24_NUDE", "", "", "", "", "SHEPHERD_DRESS_C", "", "", "HEAD_M24", "", "", "", "SHEPHERD_HAT_FRONT"]
       M25: ["", "SHEPHERD_HAT_BACK", "M25_NUDE", "", "", "", "", "SHEPHERD_DRESS_B", "", "", "HEAD_M25", "", "", "", "SHEPHERD_HAT_FRONT"]
@@ -11279,6 +11378,108 @@ armors:
       F45: ["", "", "F45_NUDE", "", "", "", "", "SYNTHSUIT", "", "", "HEAD_F45"]
       F46: ["", "", "F46_NUDE", "", "", "", "", "SYNTHSUIT", "", "", "HEAD_F46"]
       F47: ["", "", "F47_NUDE", "", "", "", "", "SYNTHSUIT", "", "", "HEAD_F47"]
+  - type: STR_ZORTRIUM_SUIT_UC
+    layersDefaultPrefix: UBERGAL
+    layersDefinition: &Section_Layers_Zortrium_Suit
+      M0: ["", "", "M0_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M0"]
+      M1: ["", "", "M1_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M1"]
+      M2: ["", "", "M2_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M2"]
+      M3: ["", "", "M3_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M3"]
+      M4: ["", "", "M4_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M4"]
+      M5: ["", "", "M5_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M5"]
+      M6: ["", "", "M6_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M6"]
+      M7: ["", "", "M7_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M7"]
+      M8: ["", "", "M8_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M8"]
+      M9: ["", "", "M9_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M9"]
+      M10: ["", "", "M10_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M10"]
+      M11: ["", "", "M11_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M11"]
+      M12: ["", "", "M12_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M12"]
+      M13: ["", "", "M13_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M13"]
+      M14: ["", "", "M14_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M14"]
+      M15: ["", "", "M15_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M15"]
+      M16: ["", "", "M16_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M16"]
+      M17: ["", "", "M17_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M17"]
+      M18: ["", "", "M18_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M18"]
+      M19: ["", "", "M19_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M19"]
+      M20: ["", "", "M20_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M20"]
+      M21: ["", "", "M21_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M21"]
+      M22: ["", "", "M22_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M22"]
+      M23: ["", "", "M23_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M23"]
+      M24: ["", "", "M24_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M24"]
+      M25: ["", "", "M25_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M25"]
+      M26: ["", "", "M26_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M26"]
+      M27: ["", "", "M27_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M27"]
+      M28: ["", "", "M28_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M28"]
+      M29: ["", "", "M29_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M29"]
+      M30: ["", "", "M30_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M30"]
+      M31: ["", "", "M31_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M31"]
+      M32: ["", "", "M32_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M32"]
+      M33: ["", "", "M33_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M33"]
+      M34: ["", "", "M34_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M34"]
+      M35: ["", "", "M35_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M35"]
+      M36: ["", "", "M36_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M36"]
+      M37: ["", "", "M37_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M37"]
+      M38: ["", "", "M38_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M38"]
+      M39: ["", "", "M39_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M39"]
+      M40: ["", "", "M40_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M40"]
+      M41: ["", "", "M41_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M41"]
+      M42: ["", "", "M42_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M42"]
+      M43: ["", "", "M43_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M43"]
+      M44: ["", "", "M44_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M44"]
+      M45: ["", "", "M45_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M45"]
+      M46: ["", "", "M46_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M46"]
+      M47: ["", "", "M47_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_M47"]
+      F0: ["", "", "F0_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F0"]
+      F1: ["", "", "F1_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F1"]
+      F2: ["", "", "F2_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F2"]
+      F3: ["", "", "F3_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F3"]
+      F4: ["", "", "F4_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F4"]
+      F5: ["", "", "F5_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F5"]
+      F6: ["", "", "F6_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F6"]
+      F7: ["", "", "F7_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F7"]
+      F8: ["", "", "F8_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F8"]
+      F9: ["", "", "F9_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F9"]
+      F10: ["", "", "F10_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F10"]
+      F11: ["", "", "F11_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F11"]
+      F12: ["", "", "F12_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F12"]
+      F13: ["", "", "F13_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F13"]
+      F14: ["", "", "F14_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F14"]
+      F15: ["", "", "F15_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F15"]
+      F16: ["", "", "F16_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F16"]
+      F17: ["", "", "F17_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F17"]
+      F18: ["", "", "F18_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F18"]
+      F19: ["", "", "F19_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F19"]
+      F20: ["", "", "F20_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F20"]
+      F21: ["", "", "F21_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F21"]
+      F22: ["", "", "F22_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F22"]
+      F23: ["", "", "F23_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F23"]
+      F24: ["", "", "F24_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F24"]
+      F25: ["", "", "F25_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F25"]
+      F26: ["", "", "F26_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F26"]
+      F27: ["", "", "F27_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F27"]
+      F28: ["", "", "F28_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F28"]
+      F29: ["", "", "F29_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F29"]
+      F30: ["", "", "F30_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F30"]
+      F31: ["", "", "F31_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F31"]
+      F32: ["", "", "F32_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F32"]
+      F33: ["", "", "F33_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F33"]
+      F34: ["", "", "F34_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F34"]
+      F35: ["", "", "F35_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F35"]
+      F36: ["", "", "F36_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F36"]
+      F37: ["", "", "F37_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F37"]
+      F38: ["", "", "F38_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F38"]
+      F39: ["", "", "F39_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F39"]
+      F40: ["", "", "F40_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F40"]
+      F41: ["", "", "F41_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F41"]
+      F42: ["", "", "F42_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F42"]
+      F43: ["", "", "F43_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F43"]
+      F44: ["", "", "F44_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F44"]
+      F45: ["", "", "F45_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F45"]
+      F46: ["", "", "F46_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F46"]
+      F47: ["", "", "F47_NUDE", "", "", "", "", "", "", "", "", "ZORTRIUM_SUIT", "", "HAIR_F47"]
+  - type: STR_ZORTRIUM_SUIT_SEA_UC
+    layersDefaultPrefix: UBERGAL
+    layersDefinition: *Section_Layers_Zortrium_Suit
   - type: STR_BRUTE_ARMOR_UC
     layersDefaultPrefix: UBERGAL
     layersDefinition:
@@ -14374,7 +14575,7 @@ armors:
     layersDefinition: *Section_Layers_Inferna_Normal
   - type: STR_INFERNA_ARMOR_A_UC
     layersDefaultPrefix: UBERGAL
-    layersDefinition: &Section_Layers_Inferna_Normal
+    layersDefinition:
       M0: ["", "", "M0_NUDE", "INFERNA", "", "", "", "", "", "", "", "", "", "HAIR_M0", "", "INFERNA_SHIELD"]
       M1: ["", "", "M1_NUDE", "INFERNA", "", "", "", "", "", "", "", "", "", "HAIR_M1", "", "INFERNA_SHIELD"]
       M2: ["", "", "M2_NUDE", "INFERNA", "", "", "", "", "", "", "", "", "", "HAIR_M2", "", "INFERNA_SHIELD"]
@@ -15873,6 +16074,56 @@ armors:
       - 0.7
       - 1.0
     loftempsSet: [ 2 ]
+  - type: RAYNERD_ARMOR
+    spriteSheet: RAYNERD.PCK
+    spriteInv: RaynerdInventoryImage
+    corpseBattle:
+      - RAYNERD_CORPSE
+    corpseGeo: STR_SC_WIRE
+    visibilityAtDark: 20
+    heatVision: 30
+    psiVision: 4
+    frontArmor: 30
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 30
+    meleeDodge:
+      reactions: 0.5
+      melee: 0.1
+      psiStrength: 0.2
+    meleeDodgeBackPenalty: 0.25
+    recovery:
+      morale:
+        moraleCurrent: -0.069
+        bravery: 0.122
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+        stunCurrent: 0.09
+      health:
+        flatHundred: 0.05
+        stunNormalized: -0.165
+    psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.25
+      - 1.0
+      - 1.0
+      - 0.25
+      - 1.0
+      - 1.0
+      - 1.0
+    specialWeapon: AUX_GHOST_FISTO
+    loftempsSet: [ 3 ]
   - type: NINJA_ARMOR_1
     spriteSheet: NIN_1.PCK
     spriteInv: NinjaGalInventoryImage
@@ -17690,7 +17941,7 @@ armors:
     damageModifier:
       - 0.8
       - 1.0
-      - 0.75
+      - 0.6
       - 1.0
       - 1.0
       - 1.0
@@ -18326,7 +18577,7 @@ armors:
     damageModifier:
       - 1.2
       - 1.0
-      - 0.75
+      - 0.6
       - 1.0
       - 1.0
       - 1.0
@@ -21037,7 +21288,7 @@ armors:
       - 0.0
       - 3.5
       - 0.0
-      - 1.0
+      - 1.25
       - 0.1
       - 1.0
       - 1.0
@@ -21089,7 +21340,7 @@ armors:
       - 0.0
       - 3.5
       - 0.0
-      - 1.0
+      - 1.25
       - 0.1
       - 1.0
       - 1.0
@@ -21322,6 +21573,8 @@ armors:
       - INV_NULL_2X1_RS
       - INV_NULL_2X1_LS
       - INV_NULL_1X2_QD
+      - INV_NULL_HAT
+      - INV_NULL_TORSO3
     loftempsSet: [ 2 ]
   - type: ADRONE_ARMOR
     spriteSheet: SCI_8.PCK
@@ -21697,7 +21950,7 @@ armors:
       - 0.8
       - 1.0
       - 0.0
-      - 9.9
+      - 9.99
       - 0.5
       - 0.7
       - 0.1
@@ -22095,6 +22348,49 @@ armors:
       - 0.0
       - 0.0
     loftempsSet: [92, 89, 90, 91]
+  - type: ARMORED_CAR_NAZI_ARMOR
+    spriteInv: MAN_75
+    spriteSheet: XCARS_NAZ.PCK
+    corpseBattle:
+      - CAR_CORPSE_1
+      - CAR_CORPSE_2
+      - CAR_CORPSE_3
+      - CAR_CORPSE_4
+    corpseGeo: STR_CAR_CORPSE
+    visibilityAtDark: 12
+    heatVision: 20
+    frontArmor: 60
+    sideArmor: 55
+    rearArmor: 45
+    underArmor: 40
+    moveSound: 200
+    drawingRoutine: 2
+    size: 2
+    allowInv: false
+    fearImmune: false
+    overKill: 3.0
+    psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 0.0
+      - 0.8
+      - 0.25
+      - 0.65
+      - 0.8
+      - 0.8
+      - 0.0
+      - 0.5
+      - 0.4
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.5
+      - 0.35
+      - 1.0
+      - 0.5
+      - 0.5
+      - 0.0
+      - 0.0
+    loftempsSet: [92, 89, 90, 91]
   - type: TANK_MSDF_ARMOR
     spriteSheet: MSDF_TANK.PCK
     spriteInv: MSDFTankInventoryImage
@@ -22245,6 +22541,47 @@ armors:
       - 0.0
       - 0.0
     loftempsSet: [92, 89, 90, 91]
+  - type: STR_TURRET_BLUE_ARMOR
+    spriteInv: TurretBlueInventoryImage
+    spriteSheet: TURRET_ALLOY.PCK
+    corpseBattle:
+      - STR_TURRET_BLUE_CORPSE
+    visibilityAtDark: 16
+    visibilityAtDay: 30
+    heatVision: 40
+    frontArmor: 80
+    sideArmor: 75
+    rearArmor: 70
+    underArmor: 70
+    drawingRoutine: 19
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    overKill: 3.0
+    psiDefence: *SECTION_PSIDEF_MACHINE
+    damageModifier:
+      - 0.0
+      - 0.8
+      - 0.3
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+      - 0.5
+      - 0.5
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.5
+      - 1.5
+      - 1.0
+      - 0.0
+      - 0.5
+      - 0.0
+      - 0.0
+    loftempsSet: [5]
   - type: MEGASCORPION_ARMOR
     spriteSheet: MEGASCORPION.PCK
     spriteInv: MAN_78
@@ -24304,7 +24641,7 @@ armors:
     damageModifier:
       - 1.0
       - 1.0
-      - 0.75
+      - 0.6
       - 1.0
       - 1.0
       - 1.0
@@ -24554,6 +24891,56 @@ armors:
       - 1.0
       - 1.0
     loftempsSet: [ 2 ]
+  - type: GOVT_ARMOR_P8
+    spriteSheet: GOV_8.PCK
+    spriteInv: ExterminatorInventoryImage
+    corpseBattle:
+      - STR_GOVT_8_CORPSE_BATTLE
+    corpseGeo: STR_PBA_CORPSE
+    visibilityAtDark: 20
+    heatVision: 60
+    bleedImmune: false
+    allowsRunning: false
+    weight: -35
+    overKill: 1.0
+    frontArmor: 100
+    sideArmor: 90
+    rearArmor: 80
+    underArmor: 60
+    meleeDodge:
+      flatHundred: 0.25
+    meleeDodgeBackPenalty: 0.25
+    recovery:
+      morale:
+        moraleCurrent: -0.069
+        bravery: 0.122
+      stun:
+        healthCurrent: 0.1
+        health: -0.0625
+        stunCurrent: 0.09
+      health:
+        stunNormalized: -0.165
+    psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.1
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.7
+      - 0.5
+      - 0.0
+      - 0.0
+      - 1.0
+      - 0.35
+      - 0.5
+      - 2.5
+      - 1.0
+      - 0.65
+    specialWeapon: STR_UNARMED_GAUNTLET
+    loftempsSet: [ 4 ]
   - type: NAZI_ARMOR_P1
     spriteSheet: NAZ_1.PCK
     spriteInv: NaziSoldierInventoryImage
@@ -25833,6 +26220,7 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: PYRAMID_ARMOR
     spriteSheet: PYRAMID.PCK
+    spriteInv: MAN_49
     allowInv: false
     corpseBattle:
       - PYRAMID_CORPSE_1
@@ -26459,6 +26847,7 @@ alienRaces:
       - STR_NAZI_SOLDIER
       - STR_NAZI_STORMTROOPER
       - STR_XTANK_CANNON_TERRORIST
+    retaliationAggression: -100
   - id: STR_TECHNOCRACY
     members:
       - STR_TECHNOCRACY_MEK_LEADER
@@ -26469,6 +26858,7 @@ alienRaces:
       - STR_TECHNOCRACY_TERMINATOR_TERRORIST
       - STR_TECHNOCRACY_TERMINATOR_TERRORIST
       - STR_TECHNOCRACY_TERMINATOR_TERRORIST
+    retaliationAggression: -100
   - id: STR_SMUGGLER
     members:
       - STR_STAR_GOD_PUBLIC_ENEMY
@@ -26722,6 +27112,14 @@ alienRaces:
       - STR_DEEP_ONE_SOLDIER
       - STR_LOBSTERMAN_TERRORIST
       - STR_CELATID_TERRORIST
+      - STR_DEEP_ONE_SOLDIER
+      - STR_DEEP_ONE_SOLDIER
+      - STR_DEEP_ONE_SOLDIER
+      - STR_AQUAMAN_TERRORIST
+      - STR_DEEP_ONE_SOLDIER
+      - STR_DEEP_ONE_SOLDIER
+      - STR_LOBSTERMAN_TERRORIST
+      - STR_LOBSTERMAN_TERRORIST
     retaliationAggression: -100
   - id: STR_BEASTMEN_WILD
     members:
@@ -26821,6 +27219,7 @@ alienRaces:
       - STR_XTANK_CANNON_TERRORIST
       - STR_NAZI_SOLDIER
       - STR_DOGG_TERRORIST
+      - STR_ARMORED_CAR_NAZI_TERRORIST
   - id: STR_MAGICAL_CREATURES
     members:
       - STR_MAGICAL_GIRL
@@ -27103,6 +27502,14 @@ alienRaces:
       - STR_CHRYSSALID_TERRORIST
   - id: STR_DEEP_ONE_UNDERWATER
     members:
+      - STR_DEEP_ONE_NOMAD
+      - STR_DEEP_ONE_NOMAD
+      - STR_DEEP_ONE_NOMAD
+      - STR_AQUAMAN_TERRORIST
+      - STR_DEEP_ONE_NOMAD
+      - STR_DEEP_ONE_NOMAD
+      - STR_LOBSTERMAN_TERRORIST
+      - STR_LOBSTERMAN_TERRORIST
       - STR_DEEP_ONE_NOMAD
       - STR_DEEP_ONE_NOMAD
       - STR_DEEP_ONE_NOMAD
@@ -27924,6 +28331,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Armors/Body_46/body46_F47_pir.gif
+  - type: MAN_49.SPK
+    singleImage: true
+    files:
+      0: Resources/Body_X/Black_Pyramid_Inv.gif
   - type: MAN_50.SPK
     singleImage: true
     files:
@@ -28096,6 +28507,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Body_X/XSECT_Inv.png
+  - type: MAN_97.SPK
+    singleImage: true
+    files:
+      0: Resources/Body_X/Wolverin_Inv.png
   - type: MAN_101M0.SPK
     singleImage: true
     files:
@@ -28480,6 +28895,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Armors/Body_101/body101_F47_pir.gif
+  - type: MAN_105.SPK
+    singleImage: true
+    files:
+      0: Resources/Body_X/Space_Suit_UAC.png
   - type: MAN_112M0.SPK
     singleImage: true
     files:

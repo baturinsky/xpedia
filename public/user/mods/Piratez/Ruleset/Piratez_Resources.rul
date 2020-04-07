@@ -1,4 +1,5 @@
 extraSprites:
+  - delete: GlobeMarkers
   - type: AlienInventory
     singleImage: true
     files:
@@ -10,7 +11,7 @@ extraSprites:
   - type: GEOBORD.SCR
     singleImage: true
     files:
-      0: Resources/Backgrounds/Space2.png
+      0: Resources/Backgrounds/Space3.png
   - type: UnknownInventoryImage
     singleImage: true
     files:
@@ -19,6 +20,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Body_X/Loknar_Inv.gif
+  - type: RaynerdInventoryImage
+    singleImage: true
+    files:
+      0: Resources/Body_X/Raynerd_Inv.png
   - type: LoknarMilitiaInventoryImage
     singleImage: true
     files:
@@ -459,6 +464,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Body_X/GOV_7_Inv.png
+  - type: ExterminatorInventoryImage
+    singleImage: true
+    files:
+      0: Resources/Body_X/BigMuhreen6d.gif
   - type: RaiderScoutInventoryImage
     singleImage: true
     files:
@@ -799,6 +808,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Body_X/Turret_Armor.png
+  - type: TurretBlueInventoryImage
+    singleImage: true
+    files:
+      0: Resources/Body_X/Turret_Armor_Blue.png
   - type: PIR_0.PCK
     subX: 32
     subY: 40
@@ -1114,6 +1127,13 @@ extraSprites:
     height: 720
     files:
       0: Resources/Sprites/PIR_48.png
+  - type: PIR_49.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Sprites/PIR_49.png
   - type: PIR_101.PCK
     subX: 32
     subY: 40
@@ -1128,6 +1148,20 @@ extraSprites:
     height: 720
     files:
       0: Resources/Sprites/PIR_102.png
+  - type: PIR_105.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Sprites/PIR_105.png
+  - type: PIR_106.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Sprites/PIR_106.png
   - type: PIR_108.PCK
     subX: 32
     subY: 40
@@ -1569,6 +1603,13 @@ extraSprites:
     height: 720
     files:
       0: Resources/Sprites/PIR_533.png
+  - type: PIR_534.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Sprites/PIR_534.png
   - type: PIR_537.PCK
     subX: 32
     subY: 40
@@ -2640,6 +2681,13 @@ extraSprites:
     height: 720
     files:
       0: Resources/Sprites/GOV_7.png
+  - type: GOV_8.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Sprites/GOV_8.png
   - type: NAZ_1.PCK
     subX: 32
     subY: 40
@@ -3207,6 +3255,13 @@ extraSprites:
     height: 680
     files:
       0: Resources/Sprites/LOK_2.png
+  - type: RAYNERD.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 680
+    files:
+      0: Resources/Sprites/RAYNERD.png
   - type: MEGASCORPION.PCK
     subX: 32
     subY: 40
@@ -3389,6 +3444,13 @@ extraSprites:
     height: 1440
     files:
       0: Resources/Sprites/FLASH.png
+  - type: TURRET_ALLOY.PCK
+    subX: 32
+    subY: 40
+    width: 352
+    height: 40
+    files:
+      0: Resources/Sprites/TURRET_ALLOY.png
   - type: PYRAMID.PCK
     subX: 32
     subY: 40
@@ -3459,6 +3521,13 @@ extraSprites:
     height: 480
     files:
       0: Resources/Sprites/XCARS.png
+  - type: XCARS_NAZ.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 480
+    files:
+      0: Resources/Sprites/XCARS_NAZ.png
   - type: XHOVERTANK.PCK
     subX: 32
     subY: 40
@@ -3466,6 +3535,13 @@ extraSprites:
     height: 440
     files:
       0: Resources/Sprites/XHOVERTANK.png
+  - type: WOLVERIN.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/Sprites/WOLVERIN.png
   - type: XSECT0.PCK
     subX: 32
     subY: 40
@@ -3599,47 +3675,47 @@ extraSprites:
     height: 200
     files:
       0: Resources/Sprites/JIM.png
-#  - type: TEXTURE.DAT
-#    files:
-#      0: Resources/Globe/texture01.gif
-#      1: Resources/Globe/texture02.gif
-#      2: Resources/Globe/texture03.gif
-#      3: Resources/Globe/texture04.gif
-#      4: Resources/Globe/texture05.gif
-#      5: Resources/Globe/texture06.gif
-#      6: Resources/Globe/texture07.gif
-#      7: Resources/Globe/texture08.gif
-#      8: Resources/Globe/texture09.gif
-#      9: Resources/Globe/texture10.gif
-#      10: Resources/Globe/texture11.gif
-#      11: Resources/Globe/texture12.gif
-#      12: Resources/Globe/texture13.gif
-#      13: Resources/Globe/texture14.gif
-#      14: Resources/Globe/texture15.gif
-#      15: Resources/Globe/texture16.gif
-#      16: Resources/Globe/texture17.gif
-#      17: Resources/Globe/texture18.gif
-#      18: Resources/Globe/texture19.gif
-#      19: Resources/Globe/texture20.gif
-#      20: Resources/Globe/texture21.gif
-#      21: Resources/Globe/texture22.gif
-#      22: Resources/Globe/texture23.gif
-#      23: Resources/Globe/texture24.gif
-#      24: Resources/Globe/texture25.gif
-#      25: Resources/Globe/texture26.gif
-#      26: Resources/Globe/texture27.gif
-#      27: Resources/Globe/texture28.gif
-#      28: Resources/Globe/texture29.gif
-#      29: Resources/Globe/texture30.gif
-#      30: Resources/Globe/texture31.gif
-#      31: Resources/Globe/texture32.gif
-#      32: Resources/Globe/texture33.gif
-#      33: Resources/Globe/texture34.gif
-#      34: Resources/Globe/texture35.gif
-#      35: Resources/Globe/texture36.gif
-#      36: Resources/Globe/texture37.gif
-#      37: Resources/Globe/texture38.gif
-#      38: Resources/Globe/texture39.gif
+  - type: TEXTURE.DAT
+    files:
+#      0: Resources/Globe/LakesClose.gif #TaigaClose
+#      1: Resources/Globe/texture02.gif #SteppeFarmClose
+#      2: Resources/Globe/texture03.gif #FarmlandClose
+#      3: Resources/Globe/texture04.gif #PrairieClose
+#      4: Resources/Globe/texture05.gif #SavannaClose
+#      5: Resources/Globe/texture06.gif #MountainClose
+#      6: Resources/Globe/texture07.gif #SwampClose
+#      7: Resources/Globe/texture08.gif #SandDesertClose
+#      8: Resources/Globe/texture09.gif #RockDesertClose
+#      9: Resources/Globe/texture10.gif #SolidIceClose
+      10: Resources/Globe/JungleClose.png #JungleClose
+      11: Resources/Globe/TundraClose.png #TundraClose
+#      12: Resources/Globe/texture13.gif #FloatingIceClose
+#      13: Resources/Globe/LakesMed.gif #TaigaMed 
+#      14: Resources/Globe/texture15.gif #SteppeFarmMed
+#      15: Resources/Globe/texture16.gif #FarmlandMed
+#      16: Resources/Globe/texture17.gif #PrairieMed
+#      17: Resources/Globe/texture18.gif #SavannaMed
+#      18: Resources/Globe/texture19.gif #MountainMed
+#      19: Resources/Globe/texture20.gif #SwampMed
+#      20: Resources/Globe/texture21.gif #SandDesertMed
+#      21: Resources/Globe/texture22.gif #RockDesertMed
+#      22: Resources/Globe/texture23.gif #SolidIceMed
+      23: Resources/Globe/JungleMed.png #JungleMed
+      24: Resources/Globe/TundraMed.png #TundraMed
+#      25: Resources/Globe/texture26.gif #FloatingIceMed
+#      26: Resources/Globe/LakesFar.gif #TaigaFar
+#      27: Resources/Globe/texture28.gif #SteppeFarmlandFar
+#      28: Resources/Globe/texture29.gif #FarmlandFar
+#      29: Resources/Globe/texture30.gif #PrairieFar
+#      30: Resources/Globe/texture31.gif #SavannaFar
+#      31: Resources/Globe/texture32.gif #MountainFar
+#      32: Resources/Globe/texture33.gif #SwampFar
+#      33: Resources/Globe/texture34.gif #SandDesertFar
+#      34: Resources/Globe/texture35.gif #RockDesertFar
+#      35: Resources/Globe/texture36.gif #SolidIceFar
+      36: Resources/Globe/JungleClose.png #JungleFar
+      37: Resources/Globe/TundraFar.png #TundraFar
+#      38: Resources/Globe/texture39.gif #FloatingIceFar
   - type: BIGOBS.PCK
     files:
       3: Resources/Pistol.png
@@ -4327,6 +4403,12 @@ extraSprites:
       827: Resources/Blanks/Null_Void_4x2_Back.png
       828: Resources/Blanks/Null_Void_4x2.png
       829: Resources/Blanks/Null_Void_3x3.png
+      830: Resources/Blanks/Null_Void_2x2.png
+      831: Resources/Blanks/Null_Void_1x1_l.png
+      832: Resources/Blanks/Null_Void_2x2_l.png
+      833: Resources/Blanks/Null_Void_2x3_l.png
+      834: Resources/Blanks/Null_Void_2x1_ld.png
+      835: Resources/Blanks/Null_Void_2x2_ld.png
       838: Resources/Blanks/Oxygen_4x3.png
       839: Resources/Blanks/Oxygen_2x3.png
       840: Resources/Blanks/Jetpack_A_3x3.png
@@ -4417,6 +4499,7 @@ extraSprites:
       944: Resources/Corpses/PIR_44_b.png
       946: Resources/Corpses/PIR_46_b.png
       947: Resources/Corpses/PIR_47_b.png
+      949: Resources/Corpses/PIR_49_b.gif
       951: Resources/Crossbow_2.png
       952: Resources/Crossbow_2_Quiver_A.png
       953: Resources/Aqua_Trident.gif
@@ -4792,6 +4875,7 @@ extraSprites:
       1505: Resources/Corpses/GOV_5_b.png
       1506: Resources/Corpses/GOV_6_b.png
       1507: Resources/Corpses/GOV_7_b.png
+      1508: Resources/Corpses/GOV_8_b.gif
       1510: Resources/Corpses/COS_0_b.gif
       1511: Resources/Corpses/COS_1_b.gif
       1513: Resources/Corpses/COS_3_b.gif
@@ -4944,6 +5028,7 @@ extraSprites:
       2112: Resources/Corpses/PIR_112_b.gif
       2113: Resources/Corpses/PIR_113_b.gif
       2102: Resources/Corpses/PIR_102_b.png
+      2105: Resources/Corpses/PIR_105_b.png
       2109: Resources/Corpses/PIR_109_b.png
       2120: Resources/Corpses/PIR_120_b.png
       2133: Resources/Corpses/PIR_133_b.png
@@ -4984,6 +5069,7 @@ extraSprites:
       2526: Resources/Corpses/PIR_526_b.png
       2528: Resources/Corpses/PIR_528_b.png
       2533: Resources/Corpses/PIR_533_b.gif
+      2534: Resources/Corpses/PIR_534_b.gif
       2537: Resources/Corpses/PIR_537_b.gif
       2540: Resources/Corpses/PIR_540_b.png
       2542: Resources/Corpses/PIR_542_b.png
@@ -5233,6 +5319,38 @@ extraSprites:
       3218: Resources/Fireball_Green.gif
       3219: Resources/Staff_of_Explosion.png
       3220: Resources/Blissgiver.gif
+      3221: Resources/Tank_Howitzer_WP.png
+      3222: Resources/Minigun_Ammo_ETAP.png
+      3223: Resources/Big_Rifle.png
+      3224: Resources/HMG_Clip_MAG_Small.png
+      3225: Resources/HMG_Clip_MAG.gif
+      3226: Resources/HMG_Clip_Large_MAG.png
+      3227: Resources/Minigun_Adv.gif
+      3228: Resources/ATGM.gif
+      3229: Resources/ATGM_Round.gif
+      3230: Resources/Mortar_Supremacy.png
+      3231: Resources/Hand_Mortar.gif
+      3232: Resources/Bootleg_Plasma_Pistol.png
+      3233: Resources/Bootleg_Plasma_Sub.png
+      3234: Resources/Bootleg_Plasma_Rifle.png
+      3235: Resources/Bootleg_Plasma_Heavy.png
+      3236: Resources/Explosive_Arrows.png
+      3237: Resources/Golden_Spear.gif
+      3238: Resources/Peg_Leg.gif
+      3239: Resources/Duke_RL.png
+      3240: Resources/Minigun_2_Ammo_HVAP.gif
+      3241: Resources/Minigun_2_Tank.gif
+      3242: Resources/Electrifier.png
+      3243: Resources/Anus_4.gif
+      3244: Resources/HAC_CRY.png
+      3245: Resources/Cry_Grenade.png
+      3246: Resources/Mini_Autocannon.png
+      3247: Resources/Boom_Barrel.gif
+      3248: Resources/Jammer.gif
+      3249: Resources/Mecha_Grabber.gif
+      3250: Resources/Arrows_3.gif
+      3251: Resources/Datapad_01.gif
+      3252: Resources/Zortrium_Jacket.png
       3900: Resources/Blanks/PoisonDagger_QD.png
       3901: Resources/Blanks/Copter_RH.png
       3902: Resources/Blanks/Copter_RS.png
@@ -5601,6 +5719,18 @@ extraSprites:
       432: Resources/FLOOROB/FloorNIN.gif
       433: Resources/FLOOROB/FloorPlantX.png
       434: Resources/FLOOROB/FloorCodexOfTheTransfiguration.png
+      435: Resources/FLOOROB/FloorATGM.gif
+      436: Resources/FLOOROB/FloorATGMRound.gif
+      437: Resources/FLOOROB/FloorHandMortar.gif
+      438: Resources/FLOOROB/FloorBootlegPPistol.png
+      439: Resources/FLOOROB/FloorBootlegPSub.png
+      440: Resources/FLOOROB/FloorBootlegPRifle.png
+      441: Resources/FLOOROB/FloorBootlegPHeavy.png
+      442: Resources/FLOOROB/FloorBosak.png
+      443: Resources/FLOOROB/FloorSpearGold.png
+      444: Resources/FLOOROB/FloorCRYGrenade.png
+      445: Resources/FLOOROB/FloorBoomBarrel.gif
+      446: Resources/FLOOROB/FloorJammer.gif
       597: Resources/FLOOROB/Floor_ShroomRed.png
       598: Resources/FLOOROB/Floor_ShroomBrown.png
       599: Resources/FLOOROB/Floor_ShroomWhite.png
@@ -5721,6 +5851,7 @@ extraSprites:
       944: Resources/Corpses/PIR_44_c.png
       946: Resources/Corpses/PIR_46_c.png
       947: Resources/Corpses/PIR_47_c.png
+      949: Resources/Corpses/PIR_49_c.gif
       1103: Resources/Corpses/DEM_6_c1.gif
       1104: Resources/Corpses/DEM_6_c2.gif
       1105: Resources/Corpses/DEM_6_c3.gif
@@ -5814,6 +5945,7 @@ extraSprites:
       1505: Resources/Corpses/GOV_5_c.png
       1506: Resources/Corpses/GOV_6_c.png
       1507: Resources/Corpses/GOV_7_c.png
+      1508: Resources/Corpses/GOV_8_c.png
       1511: Resources/Corpses/COS_1_c.gif
       1513: Resources/Corpses/COS_3_c.gif
       1514: Resources/Corpses/COS_4_c.gif
@@ -5956,6 +6088,7 @@ extraSprites:
       1905: Resources/Corpses/VAMPBAT_c.gif
       1906: Resources/Corpses/GIANT_BEETLE_c.gif
       1907: Resources/Corpses/RATT_c.png
+      1950: Resources/Corpses/TurretAlloy_c.png
       1990: Resources/Corpses/VIC_0_c.png
       2101: Resources/Corpses/PIR_101_c.png
       2111: Resources/Corpses/PIR_111_c.gif
@@ -5964,6 +6097,8 @@ extraSprites:
       2114: Resources/Corpses/PIR_114_c.png
       2115: Resources/Corpses/PIR_115_c.png
       2102: Resources/Corpses/PIR_102_c.gif
+      2105: Resources/Corpses/PIR_105_c.png
+      2106: Resources/Corpses/PIR_106_c.png
       2109: Resources/Corpses/PIR_109_c.png
       2120: Resources/Corpses/PIR_120_c.png
       2135: Resources/Corpses/PIR_135_c.gif
@@ -6001,6 +6136,7 @@ extraSprites:
       2526: Resources/Corpses/PIR_526_c.png
       2528: Resources/Corpses/PIR_528_c.png
       2533: Resources/Corpses/PIR_533_c.gif
+      2534: Resources/Corpses/PIR_534_c.gif
       2537: Resources/Corpses/PIR_537_c.gif
       2540: Resources/Corpses/PIR_540_c.png
       2541: Resources/Corpses/PIR_540_d.png
@@ -6324,6 +6460,16 @@ extraSprites:
       2272: Resources/HANDOB/ChaosBlade_H.png
       2280: Resources/HANDOB/PlantX_H.png
       2288: Resources/HANDOB/RR_H.png
+      2296: Resources/HANDOB/ATGM_H.gif
+      2304: Resources/HANDOB/BootlegPPistol_H.png
+      2312: Resources/HANDOB/BootlegPSub_H.png
+      2320: Resources/HANDOB/BootlegPRifle_H.png
+      2328: Resources/HANDOB/BootlegPHeavy_H.png
+      2336: Resources/HANDOB/Bosak_H.png
+      2344: Resources/HANDOB/SpearGold.png
+      2352: Resources/HANDOB/Anus.png
+      2360: Resources/HANDOB/ShotgunPolice_H.png
+      2368: Resources/HANDOB/CryGrenade.png
   - type: SMOKE.PCK
     width: 320
     height: 1120
@@ -6413,6 +6559,12 @@ extraSprites:
       93: Resources/UnitUI/Rank_Loknar_4.png
       94: Resources/UnitUI/Rank_Loknar_5.png
       95: Resources/UnitUI/Rank_Repentia.png
+      96: Resources/UnitUI/Rank_Synth_1.png
+      97: Resources/UnitUI/Rank_Synth_1.png
+      98: Resources/UnitUI/Rank_Synth_2.png
+      99: Resources/UnitUI/Rank_Synth_3.png
+      100: Resources/UnitUI/Rank_Synth_4.png
+      101: Resources/UnitUI/Rank_Synth_5.png
       155: Resources/Planes/MercBase.png
       156: Resources/Planes/NightmareBase.gif
       157: Resources/Planes/ZeppelinBase.gif
@@ -6585,8 +6737,16 @@ extraSprites:
       500: Resources/Basebits/Red_Tower.png
       501: Resources/Basebits/Onsen.png
       502: Resources/Basebits/P_LAB.png
-      503: Resources/Basebits/GARDN.png
+      503: Resources/Basebits/Vivarium.png
       504: Resources/Basebits/MED2.png
+      505: Resources/Basebits/GLIBB_1.png
+      506: Resources/Basebits/GLIBB_2.png
+      507: Resources/Basebits/GLIBB_3.png
+      508: Resources/Basebits/GLIBB_4.png
+      509: Resources/Basebits/GLIBB_1_UP.png
+      510: Resources/Basebits/GLIBB_2_UP.png
+      511: Resources/Basebits/GLIBB_3_UP.png
+      512: Resources/Basebits/GLIBB_4_UP.png
       648: Resources/CraftWeapons/Med_Cannon_Base.png
       649: Resources/CraftWeapons/RF_Cannon_Base.png
       650: Resources/CraftWeapons/Charger_Laser_Base.png
@@ -6622,12 +6782,13 @@ extraSprites:
       680: Resources/CraftWeapons/Tractor_Beam_Base.png
       681: Resources/CraftWeapons/Medusa_Base.png
       682: Resources/CraftWeapons/Tesla_Base.png
-#      683: Resources/CraftWeapons/Goblin_Rkt_Base.png
+      683: Resources/CraftWeapons/Carronade_Base.png
       684: Resources/CraftWeapons/Plating_Base.png
       685: Resources/CraftWeapons/STC_Base.png
       686: Resources/CraftWeapons/STC_RFR_Base.png
       687: Resources/CraftWeapons/Small_Cannon1_Base.png
       688: Resources/CraftWeapons/Quadcannon_Base.png
+      689: Resources/CraftWeapons/Jammer_Base.png
   - type: INTICON.PCK
     files:
       22: Resources/Planes/PredatorMinimised.gif
@@ -6761,12 +6922,13 @@ extraSprites:
       637: Resources/CraftWeapons/Tractor_Beam_Dogfight.png
       638: Resources/CraftWeapons/Medusa_Dogfight.png
       639: Resources/CraftWeapons/Tesla_Dogfight.png
-#      640: Resources/CraftWeapons/Goblin_Rkt_Dogfight.png
+      640: Resources/CraftWeapons/Carronade_Dogfight.png
       641: Resources/CraftWeapons/Plating_Dogfight.png
       642: Resources/CraftWeapons/STC_Dogfight.png
       643: Resources/CraftWeapons/STC_RFR_Dogfight.png
       644: Resources/CraftWeapons/Small_Cannon1_Dogfight.png
       645: Resources/CraftWeapons/Quadcannon_Dogfight.png
+      646: Resources/CraftWeapons/Jammer_Dogfight.png
   - type: SPICONS.DAT
     width: 32
     height: 24
@@ -6788,10 +6950,19 @@ extraSprites:
       16: Resources/UnitUI/SpIcon_Cummissar.png
       17: Resources/UnitUI/SpIcon_Questionmark.png
       18: Resources/UnitUI/SpIcon_Howl.png
+      19: Resources/UnitUI/SpIcon_Oxygen.png
+      20: Resources/UnitUI/SpIcon_Grabber.png
   - type: ICONS.PCK
     singleImage: true
     files:
       0: Resources/UnitUI/ICONS_xpb.png
+  - type: GlobeMarkers
+    width: 210
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      0: Resources/UnitUI/UFO_Icons.png
   - type: BigStunIndicator
     singleImage: true
     files:
@@ -7323,6 +7494,12 @@ extraSprites:
     height: 52
     files:
       0: Resources/Interwin/Interwin_Demons.gif
+  - type: InterceptionHarbinger
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_Harbinger.gif
   - type: InterceptionFootmen
     singleImage: true
     width: 160
@@ -7341,6 +7518,36 @@ extraSprites:
     height: 52
     files:
       0: Resources/Interwin/Interwin_Necropirate.gif
+  - type: InterceptionTEC01
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_TEC_01.gif
+  - type: InterceptionSekskout
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/SEKSKOUT_IW.gif
+  - type: InterceptionSekar
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/SEKAR_IW.gif
+  - type: InterceptionSektruk
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/SEKTRUK_IW.gif
+  - type: InterceptionGovCruiser
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_Fusion_Cruiser.gif
   - type: InterceptionProbe
     singleImage: true
     width: 160
@@ -7353,6 +7560,12 @@ extraSprites:
     height: 52
     files:
       0: Resources/Interwin/Interwin_Civilian.gif
+  - type: InterceptionMissiles1
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_Missiles_1.gif
   - type: InterceptionUnknown
     singleImage: true
     width: 160
@@ -7814,7 +8027,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Pedia/Beauty_Beast.png
+      0: Resources/Pedia/Satyr.png
   - type: BIG_GDX_000
     singleImage: true
     width: 320
@@ -7892,7 +8105,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Pedia/Imprisoned3.png
+      0: Resources/Pedia/GDX_Torment.png
   - type: BIG_GDX_044
     singleImage: true
     width: 320
@@ -8007,6 +8220,18 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/Leia.png
+  - type: BIG_TEC_042
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Ilya_Static.png
+  - type: BIG_TEC_100
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Ilya_9.png
   - type: BIG_WIZ_001
     singleImage: true
     width: 320
@@ -8079,6 +8304,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/Demonic_Bondage.png
+  - type: BIG_ANG_103
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Ghost_Sex.png
   - type: BIG_BLOOD
     singleImage: true
     width: 320
@@ -8805,6 +9036,18 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/C_117.png
+  - type: BIG_PINUP_119
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/C_119.png
+  - type: BIG_PINUP_120
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/C_120.png
   - type: BIG_PINUP_121
     singleImage: true
     width: 320
@@ -8967,6 +9210,18 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/Jill.png
+  - type: BIG_VIP_002
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Aurora_51B.png
+  - type: BIG_VIP_003
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Kashub1.png
   - type: BIG_CLOAKING_DEVICE
     singleImage: true
     width: 320
@@ -9057,6 +9312,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/Airballs_Ped.gif
+  - type: BIG_CARRONADE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/CarronadePed.gif
   - type: BIG_QUADCANNON
     singleImage: true
     width: 320
@@ -9104,7 +9365,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Pedia/HammerMitePed.png
+      0: Resources/Pedia/HammerMitePed.gif
   - type: BIG_MEDUSA
     singleImage: true
     width: 320
@@ -9219,6 +9480,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/ShieldCapacitorPed.png
+  - type: BIG_STC_EM_JAMMER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/STC_Jammer_Ped.gif
   - type: BIG_STC_RFR
     singleImage: true
     width: 320
@@ -9309,6 +9576,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/CA_3_CPAL.png
+  - type: BIG_SKYRANGER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Skyranger_Remake.png
   - type: BIG_PIGEON
     singleImage: true
     width: 320
@@ -10023,6 +10296,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/X56_Ped.png
+  - type: BIG_COMMUNICATIONS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Control_Panel.png
   - type: BIG_OPTRONICS
     singleImage: true
     width: 320
@@ -10034,7 +10313,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Pedia/Control_Panel.png
+      0: Resources/Pedia/XXA001.png
   - type: BIG_ENCRYPTION
     singleImage: true
     width: 320
@@ -10167,6 +10446,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/XX36.png
+  - type: BIG_ETHEREAL_TRAVEL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Space_Meditation.png
   - type: BIG_DISRUPTOR_MYSTICISM
     singleImage: true
     width: 320
@@ -10766,7 +11051,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Pedia/Forces.png
+      0: Resources/Pedia/Medusa.png
   - type: BIG_UBERGIRL
     singleImage: true
     width: 320
@@ -10821,6 +11106,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/Tankgirl.png
+  - type: BIG_WOLVERIN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Wolverin_Ped.png
   - type: BIG_XEC
     singleImage: true
     width: 320
@@ -10947,6 +11238,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/Magnetic_Fields.png
+  - type: BIG_MAGNETIC_CONTAINMENT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Magnetic.png
   - type: BIG_INTERSTELLAR_SHIP
     singleImage: true
     width: 320
@@ -10971,6 +11268,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/Dream6.png
+  - type: BIG_WARP_DRIVE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/DIMENSION.png
   - type: BIG_MANUFACTURING
     singleImage: true
     width: 320
@@ -10989,6 +11292,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/XX19.png
+  - type: BIG_ZORTRIUM_MANIPULATION
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Rin_21.png
   - type: BIG_DURATHREAD_WORKING
     singleImage: true
     width: 320
@@ -11241,6 +11550,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/Academy_Training.png
+  - type: ACADEMY_PURPOSE_UFOPEDIA_PICTURE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Interrogz.png
   - type: ACADEMY_UFOPEDIA_PICTURE
     singleImage: true
     width: 320
@@ -11391,6 +11706,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/Terminator.png
+  - type: ROBOTIC_SPIDERS_UFOPEDIA_PICTURE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Robo_Spiders.png
   - type: NEKOMIMI_UFOPEDIA_PICTURE
     singleImage: true
     width: 320
@@ -12699,6 +13020,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/Dope.png
+  - type: BIG_CRAZY_HASSAN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Crazy_Hassan.png
   - type: BIG_YOUNG_UBER
     singleImage: true
     width: 320
@@ -12734,7 +13061,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Pedia/Zone_Research_1.png
+      0: Resources/Pedia/Biologist.png
   - type: BIG_WASTELAND_PRIESTESS_1
     singleImage: true
     width: 320
@@ -12987,6 +13314,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/Missions_B.png
+  - type: BIG_MISSIONS_A
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Missions_A.png
   - type: BIG_TROPHIES
     singleImage: true
     width: 320
@@ -13065,6 +13398,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/Prize_Persuadotron.png
+  - type: BIG_PRIZE_HAND_MORTAR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Prize_Hand_Mortar.png
   - type: BIG_PRIZE_SOLDIER_X
     singleImage: true
     width: 320
@@ -13197,6 +13536,24 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/Prize_City_Pass.png
+  - type: BIG_PRIZE_WHITE_DRAGON_1
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Prize_Dragon_1.png
+  - type: BIG_PRIZE_WHITE_DRAGON_2
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Prize_Dragon_2.png
+  - type: BIG_PRIZE_WHITE_DRAGON_3
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/Prize_Dragon_3B.png
   - type: BIG_PRIZE_LUNAR_WARD
     singleImage: true
     width: 320
@@ -13899,12 +14256,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Awards/FALLEN2.png
-  - type: PIC_REVOLVINGDOOR
+  - type: PIC_REVOLVINGDOOR_CPAL
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Awards/REVOLVINGDOOR.png
+      0: Resources/Awards/REVOLVINGDOOR_CPAL.png
   - type: PIC_MIA_CPAL
     singleImage: true
     width: 320
@@ -14097,6 +14454,30 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/Mystery_Patron_Bck.png
+  - type: WIZ_1_BACKGROUND.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/RIN_BACK_1.png
+  - type: WIZ_2_BACKGROUND.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/RIN_BACK_2.png
+  - type: TEC_1_BACKGROUND.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Ilya_1_Back.png
+  - type: TEC_2_BACKGROUND.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Ilya_2_Back.gif
   - type: COMET_BACKGROUND.SCR
     singleImage: true
     width: 320
@@ -14109,12 +14490,24 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/FIRE_BACKGROUND.png
+  - type: ROBOSPIDERS_BACKGROUND.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Back_Robo_Spiders.png
   - type: EXPLOSION_BACKGROUND.SCR
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Backgrounds/Explosion_Back.gif
+  - type: TERROR.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Terror_BCK.png
   - type: WARTECH.SCR
     singleImage: true
     width: 320
@@ -14145,6 +14538,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/Back_Office.png
+  - type: PRESENT_BACKGROUND.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Present_Bck.png
   - type: POSTER_BACKGROUND.SCR
     singleImage: true
     width: 320
@@ -14301,6 +14700,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/Village_Vacation_Bck.png
+  - type: VILLAGE_STRANGER_BACKGROUND.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Village_Vacation2_Bck.png
   - type: LOOSE_LIPS_BACKGROUND.SCR
     singleImage: true
     width: 320
@@ -14761,6 +15166,9 @@ extraSounds:
       609: Resources/Sounds/Ambient/amb_room.wav
       610: Resources/Sounds/Ambient/industrial_rain_1.ogg
       611: Resources/Sounds/Ambient/city_on_fire.ogg
+      612: Resources/Sounds/Ambient/industrial_dragons.ogg
+      613: Resources/Sounds/Ambient/purple_village.ogg
+      614: Resources/Sounds/Ambient/Green_Village.ogg
       700: Resources/Sounds/Distress/3help2.wav
       701: Resources/Sounds/Distress/3cantbre.wav
       702: Resources/Sounds/Distress/3cantbrx.wav
@@ -14897,6 +15305,9 @@ musics:
   - type: GMENBASE2
   - type: GMGEO11
   - type: GMGEO12
+  - type: GMTACTIC10
+  - type: GMTACTIC11
+  - type: GMTACTIC12
   - type: BLACK_KNIGHT
     normalization: 1.0
   - type: ZIZZ_STUDIO_SPOOKY_SCAPE

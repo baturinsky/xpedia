@@ -1,0 +1,6 @@
+name: "Exposed Faces - Smoke-Ops"
+version: "0.99J13A"
+description: "Replaces Smoke-Ops Gear & Mesh Armor paperdolls with ones that do not obscure the face."
+author: "Roxis231 & Dioxine"
+id: altSmokeOps
+master: piratez

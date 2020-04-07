@@ -1,0 +1,73 @@
+soldiers:
+  - type: STR_SOLDIER
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-rus.nam
+  - type: STR_SOLDIER_S
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-rus.nam
+  - type: STR_SOLDIER_M
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-rus.nam
+  - type: STR_SOLDIER_V
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-rus.nam
+  - type: STR_SOLDIER_X
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-rus.nam
+  - type: STR_SOLDIER_R
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-rus.nam
+  - type: STR_SOLDIER_W
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-rus.nam
+  - type: STR_SOLDIER_LOKNAR
+    soldierNames:
+      - delete
+      - SoldierName/Loknar-rus.nam
+  - type: STR_SOLDIER_SYNTH
+    soldierNames:
+      - delete
+      - SoldierName/Synths-rus.nam
+  - type: STR_SOLDIER_SLAVE
+    soldierNames:
+      - delete
+      - SoldierName/Xmans-rus.nam
+  - type: STR_SOLDIER_PEASANT
+    soldierNames:
+      - delete
+      - SoldierName/XWimmin-rus.nam
+  - type: STR_SOLDIER_HYBRID
+    soldierNames:
+      - delete
+      - SoldierName/Hybrid-rus.nam
+  - type: STR_SOLDIER_SPECTRE
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-rus.nam
+  - type: STR_SOLDIER_BLOODOGE
+    soldierNames:
+      - delete
+      - SoldierName/Hounds-rus.nam
+  - type: STR_SOLDIER_DOGE
+    soldierNames:
+      - delete
+      - SoldierName/Hounds-rus.nam
+  - type: STR_SOLDIER_GNOME
+    soldierNames:
+      - delete
+      - SoldierName/XGnomes-rus.nam
+  - type: STR_SOLDIER_HERO
+    soldierNames:
+      - delete
+      - SoldierName/Xmans-rus.nam
+  - type: STR_SOLDIER_CHORT
+    soldierNames:
+      - delete
+      - SoldierName/Pirate-rus.nam

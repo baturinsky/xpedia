@@ -49,17 +49,17 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/*
+
 .main-table > tr:nth-child(odd) {
   background: $table-light;
 }
 
+/*
 .main-table > tr:nth-child(even) {
   background: $table-dark;
 }*/
 
 .main-table > tr > td {
-  border-top: solid 0.3px $lighter;
 }
 
 .main-table {
@@ -238,6 +238,12 @@ audio {
   width: 20rem;
 }
 
+.attacks-table {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+}
 
 .td-attacks-table > div {
   display: flex;
@@ -245,24 +251,15 @@ audio {
   margin: 0;
 }
 
-.attacks-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .attacks-table td {
   border-top: solid 1px $border-color;
-  border-right: solid 0.1px $lighter;
+  border-right: solid 1px $lighter;
   vertical-align: top;
   padding: 0.2rem;
   text-align: center;
 }
 
-.attacks-table tr td:last-child,
-.attacks-table tr thead:last-child {
+.attacks-table td:last-child{
   border-right: 0;
 }
 
@@ -412,17 +409,6 @@ button {
   height: 0px;
 }
 
-*::-webkit-scrollbar-track {
-  /*background-color: #201030;*/
-}
-
-*::-webkit-scrollbar {
-  width: 0.7rem;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: $border-color;
-}
 
 .navbar {
   z-index: 5;
@@ -503,8 +489,8 @@ button {
 }
 
 .sidebar {
+  scrollbar-color: $scrollbar-color;
   position: fixed;
-  border-right: solid 1px $border-color;
   width: 12rem;
   left: 0;
   top: 3rem;
@@ -512,6 +498,19 @@ button {
   overflow-y: scroll;
   overflow-x: hidden;
 }
+
+*::-webkit-scrollbar-track {
+  background-color: $scrollbar-color;
+}
+
+*::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $border-color;
+}
+
 
 .sidebar a {
   letter-spacing: -0.1pt;
@@ -708,6 +707,7 @@ ol {
   width: 25%;
 }
 
+.row,
 .columns {
   display: flex;
   flex-direction: row;
@@ -805,8 +805,11 @@ img.craft {
   color: #66ffff;
   text-align: center;
   font-size: larger;
-  background-color: $lighter;
   padding-bottom: 0.2rem;
+}
+
+.table-header td{
+  background-color: $border-color;
 }
 
 .subtable {
@@ -817,10 +820,10 @@ td.td-attacks-table {
   padding: 0;
 }
 
-.attack-alter {
+.attacks-alter {
   columns: 2;
 }
 
-td.attack-alter{
-  border-top: dotted 0.3px $lighter;;
+td.attacks-alter{
+  border-top: dashed 1px $lighter;
 }

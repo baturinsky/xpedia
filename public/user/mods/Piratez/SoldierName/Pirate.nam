@@ -4,6 +4,7 @@ lookWeights:
   - 20
   - 25
 maleFirst: &FIRST_NAMES
+  - Rock'n'Roll
   - Red
   - Blue
   - Yellow

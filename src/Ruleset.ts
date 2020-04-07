@@ -6,7 +6,7 @@ import pako from "pako/lib/inflate";
 export let rul!: Ruleset;
 
 function timeout(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function backLink(id: string, list: string[], to: any, field: string) {
@@ -56,10 +56,10 @@ function parseYaml(text: string) {
         parsed = JsYaml.load(file, {
           json: true,
           filename,
-          onWarning: e => {
+          onWarning: (e) => {
             console.log(filename);
             console.log(e.message);
-          }
+          },
         });
       } catch (e) {
         console.log(e.message);
@@ -89,7 +89,7 @@ export class Search {
       matchAllTokens: true,
 
       distance: 10,
-      threshold: 0.1
+      threshold: 0.1,
     });
   }
 
@@ -114,8 +114,7 @@ export class Manufacture {
     if (this.requires) {
       for (let resName of this.requires) {
         let res = rul.research[resName];
-        if(!res)        
-          continue;
+        if (!res) continue;
         if (!res.manufacture) res.manufacture = [];
         res.manufacture.push(this.name);
       }
@@ -149,7 +148,7 @@ export class Manufacture {
     Article.create({
       id: this.name,
       section: "MANUFACTURE",
-      type_id: "MANUFACTURE"
+      type_id: "MANUFACTURE",
     });
   }
 }
@@ -176,7 +175,7 @@ export class Research {
     Article.create({
       id: this.name,
       section: "RESEARCH",
-      type_id: "RESEARCH"
+      type_id: "RESEARCH",
     });
   }
 }
@@ -186,7 +185,7 @@ export class Service {
     Article.create({
       id,
       type_id: "SERVICES",
-      section: "SERVICES"
+      section: "SERVICES",
     });
   }
 
@@ -277,7 +276,7 @@ export class StartingConditions {
     Article.create({
       id: this.type,
       section: "CONDITIONS",
-      type_id: "CONDITIONS"
+      type_id: "CONDITIONS",
     });
   }
 }
@@ -394,7 +393,7 @@ export class Attack {
 
       this.cost = this.cost = item["cost" + capMode] || {
         time: item["tu" + capMode],
-        energy: 0
+        energy: 0,
       };
 
       this.accuracy = item["accuracy" + capMode] || 100;
@@ -425,13 +424,14 @@ export class Attack {
       this.alter.range = item[mode + "Range"];
     }
 
-    for(let k in this.alter){
-      if(k == "damageType" || k == "ResistType")
+    for (let k in this.alter) {
+      if (k == "damageType" || k == "ResistType")
         this.alter[k] = rul.damageTypes[this.alter[k]];
     }
 
     this.range =
-      item[mode + "Range"] || item[mode.substr(0,3) + "Range"] ||
+      item[mode + "Range"] ||
+      item[mode.substr(0, 3) + "Range"] ||
       (this.alter && this.alter.range) ||
       defaultRange[mode];
 
@@ -555,13 +555,13 @@ export class Armor {
       let l = name.length;
       if (this.spriteInv + ".SPK" in rul.sprites) {
         this.dollSprites = {
-          0: [rul.path + rul.sprites[this.spriteInv + ".SPK"].path]
+          0: [rul.path + rul.sprites[this.spriteInv + ".SPK"].path],
         };
       } else {
         for (let s in rul.sprites) {
           if (s.substr(0, l) == name) {
             this.dollSprites[s.substr(l, s.length - l - 4)] = [
-              rul.path + rul.sprites[s].path
+              rul.path + rul.sprites[s].path,
             ];
           }
         }
@@ -572,7 +572,7 @@ export class Armor {
       Front: this.frontArmor,
       Side: this.sideArmor,
       Rear: this.rearArmor,
-      Under: this.underArmor
+      Under: this.underArmor,
     };
 
     if (this.storeItem && rul.items[this.storeItem]) {
@@ -636,7 +636,7 @@ export class Item {
     Article.create({
       id: this.type,
       type_id: "ITEMS",
-      section: "ITEMS"
+      section: "ITEMS",
     });
   }
 
@@ -653,7 +653,7 @@ export class Item {
         "psi",
         "panic",
         "mindControl",
-        "use"
+        "use",
       ]) {
         let attack = new Attack(this, mode);
         if (attack.possible) {
@@ -669,11 +669,11 @@ export class Item {
       }
     }
 
-    if(this.battleType == 2){
+    if (this.battleType == 2) {
       this._attacks[0].item = this;
       this._attacks[0].mode = "ammo";
     }
-    
+
     return this._attacks;
   }
 
@@ -743,7 +743,7 @@ export default class Ruleset {
     "STR_DAMAGE_20",
     "STR_DAMAGE_21",
     "STR_DAMAGE_22",
-    "STR_MANA"
+    "STR_MANA",
   ];
 
   battleTypes = [
@@ -758,7 +758,7 @@ export default class Ruleset {
     "Mind Probe",
     "Psi-Amp",
     "Electro-flare",
-    "Corpse"
+    "Corpse",
   ];
 
   damageTypeName(type: number) {
@@ -777,8 +777,8 @@ export default class Ruleset {
     return num in this[type] ? this.path + this[type][num] : "xpedia/0.png";
   }
 
-  combineFiles(data:any[], reversed = false){
-    for (let file of (reversed?data.reverse():data)) {
+  combineFiles(data: any[], reversed = false) {
+    for (let file of reversed ? data.reverse() : data) {
       for (let key in file) {
         if (key.substr(0, 4) == "lang") {
           Object.assign(this.lang, file[key]);
@@ -801,8 +801,7 @@ export default class Ruleset {
     }
   }
 
-
-  categoriesNames:[
+  categoriesNames: [
     "crafts",
     "items",
     "armors",
@@ -813,35 +812,30 @@ export default class Ruleset {
     "research"
   ];
 
-  mergeRuls(reversed = false){
+  mergeRuls(reversed = false) {
     for (let categoryName in this.raw) {
       let merged = {};
       let deleted = {};
 
       let category = this.raw[categoryName];
-      if(!Array.isArray(category))
-        continue;
+      if (!Array.isArray(category)) continue;
 
-      for (let data of category) {        
-          
-        let id = data.type || data.id || data.name || data.delete || data.typeSingle;
-        
-        if(!id || deleted[id])
-          continue;
+      for (let data of category) {
+        let id =
+          data.type || data.id || data.name || data.delete || data.typeSingle;
+
+        if (!id || deleted[id]) continue;
 
         if ("delete" in data) {
-          if(reversed)
-            deleted[id] = true;
-          else
-            delete merged[id];
+          if (reversed) deleted[id] = true;
+          else delete merged[id];
           continue;
         }
 
-        if (id && id in merged) {          
-          if(reversed) {
-            for(let k in data){
-              if(!(k in merged[id]))
-                merged[id][k] = data[k];
+        if (id && id in merged) {
+          if (reversed) {
+            for (let k in data) {
+              if (!(k in merged[id])) merged[id][k] = data[k];
             }
           } else {
             Object.assign(merged[id], data);
@@ -849,7 +843,6 @@ export default class Ruleset {
         } else {
           merged[id] = data;
         }
-        
       }
       this.raw[categoryName] = Object.values(merged);
     }
@@ -866,7 +859,7 @@ export default class Ruleset {
       "CATEGORIES",
       "RESEARCH",
       "MANUFACTURE",
-      "SERVICES"
+      "SERVICES",
     ];
 
     for (let type of specialSections) new Section(type, "TYPE");
@@ -880,6 +873,9 @@ export default class Ruleset {
       if (typeof text === "string") {
         text = text.replace(/^({NEWLINE})+/, "");
         text = text.replace(/{NEWLINE}/g, "<br/>");
+        text = text.replace(/{rul.str\("([^"]*)"\)}/g, (match, p1) =>
+          rul.str(p1)
+        );
         this.lang[k] = text;
       }
     }
@@ -939,7 +935,7 @@ export default class Ruleset {
     }
 
     for (let item of Object.values(this.items)) {
-      item.attacks();      
+      item.attacks();
       if (item.compatibleAmmo) {
         for (let ammoId of item.compatibleAmmo) {
           let ammo = this.items[ammoId];
@@ -977,13 +973,13 @@ export default class Ruleset {
     }
 
     this.ourArmors = Object.values(this.armors)
-      .filter(a => a.units)
-      .map(a => a.type);
+      .filter((a) => a.units)
+      .map((a) => a.type);
 
     for (let sectionName of specialSections)
-      rul.sections[sectionName]._articles = rul.sections[sectionName].articles.sort((a, b) =>
-        a.title < b.title ? -1 : 1
-      );
+      rul.sections[sectionName]._articles = rul.sections[
+        sectionName
+      ].articles.sort((a, b) => (a.title < b.title ? -1 : 1));
 
     /*Article.create({
       id: "BASE_FUNC",
@@ -997,7 +993,7 @@ export default class Ruleset {
         id: cat,
         title: rul.str(cat),
         type_id: "CATEGORIES",
-        section: "CATEGORIES"
+        section: "CATEGORIES",
       });
     }
 
@@ -1027,7 +1023,7 @@ export default class Ruleset {
     if (!current) return null;
     let section = current.section;
     let list = section ? section.articles : this.articlesOrder;
-    let index = list.findIndex(a => a.id == current.id);
+    let index = list.findIndex((a) => a.id == current.id);
     if (index != undefined) {
       let nextIndex = index + delta;
       let nextArticle = list[nextIndex];
@@ -1092,7 +1088,9 @@ export default class Ruleset {
   linksByType(type: string) {
     switch (type) {
       case "CONDITIONS":
-        return Object.keys(this.startingConditions).map(a => "CONDITIONS_" + a);
+        return Object.keys(this.startingConditions).map(
+          (a) => "CONDITIONS_" + a
+        );
     }
     return [];
   }
@@ -1123,5 +1121,5 @@ const fieldNames = {
   getOneFree: "STR_GIVES_ONE_FOR_FREE",
   manufacture: "STR_REQUIRED_BY",
   randomProducedItems: "STR_RANDOM_PRODUCTION_DISCLAIMER",
-  cost: "STR_COST"
+  cost: "STR_COST",
 };

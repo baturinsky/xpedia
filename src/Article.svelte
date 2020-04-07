@@ -56,14 +56,8 @@
   <Illustration id={article.image_id} />
 {/if}
 
-{#if textwithHighlights}
+{#if textwithHighlights && !(article.id in rul.items)}
   <div class="article-text">
-    {#if article.id in rul.items}
-      <CanvasImage
-        item={rul.items[article.id]}
-        zoom="2" 
-        />
-    {/if}
     <span>
       {@html textwithHighlights}
     </span>
@@ -88,7 +82,7 @@
       <Unit unit={rul.units[article.id]} />
     {/if}
     {#if article.id in rul.items}
-      <Item item={rul.items[article.id]} />
+      <Item item={rul.items[article.id]} text={textwithHighlights}/>
     {/if}
   </table>
 

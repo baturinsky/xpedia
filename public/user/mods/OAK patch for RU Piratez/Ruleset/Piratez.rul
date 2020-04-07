@@ -1,0 +1,99 @@
+ufopaedia:
+  - id: STR_SABRE
+    rect_stats:
+      x: 230
+      y: 5
+      width: 160
+      height: 56
+  - id: STR_PREDATOR
+    rect_stats:
+      x: 230
+      y: 138
+      width: 160
+      height: 56
+  - id: STR_DRAKKAR
+    rect_stats:
+      x: 230
+      y: 130
+      width: 160
+      height: 64
+  - id: STR_JETBIKE
+    rect_stats:
+      x: 230
+      y: 5
+      width: 160
+      height: 56
+  - id: STR_SAKURABUS
+    rect_stats:
+      x: 230
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_SWORDFISH
+    rect_stats:
+      x: 230
+      y: 130
+      width: 160
+      height: 56
+  - id: STR_MINING_SHIP
+    rect_stats:
+      x: 230
+      y: 130
+      width: 160
+      height: 64
+  - id: STR_SKYRANGER
+    rect_stats:
+      x: 230
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_ZEPPELIN
+    rect_stats:
+      x: 230
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_CONVOY
+    rect_stats:
+      x: 230
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_MBT
+    rect_stats:
+      x: 230
+      y: 5
+      width: 160
+      height: 40
+  - id: STR_SLAVE_SERVITOR
+    text_width: 125
+  - id: STR_POLTERGEIST
+    text_width: 110
+  - id: STR_ACADEMY_RECRUITMENT
+    image_id: ACADEMY_RECRUITMENT_UFOPEDIA_PICTURE_CPAL
+  - id: STR_RET_PEON
+    text_width: 160
+  - id: STR_ETHEREAL
+    text_width: 150
+  - id: STR_EMANCIPATION
+    text_width: 115
+  - id: STR_PSI_DESTRUCTION
+    text_width: 135
+  - id: STR_HISTORY_008
+    text_width: 125
+interfaces:
+  - type: articleItem
+    elements:
+      - id: text
+        color: 150   # default
+        color2: 133   # light blue
+  - type: articleCraftWeapon
+    elements:
+      - id: text
+        color: 55   # default
+        color2: 133  # light blue
+  - type: articleArmor
+    elements:
+      - id: text
+        color: 55   # default
+        color2: 133  # light blue

@@ -13,8 +13,8 @@
 <style>
 </style>
 
-  <tr>
-    <td colspan="2" class="table-header">{rul.str("Manufacture")}</td>
+  <tr class="table-header">
+    <td colspan="2">{rul.str("Manufacture")}</td>
   </tr>
 
   {#if 'randomProducedItems' in manufacture}

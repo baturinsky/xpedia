@@ -1211,7 +1211,7 @@ items:
     costSell: 115000
   - type: CYBERDISC_WEAPON
     weight: 3
-    bigSprite: -2
+    bigSprite: 60
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -1232,7 +1232,7 @@ items:
     recover: false
   - type: REAPER_WEAPON
     weight: 3
-    bigSprite: -3
+    bigSprite: 59
     floorSprite: 31
     handSprite: 104
     meleeSound: 48
@@ -1249,7 +1249,7 @@ items:
     flatRate: true
   - type: CHRYSSALID_WEAPON
     weight: 3
-    bigSprite: -1
+    bigSprite: 61
     floorSprite: 31
     handSprite: 104
     meleeSound: 49
@@ -1267,7 +1267,7 @@ items:
     flatRate: true
   - type: CELATID_WEAPON
     weight: 3
-    bigSprite: -2
+    bigSprite: 60
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -1289,7 +1289,7 @@ items:
     arcingShot: true
   - type: SILACOID_WEAPON
     weight: 3
-    bigSprite: -4
+    bigSprite: 58
     floorSprite: 31
     handSprite: 104
     meleeSound: 50
@@ -1306,7 +1306,7 @@ items:
     flatRate: true
   - type: SECTOPOD_WEAPON
     weight: 3
-    bigSprite: -2
+    bigSprite: 60
     floorSprite: 31
     handSprite: 104
     fireSound: 18
@@ -1329,7 +1329,7 @@ items:
     recover: false
   - type: ZOMBIE_WEAPON
     weight: 3
-    bigSprite: -5
+    bigSprite: 57
     meleeSound: 48
     strengthApplied: true
     damageType: 7

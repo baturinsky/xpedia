@@ -322,6 +322,7 @@ femaleFirst: &FIRST_NAMES
   - Violette
   - Vulcania
   - Yeside
+  - Ymona
   - Yolanda
   - Yvonne
   - Zelda
@@ -503,6 +504,7 @@ maleLast:
   - Maserati
   - Mauser
   - Maxim
+  - Maybach
   - Meier
   - Meinkampf
   - Mengele
@@ -554,6 +556,7 @@ maleLast:
   - Schwagmeister
   - Schwammerl
   - Schwarz
+  - Schwarzchild
   - Schwarzenegger
   - Schwarzwald
   - Schweinenkopf
@@ -668,4 +671,5 @@ maleLast:
   - Zharkov
   - Zimmer
   - Zimmermann
+  - Zoidberg
   - Zumwalt

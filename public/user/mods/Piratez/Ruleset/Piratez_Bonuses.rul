@@ -441,36 +441,6 @@ soldierBonuses:
   - name: STR_MEDAL_BASE_DEFENSE_10
     stats:
       health: 10
-  - name: STR_MEDAL_PURPLE_HEART_1
-    stats:
-      health: 1
-  - name: STR_MEDAL_PURPLE_HEART_2
-    stats:
-      health: 2
-  - name: STR_MEDAL_PURPLE_HEART_3
-    stats:
-      health: 3
-  - name: STR_MEDAL_PURPLE_HEART_4
-    stats:
-      health: 4
-  - name: STR_MEDAL_PURPLE_HEART_5
-    stats:
-      health: 5
-  - name: STR_MEDAL_PURPLE_HEART_6
-    stats:
-      health: 6
-  - name: STR_MEDAL_PURPLE_HEART_7
-    stats:
-      health: 7
-  - name: STR_MEDAL_PURPLE_HEART_8
-    stats:
-      health: 8
-  - name: STR_MEDAL_PURPLE_HEART_9
-    stats:
-      health: 9
-  - name: STR_MEDAL_PURPLE_HEART_10
-    stats:
-      health: 10
   - name: STR_MEDAL_ALIEN_BASE_ASSAULT_1
     stats:
       tu: 1
@@ -1300,47 +1270,22 @@ soldierBonuses:
   - name: STR_MEDAL_SPECIALSTUN_2
     stats:
       stamina: 1
-  - name: STR_MEDAL_SPECIALSTUN_3
-    stats:
-      stamina: 1
-    recovery:
-      energy:
-        flatOne: 1
   - name: STR_MEDAL_SPECIALSTUN_4
     stats:
       stamina: 2
       bravery: 10
-    recovery:
-      energy:
-        flatOne: 1
   - name: STR_MEDAL_SPECIALSTUN_6
     stats:
       stamina: 3
       bravery: 10
-    recovery:
-      energy:
-        flatOne: 2
   - name: STR_MEDAL_SPECIALSTUN_8
     stats:
       stamina: 4
       bravery: 20
-    recovery:
-      energy:
-        flatOne: 2
-  - name: STR_MEDAL_SPECIALSTUN_9
-    stats:
-      stamina: 4
-      bravery: 20
-    recovery:
-      energy:
-        flatOne: 3
   - name: STR_MEDAL_SPECIALSTUN_10
     stats:
       stamina: 5
       bravery: 20
-    recovery:
-      energy:
-        flatOne: 3
   - name: STR_MEDAL_IDOL_1
     stats:
       mana: 1
@@ -1583,6 +1528,46 @@ soldierBonuses:
       mana: -10
       reactions: 3
       bravery: 10
+  - name: STR_MEDAL_PURPLE_HEART_1
+    stats:
+      health: 1
+      mana: -1
+  - name: STR_MEDAL_PURPLE_HEART_2
+    stats:
+      health: 2
+      mana: -2
+  - name: STR_MEDAL_PURPLE_HEART_3
+    stats:
+      health: 3
+      mana: -3
+  - name: STR_MEDAL_PURPLE_HEART_4
+    stats:
+      health: 4
+      mana: -4
+  - name: STR_MEDAL_PURPLE_HEART_5
+    stats:
+      health: 5
+      mana: -5
+  - name: STR_MEDAL_PURPLE_HEART_6
+    stats:
+      health: 6
+      mana: -6
+  - name: STR_MEDAL_PURPLE_HEART_7
+    stats:
+      health: 7
+      mana: -7
+  - name: STR_MEDAL_PURPLE_HEART_8
+    stats:
+      health: 8
+      mana: -8
+  - name: STR_MEDAL_PURPLE_HEART_9
+    stats:
+      health: 9
+      mana: -9
+  - name: STR_MEDAL_PURPLE_HEART_10
+    stats:
+      health: 10
+      mana: -10
   - name: STR_MEDAL_CRIMSON_HEART_1
     stats:
       mana: -1
@@ -1638,6 +1623,15 @@ soldierBonuses:
     recovery:
       stun:
         flatOne: 3
+  - name: STR_MEDAL_FRIENDLYFIRE_4
+    stats:
+      bravery: -10
+  - name: STR_MEDAL_FRIENDLYFIRE_7
+    stats:
+      bravery: -20
+  - name: STR_MEDAL_FRIENDLYFIRE_10
+    stats:
+      bravery: -30
   - name: STR_MEDAL_LONESURVIVOR_1
     stats:
       tu: 1
@@ -2124,6 +2118,7 @@ soldierBonuses:
     recovery:
       morale:
         flatOne: 1
+    stats:
       health: -1
       mana: 1
   - name: STR_MEDAL_PROXYKILL_2
@@ -2137,7 +2132,7 @@ soldierBonuses:
     recovery:
       morale:
         flatOne: 2
-      stats:
+    stats:
       health: -3
       mana: 3
   - name: STR_MEDAL_PROXYKILL_4

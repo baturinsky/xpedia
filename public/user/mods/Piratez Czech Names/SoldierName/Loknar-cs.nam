@@ -1,0 +1,409 @@
+lookWeights:
+  - 25
+  - 25
+  - 25
+  - 25
+maleFirst: &FIRST_NAMES
+  - Adria
+  - Aiko
+  - Aiko
+  - Akako
+  - Akane
+  - Akemi
+  - Aleks
+  - Alice
+  - Amaya
+  - Amelia
+  - Ana
+  - Anda
+  - Anžela
+  - Aoi
+  - Arisu
+  - Arkána
+  - Asuka
+  - Ayaka
+  - Azula
+  - Azura
+  - Barby
+  - Bela
+  - Berta
+  - Bet
+  - Cuju
+  - Cukiko
+  - Céres
+  - Démona
+  - Džil
+  - Džina
+  - Džina
+  - Ecuko
+  - Emi
+  - Eriko
+  - Ester
+  - Evelýna
+  - Faustie
+  - Fejt
+  - Fumiko
+  - Gab
+  - Gerda
+  - Hana
+  - Hanako
+  - Haruhi
+  - Helga
+  - Hilda
+  - Hirsako
+  - Hitomi
+  - Homura
+  - Hotaru
+  - Hoši
+  - Hošiko
+  - Iria
+  - Iris
+  - Izabela
+  - Izumi
+  - Jasu
+  - Jes
+  - Joko
+  - Jone
+  - Joukou
+  - Joši
+  - Jošiko
+  - Jui
+  - Juki
+  - Jukiko
+  - Julie
+  - Junko
+  - Juri
+  - Juriko
+  - Juuka
+  - Kacumi
+  - Kaeda
+  - Kaede
+  - Kaja
+  - Kameko
+  - Kami
+  - Kamlyn
+  - Kana
+  - Kaori
+  - Kara
+  - Karla
+  - Karna
+  - Kasumi
+  - Kat
+  - Katana
+  - Kej
+  - Kejko
+  - Kely
+  - Kes
+  - Kijo
+  - Kijoko
+  - Kiku
+  - Kimi
+  - Kimiko
+  - Kin
+  - Kioko
+  - Kjouko
+  - Klio
+  - Konata
+  - Kora
+  - Kora
+  - Kuvira
+  - Kyra
+  - Lajla
+  - Lejko
+  - Lily
+  - Lina
+  - Linda
+  - Ling-Ling
+  - Lucie
+  - Luka
+  - Lyra
+  - Líza
+  - Macuko
+  - Maeko
+  - Maemi
+  - Maj
+  - Maja
+  - Maju
+  - Majumi
+  - Malis
+  - Mami
+  - Mami
+  - Manami
+  - Mariko
+  - Mariso
+  - Mačiko
+  - Medea
+  - Megumi
+  - Melanie
+  - Melisa
+  - Mia
+  - Micuki
+  - Micuko
+  - Midori
+  - Mieko
+  - Mihotavé
+  - Mija
+  - Mijako
+  - Miju
+  - Mikasa
+  - Miki
+  - Miku
+  - Mina
+  - Minako
+  - Misaki
+  - Miu
+  - Mizuki
+  - Mičí
+  - Moe
+  - Moly
+  - Momoko
+  - Moriko
+  - Morticie
+  - Márdž
+  - Nacuki
+  - Nacuko
+  - Nacumi
+  - Nami
+  - Nana
+  - Nanako
+  - Nanami
+  - Nanaši
+  - Naoko
+  - Naoko
+  - Naomi
+  - Nariko
+  - Nastěnka
+  - Nel
+  - Niki
+  - Nikki
+  - Njoko
+  - Noriko
+  - Oki
+  - Orino
+  - Otsuju
+  - Peg
+  - Pety
+  - Priscila
+  - Ran
+  - Rej
+  - Ren
+  - Rin
+  - Rina
+  - Rukia
+  - Runa
+  - Ríz
+  - Sacuki
+  - Sajka
+  - Saki
+  - Sakura
+  - Sango
+  - Satu
+  - Sači
+  - Selena
+  - Setsuko
+  - Seyi
+  - Sora
+  - Suki
+  - Sumi
+  - Sumiko
+  - Suzu
+  - Suzume
+  - Tadži
+  - Taja
+  - Taka
+  - Takako
+  - Takehiko
+  - Tamae
+  - Tami
+  - Tamika
+  - Tamiko
+  - Tanak
+  - Taree
+  - Taura
+  - Teiko
+  - Tiana
+  - Tifa
+  - Toja
+  - Tomiko
+  - Tomoko
+  - Tomomi
+  - Toši
+  - Trůda
+  - Vanesa
+  - Venom
+  - Viki
+  - Vita
+  - Víra
+  - Wendy
+  - Xis
+  - Zava
+  - Zouí
+  - Čihiro
+  - Čijo
+  - Čika
+  - Činatcu
+  - Čuko
+  - Šika
+  - Šina
+  - Šindžu
+  - Šino
+  - Šiori
+  - Šizuka
+  - Šizuko
+femaleFirst: *FIRST_NAMES
+maleLast:
+  - Bez tváře
+  - Bezocasá kometa
+  - Bezprsá
+  - Bílá
+  - Běsnící obloha
+  - Běsnící fena
+  - Bůmosauří zhouba
+  - Chlupaté vejce
+  - Chybějící zub
+  - Divoká řeka
+  - Divoké semeno
+  - Divoký potok
+  - Divoký pták
+  - Dotek oblak
+  - Déšť ve tváři
+  - Děravé křídlo
+  - Důmyslná matka
+  - Hašašínka
+  - Hejno much
+  - Horká noc
+  - Horská lvice
+  - Hárající fena
+  - Jedna kráva
+  - Klidná řeka
+  - Klidný potok
+  - Kolík v řiti
+  - Kouřová clona
+  - Kouřová poletucha
+  - Krvavá ocel
+  - Krvavý nůž
+  - Krásný květ
+  - Kráva nebeská
+  - Kráva v říji
+  - Kyselinový déšť
+  - Křičící les
+  - Ledová krev
+  - Létající fena
+  - Malá boule
+  - Malá noha
+  - Malá vlčice
+  - Malý strom
+  - Meč v pochvě
+  - Mihotavé křídlo
+  - Modrá aura
+  - Modrá halena
+  - Modrá smrt
+  - Mokrá díra
+  - Mokrá hlína
+  - Mokrá jeskyně
+  - Mokrá zem
+  - Mokrá štěrbina
+  - Močí v houští
+  - Míchané vejce
+  - Nachová tvář
+  - Napuchlý ret
+  - Naštvaná vosa
+  - Ničitelka kamene
+  - Noční stín
+  - Odhalená bradavka
+  - Odhalené prso
+  - Ohavá tvář
+  - Ohnivý kámen
+  - Okřídlená smrt
+  - Olezlá herka
+  - Osamělá labuť
+  - Otrávená dýka
+  - Ožraný list
+  - Padající hvězda
+  - Pajdavá fena
+  - Pajdavá fena
+  - Pevné nervy
+  - Pilná včela
+  - Pláče v koutě
+  - Plná huba
+  - Plná semene
+  - Plodná zem
+  - Poletucha
+  - Prd ve vzduchu
+  - Prdí v trávě
+  - Prokouslá bradavka
+  - Pták v hubě
+  - Písečné pláně
+  - Překrásný květ
+  - Přeražená sanice
+  - Přitažlivá samice
+  - Půlnoční Měsíc
+  - Rudý oblak
+  - Rychlá noha
+  - Rychlá hlava
+  - Sedí v křoví
+  - Sedící kráva
+  - Semeno na zádech
+  - Semeno v tváři
+  - Semeno ve vlasech
+  - Slepá
+  - Smrdutá fena
+  - Smrduté vejce
+  - Smrtící
+  - Splašená klisna
+  - Stojí s úěstí
+  - Studená láva
+  - Studený déšť
+  - Suchá díra
+  - Suchá jeskyně
+  - Suchá zem
+  - Suchá štěrbina
+  - Suchý žalud
+  - Temné ostří
+  - Tlustá vyhublice
+  - Trhačka střev
+  - Tuhý stonek
+  - Tupý nůž
+  - Tvrdá bradavka
+  - Třpitivý kámen
+  - Unavený pták
+  - Uschlá květina
+  - Uschlý list
+  - Velká huba
+  - Vlhká díra
+  - Vlhká jeskyně
+  - Vlhká zem
+  - Vlhká štěrbina
+  - Vlhké rty
+  - Vlhký žalud
+  - Vyhublá tlouštice
+  - Vyražený zub
+  - Vystrašená laň
+  - Vzrostlý strom
+  - Vánek v lese
+  - Vítr ve vlasech
+  - Zapadlé Slunce
+  - Zaplněné otvory
+  - Zaseklá ručnice
+  - Zelená
+  - Zelený list
+  - Zjizvená tvář
+  - Zkroucené ruce
+  - Zlomené křídlo
+  - Zrazující
+  - Útlý pas
+  - Černá
+  - Černá jestřábice
+  - Černá laň
+  - Černá pánev
+  - Černá ruka
+  - Černá smrt
+  - Červená
+  - Číhající orlice
+  - Řev hvězd
+  - Široký pas
+  - Šílená klisna
+  - Životodárná díra
+  - Životodárná jeskyně
+  - Životodárné semeno
+  - Životodárný pramen

@@ -4,6 +4,7 @@ cutscenes:
     videos:
       - UFOINTRO/UFOINT.FLI
   - type: winGame
+    winGame: true
     slideshow:
       transitionSeconds: 30
       musicId: GMWIN
@@ -34,6 +35,7 @@ cutscenes:
           captionPos: [5, 158]
           captionColor: 249
   - type: loseGame
+    loseGame: true
     slideshow:
       transitionSeconds: 30
       musicId: GMLOSE

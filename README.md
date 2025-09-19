@@ -1,4 +1,7 @@
-#WARNING: OUTDATED! USE github.com/baturinsky/xpedia2#
+# WARNING: OUTDATED! USE github.com/baturinsky/xpedia2 #
+# WARNING: OUTDATED! USE github.com/baturinsky/xpedia2 #
+# WARNING: OUTDATED! USE github.com/baturinsky/xpedia2 #
+
 
 # xpedia
 
